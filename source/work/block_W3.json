@@ -1,0 +1,351 @@
+{
+ "block": "W3",
+ "lines": [
+  2657,
+  3380
+ ],
+ "units": [
+  {
+   "id": "R31",
+   "ref": "R-3.1",
+   "nq": 102,
+   "depth": 1,
+   "anchors": [
+    "R31"
+   ],
+   "title_fr": "R-3.1)",
+   "questions": [
+    {
+     "num": "30002",
+     "question": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES G ET T ?",
+     "reponse": "Golf et Tango"
+    },
+    {
+     "num": "30473",
+     "question": "SELON LA TABLE INTERNATIONALE D'EPELLATION PHONETIQUE, COMMENT EPELLE-T-ON  FD6JZK",
+     "reponse": "Foxtrot Delta six Juliett Zoulou Kilo "
+    },
+    {
+     "num": "34779",
+     "question": "EPELLATION DE FT5TIO",
+     "reponse": "Foxtrot Tango 5 Tango India Oscar "
+    },
+    {
+     "num": "50010",
+     "question": "EPELLATION CORRECTE DE LA LETTRE K ?",
+     "reponse": "Kilo"
+    }
+   ]
+  },
+  {
+   "id": "R32",
+   "ref": "R-3.2",
+   "nq": 4,
+   "depth": 3,
+   "anchors": [
+    "R32d"
+   ],
+   "title_fr": "Abréviations en code Q (annexe I de l’arrêté du",
+   "questions": [
+    {
+     "num": "34705",
+     "question": "QUE SIGNIFIE L'ABREVIATION \" PSE \" ?",
+     "reponse": "s’il vous plaît "
+    },
+    {
+     "num": "35061",
+     "question": "* QUE SIGNIFIE L'ABREVIATION \" PSE \" ?",
+     "reponse": "s’il vous plaît"
+    },
+    {
+     "num": "36101",
+     "question": "QUE SIGNIFIE LES LETTRES RX ?",
+     "reponse": "Receiver"
+    },
+    {
+     "num": "36201",
+     "question": "QUE SIGNIFIE LES LETTRES TX ?",
+     "reponse": "Transceiver"
+    }
+   ]
+  },
+  {
+   "id": "R32a",
+   "ref": "R-3.2.a",
+   "nq": 125,
+   "depth": 1,
+   "anchors": [
+    "R32a"
+   ],
+   "title_fr": "Abréviations en code Q (annexe I de l’arrêté du",
+   "questions": [
+    {
+     "num": "30082",
+     "question": "QUEL EST LE CODE POUR :\n\"VOUS ETES APPELE PAR HB9XYZ ?\"",
+     "reponse": "QRZ HB9XYZ"
+    },
+    {
+     "num": "33199",
+     "question": "QUEL EST LE CODE POUR : \"QRT\"",
+     "reponse": "Dois-je cesser la transmission ?"
+    },
+    {
+     "num": "70005",
+     "question": "QUEL EST LE CODE POUR QRH.",
+     "reponse": "Ma fréquence varie t-elle ?"
+    },
+    {
+     "num": "70036",
+     "question": "QUELLE EST L'ABREVIATION DE CE CODE Q ?\n\nPAR QUI SUIS-JE APPELE ?",
+     "reponse": "QRZ"
+    }
+   ]
+  },
+  {
+   "id": "R33",
+   "ref": "R-3.3",
+   "nq": 7,
+   "depth": 3,
+   "anchors": [
+    "R33a",
+    "R33b"
+   ],
+   "title_fr": "R-3.3)",
+   "questions": [
+    {
+     "num": "30031",
+     "question": "DE QUOI DOIT S'ASSURER UN AMATEUR AVANT D'EMETTRE ?",
+     "reponse": "Qu'il ne brouille pas une émission en cours"
+    },
+    {
+     "num": "30091",
+     "question": "QUAND DEVEZ-VOUS TRANSMETTRE VOTRE INDICATIF ?",
+     "reponse": "Au moins au début et à la fin de chaque transmission"
+    },
+    {
+     "num": "30380",
+     "question": "* UN RADIOAMATEUR DE CLASSE 3 PEUT UTILISER UN SATELLITE EN MONTEE SUR 144 MHZ ET EN DESCENTE SUR 29 MHZ ?",
+     "reponse": "Vrai"
+    },
+    {
+     "num": "31027",
+     "question": "QUE DOIT FAIRE UN RADIOAMATEUR QUI VEUT TRANSMETTRE POUR EVITER LES BROUILLAGES ?",
+     "reponse": "Vérifier que la fréquence qu'il va utiliser est libre"
+    },
+    {
+     "num": "32528",
+     "question": "* QUELLE EST L'AFFIRMATION FAUSSE ?\n\nA : ON DE DOIT PAS UTILISER UNE FREQUENCE EN PERMANENCE\nB : ON DOIT EFFECTUER SES TRANSMISSIONS EN LANGAGE CLAIR\nC : ON S'ASSURERA, AVANT D'EMETTRE, QU'ON NE BROUILLERA PAS DES EMISSION EN COURS\nD : LE TRAFIC \" CROSS BAND \" N'EST PAS AUTORISE AUX OPERATEURS DE CLASSE 3\n",
+     "reponse": "D"
+    },
+    {
+     "num": "34681",
+     "question": "L'AGENCE NATIONALE DES FREQUENCES PEUT-ELLE DEMANDER DES INFORMATIONS CONCERNANT LES LOGICIELS ET PROTOCOLES UTILISES PAR UN RADIOAMATEUR ?",
+     "reponse": "Oui dans le cadre de l'instruction des cas de brouillage "
+    },
+    {
+     "num": "35053",
+     "question": "LORS D'UNE EMISSION, IL EST OBLIGATOIRE DE DONNER SON INDICATIF :",
+     "reponse": "au moins au début et à la fin de chaque transmission "
+    }
+   ]
+  },
+  {
+   "id": "R34",
+   "ref": "R-3.4",
+   "nq": 15,
+   "depth": 2,
+   "anchors": [
+    "R34",
+    "R34a",
+    "R34b"
+   ],
+   "title_fr": "R-3.4)",
+   "questions": [
+    {
+     "num": "30078",
+     "question": "QUEL EST LE SUJET DE CONVERSATIONS AUTORISEES LORS DE LIAISONS RADIO ?",
+     "reponse": "Réglementation radioamateur"
+    },
+    {
+     "num": "30199",
+     "question": "AVEZ-VOUS LE DROIT DE RECEVOIR D'UN RADIOAMATEUR UN MESSAGE RELEVANT DE LA VIE PRIVEE D'UN TIERS POUR LE RETRANSMETTRE A UN AUTRE RADIOAMATEUR ?",
+     "reponse": "Non, des informations relevant de la vie privée ne doivent pas être retransmises"
+    },
+    {
+     "num": "30420",
+     "question": "A QUOI SE RAPPORTE  L'ARTICLE 25.2A DU REGLEMENT RR PUBLIE APRES LA CMR 2003 ?",
+     "reponse": "Le codage des communications radioamateurs est autorisé uniquement pour les stations de commandes des satellites"
+    },
+    {
+     "num": "30762",
+     "question": "POUVEZ-VOUS ACCEPTER DE RETRANSMETTRE UN MESSAGE COMMERCIAL ?",
+     "reponse": "Non, en aucun cas "
+    }
+   ]
+  },
+  {
+   "id": "R41",
+   "ref": "R-4.1",
+   "nq": 11,
+   "depth": 2,
+   "anchors": [
+    "R41"
+   ],
+   "title_fr": "R-4.1)",
+   "questions": [
+    {
+     "num": "30010",
+     "question": "* RENSEIGNEMENT OBLIGATOIRE DANS LE JOURNAL DE BORD ?",
+     "reponse": "La date de la communication"
+    },
+    {
+     "num": "30079",
+     "question": "QUEL EST LE RENSEIGNEMENT QUI N'EST PAS OBLIGATOIRE DANS LE JOURNAL DE BORD ?",
+     "reponse": "Localisation du relais"
+    },
+    {
+     "num": "30391",
+     "question": "* FAUT-IL TENIR UN JOURNAL DE BORD ?",
+     "reponse": "Oui dans tous les cas"
+    },
+    {
+     "num": "30765",
+     "question": "JOURNAL DE BORD, MENTIONS OBLIGATOIRES ?",
+     "reponse": "Heure du contact"
+    }
+   ]
+  },
+  {
+   "id": "R42",
+   "ref": "R-4.2",
+   "nq": 15,
+   "depth": 2,
+   "anchors": [
+    "R42b",
+    "R42c",
+    "R42d",
+    "R42f"
+   ],
+   "title_fr": "a R-4.2)",
+   "questions": [
+    {
+     "num": "30369",
+     "question": "* LA CONNEXION D'UNE INSTALLATION DE RADIOAMATEUR SUR LE RESEAU INTERNET EST-ELLE AUTORISEE ?",
+     "reponse": "Non, c'est interdit"
+    },
+    {
+     "num": "30504",
+     "question": "* PAR QUEL MOYEN PEUT-ON VERIFIER QU'UN APPAREIL EST CONFORME A LA REGLEMENTATION EN VIGUEUR ?",
+     "reponse": "en vérifiant que le constructeur du matériel a fait apposer un logo CE"
+    },
+    {
+     "num": "30918",
+     "question": "* UN RADIOAMATEUR DE CLASSE 3 DE FRANCE METROPOLITAINE A-T-IL LE DROIT D'EMETTRE EN MARTINIQUE ?",
+     "reponse": "Oui"
+    },
+    {
+     "num": "34720",
+     "question": "PEUT-ON EXPLOITER UNE STATION DE RADIOAMATEUR DANS UN AVION DE LIGNE ?",
+     "reponse": "Non"
+    }
+   ]
+  },
+  {
+   "id": "R43",
+   "ref": "R-4.3",
+   "nq": 9,
+   "depth": 2,
+   "anchors": [
+    "R43a",
+    "R43b"
+   ],
+   "title_fr": "",
+   "questions": [
+    {
+     "num": "30699",
+     "question": "UN RADIOAMATEUR A CONSTRUIT UN RELAIS.\nQUI PEUT L'UTILISER ?",
+     "reponse": "Tous les radioamateurs licenciés"
+    },
+    {
+     "num": "32526",
+     "question": "POUR ETRE RESPONSABLE D'UN RADIO-CLUB, IL FAUT :",
+     "reponse": "être titulaire d'un certificat d'opérateur autre que celui de classe 3"
+    },
+    {
+     "num": "33020",
+     "question": "* UN OPERATEUR DE CLASSE 3 PEUT-IL EMETTRE SUR LA FREQUENCE 14,115 MHZ A PARTIR D'UN RADIO-CLUB ?",
+     "reponse": "Non"
+    },
+    {
+     "num": "34700",
+     "question": "UN RADIOAMATEUR A-T-IL LE DROIT D'IMPLANTER UNE BALISE ?",
+     "reponse": "oui"
+    }
+   ]
+  },
+  {
+   "id": "R42a",
+   "ref": "R-4.2.a",
+   "nq": 40,
+   "depth": 1,
+   "anchors": [
+    "R42a"
+   ],
+   "title_fr": "a R-4.2)",
+   "questions": [
+    {
+     "num": "30020",
+     "question": "UNE STATION RADIOAMATEUR INSTALLEE A BORD D'UNE PENICHE EST ASSIMILEE A ?",
+     "reponse": "Une station Mobile"
+    },
+    {
+     "num": "30288",
+     "question": "* UN RADIOAMATEUR FRANCAIS QUI TRAFIQUE EN FRANCE ANNONCE L'INDICATIF SUIVANT :\nP/F5XYZ\nQUE SIGNIFIE CET INDICATIF ?",
+     "reponse": "Cela ne veut rien dire"
+    },
+    {
+     "num": "32506",
+     "question": "APRES L'OBTENTION DE VOTRE INDICATIF, TOUTE MODIFICATION D'ADRESSE DOIT ETRE SIGNALEE",
+     "reponse": "A l'ANFR"
+    },
+    {
+     "num": "34968",
+     "question": "SI J'UTILISE LA STATION FIXE D'UN AUTRE RADIOAMATEUR, QUEL SUFFIXE DOIS-JE UTILISER ?",
+     "reponse": "/P"
+    }
+   ]
+  },
+  {
+   "id": "R42e",
+   "ref": "R-4.2.e",
+   "nq": 12,
+   "depth": 2,
+   "anchors": [
+    "R42e"
+   ],
+   "title_fr": "a R-4.2)",
+   "questions": [
+    {
+     "num": "30309",
+     "question": "AVANT D'EMETTRE, UN RADIOAMATEUR NE DOIT PAS DECLARER ?",
+     "reponse": "le type d'antennes utilisées"
+    },
+    {
+     "num": "30312",
+     "question": "* VOUS POSSEDEZ UNE STATION FIXE AVEC UNE PUISSANCE (PAR) DE 100 WATTS\nCOMBIEN AVEZ-VOUS DE TEMPS POUR LA DECLARER A L'ADMINISTRATION ?",
+     "reponse": "2 mois"
+    },
+    {
+     "num": "34743",
+     "question": "VOUS CHANGEZ LA PUISSANCE DE VOTRE EMETTEUR, A QUI DEVEZ-VOUS FAIRE LA DECLARATION ?",
+     "reponse": "l'ANFR"
+    },
+    {
+     "num": "34922",
+     "question": "A PARTIR DE QUELLE PUISSANCE FAUT-IL DECLARER UNE STATION FIXE A L'ADMINISTRATION ?",
+     "reponse": "5 W"
+    }
+   ]
+  }
+ ]
+}

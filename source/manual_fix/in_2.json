@@ -1,0 +1,62 @@
+[
+ {
+  "sec": "§R-3.2 其余的缩写：RST 报告、code Z 与 Morse 缩写 · Abréviations en code Q (annexe I de l'arrêté du 21",
+  "anchor": "R32d",
+  "text": "⚠️ 待核实：原文说考试会考其中「3 个带下划线的缩写」，但 PDF 转文本后下划线信息丢失，无法确认是哪 3 个",
+  "id": "P11"
+ },
+ {
+  "sec": "§R-3.2 其余的缩写：RST 报告、code Z 与 Morse 缩写 · Abréviations en code Q (annexe I de l'arrêté du 21",
+  "anchor": "R32d",
+  "text": "⚠️ 待核实：原文 §R-3.2.d 把 TX 注为 « Emetteur »（发射机），而考题答案给的是 « Transceiver »（收发信机），两者不一致，应以题库答案为准",
+  "id": "P12"
+ },
+ {
+  "sec": "§R-3.3 通联的实施：呼号发送时机、避免干扰与相关义务 · Déroulement d'un contact #R33 #R33a #R33b",
+  "anchor": "R33b",
+  "text": "⚠️ 待核实：本块原文 §R-3.3 讲的是「通联的实施」，并未涉及考试的科目、时长、计分与及格线",
+  "id": "P13"
+ },
+ {
+  "sec": "§R-4.6.c 特殊呼号（indicatifs spéciaux）：TM、TK、TO、TX、FX · R-4.6.c) Les indicatifs spéciaux #R46c",
+  "anchor": "R46c",
+  "text": "⚠️ 待核实：原文对特殊呼号后缀的表述自相矛盾——先写「2 至 7 个字符」，随即写「1 至 3 个数字 + 4 个字符」（即至少 5 个字符），而给出的例子 TM9A 只有 2 个字符",
+  "id": "P14"
+ },
+ {
+  "sec": "§R-4.7.a CEPT 短期停留：呼号的组成与 /P、/M 后缀 · R-4.7.a) Utilisation de l'autorisation d'émettre dans",
+  "anchor": "R47a",
+  "text": "⚠️ 待核实：真题问「CEPT 外国操作员在 28,750 MHz 上获准的功率」，答案为 250 W，但本段原文并未给出任何功率数值，功率限制不在本节内",
+  "id": "P15"
+ },
+ {
+  "sec": "§R-4.7.b CEPT 成员国及其呼号前缀总表（国别识别） · R-4.7.b) Liste des pays membres de la CEPT et de leurs p",
+  "anchor": "R47b",
+  "text": "⚠️ 待核实：原文称「CEPT 共有 46 个成员国」，但主表实际列出 45 个国家/地区",
+  "id": "P16"
+ },
+ {
+  "sec": "§R-5.2.b 波段（gammes d'onde）划分与频率/波长换算 · Les gammes d'onde #R52b",
+  "anchor": "R52b",
+  "text": "⚠️ 待核实：原文表格把 VLF（万米波）的范围写作「超过 10 km」，没有给出上限",
+  "id": "P17"
+ },
+ {
+  "sec": "§R-5.2.h 视在辐射功率 PAR 与等效全向辐射功率 PIRE · Puissance apparente rayonnée (PAR) et puissance isotr",
+  "anchor": "R52h",
+  "text": "⚠️ 待核实：原文只分别定义了 PAR（参考半波振子）与 PIRE（参考各向同性天线），并未写出二者相差 2,14 dB 这一换算关系",
+  "id": "P18"
+ },
+ {
+  "sec": "§R-5.4 干扰与电子设备的防护（电磁兼容 CEM） · Brouillage et protection des équipements électroniques (CEM)",
+  "anchor": "R54d",
+  "text": "⚠️ 待核实：cours_W4b 的 § R-5.4 只讲现象与措施，没有讲测量仪器",
+  "id": "P19"
+ },
+ {
+  "sec": "§0.1 方程的变换：一个方程就是一个等式 · Transformation d'équation : une équation est une expression mathém",
+  "anchor": "T001",
+  "text": "⚠️ 待核实：原文 §0.1 的「方程变换一览表」以及本段末尾用来说明变换的「汤姆孙定律（loi de Thomson）」示例，在 PDF 中以图形／公式图形式排版，转成文本后其具体内容未保留",
+  "id": "P20"
+ }
+]

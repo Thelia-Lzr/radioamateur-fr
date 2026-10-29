@@ -1,0 +1,235 @@
+### R-1.3) Conditions techniques .
+Avant la décision 12-1241, les matériels suivants étaient obligatoires: indicateur de puissance, indicateur du rapport d’onde stationnaire, charge non rayonnante, filtre d’alimentation. La puissance des émetteurs BLU devait se mesurer avec un générateur 2 tons. La précision du repérage de la fréquence émise était définie (+/-1 kHz jusqu’à 30 MHz ou +/- 1.10 -4 au-delà), de même que la stabilité des oscillateurs (5.10 -5 pendant 10 minutes après 30 minutes de chauffe) et la bande maximum occupée en FM (6 kHz jusqu’à 30 MHz ou 15 kHz au-delà).
+a Depuis la décision ARCEP 12-1241, le seul matériel obligatoire reste l’ indicateur de puissance (indicateur généralement intégré aux transceivers modernes) (annexe 1 à la décision 12-1241).
+b La largeur de bande occupée (ou bande passante) doit rester dans la bande attribuée et ne doit pas dépasser:
+- 6 kHz pour les fréquences inférieures à 28 MHz,
+- 12 kHz entre 28 et 144 MHz (donc sur les bandes des 28 et 50 MHz)
+- 20 kHz entre 144 et 225 MHz (annexe 3 à la décision 12-1241),
+- aucune limite n’est fixée au-delà de 225 MHz. Toutefois, « en choisissant la classe d'émission, tous les efforts doivent être faits pour réduire le plus possible la largeur de bande occupée, compte tenu des considérations techniques et d'exploitation concernant le service à assurer » (§3 du préambule de la décision 12-1241 rappelant la disposition S15.9 du RR).
+La largeur de bande transmise peut être codée par un préfixe de la classe d’émission (voir §R-1.2a )
+c Avant 2012, le niveau relatif des rayonnements non essentiels était d'au moins -50 dB pour une puissance inférieure ou égale à 25 W et -60 dB au-delà. Depuis 2012, le niveau de puissance maximal toléré pour les rayonnements non essentiels doit être conforme à l’appendice 3 du RR (§4 du préambule de la décision 12-1241). Ce niveau, défini par rapport à la puissance de l’émission fondamentale (dBc), ne devra pas dépasser 43 dB + 10 log[P] où P est la puissance de l’émetteur (PEP en AM ou en BLU) et où 10 log[P] est la puissance de l’émetteur exprimée en dBW (voir §R-5.1 pour les définitions des décibels (dB, dBc, dBW) et les calculs).
+Le RR limite le niveau des rayonnements non essentiels au moins contraignant entre la formule générale et:
+– 50 dBc pour les fréquences inférieures à 30 MHz (cette limite ne s’applique qu’au service amateur)
+–70 dBc pour les fréquences supérieures à 30 MHz. La puissance d’émission étant limitée à 120 W sur ces fréquences, soit environ 21 dBW, l’atténuation à rechercher est au maximum de – 64 dBc (43 + 21).
+Les rayonnements non essentiels sont les émissions non désirées qui ne sont pas dans le domaine des émissions hors bande (rayonnements adjacents à la bande passante nécessaire pour l’émission, communément appelés « moustaches » ou « splatters », à ne pas confondre avec des émissions qui ne se situent pas dans les bandes de fréquences attribuées au service amateur). La frontière entre les rayonnements non essentiels et les émissions hors bande est définie dans l’appendice 3 du RR: 2,5 fois la bande passante nécessaire (BP) de part et d’autre de la fréquence centrale de l’émission et pas moins de:
+10 kHz pour les fréquences < à 30 MHz
+62,5 kHz de 30 MHz à 1 GHz
+250 kHz de 1 à 10 GHz
+750 kHz de 10 à 15 GHz
+1,25 MHz de 15 à 26 GHz
+2,5MHz au-delà de 26 GHz
+En applicant la formule générale ( 43 dB + 10 log[P] ) pour les fréquences supérieures à 30 MHz, le niveau des rayonnements non essentiels ne peut jamais excéder -43 dBW (soit -13 dBm ou encore 50 µW ).
+d La décision ARCEP 12-1241 ne fait pas de référence explicite aux normes européennes CISPR 11 et EN 301 783. Pour autant, nos appareils sont concernés par ces deux normes puisqu’elles définissent les « exigences essentielles », voir §R-4.2d. Les perturbations réinjectées dans le réseau de distribution électrique sont limitées par la norme CISPR 11 (plus contraignante que l’ancienne EN 55011). Selon cette norme, les appareils radioamateurs sont du groupe 2 (matériel d’émission radioélectrique) et de classe B (usage domestique). Leurs perturbations réinjectées dans le réseau électrique ne devront pas dépasser:
+- une valeur décroissant linéairement avec la fréquence de 2 mV à 0,15 MHz jusqu’à 0,63 mV à 0,5 MHz
+- 0,63 mV (soit 56 dBµV) entre 0,5 et 5 MHz (dBµV signifie « décibel par rapport à 1 µV », voir §R-5.1b )
+- 1 mV (soit 60 dBµV) entre 5 et 30 MHz
+(rappel des valeurs de l’ancienne norme EN 55011: 2 mV de 0,15 à 0,5 MHz; 1 mV de 0,5 à 30 MHz)
+e La norme EN 301 783 fixe les caractéristiques techniques à respecter pour les équipements radioamateurs (en émission et en réception) mis sur le marché. La norme reprend les valeurs limites édictées par l’appendice 3 du RR et la méthode à utiliser pour les mesures est décrite. Les seuils d’immunité aux perturbations électromagnétiques (voir §R5-4a ) sont aussi précisés.
+2) FRÉQUENCES et PUISSANCES AUTORISÉES
+### R-2.1)
+Fréquences attribuées
+a Le tableau présenté à la page suivante est une synthèse de différents textes:
+- décision ARCEP 12-1241 modifiée par les décisions 13-1515 et 19-1412,
+- arrêté du 02/03/2021 fixant les conditions d’utilisation dans les COM où l’ARCEP n’est pas compétente,
+- arrêté pris par le Premier Ministre relatif au Tableau National de Répartition des Bandes de Fréquences (TNRBF), document publié par l’ANFR et disponible sur son site Internet.
+a Le RR (art. S5-2 à S5-9) découpe le globe terrestre en 3 régions: Région 1 = Europe, Afrique, Proche Orient et pays de l’ex-URSS; Région 2 = Amériques et Pacifique Nord; Région 3 = Reste du Monde (Asie sauf Proche Orient et ex-URSS, Océanie et Pacifique Sud). L’antarctique et l’arctique sont découpés dans le prolongement des méridiens séparant les zones. Certains territoires français sont en Région 2 ou 3 et les fréquences allouées ne sont pas les mêmes qu'en Métropole située en région 1. Les Départements et Régions d'Outre-Mer (DROM) situés en Région 2 sont la Guyane, la Martinique et la Guadeloupe. La Réunion et Mayotte sont en Région 1, comme la France continentale et la Corse ( voir §R-4.6a pour les régions où sont situés tous les territoires). L’Arcep n’est compétente qu’en France métropolitaine, dans les DROM et quelques COM (Collectivités d’Outre-Mer): St Pierre & Miquelon, St Barthélemy et St Martin, tous situés en région 2.
+On recense essentiellement des questions sur les bandes attribuées en région 1 et sur les « bandes satellite ». Les questions portent sur les limites de bandes, leur statut (lettre ou catégorie) et leur largeur. En revanche, peu de questions ont été recensées sur les bandes supérieures à 1300 MHz ou sur les bandes attribuées en région 2 et 3.
+Le service d’amateur (noté AMA dans le tableau d’affection des fréquences du RR) est toujours différencié du service d’amateur par satellite. Les bandes attribuées au service amateur par satellite sont aussi attribuées au service amateur avec le même statut (sauf bandes des 70, 13 et 9 cm: différenciation région 1 / région 2 et 3). Les liaisons bilatérales (notées AMS dans le RR) sont distinguées des liaisons unilatérales de la Terre vers l’Espace (notées AMT dans le RR et “ T>E ” dans le tableau ci-dessous) ou de l’Espace vers la Terre (notées AME dans le RR et “ E>T ” dans le tableau ci-dessous). Le trafic par satellite est autorisé sur toutes les bandes à partir du 40 m (sauf pour les bandes des 30 m, 6 m, 1,35 m et 2,4 mm) mais souvent pas sur la bande entière et parfois (bandes des 70, 23 et 5 cm) dans un sens seulement (E>T ou T>E).
+Attention à la présentation des nombres (ne pas confondre le point de séparation de milliers et la virgule décimale) et aux multiples utilisés (pièges fréquents): kHz (kilohertz), MHz (mégahertz, 1 MHz = 1000 kHz) ou GHz (gigahertz, 1 GHz = 1000 MHz). Une bande peut être désignée par une fréquence (« bande des 7 MHz ») ou une longueur d’onde («bande des 40 mètres »), voir au §R-5.2a pour la transformation de la longueur d’onde en fréquence et inversement.
+Les stations amateurs peuvent utiliser toutes les bandes. Mais les titulaires d’un certificat d’opérateur de classe 3 ne peuvent utiliser que la bande 144 – 146 MHz, même en région 2 ou 3 où la bande est plus large.
+Depuis 1997, l'administration n'impose plus de bandes de fréquences pour les classes d’émissions particulières, ce qui ne doit pas empêcher les stations de respecter les plans de bandes définis par l’IARU.
+L’attribution des fréquences de 9 kHz à 275 GHz entre les différents services est gérée par l’UIT. De 275 à 3.000 GHz, bande peu explorée couvrant le début des infrarouges lointains (IR C ), l’UIT ne fait que des recommandations pour protéger les travaux de recherche en mode passif (radioastronomie et recherche spatiale). L’UIT devrait préciser l’attribution d’une partie de ce spectre (jusqu’à 1.000 GHz) lors d’une future CMR. L’attribution des bandes au service amateur jusqu’à 10 GHz est issue de la conférence d’Atlantic City (mai à octobre 1947). Les bandes des 10, 18 et 24 MHz (dites « bandes WARC ») ont été attribuées lors de la CMR-1979 et la bande des 135 kHz lors de la CMR-1999. En région 1, la bande des 40 mètres a été étendue jusqu’à 7200 kHz par la CMR-2009. La décision 13-1515 a attribué la bande des 630 mètres aux opérateurs français avec une puissance limitée à 1 watt PIRE. La décision ARCEP 19-1412, publiée au JO du 13/02/20, autorise le trafic sur la bande des 60 mètres avec une puissance limitée à 15 watts PIRE.
+Depuis août 2022, l’annexe 2 du TNRBF ( non reprise dans le tableau ci-dessous car ne figurant pas au programme de l’examen ) prévoit une affectation des fréquences spécifique en temps de crise conformément à l'article L. 1111-2 du Code de la Défense (menaces sur une partie du territoire, un secteur de la vie nationale ou une fraction de la population): les services DEF (Défense) et INT (Intérieur) deviennent primaires s’ils sont secondaires et des bandes complémentaires leur sont attribuées en statut secondaire ou primaire.
+b Liste des 27 bandes attribuées au service amateur (voir statuts et commentaires ci-dessous)
+Bandes
+Région 1 (en MHz)
+Région 2 (en MHz)
+Région 3 (en MHz)
+Satellite (en MHz)
+LF
+2200m
+0,1357 - 0,1378 (C et 1 )
+0,1357 - 0,1378 (C et 1 )
+0,1357 - 0,1378 (C et 1 )
+MF
+630 m
+0,472 - 0,479 (C et 1 )
+0,472 - 0,479 (C et 1 )
+0,472 - 0,479 (C et 1 )
+160 m
+1,810 - 1,850 (A)
+1,800 - 1,850 (A) 1,850 - 2,000 (B)
+1,810 - 1,830 (B et a ) 1,830 - 1,850 (A) 1,850 - 2,000 (B)
+HF
+80 m
+3,500 - 3,800 (B)
+3,500 - 3,750 (A) 3,750 - 4,000 (B)
+3,500 - 3,900 (B)
+60 m
+5,3515 - 5,3665 (C et 1 )
+5,3515 - 5,3665 (C et 1 )
+5,3515-5,3665 (C et 1 )
+40 m
+7,000 - 7,200 (A)
+7,000 - 7,300 (A)
+7,000 - 7,200 (A)
+7,000 - 7,100 (A)
+30 m
+10,100 - 10,150 (C)
+10,100 - 10,150 (C)
+10,100 - 10,150 (C)
+20 m
+14,000 - 14,350 (A)
+14,000 - 14,350 (A)
+14,000 - 14,350 (A)
+14,000 - 14,250 (A)
+17 m
+18,068 - 18,168 (A)
+18,068 - 18,168 (A)
+18,068 - 18,168 (A)
+18,068 - 18,168 (A)
+15 m
+21,000 - 21,450 (A)
+21,000 - 21,450 (A)
+21,000 - 21,450 (A)
+21,000 - 21,450 (A)
+12 m
+24,890 - 24,990 (A)
+24,890 - 24,990 (A)
+24,890 - 24,990 (A)
+24,890 - 24,990 (A)
+10 m
+28,000-29,700 (A et 2 )
+28,000-29,700 (A et 2 )
+28,000-29,700 (A et 2 )
+28,000 - 29,700 (A)
+VHF
+6 m
+50,000 - 52,000 (C)
+50,000 - 54,000 (A)
+50,000 - 54,000 (A)
+2 m
+144-146 (A et 2 ) Novice
+144-146 (A et 2 ) Novice 146 - 148 (A)
+144-146 (A et 2 ) Novice 146 - 148 (B)
+144 - 146 (A)
+1,35 m
+Non allouée
+220 - 225 (B)
+Non allouée
+UHF
+70 cm
+430 - 434 (C)
+434 - 440 (B)
+430 - 440 (C)
+430 - 440 (C)
+435 - 438 (C et 3 ) en région 3: T>E uniquement T>E 438 - 440 (C et 3 ) en régions 2 et 3 uniquement
+23 cm
+1240 - 1300 (C et 4 )
+1240 - 1300 (C et 4 )
+1240 - 1300 (C et 4 )
+T>E 1240 - 1300 (C et 3 )
+13 cm
+2300 - 2450 (C)
+2300 - 2450 (C)
+2300 - 2415 (C)
+2415 - 2450 (C et b )
+2400 - 2450 (C et 3 ) dans les régions 1 et 2 2415 - 2450 (C, 3 et b ) en région 3
+SHF
+9 cm
+Non allouée
+3300 - 3500 (C)
+3300 - 3500 (C)
+3400 - 3500 (C et 3 )
+6 cm
+5650 - 5850 (C)
+5650 - 5925 (C)
+5650 - 5850 (C)
+T>E 5650-5725 (C et 3 ) E>T 5830-5850 (C)
+3 cm
+10 000 - 10 450 (C) 10 450 - 10 500 (D)
+10 000 - 10 450 (C) 10 450 - 10 500 (D)
+10 000 - 10 450 (C) 10 450 - 10 500 (D)
+10 450 - 10 500 (A)
+1,2 cm
+24 000 - 24 050 (A) 24 050 - 24 250 (C)
+24 000 - 24 050 (A) 24 050 - 24 250 (C)
+24 000 - 24 050 (A) 24 050 - 24 250 (C)
+24 000 - 24 050 (A)
+EHF
+6 mm
+47 000 - 47 200 (A)
+47 000 - 47 200 (A)
+47 000 - 47 200 (A)
+47 000 - 47 200 (A)
+4 mm
+76 000 - 77 500 (C) 77 500 - 78 000 (A) 78 000 - 81 500 (C et 5 )
+76 000 - 77 500 (C) 77 500 - 78 000 (A) 78 000 - 81 500 (C et 5 )
+76 000 - 77 500 (C) 77 500 - 78 000 (A) 78 000 - 81 000 (C)
+76 000 - 77 500 (C) 77 500 - 78 000 (A) 78 000 - 81 500 (C et 5 )
+2,4mm
+122 250 - 123 000 (C)
+122 250 - 123 000 (C)
+122 250 - 123 000 (C)
+2 mm
+134 000 - 136 000 (A) 136 000 - 141 000 (C)
+134 000 - 136 000 (A) 136 000 - 141 000 (C)
+134 000 - 136 000 (A) 136 000 - 141 000 (C)
+134 000 - 136 000 (A) 136 000 - 141 000 (C)
+1,2mm
+241 000 - 248 000 (C) 248 000 - 250 000 (A)
+241 000 - 248 000 (C) 248 000 - 250 000 (A)
+241 000 - 248 000 (C) 248 000 - 250 000 (A)
+241 000 - 248 000 (C) 248 000 - 250 000 (A)
+c Statut des bandes noté entre parenthèses après les limites de la bande (en MHz) dans le tableau ci-dessous (le statut de la bande détermine les « règles de priorité vis-à-vis des autres services de radiocommunications, établies conformément aux dispositions du TNRBF (§3 du préambule de la décision 12-1241) »):
+A Attribution à titre primaire au sens du RR (disposition S5-25). Ces bandes sont, en règle générale, attribuées exclusivement au service d’amateur.
+B Attribution à titre primaire au sens du RR, en partage avec d'autres services de radiocommunications primaires, autres que le service d’amateur par satellite, selon le principe de l’égalité des droits, tel que défini dans l’article 4.8 du RR qui prévoit que « le service [à égalité de droits] ne doit pas causer de brouillage préjudiciable et ne peut pas prétendre à la protection contre les brouillages préjudiciables causés par un autre service ». Seules 4 bandes ont ce statut, les autres bandes ont un statut soit primaire soit secondaire.
+C Attribution à titre secondaire au sens du RR. Les stations radioélectriques du service d’amateur ne doivent pas causer de brouillage préjudiciable aux stations d’un service primaire et ne peuvent pas prétendre à la protection contre les brouillages préjudiciables causés par ces stations conformément au RR (dispositions S5-28 à S5-31) qui prévoit que « les stations d’un service secondaire (…) ont le droit à la protection contre les brouillages préjudiciables causées par les stations de ce service (…) ou des autres services secondaires ».
+D Attribution à titre secondaire au sens du RR, et bénéficiant d’une attribution à titre primaire en application des dispositions du TNRBF. Les stations du service d’amateur ne doivent pas causer de brouillage préjudiciable aux stations étrangères du service de radiolocalisation qui, selon le RR, ont un statut primaire et ne peuvent pas prétendre à la protection contre les brouillages préjudiciables causés par ces stations.
+d Commentaires sur certaines bandes (les commentaires ci-dessous en italique (2 à 5) ne figurent pas dans la décision Arcep 12-1241 modifiée ni dans l’arrêté du 2/3/21 mais sont tirés du TNRBF):
+1 La puissance rayonnée maximale des stations du service d'amateur utilisant des fréquences dans les bandes des 2222, 630 et 60 mètres se mesure en Puissance Isotrope Rayonnée Equivalente (PIRE) [ voir définition au §R-5.2h ] qui est limitée à 1 watt PIRE sur les bandes des 2200 et 630 mètres et 15 watts PIRE sur la bande des 60 mètres. Les stations opérant sur ces bandes ne doivent pas causer de brouillage préjudiciable aux stations du service de radionavigation (dispositions S5.67A, S5.80A, S5.133B du RR).
+a La note F7 du TNRBF permet l’attribution de la bande des 160 mètres de 1810 à 1830 kHz avec un statut primaire en partage (statut B) en Polynésie Française uniquement (annexe à l’arrêté du 02/03/21).
+b Le service d’amateur n’est pas autorisé à Tahiti et Mooréa dans la bande 2415-2450 MHz (bande exclusive pour les faisceaux hertziens transportables des Armées, renvoi b. de l’annexe à l’arrêté du 02/03/21, disposition supprimée du TNRBF en mai 2021 ).
+2 Le Ministre des Armées peut utiliser ces bandes pour des « besoins intermittents avec une puissance rayonnée maximale de 12 dBW », soit environ 15 watts PAR pour son service mobile en statut secondaire (note F17 du TNRBF). De plus, le Ministère des Armées utilise la bande 137-173,5 MHz « pour l’exploitation de bouées acoustiques en mer » (note F35 du TNRBF modifiée en juin 2013).
+3 Le service d'amateur par satellite peut fonctionner dans les bandes 435-438 MHz, 1260-1270 MHz, 2400-2450 MHz, 3400-3410 MHz (allouée seulement dans les régions 2 et 3) et 5650-5670 MHz, à condition qu'il n'en résulte pas de brouillage préjudiciable aux autres services utilisateurs. Dans ces bandes, le service d’amateur a un statut secondaire et tout brouillage préjudiciable causé par les émissions d'un satellite doit être immédiatement éliminé (disposition S5-282 du RR)
+4 Les administrations autorisant l'exploitation des services d'amateur et d'amateur par satellite dans la bande de fréquences 1240-1300 MHz doivent veiller à ce que les services d'amateur et d'amateur par satellite ne causent pas de brouillages préjudiciables aux récepteurs du service de radionavigation par satellite (espace vers Terre) (disposition S5.332A du RR relative à la protection de Galileo). La décision ECC 25-01, qui doit être transposée en droit national avant le 31/12/28, impose des limites de puissance sur une partie de la bande (1258-1300 MHz avec notamment -17dW PIRE, soit 20 mW PIRE, de 1258 à 1296 MHz).
+5 La bande 81-81,5 GHz n’est pas citée dans le TNRBF mais est ouverte au trafic conformément à la disposition S5.561A (note F135b du TNRBF).
+Avant 2013, la bande des 50 MHz était ouverte en région 1 au trafic dans des conditions particulières:
+les limites de la bande étaient 50,2 - 51,2 MHz;
+le trafic était interdit en mobile;
+l’installation de relais y était interdite;
+seuls 59 départements étaient ouverts complètement ou partiellement au trafic avec une puissance PAR maximum de 5 ou 100 watts selon les départements.
+Avec la décision 12-1241, la bande des 50 MHz devient une bande VHF normale, sans condition particulière, avec un statut secondaire en région 1 (note F21b du TNRBF).
+Exemples: Quelles sont les limites de la bande des 17 mètres? Réponses: 18 068 à 18 168 kHz
+Quelle est la largeur de la bande des 14 MHz? 350 kHz
+Quel est le statut de la bande 1240-1300 MHz? partagé (service secondaire)
+Quel est le statut de la bande 10,100 à 10,150 MHz? statut C (service secondaire)
+Quelles sont les limites de la bande Satellite sur la bande des 2 mètres? 144 à 146 MHz
+### a R-2.2) Puissances et classes
+d’émission autorisées (annexes 1 et 3 de la décision 12-1241 modifiée):
+Certificat
+Bandes de fréquences
+Puissance maximum
+Classes d'émission autorisées
+Classe unique (ex 1 et 2)
+Toutes les bandes des services d'amateur et d'amateur par satellite
+< 28 MHz: 500 W (*) 28 à 30 MHz: 250 W > 30 MHz: 120 W
+Toutes classes ( voir définition au §R-1.2a )
+Classe 3
+144 à 146 MHz
+10 W
+A1A, A2A, A3E, G3E, J3E, F3E
+(*) La réglementation ne limite pas le gain des antennes sauf sur les bandes des 2200, 630 et 60 mètres où la puissance maximum est exprimée en PIRE (Puissance Isotropique Rayonnée Equivalente, voir définition de la PIRE au §R-5.2h ) et est limitée à 1 W sur les bandes des 2200 et 630 mètres et 15 W sur la bande des 60 mètres.
+Puissance maximum: puissance en crête maximale à la sortie de l’émetteur, tel que défini dans l’article 1.157 du RR (« moyenne de la puissance fournie à la ligne d'alimentation de l'antenne par un émetteur en fonctionnement normal, au cours d'un cycle de radiofréquence correspondant à l'amplitude maximale de l'enveloppe de modulation ». Voir au §R-1.2b la représentation des différents types de modulation: en AM et en BLU, la puissance est mesurée en PEP (Puissance en pointe de l’enveloppe). La recommandation UIT SM.326-7 préconise l’utilisation de deux tonalités non harmoniques pour mesurer la puissance des émissions modulées en amplitude. Pour autant, on ne peut pas en déduire l’obligation de possession d’un « générateur 2 tons » pour les stations émettant en AM et en BLU, même si l’ANFR semble soutenir le contraire dans ses questions d’examen.
+b Le décret 2002-775 pris en vertu du 12° de l’article L32 du CPCE (exigences essentielles) fixe, selon la fréquence, les valeurs limites d'exposition du public aux champs électromagnétiques. Compte tenu des puissances autorisées et que nos antennes visent l’horizon (et non pas le sol ou la voie publique), les rayonnements de nos stations devraient être loin de ces valeurs limites définies en V/m selon le graphique ci-contre. La valeur limite la plus basse (28 V/m de 10 à 400 MHz) correspond à une puissance de 2 W (P = 28V²/377 = 2, 08 W/m² ). La surface d’une sphère d’un rayon de 10 mètres étant 4πr² = 1256 m², la densité de puissance d’une station de 2000 W PIRE placée au centre de la sphère sera de 1,6 W/m² (=2000/1256) dans la direction du rayonnement maximum.
+L’ARCEP peut prévoir des restrictions, proportionnées et non discriminatoires, des conditions techniques d’utilisation des fréquences pour éviter les brouillages préjudiciables ou protéger la santé publique (art L42 du CPCE). La décision 2012-1241 ne donne pas plus de précisions sur d’éventuelles restrictions individuelles.
+c Les articles L57 à L62-1 du CPCE instaurent des « servitudes pour la protection des réceptions radioélectriques » des services de l’État. Les décrets d’application (articles R27 à R30 du CPCE), pris en Conseil d’État, reconnaissent 3 catégories d’installations aux abords desquelles il est institué une zone de protection et, à l’intérieur de celle-ci, une zone de garde. Dans la zone de protection, il est interdit de produire des perturbations supérieures à la valeur compatible avec l’exploitation du centre. Dans la zone de garde, il est interdit de mettre en service du matériel électrique susceptible de perturber les réceptions radioélectriques du centre sans l’autorisation du ministre dont les services exploitent le centre. Pour les installations de 1 ère catégorie (les plus contraignantes), la distance séparant les limites du centre de réception radioélectrique et le périmètre de la zone de garde ne peut excéder 1000 mètres. L a commission consultative des sites et servitudes (Comsis, ex-Coresta) instruit les dossiers d'implantation, de transfert ou de modification des stations radioélectriques protégées en liaison avec l’ANFR, l’Arcom et l’ARCEP. Une simple gendarmerie n’a pas vocation à obtenir ce statut assez exceptionnel. De même, ce n’est pas parce qu’il y a de belles antennes dans un terrain militaire que les installations relèvent automatiquement de cette catégorie. A contrario, les formalités pour obtenir cette servitude sont si longues et difficiles qu’il arrive qu’un site soit désaffecté et que, pour autant, la servitude existe toujours (au cas où l’Etat souhaite réactiver rapidement le centre de réception…).
+d L’article L421-1 du Code l’Urbanisme (CU) prévoit que toutes les constructions doivent être précédées de la délivrance d’un permis de construire sauf s’il s’agit d’ouvrage de faible importance (art L421-4). Dans ce cas, une déclaration préalable (DP) prévue à l’article L422-2 du CU doit être déposée. L’article R421-9 limite cette déclaration préalable aux « constructions (…) dont la hauteur au-dessus du sol est [strictement] supérieure à 12 mètres et qui n’ont pas pour effet de créer de surface hors œuvre brute ». L’alinéa e de l’article R422-2 précise que sont concernés les « poteaux et pylônes de plus de 12 mètres et les installations qu’ils supportent ». Avant octobre 2007, les antennes de plus de 4 mètres ou dont le réflecteur mesure plus d’un mètre étaient aussi concernées. Aujourd’hui, les antennes horizontales ou filaires ne sont soumises à aucune formalité. En revanche, il y a toujours lieu de tenir compte de l’antenne verticale pour déterminer la hauteur de l’installation. De plus, installer un pylône sur le pignon d’un pavillon par exemple conduit à modifier l’aspect du bâtiment et nécessite donc une déclaration préalable (art R421-17), même si le pylône et son antenne verticale ne dépassent pas 12 mètres. Lorsque le pylône est installé sur un immeuble, la hauteur au dessus du sol dépasse souvent 12 mètres. Une déclaration préalable est donc nécessaire (nonobstant le fait que l’aspect du bâtiment est modifié).
+Enfin, les installations suivantes sont soumises à des procédures particulières nécessitant un avis favorable de l'Architecte des Bâtiments de France (ABF) qui sera joint au dossier. Trois cas d’installations sont prévus:
+- sur un immeuble classé à l'inventaire supplémentaire des monuments historiques, le CU prévoit que les travaux sont soumis à une autorisation administrative accordée par la Préfet de Région.
+- sur un immeuble inscrit, la procédure de DP auprès de la mairie reste identique à la procédure normale. Cependant, la décision de non-opposition à la DP doit intervenir après l'accord du Préfet de Région
+- dans un périmètre protégé (situés dans le champ de visibilité d'un immeuble classé et à moins de 500 mètres) ou dans un site patrimonial remarquable, la décision de non-opposition à la DP intervient après l'accord de l'ABF.
+L’étendue de ces zones (zone de garde, périmètre classé, secteur sauvegardé et zone de protection) est annexée au Plan Local d’Urbanisme (PLU) et est consultable au service de l’urbanisme de la Mairie concernée.
+En cas de trafic en portable, quel que soit le lieu, aucune déclaration d’urbanisme n’est à prévoir: les installations temporaires (moins de 3 mois) ne sont soumises à aucune déclaration. En revanche, les zones de servitudes (zones de protection, zones de garde) restent valables pour tout trafic, même en portable ou en mobile.
+e La loi 66-457 reconnaît le « droit à l’antenne » pour les radioamateurs habitant en immeuble collectif. En effet, « le propriétaire d'un immeuble ne peut s'opposer, sans motif sérieux et légitime, à l'installation, au remplacement ou à l'entretien des antennes individuelles, émettrices et réceptrices, nécessaires au bon fonctionnement de stations du service amateur (…). Les bénéficiaires [de ce droit] sont responsables (…) des travaux d'installation, d'entretien ou de remplacement et des conséquences que pourrait comporter la présence des antennes en cause ». Cette loi s’applique aux propriétaires comme aux locataires ou à tout autre occupant.
+3) ALPHABET INTERNATIONAL et CODE Q

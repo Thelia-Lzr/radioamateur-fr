@@ -1,0 +1,143 @@
+package dev.favier.exam1radioamateur;
+
+import android.content.Context;
+
+import android.util.Log;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.Collections;
+
+
+public class Examen {
+    /**
+     * Gere toute la logique relatif à l'examen
+     */
+    private ArrayList<Question> questions; // la liste de questions posés à l'examen
+    private ArrayList<Integer> themesList; // la liste des themes
+    private Context context;
+
+    AppDatabase appDb;
+
+    // les settings de l'examen
+    //private int nbrQuestionParTheme; // le nombre de question de l'examen pour chaque theme
+    private int totalQuestions; // Remplace nbrQuestionParTheme
+    private boolean showReponse; // active l'affichage des réponses
+    private boolean timerEnable; // active le compte à rebour
+    private int timer; // le temps en seconde restant
+
+    // les themes de l'examen
+    public static final int codeCouleurs = 201;
+    public static final int groupementsDeResistances = 202;
+    public static final int diodesEtTransistors = 203;
+    public static final int synoptiques = 204;
+    public static final int etagesRF = 205;
+    public static final int electriciteDeBase = 206;
+    public static final int courantsAlternatifs = 207;
+    public static final int condensateursetBobines = 208;
+    public static final int transformateursAmpli = 209;
+    public static final int ligneDeTransmis = 210;
+    public static final int classesEmission = 301;
+    public static final int indicatifs = 302;
+    public static final int codeQ = 303;
+    public static final int epellation = 304;
+    public static final int questionsEntrainement = 305;
+    public static final int sanctions = 306;
+    public static final int exposition = 307;
+    public static final int longueurOnde = 308;
+    public static final int adaptation = 309;
+    public static final int cem = 310;
+
+    public Examen(Context context, ArrayList<Integer> themesList, int totalQuestions) {
+        this.context = context;
+        this.themesList = themesList;
+        this.totalQuestions = totalQuestions;
+        questions = new ArrayList<>();
+        appDb = AppDatabase.getInstance(context);
+    }
+
+    /**
+     * retourne l'obj de calcul de résulatats
+     * @return
+     */
+    public ResultCalculator getResults() {
+        return new ResultCalculator(questions, themesList);
+    }
+
+    /**
+     * Génère les questions de l'examen en répartissant équitablement le nombre
+     * total de questions sur tous les thèmes sélectionnés.
+     */
+    public void genrateQuestions() {
+        int nbThemes = themesList.size();
+        if (nbThemes == 0) return;
+
+        // Calcul de la base et du reste
+        int baseCount = totalQuestions / nbThemes;
+        int remainder = totalQuestions % nbThemes;
+
+        // On mélange la liste des thèmes pour que les questions "supplémentaires"
+        // (le reste) ne soient pas toujours attribuées aux mêmes thèmes.
+        ArrayList<Integer> randomizedThemes = new ArrayList<>(themesList);
+        Collections.shuffle(randomizedThemes);
+
+        for (int i = 0; i < nbThemes; i++) {
+            int theme = randomizedThemes.get(i);
+
+            // Le reste premiers thèmes reçoivent 1 question de plus
+            int questionsForThisTheme = baseCount + (i < remainder ? 1 : 0);
+
+            if (questionsForThisTheme > 0) {
+                questions.addAll(appDb.questionDao().getRandomQuestion(theme, questionsForThisTheme));
+            }
+        }
+
+        // On mélange la liste finale pour ne pas avoir les questions triées par thème
+        Collections.shuffle(questions);
+
+        Log.w("debug", "nbr de questions générées : " + questions.size());
+    }
+
+
+    /**
+     * defini la réponse donné par l'utilisateur d'une question de l"examen
+     * @param index index de la question.
+     * @param userReponse numéro de la réponse de l'utilsateur de 0 à 3
+     */
+    public void setReponse(int index, int userReponse) {
+        Question currentQuestion = questions.get(index);
+        currentQuestion.setUserReponse(userReponse);
+        questions.set(index, currentQuestion);
+    }
+
+    /**
+     * retourne la question depuis un index
+     * @param index index de la question
+     * @return obj {@link Question}
+     */
+    public Question getQuestion(int index) {
+        return questions.get(index);
+    }
+
+    /**
+     * defini comme quoi la reponse à ete demandé pour la question à un index
+     * @param index index de la question
+     */
+    public void setReponseAsked(int index) {
+        Question currentQuestion = questions.get(index);
+        currentQuestion.setReponseAsked(true);
+        questions.set(index, currentQuestion);
+    }
+
+    /**
+     * Retourne la liste complète des questions de l'examen.
+     * @return liste des objets Question
+     */
+    public ArrayList<Question> getQuestions() {
+        return questions;
+    }
+}

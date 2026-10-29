@@ -1,0 +1,321 @@
+{
+ "block": "W4b",
+ "lines": [
+  3813,
+  4478
+ ],
+ "units": [
+  {
+   "id": "R51",
+   "ref": "R-5.1",
+   "nq": 37,
+   "depth": 1,
+   "anchors": [
+    "R51a",
+    "R51d"
+   ],
+   "title_fr": "R-5.1)",
+   "questions": [
+    {
+     "num": "30033",
+     "question": "UN EMETTEUR CONSOMME 10 WATTS EN ENTREE.\nLA PUISSANCE DE SORTIE DE CET EMETTEUR EST DE 5 WATTS.\nQUEL EST SON RENDEMENT ?",
+     "reponse": "50 %"
+    },
+    {
+     "num": "30062",
+     "question": "* UN EMETTEUR A UNE PUISSANCE DE 5 WATTS.\nON PORTE SA PUISSANCE A 10 WATTS.\nQUEL EN SERA LE GAIN EN PUISSANCE ?",
+     "reponse": "3 dB"
+    },
+    {
+     "num": "30232",
+     "question": "* UN EMETTEUR CONSOMME 200 WATTS EN ENTREE.\nLA PUISSANCE DE SORTIE DE CET EMETTEUR EST DE 150 WATTS.\nQUEL EST SON RENDEMENT ?",
+     "reponse": "75 %"
+    },
+    {
+     "num": "30740",
+     "question": "QUEL EST LE GAIN D'UNE ANTENNE DONT LA PAR EST DE 40 W ALORS QUE L'EMETTEUR DISPOSE DE 10 W?",
+     "reponse": "6 dB"
+    }
+   ]
+  },
+  {
+   "id": "R52",
+   "ref": "R-5.2",
+   "nq": 46,
+   "depth": 1,
+   "anchors": [
+    "R52",
+    "R52a",
+    "R52d",
+    "R52f",
+    "R52g",
+    "R52i",
+    "R52k",
+    "R52l"
+   ],
+   "title_fr": "R-5.2)",
+   "questions": [
+    {
+     "num": "30034",
+     "question": "* QUE REPRESENTE CE SHEMA D'ANTENNE",
+     "reponse": "Une antenne YAGI"
+    },
+    {
+     "num": "30119",
+     "question": "* AU BOUT D'UNE LIGNE DE 100 METRES DE LONGUEUR, AYANT UNE PERTE DE 0,06 DB\nPAR METRE, LA PUISSANCE DE SORTIE SERA DIVISEE PAR COMBIEN ?",
+     "reponse": "4"
+    },
+    {
+     "num": "30794",
+     "question": "REPRESENTATION D'UN SCHEMA D'UNE ANTENNE 1/2 ONDE AVEC 4 GRAPHIQUES REPRESENTANT LES TENSIONS ET LES COURANTS DANS L'ANTENNE: INDIQUER CELLE QUI REPRESENTE UNE DEMI-ONDE ?",
+     "reponse": "Schéma 1"
+    },
+    {
+     "num": "30910",
+     "question": "* TYPE D'ANTENNE APPROPRIE POUR LE 15 M ?\n1 - PARABOLE\n2 - YAGI\n3 - VERTICALE\n4 - FILAIRE",
+     "reponse": "2, 3 et 4"
+    }
+   ]
+  },
+  {
+   "id": "R52b",
+   "ref": "R-5.2.b",
+   "nq": 62,
+   "depth": 1,
+   "anchors": [
+    "R52b"
+   ],
+   "title_fr": "R-5.2)",
+   "questions": [
+    {
+     "num": "30074",
+     "question": "ETENDUE DES ONDES DECIMETRIQUES ?",
+     "reponse": "0,3 à 3 GHz"
+    },
+    {
+     "num": "30500",
+     "question": "ETENDUE DES ONDES MYRIAMETRIQUES ?",
+     "reponse": "100 km à 10 km"
+    },
+    {
+     "num": "32550",
+     "question": "* COMMENT SONT QUALIFIEES LES ONDES DE LA GAMME LF ?",
+     "reponse": "kilométriques"
+    },
+    {
+     "num": "34793",
+     "question": "DANS QUELLE GAMME D'ONDE CLASSE-T-ON UNE FREQUENCE DE 3184 KHZ ?",
+     "reponse": "HF"
+    }
+   ]
+  },
+  {
+   "id": "R52h",
+   "ref": "R-5.2.h",
+   "nq": 18,
+   "depth": 2,
+   "anchors": [
+    "R52h"
+   ],
+   "title_fr": "R-5.2)",
+   "questions": [
+    {
+     "num": "30085",
+     "question": "SI ON ALIMENTE UNE ANTENNE QUI A UN GAIN DE 10 DB AVEC 10 WATTS, LA P.A.R.\nSERA DE ?",
+     "reponse": "100 W"
+    },
+    {
+     "num": "30230",
+     "question": "SI ON ALIMENTE UNE ANTENNE QUI A UN GAIN DE 3 DB AVEC 12 WATTS, LA P.A.R.\nSERA DE ?",
+     "reponse": "24 W"
+    },
+    {
+     "num": "30718",
+     "question": "* UN EMETTEUR ALIMENTE AVEC UNE PUISSANCE DE 100 W UNE ANTENNE A GAIN DE 9 DB.\nLE COAXIAL D'UNE LONGUEUR DE 30 METRES A UNE PERTE DE 0,1 DB PAR METRE.\n\nQUELLE EST LA PUISSANCE APPARENTE A LA SORTIE DE L'ANTENNE ?",
+     "reponse": "400 W"
+    },
+    {
+     "num": "33070",
+     "question": "* QUELLE EST LA PAR ?\nTX=10 W\nGAIN DE L'ANTENNE= 5 DB\nPERTES DU CABLE : 2 D",
+     "reponse": "20 W"
+    }
+   ]
+  },
+  {
+   "id": "R52e",
+   "ref": "R-5.2.e",
+   "nq": 10,
+   "depth": 2,
+   "anchors": [
+    "R52e"
+   ],
+   "title_fr": "R-5.2)",
+   "questions": [
+    {
+     "num": "30052",
+     "question": "* QUE REPRESENTE CE SHEMA D'ANTENNE ?",
+     "reponse": "Une antenne Ground Plane"
+    },
+    {
+     "num": "30242",
+     "question": "UNE ANTENNE GP ?",
+     "reponse": "n'a ni gain ni directivité"
+    },
+    {
+     "num": "31041",
+     "question": "L'ANTENNE GP ?",
+     "reponse": "a un rayonnement nul à sa verticale"
+    },
+    {
+     "num": "35005",
+     "question": "* COCHER L'AFFIRMATION VRAIE :\n\nSUR UNE ANTENNE YAGI,",
+     "reponse": "Le fait d'ajouter des éléments diminue l'impédance"
+    }
+   ]
+  },
+  {
+   "id": "R52c",
+   "ref": "R-5.2.c",
+   "nq": 10,
+   "depth": 2,
+   "anchors": [
+    "R52c"
+   ],
+   "title_fr": "R-5.2)",
+   "questions": [
+    {
+     "num": "30081",
+     "question": "VALEURS DE U ET I AUX EXTREMITES D'UNE 1/2 ONDE ?",
+     "reponse": "U supérieure à I "
+    },
+    {
+     "num": "30102",
+     "question": "* QUELLE EST LA LONGUEUR D'UN DOUBLET DEMI-ONDE POUR EMETTRE SUR LA\nFREQUENCE 7,059 MHZ ?",
+     "reponse": "21,25 m"
+    },
+    {
+     "num": "30179",
+     "question": "* LA LONGUEUR THEORIQUE D'UNE ANTENNE DOUBLET EST ?",
+     "reponse": "la demi-onde"
+    },
+    {
+     "num": "31014",
+     "question": "QUEL EST L'ORDRE DE GRANDEUR DE L'IMPEDANCE D'UNE ANTENNE DEMI-ONDE ?",
+     "reponse": "Entre 40 et 80 Ω"
+    }
+   ]
+  },
+  {
+   "id": "R53",
+   "ref": "R-5.3",
+   "nq": 56,
+   "depth": 1,
+   "anchors": [
+    "R53",
+    "R53a",
+    "R53b",
+    "R53c",
+    "R53d",
+    "R53e",
+    "R53l"
+   ],
+   "title_fr": "R-5.3)",
+   "questions": [
+    {
+     "num": "30007",
+     "question": "* UN COAXIAL D'UNE LONGUEUR DE 100 METRES A UNE PERTE DE 0,03 DB PAR METRE.\nLA PUISSANCE DE SORTIE SERA DIVISEE PAR COMBIEN ?",
+     "reponse": "2"
+    },
+    {
+     "num": "30065",
+     "question": "QUEL EST LE ROLE D'UNE BOITE DE COUPLAGE ?",
+     "reponse": "Elle permet d'accorder son antenne"
+    },
+    {
+     "num": "30189",
+     "question": "* CALCULEZ LE TOS ?\nPUISSANCE INCIDENTE              PUISSANCE REFLECHIE\n      15 WATTS ---------------------------      3 WATTS",
+     "reponse": "44 %"
+    },
+    {
+     "num": "30940",
+     "question": "SCHEMA D'UNE ANTENNE AVEC ROS = 2 ET PI = 3 W\nQUELLE EST LA PUISSANCE REFLECHIE PR",
+     "reponse": "333 mW"
+    }
+   ]
+  },
+  {
+   "id": "R54",
+   "ref": "R-5.4",
+   "nq": 19,
+   "depth": 2,
+   "anchors": [
+    "R54",
+    "R54a",
+    "R54b",
+    "R54c",
+    "R54d"
+   ],
+   "title_fr": "R-5.4)",
+   "questions": [
+    {
+     "num": "30080",
+     "question": "UN MAGNETOPHONE A CASSETTE PORTABLE ALIMENTE PAR LE RESEAU 220 VOLTS EST PERTURBE PAR LES EMISSIONS SSB D'UN RADIOAMATEUR VOISIN. LES PERTURBATIONS DISPARRAISSENT LORSQUE LE MAGNETOPHONE FONCTIONNE AVEC DES PILES.\nQUELLE MESURE D'ANTIPARASITAGE EST RECOMMANDEE ?",
+     "reponse": "Mise en place d'un filtre réseau dans le magnétophone"
+    },
+    {
+     "num": "30188",
+     "question": "QUEL APPAREIL UTILISE-T-ON POUR MESURER LES HARMONIQUES ?",
+     "reponse": "Un analyseur de spectre"
+    },
+    {
+     "num": "30949",
+     "question": "AVEC QUOI MESURE-T-ON L'INTENSITE D'UN SIGNAL ELEVE EN FREQUENCE ?",
+     "reponse": "Ampèremètre  thermique "
+    },
+    {
+     "num": "33750",
+     "question": "L'INTERMODULATION EST CREEE PAR",
+     "reponse": "un mélange de fréquences au niveau d'un étage non linéaire"
+    }
+   ]
+  },
+  {
+   "id": "R55",
+   "ref": "R-5.5",
+   "nq": 5,
+   "depth": 3,
+   "anchors": [
+    "R55b",
+    "R55c"
+   ],
+   "title_fr": "R-5.5)",
+   "questions": [
+    {
+     "num": "30152",
+     "question": "A QUOI FAUT-IL VEILLER LORS DE L'INSTALLATION D'UNE ANTENNE SUR UN BATIMENT EQUIPE D'UNE PROTECTION CONTRE LA FOUDRE ?",
+     "reponse": "L'antenne doit être reliée à l'installation de protection par le chemin le plus court"
+    },
+    {
+     "num": "30153",
+     "question": "QUELLE EST LA TENSION DE CONTACT MAXIMALE AUTORISE ?",
+     "reponse": "50 V"
+    },
+    {
+     "num": "30180",
+     "question": "* QUELLE EST L'AFFIRMATION FAUSSE ?\nA - LA FOUDRE CHERCHE TOUJOURS LE CHEMIN LE PLUS DROIT POUR ALLER  LA TERRE\nB - POUR EVITER QUE LA FOUDRE NE TOMBE SUR UNE ANTENNE, IL NE FAUT PAS LA RELIER  LA TERRE\nC - LA TENSION PRESENTE DANS UNE ANTENNE LORS D'EMISSION PEUT ETRE ELEVEE\nD - LES ALIMENTATIONS PAR LE SECTEUR DEVRAIENT ETRE CONSTRUITES DANS DES COMPARTIMENTS FERMES.",
+     "reponse": "B"
+    },
+    {
+     "num": "30205",
+     "question": "QUELLE EST LA COULEUR D'UN CONDUCTEUR PROTECTION D'UN CABLE SECTEUR A 3 CONDUCTEURS ?",
+     "reponse": "Jaune-vert"
+    },
+    {
+     "num": "30948",
+     "question": "TENSION DE PROTECTION ELECTRIQUE ?",
+     "reponse": "50 V"
+    }
+   ]
+  }
+ ]
+}

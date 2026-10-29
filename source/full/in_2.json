@@ -1,0 +1,626 @@
+[
+ {
+  "num": "10044",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 144,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1 MHz",
+   "2 MHz",
+   "2 mètres",
+   "144,000 à 146,000 kHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10045",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 50,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "2000 kHz",
+   "10 MHz",
+   "6 mètres",
+   "0,2 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "2000 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10046",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 15 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "350 kHz",
+   "21,000 à 21,450 MHz",
+   "450 kHz",
+   "21,000 à 21,350 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "450 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10047",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 28,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "28,000 à 29,700 MHz",
+   "1700 MHz",
+   "1,7 MHz",
+   "10 mètres"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1,7 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10048",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 12 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "24,000 à 25,000 MHz",
+   "100 kHz",
+   "24,890 à 29,990 MHz",
+   "24,890 à 24,990 kHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10049",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 24,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "100 kHz",
+   "1 MHz",
+   "10 MHz",
+   "1000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10050",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 21,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "450 kHz",
+   "21 mètres",
+   "15 mètres",
+   "21,000 à 21,450 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "450 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10051",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 10 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1,7 MHz",
+   "1700 Hz",
+   "28,000 à 29,700 MHz",
+   "28,000 à 29,700 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1,7 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10052",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 6 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "50,000 à 52,000 MHz",
+   "2 MHz",
+   "50,000 à 51,200 MHz",
+   "6 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10053",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 18,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "200 kHz",
+   "100 MHz",
+   "17 mètres",
+   "100 kHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10054",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 14,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "350 kHz",
+   "20 mètres",
+   "14,000 à 14,450 MHz",
+   "450 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "350 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10055",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 2 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1 MHz",
+   "2 MHz",
+   "144,000 à 146,000 MHz",
+   "144,000 à 148,000 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10056",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 10,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "150 kHz",
+   "30 mètres",
+   "10,100 à 10,150 MHz",
+   "50 kHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "50 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10057",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 7,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "40 mètres",
+   "7,000 à 7,100 MHz",
+   "200 kHz",
+   "100 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "200 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10058",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 70 CMS EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "434,000 à 435,000 MHz",
+   "430,000 à 440,000 MHz",
+   "10 MHz",
+   "6 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10059",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 3,5 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "400 kHZ",
+   "300 kHz",
+   "80 mètres",
+   "3,500 à 3,800 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "300 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10060",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 1,8 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "40 kHz",
+   "160 mètres",
+   "20 kHz",
+   "100 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "40 kHz",
+  "commentaire_fr": "La bande va de 1,810 à 1,850 MHz en région 1. Les limitres sont différentes en région 2 et 3 (respectivement 1,800-2,000 et 1,830-2,000 MHz).\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "20002",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULES EXACTES : 1) U = RACINE(P*R) ; 2) Q = I/T ; 3) W = C*U2 ; 4) P = P/I2",
+  "options": [
+   "1, 2 et 3",
+   "1 et 4 ",
+   "3 et 4",
+   "1 et 2"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1 et 4 ",
+  "commentaire_fr": "Les formules exactes sont : \nQ = I x t\nW (ou E) = ½ x C x U²\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20003",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULES EXACTES",
+  "options": [
+   "Imax = Ieff / √ 2",
+   "P = √ (R x I)",
+   "P = U² / R",
+   "W = R x I x t "
+  ],
+  "ans_idx": 2,
+  "ans_fr": "P = U² / R",
+  "commentaire_fr": "Les formules exactes sont : \nP = R I² \nImax = Ieff x √ 2\nW = U x I x t (ou W = R x I² x t)\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20009",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE PAR R",
+  "options": [
+   "27,3 mW ",
+   "1,636 W",
+   "36,6 W",
+   "164 mW"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "164 mW",
+  "commentaire_fr": "P = U² / R = 6 x 6 / 220 = 0,1636 W = 164 mW (arrondi)\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20010",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE PAR R",
+  "options": [
+   "60 mW ",
+   "100 W",
+   "10 mW",
+   "16,7 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "60 mW ",
+  "commentaire_fr": "P = U² / R = 6 x 6 / 600 = 0,06 W = 60 mW\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20011",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE PAR R",
+  "options": [
+   "50 W ",
+   "5 W",
+   "500 mW",
+   "50 mW"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "5 W",
+  "commentaire_fr": "P = U x I = 100 x 0,05 = 5 W\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20013",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE PAR R",
+  "options": [
+   "270 mW",
+   " 27 W",
+   "2,7 W",
+   "270 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2,7 W",
+  "commentaire_fr": "P = RI² = 27000 x 0,01 x 0,01 = 2,7 W\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20014",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "TENSION AUX BORNES DE LA PILE",
+  "options": [
+   "500 mV",
+   " 2,5 V",
+   "50 V",
+   "5 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "5 V",
+  "commentaire_fr": "U = R x I = 100 x 0,05 = 5\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20015",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "TENSION AUX BORNES DE LA PILE ?",
+  "options": [
+   "83,3 V",
+   "12 V",
+   "120 V ",
+   "14,4 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "120 V ",
+  "commentaire_fr": "U = R x I = 1200 x 0,1 = 120 V \n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20016",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA PUISSANCE DISSIPEE",
+  "options": [
+   "3,93 W",
+   "6,35 W",
+   "31,75 W",
+   "63,5 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "63,5 W",
+  "commentaire_fr": "P = U x I = 127  x 0,5  = 63,5 W\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20018",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "TENSION AUX BORNES DE LA PILE ?",
+  "options": [
+   "6 V ",
+   "12 V",
+   "2400 V",
+   "0,3V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "6 V ",
+  "commentaire_fr": "U = R x I = 120 x 0,05 = 6 V\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20019",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA QUANTITE D'ELECTRICITE",
+  "options": [
+   " 1,4  Ah",
+   "1125 C",
+   "675 C",
+   "250 C"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1125 C",
+  "commentaire_fr": "Q = 7,5A x 150 s = 1125 C. La valeur de R n'a pas à être connue et la fém de la pile ne sert à rien.\n",
+  "anchor": "T013a"
+ },
+ {
+  "num": "20023",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "1,47 MΩ",
+   "14,7 MΩ",
+   "147 kΩ",
+   "320 kΩ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1,47 MΩ",
+  "commentaire_fr": "470 kΩ = 0,47 MΩ ; RT = R1 + R2 = 1 + 0,47 = 1,47\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20024",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "100 Ω",
+   "1 kΩ",
+   "250 Ω",
+   "500 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1 kΩ",
+  "commentaire_fr": "RT = R1+ R2 = 470 Ω + 530 Ω = 1000 Ω = 1 kΩ\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20025",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "TENSION AUX BORNES DE LA RESISTANCE",
+  "options": [
+   "15 V ",
+   "20 V",
+   "5 V",
+   "50 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "5 V",
+  "commentaire_fr": "IR2 = 10 / 1000 = 0,01 ; UR1 = 500 x 0 ,01 = 5. Lorsque les résistances sont montées en série, les tensions aux bornes des résistances sont proportionnelles à leurs valeurs. R1 est deux fois plus petite que R2, la tension à ses bornes est deux fois moindre.\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20026",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "TENSION AUX BORNES R2",
+  "options": [
+   "6,87 V",
+   "27,13 V",
+   "15,13 V",
+   "12 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "15,13 V",
+  "commentaire_fr": "Répartition de la tension au pro-rata des résistances : UR2 = UT x [R2 / (R1 + R2)] = 22 x 3,3 / 4,8 = 15,13 V\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20027",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE R2",
+  "options": [
+   "5,6 kΩ",
+   "150 kΩ",
+   "56 kΩ",
+   "15 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "56 kΩ",
+  "commentaire_fr": "UR1 = UT – UR2 = 103 – 56 = 47 V ; IR1 = UR1 / R1 = 47 / 47000 = 0,001 = 1 mA ; R2 = UR2 / I = 56 / 0,001 = 56000 Ω = 56 kΩ\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20029",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "545 Ω",
+   "2200 Ω",
+   "5,45 kΩ",
+   "820 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "545 Ω",
+  "commentaire_fr": "produit / somme = (1200 x 1000) / (1200 + 1000) = 545 Ω\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20031",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "10 Ω",
+   " 47,5 Ω",
+   "15 Ω",
+   "6,3 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "15 Ω",
+  "commentaire_fr": "R// = (10 x 30) / (10 + 30) = 7,5 ; 7,5 + 7,5 = 15\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20032",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "447 Ω",
+   "87 Ω",
+   "41,6 Ω",
+   "416 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "87 Ω",
+  "commentaire_fr": "Résistance du groupement dérivation = 120 / 3 = 40. En association avec la première résistance : 40 + 47 = 87\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20033",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "1 Ω",
+   "133 Ω",
+   "199 Ω",
+   "111 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "111 Ω",
+  "commentaire_fr": "R// = 33 / 3 = 11 ; 100 + 11 = 111\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20034",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE RX",
+  "options": [
+   "5 kΩ",
+   "10  kΩ",
+   "7,5 kΩ",
+   "22,5 kΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10  kΩ",
+  "commentaire_fr": "Produit en croix : R = 15 x 2 / 3 = 10\n",
+  "anchor": "T018a"
+ },
+ {
+  "num": "20035",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE RX",
+  "options": [
+   "30 kΩ",
+   "10 kΩ",
+   "7,5 kΩ",
+   "15 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "15 kΩ",
+  "commentaire_fr": "Produit en croix : R = 8 x 7,5 / 4 = 15\n",
+  "anchor": "T018a"
+ }
+]

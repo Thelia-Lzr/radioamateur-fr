@@ -1,0 +1,1917 @@
+[
+ {
+  "key": "mhz",
+  "form": "MHz",
+  "freq": 1246
+ },
+ {
+  "key": "db",
+  "form": "db",
+  "freq": 483
+ },
+ {
+  "key": "khz",
+  "form": "kHz",
+  "freq": 476
+ },
+ {
+  "key": "signal",
+  "form": "signal",
+  "freq": 382
+ },
+ {
+  "key": "radioamateur",
+  "form": "radioamateur",
+  "freq": 373
+ },
+ {
+  "key": "classe",
+  "form": "classe",
+  "freq": 316
+ },
+ {
+  "key": "antenne",
+  "form": "antenne",
+  "freq": 310
+ },
+ {
+  "key": "france",
+  "form": "france",
+  "freq": 296
+ },
+ {
+  "key": "valeur",
+  "form": "valeur",
+  "freq": 289
+ },
+ {
+  "key": "modulation",
+  "form": "modulation",
+  "freq": 264
+ },
+ {
+  "key": "pays",
+  "form": "pays",
+  "freq": 240
+ },
+ {
+  "key": "rapport",
+  "form": "rapport",
+  "freq": 239
+ },
+ {
+  "key": "gain",
+  "form": "gain",
+  "freq": 235
+ },
+ {
+  "key": "metres",
+  "form": "mètres",
+  "freq": 234
+ },
+ {
+  "key": "impedance",
+  "form": "impédance",
+  "freq": 230
+ },
+ {
+  "key": "sortie",
+  "form": "sortie",
+  "freq": 226
+ },
+ {
+  "key": "indicatif",
+  "form": "indicatif",
+  "freq": 223
+ },
+ {
+  "key": "filtre",
+  "form": "filtre",
+  "freq": 216
+ },
+ {
+  "key": "statut",
+  "form": "statut",
+  "freq": 215
+ },
+ {
+  "key": "schema",
+  "form": "schéma",
+  "freq": 212
+ },
+ {
+  "key": "circuit",
+  "form": "circuit",
+  "freq": 207
+ },
+ {
+  "key": "frequences",
+  "form": "fréquences",
+  "freq": 204
+ },
+ {
+  "key": "courant",
+  "form": "courant",
+  "freq": 195
+ },
+ {
+  "key": "condensateur",
+  "form": "condensateur",
+  "freq": 191
+ },
+ {
+  "key": "serie",
+  "form": "série",
+  "freq": 188
+ },
+ {
+  "key": "station",
+  "form": "station",
+  "freq": 168
+ },
+ {
+  "key": "ondes",
+  "form": "ondes",
+  "freq": 165
+ },
+ {
+  "key": "hz",
+  "form": "Hz",
+  "freq": 162
+ },
+ {
+  "key": "code",
+  "form": "code",
+  "freq": 159
+ },
+ {
+  "key": "bobine",
+  "form": "bobine",
+  "freq": 155
+ },
+ {
+  "key": "france metropolitaine",
+  "form": "france metropolitaine",
+  "freq": 148
+ },
+ {
+  "key": "maximum",
+  "form": "maximum",
+  "freq": 148
+ },
+ {
+  "key": "emetteur",
+  "form": "émetteur",
+  "freq": 147
+ },
+ {
+  "key": "longueur",
+  "form": "longueur",
+  "freq": 147
+ },
+ {
+  "key": "ohms",
+  "form": "ohms",
+  "freq": 146
+ },
+ {
+  "key": "secondaire",
+  "form": "secondaire",
+  "freq": 144
+ },
+ {
+  "key": "partagee",
+  "form": "partagée",
+  "freq": 141
+ },
+ {
+  "key": "originaire",
+  "form": "originaire",
+  "freq": 139
+ },
+ {
+  "key": "recepteur",
+  "form": "récepteur",
+  "freq": 139
+ },
+ {
+  "key": "hf",
+  "form": "HF",
+  "freq": 133
+ },
+ {
+  "key": "porteuse",
+  "form": "porteuse",
+  "freq": 132
+ },
+ {
+  "key": "pf",
+  "form": "pF",
+  "freq": 128
+ },
+ {
+  "key": "intensite",
+  "form": "intensité",
+  "freq": 126
+ },
+ {
+  "key": "cable",
+  "form": "câble",
+  "freq": 124
+ },
+ {
+  "key": "entree",
+  "form": "entrée",
+  "freq": 124
+ },
+ {
+  "key": "amplificateur",
+  "form": "amplificateur",
+  "freq": 119
+ },
+ {
+  "key": "signaux",
+  "form": "signaux",
+  "freq": 115
+ },
+ {
+  "key": "equivalente",
+  "form": "équivalente",
+  "freq": 113
+ },
+ {
+  "key": "resistances",
+  "form": "résistances",
+  "freq": 113
+ },
+ {
+  "key": "parallele",
+  "form": "parallèle",
+  "freq": 109
+ },
+ {
+  "key": "nf",
+  "form": "nF",
+  "freq": 108
+ },
+ {
+  "key": "radioamateurs",
+  "form": "radioamateurs",
+  "freq": 108
+ },
+ {
+  "key": "onde",
+  "form": "onde",
+  "freq": 107
+ },
+ {
+  "key": "fm",
+  "form": "FM",
+  "freq": 105
+ },
+ {
+  "key": "bouchon",
+  "form": "bouchon",
+  "freq": 104
+ },
+ {
+  "key": "charge",
+  "form": "charge",
+  "freq": 103
+ },
+ {
+  "key": "emission",
+  "form": "émission",
+  "freq": 103
+ },
+ {
+  "key": "largeur",
+  "form": "largeur",
+  "freq": 102
+ },
+ {
+  "key": "watts",
+  "form": "watts",
+  "freq": 102
+ },
+ {
+  "key": "droit",
+  "form": "droit",
+  "freq": 101
+ },
+ {
+  "key": "utilise",
+  "form": "utilisé",
+  "freq": 101
+ },
+ {
+  "key": "examen",
+  "form": "examen",
+  "freq": 100
+ },
+ {
+  "key": "formule",
+  "form": "formule",
+  "freq": 100
+ },
+ {
+  "key": "primaire",
+  "form": "primaire",
+  "freq": 100
+ },
+ {
+  "key": "bandes",
+  "form": "bandes",
+  "freq": 99
+ },
+ {
+  "key": "calcul",
+  "form": "calcul",
+  "freq": 98
+ },
+ {
+  "key": "ligne",
+  "form": "ligne",
+  "freq": 95
+ },
+ {
+  "key": "nombre",
+  "form": "nombre",
+  "freq": 93
+ },
+ {
+  "key": "fonction",
+  "form": "fonction",
+  "freq": 92
+ },
+ {
+  "key": "ghz",
+  "form": "GHz",
+  "freq": 92
+ },
+ {
+  "key": "transmission",
+  "form": "transmission",
+  "freq": 92
+ },
+ {
+  "key": "lettre",
+  "form": "lettre",
+  "freq": 91
+ },
+ {
+  "key": "resonance",
+  "form": "résonance",
+  "freq": 91
+ },
+ {
+  "key": "service",
+  "form": "service",
+  "freq": 90
+ },
+ {
+  "key": "operateur",
+  "form": "opérateur",
+  "freq": 89
+ },
+ {
+  "key": "phase",
+  "form": "phase",
+  "freq": 87
+ },
+ {
+  "key": "valeurs",
+  "form": "valeurs",
+  "freq": 87
+ },
+ {
+  "key": "amateur",
+  "form": "amateur",
+  "freq": 86
+ },
+ {
+  "key": "capacite",
+  "form": "capacité",
+  "freq": 86
+ },
+ {
+  "key": "limites",
+  "form": "limites",
+  "freq": 84
+ },
+ {
+  "key": "champ",
+  "form": "champ",
+  "freq": 83
+ },
+ {
+  "key": "bornes",
+  "form": "bornes",
+  "freq": 82
+ },
+ {
+  "key": "partie",
+  "form": "partie",
+  "freq": 82
+ },
+ {
+  "key": "bf",
+  "form": "BF",
+  "freq": 81
+ },
+ {
+  "key": "cm",
+  "form": "cm",
+  "freq": 80
+ },
+ {
+  "key": "region",
+  "form": "région",
+  "freq": 80
+ },
+ {
+  "key": "mesure",
+  "form": "mesure",
+  "freq": 79
+ },
+ {
+  "key": "fi",
+  "form": "FI",
+  "freq": 78
+ },
+ {
+  "key": "fox-trot",
+  "form": "Fox-Trot",
+  "freq": 78
+ },
+ {
+  "key": "mois",
+  "form": "mois",
+  "freq": 78
+ },
+ {
+  "key": "reglementation",
+  "form": "réglementation",
+  "freq": 78
+ },
+ {
+  "key": "blu",
+  "form": "BLU",
+  "freq": 77
+ },
+ {
+  "key": "charlie",
+  "form": "charlie",
+  "freq": 76
+ },
+ {
+  "key": "francais",
+  "form": "français",
+  "freq": 76
+ },
+ {
+  "key": "am",
+  "form": "AM",
+  "freq": 75
+ },
+ {
+  "key": "permet",
+  "form": "permet",
+  "freq": 75
+ },
+ {
+  "key": "uniquement",
+  "form": "uniquement",
+  "freq": 75
+ },
+ {
+  "key": "partagee statut",
+  "form": "partagee statut",
+  "freq": 74
+ },
+ {
+  "key": "sens",
+  "form": "sens",
+  "freq": 74
+ },
+ {
+  "key": "spires",
+  "form": "spires",
+  "freq": 74
+ },
+ {
+  "key": "transistor",
+  "form": "transistor",
+  "freq": 74
+ },
+ {
+  "key": "calculer",
+  "form": "calculer",
+  "freq": 73
+ },
+ {
+  "key": "condensateurs",
+  "form": "condensateurs",
+  "freq": 73
+ },
+ {
+  "key": "type",
+  "form": "type",
+  "freq": 73
+ },
+ {
+  "key": "etage",
+  "form": "étage",
+  "freq": 72
+ },
+ {
+  "key": "modulante",
+  "form": "modulante",
+  "freq": 72
+ },
+ {
+  "key": "point",
+  "form": "point",
+  "freq": 72
+ },
+ {
+  "key": "crete",
+  "form": "crête",
+  "freq": 70
+ },
+ {
+  "key": "delta",
+  "form": "delta",
+  "freq": 70
+ },
+ {
+  "key": "egalite",
+  "form": "égalité",
+  "freq": 70
+ },
+ {
+  "key": "ros",
+  "form": "ROS",
+  "freq": 70
+ },
+ {
+  "key": "stations",
+  "form": "stations",
+  "freq": 70
+ },
+ {
+  "key": "temps",
+  "form": "temps",
+  "freq": 70
+ },
+ {
+  "key": "utiliser",
+  "form": "utiliser",
+  "freq": 70
+ },
+ {
+  "key": "diode",
+  "form": "diode",
+  "freq": 69
+ },
+ {
+  "key": "foxtrot",
+  "form": "Foxtrot",
+  "freq": 69
+ },
+ {
+  "key": "reception",
+  "form": "réception",
+  "freq": 69
+ },
+ {
+  "key": "anfr",
+  "form": "anfr",
+  "freq": 68
+ },
+ {
+  "key": "bas",
+  "form": "bas",
+  "freq": 68
+ },
+ {
+  "key": "classe d'emission",
+  "form": "classe d'emission",
+  "freq": 68
+ },
+ {
+  "key": "double",
+  "form": "double",
+  "freq": 68
+ },
+ {
+  "key": "laterale",
+  "form": "latérale",
+  "freq": 68
+ },
+ {
+  "key": "selon",
+  "form": "selon",
+  "freq": 68
+ },
+ {
+  "key": "telegraphie",
+  "form": "télégraphie",
+  "freq": 68
+ },
+ {
+  "key": "amplitude",
+  "form": "amplitude",
+  "freq": 67
+ },
+ {
+  "key": "melangeur",
+  "form": "mélangeur",
+  "freq": 67
+ },
+ {
+  "key": "base",
+  "form": "base",
+  "freq": 66
+ },
+ {
+  "key": "donnees",
+  "form": "données",
+  "freq": 66
+ },
+ {
+  "key": "emettre",
+  "form": "émettre",
+  "freq": 66
+ },
+ {
+  "key": "epellation",
+  "form": "épellation",
+  "freq": 66
+ },
+ {
+  "key": "formules",
+  "form": "formules",
+  "freq": 65
+ },
+ {
+  "key": "aucune",
+  "form": "aucune",
+  "freq": 64
+ },
+ {
+  "key": "doublet",
+  "form": "doublet",
+  "freq": 64
+ },
+ {
+  "key": "technique",
+  "form": "technique",
+  "freq": 64
+ },
+ {
+  "key": "utilisee",
+  "form": "utilisée",
+  "freq": 64
+ },
+ {
+  "key": "statut secondaire",
+  "form": "statut secondaire",
+  "freq": 63
+ },
+ {
+  "key": "diodes",
+  "form": "diodes",
+  "freq": 62
+ },
+ {
+  "key": "modulation d'amplitude",
+  "form": "modulation d'amplitude",
+  "freq": 62
+ },
+ {
+  "key": "passante",
+  "form": "passante",
+  "freq": 62
+ },
+ {
+  "key": "rf",
+  "form": "RF",
+  "freq": 62
+ },
+ {
+  "key": "rr",
+  "form": "RR",
+  "freq": 61
+ },
+ {
+  "key": "antennes",
+  "form": "antennes",
+  "freq": 60
+ },
+ {
+  "key": "correspond",
+  "form": "correspond",
+  "freq": 60
+ },
+ {
+  "key": "faible",
+  "form": "faible",
+  "freq": 60
+ },
+ {
+  "key": "cw",
+  "form": "cw",
+  "freq": 59
+ },
+ {
+  "key": "facteur",
+  "form": "facteur",
+  "freq": 59
+ },
+ {
+  "key": "indicatifs",
+  "form": "indicatifs",
+  "freq": 59
+ },
+ {
+  "key": "niveau",
+  "form": "niveau",
+  "freq": 59
+ },
+ {
+  "key": "oscillateur",
+  "form": "oscillateur",
+  "freq": 59
+ },
+ {
+  "key": "ampli",
+  "form": "ampli",
+  "freq": 58
+ },
+ {
+  "key": "c'est",
+  "form": "c'est",
+  "freq": 58
+ },
+ {
+  "key": "dois-je",
+  "form": "DOIS-JE",
+  "freq": 58
+ },
+ {
+  "key": "porteuse modulante",
+  "form": "porteuse modulante",
+  "freq": 58
+ },
+ {
+  "key": "certificat",
+  "form": "certificat",
+  "freq": 57
+ },
+ {
+  "key": "ci-dessous",
+  "form": "ci-dessous",
+  "freq": 57
+ },
+ {
+  "key": "forme",
+  "form": "forme",
+  "freq": 57
+ },
+ {
+  "key": "appel",
+  "form": "appel",
+  "freq": 56
+ },
+ {
+  "key": "magnetique",
+  "form": "magnétique",
+  "freq": 56
+ },
+ {
+  "key": "produit",
+  "form": "produit",
+  "freq": 56
+ },
+ {
+  "key": "conditions",
+  "form": "conditions",
+  "freq": 55
+ },
+ {
+  "key": "fois",
+  "form": "fois",
+  "freq": 55
+ },
+ {
+  "key": "haut",
+  "form": "haut",
+  "freq": 55
+ },
+ {
+  "key": "limite",
+  "form": "limite",
+  "freq": 55
+ },
+ {
+  "key": "mw",
+  "form": "mW",
+  "freq": 55
+ },
+ {
+  "key": "numerique",
+  "form": "numérique",
+  "freq": 55
+ },
+ {
+  "key": "telephonie",
+  "form": "téléphonie",
+  "freq": 55
+ },
+ {
+  "key": "analogique",
+  "form": "analogique",
+  "freq": 54
+ },
+ {
+  "key": "inverse",
+  "form": "inverse",
+  "freq": 54
+ },
+ {
+  "key": "precaire",
+  "form": "précaire",
+  "freq": 54
+ },
+ {
+  "key": "revocable",
+  "form": "révocable",
+  "freq": 54
+ },
+ {
+  "key": "symbole",
+  "form": "symbole",
+  "freq": 54
+ },
+ {
+  "key": "taux",
+  "form": "taux",
+  "freq": 54
+ },
+ {
+  "key": "augmente",
+  "form": "augmente",
+  "freq": 53
+ },
+ {
+  "key": "autorisee",
+  "form": "autorisée",
+  "freq": 53
+ },
+ {
+  "key": "demi-onde",
+  "form": "demi-onde",
+  "freq": 53
+ },
+ {
+  "key": "montage",
+  "form": "montage",
+  "freq": 53
+ },
+ {
+  "key": "classes",
+  "form": "classes",
+  "freq": 52
+ },
+ {
+  "key": "exemples",
+  "form": "exemples",
+  "freq": 52
+ },
+ {
+  "key": "radio",
+  "form": "radio",
+  "freq": 52
+ },
+ {
+  "key": "relais",
+  "form": "relais",
+  "freq": 52
+ },
+ {
+  "key": "souvent",
+  "form": "souvent",
+  "freq": 52
+ },
+ {
+  "key": "bruit",
+  "form": "bruit",
+  "freq": 51
+ },
+ {
+  "key": "dissipee",
+  "form": "dissipée",
+  "freq": 51
+ },
+ {
+  "key": "eme",
+  "form": "ème",
+  "freq": 51
+ },
+ {
+  "key": "periode",
+  "form": "période",
+  "freq": 51
+ },
+ {
+  "key": "peuvent",
+  "form": "peuvent",
+  "freq": 51
+ },
+ {
+  "key": "circuits",
+  "form": "circuits",
+  "freq": 50
+ },
+ {
+  "key": "elements",
+  "form": "éléments",
+  "freq": 50
+ },
+ {
+  "key": "lettres",
+  "form": "lettres",
+  "freq": 50
+ },
+ {
+  "key": "superieure",
+  "form": "supérieure",
+  "freq": 50
+ },
+ {
+  "key": "modulateur",
+  "form": "modulateur",
+  "freq": 49
+ },
+ {
+  "key": "rayonnement",
+  "form": "rayonnement",
+  "freq": 49
+ },
+ {
+  "key": "satellite",
+  "form": "satellite",
+  "freq": 49
+ },
+ {
+  "key": "arrete",
+  "form": "arrêté",
+  "freq": 48
+ },
+ {
+  "key": "cours",
+  "form": "cours",
+  "freq": 48
+ },
+ {
+  "key": "emissions",
+  "form": "émissions",
+  "freq": 48
+ },
+ {
+  "key": "fil",
+  "form": "fil",
+  "freq": 48
+ },
+ {
+  "key": "partagee statut secondaire",
+  "form": "partagee statut secondaire",
+  "freq": 47
+ },
+ {
+  "key": "passer",
+  "form": "passer",
+  "freq": 47
+ },
+ {
+  "key": "perte",
+  "form": "perte",
+  "freq": 47
+ },
+ {
+  "key": "represente",
+  "form": "représente",
+  "freq": 47
+ },
+ {
+  "key": "whiskey",
+  "form": "Whiskey",
+  "freq": 47
+ },
+ {
+  "key": "cept",
+  "form": "CEPT",
+  "freq": 46
+ },
+ {
+  "key": "coaxial",
+  "form": "coaxial",
+  "freq": 46
+ },
+ {
+  "key": "correcte",
+  "form": "CORRECTE",
+  "freq": 46
+ },
+ {
+  "key": "decision",
+  "form": "decision",
+  "freq": 46
+ },
+ {
+  "key": "duree",
+  "form": "durée",
+  "freq": 46
+ },
+ {
+  "key": "egale",
+  "form": "égale",
+  "freq": 46
+ },
+ {
+  "key": "electrique",
+  "form": "électrique",
+  "freq": 46
+ },
+ {
+  "key": "ensemble",
+  "form": "ensemble",
+  "freq": 46
+ },
+ {
+  "key": "epellation correcte",
+  "form": "epellation correcte",
+  "freq": 46
+ },
+ {
+  "key": "force",
+  "form": "force",
+  "freq": 46
+ },
+ {
+  "key": "gamme",
+  "form": "gamme",
+  "freq": 46
+ },
+ {
+  "key": "kohms",
+  "form": "KOHMS",
+  "freq": 46
+ },
+ {
+  "key": "mm",
+  "form": "mm",
+  "freq": 46
+ },
+ {
+  "key": "arcep",
+  "form": "ARCEP",
+  "freq": 45
+ },
+ {
+  "key": "km",
+  "form": "km",
+  "freq": 45
+ },
+ {
+  "key": "operateurs",
+  "form": "opérateurs",
+  "freq": 45
+ },
+ {
+  "key": "propagation",
+  "form": "propagation",
+  "freq": 45
+ },
+ {
+  "key": "trois",
+  "form": "trois",
+  "freq": 45
+ },
+ {
+  "key": "demande",
+  "form": "demande",
+  "freq": 44
+ },
+ {
+  "key": "emploi",
+  "form": "emploi",
+  "freq": 44
+ },
+ {
+  "key": "rad",
+  "form": "rad",
+  "freq": 44
+ },
+ {
+  "key": "brin",
+  "form": "brin",
+  "freq": 43
+ },
+ {
+  "key": "dephasage",
+  "form": "déphasage",
+  "freq": 43
+ },
+ {
+  "key": "detecteur",
+  "form": "détecteur",
+  "freq": 43
+ },
+ {
+  "key": "direction",
+  "form": "direction",
+  "freq": 43
+ },
+ {
+  "key": "droite",
+  "form": "droite",
+  "freq": 43
+ },
+ {
+  "key": "elevee",
+  "form": "élevée",
+  "freq": 43
+ },
+ {
+  "key": "sol",
+  "form": "sol",
+  "freq": 43
+ },
+ {
+  "key": "volts",
+  "form": "volts",
+  "freq": 43
+ },
+ {
+  "key": "xyz",
+  "form": "XYZ",
+  "freq": 43
+ },
+ {
+  "key": "calculette",
+  "form": "calculette",
+  "freq": 42
+ },
+ {
+  "key": "diminue",
+  "form": "diminue",
+  "freq": 42
+ },
+ {
+  "key": "loi",
+  "form": "loi",
+  "freq": 42
+ },
+ {
+  "key": "ms",
+  "form": "ms",
+  "freq": 42
+ },
+ {
+  "key": "n'est",
+  "form": "n'est",
+  "freq": 42
+ },
+ {
+  "key": "ans",
+  "form": "ans",
+  "freq": 41
+ },
+ {
+  "key": "compose",
+  "form": "composé",
+  "freq": 41
+ },
+ {
+  "key": "courants",
+  "form": "courants",
+  "freq": 41
+ },
+ {
+  "key": "fo",
+  "form": "fo",
+  "freq": 41
+ },
+ {
+  "key": "premier",
+  "form": "premier",
+  "freq": 41
+ },
+ {
+  "key": "seule",
+  "form": "seule",
+  "freq": 41
+ },
+ {
+  "key": "television",
+  "form": "télévision",
+  "freq": 41
+ },
+ {
+  "key": "unique",
+  "form": "unique",
+  "freq": 41
+ },
+ {
+  "key": "alimentation",
+  "form": "alimentation",
+  "freq": 40
+ },
+ {
+  "key": "efficace",
+  "form": "efficace",
+  "freq": 40
+ },
+ {
+  "key": "kilo",
+  "form": "kilo",
+  "freq": 40
+ },
+ {
+  "key": "note",
+  "form": "note",
+  "freq": 40
+ },
+ {
+  "key": "tango",
+  "form": "Tango",
+  "freq": 40
+ },
+ {
+  "key": "zoulou",
+  "form": "zoulou",
+  "freq": 40
+ },
+ {
+  "key": "attribue",
+  "form": "attribué",
+  "freq": 39
+ },
+ {
+  "key": "centre",
+  "form": "centre",
+  "freq": 39
+ },
+ {
+  "key": "dipole",
+  "form": "dipôle",
+  "freq": 39
+ },
+ {
+  "key": "epreuve",
+  "form": "épreuve",
+  "freq": 39
+ },
+ {
+  "key": "groupement",
+  "form": "groupement",
+  "freq": 39
+ },
+ {
+  "key": "mobile",
+  "form": "mobile",
+  "freq": 39
+ },
+ {
+  "key": "mode",
+  "form": "mode",
+  "freq": 39
+ },
+ {
+  "key": "spectre",
+  "form": "spectre",
+  "freq": 39
+ },
+ {
+  "key": "transformateur",
+  "form": "transformateur",
+  "freq": 39
+ },
+ {
+  "key": "bagues",
+  "form": "bagues",
+  "freq": 38
+ },
+ {
+  "key": "circuit bouchon",
+  "form": "circuit bouchon",
+  "freq": 38
+ },
+ {
+  "key": "programme",
+  "form": "programme",
+  "freq": 38
+ },
+ {
+  "key": "radio-club",
+  "form": "radio-club",
+  "freq": 38
+ },
+ {
+  "key": "utilisation",
+  "form": "utilisation",
+  "freq": 38
+ },
+ {
+  "key": "appele",
+  "form": "appelé",
+  "freq": 37
+ },
+ {
+  "key": "bien",
+  "form": "bien",
+  "freq": 37
+ },
+ {
+  "key": "champ magnetique",
+  "form": "champ magnetique",
+  "freq": 37
+ },
+ {
+  "key": "correspondant",
+  "form": "correspondant",
+  "freq": 37
+ },
+ {
+  "key": "couche",
+  "form": "couche",
+  "freq": 37
+ },
+ {
+  "key": "coupure",
+  "form": "coupure",
+  "freq": 37
+ },
+ {
+  "key": "dite",
+  "form": "dite",
+  "freq": 37
+ },
+ {
+  "key": "pile",
+  "form": "pile",
+  "freq": 37
+ },
+ {
+  "key": "premiere",
+  "form": "première",
+  "freq": 37
+ },
+ {
+  "key": "bord",
+  "form": "bord",
+  "freq": 36
+ },
+ {
+  "key": "coefficient",
+  "form": "coefficient",
+  "freq": 36
+ },
+ {
+  "key": "distorsion",
+  "form": "distorsion",
+  "freq": 36
+ },
+ {
+  "key": "etages",
+  "form": "étages",
+  "freq": 36
+ },
+ {
+  "key": "fixe",
+  "form": "fixe",
+  "freq": 36
+ },
+ {
+  "key": "generateur",
+  "form": "générateur",
+  "freq": 36
+ },
+ {
+  "key": "notee",
+  "form": "notée",
+  "freq": 36
+ },
+ {
+  "key": "parasites",
+  "form": "parasites",
+  "freq": 36
+ },
+ {
+  "key": "qsa",
+  "form": "QSA",
+  "freq": 36
+ },
+ {
+  "key": "rayonnements",
+  "form": "rayonnements",
+  "freq": 36
+ },
+ {
+  "key": "reflechie",
+  "form": "réfléchie",
+  "freq": 36
+ },
+ {
+  "key": "rendement",
+  "form": "rendement",
+  "freq": 36
+ },
+ {
+  "key": "service amateur",
+  "form": "service amateur",
+  "freq": 36
+ },
+ {
+  "key": "tensions",
+  "form": "tensions",
+  "freq": 36
+ },
+ {
+  "key": "terre",
+  "form": "terre",
+  "freq": 36
+ },
+ {
+  "key": "vide",
+  "form": "vide",
+  "freq": 36
+ },
+ {
+  "key": "voltmetre",
+  "form": "voltmètre",
+  "freq": 36
+ },
+ {
+  "key": "attenuation",
+  "form": "atténuation",
+  "freq": 35
+ },
+ {
+  "key": "augmenter",
+  "form": "augmenter",
+  "freq": 35
+ },
+ {
+  "key": "bleu",
+  "form": "bleu",
+  "freq": 35
+ },
+ {
+  "key": "capacite equivalente",
+  "form": "capacite equivalente",
+  "freq": 35
+ },
+ {
+  "key": "chiffre",
+  "form": "chiffre",
+  "freq": 35
+ },
+ {
+  "key": "dbm",
+  "form": "DBM",
+  "freq": 35
+ },
+ {
+  "key": "devient",
+  "form": "devient",
+  "freq": 35
+ },
+ {
+  "key": "fc",
+  "form": "fc",
+  "freq": 35
+ },
+ {
+  "key": "vhf",
+  "form": "VHF",
+  "freq": 35
+ },
+ {
+  "key": "article",
+  "form": "article",
+  "freq": 34
+ },
+ {
+  "key": "bobines",
+  "form": "bobines",
+  "freq": 34
+ },
+ {
+  "key": "cag",
+  "form": "CAG",
+  "freq": 34
+ },
+ {
+  "key": "caracteristiques",
+  "form": "caractéristiques",
+  "freq": 34
+ },
+ {
+  "key": "communications",
+  "form": "communications",
+  "freq": 34
+ },
+ {
+  "key": "divisee",
+  "form": "divisée",
+  "freq": 34
+ },
+ {
+  "key": "doublet demi-onde",
+  "form": "doublet demi-onde",
+  "freq": 34
+ },
+ {
+  "key": "exclusif",
+  "form": "exclusif",
+  "freq": 34
+ },
+ {
+  "key": "harmoniques",
+  "form": "harmoniques",
+  "freq": 34
+ },
+ {
+  "key": "lc",
+  "form": "LC",
+  "freq": 34
+ },
+ {
+  "key": "passe bas",
+  "form": "passe bas",
+  "freq": 34
+ },
+ {
+  "key": "pire",
+  "form": "PIRE",
+  "freq": 34
+ },
+ {
+  "key": "pouvez-vous",
+  "form": "POUVEZ-VOUS",
+  "freq": 34
+ },
+ {
+  "key": "radioelectriques",
+  "form": "radioélectriques",
+  "freq": 34
+ },
+ {
+  "key": "rc",
+  "form": "RC",
+  "freq": 34
+ },
+ {
+  "key": "rouge",
+  "form": "rouge",
+  "freq": 34
+ },
+ {
+  "key": "zone",
+  "form": "zone",
+  "freq": 34
+ },
+ {
+  "key": "automatique",
+  "form": "automatique",
+  "freq": 33
+ },
+ {
+  "key": "contact",
+  "form": "contact",
+  "freq": 33
+ },
+ {
+  "key": "doivent",
+  "form": "doivent",
+  "freq": 33
+ },
+ {
+  "key": "effet",
+  "form": "effet",
+  "freq": 33
+ },
+ {
+  "key": "emet",
+  "form": "émet",
+  "freq": 33
+ },
+ {
+  "key": "emploi d'une",
+  "form": "emploi d'une",
+  "freq": 33
+ },
+ {
+  "key": "fonctionnement",
+  "form": "fonctionnement",
+  "freq": 33
+ },
+ {
+  "key": "longueur d'onde",
+  "form": "longueur d'onde",
+  "freq": 33
+ },
+ {
+  "key": "max",
+  "form": "max",
+  "freq": 33
+ },
+ {
+  "key": "modifie",
+  "form": "modifie",
+  "freq": 33
+ },
+ {
+  "key": "octave",
+  "form": "octave",
+  "freq": 33
+ },
+ {
+  "key": "porte",
+  "form": "porte",
+  "freq": 33
+ },
+ {
+  "key": "puissances",
+  "form": "puissances",
+  "freq": 33
+ },
+ {
+  "key": "recevoir",
+  "form": "recevoir",
+  "freq": 33
+ },
+ {
+  "key": "systeme",
+  "form": "système",
+  "freq": 33
+ },
+ {
+  "key": "tableau",
+  "form": "tableau",
+  "freq": 33
+ },
+ {
+  "key": "uhf",
+  "form": "UHF",
+  "freq": 33
+ },
+ {
+  "key": "utilisees",
+  "form": "utilisées",
+  "freq": 33
+ },
+ {
+  "key": "ci-dessus",
+  "form": "ci-dessus",
+  "freq": 32
+ },
+ {
+  "key": "electrons",
+  "form": "électrons",
+  "freq": 32
+ },
+ {
+  "key": "impedances",
+  "form": "impédances",
+  "freq": 32
+ },
+ {
+  "key": "laterale unique",
+  "form": "laterale unique",
+  "freq": 32
+ },
+ {
+  "key": "lieu",
+  "form": "lieu",
+  "freq": 32
+ },
+ {
+  "key": "lima",
+  "form": "Lima",
+  "freq": 32
+ },
+ {
+  "key": "masse",
+  "form": "masse",
+  "freq": 32
+ },
+ {
+  "key": "maxi",
+  "form": "maxi",
+  "freq": 32
+ },
+ {
+  "key": "ordre",
+  "form": "ordre",
+  "freq": 32
+ },
+ {
+  "key": "peu",
+  "form": "peu",
+  "freq": 32
+ },
+ {
+  "key": "selectivite",
+  "form": "sélectivité",
+  "freq": 32
+ },
+ {
+  "key": "special",
+  "form": "spécial",
+  "freq": 32
+ },
+ {
+  "key": "suivi",
+  "form": "suivi",
+  "freq": 32
+ },
+ {
+  "key": "tos",
+  "form": "TOS",
+  "freq": 32
+ },
+ {
+  "key": "aura",
+  "form": "aura",
+  "freq": 31
+ },
+ {
+  "key": "autorisation",
+  "form": "autorisation",
+  "freq": 31
+ },
+ {
+  "key": "constitue",
+  "form": "constitué",
+  "freq": 31
+ },
+ {
+  "key": "energie",
+  "form": "énergie",
+  "freq": 31
+ },
+ {
+  "key": "etant",
+  "form": "étant",
+  "freq": 31
+ },
+ {
+  "key": "forte",
+  "form": "forte",
+  "freq": 31
+ },
+ {
+  "key": "golf",
+  "form": "Golf",
+  "freq": 31
+ },
+ {
+  "key": "image",
+  "form": "image",
+  "freq": 31
+ },
+ {
+  "key": "maximale",
+  "form": "maximale",
+  "freq": 31
+ },
+ {
+  "key": "multiplicateur",
+  "form": "multiplicateur",
+  "freq": 31
+ },
+ {
+  "key": "nulle",
+  "form": "nulle",
+  "freq": 31
+ },
+ {
+  "key": "obtenir",
+  "form": "obtenir",
+  "freq": 31
+ },
+ {
+  "key": "rayonnee",
+  "form": "rayonnée",
+  "freq": 31
+ },
+ {
+  "key": "recommandation",
+  "form": "recommandation",
+  "freq": 31
+ },
+ {
+  "key": "section",
+  "form": "section",
+  "freq": 31
+ },
+ {
+  "key": "statut primaire",
+  "form": "statut primaire",
+  "freq": 31
+ },
+ {
+  "key": "synoptique",
+  "form": "synoptique",
+  "freq": 31
+ },
+ {
+  "key": "utilisant",
+  "form": "utilisant",
+  "freq": 31
+ },
+ {
+  "key": "x-ray",
+  "form": "X-Ray",
+  "freq": 31
+ },
+ {
+  "key": "demodulateur",
+  "form": "démodulateur",
+  "freq": 30
+ },
+ {
+  "key": "dessin",
+  "form": "dessin",
+  "freq": 30
+ },
+ {
+  "key": "essentiels",
+  "form": "essentiels",
+  "freq": 30
+ },
+ {
+  "key": "faire",
+  "form": "faire",
+  "freq": 30
+ },
+ {
+  "key": "genere",
+  "form": "généré",
+  "freq": 30
+ },
+ {
+  "key": "mike",
+  "form": "Mike",
+  "freq": 30
+ },
+ {
+  "key": "monte",
+  "form": "monté",
+  "freq": 30
+ },
+ {
+  "key": "multiples",
+  "form": "multiples",
+  "freq": 30
+ },
+ {
+  "key": "or",
+  "form": "OR",
+  "freq": 30
+ },
+ {
+  "key": "phonetique",
+  "form": "phonétique",
+  "freq": 30
+ },
+ {
+  "key": "portable",
+  "form": "portable",
+  "freq": 30
+ },
+ {
+  "key": "position",
+  "form": "position",
+  "freq": 30
+ },
+ {
+  "key": "qrz",
+  "form": "QRZ",
+  "freq": 30
+ },
+ {
+  "key": "saint",
+  "form": "Saint",
+  "freq": 30
+ },
+ {
+  "key": "alfa",
+  "form": "Alfa",
+  "freq": 29
+ }
+]

@@ -1,0 +1,2183 @@
+[
+ {
+  "id": "K061",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T101a",
+  "seclab": "10.1",
+  "n_q": 12,
+  "cours_fr": "10.1a ). Exemple : Quel est le gain (en dB) de l’ensemble de réception représenté ci-dessous ? Réponse : Perte du câble coaxial au mètre : 3 dB / 100 = 0,03 dB donc perte du câble coaxial : 0,03 dB/m x 33 m = 1 dB Gain de l'ensemble : 19 dB + 20 dB – 1 dB – 2 dB = 36 dB (soit un rapport arithmétique de 4000 ) Calcul de la perte du câble à partir du rapport arithmétique : perte arithmétique pour 100 mètres = 0,5 donc pour 1/3 de longueur de câble, perte arithmétique = 3 &#8730;(0,5) « racine cubique de 0,5 » &#8776; 0,8 soit 20% pour 33 mètres. Par tâtonnements, on trouve que 0,8 3 = 0,8 x 0,8 x 0,8 &#8776; 0,5 ; donc 3 &#8730;(0,5) (= 0,5 1/3 ) &#8776; 0,8. La racine cubique (notée 3 &#8730;) est utilisée car la longueur du coaxial (33 m) est de 1/3 de la longueur de référence (100 m). Si le câble utilisé était long de 200 m, la perte arithmétique serait de 0,5² = 0,25 (= 1/4 = –6 dB, soit 0,03 dB x 200). La simplification en calculant avec les décibels est évidente dans cet exemple. Les calculs seraient difficilement réalisables si les rapports des longueurs n’étaient pas des rapports simples (1/3 et x2 dans nos exemples). Autres conversions : antenne : 19 dB correspond à un rapport de 80 ; préamplificateur : 20 dB correspond à un rapport de 100 ; connecteur HF : -2 dB correspond à un rapport de 1 / 1,58 soit 0,63. Ca lcul du rapport arithmétique de l’ensemble : 80 x 100 x 0,8 x 0,63 = 4032 &#8776; 4000 (écart dû aux arrondis) f Lorsque les valeurs du rapport sont exprimées en tension , les formules deviennent : Gain (dB) = 20 log (U s / U e ) ou U s = 10 (dB / 20) . U e . Le rapport des puissances est le carré du rapport des tensions (car P = U² / R). Le gain (en dB) est le double de celui calculé lorsque les valeurs sont exprimées en watts (effet du logarithme) : un rapport de tension de 2 correspond à 6 dB (=3 dB x 2 ; 3 dB correspond à un rapport de puissance de 2). Exemple : Quel est le gain (en dB) de l’amplificateur représenté ci-dessous ? Réponse : Le rapport des tensions est U s / U e = 16 / 8 = 2. Le rapport des puissances est donc 2² = 4. Le rapport de puissance de 4 correspond à un gain de 6 dB (= 3 dB x 2) Autre méthode : Gain = 20 log (U s / U e ) = 20 log (8 / 4) = 20 log (2) = 20 x 0,3 = 6 dB Attention : ceci n’est valable que si les impédances d’entrée et de sortie (Z e et Z s ) sont identiques. Sinon, la formule devient : Gain (dB) = 20 log (U s / U e ) + 10 log (Z e / Z s ) puisque, à tension égale, la puissance est inversement proportionnelle à l’impédance (P = U² / R). a",
+  "samples": [
+   {
+    "num": "20191",
+    "stem_fr": "AFFAIBLISSEMENT LINEIQUE",
+    "options": [
+     "0,1 dB/m ",
+     "0,6 dB/m",
+     "5 dB/m",
+     "0,2 dB/m"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "0,2 dB/m",
+    "commentaire_fr": "puissance divisée par 4 = -6 dB ; 6 dB / 30 m = 0,2 dB/m. Ce type de question est également posé à l’épreuve de réglementation\n",
+    "stem_zh": "单位长度衰减"
+   },
+   {
+    "num": "20192",
+    "stem_fr": "AFFAIBLISSEMENT LINEIQUE",
+    "options": [
+     "0,2 dB/m ",
+     "0,1 dB/m",
+     "0,6 dB/m",
+     "0,4 dB/m"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "0,1 dB/m",
+    "commentaire_fr": "affaiblissement = 3 dB, affaiblissement linéique = 3/30 = 0,1 dB/m. Ce type de question est également posé à l’épreuve de réglementation\n",
+    "stem_zh": "每米衰减是多少？"
+   },
+   {
+    "num": "20194",
+    "stem_fr": "AFFAIBLISSEMENT LINEIQUE",
+    "options": [
+     "0,6 dB/m ",
+     "0,2 dB/m",
+     "0,4 dB/m",
+     "0,1 dB/m"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "0,4 dB/m",
+    "commentaire_fr": "l’affaiblissement est double lorsque les valeurs sont en volts. Dans cette question, l’atténuation serait de 6 dB si c’était en watts mais ce sont des volts donc : 6 x 2 = 12 dB pour 30 mètres, donc : 0,4 dB/m\n",
+    "stem_zh": "单位长度衰减"
+   },
+   {
+    "num": "20193",
+    "stem_fr": "AFFAIBLISSEMENT LINEIQUE",
+    "options": [
+     "0,09 dB/m ",
+     "3,03 dB/m",
+     "0,19 dB/m",
+     "1,51 dB/m"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "0,09 dB/m ",
+    "commentaire_fr": "puissance divisée par deux = -3 dB ; 3 dB / 33 m = 0,0909 dB/m arrondi à 0,09. Ce type de question est également posé à l’épreuve de réglementation\n",
+    "stem_zh": "每米衰减是多少？"
+   },
+   {
+    "num": "20794",
+    "stem_fr": "PUISSANCE DE 20 W APPLIQUEE A UN CABLE COAXIAL DE 75 OHMS. \nQUELLE EST LA TENSION EFFICACE ?",
+    "options": [
+     "54,7 V",
+     "27,4 V",
+     "38,7 V",
+     "14 V"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "38,7 V",
+    "commentaire_fr": "U = racine (PR) = 38,7 Veff. Il faudra, bien entendu, que le câble soit parfaitement alimenté et chargé (impédances d’entrée et de sortie égales à l’impédance caractéristique du câble).\n",
+    "stem_zh": "20 W 功率加在 75 Ω 的同轴电缆上，有效电压是多少？"
+   },
+   {
+    "num": "21180",
+    "stem_fr": "SOIT UN CABLE AYANT UNE PERTE CARACTERISTIQUE DE 3 DB POUR 100 METRES, QUELLE SERA LA PERTE  POUR 33 METRES ?",
+    "options": [
+     "10 %",
+     "1 dB",
+     "9 dB",
+     "1,5 dB"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1 dB",
+    "commentaire_fr": "3dB pour 100 mètres, donc pour 33 mètres : 3dB / 100 x 33 = 1 dB (valeur arrondie)\n",
+    "stem_zh": "设一条电缆每 100 米的特性损耗为 3 dB，那么 33 米的损耗将是多少？"
+   },
+   {
+    "num": "20565",
+    "stem_fr": "UN SCHEMA AVEC DEUX LIGNES EN TRAITS GRAS, PARTANT DE ZE, ALLANT VERS UNE CHARGE ZC. QUELLE DOIT ETRE LA VALEUR DE ZE ?",
+    "options": [
+     "Ze doit être nulle",
+     "Ze > Zc",
+     "Ze < Zc",
+     "Ze = Zc"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Ze = Zc",
+    "commentaire_fr": "Pour un transfert de puissance optimal, l’impédance d’entrée doit être égale à celle de la charge et à l’impédance caractéristique du câble, représenté ici par un double trait gras.\nLa longueur du câble n'étant pas indiquée, la question ne porte pas sur les lignes quart d'onde et leur transformation d'impédance.\n",
+    "stem_zh": "电路图中有两条粗实线，从 Ze 出发走向负载 ZC。Ze 应为多少？"
+   },
+   {
+    "num": "20544",
+    "stem_fr": "DE QUOI DEPEND L'IMPEDANCE D'UN CABLE COAXIAL ?",
+    "options": [
+     "Longueur du câble et type d'isolant  ",
+     "Écartement entre les conducteurs ",
+     "Puissance transmise par le câble",
+     "Impédance de la source et de la charge"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Écartement entre les conducteurs ",
+    "commentaire_fr": "La longueur du câble ne change pas l’impédance caractéristique du câble. En revanche, le matériau utilisé pour former le diélectrique a une incidence sur son impédance\n",
+    "stem_zh": "同轴电缆的阻抗取决于什么？"
+   },
+   {
+    "num": "20717",
+    "stem_fr": "QUELLE IMPEDANCE VOIT-ON A L'ENTREE D'UN CABLE (DE LONGUEUR L) D'IMPEDANCE CARACTERISTIQUE 50 OHM DONT LA SORTIE EST BRANCHEE SUR UNE CHARGE D'IMPEDANCE CARACTERISTIQUE 50 OHMS ?",
+    "options": [
+     "50 Ω",
+     "50 L",
+     "25 Ω",
+     "100 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "50 Ω",
+    "commentaire_fr": "Les deux fils épais représentent une ligne de transmission (ligne bifilaire ?) dont la longueur est quelconque. Lorsque l’impédance de la charge est égale à l’impédance caractéristique de la ligne, on a Ze = Zc pour toutes les longueurs de câble\n",
+    "stem_zh": "在一段长度为 L、特性阻抗为 50 欧姆的电缆（其输出端接到 50 欧姆特性阻抗的负载上）的输入端，看到的阻抗是多少？"
+   },
+   {
+    "num": "20550",
+    "stem_fr": "SOIT UN CABLE COAXIAL DE 10 METRES DE LONG ET DE 50 OHMS D'IMPEDANCE SUR LA FREQUENCE 14,100 MHZ. QUELLE EST SON IMPEDANCE POUR UNE LONGUEUR DE 20 METRES ?",
+    "options": [
+     "25 ohms",
+     "100 ohms",
+     "50 ohms",
+     "cela dépend de l'impédance de la charge"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "50 ohms",
+    "commentaire_fr": "La longueur du câble ne change pas l’impédance caractéristique du câble.\n",
+    "stem_zh": "一根长 10 m、在 14.100 MHz 上特性阻抗为 50 Ω 的同轴电缆，长度改成 20 m 后其阻抗是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K062",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "anchor": "R34a",
+  "seclab": "R-3.4",
+  "n_q": 12,
+  "cours_fr": "R-3.4) Teneur des messages : a L’article 1 de la décision ARCEP 12-1241 rappelle les dispositions du RR : - les transmissions entre stations d'amateur doivent se limiter à des communications en rapport avec l'objet du service d'amateur , et à des remarques d'un caractère purement personnel (art S25-2 du RR) - il est interdit de coder les transmissions entre des stations d'amateur pour en obscurcir le sens, sauf s'il s'agit des signaux de commande échangés entre des stations terriennes de commande et des stations spatiales du service d'amateur par satellite dans l’objectif de garantir que tout brouillage préjudiciable causé par des émissions de telles stations puisse être éliminé immédiatement (art S25-2A du RR repris dans le §3 du préambule de la décision 12-1241) - les stations d'amateur ne peuvent pas être utilisées pour transmettre des communications en provenance ou à destination de tierces personnes non radioamateurs sauf dans des situations d'urgence ou pour les secours en cas de catastrophe (art S25-3 du RR) L’édition 1989 du « Guide du radioamateur » limitait les messages aux sujets suivants : - radioélectricité, - informatique, - astronomie et météorologie, - contenu d'une revue technique (sans faire de publicité pour ladite revue), - réglementation, - vie associative, - adresse et numéro de téléphone personnels (et pas ceux des tiers sauf dans le cas des opérations de secours), - radioguidage (toutefois, le radioguidage est interdit sur les relais sauf, occasionnellement, pour les manifestations amateurs). Quelques questions portant sur ce thème ont été recensées avec des pièges sur les mots utilisés ( par exemple : l’astronomie est autorisée mais pas l’astrologie ) b Bien que, depuis 1990, l’écoute soit libre, le secret des correspondances captées volontairement ou non doit être conservé. L'article 226-15 du code pénal (atteinte au secret des correspondances), précise que « est puni [ d'un an d'emprisonnement et de 45 000 euros d'amende] le fait, commis de mauvaise foi, d'intercepter, de détourner, d'utiliser ou de divulguer des correspondances émises, transmises ou reçues par la voie électronique ou de procéder à l'installation d'appareils conçus pour réaliser de telles interceptions » Enfin, l’article R226-7 du Code Pénal prévoit que « l 'acquisition ou la détention de tout appareil figurant sur la liste mentionnée à l'article R226-1 [notamment les scanners] est soumise à une autorisation délivrée par le Premier ministre » alors que la vente de ces appareils est libre suite à deux jugements qui, en 2002, autorisaient leur mise sur le marché ",
+  "samples": [
+   {
+    "num": "34651",
+    "stem_fr": "A-T-ON LE DROIT D'UTILISER LE CRYPTAGE ?",
+    "options": [
+     "Oui ",
+     "Oui, sauf pour les opérateurs de classe 3 ",
+     "Non",
+     "Après autorisation de l’ANFR"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Non",
+    "commentaire_fr": "Attention à ne pas confondre cryptage et codage : le cryptage est un moyen par lequel un message ne peut être lu que par son correspondant grâce à une « clé » de décryptage. A contrario, le codage est autorisé car les « clés » pour décoder un message sont publiques (le code Morse peut être décodé dès qu’on connaît la signification des points et des traits).\n",
+    "stem_zh": "有权使用加密（cryptage）吗？"
+   },
+   {
+    "num": "30763",
+    "stem_fr": "QUEL EST L'OBJET DU RADIOAMATEURISME ?",
+    "options": [
+     "convivialité ",
+     "aides aux accidents de la route",
+     "radioguidage sur relais ",
+     "conception de réseaux privés"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "radioguidage sur relais ",
+    "commentaire_fr": "Heureuesment que l'objet du radioamateurisme ne se limite pas à la seule réponse \"radioguidage sur relais\" ! . Les autres propositions sont manifestement fausses. Même si la convivialité entre OM fait le charme de notre activité...\n",
+    "stem_zh": "业余无线电活动的宗旨是什么？"
+   },
+   {
+    "num": "32538",
+    "stem_fr": "* QUELLE EST LA TENEUR DES CONVERSATIONS AUTORISEES ?",
+    "options": [
+     "radioguidage sur relais",
+     "radioguidage sur relais dans le cadre d'une manifestation radioamateur",
+     "numéro de téléphone d'un magasin",
+     "prix du matériel dans un magasin"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "radioguidage sur relais dans le cadre d'une manifestation radioamateur",
+    "commentaire_fr": "Cas de radioguidage : interdit sur relais sauf pour guider l’accès à une exposition ou toute autre manifestation radioamateur. \n\nLes textes en vigueur ne précisent pas ce cas particulier mais le bon sens permet d’éliminer les réponses fausses.\n",
+    "stem_zh": "允许的交谈内容是什么？"
+   },
+   {
+    "num": "34951",
+    "stem_fr": "DANS QUELLES CONDITIONS LES COMMUNICATIONS ENTRE LA TERRE ET UN SATELLITE RADIOAMATEUR PEUVENT-ELLES ETRE CODEES ?",
+    "options": [
+     "commande d’arrêt de transmission du satellite ",
+     "communications d’urgence",
+     "communications avec la station spatiale internationale (ISS)",
+     "les communications ne peuvent jamais être codées"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "commande d’arrêt de transmission du satellite ",
+    "commentaire_fr": "Attention à la définition très restrictive du mot codage pour l’ANFR (et le droit français en général). Ce mot s’entend plutôt au sens « cryptage » (moyen par lequel un message ne peut être lu que par son correspondant grâce à une « clé » de décryptage)\n",
+    "stem_zh": "在什么情况下，地面对业余卫星的通信可以被编码？"
+   },
+   {
+    "num": "34830",
+    "stem_fr": "QUELLE EST LA TENEUR DES CONVERSATIONS AUTORISEES ?",
+    "options": [
+     "astrologie",
+     "adresse d'un vendeur",
+     "réglementation",
+     "adresse d'un radioamateur"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "réglementation",
+    "commentaire_fr": "",
+    "stem_zh": "允许的通信内容是什么？"
+   },
+   {
+    "num": "30123",
+    "stem_fr": "* TENEUR DES CONVERSATIONS NON AUTORISEES ?\n1 - VENTE DE MATRIEL\n2 - RADIOGUIDAGE SUR LES RELAIS\n3 - ASTRONOMIE\n4 - METEOROLOGIE",
+    "options": [
+     "1,4",
+     "3,4",
+     "1,2",
+     "1,2,3"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1,2",
+    "commentaire_fr": "",
+    "stem_zh": "哪些是未经许可的谈话内容？\n1 - 出售器材\n2 - 通过中继台进行无线电导航/指路\n3 - 天文\n4 - 气象"
+   },
+   {
+    "num": "34925",
+    "stem_fr": "DE QUOI PEUT-ON PARLER EN FREQUENCE ?",
+    "options": [
+     "adresse d’un radioamateur",
+     "vente d’objets",
+     "modification et évolution de matériel commercial ",
+     "publicité pour un revendeur"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "modification et évolution de matériel commercial ",
+    "commentaire_fr": "",
+    "stem_zh": "在频率上可以谈论什么？"
+   },
+   {
+    "num": "30103",
+    "stem_fr": "QUEL EST LE SUJET DE CONVERSATION INTERDIT LORS DES LIAISONS RADIO ?",
+    "options": [
+     "Réglementation amateur",
+     "Vie associative amateur",
+     "Adresses des amis Radioamateurs",
+     "Informatique"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Adresses des amis Radioamateurs",
+    "commentaire_fr": "",
+    "stem_zh": "无线电联络中，被禁止的话题是什么？"
+   },
+   {
+    "num": "34912",
+    "stem_fr": "QUELLE PEUT ETRE LA TENEUR DES MESSAGES RADIOAMATEURS ?",
+    "options": [
+     "échange sur la technique radio ",
+     "transmission d’informations d’un tiers",
+     "vente d’objets",
+     "diffusion de musique"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "échange sur la technique radio ",
+    "commentaire_fr": "",
+    "stem_zh": "业余无线电通信的内容可以是什么？"
+   },
+   {
+    "num": "30078",
+    "stem_fr": "QUEL EST LE SUJET DE CONVERSATIONS AUTORISEES LORS DE LIAISONS RADIO ?",
+    "options": [
+     "Adresse des amateurs de la région",
+     "Réglementation radioamateur",
+     "Editeurs de livres techniques",
+     "Médecine naturelle"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Réglementation radioamateur",
+    "commentaire_fr": "",
+    "stem_zh": "在无线电联络中，允许谈论的话题是什么？"
+   }
+  ]
+ },
+ {
+  "id": "K063",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T098",
+  "seclab": "9.8",
+  "n_q": 11,
+  "cours_fr": "9.8 . i Antennes ouvertes et antennes fermées : une antenne est ouverte lorsque son brin rayonnant est libre aux deux extrémités. (Exemple : quart d'onde, long-fil, sloper, dipôle, Yagi, Levy, hélice, log-périodiques). Une antenne est fermée lorsque le brin rayonnant forme une boucle. (Exemples : trombone, loop, quad). Dans ces cas, la longueur de l’antenne est proche d’un multiple de la longueur d’onde. L’impédance d’un trombone est proche de 300 &#937; et celle d’une quad (carré dont le côté mesure un quart d’onde) est proche de 200 &#937;. Une delta-loop (en forme de triangle) alimentée à un angle aura une impédance d’environ 150 &#937;. Dans les antennes fermées, les nœuds et les ventres d’intensité et de tension ne sont plus déphasés de 90° comme dans les antennes ouvertes mais restent en phase sur toute la longueur du fil. En pratique, la longueur de ces antennes doit être allongée de 5% environ pour être en résonance. Les antennes, que l’on pense fermées mais dont la circonférence est beaucoup plus courte qu’une longueur d’onde, sont des antennes magnétiques (exemple : boucle inductive, cadre) : l’antenne émet (et reçoit) non pas la composante électrique de l’onde mais sa composante magnétique. L’antenne est constituée d’une bobine couplée à l’alimentation et d’un condensateur. Le rendement de ces antennes magnétiques est souvent faible. j Certaines antennes, utilisées en SHF, emploient des réflecteurs paraboliques (ou paraboles) qui réfléchissent les ondes et les concentrent sur un foyer , où est placée l'antenne (souvent un doublet appelé source même s’il ne sert qu’en réception). La distance entre le foyer et la parabole est appelée la focale (F). D étant le diamètre du réflecteur, le rapport D/F détermine l'angle d'illumination de l'antenne située dans le foyer [=2 . arcsin(D/2F)] et la forme de la parabole (plus ou moins concave : si D/F 1, la parabole aura la forme d’un bol ; sinon elle sera plate, comme celles pour la réception de télévision). Le rapport &#955;/D détermine la résolution angulaire R (ou angle d’ouverture de l’antenne, voir §",
+  "samples": [
+   {
+    "num": "20344",
+    "stem_fr": "PAR D'UN AMPLI DELIVRANT 10 W AVEC 3 ANTENNES YAGIS DE 4 DBI ?",
+    "options": [
+     "120 W",
+     "46 W",
+     "70 W",
+     "40 W"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "46 W",
+    "commentaire_fr": "le gain des antennes étant en dBi, il faut en premier lieu convertir leur gain en dBd puisqu’on doit calculer la PAR. \nGain en dBd = gain en dBi – 2,14 = 1,86 dBd. \nRapport correspondant = 10^0,186 = 1,53\nPAR pour une antenne = 10 W x 1,53 = 15,3 W\nPour 3 antennes parfaitement couplées, la PAR est multipliée par 3 donc : \nPAR = 15,3 x 3 = 45,9 W arrondi à 46 W\n",
+    "stem_zh": "一台输出 10 W 的放大器配 3 副 4 dBi 的八木天线，其 PAR 是多少？"
+   },
+   {
+    "num": "20451",
+    "stem_fr": "PIRE AVEC ANTENNE 2DB, PERTE CABLE 5 DB SUR 100 M, EMETTEUR 20 W",
+    "options": [
+     "40 W",
+     "20 W",
+     "10 W",
+     "60 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "10 W",
+    "commentaire_fr": "gain de l’ensemble = gain de l’antenne – pertes dans le câble = 2 – 5 = -3 dB correspondant à / 2 ; PIRE = puissance x rapport = 20 / 2 = 10 W. \nLa mention PIRE et la longueur du câble sont inutiles pour résoudre ce problème si on part du principe que le gain de l'antenne est donné en dBiso (la réponse avec convesrion dBiso > dBd n'était pas proposée).\n",
+    "stem_zh": "天线增益 2 dB、100 m 电缆损耗 5 dB、发射机 20 W，求 PIRE"
+   },
+   {
+    "num": "21178",
+    "stem_fr": "QUEL EST LE GAIN D'UN DIPOLE PAR RAPPORT A L'ANTENNE \"ISOTROPE\" ?",
+    "options": [
+     "pas de gain",
+     "-3 dB",
+     "3 dB",
+     "2,14 dB"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "2,14 dB",
+    "commentaire_fr": "L’antenne isotrope a un diagramme de rayonnement en forme de sphère et le gain du dipôle, dont le diagramme de rayonnement est un tore, est de 2,14 dB par rapport à l’antenne isotrope.\n",
+    "stem_zh": "偶极天线相对于「各向同性」天线的增益是多少？"
+   },
+   {
+    "num": "20390",
+    "stem_fr": "UN EMETTEUR SORT 2 W, CABLE -2DB ET ANTENNE +5 DB. QUELLE EST LA PUISSANCE PAR ?",
+    "options": [
+     "1 W",
+     "14 W",
+     "10 W",
+     "4 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "4 W",
+    "commentaire_fr": "gain de l’ensemble = gain de l’antenne – pertes dans le câble = 5 – 2 = 3 dB correspondant à x 2\nPAR = puissance x rapport = 2 W x 2 = 4 W\n",
+    "stem_zh": "发射机输出 2 W，电缆损耗 −2 dB，天线增益 +5 dB。有效辐射功率（PAR）是多少？"
+   },
+   {
+    "num": "20188",
+    "stem_fr": "SCHEMA REPRESENTANT UNE LIGNE DE TRANSMISSION ALIMENTEE PAR 10 W RELIEE  A UNE ANTENNE AVEC L'INDICATION : 16 DBI\n",
+    "options": [
+     "40 W",
+     "160 W",
+     "250 W",
+     "400 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "400 W",
+    "commentaire_fr": "en négligeant les pertes dans la ligne (supposée parfaite ici), le rapport en puissance est de 40, donc PIRE = puissance x rapport = 10 x 40 = 400 W PIRE\n",
+    "stem_zh": "表示一条由 10 W 馈电的传输线接到天线上的示意图，图上标注：16 dBi\n"
+   },
+   {
+    "num": "20406",
+    "stem_fr": "UNE STATION DONT LA PAR EST DE 6000 W AVEC UN EMETTEUR DELIVRANT UNE PUISSANCE DE 15 W. \nQUEL EST LE GAIN EN DB ?",
+    "options": [
+     "16 dB",
+     "400 dB",
+     "15 dB",
+     "26 dB"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "26 dB",
+    "commentaire_fr": "rapport des puissances = 6000 / 15 = 400, correspondant à un gain de 26 dB\n",
+    "stem_zh": "某电台的 PAR 为 6000 W，发射机输出功率为 15 W。增益是多少 dB？"
+   },
+   {
+    "num": "21199",
+    "stem_fr": "UNE STATION A UNE P.A.R. DE 600 WATTS, LA PUISSANCE DE L'EMETTEUR EST DE 15 WATTS.\nQUEL EST LA GAIN DE L'ANTENNE (EN DBD) ?",
+    "options": [
+     "60 dB",
+     "40 dB",
+     "18 dB",
+     "16 dB"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "16 dB",
+    "commentaire_fr": "PAR = P x rapport ; donc rapport = PAR /P\n600 W / 15 W = 40\n40 = 10 x 4 = 16 dB\nEn supposant qu'il n'y ait pas de perte dans le coaxial qui relie l'émetteur et l'antenne.\n",
+    "stem_zh": "某台站的 PAR 为 600 W，发射机功率为 15 W。天线增益（以 dBd 计）是多少？"
+   },
+   {
+    "num": "21197",
+    "stem_fr": "UN EMETTEUR DELIVRE 100 WATTS DANS UNE ANTENNE AYANT 10 DBD DE GAIN.\nQUELLE EST LA PUISSANCE APPARENTE RAYONNEE DE LA STATION ?",
+    "options": [
+     "10 W",
+     "110 W",
+     "500 W",
+     "1 kW"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1 kW",
+    "commentaire_fr": "10 dB = 1 x 10 = 10\n100 W x 10 = 1000 W = 1 kW\n",
+    "stem_zh": "一台发射机向增益为 10 dBd 的天线输出 100 瓦。该台的有效辐射功率（PAR）是多少？"
+   },
+   {
+    "num": "21198",
+    "stem_fr": "UNE STATION A UNE PUISSANCE APPARENTE RAYONNEE DE 200 WATTS, L'ANTENNE A UN GAIN DE 13 DBD.\nQUELLE SERA LA PUISSANCE DELIVREE PAR L'EMETTEUR ?",
+    "options": [
+     "20 W",
+     "10 W",
+     "40 W",
+     "4 kW"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "10 W",
+    "commentaire_fr": "13 dB = 2 x 10 = 20\nPAR = P x rapport ; donc P = PAR / rapport = 200 W/ 20 = 10 W\nEn supposant qu'il n'y ait pas de perte dans le coaxial qui relie l'émetteur et l'antenne.\n",
+    "stem_zh": "某台的有效辐射功率为 200 瓦，天线增益为 13 dBd。发射机输出的功率将是多少？"
+   },
+   {
+    "num": "20343",
+    "stem_fr": "PUISSANCE D'ALIMENTATION DE L'ANTENNE AVEC UN EMETTEUR DE 2 W SUIVI DE 10 METRES DE COAXIAL AVEC 0,03DB/M DE PERTE ET 1,5 DB DE PERTES DANS UN CONNECTEUR",
+    "options": [
+     "1,11 W",
+     "3,6 W",
+     "1,32 W",
+     "1 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1,32 W",
+    "commentaire_fr": "perte dans le coaxial = 0,03 dB/m x 10 mètres = 0,3 dB ; \nperte dans le connecteur = 1,5 dB ; \natténuation de l’ensemble = 1,8 dB ; \ntransformation dB>rapport de puissance : 10^-0,18 = 0,66 ; \nPsortie = 2 W x 0,66 = 1,32 W\n",
+    "stem_zh": "发射机输出 2 W，经 10 米长、每米损耗 0.03 dB 的同轴电缆，再经一个损耗 1.5 dB 的接头后送到天线，天线得到的功率是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K064",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "anchor": "R52",
+  "seclab": "R-5.2",
+  "n_q": 11,
+  "cours_fr": "R-5.2) type d'antennes et caractéristiques .............................................................................................. 29",
+  "samples": [
+   {
+    "num": "34840",
+    "stem_fr": "QUE VOUS INSPIRE LE MOT \" ANTENNE \" ?",
+    "options": [
+     "amplification",
+     "démodulation",
+     "gain",
+     "filtre"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "gain",
+    "commentaire_fr": "Question un peu tirée par les cheveux ! Mais une seule réponse possible (gain), les autres propositions (amplification, démodulation, filtre) ne correspondent pas à ce que l'on attend d'une antenne.\n",
+    "stem_zh": "「天线」这个词让你想到什么？"
+   },
+   {
+    "num": "34863",
+    "stem_fr": "QU'EST-CE QUI CARACTERISE UNE ANTENNE ?",
+    "options": [
+     "son indicatif",
+     "sa modulation",
+     "sa puissance",
+     "sa directivité"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "sa directivité",
+    "commentaire_fr": "Les autres caractériqtiques des antennes (non cités dans les réponses proposées) sont la (ou les) fréquence(s) de résonance et l'impédance du point d'alimenation à cette (ou ces) fréquence(s).\n",
+    "stem_zh": "天线的特征是什么？"
+   },
+   {
+    "num": "30910",
+    "stem_fr": "* TYPE D'ANTENNE APPROPRIE POUR LE 15 M ?\n1 - PARABOLE\n2 - YAGI\n3 - VERTICALE\n4 - FILAIRE",
+    "options": [
+     "1, 2, 3 et 4",
+     "2 et 3",
+     "3 et 4",
+     "2, 3 et 4"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "2, 3 et 4",
+    "commentaire_fr": "Compte tenu des dimensions qu'aurait la parabole sur la bande des 15 mètres, ce type d'antenne n'est pas approprié à notre activité.\n",
+    "stem_zh": "* 适合 15 米波段的天线类型？1 - 抛物面 2 - 八木 3 - 垂直天线 4 - 线天线"
+   },
+   {
+    "num": "34847",
+    "stem_fr": "QUAND ON PARLE D'UNE ANTENNE, ON PARLE EN GENERAL ?",
+    "options": [
+     "de son gain ",
+     "de sa longueur",
+     "de sa hauteur",
+     "de la position de l’antenne (sur un toit ou au sol, …)"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "de son gain ",
+    "commentaire_fr": "Question très tordue et réponses encore plus tordues (car toutes pourraient être les bonnes)\n",
+    "stem_zh": "谈到天线时，通常说的是什么？"
+   },
+   {
+    "num": "34989",
+    "stem_fr": "UNE ONDE RADIO EST CONSTITUEE DE :",
+    "options": [
+     "un champ magnétique et un champ électrique ",
+     "un champ électrique",
+     "un champ magnétique",
+     "un champ magnétique et un champ électronique"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "un champ magnétique et un champ électrique ",
+    "commentaire_fr": "Une onde radio (aussi appelé onde électromagnétique) est constituée d'un champ magnétique et un champ électrique perpenticulaires entre eux et eux-mêmes perpendiculaires à l'axe de propagation de l'onde. Question aussi recensée dans la partie technqiue de l'examen.\n",
+    "stem_zh": "无线电波由什么组成？"
+   },
+   {
+    "num": "34695",
+    "stem_fr": "RAYONNEMENT D'UNE ANTENNE VERTICALE\n  1) CHAMP MAGNETIQUE HORIZONTAL\n  2) CHAMP MAGNETIQUE VERTICAL\n  3) CHAMP ELECTRIQUE HORIZONTAL\n  4) CHAMP ELECTRIQUE VERTICAL",
+    "options": [
+     "1 et 3",
+     "2 et 3",
+     "1 et 4",
+     "2 et 4"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1 et 4",
+    "commentaire_fr": "Le champ électrique a la même direction que le brin rayonnant. Le champ magnétique est perpendiculaire au champ électrique et ces deux champs sont perpendiculaires à la direction de propagation de l'onde électromagnétique\n",
+    "stem_zh": "垂直天线的辐射： 1) 水平磁场 2) 垂直磁场 3) 水平电场 4) 垂直电场"
+   },
+   {
+    "num": "32529",
+    "stem_fr": "* QUELLE EST L'AFFIRMATION FAUSSE ?\n\nA : L'ANTENNE QUART D'ONDE VERTICALE A UNE IMPEDANCE CARACTERISTIQUE DE 36 OHMS\nB : UNE ANTENNE A LA MEME IMPEDANCE A L'EMISSION QU'A LA RECEPTION\nC : DANS UN DOUBLET, CHAQUE BRIN A LA MEME LONGUEUR\nD : L'IMPEDANCE AU CENTRE D'UNE ANTENNE TROMBONE EST DE 75 OHMS\n",
+    "options": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "D",
+    "commentaire_fr": "Attention, les questions posées sur les antennes ne doivent porter que sur les longueurs, les impédances et quelques généralités mais pas sur les répartitions tension/courant le long des brins.\nLe niveau technique demandé pour l’examen de réglementation reste très basique.\n",
+    "stem_zh": "哪种说法是错误的？A：四分之一波长垂直天线的特征阻抗是 36 Ω；B：天线在发射和接收时阻抗相同；C：偶极天线的两臂等长；D：trombone 天线中心的阻抗是 75 Ω"
+   },
+   {
+    "num": "34775",
+    "stem_fr": "LE RAPPORT AVANT-ARRIERE D'UNE ANTENNE SE MESURE EN",
+    "options": [
+     "degrés",
+     "radians",
+     "décidels",
+     "watts"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "décidels",
+    "commentaire_fr": "",
+    "stem_zh": "天线的前后比用什么单位测量？"
+   },
+   {
+    "num": "32522",
+    "stem_fr": "* UN MULTI-DOUBLET :",
+    "options": [
+     "est une antenne Yagi 2 éléments",
+     "est prévu pour travailler sur plusieurs bandes",
+     "nécessite un réflecteur parabolique",
+     "est aussi appelé doublet à trappes"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "est prévu pour travailler sur plusieurs bandes",
+    "commentaire_fr": "",
+    "stem_zh": "多偶极天线（multi-doublet）是什么？"
+   },
+   {
+    "num": "34675",
+    "stem_fr": "A QUOI CORRESPOND LA POLARISATION D'UNE ANTENNE ?",
+    "options": [
+     "direction du correspondant ",
+     "direction de l'axe du champ magnétique",
+     "direction de la propagation de l'onde électromagnétique",
+     "direction de l'axe du champ électrique "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "direction de l'axe du champ électrique ",
+    "commentaire_fr": "",
+    "stem_zh": "天线的极化对应什么？"
+   }
+  ]
+ },
+ {
+  "id": "K065",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "anchor": "T012",
+  "seclab": "1.2",
+  "n_q": 10,
+  "cours_fr": "1.2) Lois d'Ohm (U = R . I) et de Joule (P = U . I) . Ces deux lois sont fondamentales car elles expriment les relations entre les quatre grandeurs de base de l’électricité. En développant les deux lois, on trouve les douze équations du tableau ci-dessous : P = U . I et on sait que U = R . I ; en remplaçant U par R . I dans la première équation, on trouve : P = (R . I) . I = RI². De même, on sait que I = U / R, donc P = U . I devient P = U x (U / R) donc P = U² / R. Ainsi, deux données (intensité et résistance, par exemple), permettent de calculer les deux inconnues correspondantes (dans notre exemple : puissance P = RI² et tension U = RI). b Les quatre équations éditées en gras ci-dessus servent de base aux quatre triangles de calcul simplifié : Choisissez le triangle contenant vos deux données et votre inconnue puis cachez du doigt l'inconnue : vous obtenez la formule à appliquer. Lorsque les données sont en bas (l’inconnue est en haut du triangle), les données sont multipliées pour obtenir l’inconnue. Lorsque l’inconnue est en bas, les données sont divisées (celle du haut par celle du bas). Lorsque l’inconnue cachée est au carré, le résultat est une racine carrée (exemple : U² = PR donc U = &#8730;(PR)). Le jour de l’examen, si vous n’êtes pas à l’aise en algèbre, commencez par écrire ces quatre formules sur votre feuille de brouillon à côté de la table de conversion : elles seront ainsi toujours sous vos yeux. Exemples : 1) Soit une résistance de 1500 &#937; parcourue par un courant 0,1 A. Quelle est la tension à ses bornes ? Quelle est la puissance dissipée ? U = R . I = 1500 x 0,1 = 150 V P = U . I = 150 x 0,1 = 15 W ou P = R . I² =1.500 x 0,1 x 0,1 = 15 W ou encore P = U² / R = (150 x 150) / 1500 = 22 500 / 1500 = 15 W 2 ) quelle est la puissance P dissipée et la résistance R ? P = U . I = 2 x 0,05 = 0,1 W R = U / I = 2 / 0,05 = 40 &#937; ou R = P / I² = 0,1 / (0,05 x 0,05) = 0,1 / 0,0025 = 40 &#937; ou encore R = U² / P = 2² / 0,1 = 4 / 0,1 = 40 &#937;",
+  "samples": [
+   {
+    "num": "20008",
+    "stem_fr": "PUISSANCE DISSIPEE PAR R",
+    "options": [
+     "2 W ",
+     " 4 W",
+     "36 W ",
+     "48 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "36 W ",
+    "commentaire_fr": "P = U x I = 3 x 12 = 36 W\n",
+    "stem_zh": "R 上耗散的功率"
+   },
+   {
+    "num": "20012",
+    "stem_fr": "PUISSANCE DISSIPE PAR R",
+    "options": [
+     "4 W ",
+     "108 W",
+     "36 W",
+     "0,25 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "36 W",
+    "commentaire_fr": "P = U x I = 12 x 3 = 36 W\n",
+    "stem_zh": "R 上耗散的功率"
+   },
+   {
+    "num": "20011",
+    "stem_fr": "PUISSANCE DISSIPEE PAR R",
+    "options": [
+     "50 W ",
+     "5 W",
+     "500 mW",
+     "50 mW"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "5 W",
+    "commentaire_fr": "P = U x I = 100 x 0,05 = 5 W\n",
+    "stem_zh": "电阻 R 上耗散的功率是多少？"
+   },
+   {
+    "num": "20013",
+    "stem_fr": "PUISSANCE DISSIPEE PAR R",
+    "options": [
+     "270 mW",
+     " 27 W",
+     "2,7 W",
+     "270 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "2,7 W",
+    "commentaire_fr": "P = RI² = 27000 x 0,01 x 0,01 = 2,7 W\n",
+    "stem_zh": "电阻 R 上耗散的功率是多少？"
+   },
+   {
+    "num": "20010",
+    "stem_fr": "PUISSANCE DISSIPEE PAR R",
+    "options": [
+     "60 mW ",
+     "100 W",
+     "10 mW",
+     "16,7 W"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "60 mW ",
+    "commentaire_fr": "P = U² / R = 6 x 6 / 600 = 0,06 W = 60 mW\n",
+    "stem_zh": "电阻 R 上耗散的功率是多少？"
+   },
+   {
+    "num": "20014",
+    "stem_fr": "TENSION AUX BORNES DE LA PILE",
+    "options": [
+     "500 mV",
+     " 2,5 V",
+     "50 V",
+     "5 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "5 V",
+    "commentaire_fr": "U = R x I = 100 x 0,05 = 5\n",
+    "stem_zh": "电池两端的电压是多少？"
+   },
+   {
+    "num": "20018",
+    "stem_fr": "TENSION AUX BORNES DE LA PILE ?",
+    "options": [
+     "6 V ",
+     "12 V",
+     "2400 V",
+     "0,3V"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "6 V ",
+    "commentaire_fr": "U = R x I = 120 x 0,05 = 6 V\n",
+    "stem_zh": "电池两端的电压是多少？"
+   },
+   {
+    "num": "20009",
+    "stem_fr": "PUISSANCE DISSIPEE PAR R",
+    "options": [
+     "27,3 mW ",
+     "1,636 W",
+     "36,6 W",
+     "164 mW"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "164 mW",
+    "commentaire_fr": "P = U² / R = 6 x 6 / 220 = 0,1636 W = 164 mW (arrondi)\n",
+    "stem_zh": "电阻 R 上耗散的功率是多少？"
+   },
+   {
+    "num": "20015",
+    "stem_fr": "TENSION AUX BORNES DE LA PILE ?",
+    "options": [
+     "83,3 V",
+     "12 V",
+     "120 V ",
+     "14,4 V"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "120 V ",
+    "commentaire_fr": "U = R x I = 1200 x 0,1 = 120 V \n",
+    "stem_zh": "电池两端的电压是多少？"
+   },
+   {
+    "num": "20016",
+    "stem_fr": "QUELLE EST LA PUISSANCE DISSIPEE",
+    "options": [
+     "3,93 W",
+     "6,35 W",
+     "31,75 W",
+     "63,5 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "63,5 W",
+    "commentaire_fr": "P = U x I = 127  x 0,5  = 63,5 W\n",
+    "stem_zh": "耗散的功率是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K066",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "anchor": "R41",
+  "seclab": "R-4.1",
+  "n_q": 10,
+  "cours_fr": "R-4.1 ), le journal de bord du radio-club indique les indicatifs d’appel des utilisateurs de la station. Exemple : un opérateur manœuvrant la station d’un radio-club s’identifiera par « F6KGL/F6GPX » en CW ou « Foxtrot 6 Kilo Golf Lima opéré par Foxtrot 6 Golf Papa X-ray » en téléphonie. b Une station répétitrice est une balise de fréquence ou toute autre installation automatique ( relais ). La station pourra être établie sur un autre site que celui de la station de l’utilisateur (titulaire d’un certificat d’opérateur autre que l’ex-classe 3), ne pourra pas servir à un usage personnel ou un groupe restreint et ne doit transmettre que des informations conformes à la réglementation : son indicatif d’appel, des données relatives à sa position, à son fonctionnement et aux conditions locales intervenant sur les conditions de propagation radioélectrique. Un dispositif d’arrêt d’urgence doit être prévu et, en cas de brouillages persistants, des mesures appropriées proposées par l’ANFR peuvent être imposées (conditions d’exploitation définies antérieurement à 2012 mais toujours en application bien qu’aucun texte en vigueur ne précise ces conditions) . c Concernant les satellites radioamateurs , la disposition S25.11 précise que « les administrations autorisant des stations spatiales du service d'amateur par satellite doivent faire en sorte que des stations terriennes de commande en nombre suffisant soient installées avant le lancement, afin de garantir que tout brouillage préjudiciable causé par des émissions d'une station du service d'amateur par satellite puisse être éliminé immédiatement ». En outre, la disposition S22.1 prévoit que « les stations spatiales doivent être dotées de dispositifs permettant de faire cesser immédiatement, par télécommande, leurs émissions radioélectriques chaque fois que cette cessation est requise en vertu des dispositions du présent Règlement » (§3 du préambule de la décision ARCEP 12-1241 rappelant les dispositions du RR). Le §4 du préambule de la décision 12-1241 rappelle la nécessité d’obtenir une « autorisation du ministre chargé des communications électroniques pour l’exploitation d’une assignation de fréquence à un système satellitaire prévue par l’article L97-2 du CPCE ». a",
+  "samples": [
+   {
+    "num": "30766",
+    "stem_fr": "DONNER L'ELEMENT OBLIGATOIRE A CONSIGNER DANS LE JOURNAL DE BORD",
+    "options": [
+     "date du contact",
+     "QTH du correspondant",
+     "puissance",
+     "heure locale du correspondant "
+    ],
+    "ans_idx": 0,
+    "ans_fr": "date du contact",
+    "commentaire_fr": "piège : on doit indiquer soit l’heure locale de sa propre station, soit l’heure GMT, mais pas l'heure du correspondant\n",
+    "stem_zh": "给出电台日志中必须记录的一项内容"
+   },
+   {
+    "num": "30252",
+    "stem_fr": "MENTION NON OBLIGATOIRES DANS LE JOURNAL DE BORD ?\n1 - LA DATE\n2 - L'INDICATIF\n3 - LA FREQUENCE\n4 - PUISSANCE DU CORRESPONDANT",
+    "options": [
+     "4",
+     "1, 2",
+     "1, 2, 3",
+     "2, 3"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "4",
+    "commentaire_fr": "Depuis la décision 12-1241, le carnet de trafic se nomme \"journal de bord\"\n",
+    "stem_zh": "电台日志中不是必须填写的内容？1 - 日期 2 - 呼号 3 - 频率 4 - 对方的功率"
+   },
+   {
+    "num": "30010",
+    "stem_fr": "* RENSEIGNEMENT OBLIGATOIRE DANS LE JOURNAL DE BORD ?",
+    "options": [
+     "La langue utilisée",
+     "La date de la communication",
+     "Le prénom de l'opérateur",
+     "Le QTH de l'opérateur"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "La date de la communication",
+    "commentaire_fr": "Le carnet de trafic est dénommé \"journal de bord\" par la décision 12-1241\n",
+    "stem_zh": "电台日志中必须记载的信息是什么？"
+   },
+   {
+    "num": "30079",
+    "stem_fr": "QUEL EST LE RENSEIGNEMENT QUI N'EST PAS OBLIGATOIRE DANS LE JOURNAL DE BORD ?",
+    "options": [
+     "Localisation du relais",
+     "Heure de début de la communication",
+     "Fréquence utilisée",
+     "Heure de fin de la communication"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Localisation du relais",
+    "commentaire_fr": "Le carnet de trafic est maintenant appelé \"journal de bord\"\n",
+    "stem_zh": "哪项信息在电台日志中不是必须填写的？"
+   },
+   {
+    "num": "30391",
+    "stem_fr": "* FAUT-IL TENIR UN JOURNAL DE BORD ?",
+    "options": [
+     "Oui, mais seulement si l'on opère à partir de la station fixe",
+     "Non",
+     "Oui dans tous les cas",
+     "Non, mais l' ANFR peut exiger un enregistrement audio des contacts"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Oui dans tous les cas",
+    "commentaire_fr": "Depuis la décision 12-1241, le carnet de trafic se nomme \"journal de bord\"\n",
+    "stem_zh": "必须保存通信记录簿（journal de bord）吗？"
+   },
+   {
+    "num": "34867",
+    "stem_fr": "QUELS SONT LES RENSEIGNEMENTS OBLIGATOIRES SUR LE JOURNAL DE BORD ?",
+    "options": [
+     "Locator et fréquence d’émission",
+     "Date et heure de communication, Puissance",
+     "Date et heure de communication, Classe d’émission ",
+     "Indicatif et report du correspondant"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Date et heure de communication, Classe d’émission ",
+    "commentaire_fr": "La localisation (\"locator\"), la puissance utilisée et le report donné par le correspondant (ou donné au correspondant) ne sont pas des mentions obligatoires à consigner dans le journal de bord\n",
+    "stem_zh": "电台日志中必须记载的信息有哪些？"
+   },
+   {
+    "num": "30058",
+    "stem_fr": "RENSEIGNEMENTS OBLIGATOIRES DANS LE JOURNAL DE BORD ?\n1-LE LIEU D'EMISSION S'IL EST DIFFERENT DE LA STATION FIXE\n2-L'HEURE LOCALE DE VOTRE CORRESPONDANT\n3-LA FREQUENCE UTILISEE\n4-LE LIEU D'EMISSION DE VOTRE CORRESPONDANT",
+    "options": [
+     "1-2-3",
+     "1-3",
+     "2-3-4",
+     "1-3-4"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1-3",
+    "commentaire_fr": "Le carnet de trafic est nommé maintenant \"journal de bord\"\n",
+    "stem_zh": "电台日志中必须记载的信息有哪些？\n1-发射地点（若与固定台址不同）\n2-对方的当地时间\n3-使用的频率\n4-对方的发射地点"
+   },
+   {
+    "num": "30764",
+    "stem_fr": "JOURNAL DE BORD, QUELLE EST LA DUREE DE DETENTION ?",
+    "options": [
+     "3 ans",
+     "1 an",
+     "1 mois",
+     "pas de limite"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1 an",
+    "commentaire_fr": "",
+    "stem_zh": "通信记录簿应保存多长时间？"
+   },
+   {
+    "num": "30765",
+    "stem_fr": "JOURNAL DE BORD, MENTIONS OBLIGATOIRES ?",
+    "options": [
+     "Report des signaux échangés",
+     "Puissance utilisée",
+     "Lieu d'émission du correspondant",
+     "Heure du contact"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Heure du contact",
+    "commentaire_fr": "",
+    "stem_zh": "通信记录簿有哪些必须填写的内容？"
+   },
+   {
+    "num": "34977",
+    "stem_fr": "RELEVEZ LES RENSEIGNEMENTS OBLIGATOIRES DU JOURNAL DE BORD :\n    1) L'HEURE DU CONTACT \n    2) LA VILLE DU CORRESPONDANT\n    3) LE REPORT DONNE AU CORRESPONDANT\n    4) LA DATE DU CONTACT\n    5) LE PRENOM DU CORRESPONDANT",
+    "options": [
+     "1, 2 et 4",
+     "2, 3 et 5",
+     "1 et 4",
+     "1 et 3"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1 et 4",
+    "commentaire_fr": "",
+    "stem_zh": "请指出电台日志中必须记录的信息： 1) 联络的时间 2) 对方的城市 3) 给对方的信号报告 4) 联络的日期 5) 对方的名字"
+   }
+  ]
+ },
+ {
+  "id": "K067",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "anchor": "R13a",
+  "seclab": "R-1.3",
+  "n_q": 10,
+  "cours_fr": "R-1.3) Conditions techniques . Avant la décision 12-1241, les matériels suivants étaient obligatoires : indicateur de puissance, indicateur du rapport d’onde stationnaire, charge non rayonnante, filtre d’alimentation. La puissance des émetteurs BLU devait se mesurer avec un générateur 2 tons. La précision du repérage de la fréquence émise était définie (+/-1 kHz jusqu’à 30 MHz ou +/-",
+  "samples": [
+   {
+    "num": "34806",
+    "stem_fr": "QUELLE CLASSE D'EMISSION DOIT ETRE EQUIPEE D'UN INDICATEUR DE ROS ?",
+    "options": [
+     "classe R3E",
+     "classe G3E",
+     "toutes les classes",
+     "aucune"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "aucune",
+    "commentaire_fr": "Seul l'indicateur de puissance est obligatoire. La possession d'un indicateur d’ondes stationnaires était obligatoire avant 2012.\n",
+    "stem_zh": "哪一发射类别必须配备 ROS（驻波比）指示器？"
+   },
+   {
+    "num": "34674",
+    "stem_fr": "QUELLE CLASSE D'OPERATEUR DOIT POSSEDER UN INDICATEUR DE ROS ?",
+    "options": [
+     "toutes les classes d'opérateur",
+     "classe 3",
+     "aucune",
+     "classes 1 et 2"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "aucune",
+    "commentaire_fr": "Depuis la nouvelle réglementation 2012, le seul matériel obligatoire dans une station radioamateur est l’indicateur de puissance\n",
+    "stem_zh": "哪一类操作员必须配备 ROS（驻波比）指示器？"
+   },
+   {
+    "num": "35056",
+    "stem_fr": "EST-IL OBLIGATOIRE POUR UN RADIOAMATEUR DE POSSEDER UN GENERATEUR 2 TONS ?",
+    "options": [
+     "Oui",
+     "sur demande uniquement",
+     "si un voisin en fait la demande",
+     "Non"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Non",
+    "commentaire_fr": "Question posée en juillet 2022. \nLe candidat ayant eu 20/20, on est certain que ce soit la réponse attendue par l'ANFR. On espère que les autres questions sur ce sujet auront la même réponse.\n",
+    "stem_zh": "业余爱好者必须拥有一台双音发生器吗？"
+   },
+   {
+    "num": "34891",
+    "stem_fr": "UN INDICATEUR DE ROS EST-IL OBLIGATOIRE ?",
+    "options": [
+     "Oui",
+     "Oui mais uniquement pour les classes FM et CW",
+     "Non",
+     "Oui mais uniquement pour les classes BLU et AM"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Non",
+    "commentaire_fr": "Le seul appareil de mesure obligatoire dans une station d'amateur est l'indicateur de puissance\n",
+    "stem_zh": "驻波比（ROS）指示表是强制配备的吗？"
+   },
+   {
+    "num": "34924",
+    "stem_fr": "MATERIEL OBLIGATOIRE DANS UNE STATION D'AMATEUR ?",
+    "options": [
+     "charge fictive",
+     "aucune de ces réponses ",
+     "filtre",
+     "un indicateur de rapport d’ondes stationnaires"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "aucune de ces réponses ",
+    "commentaire_fr": "Seul l'indicateur de puissance est obligatoire et il n'est pas cité ici.\n",
+    "stem_zh": "业余电台中的强制设备是？"
+   },
+   {
+    "num": "34946",
+    "stem_fr": "DANS UNE STATION RADIOAMATEUR, LE FILTRE SECTEUR EST-IL OBLIGATOIRE ?",
+    "options": [
+     "Non",
+     "oui sur recommandation de l’ANFR",
+     "oui sur recommandation de l’ARCEP",
+     "Oui"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Oui",
+    "commentaire_fr": "Depuis mars 2013, le filtre secteur ne fait plus partie du matériel obligatoire. Toutefois, la station doit être conforme aux exigences essentielles et ne doit donc pas perturber le réseau EdF. Le filtre secteur reste donc obligatoire (sauf si il est intégré dans l’alimentation, ce qui est toujours le cas lorsque l’appareil est homologué « CE »)\n",
+    "stem_zh": "在业余电台中，电源滤波器是强制的吗？"
+   },
+   {
+    "num": "34798",
+    "stem_fr": "LA STATION D'UN RADIOAMATEUR DOIT COMPORTER OBLIGATOIREMENT",
+    "options": [
+     "un indicateur de rapport d’ondes stationnaires",
+     "une charge non rayonnante",
+     "aucune de ces réponses  ",
+     "un filtre d’alimentation "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "un filtre d’alimentation ",
+    "commentaire_fr": "Seul l'indicateur de puissance est obligatoire. Le filtre d'alimentation peut aussi être considéré comme obligatoire dans le sens où, dès que le matériel (alimentation autonome ou TX alimenté directement par le secteur) arbore un joli logo \"CE\", il est conforme aux \"exigences essentielles\" et comporte donc un filtre incorporé. Question vraiment tordue pour laquelle il est conseillé de ne pas répondre !\n",
+    "stem_zh": "业余无线电台必须配备"
+   },
+   {
+    "num": "34808",
+    "stem_fr": "UN RADIOAMATEUR OPERE EN J7W, DOIT-IL OBLIGATOIREMENT POSSEDER UN GENERATEUR 2 TONS ?",
+    "options": [
+     "Oui si il utilise plus de 120 W",
+     "Non dans tous les cas ",
+     "Oui car il est en J7W",
+     "Oui dans tous les cas"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Non dans tous les cas ",
+    "commentaire_fr": "La réponse donnée par le candidat est celle indiquée ici et dans le compte rendu (aucune mauvaise réponse dans l’épreuve de réglementation).\n",
+    "stem_zh": "一名业余无线电爱好者以 J7W 发射类别操作，是否必须配备双音发生器？"
+   },
+   {
+    "num": "30238",
+    "stem_fr": "* PARMI LES APPAREILS SUIVANTS, LEQUEL N'EST PAS OBLIGATOIRE DANS UNE STATION\nD'AMATEUR ?\n1 - LA CHARGE RAYONNANTE\n2 - LE FILTRE PASSE-BAS\n3 - LE FILTRE PASSE-HAUT\n4 - LA BOITE D'ACCORD",
+    "options": [
+     "2 et 3",
+     "1",
+     "1, 2, 3 et 4",
+     "4"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1, 2, 3 et 4",
+    "commentaire_fr": "Depuis la décision 12-1241, seul l'indicateur de puissance est obligatoire. Il n'est pas cité dans les propositions de cette question.\n",
+    "stem_zh": "* 在下列设备中，哪一项不是业余电台必须配备的？1 - 辐射负载（天线） 2 - 低通滤波器 3 - 高通滤波器 4 - 匹配箱（天线调谐器）"
+   },
+   {
+    "num": "30014",
+    "stem_fr": "* L'UTILISATEUR D'UNE STATION RADIOAMATEUR DOIT :\n\n1-DISPOSER D'UNE CHARGE NON RAYONNANTE.\n2-DISPOSER D'UN FILTRE SECTEUR.\n3-S'ASSURER QUE SES MISSIONS NE BROUILLENT PAS DES EMISSIONS DEJA EN COURS.\n4-EFFECTUER TOUTES SES TRANSMISSIONS DANS UN LANGAGE CLAIR OU DANS UN CODE RECONNU PAR L'U.I.T.",
+    "options": [
+     "2-3",
+     "1-3-4",
+     "3-4",
+     "1-2-3-4"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "3-4",
+    "commentaire_fr": "La charge non rayonnante et le filtre secteur ne sont plus obligatoires depuis la décision ARCEP 12-1241. Toutefois, les stations radioamateurs doivent être conformes aux \"exigences essentielles\" et, par conséquent, ne doivent pas rejeter dans le réseau EdF des pertubations supérieures à la norme CISPR11.\n",
+    "stem_zh": "业余无线电台的使用者必须：\n1-配备无辐射假负载。\n2-配备电源滤波器。\n3-确保自己的发射不干扰已经在进行的发射。\n4-用明语或国际电信联盟认可的电码进行所有发射。"
+   }
+  ]
+ },
+ {
+  "id": "K068",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "anchor": "R52e",
+  "seclab": "R-5.2",
+  "n_q": 10,
+  "cours_fr": "R-5.2) type d'antennes et caractéristiques .............................................................................................. 29",
+  "samples": [
+   {
+    "num": "30506",
+    "stem_fr": "QUELLE EST L'IMPEDANCE D'UN 1/4 D'ONDE SUR UN PLAN DE 90 DEGRES",
+    "options": [
+     "73 Ω",
+     "90 Ω",
+     "36 Ω",
+     "300 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "36 Ω",
+    "commentaire_fr": "Si le plan de sol placé à la base de l'antenne quart d'onde est incliné à 120°, l'impédance de l'antenne devient 52 ohms\n",
+    "stem_zh": "地网平面为 90 度的四分之一波长天线的阻抗是多少？"
+   },
+   {
+    "num": "30242",
+    "stem_fr": "UNE ANTENNE GP ?",
+    "options": [
+     "a du gain",
+     "a de la directivité",
+     "a du gain et de la directivité",
+     "n'a ni gain ni directivité"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "n'a ni gain ni directivité",
+    "commentaire_fr": "L’antenne GP (quart d’onde vertical) n’a pas de directivité (antenne omnidirectionnelle) mais un gain peu important par rapport à l’antenne isotrope (et une légère perte par rapport au doublet demi-onde). De plus, gain et directivité vont de pair : le gain est la conséquence de la directivité\n",
+    "stem_zh": "GP 天线（地网天线）？"
+   },
+   {
+    "num": "31041",
+    "stem_fr": "L'ANTENNE GP ?",
+    "options": [
+     "a un rayonnement nul à sa verticale",
+     "a un rayonnement horizontal",
+     "est une antenne directive",
+     "n'existe pas"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "a un rayonnement nul à sa verticale",
+    "commentaire_fr": "L'antenne GP (= Ground Plane) est l'antenne quart d'onde verticale. Elle est omnidirectionnelle et ne rayonne rien (ou presque rien) dans le prolongement de son brin rayonnant. Par sa construction, l'antenne GP rayonne un maximum de puissance à un angle d'environ 20° au-dessus de l'horizon et très peu de puissance en direction de l'horizon.\n",
+    "stem_zh": "GP 天线？"
+   },
+   {
+    "num": "30052",
+    "stem_fr": "* QUE REPRESENTE CE SHEMA D'ANTENNE ?",
+    "options": [
+     "Une antenne YAGI",
+     "Une antenne Ground Plane",
+     "Un doublet demi-onde",
+     "Une antenne parabolique"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Une antenne Ground Plane",
+    "commentaire_fr": "L'autre nom de l'antenne GP est le quart d'onde vertical.\nDans ce schéma, les dimensions des radiants disposés à la base de l'antenne ne sont pas respectées car, en toute logique,ils devraient mesurer la même longueur que le brin rayonnant vertical.\n",
+    "stem_zh": "该天线示意图所示的是什么天线？"
+   },
+   {
+    "num": "37600",
+    "stem_fr": "* IMPEDANCE D'UNE ANTENNE GP AVEC RADIANS PARALLELES AU SOL ?",
+    "options": [
+     "73 Ω",
+     "36 Ω",
+     "50 Ω",
+     "300 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "36 Ω",
+    "commentaire_fr": "",
+    "stem_zh": "地网辐射条与地面平行的 GP 天线，其阻抗是多少？"
+   },
+   {
+    "num": "37622",
+    "stem_fr": "POLARISATION D'UNE ANTENNE GP ?",
+    "options": [
+     "Verticale",
+     "Horizontale",
+     "Circulaire",
+     "Circulaire droite"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Verticale",
+    "commentaire_fr": "",
+    "stem_zh": "GP 天线的极化方式是什么？"
+   },
+   {
+    "num": "34862",
+    "stem_fr": "LE RAYONNEMENT DE L'ANTENNE GP EST :",
+    "options": [
+     "maximum à la verticale de l’antenne ",
+     "minimum en direction de l’horizon ",
+     "omnidirectionnel",
+     "circulaire"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "omnidirectionnel",
+    "commentaire_fr": "",
+    "stem_zh": "GP 天线的辐射是："
+   },
+   {
+    "num": "30229",
+    "stem_fr": "* QUELLE EST L'IMPEDANCE D'UNE ANTENNE 1/4 D'ONDE DONT LES RADIANTS FORMENT UN ANGLE DROIT AVEC LE BRIN RAYONNANT ?",
+    "options": [
+     "36 Ohms",
+     "50 Ohms",
+     "100 Ohms",
+     "300 Ohms"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "36 Ohms",
+    "commentaire_fr": "",
+    "stem_zh": "* 辐射体与辐射振子成直角的四分之一波长天线，其阻抗是多少？"
+   },
+   {
+    "num": "35066",
+    "stem_fr": "RELEVEZ L'AFFIRMATION VRAIE POUR UNE ANTENNE GP :",
+    "options": [
+     "son champ électrique est vertical ",
+     "l’antenne est directionnelle",
+     "l'antenne a une très forte impédance",
+     "cette antenne n'existe pas"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "son champ électrique est vertical ",
+    "commentaire_fr": "",
+    "stem_zh": "对 GP 天线，选出正确的说法："
+   },
+   {
+    "num": "35005",
+    "stem_fr": "* COCHER L'AFFIRMATION VRAIE :\n\nSUR UNE ANTENNE YAGI,",
+    "options": [
+     "Le rayonnement est parallèle au dipole",
+     "Le fait d'ajouter des éléments diminue l'impédance",
+     "Le fait de supprimer des éléments diminue l'impédance",
+     "Le fait d'ajouter des éléments augmente l'impédance"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Le fait d'ajouter des éléments diminue l'impédance",
+    "commentaire_fr": "",
+    "stem_zh": "在八木天线上，请选出正确的说法："
+   }
+  ]
+ },
+ {
+  "id": "K069",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "anchor": "R52c",
+  "seclab": "R-5.2",
+  "n_q": 10,
+  "cours_fr": "R-5.2) type d'antennes et caractéristiques .............................................................................................. 29",
+  "samples": [
+   {
+    "num": "34711",
+    "stem_fr": "IMPEDANCE D'UN DIPOLE PLIE A 90 DEGRES ?",
+    "options": [
+     "52 ohms",
+     "36 ohms",
+     "73 ohms",
+     "90 ohms"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "36 ohms",
+    "commentaire_fr": "Lorsque les brins d’un dipôle forment un angle de 90 degrés, l'impédance au centre de l’antenne est de 36 ohms (au lieu de 73 ohms lorsque les brins sont alignés ou 52 ohms lorsqu'ils forment un angle de 120°)\n",
+    "stem_zh": "折成 90° 的偶极天线的阻抗是多少？"
+   },
+   {
+    "num": "32520",
+    "stem_fr": "* QUELLE EST LA LONGUEUR D'UN BRIN D'UN DOUBLET DEMI-ONDE ?",
+    "options": [
+     "Lambda / 2",
+     "Lambda x 2",
+     "Lambda / 4",
+     "Lambda"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Lambda / 4",
+    "commentaire_fr": "Lambda (lettre grecque minuscule) désigne en règle générale la longueur d'onde. Un doublet mesure par construction lambda / 2 et est constitué de deux brins de longueur identique, donc le brin mesure la moitié, soit lambda / 4.\n",
+    "stem_zh": "半波偶极天线的每根振子臂长度是多少？"
+   },
+   {
+    "num": "30097",
+    "stem_fr": "QUELLE EST L'IMPEDANCE D'UN DOUBLET DEMI-ONDE POUR EMETTRE SUR 10 MHZ ?",
+    "options": [
+     "36 Ohms",
+     "50 Ohms",
+     "73 Ohms",
+     "300 Ohms"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "73 Ohms",
+    "commentaire_fr": "Un doublet demi-onde a toujours une impédance de 73 ohms (sauf si ses brins ne sont pas alignés).\n",
+    "stem_zh": "在 10 MHz 上发射时，半波偶极天线的阻抗是多少？"
+   },
+   {
+    "num": "30102",
+    "stem_fr": "* QUELLE EST LA LONGUEUR D'UN DOUBLET DEMI-ONDE POUR EMETTRE SUR LA\nFREQUENCE 7,059 MHZ ?",
+    "options": [
+     "7 m",
+     "14 m",
+     "21,25 m",
+     "40 m"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "21,25 m",
+    "commentaire_fr": "La longueur théorique d’un doublet demi-onde est : L(m) = 150 / F(MHz) = 150 / 7,059 = 21,25 m. En pratique, le doublet sera raccourci de 5% en moyenne selon le conducteur utilisé.\n",
+    "stem_zh": "要在 7.059 MHz 上发射，半波偶极天线的长度是多少？"
+   },
+   {
+    "num": "30289",
+    "stem_fr": "* QUELLE EST LA LONGUEUR D'UN DOUBLET DEMI-ONDE POUR EMETTRE SUR LA FREQUENCE 21,260 MHZ ?",
+    "options": [
+     "5 m",
+     "7,05 m",
+     "15 m",
+     "21 m"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "7,05 m",
+    "commentaire_fr": "La longueur théorique d’un doublet demi-onde est : L(m) = 150 / F(MHz) = 150 / 21,26 = 7,05 m. En pratique, le doublet sera raccourci de 5% en moyenne selon le conducteur utilisé.\n",
+    "stem_zh": "在 21.260 MHz 频率上发射，半波偶极天线的长度是多少？"
+   },
+   {
+    "num": "30081",
+    "stem_fr": "VALEURS DE U ET I AUX EXTREMITES D'UNE 1/2 ONDE ?",
+    "options": [
+     "U supérieure à I ",
+     "I  supérieure à U",
+     "U égale à I ",
+     "U égale au double de I"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "U supérieure à I ",
+    "commentaire_fr": "Plus exactement : U max et I nulle.\nCette question est, à notre opinion, hors programme bien qu’elle ait été posée plusieurs fois lors d’épreuves de réglementation\n",
+    "stem_zh": "半波天线两端的 U 与 I 取值如何？"
+   },
+   {
+    "num": "30166",
+    "stem_fr": "QUE REPRESENTE CE SHEMA D'ANTENNE ?\n(DOUBLET DEMI-ONDE)",
+    "options": [
+     "Une antenne YAGI",
+     "Une antenne GP",
+     "Un doublet demi-onde",
+     "Une antenne parabolique"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Un doublet demi-onde",
+    "commentaire_fr": "Doublet demi-onde alimenté en son centre ou dipôle.\n",
+    "stem_zh": "这张天线示意图表示什么天线？（半波偶极）"
+   },
+   {
+    "num": "31014",
+    "stem_fr": "QUEL EST L'ORDRE DE GRANDEUR DE L'IMPEDANCE D'UNE ANTENNE DEMI-ONDE ?",
+    "options": [
+     "Entre 10 et 30 Ω",
+     "Entre 40 et 80 Ω",
+     "Entre 100 et 250 Ω",
+     "Entre 300 et 400 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Entre 40 et 80 Ω",
+    "commentaire_fr": "Une antenne demi-onde a une impédance caractéristique de 73 ohms en espace libre (loin de tout obstacle et du sol). Les obstacles (et le sol) auront tendance à faire baisser son impédance. Mais pas en dessous de 30 ohms, sauf circonstance particulière.\n",
+    "stem_zh": "半波天线的阻抗量级是多少？"
+   },
+   {
+    "num": "37470",
+    "stem_fr": "* QUELLE EST L'IMPEDANCE AU CENTRE D'UN DOUBLET DEMI-ONDE DONT LES BRINS SONT ALIGNES ?",
+    "options": [
+     "73 Ohms",
+     "52 Ohms",
+     "300 Ohms",
+     "36 Ohms"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "73 Ohms",
+    "commentaire_fr": "",
+    "stem_zh": "振子臂成一直线的半波偶极天线，其中心处的阻抗是多少？"
+   },
+   {
+    "num": "30179",
+    "stem_fr": "* LA LONGUEUR THEORIQUE D'UNE ANTENNE DOUBLET EST ?",
+    "options": [
+     "le quart d'onde",
+     "la demi-onde",
+     "l'onde entière",
+     "il n'y a pas de longueur théorique"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "la demi-onde",
+    "commentaire_fr": "",
+    "stem_zh": "* 偶极天线的理论长度是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K070",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "anchor": "T018c",
+  "seclab": "1.8",
+  "n_q": 9,
+  "cours_fr": "1.8) Autres exemples d’application avec des résistances a Exemple n°1 : dans le circuit ci-contre, quelle est la valeur de R2 ? Réponses : 1 ère solution (méthode empirique) : le schéma représente un pont de Wheatstone que nous avons déjà évoqué au §",
+  "samples": [
+   {
+    "num": "20039",
+    "stem_fr": "CALCULER IR1",
+    "options": [
+     "12 mA",
+     "8 mA",
+     "0,8 A",
+     "0,12 A"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "8 mA",
+    "commentaire_fr": "IR2 = 12/1000 = 0,012 = 12 mA ; IR1 = IT – 12 mA = 20 – 12 = 8 mA\n",
+    "stem_zh": "计算 IR1"
+   },
+   {
+    "num": "20038",
+    "stem_fr": "CALCULER IR1",
+    "options": [
+     "28 mA ",
+     "20 mA",
+     "10 mA",
+     "0,1 A"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "10 mA",
+    "commentaire_fr": "IR2 = UR2 / R2 = 24 / 1200 = 0,02 A = 20 mA. IR1 = IT – IR2 = 30 – 20 = 10 mA\n",
+    "stem_zh": "计算 IR1"
+   },
+   {
+    "num": "20040",
+    "stem_fr": "CALCULER IR1",
+    "options": [
+     "30 mA ",
+     "24 mA",
+     "0,06 A",
+     "6 mA"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "6 mA",
+    "commentaire_fr": "IR2 = 24 / 1000 = 0,024 = 24 mA ; IR1 = IT – 24 mA = 30 – 24 = 6 mA\n",
+    "stem_zh": "计算 IR1"
+   },
+   {
+    "num": "20037",
+    "stem_fr": "CALCULER IR1",
+    "options": [
+     "3,05 A ",
+     "0,305 A",
+     "0,045 A",
+     "350 mA"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "0,305 A",
+    "commentaire_fr": "I dans résistance de 2,2 kΩ : 100/2200 = 0,04545 A ; IR1 = IR – 0,04545 = 0,304545 arrondi à 0,305 A\n",
+    "stem_zh": "计算 IR1"
+   },
+   {
+    "num": "23721",
+    "stem_fr": "VALEUR DU COURANT DANS R1",
+    "options": [
+     "1,5 mA ",
+     "3 mA",
+     "15 mA",
+     "10 mA"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "15 mA",
+    "commentaire_fr": "IR2 = 9,9/ 3300 = 0,003 = 3 mA ; IR1 = IT – IR2 = 18 mA – 3 mA = 15 mA\n",
+    "stem_zh": "R1 中的电流是多少？"
+   },
+   {
+    "num": "23722",
+    "stem_fr": "VALEUR DU COURANT DANS R1",
+    "options": [
+     "50 mA  ",
+     "0,5 mA",
+     "10 mA",
+     "5 mA"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "5 mA",
+    "commentaire_fr": "IR2 = 10/1000 = 0,01 = 10 mA ; IR1 = IT – IR2 = 15 mA – 10 mA = 5 mA\n",
+    "stem_zh": "R1 中的电流是多少？"
+   },
+   {
+    "num": "20650",
+    "stem_fr": "DEUX RESISTANCES EN PARALLELE (1 KOHM, R2 NON PRECISEE) RELIEES A LA MASSE. COURANT DANS LES DEUX RESISTANCES = 30 MA, TENSION SUR R1 = 24 V. I DANS R2 ?",
+    "options": [
+     "24 mA",
+     "28 mA",
+     "6 mA",
+     "0,1 A"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "6 mA",
+    "commentaire_fr": "IR1 = UR1 / R1 = 24 / 1000 = 0,024 A = 24 mA. \nIR2 = IT – IR1 = 30 – 24 = 6 mA\n",
+    "stem_zh": "两只并联电阻（1 kΩ，R2 未给出）接到地。流过两只电阻的总电流 = 30 mA，R1 上的电压 = 24 V。R2 中的电流 I 是多少？"
+   },
+   {
+    "num": "20601",
+    "stem_fr": "SCHEMA AVEC UNE RESISTANCE DE 3,3 KOHMS SUIVIE DE DEUX RESISTANCES EN PARALLELE (2 KOHMS ET 3 KOHMS). INTENSITE DANS LA RESISTANCE DE 3 KOHMS = 5 MA. QUELLE EST 'INTENSITE DANS LA RESISTANCE DE 3,3 KOHMS ?",
+    "options": [
+     "5 mA",
+     "7,5 mA",
+     "10 mA",
+     "12,5 mA"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "12,5 mA",
+    "commentaire_fr": "Tension aux bornes de la résistance de 3 kohms : U = R x I = 3000 x 0,005 = 15 V;\nIntensité dans la résistance de 2 kohms : I = U / R = 15 / 2000 = 0,075 = 7,5 mA ;\nIntensité dans la résistance de 3,3 kohms = 5 + 7,5 = 12,5 mA\n",
+    "stem_zh": "图中一个 3.3 kΩ 电阻后面接两个并联电阻（2 kΩ 和 3 kΩ）。流过 3 kΩ 电阻的电流为 5 mA，流过 3.3 kΩ 电阻的电流是多少？"
+   },
+   {
+    "num": "20634",
+    "stem_fr": "SCHEMA AVEC UNE RESISTANCE R AVEC VALEUR \"I = 16MA\" SUR LE FIL ALIMENTANT CETTE RESISTANCE. SUIVENT DEUX RESISTANCES (R1 ET R2) EN PARALLELE RELIEES A LA MASSE. INDICATION AUX BORNES DE R2 QUI MESURE 12 KOHMS : 96 V . VALEUR DU COURANT DANS R1 ?",
+    "options": [
+     "6 mA",
+     "10 mA",
+     "1 mA",
+     "8 mA"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "8 mA",
+    "commentaire_fr": "IR2 = 96/12000 = 8 mA ; It = 16 mA donc IR1 = 8 mA \n(donc R1 = R2 mais ce n'était pas la question !)\n",
+    "stem_zh": "图中电阻 R 所在的供电线上标注 I = 16 mA。其后是两个接地的并联电阻（R1 和 R2）。R2 两端标注 96 V，R2 为 12 kΩ。流过 R1 的电流是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K071",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "anchor": "T017d",
+  "seclab": "1.7",
+  "n_q": 9,
+  "cours_fr": "1.7) Groupements Série et Parallèle (ou Dérivation) : les résistances peuvent être groupées en série (les unes derrière les autres) ou en parallèle (le terme « dérivation » est aussi employé). En appliquant les lois d’Ohm et de Joule ainsi que la loi des nœuds et des mailles, on déduit, pour chacun des montages : - la résistance équivalente de l’ensemble (ou résistances totales notées R t ; R t se prononce « R indice t » ou plus couramment « R de t »), - la répartition de la tension totale (notée U t ) entre les différentes résistances (U R1 est la tension aux bornes de la résistance R1 ; U R1 se prononce « U indice R1 » ou plus couramment « U de R1 »), - la répartition de l’intensité totale parcourue dans le circuit (notée I t ) entre chacune des résistances (I R1 est l’intensité parcourue dans R1), - la répartition de la puissance dissipée totale (notée P t ) entre chacune des résistances du groupement (P R1 est la puissance dégagée par R1) ; - enfin, nous étudierons le cas où les résistances du groupement ont des valeurs identiques. Groupement Série Parallèle (ou Dérivation) Schéma Résistance équivalente R t = R1 + R2 + ... R t = R1 x R2 (Produit sur Somme) R1 + R2 (= les Pieds sur le Sol) ou R t = 1/(1/R1 + 1/R2 + ...) Tension Proportionnelle aux résistances U R1 = U t . (R1 / R t ) U t = U R1 + U R2 + ... Constante U t = U R1 = U R2 = ... Intensité Constante I t = I R1 = I R2 = ... Inversement proportionnelle aux résistances I R1 = I t . (R t / R1) I t = I R1 + I R2 + ... Puissance dissipée P t = U t . I t = P R1 + P R2 + … P R1 = U R1 . I t = P t . (R1 / (R t ) Proportionnelle aux résistances P t = U t . I t = P R1 + P R2 + … P R1 = U t . I R1 = P t . (R t / R1) Inversement proportionnelle aux résistances Groupements de n résistances de valeur identique (R) R t = R . n I R = It U R = U t / n P R = P t / n R t = R / n I R = I t / n U R = U t P R = P t / n b Dans un groupement série , la résistance équivalente du groupement de résistances est toujours supérieure à la valeur de la plus grande résistance du groupement. De plus, la tension aux bornes de la résistance la plus grande est la plus importante, de même que la puissance dissipée par cette même résistance (répartition de la tension et de la puissance de l’ensemble au prorata de la valeur des résistances ) tandis que l’intensité est constante. Quand le groupement en série est constitué de n résistances de valeur identique R, la résistance équivalente est : R t = R x n. Dans ce cas, les tensions aux bornes de chacune des résistances et leurs puissances dissipées sont identiques (U R = U t / n et ",
+  "samples": [
+   {
+    "num": "21063",
+    "stem_fr": "QUELLE EST L'INTENSITE ?",
+    "options": [
+     "1 A",
+     "2 A",
+     "1,5 A",
+     "5 A"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "2 A",
+    "commentaire_fr": "RT = (10 x 5) / (10 + 5) = 3,33\nIR = IT x RT / R = 3 x 3,33 / 5 = 10/5 = 2 A\nSans calcul, on voit qu’il passe deux fois plus de courant dans la résistance du bas (deux fois plus faible), donc répartition du courant total entre les deux résistances : 1/3 et 2/3, soit 1 A en bas et 2 A en haut du schéma\n",
+    "stem_zh": "电流是多少？"
+   },
+   {
+    "num": "21068",
+    "stem_fr": "QUELLE EST LA TENSION ?",
+    "options": [
+     "15 V",
+     "70 V",
+     "7 V",
+     "49 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "70 V",
+    "commentaire_fr": "Dans cet exercice, la puissance dissipée par les deux résistances est une donnée inutile.\nU = R x I = 70 x 1 = 70 V\n",
+    "stem_zh": "电压是多少？"
+   },
+   {
+    "num": "21064",
+    "stem_fr": "QUELLE EST L'INTENSITE ?",
+    "options": [
+     "1 A",
+     "2 A",
+     "1,33 A",
+     "4 A"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "4 A",
+    "commentaire_fr": "RT = (30x10) / (30+10) = 300/40 = 7,5 ;\nIR = IT x RT / R donc IT = IR x R / RT = 1 x 30 / 7,5 = 4 A\nSans calcul, on sait qu'il passe dans la résistance du bas 3 fois plus de courant que dans celle du haut car elle est 3 fois plus petite.\nDonc  : IRbas = 3 x IRhaut = 3 A ; \nIT = IRhaut + IRbas = 1 A + 3 A = 4 A\n",
+    "stem_zh": "电流是多少？"
+   },
+   {
+    "num": "21072",
+    "stem_fr": "QUELLE EST LA TENSION ?",
+    "options": [
+     "18 V",
+     "22,5 V",
+     "2,5 V",
+     "20 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "22,5 V",
+    "commentaire_fr": "1,8 kΩ = 1800 Ω\nR équivalente = R1 + R2 = 1800 + 200 = 2000 Ω\nUR1 = UT x (R1 / RT) = 25 V x (1800 / 2000) = 22,5 V\n",
+    "stem_zh": "电压是多少？"
+   },
+   {
+    "num": "21074",
+    "stem_fr": "QUELLE EST LA TENSION ?",
+    "options": [
+     "0,45 V",
+     "138 V",
+     "25 V",
+     "450 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "450 V",
+    "commentaire_fr": "R équivalente = 12 kΩ + 8 kΩ + 5 kΩ = 25 kΩ\nU = R x I = 25000  x 18 mA = 450 V\n",
+    "stem_zh": "电压是多少？"
+   },
+   {
+    "num": "21075",
+    "stem_fr": "QUELLE EST L'INTENSITE ?",
+    "options": [
+     "2 mA",
+     "5 mA",
+     "10 mA",
+     "0,05 A"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "0,05 A",
+    "commentaire_fr": "R équivalente = (R1 x R2)/(R1 + R2) = (2 x 10)/(2 + 10) = 20/12 = 1,6666 kΩ\nIR1 = IT x (RT / R1) = 60 mA x (1,6666 kΩ/ 2 kΩ) = 0,05 A\n",
+    "stem_zh": "电流是多少？"
+   },
+   {
+    "num": "21066",
+    "stem_fr": "QUELLE EST L'INTENSITE ?",
+    "options": [
+     "0,5 mA",
+     "15 mA",
+     "1,5 mA",
+     "1 mA"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1,5 mA",
+    "commentaire_fr": "La valeur des résistances ne sert à rien dans cet exercice.\nIT = IR1 + IR2 = 1 mA + 0,5 mA = 1,5 mA\n",
+    "stem_zh": "电流是多少？"
+   },
+   {
+    "num": "21073",
+    "stem_fr": "QUELLE EST LA TENSION ?",
+    "options": [
+     "15,66 V",
+     "15 V",
+     "1,595 V",
+     "32 V"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "15,66 V",
+    "commentaire_fr": "Plusieurs méthodes de calcul, nous en avons retenu une qui applique la loi d’Ohm.\nR équivalente = R1 + R2 + R3 = 15 kΩ + 30 kΩ + 2 kΩ = 47 kΩ\nI = (U / R) = 5 / 15000 = 0,000 333 333 A\nU = R x I = 47 kΩ x 0,000 333 333 A = 15,666 666 V\n",
+    "stem_zh": "电压是多少？"
+   },
+   {
+    "num": "21071",
+    "stem_fr": "QUELLE EST LA RESISTANCE EQUIVALENTE ?",
+    "options": [
+     "218 Ω",
+     "3800 Ω",
+     "2000 Ω",
+     "180 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "2000 Ω",
+    "commentaire_fr": "1,8 kΩ = 1800 Ω\nR équivalente = R1 + R2 = 1800 + 200 = 2000 Ω\n",
+    "stem_zh": "等效电阻是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K072",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "anchor": "T022",
+  "seclab": "2.2",
+  "n_q": 9,
+  "cours_fr": "2.2) Valeur maximum, efficace, moyenne, crête à crête. Ces notions ne s’appliquent qu’aux courants, c’est-à-dire à la tension et à l’intensité (qui varient dans le temps dans le cas d’un signal alternatif) mais pas à la puissance (issue du produit de la tension par l’intensité) ni à la résistance (qui reste, par nature, constante). a La valeur maximale (Umax ou Imax) d’un signal alternatif est la valeur la plus grande que prend le signal au cours d’une période. Elle est appelée aussi valeur crête (Ucrête ou Icrête). b La valeur efficace (Ueff ou Ieff) d’un signal alternatif est la valeur pour laquelle les lois d'Ohm et de Joule peuvent être appliquées. La formule ci-dessous est utilisée si et seulement si le signal est sinusoïdal. Des formules existent pour transformer les valeurs maximales d’autres signaux alternatifs (carrés, triangle, etc.) en valeurs efficaces mais sortent du programme de l’examen. On rappelle que le sinus de 45° est égal à 1/&#8730;2, soit 0,707. Umax = &#8730;2.Ueff = 1,414 x Ueff ou Ueff = Umax/&#8730;2 = 0,707 x Umax . c La valeur moyenne (Umoy ou Imoy) d’un signal alternatif est la moyenne algébrique du courant ou de la tension et est la valeur lue par un galvanomètre, voir §",
+  "samples": [
+   {
+    "num": "20060",
+    "stem_fr": "TENSION CRETE DE 127 V EFF ?",
+    "options": [
+     "153 V",
+     "90 V",
+     "180 V",
+     "254 V"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "180 V",
+    "commentaire_fr": "Umax = Ueff x 1,414 = 127 x 1,414 = 179,6 arrondi à 180\n",
+    "stem_zh": "127 V 有效值对应的峰值电压？"
+   },
+   {
+    "num": "20062",
+    "stem_fr": "TENSION CRETE SIGNAL 20W COAXIAL 75 OHMS",
+    "options": [
+     "55 V ",
+     " 39 V",
+     "75 V",
+     "110 V"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "55 V ",
+    "commentaire_fr": "U = √ (P x R) = √ (1500) = 39 Volts efficaces (valeur arrondie) = 55 Volts crête. \n\nEn considérant qu’il n’y a pas d’ondes stationnaires.\n",
+    "stem_zh": "75 Ω 同轴电缆上 20 W 信号的峰值电压是多少？"
+   },
+   {
+    "num": "20063",
+    "stem_fr": "INTENSITE CRETE PUISSANCE 40 W COAXIAL 50 OHMS",
+    "options": [
+     "45 A ",
+     " 0,9 A",
+     "32 A",
+     "1,27 A"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1,27 A",
+    "commentaire_fr": "I = √ (P / R) = √ (40 / 50) = 0,9 A eff = 1,27 A crête (réponse arrondie).\nEn considérant qu’il n’y a pas d’ondes stationnaires.\n",
+    "stem_zh": "50 Ω 同轴电缆上 40 W 信号的峰值电流是多少？"
+   },
+   {
+    "num": "20061",
+    "stem_fr": "VALEUR EFFICADE D'UNE TENSION CRETE A CRETE 96 V ?",
+    "options": [
+     "68 V ",
+     "34 V",
+     "136 V",
+     "272 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "34 V",
+    "commentaire_fr": "96 Vcàc = 48 Vmax ; 48Vmax x 0,707 = 33,94  arrondi à 34 Veff)\n",
+    "stem_zh": "峰峰值为 96 V 的电压，有效值是多少？"
+   },
+   {
+    "num": "20057",
+    "stem_fr": "10 VOLTS EFFICACES, QUELE EST LA TENSION CRETE ?",
+    "options": [
+     "20 V",
+     "7,07 V",
+     "28,28 V",
+     "14,14 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "14,14 V",
+    "commentaire_fr": "Umax = Ueff x 1,414 = 14,14 Vmax\n",
+    "stem_zh": "10 伏有效值时，峰值电压是多少？"
+   },
+   {
+    "num": "20058",
+    "stem_fr": "TENSION CRETE D'UN SIGNAL DE TENSION EFFICACE 5 V",
+    "options": [
+     "6 V",
+     "3,53 V  ",
+     "14,14 V",
+     "7,07 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "7,07 V",
+    "commentaire_fr": "Umax = Ueff x 1,414 = 7,07 V \n",
+    "stem_zh": "有效值为 5 V 的信号的峰值电压是多少？"
+   },
+   {
+    "num": "20059",
+    "stem_fr": "VALEUR EFFICACE D'UNE TENSION CRETE A CRETE 622 VOLTS ?",
+    "options": [
+     "220 V",
+     "311 V",
+     "439,8 V",
+     "879 V"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "220 V",
+    "commentaire_fr": "Umax = Ucac / 2 = 622 / 2 = 311 \nUeff = Umax x 0,707 = 220 V(réponse arrondie)\n",
+    "stem_zh": "峰峰值为 622 V 的电压，有效值是多少？"
+   },
+   {
+    "num": "20056",
+    "stem_fr": "QUELLE EST LA VALEUR CRETE D'UN SIGNAL EFFICACE DE 12 VOLTS ?",
+    "options": [
+     "24 V",
+     "8,5 V",
+     "17 V",
+     "34 V"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "17 V",
+    "commentaire_fr": "12 x 1,414 = 17 V (réponse arrondie)\n",
+    "stem_zh": "有效值为 12 V 的信号的峰值是多少？"
+   },
+   {
+    "num": "20351",
+    "stem_fr": "QUELLE EST FORMULE EXACTE ?",
+    "options": [
+     "Ieff = Imax/√2 ",
+     "Ieff = √2/Imax",
+     "Ieff = Imax.√2",
+     "Ieff = √2.Imax"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Ieff = Imax/√2 ",
+    "commentaire_fr": "",
+    "stem_zh": "下面哪一个公式是正确的？"
+   }
+  ]
+ },
+ {
+  "id": "K073",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "anchor": "T023g1",
+  "seclab": "2.3",
+  "n_q": 9,
+  "cours_fr": "2.3c6 que ce code couleur est aussi utilisé pour marquer la valeur des condensateurs. a Pour coder une valeur, trois bagues au moins sont nécessaires : les deux premières bagues indiquent les deux premiers chiffres de la valeur, la troisième bague indique le nombre de 0 de la valeur. Pour détromper la lecture, les bagues ne sont pas centrées au milieu de la résistance : selon la représentation, elles doivent se situer à gauche de la résistance pour une lecture de gauche à droite ou en haut pour une lecture de haut en bas. Le code des couleurs des bagues de tolérance (4 ème bague, quelquefois décalée par rapport aux trois premières) n’a pas à être connu pour l’examen. Toutefois, dans les questions d’examen, la bague de tolérance est souvent représentée mais sa signification n’est pas demandée. Mnémotechnique Initiale du mot = Initiale de la couleur Couleur des bagues 1 ère bague 1 er chiffre Dizaine 2 ème bague 2 ème chiffre Unité 3 ème bague multiplicateur Nombre de 0 4 ème bague tolérance +/– Ne Mangez Rien Ou Je Vous Battrai VIOlemment, Grand BOA Noir Marron Rouge Orange Jaune Vert Bleu VIOlet Gris Blanc Or Argent 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 x 1 x 10 x 100 x 1000 x 10 000 x 100 000 x 1 000 000 x10 000 000 (x 100 000 000) (x1 000 000 000) x 0,1 x 0,01 sans bague: 20% 1 % 2 % 0,5 % 0,25 % 0,1 % 5 % 10 % Il existe une expression mnémotechnique pour se souvenir du code des couleurs : Ne Mangez Rien Ou Je Vous Battrai Violemment, Grand BOA. L’initiale de chaque mot de la phrase correspond à l’initiale de la couleur. Attention : la série commence par 0 et ne pas confondre les deux V (vert et violet) et les deux B (bleu et blanc) : Violemment correspond à Violet et le Blanc (valeur 9) est à la fin puisque le Noir (valeur 0) est au début. Remarquez la logique de l’ordre des couleurs. On commence par des couleurs sombres (noir puis marron), les couleurs centrales (de rouge à violet) sont celles de l’arc-en-ciel et des couleurs claires (gris puis blanc) terminent la série. Les deux premières bagues donneront un nombre toujours compris entre 10 et 99. Ainsi, la première bague ne pourra pas être noire (=0) et pour coder 0,1 &#937;, on utilisera : Marron, Noir, Argent (10 x 0,01 = 0,1). A l’examen, on ne recense aucune question avec les multiplicateurs x 0,1 ou x 0,01 (bague Or ou Argent). Exemple : Quelle est la valeur de cette résistance ? Réponse : BLEU &#8594; 6 ROUGE &#8594; 2 R = 62 x 10 1 &#937; = 620 &#937; MARRON &#8594; 1 b Les résistances du commerce ont des valeurs « normées ». La série des valeurs des résistances à 20% de tolérance (sans 4 èm",
+  "samples": [
+   {
+    "num": "21249",
+    "stem_fr": "IMPEDANCE DE LA BOBINE",
+    "options": [
+     "75 Ω",
+     "12 Ω",
+     "50 Ω",
+     "13 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "75 Ω",
+    "commentaire_fr": "Z = 6,28 x F(MHz) x L(µH) = 6,28 x 4 x 3 = 75,36 Ω arrondi à 75 Ω\nEn écriture naturelle : Z = 2 x π x 4.10^6 x 3.10^-6 = 75 (arrondi)\n",
+    "stem_zh": "线圈的阻抗"
+   },
+   {
+    "num": "20090",
+    "stem_fr": "INDUCTANCE EQUIVALENTE",
+    "options": [
+     "30,4 µH ",
+     "34 µH",
+     "52 µH",
+     "3,1 µH"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "34 µH",
+    "commentaire_fr": "(en partant du principe que les bobines ne sont pas couplées) : bobines en parallèle : 12 / 2 = 6 µH ; L = 6 + 18 + 10 = 34 µH\n",
+    "stem_zh": "等效电感"
+   },
+   {
+    "num": "21097",
+    "stem_fr": "INDUCTANCE EQUIVALENTE",
+    "options": [
+     "impossible à calculer",
+     "infinie",
+     "4,8 µH",
+     "20 µH"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "20 µH",
+    "commentaire_fr": "L’indication « les bobines sont blindées » signifie que les calculs se font comme pour les résistances. Sans l’indication sur le blindage des bobines, le calcul aurait été impossible à faire.\nL éq = L1 + L2 = 12 µH + 8 µH = 20 µH\n",
+    "stem_zh": "等效电感是多少？"
+   },
+   {
+    "num": "21098",
+    "stem_fr": "INDUCTANCE EQUIVALENTE",
+    "options": [
+     "4,8 µH",
+     "20 µH",
+     "impossible à calculer",
+     "infinie"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "4,8 µH",
+    "commentaire_fr": "L’indication « les bobines sont blindées » signifie qu’il n’y a pas de mutuelle induction entre les deux bobines. Les calculs se font donc comme pour les résistances. Sans l’indication sur le blindage des bobines, le calcul aurait été impossible à faire.\nL éq = (L1 x L2)/(L1 + L2) = (12 x 8)/(12 + 8) = 96/20 = 4,8 µH\n",
+    "stem_zh": "等效电感"
+   },
+   {
+    "num": "20355",
+    "stem_fr": "QUELLE EST VALEUR EQUIVALENTE DE CES 2 BOBINES EN SERIE ?",
+    "options": [
+     "4,8 µH",
+     "20 µH",
+     "96 µH",
+     "40 µH"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "20 µH",
+    "commentaire_fr": "Réponse (en partant du principe que les bobines ne sont pas couplées) : \nbobines en parallèle : 12 + 8 = 20\n",
+    "stem_zh": "这两只串联线圈的等效值是多少？"
+   },
+   {
+    "num": "20379",
+    "stem_fr": "INDUCTANCE EQUIVALENTE AVEC UN SCHEMA REPRESENTANT DES RESISTANCES AU LIEU DE BOBINES. QUELLE EST L'INDUCTANCE EQUIVALENTE ?",
+    "options": [
+     "5 µH",
+     "6 µH",
+     "150 µH",
+     "25 µH"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "25 µH",
+    "commentaire_fr": "En partant du principe que les bobines ne sont pas couplées, ce qui n'est pas indiqué, la valeur équivalente de  bobines en série est égale à leur somme : 15 + 10 = 25. \nNe pas se laisser perturber par le schéma non conventionnel des bobines dessinées ici par des rectangles. Le terme « inductance équivalente » et les valeurs en Henry indiquent que nous avons affaire à bobines et non pas à des résistances\n",
+    "stem_zh": "等效电感的题目，但示意图中画的是电阻符号而不是线圈。等效电感是多少？"
+   },
+   {
+    "num": "20530",
+    "stem_fr": "CALCUL DE LA BOBINE EQUIVALENTE D'UN GROUPEMENT PARALLELE DE 2 BOBINES (6 ET 13 MICROHENRYS) EN SERIE AVEC UNE 3EME (3 MICROHENRYS).",
+    "options": [
+     "4,1 µH",
+     "22 µH",
+     "2,6 µH",
+     "7,1µH"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "7,1µH",
+    "commentaire_fr": "En partant du principe que les bobines ne sont pas couplées, 2 bobines en parallèle : (6 x 13) / (6 + 13) = 4,1 ; en série avec 3 µH = 3 + 4,1 = 7,1 µH\n",
+    "stem_zh": "计算由 2 只并联线圈（6 和 13 微亨）再与第 3 只（3 微亨）串联得到的等效线圈。"
+   },
+   {
+    "num": "20776",
+    "stem_fr": "UN SCHEMA POUR LE CALCUL D'INDUCTANCE EQUIVALENTE AVEC 3 MILLIHENRYS EN SERIE AVEC 1 BOBINE DE 6 MILLIHENRYS ET UNE DE 12 MILLIENRYSH EN PARALLELE.",
+    "options": [
+     "21 mH",
+     "7 mH",
+     "2,6 mH",
+     "4 mH"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "7 mH",
+    "commentaire_fr": "2 bobines en parallèle : (6 x 12) / (6 + 12) = 4 ; en série avec 3 mH = 3 + 4 = 7 mH (en partant du principe que les bobines ne sont pas couplées entre elles).\n\n",
+    "stem_zh": "等效电感计算示意图：3 mH 与一只 6 mH 线圈、一只 12 mH 线圈串联，其中后两只并联。"
+   },
+   {
+    "num": "20845",
+    "stem_fr": "INDUCTANCE EQUIVALENTE A DEUX INDUCTANCES EN PARALLELE DE 30 MICROHENRYS ET DE 6 MICROHENRYS LE TOUT EN SERIE AVEC UNE INDUCTANCE DE 45 MICROHENRYS.",
+    "options": [
+     "75 µH",
+     "50 µH",
+     "51 µH",
+     "9 µH"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "50 µH",
+    "commentaire_fr": "En partant du principe que les bobines ne sont pas couplées : 2 bobines en parallèle : (6 x 30) / (6 + 30) = 180 / 36 = 5 ; en série avec 45 µH = 5 + 45 = 50 µH. Sans calculatrice, on trouve le résultat par élimination (cela va plus vite que « produit sur somme +L »  : 30//6 donnent un peu moins de 6 µH en série avec 45µH, cela ne peut donc être que 50 µH (et non pas 51 µH)\n",
+    "stem_zh": "等效电感：两只 30 µH 与 6 µH 的电感并联，再与一只 45 µH 的电感串联。"
+   }
+  ]
+ },
+ {
+  "id": "K074",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "anchor": "T031",
+  "seclab": "3.1",
+  "n_q": 9,
+  "cours_fr": "3.1) Un transformateur est un cas particulier de bobines couplées (au moins deux enroulements bobinés autour d'un même circuit magnétique). Il ne transforme que des courants alternatifs (et si possible sinusoïdaux). Selon la fréquence du courant, le circuit magnétique est composé soit d’un empilement de tôles minces (représenté par un double trait comme ci-dessous) pour des fréquences basses (BF ou secteur 50 Hz), soit de ferrite ( représentée en pointillé comme au §",
+  "samples": [
+   {
+    "num": "20101",
+    "stem_fr": "CALCULER ZS",
+    "options": [
+     "285 Ω",
+     "3,5 Ω",
+     "2,85 Ω",
+     "350 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "2,85 Ω",
+    "commentaire_fr": "impédance au primaire = U / I = 100 / 0,350 = 285 Ω,N = rapport de transformation = 100 / 1000 = 1 / 10, Zs = Ze x N² = 285 / 100 = 2,85 Ω\n",
+    "stem_zh": "计算 ZS"
+   },
+   {
+    "num": "20103",
+    "stem_fr": "IMPEDANCE AU PRIMAIRE",
+    "options": [
+     "200 Ω",
+     "40 Ω",
+     "1,6 Ω",
+     "320 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "200 Ω",
+    "commentaire_fr": "en supposant que le transformateur est parfait, N = rapport de transfo = 300/1500 = 0,2 ; Zs = Ze / N² = 8 / 0,2 / 0,2 = 200\n",
+    "stem_zh": "初级的阻抗是多少？"
+   },
+   {
+    "num": "20096",
+    "stem_fr": "INTENSITE AU SECONDAIRE",
+    "options": [
+     "0,4 A",
+     "4 mA",
+     "200 mA",
+     "4 A "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "4 A ",
+    "commentaire_fr": "P primaire = P secondaire ; I secondaire = P / U = 300 / 75 = 4\n",
+    "stem_zh": "次级电流是多少？"
+   },
+   {
+    "num": "20102",
+    "stem_fr": "IMPEDANCE AU PRIMAIRE ?",
+    "options": [
+     "4 Ω",
+     "270 Ω",
+     "120 Ω",
+     "3600 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "3600 Ω",
+    "commentaire_fr": "En supposant que le transformateur est parfait, N = rapport de transfo = 1/30 ; Ze = Zs / N² = 4 / (1/30)² = 4 x 30 x 30 = 3600 Ω\n",
+    "stem_zh": "初级的阻抗是多少？"
+   },
+   {
+    "num": "20095",
+    "stem_fr": "COURANT DANS LE PRIMAIRE",
+    "options": [
+     "1 A",
+     "2,5 A",
+     "400 mA",
+     "10 mA"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1 A",
+    "commentaire_fr": "Puissance primaire = puissance secondaire = 100 W, Uprimaire = 100 V donc I = P / U = 1 A). Les caractéristiques du transformateur (nombre de spires) sont inutiles.\n",
+    "stem_zh": "初级电流是多少？"
+   },
+   {
+    "num": "20097",
+    "stem_fr": "COURANT TRAVERSE RESISTANCE",
+    "options": [
+     "25 A",
+     "2 A",
+     "0,5 A",
+     "200 mA"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "2 A",
+    "commentaire_fr": "P primaire = P secondaire donc I = P / U soit 100 W / 50 V = 2 A\n",
+    "stem_zh": "流过电阻的电流是多少？"
+   },
+   {
+    "num": "20098",
+    "stem_fr": "TENSION AUX BORNES DE R",
+    "options": [
+     "2,2 V ",
+     "2200 V",
+     "22 V",
+     "220 mV"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "22 V",
+    "commentaire_fr": "U secondaire = 220 x (100 / 1000) = 220 / 10 = 22\n",
+    "stem_zh": "R 两端的电压"
+   },
+   {
+    "num": "20099",
+    "stem_fr": "INTENSITE DANS LA RESISTANCE R",
+    "options": [
+     "10 mA",
+     "1A",
+     "10 A",
+     "0,1 A "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "0,1 A ",
+    "commentaire_fr": "U secondaire = 220 x (100 / 1000) = 220 / 10 = 22 ; \nI = U / R = 22 / 220 = 0,1 A\n",
+    "stem_zh": "流过电阻 R 的电流是多少？"
+   },
+   {
+    "num": "20100",
+    "stem_fr": "PUISSANCE DISSIPEE RESISTANCE R",
+    "options": [
+     "350 W ",
+     " 3,5 W",
+     "35 W",
+     "350 mW"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "35 W",
+    "commentaire_fr": "le transformateur est supposé parfait, donc Ps = Pp = Up x Ip = 100 x 0,35 ; les valeurs de Ns et Np sont inutiles pour résoudre le problème.\n",
+    "stem_zh": "电阻 R 上耗散的功率是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K075",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "anchor": "T082b",
+  "seclab": "8.2",
+  "n_q": 9,
+  "cours_fr": "8.2) Le montage fondamental est représenté ci-dessous. Le signal est appliqué à l’entrée inverseuse. Le montage fait appel à une contre-réaction grâce à la résistance R2. La tension au point N est stabilisée par rapport à la tension au point P. L’alimentation du circuit n’est pas représentée, comme c’est souvent le cas dans les schémas. b Lorsque la tension du signal d’entrée U E est positive, la tension U N est aussi positive et est supérieure à U P (= 0 V). U N étant appliqué à l’entrée négative de l’amplificateur opérationnel, la sortie sera reliée au – de l’alimentation. Cette tension négative en S va, par la contre-réaction de R2, diminué la tension en U N et lorsque U N atteindra une valeur inférieure à U P , la sortie basculera vers le + de l’alimentation du circuit, ce qui, par la contre-réaction de R2, fera augmenter U N . Le système se stabilisera autour de la tension U P avec U P = U N = 0 V (masse ou tension de référence). Ce montage ne fonctionne que si l’amplificateur opérationnel est alimenté en + et en – (par exemple en +5 V et en –5 V). En alimentant l’amplificateur opérationnel « classiquement » entre une tension de 12 volts et la masse, la tension de référence (au point P) ne sera plus 0 V mais une tension intermédiaire (5 V par exemple) générée par un pont de résistances. Dans la résistance d’entrée R1, située entre E et N, on a I R1 = U E / R1 puisque U N = 0. L'impédance d'entrée de l’amplificateur opérationnel est infinie (I e- = 0), donc I R1 = I R2 . La sortie S du montage sera à la tension U R2 = U E x (– R2 / R1) = U S . Le gain en tension est donc négatif et est égal à : G = – (R2 / R1) . Il n'y a pas de gain en intensité (I E = I R1 = I R2 = I S ). On pourra aussi utiliser les triangles ci-dessous comme pour la loi d’Ohm. Cependant, il faut faire attention au signe négatif de la résistance R2 (contre-réaction) dans les triangles avec R. Le gain est ici un coefficient multiplicateur avec inversion de phase et ne doit pas être exprimé en dB. Exemples : 1) Quel est le gain de ce montage ? Réponse : gain = – R2 / R1 = – 25k / 5000 = – 25000 / 5000 = – 5 2) Un amplificateur opérationnel est monté en inverseur. Le gain du montage est de –3 avec une résistance à l'entrée (R1) de 10 000 ohms. Quelle est la valeur de la résistance de contre- réaction (R2) ? Réponse : R2 = – (G x R1) = – [( –3) x 10 000] = 3 x 10 000 = 30 k &#937; 3) Quelle est la tension de sortie ? Réponse : gain = – R2 / R1 = – 500 / 100 = – 5 Tension de sortie = tension d’entrée x gain = – 0,5 V x (– 5) = + 2,5 V ou U S = – U E x (R2 / R1) = – [(– 0,5 V) x (500 / 1",
+  "samples": [
+   {
+    "num": "21301",
+    "stem_fr": "GAIN DU CIRCUIT",
+    "options": [
+     "-0,2",
+     "5",
+     "-5",
+     "0,2"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "-5",
+    "commentaire_fr": "G = -R2/R1 = -75/15 = -5\n",
+    "stem_zh": "电路的增益"
+   },
+   {
+    "num": "21162",
+    "stem_fr": "GAIN EN TENSION",
+    "options": [
+     "-1",
+     "-2",
+     "-10",
+     "-100"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "-1",
+    "commentaire_fr": "G = -R2/R1 = -10/10 = -1\n",
+    "stem_zh": "电压增益"
+   },
+   {
+    "num": "21163",
+    "stem_fr": "GAIN DE CE MONTAGE",
+    "options": [
+     "+5",
+     "-5",
+     "+0,2",
+     "-0,2"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "-5",
+    "commentaire_fr": "G = -R2/R1 = -500/100 = -5\n",
+    "stem_zh": "这个电路的增益"
+   },
+   {
+    "num": "21164",
+    "stem_fr": "GAIN DE CE MONTAGE",
+    "options": [
+     "-1/4",
+     "-1/3",
+     "-2",
+     "-3"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "-1/3",
+    "commentaire_fr": "G = -R2/R1 = -500/1,5 kΩ = -500/1500 = -1/3\n",
+    "stem_zh": "这个电路的增益"
+   },
+   {
+    "num": "21165",
+    "stem_fr": "QUELLE VALEUR DE R",
+    "options": [
+     "5 kΩ",
+     "1 kΩ",
+     "25 kΩ",
+     "125 kΩ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "25 kΩ",
+    "commentaire_fr": "G = -R2/R1 donc R2 = -(G x R1) = -(-5 x 5000) = 25000 = 25 kΩ\n",
+    "stem_zh": "R 的取值是多少？"
+   },
+   {
+    "num": "21166",
+    "stem_fr": "QUELLE RESISTANCE R",
+    "options": [
+     "23 kΩ",
+     "60 kΩ",
+     "30 kΩ",
+     "6,6 kΩ"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "6,6 kΩ",
+    "commentaire_fr": "G = -R2/R1 donc R1 = -R2/G = -20 kΩ/-3 = 20000/3 = 6666 Ω = 6,6 kΩ\n",
+    "stem_zh": "电阻 R 是多少？"
+   },
+   {
+    "num": "20661",
+    "stem_fr": "SCHEMA D'UN AMPLI OP INVERSEUR AVEC R= 2KOHMS ET R = 30 KOHMS; GAIN = ?",
+    "options": [
+     "+15",
+     "-15",
+     "+60",
+     "-60"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "-15",
+    "commentaire_fr": "G = - R2 / R1 = -30 000 / 2 000 = -15\n",
+    "stem_zh": "反相运算放大器电路图，R = 2 kΩ 和 R = 30 kΩ；增益 = ？"
+   },
+   {
+    "num": "20495",
+    "stem_fr": "MONTAGE AMPLI OP AVEC R1 = 4,7 KO ET R2 = 1 KO ; \"VALEUR DU GAIN ? \"",
+    "options": [
+     "- 4,7",
+     "+ 4,7",
+     "infini",
+     "indéterminé"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "- 4,7",
+    "commentaire_fr": "G = - R2 / R1 = -4,7 / 1 = -4,7\n",
+    "stem_zh": "运算放大器电路，R1 = 4.7 kΩ，R2 = 1 kΩ；增益是多少？（⚠️待核）"
+   },
+   {
+    "num": "20832",
+    "stem_fr": "SCHEMA D'UN AMPLI OP INVERSEUR AVEC R= 100 OHMS EN ENTREE ET R = 500 OHMS EN CONTRE-REACTION. QUEL EST LE GAIN ?",
+    "options": [
+     "-0,2",
+     "+0,2",
+     "-5",
+     "+5"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "-5",
+    "commentaire_fr": "G = - R2 / R1 = -500 / 100 = -5\n",
+    "stem_zh": "反相运算放大器电路图，输入端 R = 100 欧姆，反馈电阻 R = 500 欧姆。增益是多少？"
+   }
+  ]
+ }
+]

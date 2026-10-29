@@ -1,0 +1,62 @@
+{
+ "P31": {
+  "verdict": "resolved",
+  "answer": "原文 §7.1a 描述三类基础放大器时，只讲「静态工作点（tension de repos）落在放大区间的什么位置」，不讲角度：A 类＝信号居中于放大区间、幅度不超出该区间（a1）；B 类＝用两个晶体管各放大信号的一个半周（une alternance），静态工作点固定在放大区间的边缘（a2）；C 类＝只有一部分信号被放大，其余部分由输出端调谐在输入频率上的谐振回路补回（a3，禁用于 AM 与 BLU）。全书（含 2692 道真题的题干、选项与注释）均未出现「导通角（angle de conduction）」一词，也没有 180°/360° 之类的角度数值，故本条所记「原文只用『信号被放大的部分』描述」属实。若正文需要给出角度，只能作为外部补充：A 类 a = 360°（全周期导通）、B 类 a = 180°、AB 类 180° < a < 360°、C 类 0 < a < 180°、D 类为开关工作 a = 0。",
+  "source": "PDF §7.1a（cours_pdf_layout.txt 第 4160–4178 行；PDF 第 70 页）；题库 20147/20148/20448/20423/20752/20790/20865/21154 等均只用 tension de repos，无角度；角度值为外部补充，见 https://fr.wikipedia.org/wiki/Classes_de_fonctionnement_d%27un_amplificateur_%C3%A9lectronique",
+  "note": "「导通角」这一术语属于通用电子学说法，F6KGL 原书与法国官方题库都不用；教材正文若保留该词，应标明为补充说明而非原文内容。"
+ },
+ "P32": {
+  "verdict": "resolved",
+  "answer": "确认：本块原文 §7.4（PDF 第 71–72 页）通篇没有放大器「增益」的计算公式，也没有以 dB 表示增益的算式。它只描述射频放大器的电路构成（去耦电容 Cd、扼流圈/bobine de choc、级间耦合变压器、抑制自激的反馈电阻 Rcr、保护用的发射极电阻 Re）与四种失真（b1 频率失真、b2 谐波失真与谐波失真率 TDH、b3 二次/交调失真、b4 三次失真）。以 dB 表示增益的算式在 §4.1：「Gain (dB) = 10 log (Ps / Pe)」或「Ps = 10^(dB/10) × Pe」（§4.1a，功率式；配 §4.1b 的 dB↔比值换算表，如 16 dB ↔ 比值 40）；以电压表示时为「Gain (dB) = 20 log (Us / Ue)」，且只在输入输出阻抗相同时成立，否则「Gain (dB) = 20 log (Us / Ue) + 10 log (Ze / Zs)」（§4.1f）。因此题库若要求「以 dB 计算放大器增益」，应引 §4.1a／§4.1f，不能引 §7.4。",
+  "source": "PDF §7.4（cours_pdf_layout.txt 第 4247–4320 行）、§4.1a（第 3388–3392 行）、§4.1b 换算表（第 3394–3405 行）、§4.1f（第 3457–3466 行）",
+  "note": "§7.4 中「gain」只出现于两处定性描述：Rcr 的说明与「lorsque la température du transistor augmente, son gain augmente」，均无算式。"
+ },
+ "P33": {
+  "verdict": "resolved",
+  "answer": "确认：§7.7「Le mélangeur」（PDF 第 74 页）全节只讲混频器本身——输出端产生 F1 + F2 与 F1 − F2，由输出端 LC 陷波器选其中一个；并说明非理想混频（MOS-FET/J-FET 近似乘法）除 f1、f2、2f1、2f2、f1 ± f2（二次失真）外还有 (2f1 + f2)、(2f1 − f2) 等三次项。全节没有出现 « fréquence intermédiaire » 与 « fréquence image »，也没有超外差接收机框图。这两个术语与框图在 §11.2、§11.3（PDF 第 89–90 页）：§11.2 讲超外差接收机的中频 FI，给出 FI = HF − FO（infradyne，FO < HF）、FI = FO − HF（supradyne，FO > HF）或 FI = FO + HF，并指出混频器输出有两个频率、其一是 FI、另一个被滤除，中频级的作用是提高选择性（陡峭的滤波flancs）与灵敏度；§11.3 讲镜像频率 Fim＝由「反向混频」（该用差频时用了和频等）产生、同样落在 FI 上的频率，示例 HF = 14 MHz、FO = 5 MHz、FI = 9 MHz 时 Fim = |2·FO − HF| = |2·FI − HF| = 4 MHz，并说明双变频（第一中频 100 MHz 以上、第二中频约 500 kHz）用于把镜像频率推远。",
+  "source": "PDF §7.7（cours_pdf_layout.txt 第 4401–4432 行；PDF 第 74 页）、§11.2（第 5277–5318 行）、§11.3（第 5329–5342 行）",
+  "note": "结论：正文如需要中频/镜像/超外差内容，应引 §11.2–§11.3，不可仅凭 §7.7 作答；混频器确实是超外差里产生中频的部件，但原文未如此表述。"
+ },
+ "P34": {
+  "verdict": "resolved",
+  "answer": "题 20155 的答案键已把口径写全，不必依赖原图：放大器输入端同时有 f1 = 145 MHz 与 f2 = 150 MHz 两个频率，二次（交调）失真下输出为 f1、f2、2f1、2f2、f1 + f2、f1 − f2，即 145、150、290（= 2 × 145，145 MHz 的二次谐波）、300（= 2 × 150，150 MHz 的二次谐波）、295（= 145 + 150，和频）、5（= 150 − 145 或 145 − 150，差频）MHz，所以正确选项是「5, 145, 150, 290, 295 和 300 MHz」（选项 A「5, 145, 150 et 295 MHz」漏掉了两个二次谐波）。其中 300 MHz 对应 2 × f2，即输入端 150 MHz 信号的二次谐波；290 MHz 对应 2 × f1。这与原文 §7.4b3「一次谐波 2f1、2f2 与和差频 f1 + f2、f1 − f2 同时出现」及 §7.7c 的说明一致。",
+  "source": "题库题 20155 及其 commentaire（Exam1/questions/questions.json）；原文 §7.4b3（cours_pdf_layout.txt 第 4309–4312 行）、§7.7c（第 4420–4430 行）",
+  "note": "试卷原图（放大器输入端标注的两个频率）未收入教材文本；「300 MHz 属哪种组合」由题库注释确定为 2 × 150 MHz，已无需按图推断。"
+ },
+ "P35": {
+  "verdict": "resolved",
+  "answer": "表在原文中并未丢失，只是以图片形式排在第 79 页（HTML 版对应 COURS_fichiers/image141.gif），所以 pdftotext 抓不到。按该图逐格抄录如下（共 18 个频段列）：\n\n| λ (m) | mam | km | hm | dam | m | dm | cm | mm | 10⁻⁴ | 10⁻⁵ | µm | 10⁻⁷ | 10⁻⁸ | nm | 10⁻¹⁰ | 10⁻¹¹ | pm | 10⁻¹³ |\n| Fréq. (Hz) | 10⁴ | 10⁵ | 10⁶ | 10⁷ | 10⁸ | 10⁹ | 10¹⁰ | 10¹¹ | 10¹² | 10¹³ | 10¹⁴ | 10¹⁵ | 10¹⁶ | 10¹⁷ | 10¹⁸ | 10¹⁹ | 10²⁰ | 10²¹ |\n| Gammes d'ondes | VLF | LF | MF | HF | VHF | UHF | SHF | EHF | Infrarouges |  |  | spectre visible | UV |  | Rayons X |  | Rayons γ | Rayons cosmiques |\n| Propagation par ondes | de sol |  | réfléchies |  | directes |  |  |  | photoniques |  |  |  |  |  |  |  |  |  |\n\n三处合并标签（写在波段名上方）：第 1–8 列＝« radiofréquences gérées par l'UIT (de 9 kHz à 275 GHz) »；第 9–14 列（Infrarouges、spectre visible、UV）＝« fréquences optiques »；第 15–18 列（Rayons X、Rayons γ、Rayons cosmiques）＝« rayonnements ionisants »。表的读法：每一列是一个波段，λ 行给该波段的量级（mam＝万米级、km＝千米级…mm＝毫米级，其后为实际波长）、频率行给该波段的代表频率；波段实际边界取相邻两列：VLF 波长 > 10 km（频率 < 30 kHz）、LF 10 km–1 km（30–300 kHz）、MF 1 km–100 m（300 kHz–3 MHz）、HF 100–10 m（3–30 MHz）、VHF 10–1 m（30–300 MHz）、UHF 1 m–10 cm（300 MHz–3 GHz）、SHF 10–1 cm（3–30 GHz）、EHF 1 cm–1 mm（30–300 GHz）。传播方式行（最后一行）用蓝色双向箭头标出各区段：de sol（VLF、LF）、réfléchies（MF、HF）、directes（VHF 至 EHF）、photoniques（光频段）。",
+  "source": "PDF 第 79 页嵌入图片（cours_radio.pdf / HTML 的 COURS_fichiers/image141.gif，619×119）；说明文字见 cours_pdf_layout.txt 第 4655–4659 行；波段边界与题库一致：30602（公里波 10 km–1 km）、30401（十米波 100–10 m）、21182（百米波 100–1000 m）、21184/30630（50 MHz = 6 m 属米波）、20858（EHF 30–300 GHz）、20487（16 GHz 属 SHF）、34755（VLF < 30 kHz / λ > 10 km）",
+  "note": "原图并非 18 个独立表格列，而是「左侧行标签列 + 右侧一大格」的画法，光学与电离辐射部分为合并单元格，横向起止只能按图近似：Infrarouges≈第 9–11 列、spectre visible≈第 12 列、UV≈第 13 列、Rayons X≈第 14–15 列、Rayons γ≈第 17 列、Rayons cosmiques≈第 18 列。传播方式行的四个箭头首尾略重叠，重叠处正落在 LF/MF 与 EHF/红外 的边界附近；题库口径为：地波可有效至 2 MHz（含百米波），百米波夜间兼有反射波传播（题 20657、21183、21185）。"
+ },
+ "P36": {
+  "verdict": "resolved",
+  "answer": "两处并不矛盾，而且这三组距离数字不属 §9.2b，出自 §9.3h（PDF 第 79 页）：「Les ondes de sol, appelées aussi ondes de surface, se propagent en restant très près de la surface de la Terre. Elles y subissent très vite une forte absorption et ce, d'autant plus que leur fréquence est élevée… Dans les bandes LF et VLF (300 kHz et en dessous), les ondes se propagent à l'intérieur d'un guide d'ondes dont les parois sont la surface terrestre et la couche D de l'ionosphère. Les espérances de distances de propagation en fonction de la fréquence sont les suivantes : 300 kHz : 2.000 km ; 4 MHz : 100 km ; 10 MHz : 50 km. Mais la conductivité du sol a aussi une grande importance. Ainsi, pour un trajet maritime… il est possible, à 2 MHz, d'obtenir une portée supérieure à 500 kilomètres. On voit le peu d'efficacité de l'onde de sol sur les fréquences décamétriques et au-delà.」即：300 kHz → 2000 km；4 MHz → 100 km；10 MHz → 50 km；海面路径 2 MHz → 可超过 500 km。§9.2b 的「超过 2 MHz 后强烈衰减」是定性结论，§9.3h 的数字正是它的量化：频率每升高一个数量级，期望距离掉一个数量级（2000 → 100 → 50 km），原文自己总结为「地波在十米波及更高频率上几乎没有效率」。正文照抄时写「地波（表面波）随频率升高衰减很快：300 kHz 约 2000 km、4 MHz 约 100 km、10 MHz 约 50 km；海面电导率高，2 MHz 仍可超过 500 km」即可，不存在两处口径冲突。",
+  "source": "PDF §9.3h（cours_pdf_layout.txt 第 4741–4749 行；PDF 第 79 页）、§9.2b（第 4638–4639 行）；题库同口径：21185、20657、21183",
+  "note": "要注意这几组数字是「espérances de distances」（期望距离，随地面电导率变化），不是保证距离；原文以海面 2 MHz > 500 km 作为高电导率的对照。"
+ },
+ "P37": {
+  "verdict": "resolved",
+  "answer": "教材文本版确实没有插图，但插图仍在 PDF 里（第 81–82 页），三题的答案都能据原书插图核实：\n(1) 题 21170「这个偶极是按哪个频率裁截的」→ 8,33 MHz。原书 §9.4c 的偶极图（PDF 第 81 页）写明 L(m) = 150 / f(MHz) = λ/2，题图上的偶极总长 18 m，故 f = 150 / 18 = 8,33 MHz；同一长度的其它公式正好构成干扰项：300 / 18 = 16,66 MHz（全波）、75 / 18 = 4,16 MHz（四分之一波）。\n(2) 题 22474「哪张图是自由空间中半波偶极的方向图」→ 图 2（两个波瓣的 8 字形）。原书 §9.7b 的辐射图组（PDF 第 82 页，列标题为 Antenne isotropique / Quart d'onde / en espace libre / à λ/2 du sol / Doublet horizontal / Beam Yagi）中，「en espace libre」即自由空间偶极的方向图；§9.7c 明确写「en espace libre, le diagramme d'un doublet ressemble à un tore rond dont le centre est très fin alors qu'à λ/2 du sol, le diagramme prendra la forme d'une banane」——所以应选两波瓣的 8 字图，而不是离地 λ/2 时那个单瓣（香蕉形）图。\n(3) 题 21601「Yagi 天线图上标注 A 的部分是」→ 天线的后方。原书 §9.6 的 Yagi 图（PDF 第 81 页）标注为：Réflecteur（反射器，比有源振子长）／Élément rayonnant = dipôle（有源振子）／Directeur（引向器，比振子短）／Direction du rayonnement maximum（最大辐射方向）；反射器一端即天线后方，与答案键「L'arrière de l'antenne」一致。",
+  "source": "PDF §9.4c、§9.6（第 81 页）、§9.7b–c（第 82 页）；题库题 21170、22474、21601 及各自 commentaire",
+  "note": "试卷原件里的插图编号（图 1/2/3/4）无法从教材文本核对，此处按题库答案键 + 原书插图的物理含义核对，结论一致；三题的 cours 锚点分别为 T094c、T097b、T096。"
+ },
+ "P38": {
+  "verdict": "source_defect",
+  "answer": "两题并不矛盾，而是对应不同几何；但题库与原文各有一处口径不清楚，答题按下面的规则。原文 §9.5a：地网/地面与四分之一波振子成 90°（垂直）时阻抗 36 Ω，成 120° 时阻抗 52 Ω。原文 §9.10f 又把「地网与振子垂直的四分之一波」标称 50 Ω 纯阻（无电抗），并将其拆为 36 Ω 辐射阻抗 + 14 Ω 损耗。题库：题 21176「Quelle est l'impédance de ce quart d'onde ?」答案 36 Ω，注释为「Z = 36 Ω quand on a un angle de 90° par rapport à la masse」；题 21177 的选项只有 36 / 50 / 120 / 73 Ω，答案键取 50 Ω，而其注释却写「Z = 52 Ω quand on a un angle de 120° entre les radiants et le brin rayonnant」——即该题考的是 120° 情形，理论值 52 Ω 不在选项里，只能取最接近的 50 Ω。答题口径：看图判断角度——地网与振子垂直（90°）答 36 Ω；成 120° 答 52 Ω（题库因选项所限记为 50 Ω）；若题目用「50 Ω 纯阻」的措辞并涉及效率/损耗，则属 §9.10f 的「36 Ω 辐射阻抗 + 14 Ω 损耗」口径。",
+  "source": "PDF §9.5a（cours_pdf_layout.txt 第 4798–4808 行）、§9.10f（第 4947–4955 行）；题库题 21176、21177",
+  "note": "毛病有两处：(1) 题库 21177 的选项里没有 52 Ω，答案键写 50 Ω 而其注释写 52 Ω，自相矛盾；(2) 原文把同一副 λ/4 垂直天线在不同段落说成 36 Ω（§9.5a，90°）与 50 Ω 纯阻（§9.10f，垂直地网），未说明后者含约 14 Ω 损耗。故记 source_defect。"
+ },
+ "P39": {
+  "verdict": "resolved",
+  "answer": "题 20188 的标准答案 400 W 是正确的，并非「简化口径」：题目给的是 16 dBi（相对各向同性天线的增益），求的也是 PIRE（相对各向同性天线的等效辐射功率），两者参考系相同，直接换算功率比即可——16 dB ⇒ 10^(16/10) = 39,8 ≈ 40，PIRE = 10 W × 40 = 400 W PIRE。原文 §9.8 的例题正是这么算的：13 dBd = 比值 20，100 W × 20 = 2000 W PAR（注意该例用的是 dBd）。只有两种情形才需要 2,14 dB / 1,64 的修正：把以 dBd（相对半波振子）表示的增益用于求 PIRE，或者把 PIRE 换算成 PAR。原文 §9.8 给出：PIRE = PAR + 2,14 dB = PAR × 1,64。所以本题若改问 PAR，答案才是 400 / 1,64 ≈ 244 W——教材原注里的 244 W 是 PAR，不是 PIRE，不能用来否定 400 W。",
+  "source": "题库题 20188 及其 commentaire（« le rapport en puissance est de 40, donc PIRE = puissance x rapport = 10 x 40 = 400 W PIRE »）；原文 §9.8（cours_pdf_layout.txt 第 4849–4858 行）、§4.1b 换算表（16 dB ↔ 比值 40，第 3394–3405 行）",
+  "note": "教材原注怀疑「dBi 与 dBd 相差 2,14 dB 会使答案不严格」，该怀疑不成立：题目问的是 PIRE 且增益以 dBi 给出，无需修正；同一段原文也说明 PAR 与 PIRE 的换算关系。"
+ },
+ "P40": {
+  "verdict": "resolved",
+  "answer": "计算核对无误，且公式出处已查明：原文 §4.3「Les circuits L-C」（loi de Thomson，PDF 第 59 页）明确写「A la résonance comme à la coupure, on a ZC = ZL (loi de Thomson)」，并给出与本题同一形式的公式与例题——f(MHz) = 159 / √(L(µH) × C(pF))，例题为 L = 32 µH、C = 200 pF → f = 159 / √(32 × 200) = 159 / 80 = 1,9875 ≈ 2 MHz。本题 C = 400 pF、L = 25 nH，即 0,025 µH：f = 159 / √(0,025 × 400) = 159 / √10 = 159 / 3,16 = 50,28 ≈ 50 MHz（自然式 f = 1 / (2π√(LC)) = 1 / (2π√(25·10⁻⁹ × 400·10⁻¹²)) = 50,3 MHz）。题 20427 问的是「带陷波器（trappes，即并联谐振回路）的天线的最低谐振频率」，即陷波器截断双极天线的频率，用 LC 谐振公式即可；§4.4（RLC 电路）与 §4.6（§4.3、§4.4 公式的变体）是同族内容。",
+  "source": "题库题 20427 及其 commentaire（« Formule simplifiée : F = 159 / √(L en µH x C en pF) = 159 / √(0,025 x 400) = 50,28 arrondi à 50 MHz »）；原文 §4.3（cours_pdf_layout.txt 第 3530–3554 行；PDF 第 59 页）、§4.4（第 3609 行起）、§4.6（第 3766 行）；同族例题另见 §2.5「le facteur 159 est fréquemment utilisé au numérateur」（第 2822 行）与 §4.4b（第 3620 行，fo = 159/√(25×100) = 3,18 MHz）",
+  "note": "50 MHz 是四舍五入值（精确 50,28 MHz）；159 ≈ 10⁶/(2π)，配 µH 与 pF 使用。本题对应的原文节是 §4.3（LC 谐振／汤姆孙定律），不是 §9.10g（该节只讲多振子与陷波器的构造）。"
+ }
+}

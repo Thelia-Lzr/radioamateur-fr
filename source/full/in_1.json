@@ -1,0 +1,626 @@
+[
+ {
+  "num": "10001",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 23 CMS EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "430 à 440 MHz",
+   "50,200 à 51,200 MHz",
+   "1240,000 à 1260,000 MHz",
+   "1240,000 à 1300,000 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1240,000 à 1300,000 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10002",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+  "options": [
+   "14,450 MHz",
+   "24,990 MHz",
+   "29,700 kHz",
+   "438 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "24,990 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10003",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 28,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "10,100 à 10,150 MHz",
+   "28,000 à 29,700 MHz",
+   "28,000 à 28,450 MHz",
+   "28,000 à 29,500 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "28,000 à 29,700 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10004",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "RETROUVEZ LES LIMITES D'UNE BANDE PARTAGEE EN EXPLOITATION SECONDAIRE EN\nREGION 1 ?",
+  "options": [
+   "1,830 à 1,850 MHz",
+   "28,000 à 29,700 MHz",
+   "10,100 à 10,150 MHz",
+   "14,000 à 14,350 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10,100 à 10,150 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10005",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+  "options": [
+   "14,350 MHz",
+   "21,350 kHz",
+   "50,200 MHz",
+   "420,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "14,350 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10006",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+  "options": [
+   "14,450 MHz",
+   "21 350 kHz",
+   "50,000 MHz",
+   "420,000 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50,000 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10007",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 14 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "14,000 à 14,300 MHz",
+   "14,000 à 14,350 MHz",
+   "350 kHz",
+   "Cette bande n'est pas attribuée au service amateur"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Cette bande n'est pas attribuée au service amateur",
+  "commentaire_fr": "Ne pas confondre la longeur d'onde (en mètres) et la fréquence (en MHz). Bien lire les questions pour détecter les pièges ! \n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10008",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 70 CENTIMETRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "434,000 à 440,000 MHz",
+   "430,000 à 440,000 MHz",
+   "430,000 à 435,000 MHz",
+   "432,000 à 444,000 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "430,000 à 440,000 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10010",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 80 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "3,500 à 3,750 MHz",
+   "3,500 à 3,600 MHz",
+   "3,500 à 3,800 MHz",
+   "3,500 à 3,900 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "3,500 à 3,800 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10011",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 50,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "50,000 à 54,000 MHz",
+   "50,200 à 51,200 MHz",
+   "51,000 à 51,200 MHz",
+   "50,000 à 52,000 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "50,000 à 52,000 MHz",
+  "commentaire_fr": "Les limites 50,2-51,2 MHz sont celles antérieures à la décision 12-1241 qui a autorisé l'ensemble de la bande sans restrictions. Les limites 50-54 MHz sont celles des régions 2 et 3. ",
+  "anchor": "R21d"
+ },
+ {
+  "num": "10012",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 144,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "144,000 à 146,000 MHz",
+   "144,000 à 148,000 MHz",
+   "145,000 à 146,000 MHz",
+   "144,000 à 145,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "144,000 à 146,000 MHz",
+  "commentaire_fr": "En région 2 (dont la France Métropolitaine ne fait pas partie), les limites de la bande sont 144-148 MHz sauf aux opérateurs de classe 3 qui sont autorisés comme en Métropole. ",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10013",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 40 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "7,000 à 7,100 kHz",
+   "7,020 à 7,100 MHz",
+   "7,000 à 7,200 MHz",
+   "7,000 à 7,100 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "7,000 à 7,200 MHz",
+  "commentaire_fr": "Attention à ne pas confondre la virgule décimale et le point se séparation des milliers.\nPour trouver la fréquence, il faut divisé 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10014",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 30 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "30,000 à 31,150 MHz",
+   "10,100 à 10,150 MHz",
+   "10,000 à 10,150 MHz",
+   "10,000 à 10,200 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10,100 à 10,150 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut divisé 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION\n",
+  "anchor": "R21b."
+ },
+ {
+  "num": "10015",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 430,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "434,000 à 440,000 MHz",
+   "430,000 à 440,000 MHz",
+   "434,000 à 435,000 MHz",
+   "430,000 à 435,000 MHz "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "430,000 à 440,000 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10016",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 160 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1,800 à 1,850 MHz",
+   "1,810 à 1,850 MHz",
+   "1,830 à 1,850 MHz",
+   "1,800 à 2,000 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1,810 à 1,850 MHz",
+  "commentaire_fr": "En région 2 (dont la France Métropolitaine ne fait pas partie), les limites de la bande sont 1,8 à 2,0 MHz.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10017",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 1240,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1240,00 à 1300,00 GHz",
+   "1200,00 à 1300,00 MHz",
+   "1240,00 à 1300,00 MHz",
+   "1240,00 à 1280,00 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1240,00 à 1300,00 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10018",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 20 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "14,000 à 14,350 MHz",
+   "14,000 à 14,450 MHz",
+   "14,100 à 14,350 MHz",
+   "14,000 à 14,250 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "14,000 à 14,350 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10019",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 17 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "17,000 à 17,168 MHz",
+   "18,068 à 18,268 MHz",
+   "18,068 à 18,168 MHz",
+   "18,000 à 18,350 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "18,068 à 18,168 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10020",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 15 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "21,000 à 21,450 MHz",
+   "21,000 à 21,350 MHz",
+   "21,000 à 21,250 MHz",
+   "21,000 à 21,450 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "21,000 à 21,450 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10021",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 1,8 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1,810 à 1,850 MHz",
+   "1,800 à 1,850 MHz",
+   "1,830 à 1,850 MHz",
+   "1,810 à 2,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1,810 à 1,850 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10023",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 12 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "24,500 à 24,900 MHz",
+   "24,890 à 24,990 MHz",
+   "24,500 à 24950 MHz",
+   "12,000 à 12,350 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "24,890 à 24,990 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10024",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 3,5 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "3,500 à 3,850 MHz",
+   "3,500 à 3,800 MHz",
+   "3,500 à 3,750 MHz",
+   "3,750 à 3,850 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "3,500 à 3,800 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10025",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 10 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "10,100 à 10,150 MHz",
+   "28,000 à 29,500 MHz",
+   "28,000 à 29,700 MHz",
+   "28,000 à 28,450 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "28,000 à 29,700 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10026",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 7,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "7,000 à 7,200 MHz",
+   "7,000 à 7,100 MHz",
+   "7,000 à 7,300 MHz",
+   "7,000 à 7,400 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "7,000 à 7,200 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10027",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 10,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "28,000 à 29,700 MHz",
+   "10,000 à 10,150 MHz",
+   "28,000 à 29,500 MHz",
+   "10,100 à 10,150 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10,100 à 10,150 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10028",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 14,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "14,000 à 14,350 MHz",
+   "14,000 à 14,250 MHz",
+   "14,000 à 14,450 MHz",
+   "14,000 à 14,300 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "14,000 à 14,350 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10029",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 6 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "6,000 à 6,600 MHz",
+   "50,000 à 51,200 MHz",
+   "50,000 à 52,000 MHz",
+   "50,200 à 51,200 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50,000 à 52,000 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10030",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 18,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "18,000 à 18,250 MHz",
+   "18,068 à 18,168 MHz",
+   "18,068 à 18,268 MHz",
+   "18,000 à 18,168 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "18,068 à 18,168 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10031",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 21,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "21,000 à 21,450 kHz",
+   "21,000 à 21,350 MHz",
+   "21,000 à 21,450 MHz",
+   "21,000 à 21,700 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "21,000 à 21,450 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10032",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 2 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "144,000 à 146,000 MHz",
+   "144,000 à 148,000 MHz",
+   "144,500 à 145,500 MHz",
+   "144,000 à 150,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "144,000 à 146,000 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10034",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 24,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "24,890 à 24,990 MHz",
+   "24,500 à 24,900 MHz",
+   "24,000 à 24,350 MHz",
+   "24,000 à 24,450 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "24,890 à 24,990 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10036",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 30 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "100 kHz",
+   "50 kHz",
+   "150 kHz",
+   "350 kHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10037",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 80 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "3,500 à 3,800 MHz",
+   "300 MHz",
+   "300 kHz",
+   "3,500 à 3,850 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "300 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10038",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 40 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "100 kHz",
+   "200 kHz",
+   "100 MHz",
+   "7,000 à 7,200 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "200 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10039",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 20 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "14,000 à 14,350 MHz",
+   "350 kHz",
+   "450 kHz",
+   "14,000 à 14,450 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "350 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10040",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 1240,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "6 MHz",
+   "23 centimètres",
+   "60 kHz",
+   "60 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "60 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10041",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 17 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "18,068 à 18,168 MHz",
+   "100 kHz",
+   "18 068 à 18 168 kHz",
+   "200 kHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10042",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 430,00 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "10 kHz",
+   "100 kHz",
+   "10 MHz",
+   "0,7 mètres"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10043",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 23 CMS EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "60 MHz",
+   "60 kHz",
+   "1240,000 à 1300,000 MHz",
+   "1260,000 à 1300,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "60 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ }
+]

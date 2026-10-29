@@ -1,0 +1,88 @@
+{
+  "1": {
+    "topic": "RED 2014/53/EU 与业余无线电设备",
+    "conclusion": "业余无线电设备原则上不受 RED 2014/53/EU 管辖，除非它被『投放市场』(made available on the market，即在商业活动中供应)。排除条款在 Annex I 第 1 点（标题 EQUIPMENT NOT COVERED BY THIS DIRECTIVE），由 Article 1(2)『本指令不适用于 Annex I 所列设备』生效，而不是在 Article 1(3) 或 Article 3 里。Annex I.1 原文：『Radio equipment used by radio amateurs within the meaning of Article 1, definition 56, of the ITU Radio Regulations, unless the equipment is made available on the market.』并明确下列不算投放市场：(a) 供业余者组装使用的无线电套件；(b) 由业余者并为业余使用而改装的设备；(c) 业余者为业余无线电相关实验与科研目的自制的设备。委员会官方指南（RED Guide 1.6.2.2）补充：业余者之间偶尔转让设备不构成投放市场；但若是经常性供应或有商业背景，则视为投放市场。结论：自制的、改装的、套件形式的业余设备不需要 CE 标志；而商业销售的业余电台（工厂成品）属于投放市场，必须符合 RED 并加贴 CE 标志（Article 6 要求只有符合本指令的设备才可投放市场），其频谱要求（Article 3(2)）通常通过协调标准 EN 301 783 取得推定符合性。",
+    "confidence": "确定",
+    "sources": [
+      "Directive 2014/53/EU, Annex I (Equipment not covered by this Directive), point 1 (https://www.legislation.gov.uk/eudr/2014/53/annexes/2014-04-16/data.xht)",
+      "Directive 2014/53/EU Article 1 and Article 6 (https://www.legislation.gov.uk/eudr/2014/53/body/2014-04-16/data.xht)",
+      "Consolidated text 02014L0053 (28.12.2024), Annex I (https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02014L0053-20241228)",
+      "Guide to the Radio Equipment Directive 2014/53/EU, Version of 19 December 2018, §1.6.2.2 Radio equipment used by radio amateurs (https://single-market-economy.ec.europa.eu/document/download/a0c7e4c5-27db-4c59-9c43-a380ed21563f_en)",
+      "Report from the Commission on the operation of Directive 2014/53/EU, COM(2024) 158 final, 10.4.2024 (RED Guide latest version issued December 2018) (https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52024DC0158)"
+    ],
+    "note": "注意条款位置：『amateur radio equipment』出现在 Annex I（排除清单）第 1 点，Article 1(2) 是该排除的法律钩子；Article 1(3) 讲的是公共安全/国防/国家安全用途的设备，与业余设备无关。Article 3(2)（无线电频谱的有效利用）才是商业业余设备适用 EN 301 783 的实质要求。官方指南最新版本仍是 2018-12-19 版（委员会 2024 年报告称更新仍在考虑中）。"
+  },
+  "2": {
+    "topic": "EN 301 783（ETSI 业余无线电设备协调标准）",
+    "conclusion": "当前版本为 ETSI EN 301 783 V2.1.1 (2016-01)，标题『Commercially available amateur radio equipment; Harmonised Standard covering the essential requirements of article 3.2 of Directive 2014/53/EU』。状态：现行有效，未被替代，仍是 RED 下的协调标准。ETSI 发布目录 301783 下只有 02.01.00_20（草案 V2.1.0）与 02.01.01_60（正式版 V2.1.1），没有更新的 V2.2.x。OJ 引用：自 OJ C 249, 8.7.2016 起产生推定符合性；委员会 2025-01-30 的『2014/53/EU 协调标准汇总表』仍列 EN 301 783 V2.1.1（无任何限制、无撤销日期）；Commission Implementing Decision (EU) 2022/2191 合并版（截至 2025-08-14）第 61 项仍为『EN 301 783 V2.1.1』。注意标题中的『Commercially available』与 RED Annex I 对非商业业余设备的排除相呼应，且该标准只覆盖 Article 3(2)（频谱），不覆盖安全与 EMC。",
+    "confidence": "确定",
+    "sources": [
+      "ETSI EN 301 783 V2.1.1 (2016-01) (https://www.etsi.org/deliver/etsi_en/301700_301799/301783/02.01.01_60/en_301783v020101p.pdf)",
+      "ETSI publication directory for EN 301 783 (only V2.1.0 draft and V2.1.1) (https://www.etsi.org/deliver/etsi_en/301700_301799/301783/)",
+      "Commission Implementing Decision (EU) 2022/2191, Annex item 61 (consolidated version 14.8.2025) (https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02022D2191-20250814)",
+      "Summary of references of harmonised standards published in the OJ – Directive 2014/53/EU, generated 30.1.2025 (EN 301 783 V2.1.1, start of presumption of conformity 08/07/2016, OJ C 249) (https://webgate.ec.europa.eu/circabc-ewpp/rest/download/069efbbf-0d53-4158-acf6-68f71f44b3c9)"
+    ],
+    "note": "V2.1.1 取代了旧的 EN 301 783-1/-2（V1.x）。OJ 汇总表显示『Date of start of presumption of conformity = 08/07/2016』『Restriction = -』『撤销日期 = -』，即仍然有效。"
+  },
+  "3": {
+    "topic": "欧盟电网电压容差（EN 50160）",
+    "conclusion": "标准编号：EN 50160『Voltage characteristics of electricity supplied by public electricity networks』（法文：Caractéristiques de la tension fournie par les réseaux publics d'électricité）。现行版本：EN 50160:2022（CENELEC 2022-11-07 批准，2022 年 12 月发布），取代 EN 50160:2010 及其修订 A1:2015、A2:2019、A3:2019、AC 等；有 2025 年的合并修订版（BS EN 50160:2022+A1:2025）。内容（低压，§4.2）：额定电压 Un=230 V（相-中性线之间，或三相系统相间）。§4.2.1 频率：额定 50 Hz；正常工况下 10 s 基波平均频率——与互联系统同步连接的系统须在 50 Hz ±1%（49.5–50.5 Hz）内持续『99.5% 的一年』，并在 50 Hz +4%/−6%（47–52 Hz）内持续 100% 的时间；与互联系统非同步连接的系统（某些岛屿）为 50 Hz ±2%（49–51 Hz）持续 95% 的一周、±15%（42.5–57.5 Hz）持续 100% 的时间。§4.2.2 电压幅值：正常工况（不含中断）下电压变化不应超过 Un 的 ±10%；测试方法为——每周 95% 的 10 min rms 值须落在 Un ±10% 内，且全部 10 min rms 值须落在 Un +10%/−15% 内（非互联电网/特殊偏远用户为 +10%/−15%）。峰值与有效值：EN 50160 只以 rms 值（10 min rms）定义供电电压，其本身不规定瞬时峰值限值；正弦电压的峰值 = √2 × U_rms，故 230 V 对应约 325 V 峰值（±10% 即 207–253 V rms，对应峰值约 293–358 V）。",
+    "confidence": "确定",
+    "sources": [
+      "EN 50160:2022 full text sample (SIST EN 50160:2023 = identical adoption), §4.2.1 Power frequency and §4.2.2 Supply voltage variations (https://cdn.standards.iteh.ai/samples/71003/490b981fbec343edb9db83f8ce4b2b3d/SIST-EN-50160-2023.pdf)",
+      "CENELEC/BSI catalogue entry BS EN 50160:2022+A1:2025, published 31.01.2025, supersedes EN 50160:2010 (https://knowledge.bsigroup.com/products/voltage-characteristics-of-electricity-supplied-by-public-electricity-networks-2)",
+      "EN 50160:2010 text (same frequency wording, 99.5% of a year) (https://leonardo-energy.pl/wp-content/uploads/2016/07/EIM01201-Norma-EN-50160-ang..pdf)"
+    ],
+    "note": "要点核对：『230 V ±10%』正确，但严格说是『每周 95% 的 10 min rms 值在 ±10% 内』，且全部 10 min rms 值还须在 +10%/−15% 内。『50 Hz ±1%』正确，但是对同步互联系统且为期『99.5% 的一年』（很多二手资料误写成 99.5% of a week，标准原文是 a year）。±1% 之外还有 100% 时间内的 +4%/−6% 带宽。EN 50160 只量化 rms，√2 关系是正弦波的基本数学关系，标准本身不规定峰值限值。"
+  },
+  "4": {
+    "topic": "CEPT 现行建议/决定的编号、标题与状态",
+    "conclusion": "以 ECO 官方文件库 docdb.cept.org 为准（2026 年当前状态）：(1) T/R 61-01『T/R 61-01 of 1985 on CEPT Radio Amateur Licence』——ACTIVE，最近更新 2024-10-18（FM#108），附件 2 与附件 4 最新更新 2024-02-16。(2) T/R 61-02『T/R 61-02 of 1990 on harmonised amateur radio examination certificates』（即 HAREC）——ACTIVE，最新修正 2016-02-05，最新更新 2024-02-16（FM#106）。(3) 不存在 T/R 62-01；只有 ERC/REC 62-01『ERC/REC 62-01 on use of the band 135.7-137.8 kHz by the Amateur Service』（1997-05-20，内容为 LF 频段业余业务，最大 e.r.p. 1 W、次要业务），状态 WITHDRAWN（已废止），且与执照/考试无关。CEPT Novice 的编号不是 62-01，而是 ECC/REC/(05)06。(4) ECC/DEC/(05)06 不存在：官方库中 ECC Decision 系列的 (05) 号只有 (05)01、(05)02、(05)03、(05)04、(05)05、(05)08、(05)09、(05)10、(05)11、(05)12，缺 (05)06 与 (05)07（(05)07 是 ECC Recommendation）。CEPT Novice 由 ECC/REC/(05)06（Recommendation，不是 Decision）规范。其他现行/废止的业余相关 ECC 文件：ECC/REC/(05)06（CEPT Novice 执照）ACTIVE；ECC/REC/(14)05『on amateur Radio Licence Examinations for Persons with Disabilities』（2014-10-14）ACTIVE；ECC/DEC/(25)01（2025-06-27，Galileo/GNSS 频段指定及 1258–1300 MHz 业余与业余卫星业务的措施）ACTIVE；ECC Report 359（2024）与 ECC Report 089（2006，入门级考试）ACTIVE；ECC/REC/(05)05（7100–7200 kHz 业余早期开放）已 WITHDRAWN。",
+    "confidence": "确定",
+    "sources": [
+      "ECO Documentation Database: T/R 61-01 ('CEPT Radio Amateur Licence', Active, updated 18 October 2024) (https://docdb.cept.org/document/925)",
+      "ECO Documentation Database: T/R 61-02 ('harmonised amateur radio examination certificates', Active, updated 16 February 2024) (https://docdb.cept.org/document/926)",
+      "ECO Documentation Database: ECC/REC/(05)06 ('CEPT Novice Radio Amateur Licence', Active, 16 February 2024) (https://docdb.cept.org/document/1024)",
+      "ECO Documentation Database: ERC/REC 62-01 ('use of the band 135.7-137.8 kHz by the Amateur Service', Withdrawn) (https://docdb.cept.org/document/843)",
+      "ECO Documentation Database search / full document list (no ECC/DEC/(05)06 in ECC Decisions) (https://docdb.cept.org/search/search?searchString=amateur)",
+      "ECO Documentation Database: ECC/DEC/(25)01 (27 June 2025, GNSS/Galileo and 1258-1300 MHz amateur service) (https://docdb.cept.org/document/28651)"
+    ],
+    "note": "『ECC/DEC/(05)06』这一编号在官方库中不存在（属资料笔误/混淆），正确编号是 ECC/REC/(05)06。另注：ERC/REC 62-01 是 135.7–137.8 kHz 频段建议（已废止），与 CEPT Novice 无关——资料里的『REC 62-01 / T/R 62-01』应改为 ECC/REC/(05)06。docdb.cept.org 的 TLS 证书链不完整（curl 需 -k），浏览器访问正常。"
+  },
+  "5": {
+    "topic": "HAREC 与 CEPT Novice 的现状；中国是否在 T/R 61-01 名单内",
+    "conclusion": "HAREC：现行。载体是 CEPT 建议 T/R 61-02『Harmonised Amateur Radio Examination Certificate』（1990 年 Chester 批准，2004 年 Vilnius 修订，2003 年取消莫尔斯要求），状态 ACTIVE，最新修正 2016-02-05、最新更新 2024-02-16；HAREC 考试大纲在附件 6（EXAMINATION SYLLABUS AND REQUIREMENTS FOR A HAREC，最新更新 2018-02）。持有 HAREC 可申请所在国个人执照，长期居留时用于换取他国执照。CEPT Novice：现行存在。由 ECC/REC/(05)06『CEPT Novice Radio Amateur Licence』规范（2005-10-05 通过，2016-05-27 修订，附件 2 于 2024-02-16 编辑更新），状态 ACTIVE；其考试大纲与『CEPT 及非 CEPT 国家的业余入门级考试证书』由 ERC Report 32 规定（Helsinki 2005-09 通过，2016-10 修订，状态 ACTIVE）；入门级另有 ECC Report 089（2006）。附加事实：法国自 2012-04-23 起只有单一 HAREC 等级，且法国未出现在 ECC/REC/(05)06 附件 2（CEPT Novice 等价国名单）中——即法国没有对应的 Novice 等级。\n【中国是否在 T/R 61-01 名单内 —— 重点】不在。T/R 61-01 的两张表都不含中国：附件 2『Table 1: CEPT countries』列出各 CEPT 成员国（法国条目为前缀 F、TK、FG、FY、FM、FJ、FP，等价执照为 HAREC/class 1/class 2），附件 4『Table 2/3: Non-CEPT countries』只列：Australia(VK)、Canada(VE/VO/VY/CY)、Cayman Islands(ZF)、Israel(4X,4Z)、荷兰王国海外与海外领地（Aruba P4、Bonaire/St.Eustatius/Saba/St.Maarten PJ4–PJ7、Curaçao PJ2）、New Zealand(ZL)、Peru(OA)、South Africa(ZS)、USA(W1–W9/KL7/KH0–KH9/KP1–KP5)；docdb 条目注释另提到 Netherlands Antilles。Hong Kong 只出现在 T/R 61-02（HAREC）的非 CEPT 名单（Australia、Curaçao、Hong Kong、Israel、Japan、New Zealand、South Africa）中，不在 61-01。因此持中国业余执照不能依 T/R 61-01 在法国（或其他 CEPT 国家）直接临时操作。",
+    "confidence": "确定",
+    "sources": [
+      "CEPT Recommendation T/R 61-01, edition of 18 October 2024 (Annex 2 CEPT countries; Annex 4 non-CEPT countries; no China) (https://docdb.cept.org/download/4541)",
+      "CEPT Recommendation T/R 61-02, edition of 16 February 2024 (Annex 4 non-CEPT countries: Australia, Curaçao, Hong Kong, Israel, Japan, New Zealand, South Africa) (https://docdb.cept.org/download/4424)",
+      "ECC/REC/(05)06 CEPT Novice Radio Amateur Licence, edition 16 February 2024 (https://docdb.cept.org/download/4413)",
+      "ERC Report 32, Amateur radio novice examination syllabus and amateur radio novice examination certificate within CEPT and non-CEPT countries, revised October 2016 (https://docdb.cept.org/download/2065)",
+      "ECO Documentation Database entries for T/R 61-01 / T/R 61-02 / ECC/REC/(05)06 / ERC Report 032 (https://docdb.cept.org/document/925)"
+    ],
+    "note": "对备考者的实务含义（法国国家规章，非 CEPT 层面）：法国《arrêté du 21 septembre 2000 modifié》（现行版自 2021-06-06 起）第 7-1 条规定，在欧盟其他成员国、CEPT、或依国家间互惠协议取得并被认定等效的业余操作证书持有人，在互惠前提下被视为持有法国证书；第 7-2 条规定外国人须证明已在法国实际居住超过 3 个月、持有效外国执照与 HAREC（依 T/R 61-02）方可申请临时法国呼号（欧盟籍→『FnVxy』，互惠国→『FnWxy』）；来自欧盟或与法国有互惠关系（CEPT 或国家对国家协议）国家的业余者，停留少于 3 个月免申请，直接在原呼号前加法国前缀 F。因此中国执照持有人既不在 T/R 61-01 名单、中国也不在 T/R 61-02 的非 CEPT 名单：能否在法国操作取决于是否存在中法国家对国家的互惠协议或对『HAREC 等效』的个案认定——这一点我未查到官方文件（未查到），不应假设可以直接操作。"
+  },
+  "6": {
+    "topic": "ITU-R SM.326（AM 发射机功率的测定与测量 / 双音法）",
+    "conclusion": "标题：『Determination and measurement of the power of amplitude-modulated radio transmitters』（AM 无线电发射机功率的测定与测量）。当前版本：SM.326-7 (11/98)，状态 In force（Radiocommunication Study Group 1 于 2016、2019 年依 Resolution ITU-R 1 作编辑性修订）；上一版 SM.326-6 (06/90)『Determination and measurement of the power of radio transmitters』已 Superseded。内容要点：§1.2 描述互调失真的测量原理——在发射机输入端同时加入两个正弦调制音 f1、f2，分别测量各互调分量幅度（即双音/双正弦法），并给出 f1、f2 的选择建议（应避开谐波关系与 f1/f2 接近 2/3、2/5、2/7、3/4、3/5、3/7、4/5 的比值；如 300–3000 Hz 话音频带，可选约 700 或 1100 Hz 为 f1、1700 或 2500 Hz 为 f2），以及三类发射的可接受互调电平（−25 dB、−35 dB 等）。§1.3.1.5–§1.3.1.10 给出用双音信号测量峰值包络功率（PEP）的完整程序：用选择性测量装置与峰值响应仪器、以单音正弦校准峰值响应，并用公式(2)由平均功率推算 PEP；§1.3.2 给出全载波发射机的双音测量法与公式(3)；Annex 1 给出 PEP、平均功率与载波功率之间的换算系数表。关于『业余台是否必须拥有双音发生器』：SM.326-7 只是给主管部门/实验室的功率测量方法建议（recommends），通篇没有对业余电台设备或业余执照持有人提出任何配备两音发生器的义务；因此不能从该建议书推出『业余台必须拥有双音发生器』。",
+    "confidence": "确定",
+    "sources": [
+      "ITU-R Recommendation SM.326-7 (11/98), Determination and measurement of the power of amplitude-modulated radio transmitters (PDF) (https://www.itu.int/dms_pubrec/itu-r/rec/sm/R-REC-SM.326-7-199811-I!!PDF-E.pdf)",
+      "ITU-R Recommendation SM.326 series page (SM.326-7 In force; SM.326-6 superseded) (https://www.itu.int/rec/R-REC-SM.326/en)"
+    ],
+    "note": "该建议书与业余业务没有专门关联：SM 系列属频谱管理（测量方法）建议，适用于所有 AM 发射机（含 SSB/J3E 等）。双音法本身是 SSB 发射机 PEP 与互调失真的标准测量方法，考试中可考『测 PEP 用双音信号』这一原理，但把它读成『业余电台须自备双音发生器』是过度推论。"
+  },
+  "7": {
+    "topic": "业余信标（balise/beacon）呼号后缀规则",
+    "conclusion": "（1）ITU/CEPT 层面：未查到任何要求业余信标使用『/B』后缀的条文。ITU《无线电规则》第 19 条 §30（No. 19.68）只规定业余电台与实验电台呼号的构成（一个字母——须为 B、F、G、I、K、M、N、R 或 W——加一位非 0/1 的数字，后接不超过 4 个字符、末位为字母；或两个字符加一位数字……），呼号系列由 RR Appendix 42『Table of Allocation of International Call Sign Series』按国家/地区划分；CEPT 的 T/R 61-01 与 ECC/REC/(05)06 只规定在他国操作时使用『访问国呼号前缀 + 本国呼号』，以字符『/』（电报）或单词『stroke』（话务）分隔（例如 F/呼号），均未涉及信标专用的 /B。因此『/B』不是 ITU 或 CEPT 的强制性规则（是否可用属各国自定或业余界惯例）。\n（2）法国国家规则（这是资料所指的层级）：《arrêté du 21 septembre 2000 modifié》Annexe II『GRILLE DE CODIFICATION DES INDICATIFS DES SERVICES D'AMATEUR』（现行版本自 2021-06-06 起，由 2021-03-02 arrêté 修订）规定：呼号由前缀 F（科西嘉为 TK）、可能的次级地点字母（字母 X 保留给环绕地球轨道上的电台）、一位数字与 2–4 字母后缀组成；其中『Indicatifs de stations répétitrices: ZAA à ZZZ』——中继/差转站与信标使用 ZAA–ZZZ 后缀系列；『XAA à XZZ: réserve』『YAA à YZZ: réserve』，并注明『Cette série peut être ouverte si le besoin est constaté par l'administration』（如经主管部门认定有需要，该系列可开放）。所以现行规则是：法国信标 = F 呼号且后缀落在 ZAA–ZZZ（例如 F5Zxx），而不是『呼号后加 /B』。\n（3）资料中『XAA–XZZ 系列在 2009 年后转入储备』这一说法：与官方现行文本一致的部分是——XAA–XZZ（以及 YAA–YZZ）现确实列为『réserve』，而 X 系列原本用于信标、Y 系列用于数字中继（据二手来源 rogerbeep.fr：『Jusqu'en 2009, ces séries étaient respectivement réservée aux balises et aux stations répétitrices numériques. Quelques indicatifs de ces séries ont été attribués』）。但『2009 年』这个具体时点我未能在官方文本中直接核实：官方文本（Legifrance 版本沿革）显示该 arrêté 曾由 2009-01-30（JORF 2009-02-11）与 2012-04-23 的 arrêté 修订，2012 年 arrêté 才引入现行编码表。故『2009 年转入储备』属较有把握而非确定。",
+    "confidence": "较有把握",
+    "sources": [
+      "Arrêté du 21 septembre 2000 modifié, Annexe II – GRILLE DE CODIFICATION DES INDICATIFS DES SERVICES D'AMATEUR (in force since 06/06/2021): 'Indicatifs de stations répétitrices: ZAA à ZZZ; XAA à XZZ: réserve; YAA à YZZ: réserve' (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000401783/2024-05-25)",
+      "ITU Radio Regulations Article 19, Section III (No. 19.67–19.69, amateur and experimental stations) (https://www.itu.int/net/ITU-R/terrestrial/docs/fixedmobile/fxm-art19-sec3.pdf)",
+      "ITU Table of Allocation of International Call Sign Series (RR Appendix 42), WRC-15 copy (https://life.itu.int/radioclub/rr/ap42.pdf)",
+      "CEPT Recommendation T/R 61-01 (call sign prefix of the visited country, separated by '/' or 'stroke') (https://docdb.cept.org/download/4541)",
+      "rogerbeep.fr, Formation des indicatifs d'appel français (secondary source for the 'until 2009' wording) (https://rogerbeep.fr/les-cours-2/formation-des-indicatifs-dappel-francais/)"
+    ],
+    "note": "把握程度分解：『法国现行信标后缀为 ZAA–ZZZ』= 确定（官方现行条文）；『XAA–XZZ 现为 réserve』= 确定；『2009 年转入储备』= 存疑（二手来源与 2009 年修订令的存在相符，但未在官方文本中直接核实）；『F 呼号 + /B』= 未查到任何官方（法国/CEPT/ITU）依据，不应写入教材作为规则。另：资料若写『XAA–XZZ 是国际储备段』也是错的——RR Appendix 42 中 X 段被多国瓜分（XAA–XIZ 墨西哥、XJA–XOZ 加拿大、XPA–XPZ 丹麦、XQA–XRZ 智利、XSA–XSZ 中国、XXA–XXZ 中国澳门、XYA–XZZ 缅甸等），XAA–XZZ 不是国际储备段，法国规则里的 X 系列储备纯属国家分配。"
+  }
+}

@@ -1,0 +1,103 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Apply exact-match replacement pairs to the manual, with hard assertions.
+
+Usage:
+    python3 apply_pairs.py pairs-XX.json [more.json ...]
+
+Each input file is  {"section": "...", "pairs": [ {...}, ... ]}.
+A pair is:
+    {"old": "<exact substring, single line>",
+     "new": "<replacement>",
+     "count": <expected occurrences, or null = must be >= 1>,
+     "note": "<why>"}
+
+Every pair is checked before and after; nothing is written unless ALL pairs
+in the run match.  `new` may never contain a literal '$'.
+"""
+import json
+import os
+import subprocess
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+TARGET = os.path.join(HERE, "manuel-zh.html")
+
+
+def main():
+    files = sys.argv[1:]
+    if not files:
+        print("usage: apply_pairs.py pairs-XX.json [...]")
+        return 2
+    dry = "--dry-run" in files
+    quiet = "--quiet" in files
+    files = [f for f in files if not f.startswith("--")]
+
+    with open(TARGET, encoding="utf-8") as fh:
+        text = fh.read()
+    original = text
+    problems = []
+    applied = []
+
+    for jf in files:
+        path = jf if os.path.isabs(jf) else os.path.join(HERE, jf)
+        with open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+        section = data.get("section", os.path.basename(path))
+        pairs = data["pairs"]
+        print("\n### %s  (%d pairs)" % (section, len(pairs)))
+        for idx, p in enumerate(pairs, 1):
+            old, new = p["old"], p["new"]
+            want = p.get("count")
+            if "$" in new:
+                problems.append("%s #%d: '$' in replacement" % (section, idx))
+                continue
+            if "\n" in old or "\n" in new:
+                problems.append("%s #%d: multi-line pair" % (section, idx))
+                continue
+            got = text.count(old)
+            if want is None:
+                ok = got >= 1
+                expect = ">=1"
+            else:
+                ok = got == want
+                expect = str(want)
+            if not ok:
+                problems.append("%s #%d: found %d occurrence(s), expected %s\n"
+                                "      old: %s" % (section, idx, got, expect, old[:140]))
+                print("  [FAIL] #%-3d got=%d want=%s  %s" % (idx, got, expect, old[:70]))
+                continue
+            text = text.replace(old, new)
+            applied.append((section, idx, got, p.get("note", "")))
+            if not quiet:
+                print("  ok     #%-3d x%d  %s" % (idx, got, (p.get("note") or old)[:70]))
+
+    print("\n---------------------------------------------")
+    print("pairs applied : %d" % len(applied))
+    print("pairs failed  : %d" % len(problems))
+    for pr in problems:
+        print("  !! " + pr)
+
+    if problems:
+        print("\nNOTHING WRITTEN (fix the failing pairs first).")
+        return 1
+
+    if dry:
+        print("\nDRY RUN - nothing written, all %d pairs matched." % len(applied))
+        return 0
+
+    with open(TARGET + ".new", "w", encoding="utf-8") as fh:
+        fh.write(text)
+    print("wrote %s  (%+d chars)" % (TARGET + ".new", len(text) - len(original)))
+    rc = subprocess.call([sys.executable, os.path.join(HERE, "check_structure.py"),
+                          TARGET + ".new"])
+    if rc == 0:
+        os.replace(TARGET + ".new", TARGET)
+        print("structure OK -> promoted to %s" % TARGET)
+    else:
+        print("STRUCTURE CHECK FAILED - left as .new, target untouched")
+    return rc
+
+
+if __name__ == "__main__":
+    sys.exit(main())

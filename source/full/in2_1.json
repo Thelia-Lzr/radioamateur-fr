@@ -1,0 +1,530 @@
+[
+ {
+  "num": "20321",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "TENSION CRETE A CRETE D'UNE TENSION DE 12 VOLTS EFFICACES",
+  "options": [
+   "24 volts",
+   "17 volts",
+   "34 volts",
+   "8,5 volts"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "34 volts",
+  "commentaire_fr": "Umax = 12 V x 1,414 = 17 V (arrondi) ; Ucàc = Umax x 2 = 17 x 2 = 34 volts\n",
+  "anchor": "T022d"
+ },
+ {
+  "num": "20323",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "FREQUENCE D'UN SIGNAL DE PERIODE 6 MICROSECONDES ?",
+  "options": [
+   "167 Hz",
+   "1,6 kHz",
+   "16666 Hz",
+   "167 kHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "167 kHz",
+  "commentaire_fr": "F = 1 / t = 1 / 0,000 006 = 166,6 kHz arrondi à 167 kHz\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20324",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'ENTREE D'UN AMPLIFICATEUR MONTE EN BASE COMMUNE ?",
+  "options": [
+   "basse",
+   "moyenne",
+   "élevée",
+   "infinie"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "basse",
+  "commentaire_fr": "Les ordres de grandeurs d’impédance sont : \nbasse = 10 ohms ; \nmoyenne = 100 ohms ; \nélevée = 1000 ohms ; \ntrès élevée = 10.000 ohms\n",
+  "anchor": "T063a"
+ },
+ {
+  "num": "20329",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "CODE DES COULEURS D'UNE RESISTANCE : ORANGE NOIR ORANGE",
+  "options": [
+   "300 kΩ",
+   "3000 Ω",
+   "303 Ω",
+   "30 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "30 kΩ",
+  "commentaire_fr": "Orange = 3, Noir = 0, Orange = 3 ; donc 30 x 10^3 = 30 x 1000 = 30 kΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20330",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE TYPE DE CE FILTRE",
+  "options": [
+   "Filtre en pi",
+   "Filtre passe-haut à -6 dB/octave",
+   "circuit coupe bande",
+   "circuit bouchon"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Filtre passe-haut à -6 dB/octave",
+  "commentaire_fr": "Ce schéma a été repris à l’identique dans la base de données des questions sur Minitel où il était difficile de dessiner une bobine\n",
+  "anchor": "T042e"
+ },
+ {
+  "num": "20333",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE ?",
+  "options": [
+   "225 pF",
+   "111 pF",
+   "0,045 nF",
+   "450 pF"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "450 pF",
+  "commentaire_fr": "CT = C1 + C2 = 450 pF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20336",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUEL EST LE NOMBRE DE SPIRES D'UNE BOBINE SI ON MULTIPLIE SA VALEUR PAR 4 ?",
+  "options": [
+   "Le nombre de spires est divisé par 2",
+   "Le nombre de spires est quadruplé",
+   "Le nombre de spires est multiplié par 16",
+   "Le nombre de spires est doublé "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Le nombre de spires est doublé ",
+  "commentaire_fr": "La formule générale est L = F x N² x D²\n\nLa bobine ayant une valeur 4 fois plus forte, le nombre de spires est multiplié par 2 (effet du carré)\n",
+  "anchor": "T023d4"
+ },
+ {
+  "num": "20337",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 3 BAGUES : ORANGE, NOIR, ORANGE\nVALEUR DE LA RESISTANCE ?",
+  "options": [
+   "500 MΩ",
+   "7 MΩ",
+   "700 kΩ",
+   "500 kΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "7 MΩ",
+  "commentaire_fr": "Violet = 7, Noir = 0, Vert = 5 ; donc 70 x 10^5 = 70 x 100000 = 7000 kΩ = 7 MΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20339",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CONDENSATEUR 100 F ET UNE FREQUENCE DE 10 MHZ IMPEDANCE A LA FREQUENCE ?",
+  "options": [
+   "16 Ω",
+   "160 mΩ",
+   "160 µΩ",
+   "1,6 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "160 µΩ",
+  "commentaire_fr": "Z en ohms = 159 / F(MHz) / C(nF)  = 159 / 10 / 100 000 = 0,000 159 \n= 160 µΩ (arrondi)\n",
+  "anchor": "T023f2"
+ },
+ {
+  "num": "20341",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE D'UN RECEPTEUR BLU AVEC ETAGE RF MARQUE  ?  QUEL EST L'ETAGE MARQUE  ?",
+  "options": [
+   "Discriminateur",
+   "Filtre anti-harmonique",
+   "Ampli RF ",
+   "CAG"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Ampli RF ",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20342",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "75 V CRETE A CRETE EN SINUS : QUELLE EST LA TENSION EFF ?",
+  "options": [
+   "50 V",
+   "37,5 V",
+   "26,5 V",
+   "106 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "26,5 V",
+  "commentaire_fr": "Vmax = Vcàc / 2 = 75 / 2 = 37,5 V ; \nVeff = Vmax x 0,707 = 37,5 x 0,707 = 26,5 V\n",
+  "anchor": "T022d"
+ },
+ {
+  "num": "20343",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "PUISSANCE D'ALIMENTATION DE L'ANTENNE AVEC UN EMETTEUR DE 2 W SUIVI DE 10 METRES DE COAXIAL AVEC 0,03DB/M DE PERTE ET 1,5 DB DE PERTES DANS UN CONNECTEUR",
+  "options": [
+   "1,11 W",
+   "3,6 W",
+   "1,32 W",
+   "1 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1,32 W",
+  "commentaire_fr": "perte dans le coaxial = 0,03 dB/m x 10 mètres = 0,3 dB ; \nperte dans le connecteur = 1,5 dB ; \natténuation de l’ensemble = 1,8 dB ; \ntransformation dB>rapport de puissance : 10^-0,18 = 0,66 ; \nPsortie = 2 W x 0,66 = 1,32 W\n",
+  "anchor": "T098"
+ },
+ {
+  "num": "20345",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SCHEMA D'UN CIRCUIT AVEC UN TRANSISTOR NPN OU IL FALLAIT\nIDENTIFIER LA RESISTANCE DE CHARGE.",
+  "options": [
+   "résistance d'équibrage",
+   "résistance de contre-réaction",
+   "résistance de charge",
+   "résistance d’alimentation"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "résistance de charge",
+  "commentaire_fr": "",
+  "anchor": "T072a"
+ },
+ {
+  "num": "20346",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : MARRON, GRIS, NOIR, OR\nVALEUR DE LA RESISTANCE ?",
+  "options": [
+   "180 Ω",
+   "18,1 Ω",
+   "150 Ω",
+   "18 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "18 Ω",
+  "commentaire_fr": "Marron = 1 ; Gris = 8 ; Noir = 0 ; donc 1,8 x 10^1 = 1,8 x 10 = 18 Ω\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20348",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "FREQUENCE 1 = 0,5 POUR 10 V, \nPUIS FREQUENCE 2 = 1,0 AVEC 4 V, \nPUIS FREQUENCE 3 = 1,5 AVEC 2 V \nTAUX DE DISTORSION  L'HARMONIQUE 2 ?",
+  "options": [
+   "45%",
+   "20%",
+   "40%",
+   "60%"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "40%",
+  "commentaire_fr": "TDH de l’harmonique 2 : on compare donc les tensions de F1 (0,5)  et F2 (1,0) ; \nTDH = 4 / 10 x 100 = 40%. \nLe seul couple de fréquence étant en harmonique 2 sont 0,5 et 1,0.\n",
+  "anchor": "T074b2"
+ },
+ {
+  "num": "20351",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST FORMULE EXACTE ?",
+  "options": [
+   "Ieff = Imax/√2 ",
+   "Ieff = √2/Imax",
+   "Ieff = Imax.√2",
+   "Ieff = √2.Imax"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Ieff = Imax/√2 ",
+  "commentaire_fr": "",
+  "anchor": "T022"
+ },
+ {
+  "num": "20352",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA FREQUENCE D'UN SIGNAL DONT LA PERIODE DURE 500 NANOSECONDES ?",
+  "options": [
+   "20 MHz",
+   "2 kHz",
+   "200 kHz",
+   "2 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2 MHz",
+  "commentaire_fr": "F = 1 / t = 1 / 0,000 000 5 = 2 000 000 Hz = 2 MHz\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20354",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUELLE EST CETTE MODULATION ?",
+  "options": [
+   "CW",
+   "AM",
+   "BLU",
+   "FM"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "FM",
+  "commentaire_fr": "",
+  "anchor": "T121a"
+ },
+ {
+  "num": "20356",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "VALEUR DE LA RESISTANCE AVEC 4 BAGUES : VIOLET, BLEU, VERT, OR",
+  "options": [
+   "7,9 MΩ",
+   "560 MΩ",
+   "7,6 MΩ",
+   "590 MΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "7,6 MΩ",
+  "commentaire_fr": "Violet = 7 ; Bleu = 6 ; Vert = 5 ; donc 76 x 10^5 = 76 00000 = 7,6 MΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20357",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "ORDRE DE GRANDEUR DE LA RESISTANCE INTERNE DU GALVANOMETRE",
+  "options": [
+   "10 Ω",
+   "1 Ω",
+   "10 mΩ",
+   "100 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 mΩ",
+  "commentaire_fr": "Le montage proposé représente un voltmètre. Nous savons que U aux bornes de la résistance est : U = R*I = 10 * 5.10^-3 = 50mV. \nLa perturbation du galvanomètre est donc dans le cas d'une résistance de 10 mΩ = 50µV, ce qui rend négligeable la perte à l'insertion, puisque au moins 100 fois inférieure à la mesure à effectuer. Les autres valeurs proposées sont trop importantes\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20363",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA TENSION AUX BORNES DU CONDENSATEUR ?",
+  "options": [
+   "25 V",
+   "20 V",
+   "14,14 V",
+   "28,28 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "28,28 V",
+  "commentaire_fr": "Tension à la sortie du transfo : Us = Ue x (Ns / Np) = \n300 x (220 / 3300) = 20 V. Le condensateur a pour effet de transformer\nla tension efficace en tension maximum : 20 x 1,414 = 28,28 V sans tenir compte de la chute de tension provoquée par la diode qu’on a ici négligé par simplification. En effet, on n'aura jamais plus que la tension anode moins la tension de seuil sur la cathode de la diode. Au final, la tension Us sera d’environ 27,6 volts si la diode est au silicium.\n",
+  "anchor": "T054a"
+ },
+ {
+  "num": "20364",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'UNE BOBINE DE 50 MICROHENRYS A  1000 HERTZ",
+  "options": [
+   "314 mΩ",
+   "50 mΩ",
+   "3,14 Ω",
+   "62,8 mΩ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "314 mΩ",
+  "commentaire_fr": "Z = 6,28 x F x L = 6,28 x 0,000 05 x 1000 = 0,314 Ω = 314  mΩ\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20366",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "ETENDUE DES ONDES METRIQUES ?",
+  "options": [
+   "3 à 30 MHz",
+   "30 à 300 MHz",
+   "300 MHz à 3 GHz",
+   "300 kHz à 3 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "30 à 300 MHz",
+  "commentaire_fr": "",
+  "anchor": "T092c"
+ },
+ {
+  "num": "20367",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CALCULER IC EN CONNAISSANT LE GAIN (BETA = 150) ET IB (10 A)",
+  "options": [
+   "15 mA",
+   "1,5 A",
+   "1,5 mA",
+   "150 mA"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1,5 mA",
+  "commentaire_fr": "Ic = Ib x beta = 10 µA x 150 = 1,5 x 10^-3 = 1,5 mA\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20369",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SCHEMA AVEC FREQUENCE  FONDAMENTALE F = 10 V PUIS 2F = 4 V, PUIS 3F = 3 V \nTAUX DE DISTORSION MAXIMAL ?",
+  "options": [
+   "20 %",
+   "40 %",
+   "30 %",
+   "35 %"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "40 %",
+  "commentaire_fr": "Généralement, on parle du Taux de Distorsion Harmonique (TDH) pour une fréquence (2F ou 3F). Mais dans cette question il est demandé le taux de distorsion maximal. Or, dans le schéma, l’harmonique 2 (2F) a une valeur plus importante que l’harmonique 3 (3F) et génère donc le plus de distorsion. C’est donc sur l’harmonique 2 que porteront les calculs du TDH : TDH = (4V / 10V) x 100 = 40 %\n",
+  "anchor": "T074b2"
+ },
+ {
+  "num": "20373",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA LONGUEUR D'ONDE D'UNE FREQUENCE DE 15 MHZ ?",
+  "options": [
+   "2 m",
+   "20 cm",
+   "20 mm",
+   "20 m"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "20 m",
+  "commentaire_fr": "L(m) = 300/F(MHz) = 300/15 = 20 mètres\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20375",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUEL EST LE MODE DE PROPAGATION DES ONDES DECAMETRIQUES",
+  "options": [
+   "ondes directes",
+   "ondes de sol",
+   "ondes réfléchies ",
+   "ondes stationnaires"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "ondes réfléchies ",
+  "commentaire_fr": "",
+  "anchor": "T092b"
+ },
+ {
+  "num": "20380",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "VALEUR EFFICACE D'UNE TENSION DE 5 V CRETE",
+  "options": [
+   "2,5 V",
+   "1,75 V",
+   "7,07 V",
+   "3,5 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "3,5 V",
+  "commentaire_fr": "Veff = 0,707 x Vcrête = 0,707 x 5 = 3,535 V = 3,5 V (valeur arrondie)\n",
+  "anchor": "T022b"
+ },
+ {
+  "num": "20381",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "DEUX CONDENSATEURS EN PARALLELE : 470 PF ET 530 PF. CALCUL DE LA CAPACITE EQUIVALENTE",
+  "options": [
+   "1 nF",
+   "1 µF",
+   "249 pF",
+   "100 pF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1 nF",
+  "commentaire_fr": "CT = C1 + C2 = 1000 pF = 1 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20382",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SCHEMA SYNOPTIQUE D'UN RECEPTEUR AVEC : ANTENNE---(?)---- CAG---- DEMOD---AF----HP\nQUEL EST LE CIRCUIT MANQUANT ?",
+  "options": [
+   "Modulateur",
+   "Filtre FI",
+   "Amplificateur RF",
+   "Oscillateur local"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Amplificateur RF",
+  "commentaire_fr": "",
+  "anchor": "T111"
+ },
+ {
+  "num": "20385",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST L'IMPEDANCE DU CABLE COAXIAL ?\nD = 10 ; D = 2",
+  "options": [
+   "5 Ω",
+   "52 Ω",
+   "96 Ω",
+   "690 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "96 Ω",
+  "commentaire_fr": "Z = 138 log D/d =138 log (10/2) = 138 log (5) = 138 x 0,699 = 96 Ω (si le diélectrique est de l'air)\n",
+  "anchor": "T102b"
+ },
+ {
+  "num": "20387",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE INCOMPLET : HF SUIVIE DU MELANGEUR, SUIVI DE LA FI PUIS DE L'ETAGE A DEFINIR (LE DEMODULATEUR). MAIS IL N'Y AVAIT PAS D'OSCILLATEUR AVEC LE MELANGEUR",
+  "options": [
+   "Démodulateur",
+   "BFO",
+   "Oscillateur local",
+   "CAG"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Démodulateur",
+  "commentaire_fr": "Commentaire du candidat : les synoptiques vus à l'examen sont très déroutants car ils semblent incomplets. Par exemple, on peut voir l'entrée HF suivie du mélangeur, suivi de la FI puis de l'étage à définir (le démodulateur). Mais il n'y avait pas d'oscillateur avec le mélangeur (et l'oscillateur absent du schéma est une des réponses proposées). \n",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20388",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE D'UN EMETTEUR COMPRENANT : LE MICRO, L'OSCILLATEUR, LA PARTIE A DEFINIR, L'AMPLI HF, L'ANTENNE",
+  "options": [
+   "Démodulateur",
+   "1er amplificateur audiofréquence",
+   "Modulateur",
+   "ampli audio"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Modulateur",
+  "commentaire_fr": "",
+  "anchor": "T115"
+ }
+]

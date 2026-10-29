@@ -1,0 +1,44 @@
+[
+ {
+  "sec": "§10.2 特性阻抗（impédance caractéristique）：50 Ω、缩短系数与波导 · L'impédance caractéristique #T102 #T1",
+  "anchor": "T102c",
+  "text": "⚠️ 待核实：真题 20360、20385 的同轴电缆图只给出两个直径，没有注明介质",
+  "id": "P41"
+ },
+ {
+  "sec": "§10.2 特性阻抗（impédance caractéristique）：50 Ω、缩短系数与波导 · L'impédance caractéristique #T102 #T1",
+  "anchor": "T102c",
+  "text": "⚠️ 待核实：原文 §10.2 只讲了\"直径比 3,5 ⇒ 50 Ω\"以及损耗、速度系数，没有解释工程上为什么普遍选 50 Ω 而不是 75 Ω（常见说法是\"兼顾最大功率容量与最小损耗\"）",
+  "id": "P42"
+ },
+ {
+  "sec": "§11.3 镜像频率（fréquence image） · Fréquence image #T113 #T113a",
+  "anchor": "T113a",
+  "text": "⚠️ 待核实：本分块的法文原文在 §11.3 开头处被截断，只给出了镜像频率的定义（\"由反向混频得到的频率\"）",
+  "id": "P43"
+ },
+ {
+  "sec": "§11.5 发射机的框图：从话筒到天线的各级 · Synoptique d'un émetteur #T115",
+  "anchor": "T115",
+  "text": "⚠️ 待核实：本块原文的 §11.5 只提到话筒、调制器（含高频振荡器）、谐波滤波器、天线插座以及收发切换装置，并未出现「缓冲级（étage tampon / buffer）」「激励级（excitateur / driver）」「天线匹配网络（adaptation d'",
+  "id": "P44"
+ },
+ {
+  "sec": "§12.3 调幅（AM）：调制深度、包络与功率 · La Modulation d'Amplitude #T123 #T123b #T123c #T123d #T123e",
+  "anchor": "T123e",
+  "text": "⚠️ 待核实：本块原文只说明了 AM 的频谱是「载波 + 两条边带（HF ± BF）」，并没有写出「AM 带宽 = 2 × 最高调制频率」这个公式",
+  "id": "P45"
+ },
+ {
+  "sec": "§12.4 调频（FM）与调相（PM）：鉴频器、频偏与卡森规则 · La Modulation de Fréquence #T124 #T124b #T124d",
+  "anchor": "T124d",
+  "text": "⚠️ 待核实：原文说调制指数小于 1（NBFM）时带宽「偏离卡森规则而接近 AM 的带宽」，但没有给出此时应使用的替换公式",
+  "id": "P46"
+ },
+ {
+  "sec": "§12.6 单边带（BLU/SSB）与各类发射的占用带宽 · La Bande Latérale Unique (BLU) #T126 #T126d #T126h",
+  "anchor": "T126h",
+  "text": "⚠️ 待核实：本块原文并未给出各类发射占用带宽的法定上限（那属于法规章节的内容），上表只比较各项的构成关系",
+  "id": "P47"
+ }
+]

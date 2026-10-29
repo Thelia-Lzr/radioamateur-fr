@@ -1,0 +1,32 @@
+# Credentials and local application configuration
+.aws/
+.codex/
+.agents/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Nested upstream Git metadata is kept locally, never imported as a gitlink.
+**/.git/
+
+# Python caches, virtual environments and generated reports
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+source/_manuel-zh.html
+
+# Editor / OS / Android build files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+**/local.properties
+**/.gradle/
+*.log

@@ -1,0 +1,465 @@
+{
+ "block": "W5",
+ "lines": [
+  4478,
+  5960
+ ],
+ "units": [
+  {
+   "id": "T001",
+   "ref": "0.1",
+   "nq": 0,
+   "depth": 3,
+   "anchors": [],
+   "title_fr": "Transformation d'équation : une équation est une expression",
+   "questions": []
+  },
+  {
+   "id": "T002",
+   "ref": "0.2",
+   "nq": 3,
+   "depth": 3,
+   "anchors": [
+    "T002a"
+   ],
+   "title_fr": "Puissances de 10, multiples et",
+   "questions": [
+    {
+     "num": "20442",
+     "question": "QUELLE VALEUR CORRESPOND A UN CONDENSATEUR DE 100 PF ?",
+     "reponse": "aucune de ces valeurs"
+    },
+    {
+     "num": "20586",
+     "question": "10 MICROFARAD = ?",
+     "reponse": "aucune des réponses "
+    },
+    {
+     "num": "20673",
+     "question": "10 PUISSANCE -5 = ?",
+     "reponse": "1/100 000"
+    }
+   ]
+  },
+  {
+   "id": "T003",
+   "ref": "0.3",
+   "nq": 0,
+   "depth": 3,
+   "anchors": [],
+   "title_fr": "0.3)",
+   "questions": []
+  },
+  {
+   "id": "T011",
+   "ref": "1.1",
+   "nq": 8,
+   "depth": 2,
+   "anchors": [
+    "T011",
+    "T011c",
+    "T011d"
+   ],
+   "title_fr": "a 1.1)",
+   "questions": [
+    {
+     "num": "20005",
+     "question": "QUE MESURE-T-ON ?",
+     "reponse": "intensité "
+    },
+    {
+     "num": "20006",
+     "question": "QUE MESURE T-ON ?",
+     "reponse": "tension"
+    },
+    {
+     "num": "20318",
+     "question": "AVEC QUOI MESURE-T-ON LA TENSION ?",
+     "reponse": "un voltmètre"
+    },
+    {
+     "num": "20520",
+     "question": "SCHEMA AVEC RESISTANCE ET GALVA (MARQUE PAR UNE FLECHE OBLIQUE) EN SERIE\nQUE MESURE-T-ON ?",
+     "reponse": "Intensité"
+    }
+   ]
+  },
+  {
+   "id": "T012",
+   "ref": "1.2",
+   "nq": 11,
+   "depth": 2,
+   "anchors": [
+    "T012",
+    "T012c"
+   ],
+   "title_fr": "Lois d'Ohm (U = R . I) et",
+   "questions": [
+    {
+     "num": "20008",
+     "question": "PUISSANCE DISSIPEE PAR R",
+     "reponse": "36 W "
+    },
+    {
+     "num": "20010",
+     "question": "PUISSANCE DISSIPEE PAR R",
+     "reponse": "60 mW "
+    },
+    {
+     "num": "20012",
+     "question": "PUISSANCE DISSIPE PAR R",
+     "reponse": "36 W"
+    },
+    {
+     "num": "21061",
+     "question": "SOIT UNE RESISTANCE DE 5 KOHMS, D'UNE PUISSANCE MAXIMUM DE 1/2 W,\nQUELLE EST LA TENSION MAXIMALE  A APPLIQUER A SES BORNES ?\n",
+     "reponse": "50 V"
+    }
+   ]
+  },
+  {
+   "id": "T012a",
+   "ref": "1.2.a",
+   "nq": 41,
+   "depth": 1,
+   "anchors": [
+    "T012a"
+   ],
+   "title_fr": "Lois d'Ohm (U = R . I) et",
+   "questions": [
+    {
+     "num": "20001",
+     "question": "FORMULES EXACTES : 1) U=R+I ; 2) W = P/T ; 3) I = RACINE(P*R) ; 4) P = U*I*T",
+     "reponse": "aucune "
+    },
+    {
+     "num": "20477",
+     "question": "QUELLE EST LA FORMULE FAUSSE ?",
+     "reponse": "P = U/I"
+    },
+    {
+     "num": "20658",
+     "question": "PUISSANCE DISSIPEE DANS R  AVEC  R = 20 OHMS  ET  V = 10 V",
+     "reponse": "5 W"
+    },
+    {
+     "num": "21433",
+     "question": "INTENSITE ?",
+     "reponse": "1 mA"
+    }
+   ]
+  },
+  {
+   "id": "T012b",
+   "ref": "1.2.b",
+   "nq": 12,
+   "depth": 2,
+   "anchors": [
+    "T012b"
+   ],
+   "title_fr": "Lois d'Ohm (U = R . I) et",
+   "questions": [
+    {
+     "num": "21050",
+     "question": "QUELLE EST L'INTENSITE ?",
+     "reponse": "50 mA"
+    },
+    {
+     "num": "21056",
+     "question": "QUELLE EST L'INTENSITE ?",
+     "reponse": "10 µA"
+    },
+    {
+     "num": "21059",
+     "question": "QUELLE EST LA PUISSANCE DISSIPEE ?",
+     "reponse": "2 W"
+    },
+    {
+     "num": "21278",
+     "question": "TENSION DE LA PILE",
+     "reponse": "9 V"
+    }
+   ]
+  },
+  {
+   "id": "T013",
+   "ref": "1.3",
+   "nq": 16,
+   "depth": 2,
+   "anchors": [
+    "T013",
+    "T013a",
+    "T013b"
+   ],
+   "title_fr": "1.3)",
+   "questions": [
+    {
+     "num": "20019",
+     "question": "QUELLE EST LA QUANTITE D'ELECTRICITE",
+     "reponse": "1125 C"
+    },
+    {
+     "num": "20438",
+     "question": "QUELLE EST LA FORMULE EXACTE ?",
+     "reponse": "P = U²/R "
+    },
+    {
+     "num": "20638",
+     "question": "QUELLE EST LA FORMULE EXACTE ?",
+     "reponse": "Q = C x U"
+    },
+    {
+     "num": "20696",
+     "question": "CALCUL DE L'ENERGIE DISSIPEE PAR LA RESISTANCE PENDANT UNE HEURE (SCHEMA AVEC UNE RESISTANCE DE 100 OHMS ET UNE INTENSITE DE 5 A)",
+     "reponse": "9 MJ"
+    }
+   ]
+  },
+  {
+   "id": "T014",
+   "ref": "1.4",
+   "nq": 3,
+   "depth": 3,
+   "anchors": [
+    "T014a"
+   ],
+   "title_fr": "a 1.4)",
+   "questions": [
+    {
+     "num": "21070",
+     "question": "UN FIL DE 2 CM2 DE SECTION A UNE RESISTANCE DE 20 OHMS. \nSI CE FIL, COMPOSE DU MEME MATERIAU, AVAIT UNE SECTION DE 5 CM2, QUELLE SERAIT SA RESISTANCE ?",
+     "reponse": "8 Ω"
+    },
+    {
+     "num": "21250",
+     "question": "SOIT UN FIL DE 1 METRE DE LONG ET DE 1 MM2 DE SECTION. QUELLE SERA LA RESISTANCE DU FIL SI ON DOUBLE SA SECTION ?",
+     "reponse": "/ 2"
+    },
+    {
+     "num": "21485",
+     "question": "UN FIL DE CUIVRE A UNE RESISTANCE CONNUE. QUELLE EST LA RESISTANCE DU MEME FIL QUI A UNE LONGUEUR DOUBLE ?",
+     "reponse": "x 2"
+    }
+   ]
+  },
+  {
+   "id": "T015a",
+   "ref": "1.5.a",
+   "nq": 51,
+   "depth": 1,
+   "anchors": [
+    "T015a"
+   ],
+   "title_fr": "1.5)",
+   "questions": [
+    {
+     "num": "20300",
+     "question": "CODE DES COULEURS : RESISTANCE ROUGE ROUGE BLEU",
+     "reponse": "22 MΩ"
+    },
+    {
+     "num": "20417",
+     "question": "CODE COULEUR A L'ENVERS (VIOLET MARRON BLEU)",
+     "reponse": "71 MΩ"
+    },
+    {
+     "num": "20600",
+     "question": "DESSIN D'UNE RESISTANCE AVEC 3 BAGUES : VIOLET NOIR BLEU\nVALEUR DE LA RESISTANCE ?",
+     "reponse": "70 MΩ"
+    },
+    {
+     "num": "21053",
+     "question": "QUELLES SONT LES COULEURS DE LA RESISTANCE? \nR = 1 KO",
+     "reponse": "Marron Noir Rouge"
+    }
+   ]
+  },
+  {
+   "id": "T015c",
+   "ref": "1.5.c",
+   "nq": 10,
+   "depth": 2,
+   "anchors": [
+    "T015c"
+   ],
+   "title_fr": "1.5)",
+   "questions": [
+    {
+     "num": "20021",
+     "question": "QUELLE EST LA PUISSANCE MINI",
+     "reponse": "10 W"
+    },
+    {
+     "num": "20317",
+     "question": "QUELLE EST LA PUISSANCE MINIMUM DE LA RESISTANCE",
+     "reponse": "250 mW"
+    },
+    {
+     "num": "20434",
+     "question": "QUELLE EST LA PUISSANCE NORMALISEE MINIMUM DE LA RESISTANCE\nR = 400 OHMS, I = 20 MA",
+     "reponse": "250 mW"
+    },
+    {
+     "num": "20623",
+     "question": "SCHEMA AVEC UNE RESISTANCE R = 1800 OHMS ET UNE TENSION DE 12 V AUX BORNES DE LA RESISTANCE CHOIX VALEUR NORMALISEE DE LA PUISSANCE MINIMALE A RETENIR POUR P ?",
+     "reponse": "250 mW"
+    }
+   ]
+  },
+  {
+   "id": "T016",
+   "ref": "1.6",
+   "nq": 2,
+   "depth": 3,
+   "anchors": [
+    "T016a",
+    "T016b"
+   ],
+   "title_fr": "Loi des nœuds et des mailles : la somme algébrique des courants",
+   "questions": [
+    {
+     "num": "20378",
+     "question": "TROIS FILS AVEC INTENSITE INDIQUEE SUR DEUX FILS (1 A ET 1,5 A) ET  I= ?  SUR LE TROISIEME, QUELLE EST LA VALEUR DE I",
+     "reponse": "0,5A"
+    },
+    {
+     "num": "21280",
+     "question": "PONT DE WHEATSTONE DESEQUILIBRE, CALCUL DE U",
+     "reponse": "+1 V"
+    }
+   ]
+  },
+  {
+   "id": "T017",
+   "ref": "1.7",
+   "nq": 13,
+   "depth": 2,
+   "anchors": [
+    "T017c",
+    "T017d",
+    "T107a"
+   ],
+   "title_fr": "a 1.7)",
+   "questions": [
+    {
+     "num": "20746",
+     "question": "SCHEMA AVEC UN PONT DIVISEUR : DEUX RESISTANCES EN SERIE (2 KOHMS ET R = ?) TENSION TOTALE = 17 V, TENSION SUR LA RESISTANCE DE 2 KOHMS = 3 V",
+     "reponse": "9,33 kΩ"
+    },
+    {
+     "num": "21063",
+     "question": "QUELLE EST L'INTENSITE ?",
+     "reponse": "2 A"
+    },
+    {
+     "num": "21065",
+     "question": "QUELLE EST L'INTENSITE ?",
+     "reponse": "100 mA"
+    },
+    {
+     "num": "21066",
+     "question": "QUELLE EST L'INTENSITE ?",
+     "reponse": "1,5 mA"
+    }
+   ]
+  },
+  {
+   "id": "T017a",
+   "ref": "1.7.a",
+   "nq": 34,
+   "depth": 1,
+   "anchors": [
+    "T017a"
+   ],
+   "title_fr": "a 1.7)",
+   "questions": [
+    {
+     "num": "20023",
+     "question": "RESISTANCE EQUIVALENTE",
+     "reponse": "1,47 MΩ"
+    },
+    {
+     "num": "20313",
+     "question": "RESISTANCE EQUIVALENTE",
+     "reponse": "10 Ω"
+    },
+    {
+     "num": "21227",
+     "question": "TENSION DANS UN PONT DIVISEUR",
+     "reponse": "10 V"
+    },
+    {
+     "num": "21447",
+     "question": "VALEUR DE R",
+     "reponse": "20 kΩ"
+    }
+   ]
+  },
+  {
+   "id": "T017e",
+   "ref": "1.7.e",
+   "nq": 23,
+   "depth": 1,
+   "anchors": [
+    "T017e"
+   ],
+   "title_fr": "a 1.7)",
+   "questions": [
+    {
+     "num": "20030",
+     "question": "RESISTANCE EQUIVALENTE",
+     "reponse": "16 Ω"
+    },
+    {
+     "num": "20460",
+     "question": "RESISTANCE EQUIVALENTE ?",
+     "reponse": "14,5 MΩ"
+    },
+    {
+     "num": "20869",
+     "question": "VALEUR EQUIVALENTE D'UN RESEAU  R 8 KOHMS EN SERIE AVEC 2 R PARALLELES DE 10 ET 30 OHMS",
+     "reponse": "8007 Ω"
+    },
+    {
+     "num": "21432",
+     "question": "RESISTANCE EQUIVALENTE",
+     "reponse": "1,5 kΩ"
+    }
+   ]
+  },
+  {
+   "id": "T018",
+   "ref": "1.8",
+   "nq": 20,
+   "depth": 1,
+   "anchors": [
+    "T018",
+    "T018a",
+    "T018c"
+   ],
+   "title_fr": "1.8)",
+   "questions": [
+    {
+     "num": "20034",
+     "question": "VALEUR DE RX",
+     "reponse": "10  kΩ"
+    },
+    {
+     "num": "20037",
+     "question": "CALCULER IR1",
+     "reponse": "0,305 A"
+    },
+    {
+     "num": "20039",
+     "question": "CALCULER IR1",
+     "reponse": "8 mA"
+    },
+    {
+     "num": "20041",
+     "question": "CALCULER U",
+     "reponse": "27,5 V"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,365 @@
+{
+ "section": "全部 <div class=\"note\"> 块（68 个，跨全书的待核实事项核对结果）",
+ "pairs": [
+  {
+   "old": "**PIRE = PAR + 2,14 dB = PAR × 1,64**",
+   "new": "**\\(\\mathrm{PIRE} = \\mathrm{PAR} + 2{,}14\\ \\mathrm{dB} = \\mathrm{PAR} \\times 1{,}64\\)**",
+   "count": 2,
+   "note": "L2758 PIRE/PAR 换算（加粗行内式）"
+  },
+  {
+   "old": "补充系数 1,64 = 1 + 2/π。",
+   "new": "补充系数 \\(1{,}64 = 1 + 2/\\pi\\)。",
+   "count": 2,
+   "note": "L2758 1,64 = 1 + 2/π"
+  },
+  {
+   "old": "<td>A + B = C – D</td><td>A × B = C / D</td><td>A² = B ou C = √D</td>",
+   "new": "<td>\\(A + B = C - D\\)</td><td>\\(A \\times B = \\dfrac{C}{D}\\)</td><td>\\(A^2 = B\\) ou \\(C = \\sqrt{D}\\)</td>",
+   "count": 1,
+   "note": "L2998 方程变换表 Équation 行"
+  },
+  {
+   "old": "<td>X + A = C − D → X = C − D − A；X − A = 0 → X = A</td><td>X × A = C × D → X = (C × D) / A；X / A = B → X = B × A</td><td>X² = B → X = √B；√X = D → X = D²</td>",
+   "new": "<td>\\(X + A = C - D \\rightarrow X = C - D - A\\)；\\(X - A = 0 \\rightarrow X = A\\)</td><td>\\(X \\times A = C \\times D \\rightarrow X = \\dfrac{C \\times D}{A}\\)；\\(\\dfrac{X}{A} = B \\rightarrow X = B \\times A\\)</td><td>\\(X^2 = B \\rightarrow X = \\sqrt{B}\\)；\\(\\sqrt{X} = D \\rightarrow X = D^2\\)</td>",
+   "count": 1,
+   "note": "L2998 方程变换表 Exemples 行"
+  },
+  {
+   "old": "（20084：Z = 1/(2πFC)，题解用 159/F(MHz)/C(nF)）",
+   "new": "（20084：\\(Z = \\dfrac{1}{2\\pi F C}\\)，题解用 \\(159/F\\,(\\text{MHz})/C\\,(\\text{nF})\\)）",
+   "count": 2,
+   "note": "L4172 电容电抗 20084"
+  },
+  {
+   "old": "（两只电容时 C1·C2/(C1+C2)）",
+   "new": "（两只电容时 \\(\\dfrac{C_1 \\cdot C_2}{C_1 + C_2}\\)）",
+   "count": 2,
+   "note": "L4172 两只电容串联"
+  },
+  {
+   "old": "并用 Q = C·U（电量）",
+   "new": "并用 \\(Q = C \\cdot U\\)（电量）",
+   "count": 2,
+   "note": "L4172 电量 Q = C·U"
+  },
+  {
+   "old": "（PDF 第 52 页）：Q = Z / R = 1 / cos φ，且 Q = 2πfL/R = 1/(2πfCR)；原文例：Z = 80 Ω、R = 69 Ω → Q = 1,16。",
+   "new": "（PDF 第 52 页）：\\(Q = \\dfrac{Z}{R} = \\dfrac{1}{\\cos\\varphi}\\)，且 \\(Q = \\dfrac{2\\pi f L}{R} = \\dfrac{1}{2\\pi f C R}\\)；原文例：\\(Z = 80\\) Ω、\\(R = 69\\) Ω → \\(Q = 1{,}16\\)。",
+   "count": 2,
+   "note": "L4172 品质因数 Q（§2.5e）"
+  },
+  {
+   "old": "Z_C = Z_L → ωL = 1/(ωC) →",
+   "new": "\\(Z_C = Z_L \\rightarrow \\omega L = \\dfrac{1}{\\omega C}\\) →",
+   "count": 2,
+   "note": "L4172 汤姆孙定律开头 Z_C = Z_L …"
+  },
+  {
+   "old": "；完整变体见 §4.6a（C = 1/4π²f²L、ω = 1/√(LC)、X_L = X_C = √(L/C) 等）。",
+   "new": "；完整变体见 §4.6a（\\(C = \\dfrac{1}{4\\pi^2 f^2 L}\\)、\\(\\omega = \\dfrac{1}{\\sqrt{LC}}\\)、\\(X_L = X_C = \\sqrt{L/C}\\) 等）。",
+   "count": 2,
+   "note": "L4172 §4.6a 完整变体"
+  },
+  {
+   "old": "图给出 R = 10 Ω、I = 5 mA，求",
+   "new": "图给出 \\(R = 10\\) Ω、\\(I = 5\\) mA，求",
+   "count": 2,
+   "note": "L4483 题 20357 已知数据"
+  },
+  {
+   "old": "R 上的电压 U = R·I = 10 × 5·10⁻³ = 50 mV，而 10 mΩ 的内阻在 5 mA 下只产生 10 mΩ × 5 mA = 50 µV 的扰动",
+   "new": "R 上的电压 \\(U = R \\cdot I = 10 \\times 5 \\cdot 10^{-3} = 50\\ \\text{mV}\\)，而 10 mΩ 的内阻在 5 mA 下只产生 \\(10\\ \\text{m}\\Omega \\times 5\\ \\text{mA} = 50\\ \\mu\\text{V}\\) 的扰动",
+   "count": 2,
+   "note": "L4483 U = R·I 与 10 mΩ × 5 mA"
+  },
+  {
+   "old": "例题里的 Ri = 10 Ω 只是",
+   "new": "例题里的 \\(R_i = 10\\) Ω 只是",
+   "count": 2,
+   "note": "L4483 §3.4 例题 Ri = 10 Ω"
+  },
+  {
+   "old": "（= 1 − 1/e，e = 2,718；约记作 2/3）",
+   "new": "（\\(= 1 - \\dfrac{1}{e}\\)，\\(e = 2{,}718\\)；约记作 2/3）",
+   "count": 2,
+   "note": "L4707 充电 63,21 % = 1 − 1/e"
+  },
+  {
+   "old": "原文例：C = 100 µF 经 R = 8 kΩ 放电，T = 8 kΩ × 100 µF = 800 ms，5 T = 4 s。",
+   "new": "原文例：\\(C = 100\\) µF 经 \\(R = 8\\) kΩ 放电，\\(T = 8\\ \\text{k}\\Omega \\times 100\\ \\mu\\text{F} = 800\\ \\text{ms}\\)，\\(5T = 4\\) s。",
+   "count": 2,
+   "note": "L4707 时间常数算例"
+  },
+  {
+   "old": "只讲截止频率（f = 1/(2πRC)，简化式 159/R(kΩ)/C(µF)）",
+   "new": "只讲截止频率（\\(f = \\dfrac{1}{2\\pi R C}\\)，简化式 \\(159/R\\,(\\text{k}\\Omega)/C\\,(\\mu\\text{F})\\)）",
+   "count": 2,
+   "note": "L4707 §4.2 截止频率"
+  },
+  {
+   "old": "<td>灰 8、棕 1、绿 5 → 81 × 10⁵</td>",
+   "new": "<td>灰 8、棕 1、绿 5 → \\(81 \\times 10^5\\)</td>",
+   "count": 1,
+   "note": "L4988 色环题计算列 棕 1、绿 "
+  },
+  {
+   "old": "<td>橙 3、蓝 6、蓝 6 → 36 × 10⁶</td>",
+   "new": "<td>橙 3、蓝 6、蓝 6 → \\(36 \\times 10^6\\)</td>",
+   "count": 1,
+   "note": "L4988 色环题计算列 蓝 6、蓝 "
+  },
+  {
+   "old": "<td>灰 8、黑 0、绿 5 → 80 × 10⁵</td>",
+   "new": "<td>灰 8、黑 0、绿 5 → \\(80 \\times 10^5\\)</td>",
+   "count": 1,
+   "note": "L4988 色环题计算列 黑 0、绿 "
+  },
+  {
+   "old": "<td>灰 8、蓝 6、绿 5 → 86 × 10⁵</td>",
+   "new": "<td>灰 8、蓝 6、绿 5 → \\(86 \\times 10^5\\)</td>",
+   "count": 1,
+   "note": "L4988 色环题计算列 蓝 6、绿 "
+  },
+  {
+   "old": "<td>蓝 6、红 2、蓝 6 → 62 × 10⁶</td>",
+   "new": "<td>蓝 6、红 2、蓝 6 → \\(62 \\times 10^6\\)</td>",
+   "count": 1,
+   "note": "L4988 色环题计算列 红 2、蓝 "
+  },
+  {
+   "old": "<td>蓝 6、黄 4、灰 8 → 64 × 10⁸</td>",
+   "new": "<td>蓝 6、黄 4、灰 8 → \\(64 \\times 10^8\\)</td>",
+   "count": 1,
+   "note": "L4988 色环题计算列 黄 4、灰 "
+  },
+  {
+   "old": "A 类 a = 360°（全周期导通）、B 类 a = 180°、AB 类 180° < a < 360°、C 类 0 < a < 180°、D 类为开关工作 a = 0。",
+   "new": "A 类 \\(a = 360^\\circ\\)（全周期导通）、B 类 \\(a = 180^\\circ\\)、AB 类 \\(180^\\circ < a < 360^\\circ\\)、C 类 \\(0 < a < 180^\\circ\\)、D 类为开关工作 \\(a = 0\\)。",
+   "count": 1,
+   "note": "L5471 导通角外部补充（a = 360° 等）"
+  },
+  {
+   "old": "「Gain (dB) = 10 log (Ps / Pe)」",
+   "new": "「\\(\\text{Gain (dB)} = 10 \\log \\left(\\dfrac{P_s}{P_e}\\right)\\)」",
+   "count": 2,
+   "note": "L5588 功率增益公式"
+  },
+  {
+   "old": "「Ps = 10^(dB/10) × Pe」",
+   "new": "「\\(P_s = 10^{\\text{dB}/10} \\times P_e\\)」",
+   "count": 2,
+   "note": "L5588 功率比换算"
+  },
+  {
+   "old": "「Gain (dB) = 20 log (Us / Ue)」",
+   "new": "「\\(\\text{Gain (dB)} = 20 \\log \\left(\\dfrac{U_s}{U_e}\\right)\\)」",
+   "count": 2,
+   "note": "L5588 电压增益公式"
+  },
+  {
+   "old": "「Gain (dB) = 20 log (Us / Ue) + 10 log (Ze / Zs)」",
+   "new": "「\\(\\text{Gain (dB)} = 20 \\log \\left(\\dfrac{U_s}{U_e}\\right) + 10 \\log \\left(\\dfrac{Z_e}{Z_s}\\right)\\)」",
+   "count": 2,
+   "note": "L5588 阻抗不同时的电压增益"
+  },
+  {
+   "old": "输出端产生 F1 + F2 与 F1 − F2，",
+   "new": "输出端产生 \\(F_1 + F_2\\) 与 \\(F_1 - F_2\\)，",
+   "count": 2,
+   "note": "L5776 混频器输出 F1 ± F2"
+  },
+  {
+   "old": "除 f1、f2、2f1、2f2、f1 ± f2（二次失真）外还有 (2f1 + f2)、(2f1 − f2) 等三次项",
+   "new": "除 \\(f_1\\)、\\(f_2\\)、\\(2f_1\\)、\\(2f_2\\)、\\(f_1 \\pm f_2\\)（二次失真）外还有 \\((2f_1 + f_2)\\)、\\((2f_1 - f_2)\\) 等三次项",
+   "count": 2,
+   "note": "L5776 非理想混频的产物"
+  },
+  {
+   "old": "给出 FI = HF − FO（infradyne，FO < HF）、FI = FO − HF（supradyne，FO > HF）或 FI = FO + HF",
+   "new": "给出 \\(FI = HF - FO\\)（infradyne，\\(FO < HF\\)）、\\(FI = FO - HF\\)（supradyne，\\(FO > HF\\)）或 \\(FI = FO + HF\\)",
+   "count": 1,
+   "note": "L5776 §11.2 中频三式"
+  },
+  {
+   "old": "示例 HF = 14 MHz、FO = 5 MHz、FI = 9 MHz 时 Fim = |2·FO − HF| = |2·FI − HF| = 4 MHz",
+   "new": "示例 \\(HF = 14\\) MHz、\\(FO = 5\\) MHz、\\(FI = 9\\) MHz 时 \\(Fim = |2 \\cdot FO - HF| = |2 \\cdot FI - HF| = 4\\) MHz",
+   "count": 2,
+   "note": "L5776 §11.3 镜像频率算例"
+  },
+  {
+   "old": "放大器输入端同时有 f1 = 145 MHz 与 f2 = 150 MHz 两个频率",
+   "new": "放大器输入端同时有 \\(f_1 = 145\\) MHz 与 \\(f_2 = 150\\) MHz 两个频率",
+   "count": 2,
+   "note": "L5777 题 20155 两个输入频率"
+  },
+  {
+   "old": "二次（交调）失真下输出为 f1、f2、2f1、2f2、f1 + f2、f1 − f2，即 145、150、290（= 2 × 145，145 MHz 的二次谐波）、300（= 2 × 150，150 MHz 的二次谐波）、295（= 145 + 150，和频）、5（= 150 − 145 或 145 − 150，差频）MHz",
+   "new": "二次（交调）失真下输出为 \\(f_1\\)、\\(f_2\\)、\\(2f_1\\)、\\(2f_2\\)、\\(f_1 + f_2\\)、\\(f_1 - f_2\\)，即 145、150、290（\\(= 2 \\times 145\\)，145 MHz 的二次谐波）、300（\\(= 2 \\times 150\\)，150 MHz 的二次谐波）、295（\\(= 145 + 150\\)，和频）、5（\\(= 150 - 145\\) 或 \\(145 - 150\\)，差频）MHz",
+   "count": 2,
+   "note": "L5777 二次失真产物清单"
+  },
+  {
+   "old": "其中 300 MHz 对应 2 × f2，即输入端 150 MHz 信号的二次谐波；290 MHz 对应 2 × f1。",
+   "new": "其中 300 MHz 对应 \\(2 \\times f_2\\)，即输入端 150 MHz 信号的二次谐波；290 MHz 对应 \\(2 \\times f_1\\)。",
+   "count": 2,
+   "note": "L5777 谐波归属"
+  },
+  {
+   "old": "「一次谐波 2f1、2f2 与和差频 f1 + f2、f1 − f2 同时出现」",
+   "new": "「一次谐波 \\(2f_1\\)、\\(2f_2\\) 与和差频 \\(f_1 + f_2\\)、\\(f_1 - f_2\\) 同时出现」",
+   "count": 2,
+   "note": "L5777 §7.4b3 引述"
+  },
+  {
+   "old": "写明 L(m) = 150 / f(MHz) = λ/2，题图上的偶极总长 18 m，故 f = 150 / 18 = 8,33 MHz；同一长度的其它公式正好构成干扰项：300 / 18 = 16,66 MHz（全波）、75 / 18 = 4,16 MHz（四分之一波）。",
+   "new": "写明 \\(L\\,(\\text{m}) = \\dfrac{150}{f\\,(\\text{MHz})} = \\lambda/2\\)，题图上的偶极总长 18 m，故 \\(f = 150/18 = 8{,}33\\) MHz；同一长度的其它公式正好构成干扰项：\\(300/18 = 16{,}66\\) MHz（全波）、\\(75/18 = 4{,}16\\) MHz（四分之一波）。",
+   "count": 2,
+   "note": "L6247 偶极长度公式与三个干扰项"
+  },
+  {
+   "old": "16 dB ⇒ 10^(16/10) = 39,8 ≈ 40，PIRE = 10 W × 40 = 400 W PIRE。",
+   "new": "16 dB ⇒ \\(10^{16/10} = 39{,}8 \\approx 40\\)，\\(\\mathrm{PIRE} = 10\\ \\text{W} \\times 40 = 400\\ \\text{W}\\) PIRE。",
+   "count": 2,
+   "note": "L6456 题 20188 的换算"
+  },
+  {
+   "old": "100 W × 20 = 2000 W PAR（注意该例用的是 dBd）",
+   "new": "\\(100\\ \\text{W} \\times 20 = 2000\\ \\text{W}\\) PAR（注意该例用的是 dBd）",
+   "count": 2,
+   "note": "L6456 §9.8 例题 100 W × 20"
+  },
+  {
+   "old": "原文 §9.8 给出：PIRE = PAR + 2,14 dB = PAR × 1,64。",
+   "new": "原文 §9.8 给出：\\(\\mathrm{PIRE} = \\mathrm{PAR} + 2{,}14\\ \\mathrm{dB} = \\mathrm{PAR} \\times 1{,}64\\)。",
+   "count": 2,
+   "note": "L6456 PIRE/PAR 换算（§9.8）"
+  },
+  {
+   "old": "答案才是 400 / 1,64 ≈ 244 W",
+   "new": "答案才是 \\(400/1{,}64 \\approx 244\\) W",
+   "count": 2,
+   "note": "L6456 换算回 PAR"
+  },
+  {
+   "old": "f(MHz) = 159 / √(L(µH) × C(pF))，例题为 L = 32 µH、C = 200 pF → f = 159 / √(32 × 200) = 159 / 80 = 1,9875 ≈ 2 MHz。",
+   "new": "\\(f\\,(\\text{MHz}) = \\dfrac{159}{\\sqrt{L\\,(\\mu\\text{H}) \\times C\\,(\\text{pF})}}\\)，例题为 \\(L = 32\\) µH、\\(C = 200\\) pF → \\(f = \\dfrac{159}{\\sqrt{32 \\times 200}} = 159/80 = 1{,}9875 \\approx 2\\) MHz。",
+   "count": 2,
+   "note": "L6530 题 20427 简化式与例题"
+  },
+  {
+   "old": "本题 C = 400 pF、L = 25 nH，即 0,025 µH：f = 159 / √(0,025 × 400) = 159 / √10 = 159 / 3,16 = 50,28 ≈ 50 MHz（自然式 f = 1 / (2π√(LC)) = 1 / (2π√(25·10⁻⁹ × 400·10⁻¹²)) = 50,3 MHz）。",
+   "new": "本题 \\(C = 400\\) pF、\\(L = 25\\) nH，即 \\(0{,}025\\) µH：\\(f = \\dfrac{159}{\\sqrt{0{,}025 \\times 400}} = \\dfrac{159}{\\sqrt{10}} = 159/3{,}16 = 50{,}28 \\approx 50\\) MHz（自然式 \\(f = \\dfrac{1}{2\\pi\\sqrt{LC}} = \\dfrac{1}{2\\pi\\sqrt{25 \\cdot 10^{-9} \\times 400 \\cdot 10^{-12}}} = 50{,}3\\) MHz）。",
+   "count": 2,
+   "note": "L6530 本题 L/C 代入与自然式"
+  },
+  {
+   "old": "（60 · ln(10) = 138,2）",
+   "new": "（\\(60 \\cdot \\ln(10) = 138{,}2\\)）",
+   "count": 1,
+   "note": "L6656 系数 138,2 的来历"
+  },
+  {
+   "old": "「PE 介质、编织网/内导体直径比 3,5 时 Z = 50 Ω」",
+   "new": "「PE 介质、编织网/内导体直径比 3,5 时 \\(Z = 50\\) Ω」",
+   "count": 2,
+   "note": "L6656 唯一算例 Z = 50 Ω"
+  },
+  {
+   "old": "（(138/√2,3) × log₁₀3,5 ≈ 49,5 Ω ≈ 50 Ω）",
+   "new": "（\\((138/\\sqrt{2{,}3}) \\times \\log_{10} 3{,}5 \\approx 49{,}5\\ \\Omega \\approx 50\\ \\Omega\\)）",
+   "count": 1,
+   "note": "L6656 算例代入"
+  },
+  {
+   "old": "原文算例：HF = 14 MHz、FO = 5 MHz、FI = 9 MHz。",
+   "new": "原文算例：\\(\\text{HF} = 14\\) MHz、\\(\\text{FO} = 5\\) MHz、\\(\\text{FI} = 9\\) MHz。",
+   "count": 1,
+   "note": "L6984 原文算例已知量"
+  },
+  {
+   "old": "Fim 由 2·FO 或 2·FI 算出",
+   "new": "Fim 由 \\(2 \\cdot \\text{FO}\\) 或 \\(2 \\cdot \\text{FI}\\) 算出",
+   "count": 1,
+   "note": "L6984 Fim 的两种算法"
+  },
+  {
+   "old": "混频得到 9 MHz（4 + 5 = 9），即中频",
+   "new": "混频得到 9 MHz（\\(4 + 5 = 9\\)），即中频",
+   "count": 1,
+   "note": "L6984 4 + 5 = 9"
+  },
+  {
+   "old": "（本例如上，低外差且 FI = HF – FO）：Fim = \\|(2 × 5) – 14\\| = \\|(2 × 9) – 14\\| = 4 MHz。",
+   "new": "（本例如上，低外差且 \\(\\text{FI} = \\text{HF} - \\text{FO}\\)）：\\(\\text{Fim} = |(2 \\times 5) - 14| = |(2 \\times 9) - 14| = 4\\) MHz。",
+   "count": 1,
+   "note": "L6984 原文算例续"
+  },
+  {
+   "old": "AM 的频谱是载波加两条边带 HF + BF 与 HF – BF（§12.1c：",
+   "new": "AM 的频谱是载波加两条边带 \\(HF + BF\\) 与 \\(HF - BF\\)（§12.1c：",
+   "count": 2,
+   "note": "L7315 两条边带"
+  },
+  {
+   "old": "所以整段频谱宽度 = (HF + BFmaxi) – (HF – BFmaxi) = 2 · BFmaxi。",
+   "new": "所以整段频谱宽度 \\(= (HF + BF_{maxi}) - (HF - BF_{maxi}) = 2 \\cdot BF_{maxi}\\)。",
+   "count": 2,
+   "note": "L7315 带宽推导"
+  },
+  {
+   "old": "即 6 kHz = 2 × 3 kHz；",
+   "new": "即 \\(6\\ \\text{kHz} = 2 \\times 3\\ \\text{kHz}\\)；",
+   "count": 2,
+   "note": "L7315 数值印证"
+  },
+  {
+   "old": "例：常规话务 BF 300–3000 Hz ⇒ AM 占用带宽 = 2 × 3000 = 6000 Hz = 6 kHz；",
+   "new": "例：常规话务 BF 300–3000 Hz ⇒ AM 占用带宽 \\(= 2 \\times 3000 = 6000\\ \\text{Hz} = 6\\ \\text{kHz}\\)；",
+   "count": 2,
+   "note": "L7315 常规话务算例"
+  },
+  {
+   "old": "调制指数 m < 1（窄带 FM，NBFM）时应使用的替换公式",
+   "new": "调制指数 \\(m < 1\\)（窄带 FM，NBFM）时应使用的替换公式",
+   "count": 1,
+   "note": "L7379 窄带条件"
+  },
+  {
+   "old": "而 AM 带宽 = 2 × BFmaxi（§12.1c/§12.6a，见本教材 §12.3 一条）。",
+   "new": "而 AM 带宽 \\(= 2 \\times BF_{maxi}\\)（§12.1c/§12.6a，见本教材 §12.3 一条）。",
+   "count": 2,
+   "note": "L7379 AM 带宽"
+  },
+  {
+   "old": "当 m → 0 时 B → 2 · BFmaxi；m < 1 时该式给出 2·BFmaxi < B < 4·BFmaxi，工程上取窄带近似 B ≈ 2 · BFmaxi（m ≪ 1 时只保留载波与一次边带，故带宽 = 2·fm）。",
+   "new": "当 \\(m \\rightarrow 0\\) 时 \\(B \\rightarrow 2 \\cdot BF_{maxi}\\)；\\(m < 1\\) 时该式给出 \\(2 \\cdot BF_{maxi} < B < 4 \\cdot BF_{maxi}\\)，工程上取窄带近似 \\(B \\approx 2 \\cdot BF_{maxi}\\)（\\(m \\ll 1\\) 时只保留载波与一次边带，故带宽 \\(= 2 \\cdot f_m\\)）。",
+   "count": 1,
+   "note": "L7379 卡森极限"
+  },
+  {
+   "old": "3) 外部印证：窄带调频（调制指数 h ≪ 1）的带宽约为 2·fm，fm 为最高调制频率。",
+   "new": "3) 外部印证：窄带调频（调制指数 \\(h \\ll 1\\)）的带宽约为 \\(2 \\cdot f_m\\)，\\(f_m\\) 为最高调制频率。",
+   "count": 2,
+   "note": "L7379 窄带调频带宽"
+  },
+  {
+   "old": "例：BFmaxi = 3 kHz、频偏 (±ΔF) = 1,5 kHz ⇒ m = 0,5 < 1，取 B ≈ 2 × 3 = 6 kHz（若用卡森公式得 9 kHz，属偏大的上限）。",
+   "new": "例：\\(BF_{maxi} = 3\\) kHz、频偏 \\((\\pm\\Delta F) = 1{,}5\\) kHz ⇒ \\(m = 0{,}5 < 1\\)，取 \\(B \\approx 2 \\times 3 = 6\\) kHz（若用卡森公式得 9 kHz，属偏大的上限）。",
+   "count": 1,
+   "note": "L7379 数值算例"
+  },
+  {
+   "old": "「m ≥ 1 ⇒ B = 2(m + 1) · BFmaxi（卡森规则，含 98% 功率）；m < 1（NBFM）⇒ B ≈ 2 × BFmaxi，即等于 AM 带宽」",
+   "new": "「\\(m \\ge 1 \\Rightarrow B = 2(m + 1) \\cdot BF_{maxi}\\)（卡森规则，含 98% 功率）；\\(m < 1\\)（NBFM）\\(\\Rightarrow B \\approx 2 \\times BF_{maxi}\\)，即等于 AM 带宽」",
+   "count": 1,
+   "note": "L7379 小结表写法"
+  },
+  {
+   "old": "实际是 1×10⁻⁴ 与 5×10⁻⁵。",
+   "new": "实际是 \\(1 \\times 10^{-4}\\) 与 \\(5 \\times 10^{-5}\\)。",
+   "count": 1,
+   "note": "L652 规范值 1×10⁻⁴ / 5×10⁻⁵"
+  }
+ ]
+}

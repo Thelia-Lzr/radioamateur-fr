@@ -1,0 +1,62 @@
+{
+ "P11": {
+  "verdict": "resolved",
+  "answer": "考试会考的 3 个带下划线的 Morse 缩写是 **PSE、RX、TX**。法语 HTML 版（cours_utf8.html）保留了 PDF 的下划线标记 `<u>`；在 §R-3.2.d 的 15 个缩写清单里，只有 `PSE`、`RX`、`TX` 三处带下划线。",
+  "source": "PDF §R-3.2.d（cours_pdf_layout.txt 行 1346–1352；下划线信息见 cours_utf8.html 行 5780–5808 的 <u> 标记）",
+  "note": "清单共 15 个缩写：AR, BK, CQ, CW, DE, K, MSG, PSE, R, RST, RX, SIG, TX, UR, VA。另有正文讲 CQ 由来的一句把 CQ 标了下划线，不属该清单，故不算在这 3 个之内。"
+ },
+ "P12": {
+  "verdict": "source_defect",
+  "answer": "题库有毛病：Exam'1 题 36201「QUE SIGNIFIE LES LETTRES TX ?」的官方答案是 **Transceiver**，但严格讲 TX = transmitter / 法语 « Émetteur »（发射机），收发信机是 transceiver（缩写一般作 TRX）；同一题库题 36101 又把 RX 答为 « Receiver »，自相矛盾（若 TX=收发信机，RX 就不该只是接收机）。教材正文 « TX : Emetteur » 在技术上是正确的。**应试请按题库选 Transceiver**，同时注明其技术含义为「发射机」。",
+  "source": "题库 Exam1/questions/questions.json 题 36201（themeNum 303，cours 链接 #R32d）与题 36101；PDF §R-3.2.d « TX : Emetteur »",
+  "note": "两处都有据可查，矛盾出在题库答案本身，不是转文本丢失。"
+ },
+ "P13": {
+  "verdict": "not_in_source",
+  "answer": "属实：§R-3.3「通联的实施」不含任何考务内容。考试的科目、时长、计分与及格线写在教材 Intro（§Intro-2、§Intro-4、§Intro-5）与 arrêté du 21/09/00 第 2 条（2021-06-06 起施行的修订版）：Réglementation 与 Technique 两场独立考试，各 20 道单选题；Réglementation 15 分钟、Technique 30 分钟；每答对 1 分、答错或未答 0 分（2021 年 6 月起取消倒扣，旧制为好答案 3 分、错答 −1 分、满分 60）；两场各须 ≥10/20 才通过；已通过的场次保留 1 年；一场失败后须等 2 个月才能重考；残疾度 ≥70 % 者时间 ×3（45 分钟 / 1 小时 30 分钟）。",
+  "source": "PDF Intro §Intro-2 / §Intro-4 / §Intro-5（cours_pdf_layout.txt 行 55–135）；arrêté du 21 septembre 2000 art. 2 — https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043225814/2026-02-23",
+  "note": "考务内容属于 Intro（开篇）与 Technique/ Réglementation 两部分的说明，不属于 §R-3.3；该处只需删掉/改写这条警告，不必往本节补考务内容。"
+ },
+ "P14": {
+  "verdict": "resolved",
+  "answer": "官方规则（arrêté du 21/09/00 附件 II「Codification particulière des indicatifs spéciaux temporaires」，2021-06-06 起施行）：特殊呼号 = 2 字母前缀（TM 本土、TO 海外省、TK 科西嘉、TX 海外集体；FX 用于与绕地球轨道空间站相关的例外事件）+ **1 至 3 位数字**（0 至 999）+ **1 至 4 个字符，且最后一个必须是字母**。数字加后缀合计 **2 至 7 个字符**。故教材的「1 至 3 个数字 + 4 个字符」漏字，应作「1 至 3 位数字 + 1 至 4 个字符（末位为字母）」；TM9A（1 位数字 + 1 字母 = 2 字符）完全合规，教材例子 TM9A、TO9AA、TX99A、TM9AAAA、TK9999A9Z 全部合规。官方例子：TX2F、TO2018D。",
+  "source": "arrêté du 21 septembre 2000, annexe II (grille de codification, indicatifs spéciaux temporaires) — https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043225843/2026-02-23 ；PDF §R-4.6.c（行 1637–1640）",
+  "note": "PDF 原文：«2 à 7 caractères au choix du demandeur forment le suffixe qui commence par 1 à 3 chiffres suivis de 4 caractères dont le dernier est une lettre»；官方原文：«d'un à trois chiffres d'identification : de 0 à 999, d'un suffixe d'un à quatre caractères, le dernier caractère étant forcément une lettre»。"
+ },
+ "P15": {
+  "verdict": "resolved",
+  "answer": "**250 W**。题库题 30779「PUISSANCE AUTORISEE A UN OPERATEUR ETRANGER CEPT SUR 28,750 MHZ ?」的标准答案是 250 W，其依据不在 §R-4.7.a（该节只讲呼号构成：法国前缀 + / + 本国呼号 + /P 或 /M），而在 §R-2.2 的功率表：持 CEPT/HAREC 等效证书者在法国按「classe unique（ex 1 et 2）」的限值发射 —— 28 至 30 MHz 段为 250 W（< 28 MHz 为 500 W，> 30 MHz 为 120 W）。28,750 MHz 落在 28–30 MHz，故为 250 W。",
+  "source": "PDF §R-2.2（行 1144–1156，功率表）；题库题 30779",
+  "note": "该题在题库里的 cours 链接是 #R47a，属于题源链接与内容不符（#R47a 通篇没有功率数值）；数值的真正出处是 §R-2.2 的 classe unique 功率表。"
+ },
+ "P16": {
+  "verdict": "resolved",
+  "answer": "「46」本身是对的：CEPT 官方（cept.org「Membership and observers」，2026 年）现行成员为 **46 个国家**——俄罗斯与白俄罗斯自 2022 年 3 月起被暂停成员资格，已不在名单内；阿塞拜疆与格鲁吉亚则在名单内。教材主表列出的 45 个里包含已被暂停的俄罗斯，同时把成员国阿塞拜疆、格鲁吉亚另列在下方「不适用 T/R 61-01」的名单中：45 − 俄罗斯 + 阿塞拜疆 + 格鲁吉亚 = 46，与官方一致。要改的是表格本身（俄罗斯移出主表，阿塞拜疆、格鲁吉亚并入主表），以及正文「les 2 (**) pays suivants」应为 3 个国家（(**) 只标注被暂停的俄罗斯与白俄罗斯）。",
+  "source": "https://www.cept.org/cept/membership-and-observers（46 countries，逐国名单）；PDF §R-4.7.b（行 1687–1705）",
+  "note": "主表 45 项已逐项核对（Albanie … Cité du Vatican），其中含 Royaume-Uni、Fédération de Russie (**)；下方另列 Azerbaïdjan (4K)、Biélorussie (EW) (**)、Géorgie (4L)。"
+ },
+ "P17": {
+  "verdict": "resolved",
+  "answer": "VLF（myriamétriques，万米波）= **3 至 30 kHz**，即波长 **100 km 至 10 km**（UIT RR 第 2 条 No. 2.1，corresponding metric subdivision « Myriametric waves »）。教材表格的「plus de 10 km / moins de 30 kHz」只给出 VLF 与 LF 的分界（10 km / 30 kHz），把下侧留成开放式；按 ITU 定义应补成「**de 10 à 100 km / de 3 à 30 kHz**」——缺失的上界是 100 km（对应 3 kHz）。",
+  "source": "ITU Radio Regulations, Article 2, No. 2.1（VLF 3 to 30 kHz, Myriametric waves；LF 30 to 300 kHz）；PDF §R-5.2.b 表（行 1802）",
+  "note": "教材 Technique §9.2 的频谱图（PDF 第 79 页，图片形式）把左侧起点标为「radiofréquences gérées par l'UIT (de 9 kHz à 275 GHz)」，这也是 §R-5.2.b 表把 VLF 一栏写成开放式的同类处理。"
+ },
+ "P18": {
+  "verdict": "resolved",
+  "answer": "两者的换算关系是 **PIRE = PAR + 2,14 dB = PAR × 1,64**：半波振子（doublet）相对各向同性天线有 2,14 dB 增益，补充系数 1,64 = 1 + 2/π。即 \\( \\mathrm{PIRE} = \\mathrm{PAR} + 2{,}14\\ \\mathrm{dB} = \\mathrm{PAR} \\times 1{,}64 \\)。教材同一 PDF 的 §R-5.1.b 与 Technique §9.8 都写明了这条换算（只是不在 §R-5.2.h 里）。",
+  "source": "PDF §9.8（行 4855–4856；行文为 «L'antenne doublet a un gain de 2,14 dB par rapport à l'antenne isotrope, soit un coefficient complémentaire de 1,64 (= 1 + 2/π). On a donc : PIRE = PAR + 2,14 dB = PAR x 1,64.»）；另见 §R-5.1.b（行 1865）",
+  "note": "§R-5.2.h（行 1873–1880）确实只分别给出 PAR 与 PIRE 的定义，未写换算；建议把上式补进 §R-5.2.h 或加交叉引用。"
+ },
+ "P19": {
+  "verdict": "not_in_source",
+  "answer": "属实：§R-5.4 只讲现象、机理与抗干扰措施，不含测量仪器。题库中那两题确实存在，标准答案为：题 30188「QUEL APPAREIL UTILISE-T-ON POUR MESURER LES HARMONIQUES ?」→ **Un analyseur de spectre**（频谱分析仪；题 30950「APPAREIL POUR DETECTER LES HARMONIQUES ?」与题 20611 同答案）；题 20200「COMMENT MESURE-T-ON UN COURANT HF ?」→ **un ampèremètre thermique**（热偶式安培计）。这些属于 Technique 的测量部分（题库相应题目的 cours 链接为 #R54 / #R54b / #T074 / #T11），不在 §R-5.4 内。",
+  "source": "题库 Exam1/questions/questions.json 题 30188、30950、20611、20200；PDF §R-5.4（行 1958–1996）与 Technique §11.6（行 5375–5385）均无测量仪器内容",
+  "note": "«ampèremètre thermique» 在整部 PDF 里 0 次出现（全文 grep 确认），«analyseur de spectre» 只出现在 Technique §4.4（RLC 电路的 Q 值与带宽，行 3700 附近），都不是 CEM 语境。故教材该处应说明：这两题按题库答案记忆，本节不展开。"
+ },
+ "P20": {
+  "verdict": "resolved",
+  "answer": "§0.1 的「方程变换一览表」与末尾的汤姆孙定律示例在 PDF 中都是图片，转文本时内容丢失。原图内容如下：\n\n**方程变换一览表（Transformation d'équation）**\n\n| Opération | Addition et Soustraction | Multiplication et Division | Puissance et Racine |\n|---|---|---|---|\n| Équation | A + B = C – D | A × B = C / D | A² = B ou C = √D |\n| Transformation | 移项变号（取相反数）：+ ⇒ − 且 − ⇒ + | 移项变算子（取逆）：× ⇒ / 且 / ⇒ × | 两边同时变幂：² ⇒ √ 且 √ ⇒ ² |\n| Exemples（X = inconnue, A,B,C,D = données） | X + A = C − D → X = C − D − A；X − A = 0 → X = A | X × A = C × D → X = (C × D) / A；X / A = B → X = B × A | X² = B → X = √B；√X = D → X = D² |\n\n**除以分数 = 乘其倒数**：\\( \\frac{1}{1/A} = 1 \\times \\frac{A}{1} = A \\)；\\( \\frac{A/B}{C/D} = \\frac{A}{B} \\times \\frac{D}{C} = \\frac{A \\times D}{B \\times C} \\)；\\( \\frac{A}{B} / C = \\frac{A}{B \\times C} \\)\n\n**汤姆孙定律（loi de Thomson）示例**：si \\( Z_L = Z_C \\), alors \\( 2\\pi F L = \\frac{1}{2 \\pi F C} \\), donc \\( (2\\pi F)^2 = \\frac{1}{LC} \\), donc \\( F^2 = \\frac{1}{4\\pi^2 LC} \\), d'où \\( F = \\frac{1}{2\\pi\\sqrt{LC}} \\).",
+  "source": "PDF §0.1（行 2046–2090；对应 cours_utf8.html 中 §T0001a 的图片 image015.gif、image016.gif 与 §T0001 末尾的 image018.jpg，PDF 第 34 页原图经渲染核对）；汤姆孙公式另见 Technique §4.6（行 3770：f = 1/[2π√(LC)]）",
+  "note": "表中三列操作各自对应一种变换：加减（变号）、乘除（取逆）、幂与根（两边同时开方/平方）。建议在教材里用 Markdown 表格 + LaTeX 重排，并保留 T0001 锚点。"
+ }
+}

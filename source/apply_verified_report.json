@@ -1,0 +1,90 @@
+{
+ "report": [
+  {
+   "file": "full/out_1.json",
+   "changed": 7
+  },
+  {
+   "file": "full/out_2.json",
+   "changed": 19
+  },
+  {
+   "file": "full/out_3.json",
+   "changed": 4
+  },
+  {
+   "file": "full/out_4.json",
+   "changed": 5
+  },
+  {
+   "file": "full/out_5.json",
+   "changed": 4
+  },
+  {
+   "file": "full/out_6.json",
+   "changed": 1
+  },
+  {
+   "file": "full/out_7.json",
+   "changed": 1
+  },
+  {
+   "file": "explain/out_2.json",
+   "changed": 1
+  },
+  {
+   "file": "explain/out_3.json",
+   "changed": 5
+  },
+  {
+   "file": "explain/out_4.json",
+   "changed": 7
+  },
+  {
+   "file": "explain/out_5.json",
+   "changed": 2
+  },
+  {
+   "file": "kp/out_1.json",
+   "changed": 5
+  },
+  {
+   "file": "kp/out_2.json",
+   "changed": 4
+  },
+  {
+   "file": "kp/out_3.json",
+   "changed": 1
+  },
+  {
+   "file": "kp/out_4.json",
+   "changed": 6
+  },
+  {
+   "file": "kp/out_5.json",
+   "changed": 7
+  },
+  {
+   "file": "kp/out_6.json",
+   "changed": 4
+  },
+  {
+   "file": "kp/out_7.json",
+   "changed": 1
+  },
+  {
+   "file": "kp/out_8.json",
+   "changed": 6
+  },
+  {
+   "file": "kp/merged_out.json",
+   "changed": 4
+  }
+ ],
+ "stats": {
+  "B": 28,
+  "D": 39,
+  "A": 29,
+  "C": 4
+ }
+}

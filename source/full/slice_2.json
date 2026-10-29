@@ -1,0 +1,3122 @@
+[
+ {
+  "num": "20321",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "TENSION CRETE A CRETE D'UNE TENSION DE 12 VOLTS EFFICACES",
+  "options": [
+   "24 volts",
+   "17 volts",
+   "34 volts",
+   "8,5 volts"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "34 volts",
+  "commentaire_fr": "Umax = 12 V x 1,414 = 17 V (arrondi) ; Ucàc = Umax x 2 = 17 x 2 = 34 volts\n",
+  "anchor": "T022d"
+ },
+ {
+  "num": "20323",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "FREQUENCE D'UN SIGNAL DE PERIODE 6 MICROSECONDES ?",
+  "options": [
+   "167 Hz",
+   "1,6 kHz",
+   "16666 Hz",
+   "167 kHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "167 kHz",
+  "commentaire_fr": "F = 1 / t = 1 / 0,000 006 = 166,6 kHz arrondi à 167 kHz\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20324",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'ENTREE D'UN AMPLIFICATEUR MONTE EN BASE COMMUNE ?",
+  "options": [
+   "basse",
+   "moyenne",
+   "élevée",
+   "infinie"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "basse",
+  "commentaire_fr": "Les ordres de grandeurs d’impédance sont : \nbasse = 10 ohms ; \nmoyenne = 100 ohms ; \nélevée = 1000 ohms ; \ntrès élevée = 10.000 ohms\n",
+  "anchor": "T063a"
+ },
+ {
+  "num": "20329",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "CODE DES COULEURS D'UNE RESISTANCE : ORANGE NOIR ORANGE",
+  "options": [
+   "300 kΩ",
+   "3000 Ω",
+   "303 Ω",
+   "30 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "30 kΩ",
+  "commentaire_fr": "Orange = 3, Noir = 0, Orange = 3 ; donc 30 x 10^3 = 30 x 1000 = 30 kΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20330",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE TYPE DE CE FILTRE",
+  "options": [
+   "Filtre en pi",
+   "Filtre passe-haut à -6 dB/octave",
+   "circuit coupe bande",
+   "circuit bouchon"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Filtre passe-haut à -6 dB/octave",
+  "commentaire_fr": "Ce schéma a été repris à l’identique dans la base de données des questions sur Minitel où il était difficile de dessiner une bobine\n",
+  "anchor": "T042e"
+ },
+ {
+  "num": "20333",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE ?",
+  "options": [
+   "225 pF",
+   "111 pF",
+   "0,045 nF",
+   "450 pF"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "450 pF",
+  "commentaire_fr": "CT = C1 + C2 = 450 pF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20336",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUEL EST LE NOMBRE DE SPIRES D'UNE BOBINE SI ON MULTIPLIE SA VALEUR PAR 4 ?",
+  "options": [
+   "Le nombre de spires est divisé par 2",
+   "Le nombre de spires est quadruplé",
+   "Le nombre de spires est multiplié par 16",
+   "Le nombre de spires est doublé "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Le nombre de spires est doublé ",
+  "commentaire_fr": "La formule générale est L = F x N² x D²\n\nLa bobine ayant une valeur 4 fois plus forte, le nombre de spires est multiplié par 2 (effet du carré)\n",
+  "anchor": "T023d4"
+ },
+ {
+  "num": "20337",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 3 BAGUES : ORANGE, NOIR, ORANGE\nVALEUR DE LA RESISTANCE ?",
+  "options": [
+   "500 MΩ",
+   "7 MΩ",
+   "700 kΩ",
+   "500 kΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "7 MΩ",
+  "commentaire_fr": "Violet = 7, Noir = 0, Vert = 5 ; donc 70 x 10^5 = 70 x 100000 = 7000 kΩ = 7 MΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20339",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CONDENSATEUR 100 F ET UNE FREQUENCE DE 10 MHZ IMPEDANCE A LA FREQUENCE ?",
+  "options": [
+   "16 Ω",
+   "160 mΩ",
+   "160 µΩ",
+   "1,6 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "160 µΩ",
+  "commentaire_fr": "Z en ohms = 159 / F(MHz) / C(nF)  = 159 / 10 / 100 000 = 0,000 159 \n= 160 µΩ (arrondi)\n",
+  "anchor": "T023f2"
+ },
+ {
+  "num": "20341",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE D'UN RECEPTEUR BLU AVEC ETAGE RF MARQUE  ?  QUEL EST L'ETAGE MARQUE  ?",
+  "options": [
+   "Discriminateur",
+   "Filtre anti-harmonique",
+   "Ampli RF ",
+   "CAG"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Ampli RF ",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20342",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "75 V CRETE A CRETE EN SINUS : QUELLE EST LA TENSION EFF ?",
+  "options": [
+   "50 V",
+   "37,5 V",
+   "26,5 V",
+   "106 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "26,5 V",
+  "commentaire_fr": "Vmax = Vcàc / 2 = 75 / 2 = 37,5 V ; \nVeff = Vmax x 0,707 = 37,5 x 0,707 = 26,5 V\n",
+  "anchor": "T022d"
+ },
+ {
+  "num": "20343",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "PUISSANCE D'ALIMENTATION DE L'ANTENNE AVEC UN EMETTEUR DE 2 W SUIVI DE 10 METRES DE COAXIAL AVEC 0,03DB/M DE PERTE ET 1,5 DB DE PERTES DANS UN CONNECTEUR",
+  "options": [
+   "1,11 W",
+   "3,6 W",
+   "1,32 W",
+   "1 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1,32 W",
+  "commentaire_fr": "perte dans le coaxial = 0,03 dB/m x 10 mètres = 0,3 dB ; \nperte dans le connecteur = 1,5 dB ; \natténuation de l’ensemble = 1,8 dB ; \ntransformation dB>rapport de puissance : 10^-0,18 = 0,66 ; \nPsortie = 2 W x 0,66 = 1,32 W\n",
+  "anchor": "T098"
+ },
+ {
+  "num": "20345",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SCHEMA D'UN CIRCUIT AVEC UN TRANSISTOR NPN OU IL FALLAIT\nIDENTIFIER LA RESISTANCE DE CHARGE.",
+  "options": [
+   "résistance d'équibrage",
+   "résistance de contre-réaction",
+   "résistance de charge",
+   "résistance d’alimentation"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "résistance de charge",
+  "commentaire_fr": "",
+  "anchor": "T072a"
+ },
+ {
+  "num": "20346",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : MARRON, GRIS, NOIR, OR\nVALEUR DE LA RESISTANCE ?",
+  "options": [
+   "180 Ω",
+   "18,1 Ω",
+   "150 Ω",
+   "18 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "18 Ω",
+  "commentaire_fr": "Marron = 1 ; Gris = 8 ; Noir = 0 ; donc 1,8 x 10^1 = 1,8 x 10 = 18 Ω\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20348",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "FREQUENCE 1 = 0,5 POUR 10 V, \nPUIS FREQUENCE 2 = 1,0 AVEC 4 V, \nPUIS FREQUENCE 3 = 1,5 AVEC 2 V \nTAUX DE DISTORSION  L'HARMONIQUE 2 ?",
+  "options": [
+   "45%",
+   "20%",
+   "40%",
+   "60%"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "40%",
+  "commentaire_fr": "TDH de l’harmonique 2 : on compare donc les tensions de F1 (0,5)  et F2 (1,0) ; \nTDH = 4 / 10 x 100 = 40%. \nLe seul couple de fréquence étant en harmonique 2 sont 0,5 et 1,0.\n",
+  "anchor": "T074b2"
+ },
+ {
+  "num": "20351",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST FORMULE EXACTE ?",
+  "options": [
+   "Ieff = Imax/√2 ",
+   "Ieff = √2/Imax",
+   "Ieff = Imax.√2",
+   "Ieff = √2.Imax"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Ieff = Imax/√2 ",
+  "commentaire_fr": "",
+  "anchor": "T022"
+ },
+ {
+  "num": "20352",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA FREQUENCE D'UN SIGNAL DONT LA PERIODE DURE 500 NANOSECONDES ?",
+  "options": [
+   "20 MHz",
+   "2 kHz",
+   "200 kHz",
+   "2 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2 MHz",
+  "commentaire_fr": "F = 1 / t = 1 / 0,000 000 5 = 2 000 000 Hz = 2 MHz\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20354",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUELLE EST CETTE MODULATION ?",
+  "options": [
+   "CW",
+   "AM",
+   "BLU",
+   "FM"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "FM",
+  "commentaire_fr": "",
+  "anchor": "T121a"
+ },
+ {
+  "num": "20356",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "VALEUR DE LA RESISTANCE AVEC 4 BAGUES : VIOLET, BLEU, VERT, OR",
+  "options": [
+   "7,9 MΩ",
+   "560 MΩ",
+   "7,6 MΩ",
+   "590 MΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "7,6 MΩ",
+  "commentaire_fr": "Violet = 7 ; Bleu = 6 ; Vert = 5 ; donc 76 x 10^5 = 76 00000 = 7,6 MΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20357",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "ORDRE DE GRANDEUR DE LA RESISTANCE INTERNE DU GALVANOMETRE",
+  "options": [
+   "10 Ω",
+   "1 Ω",
+   "10 mΩ",
+   "100 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 mΩ",
+  "commentaire_fr": "Le montage proposé représente un voltmètre. Nous savons que U aux bornes de la résistance est : U = R*I = 10 * 5.10^-3 = 50mV. \nLa perturbation du galvanomètre est donc dans le cas d'une résistance de 10 mΩ = 50µV, ce qui rend négligeable la perte à l'insertion, puisque au moins 100 fois inférieure à la mesure à effectuer. Les autres valeurs proposées sont trop importantes\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20363",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA TENSION AUX BORNES DU CONDENSATEUR ?",
+  "options": [
+   "25 V",
+   "20 V",
+   "14,14 V",
+   "28,28 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "28,28 V",
+  "commentaire_fr": "Tension à la sortie du transfo : Us = Ue x (Ns / Np) = \n300 x (220 / 3300) = 20 V. Le condensateur a pour effet de transformer\nla tension efficace en tension maximum : 20 x 1,414 = 28,28 V sans tenir compte de la chute de tension provoquée par la diode qu’on a ici négligé par simplification. En effet, on n'aura jamais plus que la tension anode moins la tension de seuil sur la cathode de la diode. Au final, la tension Us sera d’environ 27,6 volts si la diode est au silicium.\n",
+  "anchor": "T054a"
+ },
+ {
+  "num": "20364",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'UNE BOBINE DE 50 MICROHENRYS A  1000 HERTZ",
+  "options": [
+   "314 mΩ",
+   "50 mΩ",
+   "3,14 Ω",
+   "62,8 mΩ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "314 mΩ",
+  "commentaire_fr": "Z = 6,28 x F x L = 6,28 x 0,000 05 x 1000 = 0,314 Ω = 314  mΩ\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20366",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "ETENDUE DES ONDES METRIQUES ?",
+  "options": [
+   "3 à 30 MHz",
+   "30 à 300 MHz",
+   "300 MHz à 3 GHz",
+   "300 kHz à 3 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "30 à 300 MHz",
+  "commentaire_fr": "",
+  "anchor": "T092c"
+ },
+ {
+  "num": "20367",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CALCULER IC EN CONNAISSANT LE GAIN (BETA = 150) ET IB (10 A)",
+  "options": [
+   "15 mA",
+   "1,5 A",
+   "1,5 mA",
+   "150 mA"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1,5 mA",
+  "commentaire_fr": "Ic = Ib x beta = 10 µA x 150 = 1,5 x 10^-3 = 1,5 mA\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20369",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SCHEMA AVEC FREQUENCE  FONDAMENTALE F = 10 V PUIS 2F = 4 V, PUIS 3F = 3 V \nTAUX DE DISTORSION MAXIMAL ?",
+  "options": [
+   "20 %",
+   "40 %",
+   "30 %",
+   "35 %"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "40 %",
+  "commentaire_fr": "Généralement, on parle du Taux de Distorsion Harmonique (TDH) pour une fréquence (2F ou 3F). Mais dans cette question il est demandé le taux de distorsion maximal. Or, dans le schéma, l’harmonique 2 (2F) a une valeur plus importante que l’harmonique 3 (3F) et génère donc le plus de distorsion. C’est donc sur l’harmonique 2 que porteront les calculs du TDH : TDH = (4V / 10V) x 100 = 40 %\n",
+  "anchor": "T074b2"
+ },
+ {
+  "num": "20373",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA LONGUEUR D'ONDE D'UNE FREQUENCE DE 15 MHZ ?",
+  "options": [
+   "2 m",
+   "20 cm",
+   "20 mm",
+   "20 m"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "20 m",
+  "commentaire_fr": "L(m) = 300/F(MHz) = 300/15 = 20 mètres\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20375",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUEL EST LE MODE DE PROPAGATION DES ONDES DECAMETRIQUES",
+  "options": [
+   "ondes directes",
+   "ondes de sol",
+   "ondes réfléchies ",
+   "ondes stationnaires"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "ondes réfléchies ",
+  "commentaire_fr": "",
+  "anchor": "T092b"
+ },
+ {
+  "num": "20380",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "VALEUR EFFICACE D'UNE TENSION DE 5 V CRETE",
+  "options": [
+   "2,5 V",
+   "1,75 V",
+   "7,07 V",
+   "3,5 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "3,5 V",
+  "commentaire_fr": "Veff = 0,707 x Vcrête = 0,707 x 5 = 3,535 V = 3,5 V (valeur arrondie)\n",
+  "anchor": "T022b"
+ },
+ {
+  "num": "20381",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "DEUX CONDENSATEURS EN PARALLELE : 470 PF ET 530 PF. CALCUL DE LA CAPACITE EQUIVALENTE",
+  "options": [
+   "1 nF",
+   "1 µF",
+   "249 pF",
+   "100 pF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1 nF",
+  "commentaire_fr": "CT = C1 + C2 = 1000 pF = 1 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20382",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SCHEMA SYNOPTIQUE D'UN RECEPTEUR AVEC : ANTENNE---(?)---- CAG---- DEMOD---AF----HP\nQUEL EST LE CIRCUIT MANQUANT ?",
+  "options": [
+   "Modulateur",
+   "Filtre FI",
+   "Amplificateur RF",
+   "Oscillateur local"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Amplificateur RF",
+  "commentaire_fr": "",
+  "anchor": "T111"
+ },
+ {
+  "num": "20385",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST L'IMPEDANCE DU CABLE COAXIAL ?\nD = 10 ; D = 2",
+  "options": [
+   "5 Ω",
+   "52 Ω",
+   "96 Ω",
+   "690 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "96 Ω",
+  "commentaire_fr": "Z = 138 log D/d =138 log (10/2) = 138 log (5) = 138 x 0,699 = 96 Ω (si le diélectrique est de l'air)\n",
+  "anchor": "T102b"
+ },
+ {
+  "num": "20387",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE INCOMPLET : HF SUIVIE DU MELANGEUR, SUIVI DE LA FI PUIS DE L'ETAGE A DEFINIR (LE DEMODULATEUR). MAIS IL N'Y AVAIT PAS D'OSCILLATEUR AVEC LE MELANGEUR",
+  "options": [
+   "Démodulateur",
+   "BFO",
+   "Oscillateur local",
+   "CAG"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Démodulateur",
+  "commentaire_fr": "Commentaire du candidat : les synoptiques vus à l'examen sont très déroutants car ils semblent incomplets. Par exemple, on peut voir l'entrée HF suivie du mélangeur, suivi de la FI puis de l'étage à définir (le démodulateur). Mais il n'y avait pas d'oscillateur avec le mélangeur (et l'oscillateur absent du schéma est une des réponses proposées). \n",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20388",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE D'UN EMETTEUR COMPRENANT : LE MICRO, L'OSCILLATEUR, LA PARTIE A DEFINIR, L'AMPLI HF, L'ANTENNE",
+  "options": [
+   "Démodulateur",
+   "1er amplificateur audiofréquence",
+   "Modulateur",
+   "ampli audio"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Modulateur",
+  "commentaire_fr": "",
+  "anchor": "T115"
+ },
+ {
+  "num": "20390",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "UN EMETTEUR SORT 2 W, CABLE -2DB ET ANTENNE +5 DB. QUELLE EST LA PUISSANCE PAR ?",
+  "options": [
+   "1 W",
+   "14 W",
+   "10 W",
+   "4 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "4 W",
+  "commentaire_fr": "gain de l’ensemble = gain de l’antenne – pertes dans le câble = 5 – 2 = 3 dB correspondant à x 2\nPAR = puissance x rapport = 2 W x 2 = 4 W\n",
+  "anchor": "T098"
+ },
+ {
+  "num": "20393",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "A QUOI SERT UN AMPLIFICATEUR FI ?",
+  "options": [
+   "évite les fréquences images",
+   "améliore la BF\n\n",
+   "améliore la sélectivité et la sensibilité ",
+   "limite les rayonnements non essentiels"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "améliore la sélectivité et la sensibilité ",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20399",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "IMPEDANCE D'UNE BOBINE",
+  "options": [
+   "1,204 kΩ",
+   "12,04 kΩ",
+   "1,44 kΩ",
+   "9,04 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "9,04 kΩ",
+  "commentaire_fr": "Z = 2 x pi x 144 x 10^6 x 10^-5 = 9047,79 ohms. La valeur est arrondie par défaut dans la réponse proposée. En retenant 2 x pi = 6,28, le calcul donne 9043 ohms. C’est donc la formule simplifiée que l’ANFR a retenu ici.\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20401",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUELLE EST LA CARACTERISTIQUE D'UNE EMISSION EN CLASSE F3E",
+  "options": [
+   "La BF varie au rythme de la HF",
+   "La porteuse HF varie en fonction de la BF. \n\n",
+   "La porteuse HF a un niveau constant ",
+   "La BF et la porteuse HF ont le même niveau"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "La porteuse HF a un niveau constant ",
+  "commentaire_fr": "",
+  "anchor": "T121"
+ },
+ {
+  "num": "20402",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "IMPEDANCE D'UNE BOBINE DE 1 MICROF POUR UNE FREQUENCE DE 144 MHZ ?",
+  "options": [
+   "904 Ω",
+   "144 Ω",
+   "9,04 kΩ",
+   "120 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "904 Ω",
+  "commentaire_fr": "Z = 2 x pi x 144 x 10^6 x 10^-6 = 905 ohms\nEn retenant 2 x pi = 6,28 ; Z = 904 ohms. Attention à la représentation non conventionnelle de la bobine\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20403",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "NOM DE L'ETAGE REPERE PAR ?",
+  "options": [
+   "CAG",
+   "Compresseur",
+   "Amplificateur RF",
+   "Détecteur de produit"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Amplificateur RF",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20405",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CALCULER L'INTENSITE DE BASE",
+  "options": [
+   "100 µA",
+   "10 µA",
+   "12,5 µA",
+   "225 µA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10 µA",
+  "commentaire_fr": "Ib = Ic / beta = 1,25 mA / 125 = 0,01 mA = 10 µA\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20406",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "UNE STATION DONT LA PAR EST DE 6000 W AVEC UN EMETTEUR DELIVRANT UNE PUISSANCE DE 15 W. \nQUEL EST LE GAIN EN DB ?",
+  "options": [
+   "16 dB",
+   "400 dB",
+   "15 dB",
+   "26 dB"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "26 dB",
+  "commentaire_fr": "rapport des puissances = 6000 / 15 = 400, correspondant à un gain de 26 dB\n",
+  "anchor": "T098"
+ },
+ {
+  "num": "20408",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "PROPRIETES D'UN BALUN 9/1 ?",
+  "options": [
+   "Filtre\n",
+   "Atténuateur ",
+   "Transformateur d'impédance ",
+   "Isolateur de ROS"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Transformateur d'impédance ",
+  "commentaire_fr": "Le BALUN (symétriseur en français) est constitué d’un transformateur HF et permet aussi de transformer les impédances présentes à ses enroulements.\n",
+  "anchor": "T104b"
+ },
+ {
+  "num": "20409",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT S",
+  "options": [
+   "300 Ω",
+   "150 Ω",
+   "200 Ω",
+   "1800 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "200 Ω",
+  "commentaire_fr": "Réponse empirique (sans sortir sa calculette) : L'ampèremètre a un calibre de 2 mA alors que le galvanomètre mesure au maximum une intensité de 0,5 mA. Il passera donc dans le shunt 1,5 mA, soit 3 fois moins que dans le galvanomètre. La résistance du shunt devra donc être 3 fois moindre que la résistance du galvanomètre : Rshunt = 600 / 3 = 200 ohms\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20412",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE RECEPTEUR BLU A DOUBLE CHANGEMENT DE FREQUENCE",
+  "options": [
+   "Récepteur AM superhétérodyne ",
+   "Récepteur FM à conversion directe",
+   "Récepteur double bande latérale",
+   "Récepteur BLU à double changement de fréquence "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Récepteur BLU à double changement de fréquence ",
+  "commentaire_fr": "",
+  "anchor": "T126h"
+ },
+ {
+  "num": "20413",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE MODULATEUR FM A PLL",
+  "options": [
+   "Emetteur FM  ",
+   "Récepteur FM à super réaction",
+   "Modulateur AM",
+   "Compresseur de modulation "
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Emetteur FM  ",
+  "commentaire_fr": "Le synoptique représente un PLL avec injection d'un signal BF sur le VCO générant un signal FM qui est amplifié avant l’envoi sur l’antenne.\n",
+  "anchor": "T124d"
+ },
+ {
+  "num": "20414",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "MODULATEUR A REACTANCE",
+  "options": [
+   "Modulateur d'amplitude",
+   "Modulateur de fréquence",
+   "Démodulateur d’amplitude",
+   "Démodulateur de fréquence "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Modulateur de fréquence",
+  "commentaire_fr": "",
+  "anchor": "T124d"
+ },
+ {
+  "num": "20419",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "FREQUENCE D'UN SIGNAL AYANT UNE PERIODE DURANT 2 MILLISECONDES ?",
+  "options": [
+   "50 Hz",
+   "500 Hz",
+   "2 kHz",
+   "250 Hz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "500 Hz",
+  "commentaire_fr": "2 ms = 0,002 s ; F = 1/t = 1 / 0,002 = 500 Hz\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20423",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA CLASSE D'AMPLIFICATION QUI A LE COURANT MOYEN LE PLUS ELEVE ?",
+  "options": [
+   "Classe A",
+   "Classe B",
+   "Classe C",
+   "Classe D"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Classe A",
+  "commentaire_fr": "La classe A possède la tension de repos la plus élevée et donc le courant moyen le plus élevé. \nLa classe D (PWM) n'a pas de courant de repos.\n",
+  "anchor": "T071a1"
+ },
+ {
+  "num": "20428",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN TRANSFO AVEC AU PRIMAIRE 3000 SPIRES, 500 V ET AU SECONDAIRE UNE RESISTANCE DE 50 OHMS ET 30 SPIRES. PUISSANCE DISSIPEE DANS R?",
+  "options": [
+   "50 mW",
+   "5000 W",
+   "10 W",
+   "500 mW"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "500 mW",
+  "commentaire_fr": "Le transformateur est supposé parfait, donc Us = Ue x ns / np = 500 x (30 / 3000 ) = 500 / 100 = 5 V; \n\napplication de la loi d’ohm : P = U² / R = 5² / 50 = 25 / 50 = ½ = 0,5 W = 500 mW\n",
+  "anchor": "T031b"
+ },
+ {
+  "num": "20432",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "VALEUR EFFICACE D'UNE TENSION CRETE A CRETE DE 68 V",
+  "options": [
+   "96 V",
+   "48 V",
+   "24 V",
+   "34 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "24 V",
+  "commentaire_fr": "68 Vcàc = 34 Vmax ; 34Vmax x 0,707 = 24 Veff (valeur arrondie)\n",
+  "anchor": "T022b"
+ },
+ {
+  "num": "20433",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ORDRE DE GRANDEUR DE LA LARGEUR D'UN SIGNAL FM AU-DESSUS DE 29,7 MHZ",
+  "options": [
+   "7 à 15 kHz",
+   "3 à 6 kHz",
+   "6 à 20 MHz",
+   "300 à 3000 Hz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "7 à 15 kHz",
+  "commentaire_fr": "La réglementation antérieure à 2012 limitait l’excursion FM au-dessus de 30 MHz à +/- 7,5 kHz, soit une largeur e bande de 15 kHz au maximum. La réglementation actuelle limite la largeur de bande du signal émis à 12 kHz de 28 MHz à 144 MHz et n’impose pas de limite au-dessus de 144 MHz\n",
+  "anchor": "T124"
+ },
+ {
+  "num": "20434",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA PUISSANCE NORMALISEE MINIMUM DE LA RESISTANCE\nR = 400 OHMS, I = 20 MA",
+  "options": [
+   "250 mW",
+   "0,5 W",
+   "2 W",
+   "5 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "250 mW",
+  "commentaire_fr": "P = RI² = 400 x 0,02 x 0,02 = 0,16 W = 160 mW. On retiendra la première puissance supérieure (250 mW) \nLes réponses « 0,5 W » ou plus ne sont pas bonnes car on utilise une résistance dissipant trop de chaleur\n",
+  "anchor": "T015c"
+ },
+ {
+  "num": "20435",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "AVEC QUOI MESURE-T-ON UNE TENSION DE 3 VOLTS AUX BORNES D'UNE RESISTANCE DE 2 MEGOHMS",
+  "options": [
+   "un bolomètre",
+   "un galvanomètre",
+   "un ampèremètre",
+   "un voltmètre "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "un voltmètre ",
+  "commentaire_fr": "Pour ne pas perturber la lecture, il faudrait préciser « voltmètre numérique » car cet instrument possède un facteur de qualité (Ω/V) largement supérieur à un voltmètre analogique.\nPour information, un bolomètre (du grec bolè, « radiation », et metron, « mesure ») est un appareil de mesure de puissance fonctionnant à partir d'un thermomètre.\n",
+  "anchor": "T011c"
+ },
+ {
+  "num": "20436",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST L'ETAGE REPERE PAR ?",
+  "options": [
+   "Ampli BF\n\n",
+   "Amplificateur RF ",
+   "Détection",
+   "Démodulateur"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Amplificateur RF ",
+  "commentaire_fr": "",
+  "anchor": "T115"
+ },
+ {
+  "num": "20437",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SCHEMA D'AMPLIFICATEUR AVEC TENSION DE SORTIE US = 8 V ET GAIN = 12 DB ; UE = ?",
+  "options": [
+   "1,5 V",
+   "4 V",
+   "0,66 V",
+   "2 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2 V",
+  "commentaire_fr": "Lorsque les valeurs sont exprimées en volts, le gain est le double de celui calculé lorsque les valeurs sont exprimées en watts. Ainsi, dans cette question, gain en tension = 12 dB divisé par 2 = 6 dB ; \n6 dB correspond à un rapport de 4. Ue = Us / 4 = 8 / 4 = 2\n",
+  "anchor": "T041f"
+ },
+ {
+  "num": "20438",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA FORMULE EXACTE ?",
+  "options": [
+   "P = Wt",
+   "Ieff = Imax x √2",
+   "P = U²/R ",
+   "W = RIt²"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "P = U²/R ",
+  "commentaire_fr": "Les formules exactes sont :\nP = W/t\nIeff = Imax / √2 (ou Ieff = Imax x √2/2)\nW = RI²t\n",
+  "anchor": "T013"
+ },
+ {
+  "num": "20439",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA FORMULE EXACTE ?",
+  "options": [
+   "Q = RI",
+   "W = RI²t ",
+   "I = P / R",
+   "I = RU"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "W = RI²t ",
+  "commentaire_fr": "Les formules exactes sont : \nI = U / R\nI = √ (P x R)\nU = RI\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20441",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE ?\nRESISTANCE DE DE 7,5 KOHMS EN SERIE AVEC 2 RESISTANCES EN PARALLELE (10 KOHMS ET 20 KOHMS)",
+  "options": [
+   "3,7 kΩ",
+   "7,5 kΩ",
+   "37,5 kΩ",
+   "14 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "14 kΩ",
+  "commentaire_fr": "produit / somme = (10 x 20) / (10 + 20) = 200 / 30 =  6,7 kΩ\nRT = 6,7 + 7,5 = 14,2 kΩ arrondi à 14. \nPour éviter toute contestation, nous aurions pris pour la première résistance 7,3 kΩ ce qui donne comme résultat 14 kΩ (sans arrondi)\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20442",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE VALEUR CORRESPOND A UN CONDENSATEUR DE 100 PF ?",
+  "options": [
+   "0,01 µF",
+   "1000 nF",
+   "0,001 µF",
+   "aucune de ces valeurs"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "aucune de ces valeurs",
+  "commentaire_fr": "la bonne réponse aurait été 0,1 nF ou 0,0001 µF, réponse qui n'est pas proposée ici\n",
+  "anchor": "T002a"
+ },
+ {
+  "num": "20445",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "UN TRANSFORMATEUR FOURNIT 14V SOUS 7A ET CONSOMME 665 MA SOUS 220V. QUEL EST SON RENDEMENT ?",
+  "options": [
+   "67 %",
+   "150 %",
+   " 98 %",
+   "100 %"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "67 %",
+  "commentaire_fr": "puissance au secondaire = 14V x 7A = 98 W ; \npuissance au primaire = 220V x 0,665 A = 146,3 W ; \nrendement = puissance secondaire / puissance primaire = 98 / 146,3 = 0,6698 = 0,67 = 67%\n",
+  "anchor": "T032a"
+ },
+ {
+  "num": "20446",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA FORMULE FAUSSE ?",
+  "options": [
+   "U = √(P x R)",
+   "P = U.I",
+   "Q = C.U",
+   "P = R.I/2"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "P = R.I/2",
+  "commentaire_fr": "La formule exacte est : P = R.I²\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20447",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "POUR UN DIPOLE TAILLE SUR 14 MHZ, QUELLE EST SA LONGUEUR ?",
+  "options": [
+   "7 mètres",
+   "21,4 mètres",
+   "5,35 mètres",
+   "10,7 mètres"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10,7 mètres",
+  "commentaire_fr": "Longueur d’onde de 14 MHz = 300 / 14 = 21,43 mètres ; longueur d’un dipôle = une demi-longueur d’onde = 21,43 / 2 = 10,7 mètres (arrondi). Cette longueur est théorique car, dans la pratique, selon le matériau utilisé pour réaliser l’antenne, celle-ci sera un peu plus courte. En règle générale, on prend un coefficient de 0,95. Si bien que la longueur pratique de l’antenne est 10,2 mètres (= 10,7 x 0,95)\n",
+  "anchor": "T094c"
+ },
+ {
+  "num": "20450",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SCHEMA RECEPTEUR AVEC CAG MAIS PAS DE MELANGEUR, NI D'OSCILLATEUR, RETROUVER L'ETAGE \nMANQUANT",
+  "options": [
+   "modulateur",
+   "filtre FI",
+   "démodulateur",
+   "oscillateur local"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "démodulateur",
+  "commentaire_fr": "Il s’agit d’un récepteur sans conversion muni d’une CAG qui agit sur l'amplificateur radio fréquences\n",
+  "anchor": "T123c"
+ },
+ {
+  "num": "20452",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : VIOLET, BLEU, ROUGE, OR",
+  "options": [
+   "762 Ω",
+   "5600 Ω",
+   "7600 Ω",
+   "562 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "7600 Ω",
+  "commentaire_fr": "Violet = 7 ; Bleu = 6 ; Rouge = 2 ; \ndonc 76 x 10^2 = 76 00 = 7600 Ω\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20453",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE ASSOCIATION PERMET D'OBTENIR UNE CAPACITE EQUIVALENTE DE 10 MICROFARAD",
+  "options": [
+   "5 condensateurs de 2 µF en série",
+   "5 condensateurs de 50 nF en parallèle",
+   "2 condensateurs de 5 µF en série",
+   "aucune de ces 3 associations"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "aucune de ces 3 associations",
+  "commentaire_fr": "5 condensateurs de 2 µF en série = 2µF / 5 = 0,4 µF ; \n2 condensateurs de 5 µF en série = 5µF / 2 = 2,5 µF ; \n5 condensateurs de 50 nF en parallèle = 50 nF x 5 = 250 nF. \nIl n’y a donc aucune bonne réponse.\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20454",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "TENSION CRETE A CRETE DE 96 VOLTS. \nTENSION EFFICACE ?",
+  "options": [
+   "68 volts",
+   "48 volts",
+   "34 volts",
+   "136 volts"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "34 volts",
+  "commentaire_fr": "Umax = Ucàc / 2 = 96 / 2 = 48 ; \nUeff = Umax x 0,707 = 48 x 0,707 = 33,9 arrondi à 34 volts\n",
+  "anchor": "T022d"
+ },
+ {
+  "num": "20455",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "C EQUIVALENT DE 2 CONDENSATEURS DE 25 PF EN //  ET EN SERIE AVEC UN DE 50 PF",
+  "options": [
+   "75 pF",
+   "62,5 pF",
+   "100 pF",
+   "25 pF"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "25 pF",
+  "commentaire_fr": "condensateurs en parallèle : CT =25 +25 = 50 ; \nCT en série (de valeur identique) : 50 / 2 = 25 pF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20457",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "SI LA FREQUENCE D'EMISSION EST LEGEREMENT SUPERIEURE A LA FREQUENCE DE RESONANCE D'UN DOUBLET DEMI-ONDE, IL AGIT COMME",
+  "options": [
+   "une résistance en série avec une bobine",
+   "une résistance en série avec un condensateur ",
+   "le fil se comporte comme une résistance pure ",
+   "le fil ne rayonne pas"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "une résistance en série avec une bobine",
+  "commentaire_fr": "si la fréquence d'émission est supérieure à la fréquence de de résonance, la longueur d'onde d'émission sera inférieure à la longueur d'onde de résonnance. Ce qui signifie que l’antenne est trop longue pour résonner correctement (sans inductance). Elle fonctionne donc dans sa partie inductive après la résonance au quart d’onde\n",
+  "anchor": "T0910e"
+ },
+ {
+  "num": "20459",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "DUREE D'UNE PERIODE D'UN SIGNAL DE FREQUENCE 2,5 MHZ ?",
+  "options": [
+   "40 ns",
+   "0,4 ms",
+   "400 ns",
+   "2,5 µs"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "400 ns",
+  "commentaire_fr": "t = 1/ F ou t(µs) = 1 / F(MHz) = 1 / 2,5 = 0,4 µs = 400 ns\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20460",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE ?",
+  "options": [
+   "14,5 MΩ",
+   "121,5 MΩ",
+   "80,8 MΩ",
+   "232 MΩ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "14,5 MΩ",
+  "commentaire_fr": "résistances en // : \nR = 1/(1/12 + 1/12 + 1/18) = 4,5 \nou, autre méthode : \n12 / 2 = 6 puis produit / somme = (6 x 18) / (6 + 18) = 108 / 24 = 4,5\n\n10 + 4,5 = 14,5 MΩ\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20461",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SCHEMA D'AMPLIFICATEUR AVEC 50 W EN ENTREE ET UN GAIN DE -10 DB. PUISSANCE EN SORTIE ?",
+  "options": [
+   "10 W",
+   "1500 W",
+   "5 W",
+   "40 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "5 W",
+  "commentaire_fr": "Un gain de -10 dB correspond à un rapport de puissance de 1/10 (donc une perte). \n50 W / 10 = 5 W\n",
+  "anchor": "T041b"
+ },
+ {
+  "num": "20463",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "DANS LE CAS D'UN AMPLIFICATEUR LINEAIRE, QUELLE EST L'AFFIRMATION FAUSSE ?",
+  "options": [
+   "l’émetteur d’un transistor PNP est connectée au –  ",
+   "la flèche du transistor est toujours dirigée vers le – ",
+   "un transistor est constitué de 2 diodes tête-bêche",
+   "l’intensité dans le collecteur est directement fonction de l’intensité dans la base"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "l’émetteur d’un transistor PNP est connectée au –  ",
+  "commentaire_fr": "",
+  "anchor": "T061a"
+ },
+ {
+  "num": "20464",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "VALEUR DE LA RESISTANCE ?",
+  "options": [
+   "4,5 MΩ",
+   "670 MΩ",
+   "566 Ω",
+   "56 MΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "56 MΩ",
+  "commentaire_fr": "Vert = 5 ; \nBleu = 6 ; \nBleu = 6 ; \ndonc 56 x 10^6 = 56 x 1 000 000 = 56 MΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20466",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "VALEUR DE LA RESISTANCE ?",
+  "options": [
+   "6 MΩ",
+   "500 MΩ",
+   "600 kΩ",
+   "500 kΩ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "6 MΩ",
+  "commentaire_fr": "Bleu = 6, \nNoir = 0, \nVert = 5 ; \ndonc 60 x 10^5 = 60 x 100000 = 6 000 kΩ = 6 MΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20467",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "VALEUR DE LA RESISTANCE ?",
+  "options": [
+   "1 kΩ",
+   "10 kΩ",
+   "103 Ω",
+   "13 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10 kΩ",
+  "commentaire_fr": "Marron = 1 ; \nNoir = 0 ; \nOrange = 3 ; \ndonc 10 x 10^3 = 10 000 Ω = 10 kΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20468",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "DANS UN TRANSFORMATEUR, ON A UNE TENSION DE 220 V AU PRIMAIRE ET 1100 SPIRES. AU SECONDAIRE ON A UNE TENSION DE 40 V. \nQUEL EST LE NOMBRE DE SPIRES AU SECONDAIRE ?",
+  "options": [
+   "220 spires",
+   "5500 spires",
+   "2200 spires",
+   "200 spires"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "200 spires",
+  "commentaire_fr": "Le rapport du nombre de spires est égal au rapport des tensions : ns/np = Us/Up \ndonc (produit en croix)  : ns = (Us/Up) x np \nns = (40/220) x 1100 = 0,18181 x 1100 = 200.\nAutre méthode : le nombre de volts par spires (ou le nombre de spires par volts) est identique au primaire et au secondaire. Spires/V= 1100 / 220 = 5. Donc au secondaire, on a 5 x 40 = 200 spires\n",
+  "anchor": "T031b"
+ },
+ {
+  "num": "20470",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUE SE PASSE-T-IL SI ON DOUBLE LE NOMBRE DE SPIRES D'UNE BOBINE ?",
+  "options": [
+   "la valeur de la bobine est multipliée par 4 ",
+   "la valeur de la bobine est divisée par 4",
+   "la valeur de la bobine est doublée",
+   "la valeur de la bobine est divisée par 2"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "la valeur de la bobine est multipliée par 4 ",
+  "commentaire_fr": "La formule de la bobine est : L = F x N² x D² (avec F = facteur de forme, N = nombre de spires, D = diamètre de la bobine). Si on double N, la valeur de la bobine est égal à N². Dans notre cas, 2² = 4\n",
+  "anchor": "T023d4"
+ },
+ {
+  "num": "20471",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "UNE STATION EMET UNE PAR DE 6000 WATTS AVEC UN EMETTEUR DELIVRANT UNE PUISSANCE DE 15 WATTS. LE CABLE QUI ALIMENTE L'ANTENNE MESURE 30 METRES ET A UNE ATTENUATION DE 0,2 DB/M. \nQUEL EST LE GAIN DE L'ANTENNE EN DB ?",
+  "options": [
+   "20 dB",
+   "32 dB",
+   "406 dB",
+   "6 dB"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "32 dB",
+  "commentaire_fr": "rapport des puissances = 6000 / 15 = 400, correspondant à un gain de 26 dB \nPertes dans le câble = 0,2 dB/m x 30 mètres = 6 dB\nGain de l'antenne = gain de l'ensemble + pertes dans le câble = 26 + 6 = 32 dB\n",
+  "anchor": "T098"
+ },
+ {
+  "num": "20473",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "DERNIER ETAGE D'UN EMETTEUR AVANT L'ANTENNE ?",
+  "options": [
+   "Amplificateur final",
+   "Filtre de bande",
+   "Régulateur",
+   "Multiplicateur"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Filtre de bande",
+  "commentaire_fr": "On peut aussi trouver un filtre passe-bas\n",
+  "anchor": "T115"
+ },
+ {
+  "num": "20489",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "INTENSITE AU SECONDAIRE ?\nAU PRIMAIRE : I=0,8 A ET 220 V ; AU SECONDAIRE : 22 V",
+  "options": [
+   "0,08 A",
+   "0,1 A",
+   "8 A",
+   "10 A"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "8 A",
+  "commentaire_fr": "On suppose le transformateur parfait. L'intensité au secondaire est inversement proportionnelle aux tensions présentes aux bornes du transformateur (ou les puissances au primaire et au secondaire sont identiques). U est 10 fois plus petite au secondaire, donc I sera 10 fois plus grande.\n0,8 A x 10 = 8 A\n",
+  "anchor": "T031b"
+ },
+ {
+  "num": "20490",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "DEUX CONDENSATEURS EN // DE 6 ET 12 PF MONTES EN SERIE AVEC UN CONDENSATEUR DE 3 PF. QUELLE EST LA CAPACITE EQUIVALENTE ?",
+  "options": [
+   "21 pF",
+   "2,6 pF",
+   "7 pF",
+   "4 pF"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "7 pF",
+  "commentaire_fr": "condensateurs en série : (6 x 12)/(6 + 12) = 4\ngroupement en parallèle : 4 + 3 = 7 pF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20491",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "MONTAGE TRANSFO, 300V AU PRIMAIRE, 2000 SPIRES AU PRIMAIRE, 150 SPIRES AU SECONDAIRE, AVEC UNE DIODE PUIS UN CONDENSATEUR. TENSION AUX BORNES DU CONDENSATEUR ?",
+  "options": [
+   "25 V",
+   "22,5 V",
+   "35 V",
+   "31,8 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "31,8 V",
+  "commentaire_fr": "Tension à la sortie du transfo : Us = Ue x (Ns / Np) = \n300 x (150 / 2000) = 22,5 V. Le condensateur a pour effet de transformer la tension efficace en tension maximum : 22,5 x 1,414 = 31,8 V sans tenir compte de la chute de tension provoquée par la diode qu’on a ici négligé par simplification. En effet, on n'aura jamais plus que la tension anode moins la tension de seuil sur la cathode de la diode. Au final, la tension Us sera d’environ 31,1 volts si la diode est au silicium mais cette réponse n’est pas proposée.\n",
+  "anchor": "T054a"
+ },
+ {
+  "num": "20495",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "MONTAGE AMPLI OP AVEC R1 = 4,7 KO ET R2 = 1 KO ; \"VALEUR DU GAIN ? \"",
+  "options": [
+   "- 4,7",
+   "+ 4,7",
+   "infini",
+   "indéterminé"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "- 4,7",
+  "commentaire_fr": "G = - R2 / R1 = -4,7 / 1 = -4,7\n",
+  "anchor": "T082b"
+ },
+ {
+  "num": "20497",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "PERIODE D'UNE FREQUENCE DE 25 MHZ ?",
+  "options": [
+   "400 ns",
+   "0,4 ms",
+   "40 ns",
+   "25 µs"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "40 ns",
+  "commentaire_fr": "t = 1/ F ou t(µs) = 1 / F(MHz) = 1 / 2,5 = 0,04 µs = 40 ns\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20498",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "UN CONDENSATEUR A UNE VALEUR DE 200 PF. \nQUE FAUT-IL POUR QU'IL OBTIENNE UNE VALEUR DE 40 PF ?",
+  "options": [
+   "240 pF",
+   "40 pF",
+   "50 pF",
+   "160 pF"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50 pF",
+  "commentaire_fr": "Il faut ajouter un condensateur en série puisque la valeur est plus faible que la valeur d’origine. \nLe seul condensateur qui donne le bon résultat (il ne peut y en avoir qu'un !) est le condensateur de 50 pF : CT = (C1 x C2) / (C1 + C2) = (200 x 50) / (200 + 50) = 10000 / 250 = 40 \n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20499",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE EST LA VALEUR EQUIVALENTE DE 4 CONDENSATEURS DE 1,5 NANOFARAD EN SERIE ?",
+  "options": [
+   "37,5 pF",
+   "6 nF",
+   "375 pF",
+   "0,006 µF"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "375 pF",
+  "commentaire_fr": "CT = C / n = 1,5 / 4 = 0,375 nF = 375 pF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20500",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE EST LA VALEUR EQUIVALENTE DE 4 CONDENSATEURS DE 15 NANOFARADS EN SERIE ?",
+  "options": [
+   "37,5 nF",
+   "60 nF",
+   "3,75 nF",
+   "0,6 µF"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "3,75 nF",
+  "commentaire_fr": "CT = C / n = 15 / 4 = 3,75 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20501",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE EST LA FREQUENCE ISSUE D'UN MELANGE DU 3EME ORDRE AVEC \nF1 = 145 MHZ ET F2 = 160 MHZ.",
+  "options": [
+   "145 MHz",
+   "130 MHz",
+   "190 MHz",
+   "230 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "130 MHz",
+  "commentaire_fr": "Soient deux fréquences, A et B, les produits d’intermodulation d’ordre 3 prennent la forme 2A+B ou 2A-B ou A+2B ou A-2B ou 3A ou 3B. \nLa seule combinaison possible avec les deux fréquences données est 130 (=(2 x145) – 160)\n",
+  "anchor": "T077c"
+ },
+ {
+  "num": "20502",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA PARTICULARITE D'UN BALUN 1:1",
+  "options": [
+   "Filtre de bande",
+   "Transformateur d’impédance ",
+   "Transformateur asymétrique / symétrique ",
+   "Isolateur de ROS"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Transformateur asymétrique / symétrique ",
+  "commentaire_fr": "Le mot «  Balun » vient de « BALanced / UNbalanced » qui, en anglais, signifie « symétrique / asymétrique ». Lorsque le rapport de transformation est 1:1, cela signifie qu'il n'y a pas de transformation d'impédance (impédances identiques)\n",
+  "anchor": "T104b"
+ },
+ {
+  "num": "20504",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PARMI LES FORMULES SUIVANTES QUELLES SONT LES VRAIES? \nA)I=R.U2  B)W=R.I2T  C)I=P/R  D)Q=C.U",
+  "options": [
+   "formules b et d\n\n\n",
+   "formules a, b et d",
+   "formules c et d",
+   "formules a et c"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "formules b et d\n\n\n",
+  "commentaire_fr": "Les formules exactes sont b et d. \nLes autres formules sont : a) I = U / R et c) I = racine (P/R)\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20505",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "COMMENT S'APPELLE L'ETAGE MARQUE \" ? \"\nMICRO> ?>MOD AM>FI>MEL+OSC>AMP RF>ANT",
+  "options": [
+   "ampli RF",
+   "ampli AF ",
+   "détecteur",
+   "filtre réjecteur"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "ampli AF ",
+  "commentaire_fr": "",
+  "anchor": "T115"
+ },
+ {
+  "num": "20506",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE : \nANT.-->AMP.RF-->MEL+OSC-->FI-->MEL+OSC-->FI2-->DETECT.PROD-->AF-->HP\nDE QUEL TYPE DE MONTAGE S'AGIT-IL?",
+  "options": [
+   "récepteur FM\n",
+   "démodulateur d’amplitude",
+   "récepteur à double changement de fréquence",
+   "récepteur à double boucle de verrouillage"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "récepteur à double changement de fréquence",
+  "commentaire_fr": "Un détecteur de produit (et son BFO non représenté ici) permet de démoduler de la BLU ou de la CW\n",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20507",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCULER LE TAUX DE SELECTIVITE \n(FIGURE FOURNIE BANDE PASSANTE A -3DB ET -60DB:  1770;1824;1836;1890)",
+  "options": [
+   "120 %",
+   "12 %",
+   "10 %",
+   "5 %"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 %",
+  "commentaire_fr": "bande passante à -3 dB = 1836-1824 = 12 ; \nbande passante à -60 dB = 1890 – 1770 = 120. \nTaux de sélectivité = 12 / 120 = 0,10 = 10%\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20508",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CALCULER LA CAPACITE EQUIVALENTE \n(MONTAGE 500 NF EN SERIE AVEC DEUX CAPACITES EN PARALLELE (90NF ET 35NF)) ?",
+  "options": [
+   "125 nF",
+   "525 nF",
+   "100 nF",
+   "625 nF"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100 nF",
+  "commentaire_fr": "C en // = 90 + 35 = 125 ; \nen série : (500 x 125) / (500 + 125) = 100 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20511",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "SIGNAL TENSION CRETE = 14 V ; \nTENSION EFFICACE ?",
+  "options": [
+   "5 V",
+   "20 V",
+   "10 V",
+   "7 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 V",
+  "commentaire_fr": "Veff = 0,707 x Vcrête = 0,707 x 14 = 10 V (valeur arrondie)\n",
+  "anchor": "T022b"
+ },
+ {
+  "num": "20513",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUE REPRESENTE CE CIRCUIT ?\nMODULATEUR AF - OSCILLATEUR - AMPLI RF",
+  "options": [
+   "Emetteur FM",
+   "Emetteur AM",
+   "Récepteur superhétérodyne",
+   "Récepteur Modulation de Phase"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Emetteur AM",
+  "commentaire_fr": "Le mot « modulateur » ne peut s’appliquer qu’à un émetteur. Sans autre qualificatif sur l’oscillateur, le choix se porte sur « émetteur AM ». Si l’oscillateur était qualifié « à réactance », la réponse aurait été « émetteur FM »\n",
+  "anchor": "T123d"
+ },
+ {
+  "num": "20514",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : VIOLET, ORANGE, MARRON, OR\nVALEUR DE LA RESISTANCE ?",
+  "options": [
+   "37 Ω",
+   "73 Ω",
+   "760 Ω",
+   "730 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "730 Ω",
+  "commentaire_fr": "Violet = 7 ; Orange = 3 ; Marron = 1 ; donc 73 x 10^1 = 730 Ω\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20517",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLES SONT LES FORMULES EXACTES ? \n     FORMULE 1 : U^2 = P X R\n     FORMULE 2 : Q = I / T\n     FORMULE 3 : P = U^2 / R\n     FORMULE 4 : R = P X I^2",
+  "options": [
+   "1 et 3",
+   "1, 2 et 3",
+   "3 et 4",
+   "1 et 4"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1 et 3",
+  "commentaire_fr": "Les formules exactes sont : \nformule 2 : Q = I x t\nformule 4 : R = P / I²\n",
+  "anchor": "T013"
+ },
+ {
+  "num": "20519",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FILTRE RC PASSE BAS AVEC R = 1,6 KOHMS ET C = 10 PF\nQUELLE EST LA FREQUENCE DE COUPURE ?",
+  "options": [
+   "100 MHz",
+   "1,6 MHz",
+   "1 MHz",
+   "10 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10 MHz",
+  "commentaire_fr": "F(Hz) = 159 / R(kohms) / C(µF) = 159 / 1,6 / 0,000 01 = 9 937 500 \narrondi à 10 000 000 Hz = 10 MHz\n",
+  "anchor": "T042a"
+ },
+ {
+  "num": "20521",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA FORMULE EXACTE ?",
+  "options": [
+   "P = W / t",
+   "W = R I t ",
+   "I = R / U",
+   "P = R / I²"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "P = W / t",
+  "commentaire_fr": "Les formules exactes sont : W = RI²t ; I = U/R et P = RI²\nAttention au piège : dans la formule P = W / t, W représente le travail (Work en anglais) et non pas la puissance en Watt exprimée par le P\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20522",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "DEUX RESISTANCES EN PARALLELE : 12 KOHMS ET 36 KOHMS\nRESISTANCE EQUIVALENTE ?",
+  "options": [
+   "7 kΩ",
+   "48 kΩ",
+   "9 kΩ",
+   "15 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "9 kΩ",
+  "commentaire_fr": "produit / somme = (12 x 36) / (12 + 36) = 9 kΩ\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20524",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TAUX DE SELECTIVITE AVEC : 1890-1770 ET 1836-1824",
+  "options": [
+   "5%",
+   "10%",
+   "20%",
+   "50%"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10%",
+  "commentaire_fr": "Taux de sélectivité = 10% : (1836-1824)/(1890-1770) = 12 / 120 = 10%\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20528",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "IMPEDANCE D'UNE LIGNE 1/4 D'ONDE AVEC 25 OHMS EN ENTREE ET 100 OHMS EN SORTIE ?",
+  "options": [
+   "50 Ω",
+   "75 Ω",
+   "2500 Ω",
+   "36 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "50 Ω",
+  "commentaire_fr": "Zcâble = racine (Ze x Zs) = racine (25 x 100) = racine (2500) = 50 Ω\n",
+  "anchor": "T104a2"
+ },
+ {
+  "num": "20533",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE D'UN DEMODULATEUR AVEC UN DETECTEUR DE PRODUIT, QUEL TYPE DE MODULATION PEUT-ON RECEVOIR ?",
+  "options": [
+   "Modulation de phase",
+   "F3E",
+   "Modulation à double bande",
+   "BLU"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "BLU",
+  "commentaire_fr": "Détecteur de produit = démodulateur BLU (ou CW mais ne fait pas partie des réponses proposées)\n",
+  "anchor": "T126h"
+ },
+ {
+  "num": "20534",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "SCHEMA D'AMPLIFICATEUR AVEC 40 W EN ENTREE ET 10 W EN SORTIE. QUEL EST LA GAIN (EN DB) ?",
+  "options": [
+   "-4 dB",
+   "6 dB",
+   "4 dB",
+   "-6 dB"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "-6 dB",
+  "commentaire_fr": "rapport de puissance = Ps / Pe = 10 / 40 = 1/4 correspondant à -6 dB. \nAttention au piège avec une puissance de sortie plus faible que la puissance d'entrée (atténuation)\n",
+  "anchor": "T041b"
+ },
+ {
+  "num": "20536",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SCHEMA AVEC UN TRANSISTOR, UNE RESISTANCE DE 1,5 KOHMS SUR LA BASE ET 1 KOHM SUR LE COLLECTEUR. \nINDICATION : IC = 1,5 MA ET BETA = 150, DETERMINER IBASE",
+  "options": [
+   "10 µA",
+   "15 mA",
+   "1,5 mA",
+   "225 mA"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10 µA",
+  "commentaire_fr": "Ib = Ic / beta = 1,5 mA / 150 = 0,01 mA = 10 µA.\nLes valeurs des résistances de collecteur et de base ne servent à rien\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20540",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN CIRCUIT BOUCHON AVEC L = 2 MICROHENRY ET C =50 PICOFARAD\nFREQUENCE A LA RESONANCE ?",
+  "options": [
+   "160 MHz",
+   "160 kHz",
+   "16 MHz",
+   "1,6 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "16 MHz",
+  "commentaire_fr": "Formule simplifiée : F = 159 / racine (L en µH x C en pF) = 159 / racine (100) = 159/10 = 15,9 arrondi à 16 MHz\n",
+  "anchor": "T043a"
+ },
+ {
+  "num": "20541",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "DEUX CONDENSATEURS EN PARALLELE (1 MICROFARAD ET 0,5 MICROFARAD). CAPACITE EQUIVALENTE ?",
+  "options": [
+   "1 µF",
+   "0,33 µF",
+   "150 nF",
+   "1,5 µF"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1,5 µF",
+  "commentaire_fr": "Ceq = C1+C2 = 1 + 0,5 = 1,5\npas besoin de sortir la calculette !\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20542",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE DE 2 CONDENSATEURS DE 20 ET 30 PICOFARAD EN //  ET EN SERIE AVEC UN DE 50 PICOFARAD ?",
+  "options": [
+   "25 nF",
+   "50 µF",
+   "50 nF",
+   "25 µF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "25 nF",
+  "commentaire_fr": "condensateurs en parallèle : CT =20 +30 = 50 ; \nCT en série (de valeur identique) : 50 / 2 = 25 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20543",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE EST LA PARTICULARITE DE LA FM PAR RAPPORT A LA BLU ?",
+  "options": [
+   "La puissance de sortie dépend de la fréquence BF",
+   "La puissance de sortie dépend du niveau BF",
+   "La puissance de sortie dépend de la largeur de la bande passante",
+   "La puissance de sortie est constante "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "La puissance de sortie est constante ",
+  "commentaire_fr": "On parle ici des caractéristiques de la FM\n",
+  "anchor": "T121"
+ },
+ {
+  "num": "20546",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE TAUX DE SELECTIVITE AVEC 3550, 3585, 3615 ET 365",
+  "options": [
+   "30%",
+   "35%",
+   "70%",
+   "15%"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "30%",
+  "commentaire_fr": "Taux de sélectivité = bande passante à –3 dB / bande passante à –60 dB x 100 = (3615-3585)/(3650-3550)x100 = 30 / 100 x 100 = 30%\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20547",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "DISTORSION QUADRATIQUE AVEC 2 KHZ ET 100 KHZ ?",
+  "options": [
+   "100 et 200 kHz",
+   "50 et 200 kHz",
+   "2, 4, 98, 100, 102 et 200 kHz",
+   "104 et 202 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2, 4, 98, 100, 102 et 200 kHz",
+  "commentaire_fr": "Une distortion quadratique est un mélange (en sortie) de 2 fréquences présentes à l'entrée d'un amplificateur non linéaire (soit 4 et 200, les harmonqiues 2, et aussi 98 et 102, les mélanges du second ordre). Bien sûr, à la sortie d'un tel amplificateur, on trouve aussi les fréquences présentes à son entrée (ici 2 et 100 kHz)\n",
+  "anchor": "T077c"
+ },
+ {
+  "num": "20549",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "SCHEMA AVEC 3 RESISTANCES EN PARALLELE (10, 5 ET 10 KOHMS) SUIVIES D'UNE RESISTANCE EN SERIE DE 2,5 KOHMS . RESISTANCE EQUIVALENTE ?",
+  "options": [
+   "12,5 kΩ",
+   "27,5 kΩ",
+   "5 kΩ",
+   "2 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "5 kΩ",
+  "commentaire_fr": "résistances en // : 10 et 10 => 5 ; 5 et 5 => 2,5\nen série : 2,5 + 2,5 = 5\nPas besoin de sortir la calculette !\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20550",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "SOIT UN CABLE COAXIAL DE 10 METRES DE LONG ET DE 50 OHMS D'IMPEDANCE SUR LA FREQUENCE 14,100 MHZ. QUELLE EST SON IMPEDANCE POUR UNE LONGUEUR DE 20 METRES ?",
+  "options": [
+   "25 ohms",
+   "100 ohms",
+   "50 ohms",
+   "cela dépend de l'impédance de la charge"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50 ohms",
+  "commentaire_fr": "La longueur du câble ne change pas l’impédance caractéristique du câble.\n",
+  "anchor": "T101a"
+ },
+ {
+  "num": "20552",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE RAPPORT DE PUISSANCE, SCHEMA AVEC UN AMPLIFICATEUR DE 12 DB SUIVI D'UN ELEMENT \" PERTE \" DE 2 D",
+  "options": [
+   "x 100",
+   "x 10",
+   "x 24",
+   "x 4"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "x 10",
+  "commentaire_fr": "gain de l’ensemble = 12 – 2 = 10 dB correspondant à un rapport de 10\n",
+  "anchor": "T041b"
+ },
+ {
+  "num": "20554",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE TRES COMPLEXE : LE SCHEMA PREND TOUTE LA PAGE AVEC ENVIRON 8 ELEMENTS DONT : MULTIPLICATEUR, VCXO, FILTRE PASSE BAS (A LA MANIERE D'UNE BOUCLE PLL ?). PAS D'ANTENNE NI DE HAUT-PARLEUR ! \nQUEL EST L'ELEMENT MANQUANT ?",
+  "options": [
+   "Filtre passe-bas",
+   "Discriminateur",
+   "Oscillateur de battement de fréquence",
+   "Détecteur de produit"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Filtre passe-bas",
+  "commentaire_fr": "le schéma reproduit ici (sans être certain que ce soit le schéma présenté à la candidate) est une partie d'un récepteur FM dont le discriminateur est constitué d'une boucle PLL\n",
+  "anchor": "T124b"
+ },
+ {
+  "num": "20555",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE TRES COMPLEXE : LE SCHEMA PREND TOUTE LA PAGE AVEC ENVIRON 8 ELEMENTS DONT : MULTIPLICATEUR, VCXO, FILTRE PASSE BAS (A LA MANIERE D'UNE BOUCLE PLL ?). PAS D'ANTENNE NI DE HAUT-PARLEUR ! \nQUEL EST L'ELEMENT MANQUANT ?",
+  "options": [
+   "Détecteur de produit",
+   "Discriminateur",
+   "Oscillateur de battement de fréquence",
+   "Multiplieur"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Multiplieur",
+  "commentaire_fr": "le schéma reproduit ici (sans être certain que ce soit le schéma présenté à la candidate) est une partie d'un récepteur FM dont le discriminateur est constitué d'une boucle PLL.\nL'étage \"multiplieur\" est l'autre nom de l'étage \"comparateur\" utilisé dans les boucles PLL\n",
+  "anchor": "T124b"
+ },
+ {
+  "num": "20556",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TRANSFORMATEUR : 220 V EN ENTREE ; 0,8A ; 2000 SPIRES AU PRIMAIRE ; 200 SPIRES AU SECONDAIRE CONNECTE A UNE RESISTANCE DE VALEUR R. \nQUELLE EST LA VALEUR DE I DANS LA RESISTANCE",
+  "options": [
+   "0,8 A",
+   "8 A",
+   "80 A",
+   "0,08 A"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "8 A",
+  "commentaire_fr": "Is = Ip / (Ns / Np) = 0,8 / (200 / 2000) = 0,8 / 0,1 = 8 A en supposant que le transformateur est parfait (rendement = 100%).\nRéponse plus empirique : l'intensité est inversement proportionnelle au nombre de spires : il y a 10 fois moins de spire au secondaire, il y aura donc 10 fois plus d'intensité.\nLa tension au primaire ne sert à rien\n",
+  "anchor": "T031b"
+ },
+ {
+  "num": "20558",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT ? GALVA : 0,4 MA ; RESISTANCE INTERNE 800 OHMS ; INTENSITE = 4 A",
+  "options": [
+   "0,80 Ω",
+   "0,08 Ω",
+   "8 Ω",
+   "8 MΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,08 Ω",
+  "commentaire_fr": "Réponse empirique (sans sortir sa calculette) : L'ampèremètre a un calibre de 4 A alors que le galvanomètre mesure au maximum une intensité de 0,4 mA. Il passera donc dans le shunt 10.000 fois plus d'intensité que dans le galvanomètre. La résistance du shunt devra donc être 10.000 fois moindre que la résistance du galvanomètre : Rshunt = 800 / 10000 = 0,08 ohm\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20567",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FILTRE RC PASSE BAS AVEC R = 16 KOHM ET C = 100 PF\nQUELLE EST LA FREQUENCE DE COUPURE ?",
+  "options": [
+   "10 kHz",
+   "16 kHz",
+   "100 kHz",
+   "160 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "F = 1/(2 x pi x R x C) = 99,5 kHz, arrondi à 100 kHz si on prend 1/(2 x pi) = 0,16\n",
+  "anchor": "T042a"
+ },
+ {
+  "num": "20568",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "PROPRIETE D'UN BALUN ?",
+  "options": [
+   "Atténuateur",
+   "Transformateur asymétrique / symétrique ",
+   "Filtre de bande  ",
+   "Isolateur de ROS"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Transformateur asymétrique / symétrique ",
+  "commentaire_fr": "Le mot «  Balun » vient de « BALanced / UNbalanced » qui, en anglais, signifie « symétrique / asymétrique ».\nMaheureusement, un balun peut aussi apporter des atténuations mais ce n'est pas une de ses propriétés souhaitées !\n",
+  "anchor": "T104b"
+ },
+ {
+  "num": "20569",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE D'UN EMETTEUR AVEC : MICRO  - - -  MODULATEUR EQUILIBRE  -  FILTRE - ?  - ANTENNE",
+  "options": [
+   "Amplificateur RF",
+   "Amplificateur AF ",
+   "Oscillateur local",
+   "Démodulateur"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Amplificateur RF",
+  "commentaire_fr": "Il s’agit d’un synoptique partiel d’un émetteur BLU. Le filtre représenté n’est pas un filtre anti-harmonique mais un filtre à quartz indissociable du modulateur équilibré. L’élément manquant ne peut être que l’ampli RF, les autres étages n’ont pas leur place ici.\n",
+  "anchor": "T115"
+ },
+ {
+  "num": "20570",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE LA RESISTANCE R ? SCHEMA AVEC DEUX RESISTANCES EN SERIE (2,7 KOHMS ET ?), TENSION TOTALE = 6 V, TENSION SUR ? = 3,3 V",
+  "options": [
+   "8,7 k Ω",
+   "33 kΩ",
+   "3300 Ω",
+   "9,3 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "3300 Ω",
+  "commentaire_fr": "U aux bornes de 2,7 kΩ = 6 – 3,3 = 2,7 V ; \nI dans 2,7 kΩ = 1 mA ; R ? = U/I = 3,3/0,001 = 3300 Ω\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20571",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "FREQUENCE D'UN SIGNAL ? SCHEMA D'UN ECRAN D'OSCILLOSCOPE AVEC UNE SINUSOIDE (UNE PERIODE COMPLETE OCCUPANT 4 DIVISIONS HORIZONTALES ET VERTICALES). INDICATION : HORIZONTAL : 5MS/DIV ; VERTICAL : 3MV / DIV",
+  "options": [
+   "20 Hz",
+   "200 Hz",
+   "50 Hz",
+   "150 Hz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50 Hz",
+  "commentaire_fr": "durée d'une période = 4 x 5ms = 20 ms ; F = 1/t = 1/0,02 = 50 Hz\n",
+  "anchor": "T022f"
+ },
+ {
+  "num": "20574",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE CLASSE D'AMPLIFICATION N'A PAS DE COURANT DE REPOS ?",
+  "options": [
+   "Classe A",
+   "Classe AB",
+   "Classe AB2",
+   "Classe C"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Classe C",
+  "commentaire_fr": "Pour définir les classes d''amplification, on utilise plutôt une référence à la tension de repos (et non pas au courant).\nLa classe A a une tension de repos au milieu du signal à amplifier. Elle a donc un courant de repos non nul. \nOn distingue deux sous-classes dans la classe AB : la classe AB1 \"qui n'absorbe pas de courant de l'étage qui le précède\" contrairement à la classe AB2. AB2 doit donc être éliminée. De même AB est éliminée car trop imprécise. \nReste la classe C dont la tension de repos est très en dessous de la tension de blocage du transistor. Si bien que le courant de repos est nul en classe C.\n",
+  "anchor": "T071a3"
+ },
+ {
+  "num": "20575",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULES EXACTES ?  \n1) P = RACINE (RU) ; 2) P = U2/R ; 3) IMAX = IEFF X RACINE (2) ; 4) W = RIT2",
+  "options": [
+   "2 et 3",
+   "1, 2 et 3",
+   "3 et 4",
+   "2 et 4"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "2 et 3",
+  "commentaire_fr": "Les formules exactes sont : \nP = UI ou P = RI² (formule 1); \nW = RI²t (formule 4)\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20576",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST L'ETAGE MARQUE \" ? \" AVEC UN SCHEMA REPRESENTANT L'ANTENNE, RF EN DESSOUS, \" ? \" EN DESSOUS, OL EN DESSOUS. A DROITE DE \" ?\", POINTILLES PUIS HP",
+  "options": [
+   "Détecteur de produit",
+   "Ampli BF",
+   "Mélangeur",
+   "Ampli FI"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Mélangeur",
+  "commentaire_fr": "Il s’agit d’un synoptique partiel de récepteur hétérodyne.\n",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20577",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FILTRE RC PASSE HAUT AVEC R = 16 KOHMS ET C = 10 PF\nQUELLE EST LA FREQUENCE DE COUPURE ?",
+  "options": [
+   "1600 kHz",
+   "100 kHz",
+   "160 kHz",
+   "1 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1 MHz",
+  "commentaire_fr": "F = 1/(2 x pi x R x C) = 995 kHz, arrondi à 1 MHz si on prend 1/(2 x pi) = 0,16\n",
+  "anchor": "T042a"
+ },
+ {
+  "num": "20579",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "POUR UN CIRCUIT RLC PARALLELE A LA RESONANCE, QUELLE AFFIRMATION EST VRAIE ?",
+  "options": [
+   "I eff est minimum avec Z au maximum ",
+   "I eff est maximum avec Z au minimum ",
+   "I eff est maximum avec Z au maximum",
+   "I eff est minimum avec Z au minimum"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "I eff est minimum avec Z au maximum ",
+  "commentaire_fr": "Dans un circuit RLC parallèle (ou circuit bouchon), à la résonance, l'impédance (Z) est au maximum et l'intensité parcourant le circuit (I) est au minimum, quel que soit le mode de mesure de l'intensité (efficace ou crête).\n",
+  "anchor": "T044a3"
+ },
+ {
+  "num": "20582",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "VOUS CONTACTEZ DURANT LA NUIT UNE STATION SUR UNE BANDE BASSE. \nQUELLE EST LA CAUSE DE LA DISPARITION DE LA PROPAGATION LE JOUR SUR CETTE MEME BANDE ?",
+  "options": [
+   "augmentation de l’épaisseur des couches F",
+   "scission de la couche F en F1 et F2",
+   "disparition de la couche E sporadique",
+   "absorption par ionisation de la couche D  "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "absorption par ionisation de la couche D  ",
+  "commentaire_fr": "La couche D qui absorbe les ondes est essentiellement responsable de la disparition de la propagation le jour sur les bandes basses (1,8 MHz et en dessous)\n",
+  "anchor": "T093"
+ },
+ {
+  "num": "20583",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "MICRO - - OSC - - SEPARATEUR - - MODULATEUR - - FILTRE (SITUE EN DESSOUS DU MODULATEUR) - - AMPLI RF (A DROITE DU FILTRE) - - ANTENNE\nQUE REPRESENTE CE SYNOPTIQUE ?",
+  "options": [
+   "Récepteur BLU",
+   "récepteur à réaction",
+   "récepteur pour modulation de phase",
+   "Emetteur BLU "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Emetteur BLU ",
+  "commentaire_fr": "Dans le schéma, il y a le schéma d’un micro et un \"modulateur\", il doit donc s'agir d'un émetteur et non pas d’un récepteur. Plus précisément d’un émetteur BLU, puisque le modulateur est suivi d'un filtre (à quartz dans le cas d'un émetteur BLU et le modulateur porte le nom de \"mélangeur équilibré\")\n",
+  "anchor": "T126d"
+ },
+ {
+  "num": "20584",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCUL DISTORSION PAR HARMONIQUE 2     F = 0.5 U =20,     F=1  U = 8,    F= 1.5,    F=  2",
+  "options": [
+   "25%",
+   "10%",
+   "20%",
+   "40%"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "40%",
+  "commentaire_fr": "Réponse : la fréquence de référence est 0,5. \nL’harmonique 2 est donc 1,0. \nTDH = 8 / 20 = 0,4 = 40%\n",
+  "anchor": "T074b2"
+ },
+ {
+  "num": "20586",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "10 MICROFARAD = ?",
+  "options": [
+   "aucune des réponses ",
+   "100.000 pF",
+   "1000 nF",
+   "1 nF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "aucune des réponses ",
+  "commentaire_fr": "10 µF = 10.000 nF = 10.000.000 pF, donc aucune des réponses proposées. Il n'y a pas de calcul, cette question est posée pour voir si le candidat maîtrise les multiples et sous-multiples.\n",
+  "anchor": "T002a"
+ },
+ {
+  "num": "20587",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "UN AMPLIFICATEUR AVEC 10 MICROVOLTS EN ENTREE ET 12 DB DE GAIN. TENSION DE SORTIE ?",
+  "options": [
+   "80 µV",
+   "120 µV",
+   "40 µV",
+   "160 µV"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "40 µV",
+  "commentaire_fr": "Lorsque les valeurs sont exprimées en volts, le gain est le double de celui calculé lorsque les valeurs sont exprimées en watts. Ainsi, dans cette question, gain en tension = 12 dB divisé par 2 = 6 dB ; 6 dB correspond à un rapport de 4. \nUs = Ue x 4 = 40 µV\nDans la pratique, ce calcul n'est juste que si les impédances d'entrée et de sortie sont identiques, ce qui ne semble pas être indiqué dans la question posée...\n",
+  "anchor": "T041f"
+ },
+ {
+  "num": "20590",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "DIFFERENCE ENTRE UN RECEPTEUR HETERODYNE ET UN RECEPTEUR DIRECT ?",
+  "options": [
+   "Un récepteur hétérodyne n’a pas de problème de fréquence image",
+   "Dans un récepteur hétérodyne, la démodulation se fait plus simplement",
+   "Un récepteur hétérodyne possède une meilleure sélectivité ",
+   "Un récepteur hétérodyne se caractérise par la simplicité du montage"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Un récepteur hétérodyne possède une meilleure sélectivité ",
+  "commentaire_fr": "Récepteur hétérodyne = récepteur avec étage de fréquence intermédiaire (FI)\n",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20593",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCUL DE LA FREQUENCE DE RESONANCE D'UN CIRCUIT BOUCHON AVEC L = 25 MICROH ET C = 400 PF",
+  "options": [
+   "15,9 MHz",
+   "10 MHz",
+   "1,59 MHz",
+   "1 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1,59 MHz",
+  "commentaire_fr": "Formule simplifiée : F = 159 / √ (L en µH x C en pF) \n= 159 / √ (25 x 400) = 159/ √ (10000) = 159/100= 1,59 MHz\n",
+  "anchor": "T043a"
+ },
+ {
+  "num": "20594",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : MARRON, ROUGE, VERT, OR",
+  "options": [
+   "1,5 MΩ",
+   "15 MΩ",
+   "12 MΩ",
+   "1,2 MΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1,2 MΩ",
+  "commentaire_fr": "Marron = 1 ; Rouge = 2 ; Vert = 5 ; donc 12 x 10^5 = 1 200 000 = 1,2 MΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20595",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : BLEU, ORANGE, ORANGE, OR",
+  "options": [
+   "13 kΩ",
+   "633 Ω",
+   "930 Ω",
+   "63 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "63 kΩ",
+  "commentaire_fr": "Bleu = 6 ; Orange = 3 ; Orange = 3 ; donc 63 x 10^3 = 63 000 Ω = 63 kΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20596",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUELLE EST LA PUISSANCE DISPONIBLE A LA SORTIE D'UN CABLE AYANT 3 DB DE PERTE ALIMENTE PAR UN EMETTEUR DELIVRANT 100 WATTS ?",
+  "options": [
+   "100 W",
+   "33,3 W",
+   "50 W",
+   "150 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50 W",
+  "commentaire_fr": "3 dB correspond à un rapport de puissance de 2 (perte). 100 W / 2 = 50 W\n",
+  "anchor": "T041b"
+ },
+ {
+  "num": "20599",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE EST L'ORIGINE DE L'INTERMODULATION ?",
+  "options": [
+   "perturbation secteur ",
+   "distorsion d’amplitude ",
+   "distorsion de fréquence",
+   "fréquence image"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "distorsion d’amplitude ",
+  "commentaire_fr": "L’intermodulation tire son origine d’un étage non linéaire générateur de distorsions d’amplitude\n",
+  "anchor": "T117a"
+ },
+ {
+  "num": "20600",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 3 BAGUES : VIOLET NOIR BLEU\nVALEUR DE LA RESISTANCE ?",
+  "options": [
+   "700 kΩ ",
+   "500 MΩ",
+   "70 MΩ",
+   "500 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "70 MΩ",
+  "commentaire_fr": "Violet = 7, Noir = 0, Bleu = 6 ; donc 70 x 10^6 = 70 x 1 000 000 = 70 MΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20601",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "SCHEMA AVEC UNE RESISTANCE DE 3,3 KOHMS SUIVIE DE DEUX RESISTANCES EN PARALLELE (2 KOHMS ET 3 KOHMS). INTENSITE DANS LA RESISTANCE DE 3 KOHMS = 5 MA. QUELLE EST 'INTENSITE DANS LA RESISTANCE DE 3,3 KOHMS ?",
+  "options": [
+   "5 mA",
+   "7,5 mA",
+   "10 mA",
+   "12,5 mA"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "12,5 mA",
+  "commentaire_fr": "Tension aux bornes de la résistance de 3 kohms : U = R x I = 3000 x 0,005 = 15 V;\nIntensité dans la résistance de 2 kohms : I = U / R = 15 / 2000 = 0,075 = 7,5 mA ;\nIntensité dans la résistance de 3,3 kohms = 5 + 7,5 = 12,5 mA\n",
+  "anchor": "T018c"
+ },
+ {
+  "num": "20604",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SCHEMA ELECTRIQUE D'UN ETAGE AVEC UN TRANSISTOR ET DES RESISTANCES POUR L'ALIMENTER (PAS D'ENTREE NI DE SORTIE, ON NE SAIT DONC PAS LE MONTAGE UTILISE) : UN PONT DE RESISTANCES POUR FIXER LA TENSION DE BASE, UNE RESISTANCE DE COLLECTEUR ET UNE RESISTANCE D'EMETTEUR. TOUTES LES RESISTANCES ONT DES VALEURS (RCOLLECTEUR = 1500 OHMS). AUTRES INDICATIONS : IC = 1,5 MA, BETA = 150. CALCULER IBASE",
+  "options": [
+   "1,5 mA ",
+   "20 µA",
+   "10 µA",
+   "2,94 mA"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 µA",
+  "commentaire_fr": "Ib = Ic / ϐ = 1,5 mA / 150 = 0,01 mA = 10 µA.\nLes valeurs des résistances ne servent à rien\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20609",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUEL APPAREIL PEUT-ON UTILISER POUR MESURER L'INTENSITE D'UNE FREQUENCE ELEVEE ?",
+  "options": [
+   "un galvanomètre",
+   "un électromètre",
+   "un vobulateur",
+   "un ampèremètre thermique "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "un ampèremètre thermique ",
+  "commentaire_fr": "",
+  "anchor": "T011d"
+ },
+ {
+  "num": "20610",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "VALEUR EQUIVALENTE DE 30 CONDENSATEURS DE 120 NANOFARADS EN SERIE ?",
+  "options": [
+   "4 nF",
+   "3,6 µF",
+   "150 nF",
+   "40 nF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "4 nF",
+  "commentaire_fr": "CT = C / n = 120 / 30 = 4 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20612",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE A 12 CONDENSATEURS DE 33 NANOFARADS EN SERIE ?",
+  "options": [
+   "396 nF",
+   "2750 pF ",
+   "27,5 nF",
+   "3,96 µF"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2750 pF ",
+  "commentaire_fr": "33 nF / 12 = 2,75 nF = 2750 pF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20614",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "SCHEMA AVEC UNE PILE DE 12 V, UNE RESISTANCE (SANS VALEUR) ET LES INDICATIONS \"5 MA\" ET \"P=?\"",
+  "options": [
+   "100 mW",
+   "10 mW",
+   "16,7 W",
+   "60 mW"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "60 mW",
+  "commentaire_fr": "P = U x I = 12 x 0,005 = 0,06 W = 60 mW\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20618",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL EST LA VALEUR DU COURANT IC ? (BETA = 150 ; RESISTANCES SUR LE COLLECTEUR ET LA BASE ; IB = 8 MICROAMPERES) : QUEL EST LE COURANT IC ?",
+  "options": [
+   "1,8 A",
+   "6,66 mA",
+   "1,2 mA",
+   "150 mA"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1,2 mA",
+  "commentaire_fr": "Ic = Ib x beta = 8 µA x 150 = 1,2 x 10^-3 = 1,2 mA\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20619",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES VIOLET, ROUGE, ORANGE, OR ; VALEUR DE LA RESISTANCE ?",
+  "options": [
+   "7,2 kΩ",
+   "720 kΩ",
+   "72 Ω",
+   "72 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "72 kΩ",
+  "commentaire_fr": "Violet = 7 ; Rouge = 2 ; Orange = 3 ; donc 72 x 10^3 = 72 kΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20620",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE TAUX DE SELECTIVITE (AVEC 3650, 3685, 3725, 3750)",
+  "options": [
+   "40%",
+   "35%",
+   "70%",
+   "20%"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "40%",
+  "commentaire_fr": "taux de sélectivité = bande passante à –3 dB / bande passante à –60 dB x 100 \n= (3725-3685)/(3750-3650)x100 = 40 / 100 x 100 \n= 40%\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20621",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA TENSION EFFICACE D'UNE TENSION CRETE DE 18 V ?",
+  "options": [
+   "9 V",
+   "12,7 V",
+   "25 V",
+   "36 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "12,7 V",
+  "commentaire_fr": "Veff = 0,707 x Vcrête = 0,707 x 18 = 12,7 V (valeur arrondie)\n",
+  "anchor": "T022b"
+ },
+ {
+  "num": "20622",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "QUELLE EST LA PUISSANCE MINIMUM NORMALISEE ? TENSION = 12 VOLTS ET INTENSITE = 3 A",
+  "options": [
+   "4 W",
+   "25 W",
+   "50 W",
+   "100 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50 W",
+  "commentaire_fr": "P = UI = 12 x 3 = 36 W\nLa résistance devra au moins dissiper 36 W. \nEn répondant « 100 W », on utilise une résistance trop grosse et en répondant « 25 W » ou « 4 W », la résistance est trop petite et ne pourra pas dissiper toute la puissance.\n",
+  "anchor": "T015c"
+ },
+ {
+  "num": "20623",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "SCHEMA AVEC UNE RESISTANCE R = 1800 OHMS ET UNE TENSION DE 12 V AUX BORNES DE LA RESISTANCE CHOIX VALEUR NORMALISEE DE LA PUISSANCE MINIMALE A RETENIR POUR P ?",
+  "options": [
+   "250 mW",
+   "0,5 W",
+   "1 W",
+   "2 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "250 mW",
+  "commentaire_fr": "P = U² / R = 12 x 12 / 1800 = 0,08 W = 80 mW\nOn retiendra la première puissance supérieure (250 mW) En répondant « 0,5 W » et plus, on utilise une résistance trop grosse\n",
+  "anchor": "T015c"
+ },
+ {
+  "num": "20625",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "SCHEMA AVEC DEUX RESISTANCES (R1 = 1,5 KOHM ET R2 =3,3 KOHMS). UR2 = 22 V ET UR1 = ?",
+  "options": [
+   "6 V",
+   "1 V",
+   "10 V",
+   "20  V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 V",
+  "commentaire_fr": "UR1 = 22 x (1,5/3,3) = 10. Lorsque les résistances sont montées en série, les tensions aux bornes des résistances sont proportionnelles à leurs valeurs.\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20626",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "CHOIX DE LA VALEUR NORMALISEE DE LA PUISSANCE MINIMALE A RETENIR POUR R ? [ON VOIT UN SCHEMA D'UNE PILE DE TENSION 12V DEBITANT DANS UNE RESISTANCE DE 180 OHMS]",
+  "options": [
+   "0,25 W",
+   "0,5 W",
+   "0,125 W",
+   "1 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1 W",
+  "commentaire_fr": "P = U² / R = 12 x 12 / 180 = 0,8 W. On retiendra la première puissance supérieure (1 W). Les autres résistances ne dissiperont pas suffisamment de puissance.\n",
+  "anchor": "T015c"
+ },
+ {
+  "num": "20627",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FREQUENCE DE RESONANCE DE CE CIRCUIT RLC ? [ON VOIT UN SCHEMA \"CLASSIQUE\" DE CIRCUIT RLC AVEC UNE RESISTANCE DE 12 OHMS, UNE BOBINE DE 4,7 MICROHENRYS ET UN CONDENSATEUR DE 33 PICOFARADS]",
+  "options": [
+   "12,8 MHz",
+   "12 kHz",
+   "985 Hz",
+   "4,7 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "12,8 MHz",
+  "commentaire_fr": "Formule simplifiée : F = 159 / √ (L en µH x C en pF) \n= 159 / √ (4,7 x 33) = 159 / 12,45 = 12,8  MHz. La valeur de R ne sert à rien\n",
+  "anchor": "T044a"
+ },
+ {
+  "num": "20628",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "L'AVANTAGE D'UN RECEPTEUR HETERODYNE PAR RAPPORT A UN RECEPTEUR A CONVERSION DIRECTE RESIDE EN :",
+  "options": [
+   "La démodulation que se fait sur les basses fréquences",
+   "L'amplification F.I qui améliore la sélectivité du récepteur ",
+   "La simplicité de construction",
+   "La diminution du bruit de fond"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "L'amplification F.I qui améliore la sélectivité du récepteur ",
+  "commentaire_fr": "Dans un récepteur à conversion directe, l’oscillateur local a une fréquence très proche de la fréquence à recevoir, il n’y a donc pas de fréquence intermédiaire, ce qui simplifie le montage. Pour compenser l'abscence de la FI, on augmentera significativement le gain de l'amplificateur AF. La démodulation se fait sur les basses fréquences et ne peut extraire que des signaux modulés en amplitude.\n",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20629",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "SCHEMA AVEC UNE RESISTANCE R DE 33 KOHMS ET UNE TENSION DE 12 V A SES BORNES. CHOIX DE LA VALEUR NORMALISEE DE LA PUISSANCE MINIMALE A RETENIR POUR R ?",
+  "options": [
+   "5 W",
+   "2 W",
+   "0,125 W",
+   "50 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "0,125 W",
+  "commentaire_fr": "P=U²/R = 12 x 12 / 33000 = 0,00436 = 4 mW. On retiendra la première valeur supérieure, soit 0,125 W. Les autres valeurs proposées sont trop grandes.\n",
+  "anchor": "T015c"
+ },
+ {
+  "num": "20630",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SCHEMA AVEC MICRO----MODULATEUR AF-------?----------AMPLI RF---ANTENNE  \nROLE DE L'ETAGE REPERE PAR \"?\"",
+  "options": [
+   "filtre de bande",
+   "premier amplificateur",
+   "démodulateur RF",
+   "Oscillateur"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Oscillateur",
+  "commentaire_fr": "Dans un émetteur, le filtre de bande se situe après l'ampli RF. Un modulateur ne comporte pas d'oscillateur. Donc cet étage est nécessaire pour construire un émetteur.\n",
+  "anchor": "T115"
+ },
+ {
+  "num": "20631",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SCHEMA AVEC MICRO----MODULATEUR AF-------OSCILLATEUR---------- ?---ANTENNE  \nROLE DE L'ETAGE REPERE PAR \"?\"",
+  "options": [
+   "Amplificateur RF ",
+   "compresseur",
+   "détecteur",
+   "silencieux"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Amplificateur RF ",
+  "commentaire_fr": "Les étages \"détecteur\" et \"silencieux\" ne concernent que les récepteurs. Or, il s'agit d'un émetteur puisqu'il y a un microphone. Un \"compresseur\" (de modulation) se situera entre le microphone et le modulateur AF.\n",
+  "anchor": "T115"
+ },
+ {
+  "num": "20633",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULES EXACTES ?  \n1) P = W.T ;             2) P = U^2/R ;           3) IEFF = IMAX X RACINE (2) ;           4) W = R.I.T^2",
+  "options": [
+   "1",
+   "3 et 4",
+   "2",
+   "4"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2",
+  "commentaire_fr": "Les autres formules exactes sont : W=P.t   Ieff = Imax/√2   W=R.I².t\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20634",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "SCHEMA AVEC UNE RESISTANCE R AVEC VALEUR \"I = 16MA\" SUR LE FIL ALIMENTANT CETTE RESISTANCE. SUIVENT DEUX RESISTANCES (R1 ET R2) EN PARALLELE RELIEES A LA MASSE. INDICATION AUX BORNES DE R2 QUI MESURE 12 KOHMS : 96 V . VALEUR DU COURANT DANS R1 ?",
+  "options": [
+   "6 mA",
+   "10 mA",
+   "1 mA",
+   "8 mA"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "8 mA",
+  "commentaire_fr": "IR2 = 96/12000 = 8 mA ; It = 16 mA donc IR1 = 8 mA \n(donc R1 = R2 mais ce n'était pas la question !)\n",
+  "anchor": "T018c"
+ },
+ {
+  "num": "20638",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA FORMULE EXACTE ?",
+  "options": [
+   "U = R + I ",
+   "U² = √ (P/R)",
+   "W = I x t",
+   "Q = C x U"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Q = C x U",
+  "commentaire_fr": "Les formules exactes sont : \nU = R x I\nU = √ (P/R)\nQ = I x t\n",
+  "anchor": "T013"
+ },
+ {
+  "num": "20639",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA LONGUEUR D'ONDE D'UNE FREQUENCE DE 16 MHZ ?",
+  "options": [
+   "18,75 m",
+   "19 cm",
+   "5,3 cm",
+   "5,8 m"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "18,75 m",
+  "commentaire_fr": "L(m) = 300 / F(MHz) = 300 / 16 = 18,75 mètres\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20642",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "SOIT UNE ANTENNE QUART D'ONDE VERTICALE TROP COURTE POUR RESONNER SUR LA FREQUENCE SOUHAITEE,\nQUE FAUT-IL AJOUTER A CETTE ANTENNE POUR QU'ELLE RESONNE CORRECTEMENT ?",
+  "options": [
+   "une bobine et un condensateur sur le point d'alimentation",
+   "une capacité en bout d'antenne ",
+   "un condensateur seul sur le point d’alimentation",
+   "une bobine en bout d'antenne"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "une capacité en bout d'antenne ",
+  "commentaire_fr": "Pour allonger artificiellement un brin rayonnant tel qu’un quart d’onde vertical, on peut soit insérer une bobine au point d’alimentation (ou au milieu du brin rayonnant), soit ajouter une capacité à l’extrémité de l’antenne (appelé aussi chapeau capacitif)\n",
+  "anchor": "T0910e"
+ },
+ {
+  "num": "20647",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CALCULER L'IMPEDANCE DE LA BOBINE SUIVANTE : SCHEMA AVEC UNE BOBINE (EN HENRI !) ET UNE FREQUENCE",
+  "options": [
+   "37 kΩ",
+   "6 kΩ",
+   "0,96 kΩ",
+   "2,6 kΩ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "37 kΩ",
+  "commentaire_fr": "Z = 2 x pi x F x L = 2 x pi x 3000 x 2 = 37680 ohms arrondi à 37 kohms. Les valeurs de la bobine et de la fréquence sont assez inhabituelles dans les applications pour radioamateurs.\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20653",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN FILTRE BOUCHON AVEC Q = 100, L = 20 MICROH, C = 500 PICOF, Z A LA RESONANCE ?",
+  "options": [
+   "infini",
+   "20 kΩ",
+   "25 kΩ",
+   "800 kΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "20 kΩ",
+  "commentaire_fr": "Z = racine (L /C)  x Q = 20 kΩ\n",
+  "anchor": "T044b3"
+ },
+ {
+  "num": "20655",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DE 20 W APPLIQUEE A UN CABLE COAXIAL DE 75 OHMS. \nQUELLE EST LA TENSION CRETE ?",
+  "options": [
+   "38,7 V",
+   "27,4 V",
+   "14 V",
+   "54,7 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "54,7 V",
+  "commentaire_fr": "U = racine (PR) = 38,7 Veff ; Umax  =38,7 x 1,414 = 54,7 Vmax. \nIl faudra, bien entendu, que le câble soit parfaitement alimenté et chargé (impédances d’entrée et de sortie égales à l’impédance caractéristique du câble) car, dès qu'il y a du TOS, le calcul se complique...\n",
+  "anchor": "T101a"
+ },
+ {
+  "num": "20658",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE DANS R  AVEC  R = 20 OHMS  ET  V = 10 V",
+  "options": [
+   "200 W",
+   "2 kW",
+   "5 W",
+   "50 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "5 W",
+  "commentaire_fr": "P = U² / R = (10 x 10) / 20 = 5 W\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20659",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FILTRE RC PASSE BAS AVEC R = 10 KOHMS ET C = 10 PICOFARADS. QUELLE EST LA FREQUENCE DE COUPURE ?",
+  "options": [
+   "6,2 MHz",
+   "1 MHz",
+   "100 MHz",
+   "1,6 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1,6 MHz",
+  "commentaire_fr": "F = 1 / (2 x pi x R x C) = 1,59 MHz arrondi à 1,6 MHz\n",
+  "anchor": "T042a"
+ },
+ {
+  "num": "20662",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "LA FREQUENCE IMAGE EST ...",
+  "options": [
+   "la fréquence de porteuse de la station émettant sur une bande adjacente à celle de la station captée",
+   "créée dans le récepteur et ne contient aucune information modulée",
+   "décalée du double de la fréquence intermédiaire par rapport à la fréquence de réception ",
+   "totalement bloquée par l’amplificateur RF lorsque celui-ci et l’amplificateur FI sont réglés par une même commande"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "décalée du double de la fréquence intermédiaire par rapport à la fréquence de réception ",
+  "commentaire_fr": "",
+  "anchor": "T113"
+ },
+ {
+  "num": "20664",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "SCHEMA AVEC UNE RESISTANCE ET, EN PARALLELE, UN GALVANOMETRE  QUE MESURE-T-ON ?",
+  "options": [
+   "Tension",
+   "Intensité",
+   "Energie",
+   "Courant"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Tension",
+  "commentaire_fr": "en connaissant R, on peut aussi mesurer la puissance en utilisant la formule :\nP = U² / R. \nDe plus, en utilisant une résistance de très faible valeur (appelée aussi Shunt et marquée S et non pas R comme ici), on obtient un ampèremètre qui permet de mesurer l’intensité\n",
+  "anchor": "T011c"
+ },
+ {
+  "num": "20667",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "UN MELANGEUR EST :",
+  "options": [
+   "un oscillateur de fréquences",
+   "un limiteur d’amplitude de signal",
+   "un additionneur / soustracteur de fréquences ",
+   "un modulateur de fréquence"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "un additionneur / soustracteur de fréquences ",
+  "commentaire_fr": "Le mélange s’effectue par une multiplication des tensions des fréquences à mélanger.\n",
+  "anchor": "T077a"
+ },
+ {
+  "num": "20668",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA PULSATION A 2,5 MHZ ?",
+  "options": [
+   "1 768 000 rad/s",
+   "7 850 000 rad/s",
+   "3 535 000 rad/s",
+   "15 700 000 rad/s"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "15 700 000 rad/s",
+  "commentaire_fr": "Pulsation = 2 x pi x F = 2 x 3,14 x 2 500 000 = 15 700 000 rad/s\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20671",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA AVEC UN TRANSFO (1500 SPIRES AU PRIMAIRE, 100 SPIRES AU SECONDAIRE), U = 220 V AU PRIMAIRE, RESISTANCE DE 500 OHMS BRANCHEE SUR LE SECONDAIRE. TENSION AU SECONDAIRE ?",
+  "options": [
+   "5 V",
+   "22 V",
+   "14,7 V",
+   "73 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "14,7 V",
+  "commentaire_fr": "U secondaire = 220 x (100 / 1500) = 220 / 15 = 14,666 V. La valeur de la résistance ne sert à rien dans le calcul.\n",
+  "anchor": "T031b"
+ },
+ {
+  "num": "20673",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "10 PUISSANCE -5 = ?",
+  "options": [
+   "0,0001",
+   "1/100 000",
+   "100 000",
+   "5"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1/100 000",
+  "commentaire_fr": "10^-5 = 1/10^5 = 1/100 000\n",
+  "anchor": "T002a"
+ },
+ {
+  "num": "20674",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "CALCUL DE L'INTENSITE DANS UN CIRCUIT (AVEC U = 47 VOLTS ET R = 47000 OHMS)",
+  "options": [
+   "10 mA",
+   "22 mA",
+   "1 mA",
+   "0,01 A"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1 mA",
+  "commentaire_fr": "I = U / R = 47 / 47000 = 0,001 A (soit 1 mA)\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20675",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "DEUX RESISTANCES EN PARALLELE : 6 KOHMS ET 30 KOHMS.\nRESISTANCE EQUIVALENTE ?",
+  "options": [
+   "36 kΩ",
+   "9 kΩ",
+   "5 kΩ",
+   "4,5 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "5 kΩ",
+  "commentaire_fr": "Réponse : produit / somme = (6 x 30) / (6 + 30) = 5 kΩ\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20677",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CALCULER LA VALEUR EQUIVALENTE A 4 CONDENSATEURS EN SERIE DE 50 NANOFARADS",
+  "options": [
+   "12,5 nF",
+   "200 nF",
+   "54 nF",
+   "25 nF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "12,5 nF",
+  "commentaire_fr": "Réponse : 50 nF / 4 = 12,5 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20678",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : GRIS, MARRON, VERT, OR\nVALEUR DE LA RESISTANCE ?",
+  "options": [
+   "815 Ω",
+   "8,1 MΩ",
+   "81 MΩ",
+   "810 kΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "8,1 MΩ",
+  "commentaire_fr": "Gris = 8 ; Marron = 1 ; Vert = 5 ; donc 81 x 10^5 = 8100000 = 8,1 MΩ\n",
+  "anchor": "T051a"
+ },
+ {
+  "num": "20679",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : ORANGE, BLEU, BLEU, OR\nVALEUR DE LA RESISTANCE ?",
+  "options": [
+   "366 Ω",
+   "36 kΩ",
+   "36 MΩ",
+   "3600 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "36 MΩ",
+  "commentaire_fr": "Orange = 3 ; Bleu = 6 ; Bleu = 6 ; donc 36 x 10^6 = 36000000 = 36 MΩ\n",
+  "anchor": "T051a"
+ },
+ {
+  "num": "20681",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SCHEMA AVEC UN TRANSISTOR (BETA = 150) ET UNE RESISTANCE R1 RELIANT LA BASE AVEC LA TENSION D'ALIMENTATION (5 V), INDICATION : IB = 8  MICROAMPERES. UNE SECONDE RESISTANCE R2 (1 KOHM) RELIE LE COLLECTEUR A LA TENSION D'ALIMENTATION (5 V). AUCUN CIRCUIT SUR L'EMETTEUR. QUELLE EST LA VALEUR DE IC ?",
+  "options": [
+   "1,2 mA",
+   "1,2 A",
+   "18,75 mA",
+   "40 µA"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1,2 mA",
+  "commentaire_fr": "Ic = Ib x ϐ = 150 x 8 µA = 1,2 x 10^-3 = 1,2 mA.\nLa valeur de la résistance de collecteur et de la tension d’alimentation du circuit ne servent à rien.\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20682",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA AVEC UN TRANSFO AVEC UNE RESISTANCE R SUR LE SECONDAIRE. INDICATIONS : 2500 SPIRES AU PRIMAIRE, 1250 SPIRES DANS LE SECONDAIRE, UNE TENSION AU PRIMAIRE, 1 A SUR LE CIRCUIT DU SECONDAIRE, I = ?. COURANT DANS LE PRIMAIRE ?",
+  "options": [
+   "2 A",
+   "500 mA",
+   "50 A",
+   "1 A"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "500 mA",
+  "commentaire_fr": "l'intensité est inversement proportionnelle aux nombres de spires : \nIp = Is x (ns / np) = 1 x (1250 / 2500) = 1 x 0,5 = 0,5 A = 500 mA\nLa tension au primaire ne sert à rien.\n",
+  "anchor": "T031b"
+ },
+ {
+  "num": "20683",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "SCHEMA D'UN CIRCUIT AVEC UNE PILE ET UNE RESISTANCE R (INDICATIONS : 50 MA ET R = 33 KOHMS, P = ?). PUISSANCE DISSIPEE DANS LA CHARGE ?",
+  "options": [
+   "0,0082 kW",
+   "82,5 mW",
+   "82,5 W",
+   "8,25 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "82,5 W",
+  "commentaire_fr": "P = RI² =33000 x 0,05 x 0,05 = 82,5 W\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20684",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "ETANT DONNE UN CIRCUIT R-L-C EN PARALLELE. \nA LA RESONANCE, QUELLE EST L'AFFIRMATION VRAIE ?",
+  "options": [
+   "intensité efficace et impédance minimale ",
+   "intensité efficace minimum et impédance maximum",
+   "intensité efficace maximum et impédance minimum",
+   "intensité efficace et impédance maximale "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "intensité efficace minimum et impédance maximum",
+  "commentaire_fr": "A la résonance, il y a à la fois un minimum d’intensité et un maximum d’impédance aux bornes du le circuit parallèle (qu'il y ait ou pas une résistance parasite R en série ou en parallèle)\n",
+  "anchor": "T044"
+ },
+ {
+  "num": "20685",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "DEUX BRANCHES (HORIZONTALES) AVEC 1 ET 2 KOHMS SUR LA BRANCHE DU HAUT, 3 KOHM ET RX SUR LA BRANCHE DU BAS. INDICATION I=0 (AVEC UN SCHEMA DE TYPE GALVANOMETRE ENTRE LES DEUX BRANCHES). QUESTION : RX = ?",
+  "options": [
+   "6 kΩ",
+   "3 kΩ",
+   "4 kΩ",
+   "1500 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "6 kΩ",
+  "commentaire_fr": "Produit en croix : R = 3 x 2 / 1 = 6 kΩ\n",
+  "anchor": "T018a"
+ },
+ {
+  "num": "20686",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "DANS UN CIRCUIT  R-L-C SERIE, A LA FREQUENCE DE RESONNANCE, ON A :",
+  "options": [
+   "impédance maxi, intensité maxi",
+   "impédance mini, intensité maxi ",
+   "impédance maxi, intensité mini",
+   "impédance mini, intensité mini"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "impédance mini, intensité maxi ",
+  "commentaire_fr": "A la résonnance, un circuit série RLC a une impédance égale à R. C’est son impédance la plus faible et c’est à cette fréquence que l’intensité traversant le circuit est maximale\n",
+  "anchor": "T044a2"
+ },
+ {
+  "num": "20687",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA AVEC UN FILTRE PASSE-HAUT RC, UNE TENSION DE 4 V EN ENTREE, F=100 MHZ, DES VALEURS DE R ET C QUI DONNENT UNE FREQUENCE DE COUPURE DE 100 MHZ, ET ON DEMANDAIT LA TENSION EN SORTIE (AUX BORNES DE LA RESISTANCE)",
+  "options": [
+   "2 V",
+   "1 V",
+   "2,8 V ",
+   "4 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2,8 V ",
+  "commentaire_fr": "1) calcul de la Fréquence de résonance du circuit : F = 1 / (2 x pi x R x C) = 99 MHz (arrondi à 100 MHz dans ce cas). \n2) On est donc à la fréquence de coupure où le signal est atténué de 3 dB en sortie. Attention, le piège est que la puissance est divisée par 2 tandis que la tension n’est diminuée que de sa racine carrée (2 x racine(2) = 2,8 V) car P = U² / R (effet du carré).\n",
+  "anchor": "T042d"
+ },
+ {
+  "num": "20688",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "FREQUENCE D'UN SIGNAL DE LONGUEUR D'ONDE = 2 CM",
+  "options": [
+   "15 MHz",
+   "150 GHz",
+   "1,5 GHz",
+   "15 GHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "15 GHz",
+  "commentaire_fr": "F(MHz) = 300 / L(m)\n2 cm = 0,02 m ; \nF = 300 / 0,02 = 15.000 MHz = 15 GHz\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20690",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "UN AMPLI 20 W EN ENTREE ET +3DB, QUELLE EST LA PUISSANCE EN SORTIE ?",
+  "options": [
+   "60 W",
+   "40 W",
+   "23 W",
+   "6,6 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "40 W",
+  "commentaire_fr": "3 dB correspond à un rapport de puissance de 2 ; 20 W x 2 = 40 W\n",
+  "anchor": "T041b"
+ },
+ {
+  "num": "20691",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : GRIS, NOIR, VERT, OR",
+  "options": [
+   "805 Ω",
+   "80 MΩ",
+   "8 MΩ",
+   "800 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "8 MΩ",
+  "commentaire_fr": "Gris = 8 ; Noir = 0 ; Vert = 5 ; donc 80 x 10^5 = 80 00000 = 8 MΩ\n",
+  "anchor": "T051a"
+ },
+ {
+  "num": "20692",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : GRIS, BLEU, VERT, OR",
+  "options": [
+   "865 Ω",
+   "8,9 MΩ",
+   "8,6 MΩ",
+   "890 MΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "8,6 MΩ",
+  "commentaire_fr": "Gris = 8 ; Bleu = 6 ; Vert = 5 ; donc 86 x 10^5 = 86 00000 = 8,6 MΩ\n",
+  "anchor": "T051a"
+ },
+ {
+  "num": "20693",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "SCHEMA AVEC UNE RESISTANCE R (SANS VALEUR) SUIVIE DE DEUX RESISTANCES EN PARALLELE (R1 ET R? A TROUVER) RELIEES A LA MASSE. AUTRES INDICES : I TOTALE ET I1 = I DANS R1",
+  "options": [
+   "4500 Ω",
+   "6 kΩ",
+   "10 kΩ",
+   "1,5 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1,5 kΩ",
+  "commentaire_fr": "UR? = tension aux bornes de la résistance de 3000 Ω = RxI = 3000 Ω x 0,005 A = 15 V ; \nIR? = 15 mA – 5 mA = 10 mA = 0,01 A ; \nR? = U/I = 15/0,01 = 1500 = 1,5 kΩ\nAutre méthode : il y a deux fois plus d’intensité dans R?, la résistance est donc deux fois plus faible : 3000 / 2 = 1,5 kΩ\n",
+  "anchor": "T018"
+ },
+ {
+  "num": "20695",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "CALCUL DE LA RESISTANCE DE SHUNT DE L'AMPEREMETRE (CALIBRE = 1 A), LA RESISTANCE INTERNE ET LES VALEURS DE L'INTENSITE DANS LE SHUNT ET LE GALVANOMETRE ETAIENT INDIQUEES",
+  "options": [
+   "0,1 Ω",
+   "0,9 Ω",
+   "9900 Ω",
+   "0,01 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "0,1 Ω",
+  "commentaire_fr": "Réponse empirique (sans sortir sa calculette) : Rshunt = Ri /99  = 0,1 Ω (il passe dans le shunt 99 fois plus de courant que dans le galvanomètre, la résistance est donc 99 fois plus faible)\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20697",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "SCHEMA AVEC UNE SINUSOIDE ET UNE ECHELLE DE TEMPS (1 PERIODE = 10 NANOSECONDES), CALCUL DE LA FREQUENCE",
+  "options": [
+   "100 kHz",
+   "10 MHz",
+   "100 MHz",
+   "10 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100 MHz",
+  "commentaire_fr": "F = 1/t = 1/(10 x 10^-9) = 10^8 = 100 MHz\n",
+  "anchor": "T021b"
+ }
+]

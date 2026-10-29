@@ -1,0 +1,525 @@
+{
+ "block": "W8",
+ "lines": [
+  8392,
+  9256
+ ],
+ "units": [
+  {
+   "id": "T061",
+   "ref": "6.1",
+   "nq": 10,
+   "depth": 2,
+   "anchors": [
+    "T061",
+    "T061a"
+   ],
+   "title_fr": "a 6.1)",
+   "questions": [
+    {
+     "num": "20320",
+     "question": "UN TRANSISTOR BIPOLAIRE EST COMPOSE DE  :",
+     "reponse": "3, 4 et 5"
+    },
+    {
+     "num": "20463",
+     "question": "DANS LE CAS D'UN AMPLIFICATEUR LINEAIRE, QUELLE EST L'AFFIRMATION FAUSSE ?",
+     "reponse": "l’émetteur d’un transistor PNP est connectée au –  "
+    },
+    {
+     "num": "20708",
+     "question": "UN TRANSISTOR BIPOLAIRE EST COMPOSE DE :",
+     "reponse": "deux diodes montées tête bêche "
+    },
+    {
+     "num": "22468",
+     "question": "LEQUEL DE CES COMPOSANTS PEUT ASSURER UNE FONCTION D'AMPLIFICATION ?",
+     "reponse": "3"
+    }
+   ]
+  },
+  {
+   "id": "T062",
+   "ref": "6.2",
+   "nq": 19,
+   "depth": 2,
+   "anchors": [
+    "T062"
+   ],
+   "title_fr": "6.2)",
+   "questions": [
+    {
+     "num": "20142",
+     "question": "QUEL EST LE COURANT IC",
+     "reponse": "1,8m A"
+    },
+    {
+     "num": "20367",
+     "question": "CALCULER IC EN CONNAISSANT LE GAIN (BETA = 150) ET IB (10 A)",
+     "reponse": "1,5 mA"
+    },
+    {
+     "num": "20604",
+     "question": "SCHEMA ELECTRIQUE D'UN ETAGE AVEC UN TRANSISTOR ET DES RESISTANCES POUR L'ALIMENTER (PAS D'ENTREE NI DE SORTIE, ON NE SAIT DONC PAS LE MONTAGE UTILISE) : UN PONT DE RESISTANCES POUR FIXER LA TENSION DE BASE, UNE RESISTANCE DE COLLECTEUR ET UNE RESISTANCE D'EMETTEUR. TOUTES LES RESISTANCES ONT DES VALEURS (RCOLLECTEUR = 1500 OHMS). AUTRES INDICATIONS : IC = 1,5 MA, BETA = 150. CALCULER IBASE",
+     "reponse": "10 µA"
+    },
+    {
+     "num": "20710",
+     "question": "CALCUL IC AVEC IB ET IE DONNES",
+     "reponse": "188 mA"
+    }
+   ]
+  },
+  {
+   "id": "T063",
+   "ref": "6.3",
+   "nq": 6,
+   "depth": 3,
+   "anchors": [
+    "T063a",
+    "T063a1",
+    "T063a3"
+   ],
+   "title_fr": "a 6.3)",
+   "questions": [
+    {
+     "num": "20324",
+     "question": "QUELLE EST L'IMPEDANCE D'ENTREE D'UN AMPLIFICATEUR MONTE EN BASE COMMUNE ?",
+     "reponse": "basse"
+    },
+    {
+     "num": "20370",
+     "question": "DANS LE MONTAGE EN EMETTEUR COMMUN :",
+     "reponse": "L’impédance d’entrée est moyenne "
+    },
+    {
+     "num": "21140",
+     "question": "QUELLE EST L'AFFIRMATION FAUSSE ?",
+     "reponse": "En collecteur commun, le gain en intensité est nul"
+    },
+    {
+     "num": "21149",
+     "question": "DANS LE MONTAGE EMMETEUR COMMUN :",
+     "reponse": "L'impédance d'entrée est moyenne"
+    },
+    {
+     "num": "21306",
+     "question": "QUELLE EST L'IMPEDANCE D'ENTREE D'UN AMPLIFICATEUR EN BASE COMMUNE ?",
+     "reponse": "basse"
+    },
+    {
+     "num": "22484",
+     "question": "DANS UN AMPLIFICATEUR A EMETTEUR COMMUN, LORSQUE L'ON COMPARE LES SIGNAUX D'ENTREE ET DE SORTIE",
+     "reponse": "Les signaux de sortie et d'entrée sont déphasés de 180°"
+    }
+   ]
+  },
+  {
+   "id": "T064",
+   "ref": "6.4",
+   "nq": 3,
+   "depth": 3,
+   "anchors": [
+    "T064a",
+    "T064c"
+   ],
+   "title_fr": "Les transistors FET (Field Effect Transistor en anglais ou",
+   "questions": [
+    {
+     "num": "20146",
+     "question": "UN TRANSISTOR UNIJONCTION EST COMPOSE DE",
+     "reponse": "un émetteur et deux bases "
+    },
+    {
+     "num": "20347",
+     "question": "UN TRANSISTOR \"FET\" EST COMPOSE DE",
+     "reponse": "un drain, une porte et une source "
+    },
+    {
+     "num": "20853",
+     "question": "QUEL ELEMENT PEUT CONDUIRE L'ELECTRICITE ?",
+     "reponse": "transistor PPP "
+    }
+   ]
+  },
+  {
+   "id": "T065",
+   "ref": "6.5",
+   "nq": 0,
+   "depth": 3,
+   "anchors": [],
+   "title_fr": "Les tubes thermoïoniques (ou tubes",
+   "questions": []
+  },
+  {
+   "id": "T066",
+   "ref": "6.6",
+   "nq": 2,
+   "depth": 3,
+   "anchors": [
+    "T066",
+    "T066a"
+   ],
+   "title_fr": "Les autres tubes thermoïoniques : l'intensité plaque varie en insérant",
+   "questions": [
+    {
+     "num": "20844",
+     "question": "REPRESENTATION EN DESSIN (SCHEMA) DE TROIS LAMPES : QUEL EST LE NOM DE CES COMPOSNATS ?",
+     "reponse": "1 triode ; 2 tétrode ; 3 pentode "
+    },
+    {
+     "num": "21610",
+     "question": "QUELLE EST LA BONNE REPONSE ?",
+     "reponse": "1=triode, 2=pentode, 3=tétrode"
+    }
+   ]
+  },
+  {
+   "id": "T071",
+   "ref": "7.1",
+   "nq": 20,
+   "depth": 1,
+   "anchors": [
+    "T07",
+    "T071a",
+    "T071a1",
+    "T071a2",
+    "T071a3",
+    "T071b"
+   ],
+   "title_fr": "a 7.1)",
+   "questions": [
+    {
+     "num": "20147",
+     "question": "RENDEMENT D'UN TRANSISTOR MONTE EN CLASSE A",
+     "reponse": "moins de 100%"
+    },
+    {
+     "num": "20148",
+     "question": "QUELLE CLASSE D'AMPLIFICATION A UNE TENSION DE REPOS DE 0 VOLT ?",
+     "reponse": "Classe B"
+    },
+    {
+     "num": "20149",
+     "question": "QUEL TYPE DE MODULATION EST ADAPTE A UN AMPLIFICATEUR MONTE EN CLASSE C ?",
+     "reponse": "CW et FM "
+    },
+    {
+     "num": "20762",
+     "question": "COMMENT NOMME-T-ON UN DISPOSITIF DESTINE A AUGMENTER LA PUISSANCE D'UN SIGNAL ?",
+     "reponse": "un amplificateur "
+    }
+   ]
+  },
+  {
+   "id": "T072",
+   "ref": "7.2",
+   "nq": 2,
+   "depth": 3,
+   "anchors": [
+    "T072a"
+   ],
+   "title_fr": "a 7.2)",
+   "questions": [
+    {
+     "num": "20345",
+     "question": "SCHEMA D'UN CIRCUIT AVEC UN TRANSISTOR NPN OU IL FALLAIT\nIDENTIFIER LA RESISTANCE DE CHARGE.",
+     "reponse": "résistance de charge"
+    },
+    {
+     "num": "21151",
+     "question": "QUEL NOM DONNE-T-ON A R ?",
+     "reponse": "Résistance de charge"
+    }
+   ]
+  },
+  {
+   "id": "T073",
+   "ref": "7.3",
+   "nq": 1,
+   "depth": 3,
+   "anchors": [
+    "T073a"
+   ],
+   "title_fr": "a 7.3)",
+   "questions": [
+    {
+     "num": "21155",
+     "question": "UNE LIAISON ENTRE DEUX ETAGES D'AMPLIFICATION PAR TRANSFORMATEUR :",
+     "reponse": "permet d'adapter les impédances des circuits"
+    }
+   ]
+  },
+  {
+   "id": "T074",
+   "ref": "7.4",
+   "nq": 22,
+   "depth": 1,
+   "anchors": [
+    "T074",
+    "T074a",
+    "T074b2"
+   ],
+   "title_fr": "Un amplificateur",
+   "questions": [
+    {
+     "num": "20150",
+     "question": "TAUX DE DISTORSION DE L'HARMONIQUE 3",
+     "reponse": "20 %"
+    },
+    {
+     "num": "20369",
+     "question": "SCHEMA AVEC FREQUENCE  FONDAMENTALE F = 10 V PUIS 2F = 4 V, PUIS 3F = 3 V \nTAUX DE DISTORSION MAXIMAL ?",
+     "reponse": "40 %"
+    },
+    {
+     "num": "20486",
+     "question": "A QUOI SERT UNE SELF DE CHOC ?",
+     "reponse": "à éviter les retours HF "
+    },
+    {
+     "num": "20611",
+     "question": "AVEC QUEL INSTRUMENT MESURE-T-ON LES HARMONIQUES?",
+     "reponse": "un analyseur de spectre "
+    }
+   ]
+  },
+  {
+   "id": "T075",
+   "ref": "7.5",
+   "nq": 5,
+   "depth": 3,
+   "anchors": [
+    "T075a",
+    "T075d",
+    "T075e"
+   ],
+   "title_fr": "a 7.5)",
+   "questions": [
+    {
+     "num": "20706",
+     "question": "SCHEMA COMPORTANT 4 BLOCS EN CARRE : FILTRE DE BOUCLE-VCO ?- DIVISEURS - BLOC A TROUVER ? SUR LEQUEL EST INDIQUEE UNE FLECHE D'ENTREE NOMMEE REFERENCE",
+     "reponse": "comparateur de phase "
+    },
+    {
+     "num": "20775",
+     "question": "L'USAGE D'UN FREQUENCEMETRE PERMET DE :",
+     "reponse": "mesurer les fréquences"
+    },
+    {
+     "num": "21156",
+     "question": "NOM DE L'ETAGE",
+     "reponse": "Diviseur"
+    },
+    {
+     "num": "21157",
+     "question": "NOM DE L'ETAGE",
+     "reponse": "Convertisseur N/A"
+    },
+    {
+     "num": "22462",
+     "question": "QUEL EST LE NOM REPERE PAR UN POINT D'INTERROGATION DANS CETTE BOUCLE A VERROUILLAGE DE PHASE ?",
+     "reponse": "Comparateur de phase"
+    }
+   ]
+  },
+  {
+   "id": "T076",
+   "ref": "7.6",
+   "nq": 7,
+   "depth": 3,
+   "anchors": [
+    "T076"
+   ],
+   "title_fr": "Un multiplicateur de",
+   "questions": [
+    {
+     "num": "20532",
+     "question": "UN SIGNAL FM AVEC 4 KHZ DE BANDE PASSANTE PASSE DANS UN MULTIPLICATEUR PAR 2, \nQUELLE LARGEUR AURA LE SIGNAL EN SORTIE DU MULTIPLICATEUR ?",
+     "reponse": "8 kHz"
+    },
+    {
+     "num": "20592",
+     "question": "EXCURSION SIGNAL FM DE 3 KHZ QUI EST DOUBLE EN FREQUENCE ?",
+     "reponse": "6 kHz"
+    },
+    {
+     "num": "20827",
+     "question": "UN CIRCUIT DONT LES COMPOSANTS SONT ACCORDES POUR RESONNER SUR UNE FREQUENCE PLUS ELEVEE QUE LA FREQUENCE APPLIQUEE EST VRAISEMBLABLEMENT",
+     "reponse": "Multiplicateur fréquence "
+    },
+    {
+     "num": "20828",
+     "question": "QUELLE EST L'EXCURSION D'UN SIGNAL FM DONT ON DOUBLE LA FREQUENCE ?",
+     "reponse": "l’excursion double aussi "
+    },
+    {
+     "num": "21501",
+     "question": "QUELLE EST L'AFFIRMATION VRAIE ?",
+     "reponse": "un multiplicateur RF est souvent monté en classe C"
+    },
+    {
+     "num": "23709",
+     "question": "SIGNAL FM DOUBLEUR DE FREQUENCE",
+     "reponse": "2 Δ"
+    },
+    {
+     "num": "23710",
+     "question": "SIGNAL FM TRIPLEUR",
+     "reponse": "3 Δ"
+    }
+   ]
+  },
+  {
+   "id": "T077",
+   "ref": "7.7",
+   "nq": 25,
+   "depth": 1,
+   "anchors": [
+    "T077",
+    "T077a",
+    "T077b",
+    "T077c"
+   ],
+   "title_fr": "a 7.7)",
+   "questions": [
+    {
+     "num": "20152",
+     "question": "UN MELANGEUR EST :",
+     "reponse": "un additionneur et un soustracteur de fréquences "
+    },
+    {
+     "num": "20155",
+     "question": "AMPLIFICATEUR RF - FREQUENCE EN SORTIE",
+     "reponse": "5, 145 , 150 , 290, 295 et 300 MHz "
+    },
+    {
+     "num": "20494",
+     "question": "UN MELANGEUR",
+     "reponse": "additionne et soustrait les fréquences "
+    },
+    {
+     "num": "20856",
+     "question": "QUELLE EST LA FREQUENCE A LA SORTIE DU MELANGEUR ? \nF1 = 10 MHZ ET F2 = 15 MHZ",
+     "reponse": "25 MHz"
+    }
+   ]
+  },
+  {
+   "id": "T081",
+   "ref": "8.1",
+   "nq": 1,
+   "depth": 3,
+   "anchors": [
+    "T081b"
+   ],
+   "title_fr": "Les Amplificateurs",
+   "questions": [
+    {
+     "num": "21161",
+     "question": "DANS UN AMPLIFICATEUR OPERATIONNEL,",
+     "reponse": "les impédances d'entrée sont infinies"
+    }
+   ]
+  },
+  {
+   "id": "T082",
+   "ref": "8.2",
+   "nq": 16,
+   "depth": 2,
+   "anchors": [
+    "T082",
+    "T082b"
+   ],
+   "title_fr": "Le montage",
+   "questions": [
+    {
+     "num": "20160",
+     "question": "GAIN EN TENSION",
+     "reponse": "-33"
+    },
+    {
+     "num": "20161",
+     "question": "GAIN EN TENSION",
+     "reponse": "-15"
+    },
+    {
+     "num": "20386",
+     "question": "AMPLI OP AVEC RESISTANCE DE CONTRE-RACTION = 4700 OHMS ET RESISTANCE D'ENTREE = 100 OHMS INDICATION DE LA TENSION D'ENTREE : 0,2 V. QUELLE EST LA TENSION DE SORTIE ?",
+     "reponse": "- 9,4 V"
+    },
+    {
+     "num": "20661",
+     "question": "SCHEMA D'UN AMPLI OP INVERSEUR AVEC R= 2KOHMS ET R = 30 KOHMS; GAIN = ?",
+     "reponse": "-15"
+    }
+   ]
+  },
+  {
+   "id": "T083",
+   "ref": "8.3",
+   "nq": 5,
+   "depth": 3,
+   "anchors": [
+    "T083"
+   ],
+   "title_fr": "8.3)",
+   "questions": [
+    {
+     "num": "20166",
+     "question": "GAIN EN TENSION",
+     "reponse": "2,5"
+    },
+    {
+     "num": "20167",
+     "question": "GAIN EN TENSION",
+     "reponse": "16 "
+    },
+    {
+     "num": "20411",
+     "question": "AMPLI OP MONTE EN NON INVERSEUR QUEL EST LE GAIN",
+     "reponse": "+ 5,7"
+    },
+    {
+     "num": "20510",
+     "question": "SCHEMA BIZARRE D'UN AMPLI OP MONTE EN NON INVERSEUR CAR, DANS LES REPONSES PROPOSEES, IL N'Y AVAIT PAS -R2/R1 MAIS SEULEMENT R2/R1 + 1.",
+     "reponse": "+ 1,333"
+    },
+    {
+     "num": "20603",
+     "question": "SCHEMA PAS TRES CONVENTIONNEL D'UN AMPLI OP MONTE EN NON INVERSEUR (SIGNAL SUR ENTREE POSITIVE DE L'AMPLI OP). R2 = 4,7 KOHMS ET R1 = 1 KOHM. QUEL EST LE GAIN EN TENSION ?",
+     "reponse": "+ 5,7"
+    }
+   ]
+  },
+  {
+   "id": "T084",
+   "ref": "8.4",
+   "nq": 3,
+   "depth": 3,
+   "anchors": [
+    "T084a",
+    "T084a4",
+    "T084a5"
+   ],
+   "title_fr": "a 8.4)",
+   "questions": [
+    {
+     "num": "20747",
+     "question": "SCHEMA COMPORTANT A GAUCHE DEUX PORTES ET. LA PREMIERE EST UNE FONCTION NON A ET B, LA SECONDE EST UNE FONCTION A ET NON B. LES SORTIES DE CES DEUX PORTES SONT RELIEES AUX DEUX ENTREES D'UNE PORTE OU A LA SORTIE DE LAQUELLE EST INDIQUE \"S = ?\"",
+     "reponse": "une porte XOR"
+    },
+    {
+     "num": "21505",
+     "question": "VALEUR D'ENTREES DE LA PORTE LOGIQUE",
+     "reponse": "E1 = 1 et E2 = 1                     "
+    },
+    {
+     "num": "21600",
+     "question": "QUELLE EST LA FONCTION REALISEE ?",
+     "reponse": "Inverseur"
+    }
+   ]
+  }
+ ]
+}

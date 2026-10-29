@@ -1,0 +1,284 @@
+[
+ {
+  "sec": "目录",
+  "anchor": "",
+  "text": "附录：考试战术 · 公式速查 · Q 简语 · 字母解释法 · 高频词汇 · 章节权重 · 待核实清单",
+  "id": "P01"
+ },
+ {
+  "sec": "§R-1.1 监管环境：国际、欧洲与法国的三级体系 · Environnement réglementaire #R11 #R11a #R11b #R11c",
+  "anchor": "R11c",
+  "text": "⚠️ 待核实：原文（2025 年 11 月版）指出，一项可能允许业余电台接入公共网络（réseau ouvert au public）的 CPCE 新条文法令「仍在起草，截至本文件出版尚未公布」（草案曾在 2018 年一次书面咨询中提出）",
+  "id": "P02"
+ },
+ {
+  "sec": "§R-1.2.a 发射类别：三字符表示法 · Les classes d'émission #R12a",
+  "anchor": "R12a",
+  "text": "⚠️ 待核实：原文称「上表中以斜体标出的定义，业余无线电爱好者不使用」，但 PDF 转纯文本时丢失了斜体信息，无法确定具体指哪些条目",
+  "id": "P03"
+ },
+ {
+  "sec": "§R-1.2.a 发射类别：三字符表示法 · Les classes d'émission #R12a",
+  "anchor": "R12a",
+  "text": "⚠️ 待核实：原文在讲第 2 个字符的编码逻辑时，把 1、2 表述为「简单／进阶」，措辞不够明确",
+  "id": "P04"
+ },
+ {
+  "sec": "§R-1.2.b 发射类别的授权与使用限制 · Les classes d'émission #R12b",
+  "anchor": "R12b",
+  "text": "⚠️ 待核实：原文要求「须遵守 §R-1.3b 定义的占用带宽」，但本块原文并未给出各频段的具体带宽数值，需查该节原文（属其他分块）",
+  "id": "P05"
+ },
+ {
+  "sec": "§R-1.3 技术条件总论：强制设备、频率精度与稳定度 · Conditions techniques #R13 #R013b",
+  "anchor": "R013b",
+  "text": "⚠️ 待核实：题库题 32561 问「以 A3E（调幅电话）方式工作时，持原 1 类发射许可的操作员禁止在哪个频率发射」，答案为 14.000 kHz（即 14 MHz）",
+  "id": "P06"
+ },
+ {
+  "sec": "§R-1.3.a 现行强制设备：只剩功率指示器 · Conditions techniques #R13a",
+  "anchor": "R13a",
+  "text": "⚠️ 待核实：题库题 30756 问「市电滤波器（filtre secteur）在业余电台中是否强制」，答案为「Oui」（是），这与原文「自 décision 12-1241 起唯一强制的是功率指示器」直接冲突",
+  "id": "P07"
+ },
+ {
+  "sec": "§R-1.3.b 占用带宽（bande occupée）的限值 · Conditions techniques #R13b",
+  "anchor": "R13b",
+  "text": "⚠️ 待核实：题库两题的口径不一致——28,500 MHz 一题给「±6 kHz（±半个上限）」，145,500 MHz 一题直接给「20 kHz（整个上限）」",
+  "id": "P08"
+ },
+ {
+  "sec": "§R-2.1.b 27 个业余频段的频率范围与业务地位（全表） · R-2.1) #R21b",
+  "anchor": "R21b",
+  "text": "⚠️ 待核实：注释 1 的原文写作「les bandes des 2222, 630 et 60 mètres」，即把 2200 m 频段写成了「2222」",
+  "id": "P09"
+ },
+ {
+  "sec": "§R-2.1.d 频段注释与 50 MHz 频段的历史 · R-2.1) #R21d",
+  "anchor": "R21d",
+  "text": "⚠️ 待核实：题库题 30919 问「433,750 至 434,250 MHz 这一子频段可以在哪里使用」，答案为「在留尼汪（La Réunion）」",
+  "id": "P10"
+ },
+ {
+  "sec": "§R-3.2 其余的缩写：RST 报告、code Z 与 Morse 缩写 · Abréviations en code Q (annexe I de l'arrêté du 21",
+  "anchor": "R32d",
+  "text": "⚠️ 待核实：原文说考试会考其中「3 个带下划线的缩写」，但 PDF 转文本后下划线信息丢失，无法确认是哪 3 个",
+  "id": "P11"
+ },
+ {
+  "sec": "§R-3.2 其余的缩写：RST 报告、code Z 与 Morse 缩写 · Abréviations en code Q (annexe I de l'arrêté du 21",
+  "anchor": "R32d",
+  "text": "⚠️ 待核实：原文 §R-3.2.d 把 TX 注为 « Emetteur »（发射机），而考题答案给的是 « Transceiver »（收发信机），两者不一致，应以题库答案为准",
+  "id": "P12"
+ },
+ {
+  "sec": "§R-3.3 通联的实施：呼号发送时机、避免干扰与相关义务 · Déroulement d'un contact #R33 #R33a #R33b",
+  "anchor": "R33b",
+  "text": "⚠️ 待核实：本块原文 §R-3.3 讲的是「通联的实施」，并未涉及考试的科目、时长、计分与及格线",
+  "id": "P13"
+ },
+ {
+  "sec": "§R-4.6.c 特殊呼号（indicatifs spéciaux）：TM、TK、TO、TX、FX · R-4.6.c) Les indicatifs spéciaux #R46c",
+  "anchor": "R46c",
+  "text": "⚠️ 待核实：原文对特殊呼号后缀的表述自相矛盾——先写「2 至 7 个字符」，随即写「1 至 3 个数字 + 4 个字符」（即至少 5 个字符），而给出的例子 TM9A 只有 2 个字符",
+  "id": "P14"
+ },
+ {
+  "sec": "§R-4.7.a CEPT 短期停留：呼号的组成与 /P、/M 后缀 · R-4.7.a) Utilisation de l'autorisation d'émettre dans",
+  "anchor": "R47a",
+  "text": "⚠️ 待核实：真题问「CEPT 外国操作员在 28,750 MHz 上获准的功率」，答案为 250 W，但本段原文并未给出任何功率数值，功率限制不在本节内",
+  "id": "P15"
+ },
+ {
+  "sec": "§R-4.7.b CEPT 成员国及其呼号前缀总表（国别识别） · R-4.7.b) Liste des pays membres de la CEPT et de leurs p",
+  "anchor": "R47b",
+  "text": "⚠️ 待核实：原文称「CEPT 共有 46 个成员国」，但主表实际列出 45 个国家/地区",
+  "id": "P16"
+ },
+ {
+  "sec": "§R-5.2.b 波段（gammes d'onde）划分与频率/波长换算 · Les gammes d'onde #R52b",
+  "anchor": "R52b",
+  "text": "⚠️ 待核实：原文表格把 VLF（万米波）的范围写作「超过 10 km」，没有给出上限",
+  "id": "P17"
+ },
+ {
+  "sec": "§R-5.2.h 视在辐射功率 PAR 与等效全向辐射功率 PIRE · Puissance apparente rayonnée (PAR) et puissance isotr",
+  "anchor": "R52h",
+  "text": "⚠️ 待核实：原文只分别定义了 PAR（参考半波振子）与 PIRE（参考各向同性天线），并未写出二者相差 2,14 dB 这一换算关系",
+  "id": "P18"
+ },
+ {
+  "sec": "§R-5.4 干扰与电子设备的防护（电磁兼容 CEM） · Brouillage et protection des équipements électroniques (CEM)",
+  "anchor": "R54d",
+  "text": "⚠️ 待核实：cours_W4b 的 § R-5.4 只讲现象与措施，没有讲测量仪器",
+  "id": "P19"
+ },
+ {
+  "sec": "§0.1 方程的变换：一个方程就是一个等式 · Transformation d'équation : une équation est une expression mathém",
+  "anchor": "T001",
+  "text": "⚠️ 待核实：原文 §0.1 的「方程变换一览表」以及本段末尾用来说明变换的「汤姆孙定律（loi de Thomson）」示例，在 PDF 中以图形／公式图形式排版，转成文本后其具体内容未保留",
+  "id": "P20"
+ },
+ {
+  "sec": "§1.1 电学的四个基本量：电流、电压、电阻、功率 · Les quatre grandeurs de base de l'électricité #T011 #T011c #T0",
+  "anchor": "T011d",
+  "text": "⚠️ 待核实：原文 §1.1 只讲了电流表（ampèremètre）的接线与画法，未提及检流计（galvanomètre）",
+  "id": "P21"
+ },
+ {
+  "sec": "§1.5.c 电阻的标准化数值、种类与耗散功率选型 · Résistances : séries normées, types et puissance de dissipatio",
+  "anchor": "T015c",
+  "text": "⚠️ 待核实：原文 §1.5a 的容差色环表在 PDF 转文本后行序错乱（残留为「sans bague: 20% 1 % 2 % / 0,5 % 0,25 % 0,1 % / 5 % 10 %」）",
+  "id": "P22"
+ },
+ {
+  "sec": "§2.3.g2 电容器的串并联（等效容量）、电压分配与品质因数 Q · 2.3g2) Groupement de condensateurs #T023g2",
+  "anchor": "T023g2",
+  "text": "⚠️ 待核实：题库中本锚点（T023g2）题量最大，且带有谐振/品质因数一类考点",
+  "id": "P23"
+ },
+ {
+  "sec": "§3.4 检流计、电压表与电流表：量程扩展与仪表接入 · 3.4) Galvanomètres #T034 #T034a #T034b",
+  "anchor": "T034b",
+  "text": "⚠️ 待核实（两条）：(1) 题库中有“用什么仪表测量非常大的电流”一题，正确答案写作“热式电流表（ampèremètre thermique）”，但原文 §3.4 只讲解了用分流电阻扩大量程的方法，并未提到热式电流表，需向原教材或 ANFR 官方题库核实这一测量的正式",
+  "id": "P24"
+ },
+ {
+  "sec": "§3.5 电压表的品质（Ω/V）与量程扩展 · 3.5) Qualité des voltmètres (Ω/V) #T035 #T035a",
+  "anchor": "T035a",
+  "text": "⚠️ 待核实：原文 §3.5 例题 2 的数字前后矛盾",
+  "id": "P25"
+ },
+ {
+  "sec": "§4.2 RC 电路：截止频率、低通/高通判别、八度与十倍频程 · 4.2) Les circuits RC #T042 #T042a #T042c #T042d #T042e",
+  "anchor": "T042e",
+  "text": "⚠️ 待核实：本单元考纲要点含「时间常数」，但 W7 段的原文（§4.2）只讲截止频率，没有给出时间常数公式 τ = R·C（它属于教材「电容器充电」一节，§2.4a）",
+  "id": "P26"
+ },
+ {
+  "sec": "§4.3 LC 电路：谐振（汤姆逊定律）、bouchon 与 série、衰减斜率与阶数 · 4.3) Les circuits LC #T043 #T043a #T043b #T",
+  "anchor": "T043f",
+  "text": "⚠️ 待核实：原文 §4.3b 的「四种基本 LC 接法对照表」在 PDF 中是图片，转成文本后没有表内容，只剩那句口诀",
+  "id": "P27"
+ },
+ {
+  "sec": "§4.4 RLC 电路：谐振阻抗、品质因数 Q、带宽与选择性 · 4.4) Les circuits RLC #T044 #T044a #T044a2 #T044a3 #T044b",
+  "anchor": "T044e",
+  "text": "⚠️ 待核实：原文 §4.4d 这道例题的单位在 PDF 转文本时丢失（「540 和 600」未标单位，按图推断为 kHz），「24 V / √20」的算式也在转文本时被截断",
+  "id": "P28"
+ },
+ {
+  "sec": "§5.1 二极管（diode）：结构与单向导电、极性识别 · 5.1) Les diodes #T051 #T051a",
+  "anchor": "T051a",
+  "text": "⚠️ 待核实：本单元的真题 20678、20679 考的是电阻色环（code des couleurs），但 W7 这段原文没有给出色环表（该表属于教材元件识别一节）",
+  "id": "P29"
+ },
+ {
+  "sec": "§6.6 其它电子管：三极管、四极管、五极管 · Les autres tubes thermoïoniques : triode, tétrode, pentode #T066 ",
+  "anchor": "T066a",
+  "text": "⚠️ 待核实：题库中识别管子符号的两道真题给出的编号顺序相反（一题是 1 三极管 / 2 四极管 / 3 五极管，另一题是 1 三极管 / 2 五极管 / 3 四极管），说明两题配的图不同",
+  "id": "P30"
+ },
+ {
+  "sec": "§7.1 放大器的分类（A、B、C、D、AB 类） · Les classes d'amplification (ou de polarisation) #T071 #T07 #T",
+  "anchor": "T071b",
+  "text": "⚠️ 待核实：原文只用「信号被放大的部分」描述 B 类和 C 类，并未使用「导通角（angle de conduction）」一词，也没有给出 180°/360° 之类的角度数值",
+  "id": "P31"
+ },
+ {
+  "sec": "§7.4 射频放大器、增益与失真（含谐波失真率计算） · L'amplificateur R.F. et les distorsions #T074 #T074a #T074b2",
+  "anchor": "T074b2",
+  "text": "⚠️ 待核实：本块原文（§7.4）没有给出射频放大器「增益」的计算公式，也没有以 dB 表示增益的算式（该内容在 §4.1f，不在本块）",
+  "id": "P32"
+ },
+ {
+  "sec": "§7.7 混频器：和频与差频 · Le mélangeur #T077 #T077a #T077b #T077c",
+  "anchor": "T077c",
+  "text": "⚠️ 待核实：本块原文 §7.7 全程没有出现「中频（fréquence intermédiaire）」和「镜像频率（fréquence image）」这两个术语，也没有超外差接收机的框图",
+  "id": "P33"
+ },
+ {
+  "sec": "§7.7 混频器：和频与差频 · Le mélangeur #T077 #T077a #T077b #T077c",
+  "anchor": "T077c",
+  "text": "⚠️ 待核实：真题 20155「射频放大器—输出端频率」的原图未包含在本块原文中，答案（5、145、150、290、295 和 300 MHz）只能按题库答案键转述，其中 300 MHz 对应哪一种混频组合需按原图核实",
+  "id": "P34"
+ },
+ {
+  "sec": "§9.2 电波传播：地波、反射波、空间波与波段划分 · Propagation : Les ondes radioélectriques #T092 #T092b #T092c",
+  "anchor": "T092c",
+  "text": "⚠️ 待核实：原文 §9.2c 说「下表给出整个无线电频谱：波段、波长、各波段对应的频率，最后一行还给出各波段的传播方式」，但这张表在 PDF 转文本时丢失，只留下这段说明文字",
+  "id": "P35"
+ },
+ {
+  "sec": "§9.2 电波传播：地波、反射波、空间波与波段划分 · Propagation : Les ondes radioélectriques #T092 #T092b #T092c",
+  "anchor": "T092c",
+  "text": "⚠️ 待核实：原文说地波「只在低频有效，超过 2 MHz 后强烈衰减」，但紧接着又给出 4 MHz 时 100 km、10 MHz 时 50 km 的期望距离，两处口径不完全一致",
+  "id": "P36"
+ },
+ {
+  "sec": "§9.4 天线的基本原理：辐射、驻波与极化 · Une antenne est un dispositif assurant la liaison entre le milieu ",
+  "anchor": "T094c",
+  "text": "⚠️ 待核实：本教材的文本版本不含 F6KGL 原书的插图，而题库中有若干题必须看图作答，例如题 21170「图中这个偶极天线是按哪个频率裁截的」、题 22474「哪一张图是自由空间中半波偶极的方向图」、题 21601「标注 A 的部分是」",
+  "id": "P37"
+ },
+ {
+  "sec": "§9.5 垂直四分之一波天线（Ground Plane）：接地与地网 · L'antenne quart d'onde verticale #T095 #T095a",
+  "anchor": "T095a",
+  "text": "⚠️ 待核实：题库中四分之一波天线的阻抗出现两个答案——题 21176 是 36 Ω，题 21177 是 50 Ω",
+  "id": "P38"
+ },
+ {
+  "sec": "§9.8 有效辐射功率（PAR / PIRE）与增益、馈线损耗的换算 · Puissance apparente rayonnée (P.A.R.) #T098",
+  "anchor": "T098",
+  "text": "⚠️ 待核实：题库题 20188 给出「10 W 接到增益标注 16 dBi 的天线」，标准答案为 400 W，即把 16 dBi 直接当作 16 dB 换算成比值 40（10 × 40）",
+  "id": "P39"
+ },
+ {
+  "sec": "§9.10 天线补充：功率密度、场强、极化、阻抗、效率、环形天线与抛物面 · Compléments sur les antennes #T0910 #T0910e #T0910g",
+  "anchor": "T0910j",
+  "text": "⚠️ 待核实：真题 20427 要用 C = 400 pF、L = 25 nH 求陷波器的谐振频率，标准答案为 50 MHz",
+  "id": "P40"
+ },
+ {
+  "sec": "§10.2 特性阻抗（impédance caractéristique）：50 Ω、缩短系数与波导 · L'impédance caractéristique #T102 #T1",
+  "anchor": "T102c",
+  "text": "⚠️ 待核实：真题 20360、20385 的同轴电缆图只给出两个直径，没有注明介质",
+  "id": "P41"
+ },
+ {
+  "sec": "§10.2 特性阻抗（impédance caractéristique）：50 Ω、缩短系数与波导 · L'impédance caractéristique #T102 #T1",
+  "anchor": "T102c",
+  "text": "⚠️ 待核实：原文 §10.2 只讲了\"直径比 3,5 ⇒ 50 Ω\"以及损耗、速度系数，没有解释工程上为什么普遍选 50 Ω 而不是 75 Ω（常见说法是\"兼顾最大功率容量与最小损耗\"）",
+  "id": "P42"
+ },
+ {
+  "sec": "§11.3 镜像频率（fréquence image） · Fréquence image #T113 #T113a",
+  "anchor": "T113a",
+  "text": "⚠️ 待核实：本分块的法文原文在 §11.3 开头处被截断，只给出了镜像频率的定义（\"由反向混频得到的频率\"）",
+  "id": "P43"
+ },
+ {
+  "sec": "§11.5 发射机的框图：从话筒到天线的各级 · Synoptique d'un émetteur #T115",
+  "anchor": "T115",
+  "text": "⚠️ 待核实：本块原文的 §11.5 只提到话筒、调制器（含高频振荡器）、谐波滤波器、天线插座以及收发切换装置，并未出现「缓冲级（étage tampon / buffer）」「激励级（excitateur / driver）」「天线匹配网络（adaptation d'",
+  "id": "P44"
+ },
+ {
+  "sec": "§12.3 调幅（AM）：调制深度、包络与功率 · La Modulation d'Amplitude #T123 #T123b #T123c #T123d #T123e",
+  "anchor": "T123e",
+  "text": "⚠️ 待核实：本块原文只说明了 AM 的频谱是「载波 + 两条边带（HF ± BF）」，并没有写出「AM 带宽 = 2 × 最高调制频率」这个公式",
+  "id": "P45"
+ },
+ {
+  "sec": "§12.4 调频（FM）与调相（PM）：鉴频器、频偏与卡森规则 · La Modulation de Fréquence #T124 #T124b #T124d",
+  "anchor": "T124d",
+  "text": "⚠️ 待核实：原文说调制指数小于 1（NBFM）时带宽「偏离卡森规则而接近 AM 的带宽」，但没有给出此时应使用的替换公式",
+  "id": "P46"
+ },
+ {
+  "sec": "§12.6 单边带（BLU/SSB）与各类发射的占用带宽 · La Bande Latérale Unique (BLU) #T126 #T126d #T126h",
+  "anchor": "T126h",
+  "text": "⚠️ 待核实：本块原文并未给出各类发射占用带宽的法定上限（那属于法规章节的内容），上表只比较各项的构成关系",
+  "id": "P47"
+ }
+]

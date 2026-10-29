@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+"""Validate the delivered textbook and assets without rebuilding or changing them."""
+import base64
+import csv
+import json
+from pathlib import Path
+import re
+import sys
+import zipfile
+
+from bs4 import BeautifulSoup
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def main():
+    document = (ROOT / 'manuel-zh.html').read_text(encoding='utf-8')
+    soup = BeautifulSoup(document, 'html.parser')
+    plan = json.loads((ROOT / 'source/plan.json').read_text(encoding='utf-8'))
+    guide = json.loads((ROOT / 'source/study_guide.json').read_text(encoding='utf-8'))
+    bank = json.loads((ROOT / 'source/Exam1/questions/questions.json').read_text(encoding='utf-8'))
+    by_number = {q['num']: q for q in bank['questions']}
+    expected = sum(len(unit.get('picks', [])) for unit in plan['units'])
+    questions = soup.select('.exam-question')
+    assert len(questions) == expected == 455, '课后题数量不匹配'
+    assert len(soup.select('.chapter-summary')) == len(guide['chapters']) == 18
+    assert len(soup.select('.section-summary')) == len(guide['sections']) == 126
+    assert all(body.select('.exam-key') for body in soup.select('.lesson-body'))
+    ids = [tag['id'] for tag in soup.select('[id]')]
+    assert len(ids) == len(set(ids)), '存在重复锚点'
+    missing = {a['href'][1:] for a in soup.select('a[href^="#"]')} - set(ids)
+    assert not missing, f'损坏的章节链接：{sorted(missing)}'
+    normalize = lambda s: re.sub(r'\s+', ' ', s).strip()
+    for question in questions:
+        number = question['data-question']
+        source = by_number[number]
+        options = question.select('.quiz-choice')
+        assert len(options) == 4, number
+        assert [normalize(n.get_text('\n')) for n in question.select('.quiz-choice-fr')] == [
+            normalize(p) for p in source['propositions']], number
+        assert len(question.select('.quiz-choice[data-ok="1"]')) == 1, number
+        assert options[source['reponse']].get('data-ok') == '1', number
+        assert all(n.has_attr('hidden') for n in question.select('.quiz-tr')), number
+        assert not question.select_one('.quiz-answer').has_attr('open'), number
+        wrapper = question.select_one('.quiz-image')
+        assert not wrapper.has_attr('hidden'), number
+        image = wrapper.find('img')
+        assert image['src'].startswith('data:image/png;base64,'), number
+        assert base64.b64decode(image['src'].split(',', 1)[1]) == (
+            ROOT / f'source/Exam1/questions/{number}.png').read_bytes(), number
+    script = soup.find(id='manual-quiz-script').get_text()
+    for key in ('c', 'x', 'z', 'arrowdown', 'arrowup'):
+        assert f"key === '{key}'" in script, key
+    assert 'quiz-feedback' not in document, '已删除的文字反馈不应重新出现'
+    with (ROOT / 'data/vocabulaire.csv').open(encoding='utf-8', newline='') as source:
+        vocabulary = list(csv.reader(source))
+    assert len(vocabulary) - 1 == 1069, '词表数量不匹配'
+    decks = sorted((ROOT / 'decks').glob('*.apkg'))
+    assert len(decks) == 8, '卡包缺失'
+    for path in decks:
+        with zipfile.ZipFile(path) as package:
+            assert package.testzip() is None, f'卡包损坏：{path.name}'
+            assert any(n.startswith('collection.') for n in package.namelist()), path.name
+    for path in [ROOT / 'README.md', *sorted((ROOT / 'docs').glob('*.md'))]:
+        for target in re.findall(r'\]\(([^)]+)\)', path.read_text(encoding='utf-8')):
+            if re.match(r'(?:https?://|#)', target):
+                continue
+            local = target.split('#', 1)[0]
+            assert (path.parent / local).exists(), f'{path.name}: {target}'
+    print(f'通过：18 章 / 126 节 / {expected} 道课后题，题图、选项、默认状态、快捷键与锚点完整。')
+    print(f'通过：{len(vocabulary)-1} 条词汇、{len(decks)} 个 Anki 包与文档链接完整。')
+
+
+if __name__ == '__main__':
+    try:
+        main()
+    except (AssertionError, KeyError, FileNotFoundError, zipfile.BadZipFile) as error:
+        print(f'检查失败：{error}', file=sys.stderr)
+        sys.exit(1)

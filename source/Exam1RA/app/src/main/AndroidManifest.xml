@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="false"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            >
+        <activity android:name=".CoursViewer" android:exported="false">
+        </activity>
+        <activity android:name=".QuestionsDownload"
+                  android:configChanges="keyboardHidden|orientation|screenSize"
+                  android:exported="false">
+        </activity>
+        <activity
+                android:name=".QuestionViewer"
+                android:label="@string/question"
+                android:theme="@style/Theme.Material3.DayNight.NoActionBar"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:exported="false"
+        />
+        <activity
+                android:name=".ExamenResults"
+                android:label="@string/resultats"
+                android:theme="@style/Theme.Material3.DayNight.NoActionBar"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:exported="false">
+
+        </activity>
+        <activity
+                android:name=".OpenSource"
+                android:label="@string/opensource"
+                android:exported="false">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".MainActivity"/>
+        </activity>
+        <activity
+                android:name=".Remerciements"
+                android:label="@string/remerciement"
+                android:exported="false">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".MainActivity"/>
+        </activity>
+        <activity android:name=".ExamenActivity"
+                  android:configChanges="keyboardHidden|orientation|screenSize"
+                  android:exported="false"
+                  android:theme="@style/Theme.Material3.DayNight.NoActionBar"
+        >
+        </activity>
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

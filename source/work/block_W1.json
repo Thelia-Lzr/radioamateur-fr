@@ -1,0 +1,107 @@
+{
+ "block": "W1",
+ "lines": [
+  852,
+  1741
+ ],
+ "units": [
+  {
+   "id": "R11",
+   "ref": "R-1.1",
+   "nq": 33,
+   "depth": 1,
+   "anchors": [
+    "R11a",
+    "R11b",
+    "R11c"
+   ],
+   "title_fr": "R-1.1)",
+   "questions": [
+    {
+     "num": "30060",
+     "question": "QUEL ORGANISME EN FRANCE GERE LES FREQUENCES ?",
+     "reponse": "ANFR"
+    },
+    {
+     "num": "30063",
+     "question": "QUE SIGNIFIE LES LETTRES :\nU . I . T",
+     "reponse": "Union Internationale des Télécommunications"
+    },
+    {
+     "num": "30245",
+     "question": "DANS LE CADRE DE LA RECOMMANDATION T/R 61-01, QUELLE EST LA DUREE MAXIMUM D'UTILISATION DE L'INDICATIF D'ORIGINE SANS QUE L'ON AIT A DEMANDER UN INDICATIF D'APPEL DANS LE PAYS CONCERNE ?",
+     "reponse": "3 Mois"
+    },
+    {
+     "num": "30286",
+     "question": "* QUE SIGNIFIE LES LETTRES: I.A.R.U.",
+     "reponse": "International Amateur Radio Union"
+    }
+   ]
+  },
+  {
+   "id": "R12a",
+   "ref": "R-1.2.a",
+   "nq": 116,
+   "depth": 1,
+   "anchors": [
+    "R12a"
+   ],
+   "title_fr": "Les classes d'émission",
+   "questions": [
+    {
+     "num": "30053",
+     "question": "* SIGNIFICATION DE F2A ?",
+     "reponse": "2"
+    },
+    {
+     "num": "30600",
+     "question": "DANS LA CLASSE D'EMISSION A1A, QUE SIGNIFIE LE PREMIER A ?",
+     "reponse": "Modulation d'amplitude, double bande latérale, porteuse normale"
+    },
+    {
+     "num": "34722",
+     "question": "SYMBOLE DE LA CLASSE D'EMISSION POUR LA TELEVISION EN FM ?",
+     "reponse": "F3F"
+    },
+    {
+     "num": "37200",
+     "question": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, BANDE LATERALE UNIQUE,\nPORTEUSE REDUITE, SIGNAL ANALOGIQUE, FAC SIMILE ?",
+     "reponse": "R3C"
+    }
+   ]
+  },
+  {
+   "id": "R12b",
+   "ref": "R-1.2.b",
+   "nq": 18,
+   "depth": 2,
+   "anchors": [
+    "R12b"
+   ],
+   "title_fr": "Les classes d'émission",
+   "questions": [
+    {
+     "num": "30256",
+     "question": "A QUEL TYPE DE MODULATION CORRESPOND LE SCHEMA CI-DESSOUS ?",
+     "reponse": "Tout ou rien"
+    },
+    {
+     "num": "33101",
+     "question": "QUE SIGNIFIE LES LETTRES USB ?",
+     "reponse": "Upper Side Bande"
+    },
+    {
+     "num": "34792",
+     "question": "SIGNAL FM (MEME  AMPLITUDE)",
+     "reponse": "FM"
+    },
+    {
+     "num": "34944",
+     "question": "CODIFICATION D'UNE LARGEUR DE BANDE DE 2,5 KHZ",
+     "reponse": "2K50"
+    }
+   ]
+  }
+ ]
+}

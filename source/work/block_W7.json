@@ -1,0 +1,335 @@
+{
+ "block": "W7",
+ "lines": [
+  7211,
+  8392
+ ],
+ "units": [
+  {
+   "id": "T041",
+   "ref": "4.1",
+   "nq": 31,
+   "depth": 1,
+   "anchors": [
+    "T041b",
+    "T041d",
+    "T041f"
+   ],
+   "title_fr": "a 4.1)",
+   "questions": [
+    {
+     "num": "20437",
+     "question": "SCHEMA D'AMPLIFICATEUR AVEC TENSION DE SORTIE US = 8 V ET GAIN = 12 DB ; UE = ?",
+     "reponse": "2 V"
+    },
+    {
+     "num": "20461",
+     "question": "SCHEMA D'AMPLIFICATEUR AVEC 50 W EN ENTREE ET UN GAIN DE -10 DB. PUISSANCE EN SORTIE ?",
+     "reponse": "5 W"
+    },
+    {
+     "num": "20680",
+     "question": "QUEL EST LE GAIN TOTAL DE DEUX AMPLIFICATEURS EN SERIE, LE PREMIER ETANT DE 6 DB ET LE SECOND DE 4 DB ?",
+     "reponse": "10 dB"
+    },
+    {
+     "num": "20690",
+     "question": "UN AMPLI 20 W EN ENTREE ET +3DB, QUELLE EST LA PUISSANCE EN SORTIE ?",
+     "reponse": "40 W"
+    }
+   ]
+  },
+  {
+   "id": "T042",
+   "ref": "4.2",
+   "nq": 34,
+   "depth": 1,
+   "anchors": [
+    "T042a",
+    "T042c",
+    "T042d",
+    "T042e"
+   ],
+   "title_fr": "a 4.2)",
+   "questions": [
+    {
+     "num": "20112",
+     "question": "QUELLE EST LA FREQUENCE DE COUPURE",
+     "reponse": "1,6 MHz "
+    },
+    {
+     "num": "20114",
+     "question": "QUELLE EST LA FREQUENCE SUPERIEURE DE 1 OCTAVE A 2000 HZ ?",
+     "reponse": "4 000 Hz"
+    },
+    {
+     "num": "20122",
+     "question": "QUEL EST LE TYPE DE FILTRE",
+     "reponse": "passe haut à -6 dB/octave"
+    },
+    {
+     "num": "20687",
+     "question": "SCHEMA AVEC UN FILTRE PASSE-HAUT RC, UNE TENSION DE 4 V EN ENTREE, F=100 MHZ, DES VALEURS DE R ET C QUI DONNENT UNE FREQUENCE DE COUPURE DE 100 MHZ, ET ON DEMANDAIT LA TENSION EN SORTIE (AUX BORNES DE LA RESISTANCE)",
+     "reponse": "2,8 V "
+    }
+   ]
+  },
+  {
+   "id": "T043",
+   "ref": "4.3",
+   "nq": 33,
+   "depth": 1,
+   "anchors": [
+    "T043a",
+    "T043b",
+    "T043e",
+    "T043f"
+   ],
+   "title_fr": "Les circuits LC sont des filtres composés de bobines et de",
+   "questions": [
+    {
+     "num": "20124",
+     "question": "FREQUENCE DE RESONANCE",
+     "reponse": "34 MHz"
+    },
+    {
+     "num": "20616",
+     "question": "SCHEMA D'UN FILTRE LC PASSE HAUT, QUEL EST CE FILTRE ?",
+     "reponse": "Passe Haut"
+    },
+    {
+     "num": "21136",
+     "question": "ATTENUATION DE CE FILTRE ?",
+     "reponse": "12 dB/octave"
+    },
+    {
+     "num": "21607",
+     "question": "SUR CE CIRCUIT, AUGMENTER LA VALEUR DE L PROVOQUE ?",
+     "reponse": "Une diminution de la fréquence de résonance"
+    }
+   ]
+  },
+  {
+   "id": "T044",
+   "ref": "4.4",
+   "nq": 47,
+   "depth": 1,
+   "anchors": [
+    "T044",
+    "T044a",
+    "T044a2",
+    "T044a3",
+    "T044b1",
+    "T044b3",
+    "T044c",
+    "T044d",
+    "T044e"
+   ],
+   "title_fr": "Les circuits RLC sont des circuits LC non parfaits : le circuit est alors constitué",
+   "questions": [
+    {
+     "num": "20126",
+     "question": "IMPEDANCE DE LA RESONANCE",
+     "reponse": "50 kΩ"
+    },
+    {
+     "num": "20128",
+     "question": "FACTEUR Q A LA RESONANCE",
+     "reponse": "1,58"
+    },
+    {
+     "num": "20130",
+     "question": "ANDE PASSANTE",
+     "reponse": "107 kHz"
+    },
+    {
+     "num": "20131",
+     "question": "TAUX DE SELECTIVITE",
+     "reponse": "14 %"
+    }
+   ]
+  },
+  {
+   "id": "T045",
+   "ref": "4.5",
+   "nq": 0,
+   "depth": 3,
+   "anchors": [],
+   "title_fr": "Le filtre",
+   "questions": []
+  },
+  {
+   "id": "T046",
+   "ref": "4.6",
+   "nq": 6,
+   "depth": 3,
+   "anchors": [
+    "T046b"
+   ],
+   "title_fr": "4.6)",
+   "questions": [
+    {
+     "num": "20135",
+     "question": "CALCULER R EN CONNAISANT L C ET Q",
+     "reponse": "13 Ω"
+    },
+    {
+     "num": "20136",
+     "question": "CALCULER R EN CONNAISANT L C ET Q",
+     "reponse": "2 Ω"
+    },
+    {
+     "num": "20137",
+     "question": "CALCULER Z EN CONNAISANT L C ET Q",
+     "reponse": "200 000 Ω"
+    },
+    {
+     "num": "20138",
+     "question": "CALCULER Z EN CONNAISANT L C ET Q",
+     "reponse": "64 Ω"
+    },
+    {
+     "num": "20803",
+     "question": "SCHEMA AVEC UN CIRCUIT BOUCHON : L = 25 MICROH, C = 400 PICOF, Q = 75, IMPEDANCE A LA RESONANCE ?",
+     "reponse": "18 750 Ω"
+    },
+    {
+     "num": "23821",
+     "question": "CALCULER Z EN CONNAISANT L C ET Q",
+     "reponse": "50 kΩ"
+    }
+   ]
+  },
+  {
+   "id": "T051",
+   "ref": "5.1",
+   "nq": 10,
+   "depth": 2,
+   "anchors": [
+    "T051",
+    "T051a"
+   ],
+   "title_fr": "Les diodes",
+   "questions": [
+    {
+     "num": "20302",
+     "question": "QUELLE EST L'AFFIRMATION VRAIE ?",
+     "reponse": "le sens passant d’une diode est P>N "
+    },
+    {
+     "num": "20678",
+     "question": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : GRIS, MARRON, VERT, OR\nVALEUR DE LA RESISTANCE ?",
+     "reponse": "8,1 MΩ"
+    },
+    {
+     "num": "20679",
+     "question": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : ORANGE, BLEU, BLEU, OR\nVALEUR DE LA RESISTANCE ?",
+     "reponse": "36 MΩ"
+    },
+    {
+     "num": "20700",
+     "question": "QUEL EST LE SCHEMA CORRECT ? (4 SCHEMAS - POLARISATION DES DIODES)",
+     "reponse": "Schéma 2"
+    }
+   ]
+  },
+  {
+   "id": "T052",
+   "ref": "5.2",
+   "nq": 3,
+   "depth": 3,
+   "anchors": [
+    "T052a"
+   ],
+   "title_fr": "a 5.2)",
+   "questions": [
+    {
+     "num": "20139",
+     "question": "TENSION DE SEUIL D'UN DIODE GERMANIUM ?",
+     "reponse": "0,3 V"
+    },
+    {
+     "num": "20749",
+     "question": "QUELLE EST LA PARTICULARITE DE LA DIODE ZENER ?",
+     "reponse": "elle peut laisser passer le courant en inverse à la tension Zener"
+    },
+    {
+     "num": "22470",
+     "question": "QUELLE EST APPROXIMATIVEMENT LA TENSION MESUREE AUX BORNES D'UNE DIODE GERMANIUM PASSANTE ?",
+     "reponse": "0,3 V"
+    }
+   ]
+  },
+  {
+   "id": "T053",
+   "ref": "5.3",
+   "nq": 2,
+   "depth": 3,
+   "anchors": [
+    "T053a",
+    "T053f"
+   ],
+   "title_fr": "Montage des diodes :",
+   "questions": [
+    {
+     "num": "20140",
+     "question": "POUR QUELLES APPLICATIONS UTILISE-T-ON LA DIODE PIN ?",
+     "reponse": "commutation HF "
+    },
+    {
+     "num": "21142",
+     "question": "QUEL SCHEMA PERMET DE REDRESSER LE COURANT ?",
+     "reponse": "Schéma 3"
+    }
+   ]
+  },
+  {
+   "id": "T054",
+   "ref": "5.4",
+   "nq": 7,
+   "depth": 3,
+   "anchors": [
+    "T054",
+    "T054a"
+   ],
+   "title_fr": "a 5.4)",
+   "questions": [
+    {
+     "num": "20141",
+     "question": "QUELLE EST LA TENSION US AUX BORNES DU CONDENSATEUR",
+     "reponse": " 7,1 V"
+    },
+    {
+     "num": "20307",
+     "question": "QUELLE EST LA TENSION AUX BORNES DU CONDENSATEUR",
+     "reponse": "7,1 V"
+    },
+    {
+     "num": "20363",
+     "question": "QUELLE EST LA TENSION AUX BORNES DU CONDENSATEUR ?",
+     "reponse": "28,28 V"
+    },
+    {
+     "num": "20491",
+     "question": "MONTAGE TRANSFO, 300V AU PRIMAIRE, 2000 SPIRES AU PRIMAIRE, 150 SPIRES AU SECONDAIRE, AVEC UNE DIODE PUIS UN CONDENSATEUR. TENSION AUX BORNES DU CONDENSATEUR ?",
+     "reponse": "31,8 V"
+    },
+    {
+     "num": "20848",
+     "question": "QUEL COMPOSANT EST ABSENT DE CETTE ALIMENTATION EN COURANT CONTINU ?",
+     "reponse": "filtre à condensateur "
+    },
+    {
+     "num": "20851",
+     "question": "UN MONTAGE DE TRANSFORMATEUR (AVEC 3000 SPIRES AU PRIMAIRE ET 200 SPIRES AU SECONDAIRE) AVEC COTE SECONDAIRE UNE DIODE SERIE ET UNE CAPACITE EN // AU TRANSFO. IL FAUT DONNER LA TENSION A VIDE DU MONTAGE AU BORNE DU CONDENSATEUR, COTE PRIMAIRE : 300 V",
+     "reponse": "28,3 V"
+    },
+    {
+     "num": "20879",
+     "question": "COMPOSANT NE FIGURANT PAS DANS UN BLOC D'ALIMENTATION ?",
+     "reponse": "Une bobine "
+    }
+   ]
+  }
+ ]
+}

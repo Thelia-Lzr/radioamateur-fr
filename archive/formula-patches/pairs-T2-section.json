@@ -1,0 +1,545 @@
+{
+ "section": "T2 §2.1–§2.5 交流电、电容与线圈",
+ "pairs": [
+  {
+   "old": "<div class=\"formula\">t(s) = 1 / f(Hz)      t(ms) = 1 / f(kHz)      t(µs) = 1 / f(MHz)</div>",
+   "new": "<div class=\"formula\">\\[t\\,(\\text{s}) = \\dfrac{1}{f\\,(\\text{Hz})}\\qquad t\\,(\\text{ms}) = \\dfrac{1}{f\\,(\\text{kHz})}\\qquad t\\,(\\text{µs}) = \\dfrac{1}{f\\,(\\text{MHz})}\\]</div>",
+   "count": 1,
+   "note": "§2.1 三条周期公式（展示式）"
+  },
+  {
+   "old": "90° = π/2 = 1,57 rad；180° = π = 3,14 rad；360° = 2π = 6,28 rad。",
+   "new": "\\(90^\\circ = \\dfrac{\\pi}{2} = 1{,}57\\ \\text{rad}\\)；\\(180^\\circ = \\pi = 3{,}14\\ \\text{rad}\\)；\\(360^\\circ = 2\\pi = 6{,}28\\ \\text{rad}\\)。",
+   "count": 1,
+   "note": "弧度/角度换算"
+  },
+  {
+   "old": "<div class=\"formula\">ω(rad/s) = 2π · f(Hz) ≈ 6,28 × f(Hz)</div>",
+   "new": "<div class=\"formula\">\\[\\omega\\,(\\text{rad/s}) = 2\\pi \\cdot f\\,(\\text{Hz}) \\approx 6{,}28 \\times f\\,(\\text{Hz})\\]</div>",
+   "count": 1,
+   "note": "§2.1 脉动 ω = 2πf"
+  },
+  {
+   "old": "原文例题：f = 10 MHz 时，ω = 2π·F = 6,28 × 10 000 000 = 62 800 000 rad/s。",
+   "new": "原文例题：\\(f = 10\\) MHz 时，\\(\\omega = 2\\pi \\cdot F = 6{,}28 \\times 10\\,000\\,000 = 62\\,800\\,000\\) rad/s。",
+   "count": 1,
+   "note": "§2.1 例题（原文拼作 2π·F）"
+  },
+  {
+   "old": "f(MHz) = 1 / t(µs) = 0,166 MHz，即 166 kHz。",
+   "new": "\\(f\\,(\\text{MHz}) = \\dfrac{1}{t\\,(\\text{µs})} = 0{,}166\\) MHz，即 166 kHz。",
+   "count": 1,
+   "note": "§2.1 由周期求频率"
+  },
+  {
+   "old": "再套 t = 1/f，可以避免一半的错误。",
+   "new": "再套 \\(t = \\dfrac{1}{f}\\)，可以避免一半的错误。",
+   "count": 1,
+   "note": "§2.1 tips 里的 t = 1/f"
+  },
+  {
+   "old": "<td>ω = 2πf = 6,28 × 50</td>",
+   "new": "<td>\\(\\omega = 2\\pi f = 6{,}28 \\times 50\\)</td>",
+   "count": 1,
+   "note": "§2.1 表格"
+  },
+  {
+   "old": "<td>t = 1/500 s = 0,002 s</td>",
+   "new": "<td>\\(t = 1/500\\ \\text{s} = 0{,}002\\ \\text{s}\\)</td>",
+   "count": 1,
+   "note": "§2.1 表格（纯数值除法保留 1/500）"
+  },
+  {
+   "old": "<td>t = 1/50 s = 0,02 s</td>",
+   "new": "<td>\\(t = 1/50\\ \\text{s} = 0{,}02\\ \\text{s}\\)</td>",
+   "count": 1,
+   "note": "§2.1 表格"
+  },
+  {
+   "old": "<td>ω = 6,28 × 14 000 000</td>",
+   "new": "<td>\\(\\omega = 6{,}28 \\times 14\\,000\\,000\\)</td>",
+   "count": 1,
+   "note": "§2.1 表格"
+  },
+  {
+   "old": "<p>记住 sin 45° = 1/√2 = 0,707：</p>",
+   "new": "<p>记住 \\(\\sin 45^\\circ = \\dfrac{1}{\\sqrt{2}} = 0{,}707\\)：</p>",
+   "count": 1,
+   "note": "§2.2 sin 45°"
+  },
+  {
+   "old": "<div class=\"formula\">Umax = √2 · Ueff = 1,414 × Ueff",
+   "new": "<div class=\"formula\">\\[U_{max} = \\sqrt{2} \\cdot U_{eff} = 1{,}414 \\times U_{eff}\\]",
+   "count": 1,
+   "note": "§2.2 最大值"
+  },
+  {
+   "old": "Ueff = Umax / √2 = 0,707 × Umax",
+   "new": "\\[U_{eff} = \\dfrac{U_{max}}{\\sqrt{2}} = 0{,}707 \\times U_{max}\\]",
+   "count": 1,
+   "note": "§2.2 有效值"
+  },
+  {
+   "old": "Ucàc = 2 × Umax （正弦波）</div>",
+   "new": "\\[U_{càc} = 2 \\times U_{max}\\] （正弦波）</div>",
+   "count": 1,
+   "note": "§2.2 峰峰值"
+  },
+  {
+   "old": "<div class=\"formula\">Ueff_total = √( Ucont² + Ueff² )</div>",
+   "new": "<div class=\"formula\">\\[U_{eff\\_total} = \\sqrt{U_{cont}^2 + U_{eff}^2}\\]</div>",
+   "count": 1,
+   "note": "§2.2 叠加后的有效值"
+  },
+  {
+   "old": "Ucàc = 5 V [= 4 V − (−1 V)]，故 Umax = 2,5 V，Ueff = 1,77 V（= 2,5 × 0,707）",
+   "new": "\\(U_{càc} = 5\\) V [\\(= 4\\ \\text{V} - (-1\\ \\text{V})\\)]，故 \\(U_{max} = 2{,}5\\) V，\\(U_{eff} = 1{,}77\\) V（\\(= 2{,}5 \\times 0{,}707\\)）",
+   "count": 1,
+   "note": "§2.2 例题"
+  },
+  {
+   "old": "Ucont = Umoy = [4 + (−1)] / 2 = 1,5 V",
+   "new": "\\(U_{cont} = U_{moy} = [4 + (-1)]/2 = 1{,}5\\) V",
+   "count": 1,
+   "note": "§2.2 例题（纯数值除法保留）"
+  },
+  {
+   "old": "Ueff_total = √(1,5² + 1,77²) = 2,3 V。",
+   "new": "\\(U_{eff\\_total} = \\sqrt{1{,}5^2 + 1{,}77^2} = 2{,}3\\) V。",
+   "count": 1,
+   "note": "§2.2 例题"
+  },
+  {
+   "old": "峰峰值 10 Vcàc = 5 Vmax = 3,53 Veff（= 5 Vmax × 0,707，假设信号不含直流分量）",
+   "new": "峰峰值 \\(10\\ \\text{V}_{càc} = 5\\ \\text{V}_{max} = 3{,}53\\ \\text{V}_{eff}\\)（\\(= 5\\ \\text{V}_{max} \\times 0{,}707\\)，假设信号不含直流分量）",
+   "count": 1,
+   "note": "§2.2 示波器例题"
+  },
+  {
+   "old": "f = 1/t = 1/0,004 = 250 Hz。",
+   "new": "\\(f = \\dfrac{1}{t} = 1/0{,}004 = 250\\) Hz。",
+   "count": 1,
+   "note": "§2.2 示波器例题求频率"
+  },
+  {
+   "old": "，f = 1/t。求频率题只用到第③步。",
+   "new": "，\\(f = \\dfrac{1}{t}\\)。求频率题只用到第③步。",
+   "count": 1,
+   "note": "§2.2 tips"
+  },
+  {
+   "old": "<td>由图读出周期 T 后 f = 1/T</td>",
+   "new": "<td>由图读出周期 T 后 \\(f = \\dfrac{1}{T}\\)</td>",
+   "count": 1,
+   "note": "§2.2 表格"
+  },
+  {
+   "old": "<td>Umax = 1,414 × 12</td>",
+   "new": "<td>\\(U_{max} = 1{,}414 \\times 12\\)</td>",
+   "count": 1,
+   "note": "§2.2 表格"
+  },
+  {
+   "old": "<td>Ueff = 0,707 × 311</td>",
+   "new": "<td>\\(U_{eff} = 0{,}707 \\times 311\\)</td>",
+   "count": 1,
+   "note": "§2.2 表格"
+  },
+  {
+   "old": "<td>Ucàc = 2 × 1,414 × 12 = 33,94</td>",
+   "new": "<td>\\(U_{càc} = 2 \\times 1{,}414 \\times 12 = 33{,}94\\)</td>",
+   "count": 1,
+   "note": "§2.2 表格"
+  },
+  {
+   "old": "理想元件不消耗功率（cos 90° = 0）",
+   "new": "理想元件不消耗功率（\\(\\cos 90^\\circ = 0\\)）",
+   "count": 2,
+   "note": "§2.3 对照表两格"
+  },
+  {
+   "old": "它是对 1000 / 2π（= 1000 / 6,2832）的近似",
+   "new": "它是对 \\(\\dfrac{1000}{2\\pi}\\)（= 1000 / 6,2832）的近似",
+   "count": 1,
+   "note": "§2.3 159 的来历"
+  },
+  {
+   "old": "<div class=\"formula\">Q(C) = C(F) · U(V)",
+   "new": "<div class=\"formula\">\\[Q\\,(\\text{C}) = C\\,(\\text{F}) \\cdot U\\,(\\text{V})\\]",
+   "count": 1,
+   "note": "§2.3 电荷"
+  },
+  {
+   "old": "E(J) = ½ · Q(C) · U(V) = ½ · C(F) · U²(V) = Q²(C) / [2 · C(F)]</div>",
+   "new": "\\[E\\,(\\text{J}) = \\tfrac{1}{2} \\cdot Q\\,(\\text{C}) \\cdot U\\,(\\text{V}) = \\tfrac{1}{2} \\cdot C\\,(\\text{F}) \\cdot U^2\\,(\\text{V}) = \\dfrac{Q^2\\,(\\text{C})}{2 \\cdot C\\,(\\text{F})}\\]</div>",
+   "count": 1,
+   "note": "§2.3 能量三式"
+  },
+  {
+   "old": "Q = 0,0008 C、U = 20 V ⇒ C = Q/U = 0,0008/20 = 0,00004 F = 40 µF；",
+   "new": "\\(Q = 0{,}0008\\) C、\\(U = 20\\) V ⇒ \\(C = \\dfrac{Q}{U} = 0{,}0008/20 = 0{,}00004\\) F = 40 µF；",
+   "count": 1,
+   "note": "§2.3 例题"
+  },
+  {
+   "old": "E = ½ × 0,0008 × 20 = 0,008 J = 8 mJ。",
+   "new": "\\(E = \\tfrac{1}{2} \\times 0{,}0008 \\times 20 = 0{,}008\\) J = 8 mJ。",
+   "count": 1,
+   "note": "§2.3 例题"
+  },
+  {
+   "old": "真空磁导率 µ0 = 4π·10⁻⁷ H/m，即 1,2566 µH/m；",
+   "new": "真空磁导率 \\(\\mu_0 = 4\\pi \\cdot 10^{-7}\\) H/m，即 1,2566 µH/m；",
+   "count": 1,
+   "note": "§2.3d2"
+  },
+  {
+   "old": "B = H·µ；Φ 是磁通",
+   "new": "\\(B = H \\cdot \\mu\\)；Φ 是磁通",
+   "count": 1,
+   "note": "§2.3d2"
+  },
+  {
+   "old": "Φ = U·t。</p>",
+   "new": "\\(\\Phi = U \\cdot t\\)。</p>",
+   "count": 1,
+   "note": "§2.3d2"
+  },
+  {
+   "old": "由此得 L(H) = Φ(Wb) / I(A)；",
+   "new": "由此得 \\(L\\,(\\text{H}) = \\dfrac{\\Phi\\,(\\text{Wb})}{I\\,(\\text{A})}\\)；",
+   "count": 1,
+   "note": "§2.3d3"
+  },
+  {
+   "old": "线圈储存的能量 E(J) = ½·Φ(Wb)·I(A)，把 Φ = L·I 代入得 E(J) = ½·L(H)·I²(A)。",
+   "new": "线圈储存的能量 \\(E\\,(\\text{J}) = \\tfrac{1}{2} \\cdot \\Phi\\,(\\text{Wb}) \\cdot I\\,(\\text{A})\\)，把 \\(\\Phi = L \\cdot I\\) 代入得 \\(E\\,(\\text{J}) = \\tfrac{1}{2} \\cdot L\\,(\\text{H}) \\cdot I^2\\,(\\text{A})\\)。",
+   "count": 1,
+   "note": "§2.3d3"
+  },
+  {
+   "old": "理论式为 L = µ0·D²·N² / 长度（D 为直径、长度单位米）",
+   "new": "理论式为 \\(L = \\dfrac{\\mu_0 \\cdot D^2 \\cdot N^2}{\\text{长度}}\\)（D 为直径、长度单位米）",
+   "count": 1,
+   "note": "§2.3d4"
+  },
+  {
+   "old": "µ0 · ε0 · c² = 1，其中 c = 3·10⁸ m/s 为光速。",
+   "new": "\\(\\mu_0 \\cdot \\varepsilon_0 \\cdot c^2 = 1\\)，其中 \\(c = 3 \\cdot 10^8\\) m/s 为光速。",
+   "count": 1,
+   "note": "§2.3e 麦克斯韦"
+  },
+  {
+   "old": "推导：由 C = Q/U 及 Q = I·t 得 U/I = t/C，而正弦波的有效作用时间 t = 1/(2πf)（见 §2.3f1），故",
+   "new": "推导：由 \\(C = \\dfrac{Q}{U}\\) 及 \\(Q = I \\cdot t\\) 得 \\(\\dfrac{U}{I} = \\dfrac{t}{C}\\)，而正弦波的有效作用时间 \\(t = \\dfrac{1}{2\\pi f}\\)（见 §2.3f1），故",
+   "count": 1,
+   "note": "§2.3f2 推导"
+  },
+  {
+   "old": "<div class=\"formula\">Z_C(Ω) = 1 / [ω · C(F)] = 1 / (2π · f · C)     简化式：Z_C = 159 / [f(MHz) · C(nF)]</div>",
+   "new": "<div class=\"formula\">\\[Z_C\\,(\\Omega) = \\dfrac{1}{\\omega \\cdot C\\,(\\text{F})} = \\dfrac{1}{2\\pi \\cdot f \\cdot C}\\]     简化式：\\(Z_C = \\dfrac{159}{f\\,(\\text{MHz}) \\cdot C\\,(\\text{nF})}\\)</div>",
+   "count": 1,
+   "note": "§2.3f2 容抗"
+  },
+  {
+   "old": "由 L 正比于 N² 得 ",
+   "new": "由 L 正比于 \\(N^2\\) 得 ",
+   "count": 1,
+   "note": "§2.3 匝数平方"
+  },
+  {
+   "old": "L = 5 µH / 4² = 5 µH / 16 = 0,3125 µH = 312,5 nH",
+   "new": "\\(L = 5\\ \\text{µH}/4^2 = 5\\ \\text{µH}/16 = 0{,}3125\\ \\text{µH} = 312{,}5\\ \\text{nH}\\)",
+   "count": 1,
+   "note": "§2.3 匝数减半例题"
+  },
+  {
+   "old": "f = 15 kHz、C = 10 µF 时 Z = 1/(2πfC) ≈ 1 Ω",
+   "new": "\\(f = 15\\) kHz、\\(C = 10\\) µF 时 \\(Z = \\dfrac{1}{2\\pi f C} \\approx 1\\ \\Omega\\)",
+   "count": 1,
+   "note": "§2.3 例 5"
+  },
+  {
+   "old": "14 Vmax × 0,707 ≈ 10 Veff，I = U/Z = 10 V / 1 Ω = 10 A eff（精确值 9,33）",
+   "new": "\\(14\\ \\text{V}_{max} \\times 0{,}707 \\approx 10\\ \\text{V}_{eff}\\)，\\(I = \\dfrac{U}{Z} = \\dfrac{10\\ \\text{V}}{1\\ \\Omega} = 10\\) A eff（精确值 9,33）",
+   "count": 1,
+   "note": "§2.3 例 5"
+  },
+  {
+   "old": "电容量的决定因素：C = ε·S/E、介质常数与介电强度",
+   "new": "电容量的决定因素：\\(C = \\dfrac{\\varepsilon \\cdot S}{E}\\)、介质常数与介电强度",
+   "count": 2,
+   "note": "目录条目 + §2.3.c3 标题"
+  },
+  {
+   "old": "<div class=\"formula\">C(F) = ε · S(m²) / E(m)</div>",
+   "new": "<div class=\"formula\">\\[C\\,(\\text{F}) = \\dfrac{\\varepsilon \\cdot S\\,(\\text{m}^2)}{E\\,(\\text{m})}\\]</div>",
+   "count": 1,
+   "note": "§2.3.c3 核心公式"
+  },
+  {
+   "old": "⇒ C × 2 = 2C；",
+   "new": "⇒ \\(C \\times 2 = 2C\\)；",
+   "count": 1,
+   "note": "§2.3.c3 间距减半"
+  },
+  {
+   "old": "其介电常数 ε0 = 1/(36π·10⁹) F/m，即 8,8419 pF/m。",
+   "new": "其介电常数 \\(\\varepsilon_0 = \\dfrac{1}{36\\pi \\cdot 10^9}\\) F/m，即 8,8419 pF/m。",
+   "count": 1,
+   "note": "§2.3c4 真空介电常数"
+  },
+  {
+   "old": "= ε0·εr = 1/(36π·10⁹) × 2,3 = 2·10⁻¹¹ = 20 pF/m。",
+   "new": "\\(= \\varepsilon_0 \\cdot \\varepsilon_r = \\dfrac{1}{36\\pi \\cdot 10^9} \\times 2{,}3 = 2 \\cdot 10^{-11} = 20\\) pF/m。",
+   "count": 1,
+   "note": "§2.3c4 例题"
+  },
+  {
+   "old": "则由 C = ε·S/E 得 C 减半 = 50 pF。",
+   "new": "则由 \\(C = \\dfrac{\\varepsilon \\cdot S}{E}\\) 得 C 减半 = 50 pF。",
+   "count": 1,
+   "note": "§2.3.c3 例题"
+  },
+  {
+   "old": "线圈的感抗 Z_L = 2πfL",
+   "new": "线圈的感抗 \\(Z_L = 2\\pi f L\\)",
+   "count": 2,
+   "note": "目录条目 + §2.3.f1 标题"
+  },
+  {
+   "old": "<div class=\"formula\">Z_L(Ω) = ω · L(H) = 2π · f · L",
+   "new": "<div class=\"formula\">\\[Z_L\\,(\\Omega) = \\omega \\cdot L\\,(\\text{H}) = 2\\pi \\cdot f \\cdot L\\]",
+   "count": 1,
+   "note": "§2.3f1 感抗"
+  },
+  {
+   "old": "简化式（原文例题给出的形式）：Z_L = 6,28 × f(MHz) × L(µH)  结果直接是 Ω</div>",
+   "new": "简化式（原文例题给出的形式）：\\(Z_L = 6{,}28 \\times f\\,(\\text{MHz}) \\times L\\,(\\text{µH})\\)  结果直接是 Ω</div>",
+   "count": 1,
+   "note": "§2.3f1 简化式"
+  },
+  {
+   "old": "公式的来历（原文 §2.3f1）：由 L = Φ / I 与 Φ = U·t 可知 U / I = L / t；在正弦状态下，电压或电流的“有效部分”持续时间为 t = 1/(2πF)，于是 U/I = Z_L = 2πfL。",
+   "new": "公式的来历（原文 §2.3f1）：由 \\(L = \\dfrac{\\Phi}{I}\\) 与 \\(\\Phi = U \\cdot t\\) 可知 \\(\\dfrac{U}{I} = \\dfrac{L}{t}\\)；在正弦状态下，电压或电流的“有效部分”持续时间为 \\(t = \\dfrac{1}{2\\pi F}\\)，于是 \\(\\dfrac{U}{I} = Z_L = 2\\pi f L\\)。",
+   "count": 1,
+   "note": "§2.3f1 推导"
+  },
+  {
+   "old": "二者等价：6,28 × 1 kHz × 25 mH = 157 Ω，与 6,28 × 1000 × 0,025 H 一致）",
+   "new": "二者等价：\\(6{,}28 \\times 1\\ \\text{kHz} \\times 25\\ \\text{mH} = 157\\ \\Omega\\)，与 \\(6{,}28 \\times 1000 \\times 0{,}025\\ \\text{H}\\) 一致）",
+   "count": 1,
+   "note": "§2.3f1 tips"
+  },
+  {
+   "old": "<td>Z = 6,28 × 1000 × 0,025</td>",
+   "new": "<td>\\(Z = 6{,}28 \\times 1000 \\times 0{,}025\\)</td>",
+   "count": 1,
+   "note": "§2.3f1 表格"
+  },
+  {
+   "old": "<td>Z = 6,28 × 8 × 12,5 = 6,28 × 8·10⁶ × 12,5·10⁻⁶</td>",
+   "new": "<td>\\(Z = 6{,}28 \\times 8 \\times 12{,}5 = 6{,}28 \\times 8 \\cdot 10^6 \\times 12{,}5 \\cdot 10^{-6}\\)</td>",
+   "count": 1,
+   "note": "§2.3f1 表格"
+  },
+  {
+   "old": "<td>Z = 6,28 × 403 × 50</td>",
+   "new": "<td>\\(Z = 6{,}28 \\times 403 \\times 50\\)</td>",
+   "count": 1,
+   "note": "§2.3f1 表格"
+  },
+  {
+   "old": "（Z ∝ f）",
+   "new": "（\\(Z \\propto f\\)）",
+   "count": 1,
+   "note": "§2.3f1 对照记忆"
+  },
+  {
+   "old": "（Z ∝ 1/f，见 §2.3f2）",
+   "new": "（\\(Z \\propto 1/f\\)，见 §2.3f2）",
+   "count": 1,
+   "note": "§2.3f1 对照记忆"
+  },
+  {
+   "old": "线圈对直流短路（Z = 0），电容器对直流开路（Z = ∞）。",
+   "new": "线圈对直流短路（\\(Z = 0\\)），电容器对直流开路（\\(Z = \\infty\\)）。",
+   "count": 1,
+   "note": "§2.3f1 对照记忆"
+  },
+  {
+   "old": "<div class=\"formula\">并联（parallèle）：C_t = C1 + C2 + … + Cn",
+   "new": "<div class=\"formula\">并联（parallèle）：\\(C_t = C_1 + C_2 + \\dots + C_n\\)",
+   "count": 1,
+   "note": "§2.3g2 并联"
+  },
+  {
+   "old": "n 个相同电容器并联：C_t = n · C",
+   "new": "n 个相同电容器并联：\\(C_t = n \\cdot C\\)",
+   "count": 1,
+   "note": "§2.3g2 并联"
+  },
+  {
+   "old": "串联（série）：1 / C_t = 1 / C1 + 1 / C2 + … + 1 / Cn",
+   "new": "串联（série）：\\(\\dfrac{1}{C_t} = \\dfrac{1}{C_1} + \\dfrac{1}{C_2} + \\dots + \\dfrac{1}{C_n}\\)",
+   "count": 1,
+   "note": "§2.3g2 串联"
+  },
+  {
+   "old": "n 个相同电容器串联：C_t = C / n",
+   "new": "n 个相同电容器串联：\\(C_t = \\dfrac{C}{n}\\)",
+   "count": 1,
+   "note": "§2.3g2 串联"
+  },
+  {
+   "old": "两个电容器串联：C_t = (C1 · C2) / (C1 + C2)</div>",
+   "new": "两个电容器串联：\\(C_t = \\dfrac{C_1 \\cdot C_2}{C_1 + C_2}\\)</div>",
+   "count": 1,
+   "note": "§2.3g2 两电容串联"
+  },
+  {
+   "old": "回路定律）：U_t = U_C1 + U_C2 + …。",
+   "new": "回路定律）：\\(U_t = U_{C1} + U_{C2} + \\dots\\)。",
+   "count": 1,
+   "note": "§2.3g2 推导"
+  },
+  {
+   "old": "由 Q = C·U 得 U = Q/C，代入得 Q_t / C_t = Q_C1 / C1 + Q_C2 / C2 + …。",
+   "new": "由 \\(Q = C \\cdot U\\) 得 \\(U = \\dfrac{Q}{C}\\)，代入得 \\(\\dfrac{Q_t}{C_t} = \\dfrac{Q_{C1}}{C_1} + \\dfrac{Q_{C2}}{C_2} + \\dots\\)。",
+   "count": 1,
+   "note": "§2.3g2 推导"
+  },
+  {
+   "old": "（Q_C1 = Q_C2 = … = Q_t）",
+   "new": "（\\(Q_{C1} = Q_{C2} = \\dots = Q_t\\)）",
+   "count": 1,
+   "note": "§2.3g2 推导"
+  },
+  {
+   "old": "即得 1/C_t = 1/C1 + 1/C2 + …——正是电阻并联的公式。",
+   "new": "即得 \\(\\dfrac{1}{C_t} = \\dfrac{1}{C_1} + \\dfrac{1}{C_2} + \\dots\\)——正是电阻并联的公式。",
+   "count": 1,
+   "note": "§2.3g2 推导"
+  },
+  {
+   "old": "U = Q/C 最大）。",
+   "new": "\\(U = \\dfrac{Q}{C}\\) 最大）。",
+   "count": 1,
+   "note": "§2.3g2 电压分配"
+  },
+  {
+   "old": "<div class=\"formula\">Q = Z / R = 1 / cos φ",
+   "new": "<div class=\"formula\">\\[Q = \\dfrac{Z}{R} = \\dfrac{1}{\\cos \\varphi}\\]",
+   "count": 1,
+   "note": "§2.3g2 品质因数"
+  },
+  {
+   "old": "<div class=\"formula\">T(s) = R(Ω) · C(F)     简化式：T(ms) = R(kΩ) · C(µF)</div>",
+   "new": "<div class=\"formula\">\\[T\\,(\\text{s}) = R\\,(\\Omega) \\cdot C\\,(\\text{F})\\]     简化式：\\(T\\,(\\text{ms}) = R\\,(\\text{k}\\Omega) \\cdot C\\,(\\text{µF})\\)</div>",
+   "count": 1,
+   "note": "§2.4 时间常数"
+  },
+  {
+   "old": "（准确地说是 1 − 1/e，欧拉数 e = 2,718）",
+   "new": "（准确地说是 \\(1 - \\tfrac{1}{e}\\)，欧拉数 \\(e = 2{,}718\\)）",
+   "count": 1,
+   "note": "§2.4 充电曲线"
+  },
+  {
+   "old": "（1 − e⁻⁴·⁶⁰⁵ = 0,99）",
+   "new": "（\\(1 - e^{-4{,}605} = 0{,}99\\)）",
+   "count": 1,
+   "note": "§2.4 上标中的小数点"
+  },
+  {
+   "old": "<div class=\"formula\">充电：U_C(V) = E(V) × [1 − e^(−t / (R·C))]",
+   "new": "<div class=\"formula\">充电：\\(U_C\\,(\\text{V}) = E\\,(\\text{V}) \\times [1 - e^{-t/(R \\cdot C)}]\\)",
+   "count": 1,
+   "note": "§2.4 充电式"
+  },
+  {
+   "old": "放电：U_C(V) = E(V) × e^(−t / (R·C))",
+   "new": "放电：\\(U_C\\,(\\text{V}) = E\\,(\\text{V}) \\times e^{-t/(R \\cdot C)}\\)",
+   "count": 1,
+   "note": "§2.4 放电式"
+  },
+  {
+   "old": "线圈：T(s) = L(H) / R(Ω)</div>",
+   "new": "线圈：\\(T\\,(\\text{s}) = \\dfrac{L\\,(\\text{H})}{R\\,(\\Omega)}\\)</div>",
+   "count": 1,
+   "note": "§2.4 线圈时间常数"
+  },
+  {
+   "old": "？T = 8·10³ × 100·10⁻⁶ = 800 ms（简化式 8 kΩ × 100 µF = 800 ms），5 T = 4 s。",
+   "new": "？\\(T = 8 \\cdot 10^3 \\times 100 \\cdot 10^{-6} = 800\\) ms（简化式 \\(8\\ \\text{k}\\Omega \\times 100\\ \\text{µF} = 800\\) ms），\\(5T = 4\\) s。",
+   "count": 1,
+   "note": "§2.4 例题"
+  },
+  {
+   "old": "此时 T(s) = L(H)/R(Ω)。",
+   "new": "此时 \\(T\\,(\\text{s}) = \\dfrac{L\\,(\\text{H})}{R\\,(\\Omega)}\\)。",
+   "count": 1,
+   "note": "§2.4 线圈"
+  },
+  {
+   "old": "非理想线圈与电容器的阻抗：矢量合成、相位差与 cos φ",
+   "new": "非理想线圈与电容器的阻抗：矢量合成、相位差与 \\(\\cos \\varphi\\)",
+   "count": 2,
+   "note": "目录条目 + §2.5 标题"
+  },
+  {
+   "old": "<div class=\"formula\">Z(Ω) = √( R² + [X_L − X_C]² )      记作  Z = R ± jX",
+   "new": "<div class=\"formula\">\\[Z\\,(\\Omega) = \\sqrt{R^2 + [X_L - X_C]^2}\\]      记作  \\(Z = R \\pm jX\\)",
+   "count": 1,
+   "note": "§2.5 阻抗矢量合成"
+  },
+  {
+   "old": "φ = arctg(X / R) = arcsin(X / Z) = arccos(R / Z)",
+   "new": "\\[\\varphi = \\operatorname{arctg}\\left(\\dfrac{X}{R}\\right) = \\arcsin\\left(\\dfrac{X}{Z}\\right) = \\arccos\\left(\\dfrac{R}{Z}\\right)\\]",
+   "count": 1,
+   "note": "§2.5 相位差"
+  },
+  {
+   "old": "P = U · I · cos φ</div>",
+   "new": "\\[P = U \\cdot I \\cdot \\cos \\varphi\\]</div>",
+   "count": 1,
+   "note": "§2.5 功率"
+  },
+  {
+   "old": "因为 cos 90° = 0。",
+   "new": "因为 \\(\\cos 90^\\circ = 0\\)。",
+   "count": 1,
+   "note": "§2.5 理想元件"
+  },
+  {
+   "old": "也给出品质因数 Q = Z / R = 1 / cos φ = 2πfL / R = 1/(2πfCR)；",
+   "new": "也给出品质因数 \\(Q = \\dfrac{Z}{R} = \\dfrac{1}{\\cos \\varphi} = \\dfrac{2\\pi f L}{R} = \\dfrac{1}{2\\pi f C R}\\)；",
+   "count": 1,
+   "note": "§2.5 品质因数"
+  },
+  {
+   "old": "X_L = 6,28 × 1,06·10⁶ × 6·10⁻⁶ = 40 Ω；",
+   "new": "\\(X_L = 6{,}28 \\times 1{,}06 \\cdot 10^6 \\times 6 \\cdot 10^{-6} = 40\\ \\Omega\\)；",
+   "count": 1,
+   "note": "§2.5 例题"
+  },
+  {
+   "old": "Z = √(69² + 40²) ≈ 80 Ω（写作 69 Ω + j40 Ω）；",
+   "new": "\\(Z = \\sqrt{69^2 + 40^2} \\approx 80\\ \\Omega\\)（写作 \\(69\\ \\Omega + j40\\ \\Omega\\)）；",
+   "count": 1,
+   "note": "§2.5 例题"
+  },
+  {
+   "old": "相位差 = arctg(40/69) ≈ +30°。",
+   "new": "相位差 \\(= \\operatorname{arctg}(40/69) \\approx +30^\\circ\\)。",
+   "count": 1,
+   "note": "§2.5 例题"
+  },
+  {
+   "old": "则 I = 40/80 = 0,5 A，P = 40 × 0,5 × cos 30° = 17,32 W，Q = 80/69 = 1,16 = 1/cos 30°。",
+   "new": "则 \\(I = 40/80 = 0{,}5\\) A，\\(P = 40 \\times 0{,}5 \\times \\cos 30^\\circ = 17{,}32\\) W，\\(Q = 80/69 = 1{,}16 = \\dfrac{1}{\\cos 30^\\circ}\\)。",
+   "count": 1,
+   "note": "§2.5 例题"
+  }
+ ]
+}

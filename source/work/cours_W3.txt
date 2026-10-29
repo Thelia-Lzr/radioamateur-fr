@@ -1,0 +1,160 @@
+### R-3.1)
+Table d'épellation international: (annexe I de l’arrêté du 21/09/00)
+La table d’épellation des lettres étant internationale, ce sont l’orthographe et la prononciation anglaise des mots qui sont utilisées. Toutefois, le texte français donne, pour la lettre Z, l’orthographe française (Zoulou) alors que les textes internationaux et européens utilisent l’orthographe anglaise (Zulu).
+A ALFA D DELTA G GOLF J JULIETT M MIKE P PAPA S SIERRA V VICTOR Y YANKEE
+B BRAVO E ECHO H HOTEL K KILO N NOVEMBER Q QUEBEC T TANGO W WHISKEY Z ZOULOU (zulu)
+C CHARLIE F FOX-TROT I INDIA L LIMA O OSCAR R ROMEO U UNIFORM X X-RAY
+Exemple: Comment épelle-t-on « F5PTC »? Réponse: Foxtrot 5 Papa Tango Charlie
+Cette table d’épellation (Appendice A14 du RR) a été adoptée par l’UIT en 1956. Auparavant, les analogies d’épellation des lettres avaient été définies dès 1927 lors de la conférence de Washington. Ces analogies correspondaient à des noms de villes ou de pays: Amsterdam pour A, Baltimore pour B, Canada pour C, etc. Seul le Q de Quebec a été repris dans la nouvelle table d’épellation.
+Il existe aussi une table d’épellation des chiffres qui n’a pas à être connue pour l’examen et qui est peu utilisée par les radioamateurs.
+### R-3.2) Abréviations en code Q (annexe I de l’arrêté du
+21/09/00)
+a Les 22 abréviations en code Q à connaître sont issues de la recommandation T/R 61-02 ( programme HAREC ). Une abréviation du code Q est formulée comme une question si elle est suivie d'un point d'interrogation. Sinon, il s'agit d'une réponse (ou d’un avis) qui peut être suivie d'une information complémentaire.
+ABRÉVIATION
+QUESTION
+RÉPONSE OU AVIS
+QRA
+Quel est le nom de votre station?
+Le nom de ma station est...
+QRG
+Voulez-vous m'indiquer ma fréquence exacte (ou la fréquence exacte de...)
+Votre fréquence exacte (ou la fréquence exacte de...) est de... kHz (ou MHz)
+QRH
+Ma fréquence varie -t-elle?
+Votre fréquence varie.
+QRK
+Quelle est l' intelligibilité de mes signaux (ou des signaux de …)?
+L'intelligibilité de vos signaux (ou des signaux de...) est: 1: mauvaise; 2: médiocre; 3: assez bonne; 4: bonne; 5: excellente
+QRL
+Êtes-vous occupé?
+Je suis occupé (avec…). Prière de ne pas brouiller
+QRM
+Êtes-vous brouillé?
+Je suis brouillé: 1: Je ne suis nullement brouillé; 2: faiblement; 3: modérément; 4: fortement; 5: très fortement
+QRN
+Êtes-vous troublé par des parasites?
+Je suis troublé par des parasites: 1: Je ne suis nullement troublé par des parasites; 2: faiblement; 3: modérément; 4: fortement; 5: très fortement
+QRO
+Dois-je augmenter la puissance d'émission?
+Augmentez la puissance d'émission.
+QRP
+Dois-je diminuer la puissance d'émission?
+Diminuez la puissance d'émission.
+QRT
+Dois-je cesser la transmission?
+Cessez la transmission.
+QRU
+Avez-vous quelque chose pour moi?
+Je n'ai rien [pas de messages] pour vous.
+QRV
+Êtes-vous prêt?
+Je suis prêt
+QRX
+À quel moment me rappellerez -vous?
+Je vous rappellerai à... h (sur... kHz [ou MHz]).
+QRZ
+Par qui suis-je appelé?
+Vous êtes appelé par... sur... kHz (ou MHz).
+QSA
+Quelle est la force de mes signaux (ou des signaux de...)?
+La force de vos signaux (ou des signaux de...) est: 1: à peine perceptible; 2: faible; 3: assez bonne; 4: bonne; 5: très bonne
+QSB
+La force de mes signaux varie -t-elle?
+La force de vos signaux varie.
+QSL
+Pouvez-vous me donner accusé de réception?
+Je vous donne accusé de réception
+QSO
+Pouvez-vous communiquer avec... directement (ou par relais)?
+Je puis communiquer avec... directement (ou par l'intermédiaire de...).
+QSP
+Voulez-vous retransmettre à... gratuitement?
+Je peux retransmettre à... gratuitement.
+QSY
+Dois-je passer à la transmission sur une autre fréquence?
+Passez à la transmission sur une autre fréquence (ou sur... kHz [ou MHz]).
+QTH
+Quelle est votre position en latitude et en longitude (ou d'après tout autre indication)?
+Ma position est... latitude... longitude (ou d'après tout autre indication).
+QTR
+Quelle est l' heure exacte?
+L'heure exacte est...
+Exemples: - Que siginfie « QRO? » Réponse: Dois-je augmenter ma puissance d'émission?
+- Que signifie « QRG 14050 »? Réponse: Votre fréquence exacte est 14050 (kHz)
+- Quel est le code pour « Avez-vous quelque chose pour moi? » Réponse: QRU?
+- Quel est le code pour « La force de vos signaux est très bonne » Réponse: QSA 5
+Les abréviations à connaître sont celles utilisées pour les communications officielles. Elles peuvent avoir une autre signification dans le trafic radioamateur. Ainsi, QRA, QSO, QSP et QTH ont une définition plus restrictive et le sens de QRK et QSA est interverti dans le trafic radioamateur.
+Les réponses en code Q avec une note de 1 à 5 se comprennent en prenant 1 pour non et 5 pour oui. Ainsi la réponse à QRM? (êtes-vous brouillé?) sera QRM 1 si on n’est pas brouillé (non) et la réponse à QSA? (mes signaux sont-ils forts?) sera QSA 5 si les signaux reçus sont forts (oui).
+b Le code RST définit la qualité d’un signal reçu en code Morse sur trois critères: « Readibility, Strength, Tone » ou, en français, « Lisibilité, Force, Tonalité ». La valeur du T est omise si l’émission n’est pas en code Morse. La variable R prend des valeurs de 1 à 5 et la variable S est, de nos jours, la valeur lue par le S-mètre (de 1 à 9). Depuis 1927, le RR a toujours défini les codes QRK (lisibilité) et QSA (force du signal) de manière similaire avec une note de 1 à 5. Mais, en 1932, lors de la définition du RST, un document de travail diffusé lors de la conférence définit la manière de passer le contrôle précis d'une émission quant à sa puissance (QRK, oui QRK!), la compréhensibilité du message (QSA, oui QSA!) et la tonalité des signaux (QRI). C’est ce qu’ont retenu les radioamateurs d’où l’inversion de la signification de ces deux codes! Bien entendu, c’est la codification UIT (pas celle en usage chez les radioamateurs) qu’il faut connaître pour l’examen…
+Les abréviations QTH et QRA s’adressent au service radiomaritime, respectivement position et nom du navire (l’indicatif du navire sera codé QRZ). Quant à QSO et QSP, tout leur sens est donné dans un contexte professionnel où transmettre des messages n’est pas un loisir (contact entre deux personnes partageant la même passion) mais un travail rémunéré (transmettre un message entre deux clients au moindre coût).
+c D’autres abréviations sont définies par l’UIT: la recommandation M.1172 donne la signification de 77 codes Q (de QRA à QTZ excepté QST) et de 64 autres signes et abréviations. Une partie de ces signes et abréviations et d’autres séries de codes Q (37 codes au format QOx ou QUx) concernent exclusivement le service radiomaritime et/ou aéronautique. Enfin, il existe aussi le code Z utilisé par les militaires.
+En 1859, la Western Union établit la norme du " code 92 ": une liste de nombres de 1 à 92 représentait des phrases complètes utilisées par les opérateurs télégraphistes à l’instar du futur code Q. Dans ce code, le nombre 73 signifie "Veuillez accepter mes hommages respectueux" qui se transformera dans le monde radioamateur par "Amitiés"; le nombre 88 signifie "Affectueusement".
+Proposé par Marconi en 1904 et généralisé dès 1908 dans le trafic radiomaritime, le code CQ demandait l’attention de tous les navires (CQ pour « Sécurité », mot français utilisé dans les procédures internationales de sécurité et de détresse).
+d Abréviations en code Morse: le programme de l’examen de Morse (partie 3 de l’annexe 1 de l’arrêté du 21/09/00) a été supprimé par l’arrêté du 23/04/12. Pour autant, la recommandation T/R 61-02 cite ces 15 abréviations à connaître et des questions sur les 3 abréviations soulignées ci-dessous sont posées à l’examen.
+AR (collé): Fin de transmission BK: (Break) signal utilisé pour interrompre une transmission en cours
+CQ: Appel généralisé à toutes les stations CW: (Continuous Waves) onde entretenue – Télégraphie
+DE: utilisé pour séparer l’indicatif d’appel des stations appelées et appelantes K: Invitation à émettre
+MSG: Message PSE: (Please) s'il vous plaît R: Reçu
+RST: Lisibilité, force du signal, tonalité (Report) RX: Récepteur SIG: Signal
+TX: Emetteur UR: (Your) votre VA (collé): Fin de vacation
+### R-3.3)
+Déroulement d'un contact:
+a L’article 4 de la décision ARCEP 12-1241 rappelle la disposition S25.9 du RR: « au cours de leurs émissions, les stations d'amateur doivent transmettre leur indicatif d'appel à de courts intervalles » et précise:
+« et au moins:
+- au début et à la fin de toute période d'émission;
+- toutes les quinze minutes au cours de toute émission d’une durée supérieure à quinze minutes sur une même fréquence (le §3 du préambule rappelle que cette disposition est valable pour tous les types de stations, y compris les satellites, relais et balises qui doivent se conformer aux dispositions générales);
+- en cas de changement de fréquence d’émission, au début de toute période d’émission sur la nouvelle fréquence ».
+D’autre part, l’annexe de la décision 12-1241 prévoit que l'utilisateur d'une station du service d’amateur:
+- s’assure préalablement que ses émissions ne brouilleront pas des émissions déjà en cours d’autres utilisateurs radioamateurs (toujours écouter la fréquence avant de passer en émission…).
+- ne doit pas utiliser la même fréquence en permanence
+- ne pas brouiller volontairement des émissions déjà en cours;
+- ne pas installer une station répétitrice, ou utiliser une classe d'émission, pour un usage personnel ou pour un groupe restreint ( ces deux derniers alinéas ont été ajoutés dans l’arrêté du 02/03/21 ).
+L’utilisation de deux fréquences différentes, l’une pour l’émission, l’autre pour la réception (trafic en mode « split » (même bande) ou « cross-band » (bande différente), trafic via relais ou transpondeur) est autorisée sous réserve d’émettre dans les conditions autorisées par la classe d’opérateur (classe d’émission, puissance et bande)
+Peu importe que le relais (ou le satellite) retransmette le message d’un opérateur Novice (ex-classe 3) sur une bande qui ne lui est pas attribuée du moment que l’opérateur utilise sa station avec une classe d’émission, une fréquence et une puissance autorisées.
+b L’ANFR, dans le cadre de ses missions relatives à l’instruction des cas de brouillage, peut être amenée à demander à l'utilisateur d'une station des informations concernant les logiciels et protocoles utilisés (§4 du préambule de la décision 12-1241).
+c Les procédures de détresse du service mobile maritime (Appendice A13 du RR, abrogé lors de la CMR-07) utilisaient en téléphonie des expressions adaptées du français: Mayday venait du français « Venez m’aider », phrase mal comprise par les opérateurs anglophones lors du premier message de détresse en téléphonie. D’autre part, la recommandation UIT M-1171 décrit des procédures radiotéléphoniques utilisées pour le service radiomaritime en dehors des messages de détresse, d’urgence et de sécurité dans les très rares cas où. le système ASN (appel sélectif numérique) n’est pas utilisé. A l’examen, aucune question ne porte sur ces procédures.
+### R-3.4)
+Teneur des messages:
+a L’article 1 de la décision ARCEP 12-1241 rappelle les dispositions du RR:
+- les transmissions entre stations d'amateur doivent se limiter à des communications en rapport avec l'objet du service d'amateur, et à des remarques d'un caractère purement personnel (art S25-2 du RR)
+- il est interdit de coder les transmissions entre des stations d'amateur pour en obscurcir le sens, sauf s'il s'agit des signaux de commande échangés entre des stations terriennes de commande et des stations spatiales du service d'amateur par satellite dans l’objectif de garantir que tout brouillage préjudiciable causé par des émissions de telles stations puisse être éliminé immédiatement (art S25-2A du RR repris dans le §3 du préambule de la décision 12-1241)
+- les stations d'amateur ne peuvent pas être utilisées pour transmettre des communications en provenance ou à destination de tierces personnes non radioamateurs sauf dans des situations d'urgence ou pour les secours en cas de catastrophe (art S25-3 du RR)
+L’édition 1989 du « Guide du radioamateur » limitait les messages aux sujets suivants:
+- radioélectricité,
+- informatique,
+- astronomie et météorologie,
+- contenu d'une revue technique (sans faire de publicité pour ladite revue),
+- réglementation,
+- vie associative,
+- adresse et numéro de téléphone personnels (et pas ceux des tiers sauf dans le cas des opérations de secours),
+- radioguidage (toutefois, le radioguidage est interdit sur les relais sauf, occasionnellement, pour les manifestations amateurs).
+Quelques questions portant sur ce thème ont été recensées avec des pièges sur les mots utilisés ( par exemple: l’astronomie est autorisée mais pas l’astrologie )
+b Bien que, depuis 1990, l’écoute soit libre, le secret des correspondances captées volontairement ou non doit être conservé. L'article 226-15 du code pénal (atteinte au secret des correspondances), précise que « est puni [ d'un an d'emprisonnement et de 45 000 euros d'amende] le fait, commis de mauvaise foi, d'intercepter, de détourner, d'utiliser ou de divulguer des correspondances émises, transmises ou reçues par la voie électronique ou de procéder à l'installation d'appareils conçus pour réaliser de telles interceptions »
+Enfin, l’article R226-7 du Code Pénal prévoit que « l 'acquisition ou la détention de tout appareil figurant sur la liste mentionnée à l'article R226-1 [notamment les scanners] est soumise à une autorisation délivrée par le Premier ministre » alors que la vente de ces appareils est libre suite à deux jugements qui, en 2002, autorisaient leur mise sur le marché au motif que « les dispositions communautaires interdisent aux États membres de limiter ou d'entraver la mise sur le marché et la mise en service d’appareils portant le marquage CE »…
+4) CONDITIONS D'EXPLOITATION et INDICATIFS D’APPEL
+### R-4.1)
+journal de bord: le titulaire d’une autorisation d’émettre est tenu de consigner dans un journal de bord (ou « carnet de trafic ») les renseignements relatifs à l'activité de sa station: date et heure de communication (UTC ou heure légale mais toujours la même), indicatif (correspondant ou relais), fréquence d’émission, classe d'émission et, éventuellement, le lieu d'émission (en portable ou en mobile) et, pour les radio-clubs, l’indicatif d’appel de l’utilisateur (et le nom et prénom des candidats en formation ayant effectué un contact). Il doit être constamment à jour, présenté à toutes réquisitions des fonctionnaires chargés du contrôle dans le cadre de la prévention des brouillages et afin de faciliter les opérations de contrôle de l’utilisation des fréquences. Il doit être conservé pendant un an à compter de la dernière inscription (art. 6 de la décision 12-1241). La décision 10-0537 (abrogée) précisait que le journal de trafic pouvait être soit à pages numérotées et non détachables, soit tenu à jour informatiquement ou, pour les handicapés ou les non-voyants, par d'autres procédés adaptés.
+### a R-4.2)
+L’exploitation d’une station se différencie par le suffixe utilisé après l’indicatif d’appel de l’opérateur
+- en station fixe, l’opérateur émet avec son indicatif d’appel sans suffixe depuis l’ adresse déclarée à l’ANFR qui doit être informée de tout changement dans les 2 mois (article 7 de l’arrêté du 21/09/00 modifié). Depuis 2021, deux adresses peuvent être communiquées à l’ANFR: celle du domicile de l’opérateur et celle de la station (la résidence secondaire de l’opérateur par exemple ou toute autre adresse).
+Pour une utilisation portable, mobile ou maritime, l’indicatif d’appel personnel devra être complété de la lette /P, /M ou /MM ( dernier alinéa de l’article 7 de l’arrêté du 21/09/00 modifié ) dans les cas suivants:
+une station transportable est une station construite de manière à être déplacée mais ne peut pas fonctionner pendant son transport. L’indicatif d’appel est suivi du suffixe « /P » en CW ou « Portable » en téléphonie.
+une station mobile est « destinée à être utilisée lorsqu'elle est en mouvement, ou pendant des haltes en des points non déterminés » (S1.67 du RR). L’indicatif d’appel est suivi du suffixe « /M » en CW ou « Mobile ».
+une station installée à bord d’un navire situé dans les eaux internationales (à plus de 12 milles nautiques des côtes) utilisera le suffixe « /MM » ou « Maritime Mobile ». La station est alors assimilée à une station de navire (art. S1.77 du RR) et relève de l'autorité du capitaine (art D406-12 du CPCE). Une station située dans un navire dans les eaux territoriales, sur un fleuve ou à quai dans un port est assimilée à une station mobile (/M).
+Exemples: un radioamateur émettant en CW depuis la station d’un autre radioamateur utilisera un indicatif d’appel sous la forme « F5ABC/P »; le même opérateur émettant en téléphonie depuis un véhicule ou en se promenant à pied ou en vélo s’identifiera ainsi: « Foxtrot Cinq Alfa Bravo Charlie Mobile ».
+b Les textes en vigueur ne règlent pas le cas du radioamateur français qui n’émet pas depuis le territoire pour lequel son indicatif d’appel lui a été attribué. L’usage veut que, dans ce cas, l’indicatif d’appel est précédé du préfixe de localisation du lieu d’émission ( voir §R-4.6a ) et d'une barre de fraction puis suivi du suffixe /P ou /M. De même, lors de l’exploitation en portable ou en mobile, le numéro de département peut être précisé. Mais ce ne sont que des usages provenant d’anciens textes abrogés et pas des obligations réglementaires.
+Exemples: un radioamateur novice domicilié en Alsace et émettant depuis son lieu de vacances en Martinique ou à Paris utilisera l’indicatif d’appel F0ABC/P sans plus de précision. L’usage de donner son lieu d’émission en ajoutant le préfixe de sous localisation ou le n° de département conduit à utiliser selon le cas FM/F0ABC/P ou F0ABC/P75 ce qui informe les correspondants du lieu d’émission pour faciliter le pointage des antennes.
+c Depuis 2013, l'utilisation d'équipements radioélectriques à bord d'un aéronef (avions, ballons, …) est autorisée et soumise à des conditions particulières par les autorités en charge de la réglementation aérienne. L'obtention préalable de toutes les autorisations nécessaires en matière d'aviation civile, notamment de sécurité aérienne, auprès des autorités nationales d'immatriculation des aéronefs (DGAC) est obligatoire (§5.3 préambule décision 12-1241). Dans ce cas, la station est mobile et son indicatif doit être suivi du suffixe « /M ».
+d L’article L34-9 du CPCE impose que « les équipements radioélectriques doivent faire l'objet d'une évaluation de leur conformité aux exigences essentielles ». La conformité du matériel est indiquée par le marquage CE (depuis 2008, ce marquage n’est que déclaratif). Toutefois, l’article R20-3 précise que cette exigence ne s'applique pas aux constructions personnelles réalisées « par des radioamateurs (…) non disponibles dans le commerce; les ensembles de pièces détachées à assembler [kits] par des radioamateurs, pour leur usage, et les équipements modifiés par eux ne sont pas considérés comme des équipements disponibles dans le commerce ». Cette exception est confirmée par le décret 2015-1084 qui transpose la directive 2014/30/CE (CEM), plus contraigante pour les fabricants et les distributeurs que l’ancienne 2004/108/CE. La directive 2014/53/EU (RED - Radio Equipment Directive), transposée en droit français par l’ordonnance 2016-493, remplace la Directive R&TTE et concerne tout émetteur ou récepteur de radiocommunication (les terminaux filaires sont exclus).
+e L’article 5 de l’arrêté du 17/12/07 modifié prévoit que les installations fixes dont la PAR (puissance apparente rayonnée) est supérieure à 5 watts sont soumises à déclaration. Les stations portables et mobiles ne sont pas concernées par cette déclaration à transmettre à l’ANFR dans les 2 mois suivant l’installation et qui comprend:
+- l’adresse de la station (définissant ainsi le préfixe attribué)
+- ses coordonnées géographiques en degrés, minutes et secondes au format WGS84 (coordonnées GPS)
+- la PAR maximum utilisée dans les 4 gammes d’onde HF, VHF, UHF et SHF
+Cette déclaration peut s’effectuer par Internet à partir du site https://teleservice-amateurs.anfr.fr.
+f Le §1 du préambule de la décision 12-1241 indique que « la fixation éventuelle des modalités de connexion des stations radioélectriques du service d'amateur à un réseau ouvert au public (ROP) [Internet] ne relève pas de la compétence de l'ARCEP mais du pouvoir réglementaire » (c’est-à-dire du Ministre). A la date de publication de ce document, un tel texte n’est toujours pas paru au JO. La création d’un nouvel article du CPCE pourrait autoriser la connexion d’une station d’amateur à un ROP sous réserve de « prendre toute mesure pour préserver l’intégrité et la sécurité des réseaux ouverts au public ». L’ARCEP ou l’ANFR pourra ordonner la suspension de la connexion lorsque celle-ci portera atteinte à l’intégrité ou à la sécurité de fonctionnement du ROP ou aux conditions d’utilisation des fréquences radioélectriques. Mais, tant que ce texte n’est pas publié, la connexion à un ROP reste interdite.
+g Les installations radioélectriques « peuvent être provisoirement saisies et exploitées […] sans indemnité par décision du conseil des ministres » (§5.4 du préambule de la décision 12-1241 et L65-1 du CPCE, procédure de réquisition décidée par décret et par un vote du Parlement si sa durée dépasse 12 jours dans deux cas précis: l’état d’urgence qui peut s’appliquer localement et l’état de siège qui s’applique à tout le territoire). De plus, l’annexe 2 du TNRBF prévoit une affectation des fréquences spécifique en temps de crise (voir §R-2.1a ).
+Le matériel d’émission détenu n’a pas à être déclaré. Toutefois, mettez à jour votre déclaration PAR en cas d’acquisition ou de cession de matériel. En cas de contrôle de l’installation par l’ANFR dans le cadre d’une instruction pour brouillage, la déclaration PAR et le journal de bord sont regardés en premier lieu...
+a R-4.3 ) Les installations de radio-club sont utilisées sous la responsabilité du titulaire de l’indicatif d’appel du radio-club. Le responsable des installations du radio-club doit être titulaire d’un certificat d’opérateur HAREC (« classe unique » français ou équivalent). Pour la demande d’un nouvel indicatif de radio-club, un récépissé de déclaration de l'association délivré par l'autorité compétente doit être fourni. La station d’un radio-club peut être exploitée par tout opérateur titulaire d’un indicatif d’appel, en utilisant l’indicatif du radio-club suivi de son indicatif personnel ( article 7 de l’arrêté du 21/09/00 modifié). L’utilisateur de la station doit émettre sur une bande, dans un mode et avec une puissance autorisés à sa classe d’opérateur. Outre les mentions habituelles ( voir §R-4.1 ), le journal de bord du radio-club indique les indicatifs d’appel des utilisateurs de la station.
+Exemple: un opérateur manœuvrant la station d’un radio-club s’identifiera par « F6KGL/F6GPX » en CW ou « Foxtrot 6 Kilo Golf Lima opéré par Foxtrot 6 Golf Papa X-ray » en téléphonie.
+b Une station répétitrice est une balise de fréquence ou toute autre installation automatique ( relais ). La station pourra être établie sur un autre site que celui de la station de l’utilisateur (titulaire d’un certificat d’opérateur autre que l’ex-classe 3), ne pourra pas servir à un usage personnel ou un groupe restreint et ne doit transmettre que des informations conformes à la réglementation: son indicatif d’appel, des données relatives à sa position, à son fonctionnement et aux conditions locales intervenant sur les conditions de propagation radioélectrique. Un dispositif d’arrêt d’urgence doit être prévu et, en cas de brouillages persistants, des mesures appropriées proposées par l’ANFR peuvent être imposées (conditions d’exploitation définies antérieurement à 2012 mais toujours en application bien qu’aucun texte en vigueur ne précise ces conditions).
+c Concernant les satellites radioamateurs, la disposition S25.11 précise que « les administrations autorisant des stations spatiales du service d'amateur par satellite doivent faire en sorte que des stations terriennes de commande en nombre suffisant soient installées avant le lancement, afin de garantir que tout brouillage préjudiciable causé par des émissions d'une station du service d'amateur par satellite puisse être éliminé immédiatement ». En outre, la disposition S22.1 prévoit que « les stations spatiales doivent être dotées de dispositifs permettant de faire cesser immédiatement, par télécommande, leurs émissions radioélectriques chaque fois que cette cessation est requise en vertu des dispositions du présent Règlement » (§3 du préambule de la décision ARCEP 12-1241 rappelant les dispositions du RR). Le §4 du préambule de la décision 12-1241 rappelle la nécessité d’obtenir une « autorisation du ministre chargé des communications électroniques pour l’exploitation d’une assignation de fréquence à un système satellitaire prévue par l’article L97-2 du CPCE ».

@@ -1,0 +1,256 @@
+{
+ "block": "W10",
+ "lines": [
+  10102,
+  10700
+ ],
+ "units": [
+  {
+   "id": "T101",
+   "ref": "10.1",
+   "nq": 13,
+   "depth": 2,
+   "anchors": [
+    "T101a"
+   ],
+   "title_fr": "La ligne de transmission",
+   "questions": [
+    {
+     "num": "20190",
+     "question": "CARACTERISTIQUE D'UN CABLE COAXIAL ?",
+     "reponse": "asymétrique"
+    },
+    {
+     "num": "20193",
+     "question": "AFFAIBLISSEMENT LINEIQUE",
+     "reponse": "0,09 dB/m "
+    },
+    {
+     "num": "20550",
+     "question": "SOIT UN CABLE COAXIAL DE 10 METRES DE LONG ET DE 50 OHMS D'IMPEDANCE SUR LA FREQUENCE 14,100 MHZ. QUELLE EST SON IMPEDANCE POUR UNE LONGUEUR DE 20 METRES ?",
+     "reponse": "50 ohms"
+    },
+    {
+     "num": "20655",
+     "question": "PUISSANCE DE 20 W APPLIQUEE A UN CABLE COAXIAL DE 75 OHMS. \nQUELLE EST LA TENSION CRETE ?",
+     "reponse": "54,7 V"
+    }
+   ]
+  },
+  {
+   "id": "T102",
+   "ref": "10.2",
+   "nq": 10,
+   "depth": 2,
+   "anchors": [
+    "T102a",
+    "T102b",
+    "T102c"
+   ],
+   "title_fr": "L'impédance caractéristique",
+   "questions": [
+    {
+     "num": "20195",
+     "question": "IMPEDANCE LIGNE COAXIALE",
+     "reponse": "50 Ω"
+    },
+    {
+     "num": "20360",
+     "question": "QUELLE EST L'IMPEDANCE DU CABLE COAXIAL",
+     "reponse": "72 Ω"
+    },
+    {
+     "num": "20385",
+     "question": "QUELLE EST L'IMPEDANCE DU CABLE COAXIAL ?\nD = 10 ; D = 2",
+     "reponse": "96 Ω"
+    },
+    {
+     "num": "20735",
+     "question": "DANS QUELLE GAMME DE FREQUENCE UTILISE-T-ON GENERALEMENT UN GUIDE D'ONDE ?",
+     "reponse": "SHF"
+    }
+   ]
+  },
+  {
+   "id": "T103",
+   "ref": "10.3",
+   "nq": 17,
+   "depth": 2,
+   "anchors": [
+    "T103",
+    "T103b2",
+    "T103b4",
+    "T103b6"
+   ],
+   "title_fr": "Adaptation, désadaptation et ondes",
+   "questions": [
+    {
+     "num": "20196",
+     "question": "ROS",
+     "reponse": "3"
+    },
+    {
+     "num": "20197",
+     "question": "ROS",
+     "reponse": "1,5"
+    },
+    {
+     "num": "20462",
+     "question": "UN BON TOS DOIT ETRE",
+     "reponse": "égal à 0"
+    },
+    {
+     "num": "20791",
+     "question": "QUEL EST LE ROS DE 1,5 ET LA REPONSE 4 SCHEMAS AVEC DEPHASAGE",
+     "reponse": "Schéma 4"
+    }
+   ]
+  },
+  {
+   "id": "T104",
+   "ref": "10.4",
+   "nq": 13,
+   "depth": 2,
+   "anchors": [
+    "T104a1",
+    "T104a2",
+    "T104a3",
+    "T104b"
+   ],
+   "title_fr": "Lignes d'adaptation et",
+   "questions": [
+    {
+     "num": "20199",
+     "question": "IMPEDANCE LIGNE 1/4 D'ONDE",
+     "reponse": "122 Ω"
+    },
+    {
+     "num": "20408",
+     "question": "PROPRIETES D'UN BALUN 9/1 ?",
+     "reponse": "Transformateur d'impédance "
+    },
+    {
+     "num": "21194",
+     "question": "IMPEDANCE DE SORTIE",
+     "reponse": "50 Ω"
+    },
+    {
+     "num": "22465",
+     "question": "ON DISPOSE DE 4 LONGUEURS DE CABLE COAXIAL.",
+     "reponse": "4"
+    }
+   ]
+  },
+  {
+   "id": "T111",
+   "ref": "11.1",
+   "nq": 6,
+   "depth": 3,
+   "anchors": [
+    "T11",
+    "T111",
+    "T111c"
+   ],
+   "title_fr": "Récepteur sans conversion de fréquence :",
+   "questions": [
+    {
+     "num": "20200",
+     "question": "COMMENT MESURE-T-ON UN COURANT HF ?",
+     "reponse": "avec un ampèremètre thermique "
+    },
+    {
+     "num": "20201",
+     "question": "RELEVER L'AFFIRMATION VRAIE",
+     "reponse": "le taux de réjection de la fréquence image dépend de la sélectivité de l'ampli RF "
+    },
+    {
+     "num": "20203",
+     "question": "ETAGE MANQUANT",
+     "reponse": "détecteur"
+    },
+    {
+     "num": "20382",
+     "question": "SCHEMA SYNOPTIQUE D'UN RECEPTEUR AVEC : ANTENNE---(?)---- CAG---- DEMOD---AF----HP\nQUEL EST LE CIRCUIT MANQUANT ?",
+     "reponse": "Amplificateur RF"
+    },
+    {
+     "num": "21201",
+     "question": "COMMENT SE NOMME UN TEL RECEPTEUR ?",
+     "reponse": "Récepteur sans conversion   "
+    },
+    {
+     "num": "21202",
+     "question": "QUELLE EST LA PARTICULARITE DE CE RECEPTEUR ?",
+     "reponse": "il ne reçoit qu'une fréquence"
+    }
+   ]
+  },
+  {
+   "id": "T112",
+   "ref": "11.2",
+   "nq": 36,
+   "depth": 1,
+   "anchors": [
+    "T0112a",
+    "T112a",
+    "T112b"
+   ],
+   "title_fr": "Récepteur avec fréquence",
+   "questions": [
+    {
+     "num": "20204",
+     "question": "ETAGE REPERE PAR ?",
+     "reponse": "amplificateur AF "
+    },
+    {
+     "num": "20304",
+     "question": "QUEL EST LE NOM DE L'ELEMENT MARQUE  ? \nANTENNE --- RF----ML-----FI----DETECTION--- ?-----HAUT PARLEUR",
+     "reponse": "Amplificateur AF"
+    },
+    {
+     "num": "21206",
+     "question": "FREQUENCE DE L'OL",
+     "reponse": "5 MHz"
+    },
+    {
+     "num": "21482",
+     "question": "NOM DE L'ETAGE",
+     "reponse": "Amplificateur RF"
+    }
+   ]
+  },
+  {
+   "id": "T113",
+   "ref": "11.3",
+   "nq": 10,
+   "depth": 2,
+   "anchors": [
+    "T113",
+    "T113a"
+   ],
+   "title_fr": "a 11.3)",
+   "questions": [
+    {
+     "num": "20213",
+     "question": "L'ECART ENTRE LA FREQUENCE IMAGE ET LA FREQUENCE A RECEVOIR EST  EGAL A :",
+     "reponse": "2 fois la FI"
+    },
+    {
+     "num": "20384",
+     "question": "SYNOPTIQUE : SUR UN MELANGEUR, ON A 650 KHZ ( GAUCHE) ET 1 MHZ (EN BAS). \"QUELLE EST LA FREQUENCE IMAGE ?",
+     "reponse": "1350 kHz"
+    },
+    {
+     "num": "20465",
+     "question": "FREQUENCE IMAGE ? AVEC L'OSCILLATEUR LOCAL = 1,1 MHZ ET EN SORTIE 650 KHZ",
+     "reponse": "450 kHz"
+    },
+    {
+     "num": "20474",
+     "question": "LA FREQUENCE IMAGE EST :",
+     "reponse": "créée par un récepteur hétérodyne dont le filtre d'entrée est défectueux "
+    }
+   ]
+  }
+ ]
+}

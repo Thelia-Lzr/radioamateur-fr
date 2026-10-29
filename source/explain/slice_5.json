@@ -1,0 +1,4315 @@
+[
+ {
+  "num": "34824",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUELLE EST LA CLASSE D'EMISSION EN TELEPHONIE ?",
+  "options": [
+   "A3E",
+   "A3C",
+   "A1A",
+   "F3F"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "A3E",
+  "commentaire_fr": "Pour coder une classe d'émission en téléphonie, on utilise la lettre E en dernière position.\n",
+  "stem_zh": "话务（电话）的发射类别是什么？",
+  "ans_zh": "A3E",
+  "com_zh": "表示话务的发射类别时，最后一位使用字母 E。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34825",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "DUREE MAXIMUM DE SUSPENSION DE L'INDICATIF EN CAS DE MANQUEMENT GRAVE ?",
+  "options": [
+   "1 an",
+   "3 ans",
+   "10 ans",
+   "6 mois"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "3 ans",
+  "commentaire_fr": "",
+  "stem_zh": "严重违犯时，呼号暂停的最长期限是多少？",
+  "ans_zh": "3 年",
+  "com_zh": "",
+  "anchor": "R44"
+ },
+ {
+  "num": "34826",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "PUISSANCE MAXIMUM AUTORISEE EN TELEGRAPHIE AU-DESSUS DE 440 MHZ ?",
+  "options": [
+   "pas de limite",
+   "250 W",
+   "120 W",
+   "500 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "120 W",
+  "commentaire_fr": "",
+  "stem_zh": "440 MHz 以上电报发射允许的最大功率是多少？",
+  "ans_zh": "120 W",
+  "com_zh": "",
+  "anchor": "R22a"
+ },
+ {
+  "num": "34827",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUE DOIT-ON DECLARER A L'ANFR ?",
+  "options": [
+   "la hauteur des antennes",
+   "le type d'antenne",
+   "les caractéristiques des antennes",
+   "la PAR maximum"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "la PAR maximum",
+  "commentaire_fr": "La puissance PAR maximum utilisée par bandes doit être déclarée à l’ANFR dans les 2 mois suivant la mise en place ou la modification d’une installation si elle excède 5 watts PAR.\n",
+  "stem_zh": "应向 ANFR 申报什么？",
+  "ans_zh": "最大 PAR",
+  "com_zh": "各频段使用的最大 PAR 功率若超过 5 瓦 PAR，必须在设施安装或改造后 2 个月内向 ANFR 申报。",
+  "anchor": "R42e"
+ },
+ {
+  "num": "34828",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "DUREE D'UTILISATION D'UN INDICATIF SPECIAL ?",
+  "options": [
+   "15 jours non consécutifs pendant 6 mois ",
+   "15 jours consécutifs",
+   "1 an",
+   "2 jours"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "15 jours non consécutifs pendant 6 mois ",
+  "commentaire_fr": "",
+  "stem_zh": "特别呼号的使用期限？",
+  "ans_zh": "6 个月内 15 个不连续的日子",
+  "com_zh": "",
+  "anchor": "R46c"
+ },
+ {
+  "num": "34831",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "SELON LA TABLE INTERNATIONALE D'EPELLATION PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES J ET K ?",
+  "options": [
+   "Jupiter, Kangoroo",
+   "Jude, Kirk",
+   "Juliette, Kilowatt",
+   "Juliett, Kilo "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Juliett, Kilo ",
+  "commentaire_fr": "",
+  "stem_zh": "按照国际拼读字母表，字母 J 和 K 怎么拼读？",
+  "ans_zh": "Juliett、Kilo",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "34834",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUI PERCOIT LA TAXE RADIOAMATEUR ?",
+  "options": [
+   "Personne",
+   "L’ARCEP",
+   "La région où est domicilié le radioamateur",
+   "Le ministère chargé des communications électroniques"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Personne",
+  "commentaire_fr": "C'était le Trésor Public qui encaissait la Taxe annuelle radioamateur (comme toutes les taxes en France) mais les produits de cette taxe étaient affectés au budget de l'ANFR (réponse non proposée). La Loi de Finances pour 2019 a supprimé la \"taxe sur les radioamateurs\". Personne ne perçoit donc cette taxe depuis le 1/1/19.\n",
+  "stem_zh": "谁征收业余无线电税？",
+  "ans_zh": "没有人",
+  "com_zh": "以前是由公共财政（Trésor Public）收取业余无线电年税（与法国的所有税一样），但该税的收入划归 ANFR 预算（此选项未给出）。2019 年财政法取消了「业余无线电爱好者税」。因此自 2019 年 1 月 1 日起无人征收该税。",
+  "anchor": "R46b"
+ },
+ {
+  "num": "34836",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "LA RECOMMANDATION T/R 61-02 DEFINIT COMBIEN DE NOMBRE DE CLASSES HAREC ?",
+  "options": [
+   "2",
+   "3",
+   "1",
+   "elle ne traite pas de ce sujet"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1",
+  "commentaire_fr": "Avant la révision de Vilnius (en 2004), la recommandation T/R 61-02 distinguait les certificats d'opérateurs avec compétence de Morse et ceux sans cette compétence (CEPT A avec Morse et CEPT B sans Morse). Depuis cette révision (qui fait suite à la décision de l'UIT de ne plus exiger la connaissance du Morse pour émettre sur les bandes inférieures à 30 MHz, décision prise lors lors la CMR 2003), il n'y a plus qu'une seule classe CEPT \"HAREC\".\n",
+  "stem_zh": "T/R 61-02 建议书规定了多少个 HAREC 等级？",
+  "ans_zh": "1",
+  "com_zh": "在维尔纽斯修订（2004 年）之前，T/R 61-02 建议书区分具备摩尔斯电码能力的操作员证书和不具备该能力的证书（CEPT A 含摩尔斯、CEPT B 不含摩尔斯）。自那次修订（它源于 UIT 在 2003 年世界无线电通信大会上决定不再要求 30 MHz 以下频段发射会摩尔斯电码）以来，CEPT 只剩一个「HAREC」等级。",
+  "anchor": "R11b"
+ },
+ {
+  "num": "34837",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "QUEL EST LE PREFIXE DE LA LITUANIE",
+  "options": [
+   "LI",
+   "LT",
+   "LU",
+   "LY"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "LY",
+  "commentaire_fr": "",
+  "stem_zh": "立陶宛的前缀是什么？",
+  "ans_zh": "LY",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "34842",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "LA BANDE DE FREQUENCE 5351,5 - 5366,5 KHZ EST-ELLE OUVERTE EN FRANCE DANS LA ZONE 2 DE L'UIT ?",
+  "options": [
+   "non",
+   "oui",
+   "oui mais uniquement avec moins de 15 W PIRE",
+   "oui mais sauf en Guyane"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "oui mais uniquement avec moins de 15 W PIRE",
+  "commentaire_fr": "La décision ARCEP 19-1241 a autorisé le trafic sur la bande des 60 mètres avec une PIRE Maximuim de 15 W. Notez que cette question a été posée en novembre 2018, donc avant la publication de la décision 19-1241. A ce moment, la bonne réponse était \"non\". Espérons que l'ANFR a mis à jour la bonne réponse  !\n",
+  "stem_zh": "在法国，5351.5 - 5366.5 kHz 频段在 UIT 第 2 区开放吗？",
+  "ans_zh": "开放，但仅限 PIRE 低于 15 W",
+  "com_zh": "ARCEP 19-1241 决定批准在 60 米波段通信，最大 PIRE 为 15 W。请注意，这道题是在 2018 年 11 月出的，即在 19-1241 决定公布之前。当时正确答案是「否」。希望 ANFR 已经更新了正确答案！",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34845",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "CLASSES D'EMISSION AUTORISEES POUR LES BALISES ?",
+  "options": [
+   "J3E, A1A et A2E",
+   "A1A, A2A et A1B ",
+   "toutes les classes d’émission ",
+   "aucune classe"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "toutes les classes d’émission ",
+  "commentaire_fr": "Rien dans la réglementation n'indique la classe d'émission à utiliser. Il n'est question que des informations transmises. Nous en concluons que toutes les classes d'émission peuvent être utilisées...\n",
+  "stem_zh": "信标允许使用哪些发射类别？",
+  "ans_zh": "所有发射类别",
+  "com_zh": "法规中没有规定应使用哪一发射类别，只涉及所传输的信息。因此我们推断所有发射类别都可以使用……",
+  "anchor": "R43b"
+ },
+ {
+  "num": "34846",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "COMMENT CALCULE-T-ON LE RENDEMENT D'UN EMETTEUR ?",
+  "options": [
+   "puissance consommée / puissance émise",
+   "puissance émise / intensité consommée",
+   "tension d'alimentation / puissance émise",
+   "puissance émise / puissance consommée "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "puissance émise / puissance consommée ",
+  "commentaire_fr": "Quand on parle de rendement, on se réfère au rapport de la puissance émise divisé par la puissance consommée. Le rapport est ainsi toujours inférieur à 100%.\n",
+  "stem_zh": "如何计算发射机的效率？",
+  "ans_zh": "发射功率 / 消耗功率",
+  "com_zh": "谈到效率时，指的是发射功率除以消耗功率之比。该比值总是小于 100%。",
+  "anchor": "R51d"
+ },
+ {
+  "num": "34848",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "QUEL EFFET ONT LES BRINS REFLECTEURS DANS UNE ANTENNE YAGI ?",
+  "options": [
+   "ils diminuent le gain",
+   "ils diminuent l’impédance ",
+   "ils ne changent rien aux caractéristiques de l’antenne",
+   "ils génèrent du QRN"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "ils diminuent l’impédance ",
+  "commentaire_fr": "Les brins parasites (comme les réflecteurs) augmentent le gain de l'antenne s'ils sont bien positionnés. Ils changent donc pas les caractéristiques de l'antenne. Etant des élements passifs, ils ne génèrent pas de bruit (QRN)\n",
+  "stem_zh": "八木天线中的反射振子有什么作用？",
+  "ans_zh": "它们降低阻抗",
+  "com_zh": "寄生振子（如反射器）若位置正确会提高天线增益，因此它们会改变天线的特性（原文此处有 « pas »，疑为笔误）。由于是无源元件，它们不产生噪声（QRN）。",
+  "anchor": "R52f"
+ },
+ {
+  "num": "34851",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUI PEUT EMETTRE SUR 51 MHZ ?",
+  "options": [
+   "lLes radioamateurs émettant depuis certains départements ",
+   "Tous les radioamateurs de la classe unique ",
+   "Tous les radioamateurs",
+   "Les radioamateurs émettant en dehors de certains départements"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Tous les radioamateurs de la classe unique ",
+  "commentaire_fr": "Avant 2012, il y avait des restrictions pour la bande des 50 MHz dans certains départements. Les opérateurs de classe 3 n’ont pas le droit d'émettre sur la bande des 6 mètres\n",
+  "stem_zh": "谁可以在 51 MHz 上发射？",
+  "ans_zh": "所有单一等级的业余爱好者",
+  "com_zh": "2012 年之前，某些省份对 50 MHz 频段有使用限制。3 类操作员无权在 6 米波段发射。",
+  "anchor": "R21d"
+ },
+ {
+  "num": "34852",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "DANS QUELLE GAMME D'ONDE CLASSE-T-ON LA BANDE DU 160 METRES ?",
+  "options": [
+   "VLF",
+   "LF",
+   "MF",
+   "HF"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "MF",
+  "commentaire_fr": "Les ondes hectométriques (dont la longueur d'onde est comprise entre 1 hectomètre et 10 hm) sont les ondes MF.\n",
+  "stem_zh": "160 米波段归入哪个波段分类？",
+  "ans_zh": "MF",
+  "com_zh": "百米波（波长在 1 百米至 10 百米之间）就是 MF 波。",
+  "anchor": "R52b"
+ },
+ {
+  "num": "34853",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "LE DECRET 2002-775 DU 3 MAI 2002 S'APPLIQUE-T-IL AUX STATIONS DU SERVICE AMATEUR ?",
+  "options": [
+   "seulement le week-end",
+   "seulement si la station émet avec une puissance supérieure à 25 W",
+   "non",
+   "oui"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "oui",
+  "commentaire_fr": "Le décret 2002-775 fixe les niveaux maximum d’exposition du public aux champs électromagnétiques et s’adresse à tout appareil radio\n",
+  "stem_zh": "2002 年 5 月 3 日第 2002-775 号法令适用于业余业务电台吗？",
+  "ans_zh": "适用",
+  "com_zh": "2002-775 号法令规定公众暴露于电磁场的最大电平，适用于所有无线电设备。",
+  "anchor": "R22b"
+ },
+ {
+  "num": "34854",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "LE PREFET PEUT-IL PRENDRE LA DECISION DE CONTROLER LE RAYONNEMENT RADIOELECTRIQUE?",
+  "options": [
+   "non en aucun cas ",
+   "oui si la commune compte plus de 40.000 habitants ",
+   "oui pour tout le monde et les radioamateurs",
+   "oui pour les radioamateurs uniquement"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "non en aucun cas ",
+  "commentaire_fr": "Seul le maire peut demander aux opérateurs des informations sur leurs installations radioélectriques (Article 34-9-2 du CPCE, introduisant des mesures relatives à la sobriété, à la transparence, à l’information et à la concertation en matière d’exposition aux ondes électromagnétiques). Cela concerne donc les professionnels (notamment opérateurs téléphoniques) mais en aucun cas les radioamateurs. D’autre part, la loi du 9 février 2015 a prévu la création d’une instance de concertation départementale (ICD) réunie par le préfet, le cas échéant à la demande du maire lorsqu’il estime qu’une médiation est requise concernant une installation radioélectrique existante ou projetée. Cette question et ce commentaire vont bien au-delà de ce qui est demandé pour l’examen radioamateur…\n",
+  "stem_zh": "省长（préfet）可以决定对无线电辐射进行监测吗？",
+  "ans_zh": "不可以，在任何情况下都不行",
+  "com_zh": "只有市长可以要求运营方提供其无线电装置的信息（《邮政与电子通信法典》第 34-9-2 条，引入了有关电磁波暴露的节制、透明、信息与协商措施）。这只涉及专业运营方（尤其是电话运营商），绝不涉及业余爱好者。另一方面，2015 年 2 月 9 日的法律设立了省级协商机构（ICD），由省长召集，必要时可应市长的要求召开——当市长认为对现有或拟建的无线电装置需要调解时。这道题及其注释远远超出了业余无线电考试的要求……",
+  "anchor": "R13c"
+ },
+ {
+  "num": "34856",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "J'AI UNE ANTENNE AYANT UN GAIN DE 60 DB. A QUI DOIS-JE LA DECLARER ?",
+  "options": [
+   "à l’ANFR",
+   "à la préfecture de mon département",
+   "je n’ai pas à la déclarer ",
+   "au ministère des télécommunications"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "je n’ai pas à la déclarer ",
+  "commentaire_fr": "",
+  "stem_zh": "我有一副增益 60 dB 的天线，应向谁申报？",
+  "ans_zh": "我不需要申报",
+  "com_zh": "",
+  "anchor": "R22a"
+ },
+ {
+  "num": "34857",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "JE SUIS EN DEPLACEMENT ET J'ENTENDS : 5B/EAXX. \nDE QUEL PAYS PROVIENT CET APPEL ?",
+  "options": [
+   "d’Espagne",
+   "de Slovénie",
+   "d’Irlande",
+   "de Chypre "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "de Chypre ",
+  "commentaire_fr": "",
+  "stem_zh": "我在外地，听到：5B/EAXX。这个呼叫来自哪个国家？",
+  "ans_zh": "来自塞浦路斯",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "34858",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "L'INDICATIF 9H/MXX EST UTILISE PAR",
+  "options": [
+   "un radioamateur anglais qui émet depuis Malte ",
+   "un radioamateur maltais émettant depuis le Maroc",
+   "un radioamateur allemand émettant depuis la Hongrie",
+   "un radioamateur espagnol en vacances aux Baléares"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "un radioamateur anglais qui émet depuis Malte ",
+  "commentaire_fr": "",
+  "stem_zh": "呼号 9H/MXX 由谁使用？",
+  "ans_zh": "一位从马耳他发射的英国业余爱好者",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "34862",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "LE RAYONNEMENT DE L'ANTENNE GP EST :",
+  "options": [
+   "maximum à la verticale de l’antenne ",
+   "minimum en direction de l’horizon ",
+   "omnidirectionnel",
+   "circulaire"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "omnidirectionnel",
+  "commentaire_fr": "",
+  "stem_zh": "GP 天线的辐射是：",
+  "ans_zh": "全向的",
+  "com_zh": "",
+  "anchor": "R52e"
+ },
+ {
+  "num": "34863",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "QU'EST-CE QUI CARACTERISE UNE ANTENNE ?",
+  "options": [
+   "son indicatif",
+   "sa modulation",
+   "sa puissance",
+   "sa directivité"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "sa directivité",
+  "commentaire_fr": "Les autres caractériqtiques des antennes (non cités dans les réponses proposées) sont la (ou les) fréquence(s) de résonance et l'impédance du point d'alimenation à cette (ou ces) fréquence(s).\n",
+  "stem_zh": "天线的特征是什么？",
+  "ans_zh": "其方向性（定向性）",
+  "com_zh": "天线的其他特性（选项中没有列出）是谐振频率，以及该（些）频率下馈电点的阻抗。",
+  "anchor": "R52"
+ },
+ {
+  "num": "34868",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUE SIGNIFIE QRM A LA FORME AFFIRMATIVE ?",
+  "options": [
+   "Je suis brouillé ",
+   "Je suis troublé par des parasites",
+   "Voici ma position :",
+   "Je suis appelé par XXX"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Je suis brouillé ",
+  "commentaire_fr": "",
+  "stem_zh": "QRM 用肯定形式表示什么？",
+  "ans_zh": "我受到干扰",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "34869",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "QUE SIGNIFIE L'INDICATIF O/N-ZZ-F ?",
+  "options": [
+   "Radio amateur français émettant depuis la Belgique",
+   "Cet indicatif n’existe pas",
+   "Radio amateur belge émettant depuis la France",
+   "Radio amateur étranger émettant depuis la France"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Cet indicatif n’existe pas",
+  "commentaire_fr": "Cet indicatif ne peut pas exister car d'une part le suffixe O n'est pas affecté à un pays et d'autre part le tiret (-) n'est pas un caractère permettant de constituer un indicatif d'appel (les seuls caractères utilisables sont les 26 lettres de l'alphabet romain, les 10 chiffres arabes et le signe \"/\" (barre de fraction) pour séparer les préfixes ou les suffixes indiquant des conditions particulières d'exploitation (portable ou mobile)).\n\n",
+  "stem_zh": "呼号 O/N-ZZ-F 表示什么？",
+  "ans_zh": "这个呼号不存在",
+  "com_zh": "这个呼号不可能存在：一方面后缀 O 并非指配给某个国家的字母；另一方面连字符（-）不是可用来构成呼号的字符（可使用的字符只有 26 个罗马字母、10 个阿拉伯数字，以及用于分隔表示特殊操作条件（便携或移动）的前缀或后缀的符号「/」（斜杠））。",
+  "anchor": "R47a"
+ },
+ {
+  "num": "34873",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE BANDE EST AUSSI EXPLOITEE PAR DES SERVICES AUTRES QUE LE SERVICE D'AMATEUR ?",
+  "options": [
+   "18,068 – 18,168 MHz",
+   "10,100 – 10,150 MHz ",
+   "14,000 – 14,350 MHz",
+   "24,890 – 24,990 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10,100 – 10,150 MHz ",
+  "commentaire_fr": "Autre manière de poser la question : quelle est la bande en statut secondaire ou à égalité de droits ?\n\n",
+  "stem_zh": "哪个频段也被业余业务以外的业务使用？",
+  "ans_zh": "10.100 – 10.150 MHz",
+  "com_zh": "换个问法：哪个频段是次要业务地位或平等使用权的频段？",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34874",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "QUEL PREFIXE PEUT ETRE A LA FOIS UTILISE POUR DES INDICATIFS PERSONNELS ET POUR DES INDICATIFS SPECIAUX TEMPORAIRES ?",
+  "options": [
+   "TM",
+   "TX",
+   "TK",
+   "TO"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "TK",
+  "commentaire_fr": "Le préfixe TK est utilisé pour les indicatifs d’appel individuels et pour les stations temporaires dont l’activité est déclarée en Corse.\n\n",
+  "stem_zh": "哪个前缀既可用于个人呼号，又可用于临时特别呼号？",
+  "ans_zh": "TK",
+  "com_zh": "前缀 TK 用于个人呼号，也用于在科西嘉申报活动的临时电台。",
+  "anchor": "R46c"
+ },
+ {
+  "num": "34875",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "L'ARTICLE S25 DU RR :",
+  "options": [
+   "interdit le morse aux radioamateurs",
+   "organise les associations de radioamateurs",
+   "traite de la libre circulation des radioamateurs sans formalité administrative",
+   "autorise le morse aux radioamateurs"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "autorise le morse aux radioamateurs",
+  "commentaire_fr": "Depuis 2003, les radioamateurs peuvent exploiter toutes les fréquences inférieures à 30 MHz dans toutes les classes d’émission (y compris en code Morse) sans avoir à « démontrer qu’ils sont aptes à la transmission et à la réception de textes en signaux du Code Morse ». La libre circulation des radioamateurs est traitée dans la recommandation CEPT T/R 61-01.\n\n",
+  "stem_zh": "《无线电规则》S25 条：",
+  "ans_zh": "允许业余爱好者使用摩尔斯电码",
+  "com_zh": "自 2003 年起，业余爱好者可以在 30 MHz 以下的所有频率上使用所有发射类别（包括摩尔斯电码），而无须「证明其有能力收发电码信号文本」。业余爱好者的自由通行问题由 CEPT T/R 61-01 建议书处理。",
+  "anchor": "R11a"
+ },
+ {
+  "num": "34876",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "QUELLE EST LA BANDE CORRESPONDANTE AUX ONDES MF ?",
+  "options": [
+   "300 kHz à 3 MHz ",
+   "3 MHz à 30 MHz",
+   "30 à 300 kHz",
+   "30 à 300 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "300 kHz à 3 MHz ",
+  "commentaire_fr": "",
+  "stem_zh": "MF 波对应的频段是？",
+  "ans_zh": "300 kHz 至 3 MHz",
+  "com_zh": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "34877",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "\" QUELLE EST LA FORCE DE MES SIGNAUX  ? \" SE DIT :",
+  "options": [
+   "QRK",
+   "QSA",
+   "QRN",
+   "QRP"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "QSA",
+  "commentaire_fr": "",
+  "stem_zh": "「我的信号强度如何？」用哪个代码表示：",
+  "ans_zh": "QSA",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "34879",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EN ALPHABET INTERNATIONAL, QUEL CODE POUR V ?",
+  "options": [
+   "Victoire",
+   "Vancouver",
+   "Venezuela",
+   "Victor"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Victor",
+  "commentaire_fr": "",
+  "stem_zh": "在国际字母表中，V 用哪个代码（拼读词）？",
+  "ans_zh": "Victor",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "34880",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EN ALPHABET INTERNATIONAL, QUEL CODE POUR U ?",
+  "options": [
+   "Uniform",
+   "Uruguay",
+   "Unity",
+   "Ursulla"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Uniform",
+  "commentaire_fr": "",
+  "stem_zh": "在国际字母表中，U 用哪个代码（拼读词）？",
+  "ans_zh": "Uniform",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "34881",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUELLE EST LA CLASSE D'EMISSION POUR \"MODULATION D'AMPLITUDE A DOUBLE BANDE LATERALE\"?",
+  "options": [
+   "B2F",
+   "A1F",
+   "D3E",
+   "J7B"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "A1F",
+  "commentaire_fr": "Le type de modulation est le premier caractère du code et la lettre A correspond à la définition demandée\n",
+  "stem_zh": "「双边带调幅」的发射类别是什么？",
+  "ans_zh": "A1F",
+  "com_zh": "调制类型是代码的第一个字符，字母 A 对应所要求的定义。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34882",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "UN EMETTEUR SORT UNE PUISSANCE DE 40 DBM. L'EMISSION SE FAIT SUR LA GAMME ALLANT DE 144 A 145 MHZ. QUELLE EST LA PUISSANCE DES RAYONNEMENTS NON ESSENTIELS POSSIBLE ?",
+  "options": [
+   "-19 dBm",
+   "-120 dBm",
+   "-13 dBm",
+   "-70 dBm"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "-13 dBm",
+  "commentaire_fr": "40 dBm (décibels par rapport à 1 milliwatt) correspond à 10 dBW (décibels par rapport à 1 Watt) et donc à 10 watts. \nLa formule générale qui définit le niveau maximum des rayonnements non essentiels est : 43 + 10 log(P) soit 43 + 10 log (10) = 43 + 10x1 = 53 dB. On reprend donc les 40 dBm de puissance émise et on retranche 53, soit -13 dBm.\nQuestion extrêmement tordue ! ! \n",
+  "stem_zh": "一台发射机输出功率为 40 dBm，发射在 144 至 145 MHz 范围内进行。非必要辐射的功率可能是多少？",
+  "ans_zh": "-13 dBm",
+  "com_zh": "40 dBm（相对于 1 毫瓦的分贝值）相当于 10 dBW（相对于 1 瓦的分贝值），即 10 瓦。定义非必要辐射最大电平的一般公式为：43 + 10 log(P)，即 43 + 10 log(10) = 43 + 10×1 = 53 dB。于是取发射功率 40 dBm 减去 53，得到 -13 dBm。| 这道题极其刁钻！！",
+  "anchor": "R13c"
+ },
+ {
+  "num": "34885",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "QUEL EST LE DIAGRAMME DE RAYONNEMENT D'UN DOUBLET 1/2 ONDE ? 4 SCHEMAS SONT REPRESENTES, DONT 1 AVEC 2 LOBES UNIQUEMENT",
+  "options": [
+   "2",
+   "1",
+   "4",
+   "3"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1",
+  "commentaire_fr": "",
+  "stem_zh": "半波偶极天线的辐射方向图是哪一个？图中给出 4 个示意图，其中 1 个只有 2 个波瓣",
+  "ans_zh": "1",
+  "com_zh": "",
+  "anchor": "R52h"
+ },
+ {
+  "num": "34892",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "LA FRANCE APPLIQUE-T-ELLE LA RECOMMANDATION T/R 61-01 DE LA CEPT ?",
+  "options": [
+   "uniquement sur les fréquences supérieures à 29,7MHz",
+   "uniquement sur les fréquences inférieures à 29,7MHz",
+   "Non",
+   "Oui"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Oui",
+  "commentaire_fr": "",
+  "stem_zh": "法国是否执行 CEPT 的 T/R 61-01 建议书？",
+  "ans_zh": "执行",
+  "com_zh": "",
+  "anchor": "R11b"
+ },
+ {
+  "num": "34893",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "EN VERTU DE L'ARRETE DU 17/12/07 MODIFIE, QUE FAUT-IL DECLARER A L'ANFR ?",
+  "options": [
+   "le modèle de l’émetteur utilisé ",
+   "le gain de son antenne",
+   "le ROS mesuré sur chaque bande",
+   "PAR maximum utilisée sur chaque gamme d’ondes "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "PAR maximum utilisée sur chaque gamme d’ondes ",
+  "commentaire_fr": "",
+  "stem_zh": "根据经修订的 2007 年 12 月 17 日部令，应向 ANFR 申报什么？",
+  "ans_zh": "每个波段上使用的最大 PAR",
+  "com_zh": "",
+  "anchor": "R42e"
+ },
+ {
+  "num": "34901",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUI DEFINIT LES CONDITIONS D'EXPLOITATION DES FREQUENCES EN FRANCE ?",
+  "options": [
+   "l'ARCEP",
+   "l'ANFR",
+   "l'UIT",
+   "le ministre chargé des communications électroniques"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "l'ARCEP",
+  "commentaire_fr": "Les conditions d'exploitation des stations d'amateur sont définis par une décision de l'ARCEP\n",
+  "stem_zh": "在法国，谁规定频率的使用条件？",
+  "ans_zh": "ARCEP",
+  "com_zh": "业余电台的使用条件由 ARCEP 的一项决定规定。",
+  "anchor": "R11c"
+ },
+ {
+  "num": "34902",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA FREQUENCE AVEC UN STATUT A EGALITE DE DROITS ?",
+  "options": [
+   "14,150 MHz",
+   "3,570 MHz",
+   "10,175 MHz",
+   "7,125 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "3,570 MHz",
+  "commentaire_fr": "",
+  "stem_zh": "哪个频率具有平等使用权的地位？",
+  "ans_zh": "3.570 MHz",
+  "com_zh": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34904",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "DANS QUEL DEPARTEMENT EST INTERDITE LA BANDE DES 50 MHZ ?",
+  "options": [
+   "tous",
+   "aucun",
+   "la Somme",
+   "le Val de Marne"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "aucun",
+  "commentaire_fr": "Avant 2012, il y avait des restrictions pour la bande des 50 MHz dans certains départements. Mais, avec la décision ARCEP 2012-1241, toutes les restrictioons ont été levées.\n",
+  "stem_zh": "50 MHz 波段在哪个省被禁止？",
+  "ans_zh": "没有任何省",
+  "com_zh": "2012 年之前，某些省对 50 MHz 频段有限制。但随着 ARCEP 2012-1241 决定，所有限制都取消了。",
+  "anchor": "R21d"
+ },
+ {
+  "num": "34906",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "CLASSE D'EMISSION A1B ?",
+  "options": [
+   "transmission de données",
+   "modulation d’amplitude avec bande latérales indépendantes",
+   "signal analogique",
+   "télégraphie automatique"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "télégraphie automatique",
+  "commentaire_fr": "Il ne s'agit ici que d'une partie de la définition de la classe d'émission.\n",
+  "stem_zh": "发射类别 A1B？",
+  "ans_zh": "自动电报",
+  "com_zh": "这里只是该发射类别定义的一部分。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34908",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "PUISSANCE D'EMISSION DES RAYONNEMENTS NON ESSENTIELS MAXIMUM POUR 28,5 MHZ ?",
+  "options": [
+   "2,5 mW",
+   "50 µW",
+   "250 W",
+   "1 mW"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "2,5 mW",
+  "commentaire_fr": "Telle qu'elle est posée ici, cette question traite de la puissance des rayonnements non essentiels et non pas de leur niveau par rapport à l'émission fondamentale. La réponse attendue n'est donc pas en dBc (décibel par rapport à l'émission fondamentale) mais en watts. Sur les fréquences inférieures à 30 MHz, le niveau de puissance des rayonnements non essentiels doit être inférieur à -50 dBc, soit 1/100.000 de la puissance d’émission qui peut être au maximum de 250 W sur la bande de 10 mètres, soit 2,5 mW\n50 µW est la puissance maximum des rayonnements non essentiels sur les fréquences supérieures à 30 MHz.\n",
+  "stem_zh": "28.5 MHz 上非必要辐射的最大发射功率是多少？",
+  "ans_zh": "2.5 mW",
+  "com_zh": "就本题的提法而言，问的是非必要辐射的功率，而不是它们相对于基波发射的电平。因此期望的答案不是以 dBc（相对于基波发射的分贝）表示，而是以瓦表示。在 30 MHz 以下的频率上，非必要辐射的功率电平必须低于 -50 dBc，即发射功率的 1/100 000；10 米波段上发射功率最大可为 250 W，因此为 2.5 mW | 50 µW 是 30 MHz 以上频率上非必要辐射的最大功率。",
+  "anchor": "R13c"
+ },
+ {
+  "num": "34909",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "EXISTE-T-IL UN TABLEAU DES FREQUENCES ET LEUR MODE DE MESURE DE PUISSANCE ?",
+  "options": [
+   "Oui",
+   "Non",
+   "Oui, seulement pour les fréquences radioamateurs",
+   "Non, il n’y a aucun document regroupant ces deux informations"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Oui, seulement pour les fréquences radioamateurs",
+  "commentaire_fr": "Il existe bien un tableau récapitulant toutes les fréquences attribuées aux utilisateurs (c'est le TNRBF) mais ce document ne parle pas (ou très peu) de la puissance maximum autorisée et encore moins de la méthode à retenir pour mesurer cette puissance (pour cela, on se réfère en règle générale aux normes internationales). En revanche, l'ARCEP définit les puissances autorisées (et la méthode à retenir pour la mesure, voir l'article 1.157 du RR) et les fréquences autorisées au service d'amateur dans une décision publiée au JO.\n",
+  "stem_zh": "是否存在一个频率表及其功率测量方式？",
+  "ans_zh": "有，但只针对业余无线电频率",
+  "com_zh": "确实有一个汇总所有指配给用户的频率的表（即 TNRBF），但该文件没有（或极少）提到允许的最大功率，更没有提到测量该功率应采用的方法（为此通常参照国际标准）。相反，ARCEP 在《官方公报》上公布的一项决定中规定了业余业务的允许功率（以及测量应采用的方法，见《无线电规则》第 1.157 条）和允许的频率。",
+  "anchor": "R11c"
+ },
+ {
+  "num": "34911",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "QUEL EST LE PREFIXE UTILISE PAR LES RADIO-CLUBS, LES INDICATIFS SPECIAUX OU LES RELAIS ?",
+  "options": [
+   "TM",
+   "TX",
+   "FK",
+   "TK"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "TK",
+  "commentaire_fr": "Le préfixe TK est utilisé pour les indicatifs d’appel individuels (dont les radio-clubs et les relais) et pour les stations temporaires dont l’activité est déclarée en Corse.\n",
+  "stem_zh": "无线电台俱乐部、特别呼号或中继台使用哪个前缀？",
+  "ans_zh": "TK",
+  "com_zh": "前缀 TK 用于个人呼号（包括无线电台俱乐部和中继台），也用于在科西嘉申报活动的临时电台。",
+  "anchor": "R46c"
+ },
+ {
+  "num": "34912",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUELLE PEUT ETRE LA TENEUR DES MESSAGES RADIOAMATEURS ?",
+  "options": [
+   "échange sur la technique radio ",
+   "transmission d’informations d’un tiers",
+   "vente d’objets",
+   "diffusion de musique"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "échange sur la technique radio ",
+  "commentaire_fr": "",
+  "stem_zh": "业余无线电通信的内容可以是什么？",
+  "ans_zh": "关于无线电技术的交流",
+  "com_zh": "",
+  "anchor": "R34a"
+ },
+ {
+  "num": "34918",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE FREQUENCE PEUT ETRE UTILISEE POUR LES BALISES ?",
+  "options": [
+   "7,300 MHz",
+   "145,900 MHz",
+   "441 MHz",
+   "aucune de ces fréquences"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "145,900 MHz",
+  "commentaire_fr": "Rien dans la réglementation n'indique que des fréquences ou des bandes sont réservées aux balises. En conclusion, toutes les fréquences autorisées peuvent être utilisées. Les fréquences 7,3 MHz et 441 MHz ne sont pas ouvertes au trafic radioamateur.\n",
+  "stem_zh": "哪个频率可用于信标？",
+  "ans_zh": "145.900 MHz",
+  "com_zh": "法规中没有任何内容表明有频率或频段专供信标使用。结论是：所有获准的频率都可以使用。7.3 MHz 和 441 MHz 频率未向业余通信开放。",
+  "anchor": "R43b"
+ },
+ {
+  "num": "34919",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "PUISSANCE MAXIMUM SUR 18,060 MHZ ?",
+  "options": [
+   "0 W",
+   "120 W",
+   "250 W",
+   "500 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "0 W",
+  "commentaire_fr": "La fréquence 18,060 MHz n'est pas autorisée (limite de bande = 18,068 à 18,168 MHz)\n",
+  "stem_zh": "18.060 MHz 上的最大功率是多少？",
+  "ans_zh": "0 W",
+  "com_zh": "18.060 MHz 频率不允许使用（频段界限 = 18.068 至 18.168 MHz）",
+  "anchor": "R22a"
+ },
+ {
+  "num": "34923",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "SUR QUELLE BANDE POUVEZ-VOUS RENCONTREZ DES EMISSIONS PRIORITAIRES ?",
+  "options": [
+   "1240 – 1300 MHz ",
+   "144 – 146 MHz",
+   "21,00 – 21,45 MHz",
+   "3,5 – 3,8 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1240 – 1300 MHz ",
+  "commentaire_fr": "Les radioamateurs ont un statut secondaire sur la bande 1240 – 1300 MHz. On peut donc y rencontrer des stations d’un service primaire qui reste prioritaire. Les autres bandes citées ont un statut primaire (144 MHz et 21 MHz) ou à égalité de droits (3,5 MHz)\n",
+  "stem_zh": "在哪个频段上您可能遇到具有优先权的发射？",
+  "ans_zh": "1240 – 1300 MHz",
+  "com_zh": "业余爱好者在 1240 – 1300 MHz 频段上处于次要业务地位。因此在那里可能遇到仍享有优先权的主要业务电台。其他列出的频段具有主要业务地位（144 MHz 和 21 MHz）或平等使用权（3.5 MHz）。",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34924",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "MATERIEL OBLIGATOIRE DANS UNE STATION D'AMATEUR ?",
+  "options": [
+   "charge fictive",
+   "aucune de ces réponses ",
+   "filtre",
+   "un indicateur de rapport d’ondes stationnaires"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "aucune de ces réponses ",
+  "commentaire_fr": "Seul l'indicateur de puissance est obligatoire et il n'est pas cité ici.\n",
+  "stem_zh": "业余电台中的强制设备是？",
+  "ans_zh": "以上答案都不对",
+  "com_zh": "只有功率指示器是强制的，而这里没有列出它。",
+  "anchor": "R13a"
+ },
+ {
+  "num": "34927",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "INDICATIF DE L'IRLANDE ?",
+  "options": [
+   "EI",
+   "IR",
+   "IS",
+   "IL"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "EI",
+  "commentaire_fr": "",
+  "stem_zh": "爱尔兰的呼号（前缀）是？",
+  "ans_zh": "EI",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "34929",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "CODIFICATION DE LA TELEGRAPHIE, MODULATION AMPLITUDE, SANS SOUS PORTEUSE MODULANTE",
+  "options": [
+   "A2A",
+   "A2B",
+   "A1B",
+   "J3E"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "A1B",
+  "commentaire_fr": "Sans complément d'information sur le type de télégraphie (auditive ou automatique ?), seule la réponse « A1B » peut convenir, A2x signifiant « modulation d'amplitude avec sous porteuse modulante »\n",
+  "stem_zh": "电报、调幅、不使用调制副载波的编码",
+  "ans_zh": "A1B",
+  "com_zh": "在没有补充说明电报类型（听觉还是自动？）的情况下，只有「A1B」这一答案合适，A2x 表示「带调制副载波的调幅」。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34935",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "UNE ANTENNE ISOTROPIQUE :",
+  "options": [
+   "est une antenne théorique ",
+   "existe mais coûte très cher ",
+   "est très directionnelle",
+   "est utilisée dans les fréquences UHF et au-delà"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "est une antenne théorique ",
+  "commentaire_fr": "Cette antenne (parfaite) n'existe que dans la tête des mathématiciens et dans les documentations des contructeurs d'antennes...\n",
+  "stem_zh": "各向同性天线：",
+  "ans_zh": "是一种理论上的天线",
+  "com_zh": "这种（理想的）天线只存在于数学家的头脑中和天线厂商的资料里……",
+  "anchor": "R52g"
+ },
+ {
+  "num": "34938",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUI ATTRIBUE LE SPECTRE DES BANDES DE FREQUENCES ?",
+  "options": [
+   "l'ANFR",
+   "le Préfet",
+   "le Ministre chargé des Communications Electroniques",
+   "l'ARCEP"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "l'ARCEP",
+  "commentaire_fr": "C’est le Premier Ministre qui répartit le spectre radioélectrique entre l’ARCEP, le CSA et les services de l’Etat. Puis l’ARCEP attribue les fréquences aux utilisateurs finaux et fixe les conditions d’utilisation de ces fréquences.\n",
+  "stem_zh": "谁指配频段的频谱？",
+  "ans_zh": "ARCEP",
+  "com_zh": "由总理在 ARCEP、CSA 和国家各部门之间分配无线电频谱。随后由 ARCEP 把频率指配给最终用户，并规定这些频率的使用条件。",
+  "anchor": "R11c"
+ },
+ {
+  "num": "34939",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "SI UNE STATION PRIMAIRE VOUS DEMANDE DE CESSER LES EMISSIONS, QUE FAIRE ?",
+  "options": [
+   "je cesse toutes mes émissions sur cette bande ",
+   "je reste sur cette fréquence",
+   "cela ne peut pas arriver",
+   "j’attends la confirmation par courrier"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "je cesse toutes mes émissions sur cette bande ",
+  "commentaire_fr": "la proposition « je cesse mes émissions sur cette bande » est la plus logique...\n",
+  "stem_zh": "如果某个主要业务电台要求您停止发射，该怎么办？",
+  "ans_zh": "我停止在该频段上的所有发射",
+  "com_zh": "「我停止在该频段上的发射」这一选项最合逻辑……",
+  "anchor": "R21c"
+ },
+ {
+  "num": "34944",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "CODIFICATION D'UNE LARGEUR DE BANDE DE 2,5 KHZ",
+  "options": [
+   "2K5",
+   "2K50",
+   "2,5K ",
+   "2500H"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2K50",
+  "commentaire_fr": "La codification de la largeur de bande transmise (préfixe de la classe d'émssion non utilisé par les radioamateurs) comprend toujours 4 caractères : 3 chiffres et une lettre.\n",
+  "stem_zh": "2.5 kHz 带宽的编码",
+  "ans_zh": "2K50",
+  "com_zh": "所传输带宽的编码（发射类别前缀，业余爱好者不使用）总是包含 4 个字符：3 个数字和 1 个字母。",
+  "anchor": "R12b"
+ },
+ {
+  "num": "34945",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "CODIFICATION D'UNE LARGEUR DE BANDE DE 3,5 MHZ",
+  "options": [
+   "3,5M ",
+   "3M5",
+   "3M50",
+   "3500K"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "3M50",
+  "commentaire_fr": "La codification de la largeur de bande transmise (préfixe de la classe d'émssion non utilisé par les radioamateurs) comprend toujours 4 caractères : 3 chiffres et une lettre.\n",
+  "stem_zh": "3.5 MHz 带宽的编码",
+  "ans_zh": "3M50",
+  "com_zh": "所传输带宽的编码（发射类别前缀，业余爱好者不使用）总是包含 4 个字符：3 个数字和 1 个字母。",
+  "anchor": "R12b"
+ },
+ {
+  "num": "34946",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "DANS UNE STATION RADIOAMATEUR, LE FILTRE SECTEUR EST-IL OBLIGATOIRE ?",
+  "options": [
+   "Non",
+   "oui sur recommandation de l’ANFR",
+   "oui sur recommandation de l’ARCEP",
+   "Oui"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Oui",
+  "commentaire_fr": "Depuis mars 2013, le filtre secteur ne fait plus partie du matériel obligatoire. Toutefois, la station doit être conforme aux exigences essentielles et ne doit donc pas perturber le réseau EdF. Le filtre secteur reste donc obligatoire (sauf si il est intégré dans l’alimentation, ce qui est toujours le cas lorsque l’appareil est homologué « CE »)\n",
+  "stem_zh": "在业余电台中，电源滤波器是强制的吗？",
+  "ans_zh": "是",
+  "com_zh": "自 2013 年 3 月起，电源滤波器不再属于强制设备。不过，电台必须符合基本要求，因此不得干扰 EdF（法国电力）电网。所以电源滤波器仍然是强制的（除非它已集成在电源中——当设备取得「CE」认证时总是如此）。",
+  "anchor": "R13a"
+ },
+ {
+  "num": "34947",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "INDICATIF DE LA GUADELOUPE ?",
+  "options": [
+   "FG",
+   "GU",
+   "FU",
+   "FH"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "FG",
+  "commentaire_fr": "",
+  "stem_zh": "瓜德罗普的呼号（前缀）是？",
+  "ans_zh": "FG",
+  "com_zh": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "34949",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "RAYONNEMENTS NON ESSENTIELS A 18,1 MHZ ?",
+  "options": [
+   "- 50 dB",
+   "- 40 dB",
+   "- 63 dB",
+   "- 43 dB"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "- 50 dB",
+  "commentaire_fr": "Les rayonnements non essentiels sont limités à -50 dBc (décibels par rapport à l'émission fondamentale) pour les stations d'amateur sur les fréquences inférieures à 30 MHz.\n",
+  "stem_zh": "18.1 MHz 上的非必要辐射是多少？",
+  "ans_zh": "-50 dB",
+  "com_zh": "对于 30 MHz 以下频率上的业余电台，非必要辐射限制为 -50 dBc（相对于基波发射的分贝值）。",
+  "anchor": "R13c"
+ },
+ {
+  "num": "34950",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "SYMBOLE DE LA MODULATION D'AMPLITUDE DOUBLE BANDE LATERALE (SOUS PORTEUSE MODULANTE),  TELEVISION ?",
+  "options": [
+   "F3C",
+   "C3F",
+   "A3T",
+   "A3F"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "A3F",
+  "commentaire_fr": "",
+  "stem_zh": "双边带调幅（带调制副载波）、电视，对应哪一发射类别符号？",
+  "ans_zh": "A3F",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34952",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS ETES APPELE PAR L'INDICATIF HB0/F4XXX/P. IL S'AGIT :",
+  "options": [
+   "D’un radioamateur suisse en vacances en France",
+   "D’un radioamateur français au Liechtenstein ",
+   "D’un radioamateur français en Suisse",
+   "D’un radioamateur à bicyclette"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "D’un radioamateur français au Liechtenstein ",
+  "commentaire_fr": "HB0 est le préfixe du Liechtenstein et HB9 est le préfixe de la Suisse. Cet indicatif est utilisé dans le cadre de la recommandation T/R 61-01 (séjour à l'étranger de moins de 3 mois)\n",
+  "stem_zh": "有人用呼号 HB0/F4XXX/P 呼叫您。这是：",
+  "ans_zh": "一位在列支敦士登的法国业余爱好者",
+  "com_zh": "HB0 是列支敦士登的前缀，HB9 是瑞士的前缀。该呼号用于 T/R 61-01 建议书的框架内（在国外停留少于 3 个月）。",
+  "anchor": "R47b"
+ },
+ {
+  "num": "34954",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "AU BOUT DE COMBIEN DE MOIS A L'ETRANGER DOIS-JE DEMANDER UN AUTRE INDICATIF ?",
+  "options": [
+   "1",
+   "6",
+   "12",
+   "3"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "3",
+  "commentaire_fr": "La recommandation T/R 61-01 définit la libre circulation des radioamateurs au sein de la CEPT sans formalité administrative pour des séjours de moins de 3 mois.\n",
+  "stem_zh": "在国外停留几个月之后我必须申请另一个呼号？",
+  "ans_zh": "3",
+  "com_zh": "T/R 61-01 建议书规定了业余爱好者在 CEPT 范围内的自由通行：停留少于 3 个月无需行政手续。",
+  "anchor": "R11b"
+ },
+ {
+  "num": "34955",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "A QUOI CORRESPOND L'INDICATIF : FOXTROT CHARLIE 6 X-RAY YANKEE ZOULOU ?",
+  "options": [
+   "FC6XYZ",
+   "F6CXYZ",
+   "FC6CXRZ",
+   "FCXYZ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "FC6XYZ",
+  "commentaire_fr": "",
+  "stem_zh": "呼号 FOXTROT CHARLIE 6 X-RAY YANKEE ZOULOU 对应的是？",
+  "ans_zh": "FC6XYZ",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "34956",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "UNE STATION RADIOELECTRIQUE DU SERVICE AMATEUR PEUT ETRE CONNECTEE",
+  "options": [
+   "à Internet ",
+   "à une autre station du service Amateur ",
+   "au réseau de Police",
+   "à un réseau ouvert public"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "à une autre station du service Amateur ",
+  "commentaire_fr": "On peut \"connecter\" deux stations amateur entre elles (si ça ne passe pas par un réseau ouvert au public (Internet) mais que c'est une connexion radio de bout en bout). Cette question semble signifier qu'on n'est pas prêt de voir la publication du décret autorisant les stations à se connecter entre elles via un ROP (réseau ouvert au public tel qu'Internet). Et si ce décret est publié, l'ANFR devra modifier les réponses ou la question…\n",
+  "stem_zh": "业余业务的无线电台可以连接到",
+  "ans_zh": "另一座业余业务电台",
+  "com_zh": "可以把两座业余电台相互「连接」（前提是不经过向公众开放的网络（互联网），而是端到端的无线连接）。这道题似乎意味着，允许电台通过 ROP（向公众开放的网络，如互联网）互连的法令短期内还不会公布。而如果该法令公布，ANFR 就得修改答案或题目了……",
+  "anchor": "R42f"
+ },
+ {
+  "num": "34957",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUI FAIT INTERVENIR L'ANFR EN CAS DE BROUILLAGE ?",
+  "options": [
+   "une association de radioamateurs",
+   "le préfet",
+   "l’utilisateur victime du brouillage ",
+   "la gendarmerie"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "l’utilisateur victime du brouillage ",
+  "commentaire_fr": "Les utilisateurs, quels qu’ils soient, peuvent faire directement leur demande d’intervention à l’ANFR sur son site Internet ou par courrier adressé au BCN (Bureau Centralisateur National) de l'ANFR\n",
+  "stem_zh": "发生干扰时，由谁请求 ANFR 介入？",
+  "ans_zh": "受干扰的用户",
+  "com_zh": "任何用户都可以直接通过 ANFR 的网站，或寄信给 ANFR 的 BCN（国家中央协调处）提出介入请求。",
+  "anchor": "R44b"
+ },
+ {
+  "num": "34959",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "PUISSANCE ET GAIN EN DECIBELS : 50 W ET 3 D",
+  "options": [
+   "53 W",
+   "100 W",
+   "150 W",
+   "350 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "100 W",
+  "commentaire_fr": "Un amplificateur de 3 dB apporte un rapport de puissance de 2 ; \n50 W x 2 = 100 W\n",
+  "stem_zh": "功率与分贝增益：50 W 与 3 dB",
+  "ans_zh": "100 W",
+  "com_zh": "3 dB 的放大器带来 2 倍的功率比；50 W × 2 = 100 W",
+  "anchor": "R51a"
+ },
+ {
+  "num": "34960",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "COMMENT SONT AUSSI APPELEES LES EMISSIONS HORS BANDE ?",
+  "options": [
+   "bande passante de l’émission fondamentale",
+   "trafic illégal",
+   "émissions non désirées ",
+   "rayonnements essentiels"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "émissions non désirées ",
+  "commentaire_fr": "Les émissions hors bande et les rayonnements non essentiels forment les émissions non désirées (en dehors de la bande passante nécessaire pour l’émission du signal transmis).\n",
+  "stem_zh": "带外发射还被称为什么？",
+  "ans_zh": "非期望发射",
+  "com_zh": "带外发射和非必要辐射共同构成非期望发射（位于传输信号发射所需带宽之外）。",
+  "anchor": "R13c"
+ },
+ {
+  "num": "34961",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "PUISSANCE ET GAIN EN DECIBELS : 20 W ET 3 D",
+  "options": [
+   "23 W",
+   "60 W",
+   "320 W",
+   "40 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "40 W",
+  "commentaire_fr": "Un amplificateur de 3 dB apporte un rapport de puissance de 2 ; 20 W x 2 = 40 W\n",
+  "stem_zh": "功率与分贝增益：20 W 与 3 dB",
+  "ans_zh": "40 W",
+  "com_zh": "3 dB 的放大器带来 2 倍的功率比；20 W × 2 = 40 W",
+  "anchor": "R51a"
+ },
+ {
+  "num": "34966",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "QUELLE LARGEUR DE BANDE QU'OCCUPE  LE SIGNAL. SCHEMA : FONDAMENTALE A 780 ET RAIE DE \nPART ET D'AUTRE A 740 ET 820 (KHZ ?)",
+  "options": [
+   "780",
+   "740",
+   "40",
+   "80"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "80",
+  "commentaire_fr": "Largeur de bande occupée = 820 - 740 = 80\n",
+  "stem_zh": "该信号占用的带宽是多少？图示：基波位于 780，两侧谱线位于 740 和 820（kHz？）",
+  "ans_zh": "80",
+  "com_zh": "占用带宽 = 820 - 740 = 80",
+  "anchor": "R13"
+ },
+ {
+  "num": "34967",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE BANDE A UN STATUT C ?",
+  "options": [
+   "60 mètres",
+   "160 mètres",
+   "17 mètres",
+   "12 mètres"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "60 mètres",
+  "commentaire_fr": "statut C = statut secondaire\nlimites de la bande des 60 mètres = 5351,5 à 5366,5 kHz\n",
+  "stem_zh": "哪个频段具有地位 C？",
+  "ans_zh": "60 米波段",
+  "com_zh": "地位 C = 次要业务地位 | 60 米波段的界限 = 5351.5 至 5366.5 kHz",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34968",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "SI J'UTILISE LA STATION FIXE D'UN AUTRE RADIOAMATEUR, QUEL SUFFIXE DOIS-JE UTILISER ?",
+  "options": [
+   "/M",
+   "/P",
+   "/R",
+   "je n’ai pas le droit de manœuvrer sa station"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "/P",
+  "commentaire_fr": "On doit utiliser son indicatif d'appel personnel suivi de /P puisque la station est fixe.\n",
+  "stem_zh": "如果我使用另一位业余爱好者的固定电台，应使用什么后缀？",
+  "ans_zh": "/P",
+  "com_zh": "应使用自己的个人呼号后加 /P，因为该电台是固定台。",
+  "anchor": "R42a"
+ },
+ {
+  "num": "34971",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "UNITE DU NIVEAU DE RAYONNEMENT NON ESSENTIEL ?",
+  "options": [
+   "dBc",
+   "pas d'unité",
+   "dBW",
+   "volt/mètre"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "dBc",
+  "commentaire_fr": "dBc signifie « décibels par rapport à l'émission fondamentale » ou à la porteuse (carrier en anglais, d'où le terme « dBc »). \n",
+  "stem_zh": "非必要辐射电平的单位是？",
+  "ans_zh": "dBc",
+  "com_zh": "dBc 表示「相对于基波发射」或相对于载波的分贝值（载波英文为 carrier，由此得名「dBc」）。",
+  "anchor": "R13c"
+ },
+ {
+  "num": "34972",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "L'INDICATIF D'APPEL INDIVIDUEL EST DIT :",
+  "options": [
+   "général",
+   "personnel",
+   "provisoire",
+   "partageable"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "personnel",
+  "commentaire_fr": "L’indicatif d’appel individuel est personnel dans le sens où il est attribué à une et une seule personne.\n",
+  "stem_zh": "个人呼号被称为：",
+  "ans_zh": "个人（的）",
+  "com_zh": "个人呼号之所以称「个人」，是因为它只指配给唯一的一个人。",
+  "anchor": "R42a"
+ },
+ {
+  "num": "34973",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUELLE LETTRE DESIGNE UNE MODULATION EN AMPLITUDE, BANDES LATERALES INDEPENDANTES ?",
+  "options": [
+   "K",
+   "F",
+   "B",
+   "G"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "B",
+  "commentaire_fr": "",
+  "stem_zh": "哪个字母表示独立边带调幅？",
+  "ans_zh": "B",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34976",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "A QUI DOIT-ON DEMANDER L'AUTORISATION POUR L'INSTALLATION D'UN PYLONE DE 12 METRES ?",
+  "options": [
+   "il n’y a pas d’autorisation à demander",
+   "à la Mairie ",
+   "à l’ANFR",
+   "la déclaration est obligatoire en Corse uniquement"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "à la Mairie ",
+  "commentaire_fr": "Si le pylône (et les antennes qu’il supporte) mesure moins de 12 mètres au-dessus du sol naturel, la déclaration de travaux (à déposer au service de l'urbanisme de la Mairie) n’est pas obligatoire (et ce n’est pas à proprement parler d’une demande d’autorisation…)\n",
+  "stem_zh": "安装 12 米高的铁塔应向谁申请许可？",
+  "ans_zh": "向市政厅",
+  "com_zh": "如果铁塔（连同其上架设的天线）在自然地面以上的高度不足 12 米，则不需办理工程申报（提交至市政厅城市规划部门）（况且严格说来这也不算许可申请……）",
+  "anchor": "R22c"
+ },
+ {
+  "num": "34977",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "RELEVEZ LES RENSEIGNEMENTS OBLIGATOIRES DU JOURNAL DE BORD :\n    1) L'HEURE DU CONTACT \n    2) LA VILLE DU CORRESPONDANT\n    3) LE REPORT DONNE AU CORRESPONDANT\n    4) LA DATE DU CONTACT\n    5) LE PRENOM DU CORRESPONDANT",
+  "options": [
+   "1, 2 et 4",
+   "2, 3 et 5",
+   "1 et 4",
+   "1 et 3"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1 et 4",
+  "commentaire_fr": "",
+  "stem_zh": "请指出电台日志中必须记录的信息： 1) 联络的时间 2) 对方的城市 3) 给对方的信号报告 4) 联络的日期 5) 对方的名字",
+  "ans_zh": "1 和 4",
+  "com_zh": "",
+  "anchor": "R41"
+ },
+ {
+  "num": "34982",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "QUELLE EST LA FREQUENCE CORRESPONDANT A LA LONGUEUR D'ONDE DE 3 CM ?",
+  "options": [
+   "100 GHz",
+   "100 MHz",
+   "10 kHz",
+   "10 GHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10 GHz",
+  "commentaire_fr": "3 cm = 0,03 mètre\nF(MHz) = 300 / L(m) = 300 / 0,03 = 10 000 MHz = 10 GHz\n",
+  "stem_zh": "波长为 3 厘米对应的频率是多少？",
+  "ans_zh": "10 GHz",
+  "com_zh": "3 厘米 = 0.03 米 | F(MHz) = 300 / L(m) = 300 / 0.03 = 10 000 MHz = 10 GHz",
+  "anchor": "R52a"
+ },
+ {
+  "num": "34986",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE BANDE DE FREQUENCE EST EXPLOITEE A EGALITE DE DROITS ?",
+  "options": [
+   "10,1 – 10,15 MHz",
+   "3500 – 3800 kHz ",
+   "430 – 434 MHz",
+   "144 – 146 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "3500 – 3800 kHz ",
+  "commentaire_fr": "En région 2 (aux Antilles et en Guyane), la bande 3,5-3,75 MHz a, par contre, un statut primaire (attention au piège pour les candidats de cette région UIT). Il aurait donc fallu préciser \"en région 1\" dans la question\n",
+  "stem_zh": "哪个频段以平等使用权被使用？",
+  "ans_zh": "3500 – 3800 kHz",
+  "com_zh": "而在第 2 区（安的列斯和圭亚那），3.5-3.75 MHz 频段却具有主要业务地位（该 UIT 区的考生要注意这个陷阱）。因此题目本应写明「在第 1 区」。",
+  "anchor": "R21b)"
+ },
+ {
+  "num": "34988",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUELLE LETTRE DESIGNE UNE MODULATION DE FREQUENCE ?",
+  "options": [
+   "G",
+   "J",
+   "A",
+   "F"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "F",
+  "commentaire_fr": "",
+  "stem_zh": "哪个字母表示调频？",
+  "ans_zh": "F",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34990",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUE FAUT-IL POUR EMETTRE EN CW ?",
+  "options": [
+   "un certificat d'opérateur ",
+   "un certificat d'opérateur depuis plus de 12 ans ",
+   "on ne peut pas émettre en CW",
+   "seuls les opérateurs de la classe 1 peuvent émettre en CW"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "un certificat d'opérateur ",
+  "commentaire_fr": "Tous les opérateurs (quelle que soit la classe de l'opérateur) peuvent émettre en CW sur les bandes qui leur sont attribuées.\n",
+  "stem_zh": "以 CW（等幅电报）发射需要什么？",
+  "ans_zh": "操作员证书",
+  "com_zh": "所有操作员（无论属于哪一等级）都可以在其获配的频段上以 CW 发射。",
+  "anchor": "R22a"
+ },
+ {
+  "num": "34991",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUELLE EST LA DESIGNATION SIMPLIFIEE POUR 6 MHZ ?",
+  "options": [
+   "6M",
+   "6M00",
+   "6000",
+   "6MEGA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "6M00",
+  "commentaire_fr": "La question porte sur le code permattant de déterminer la bande passante d'une émission codée sur 4 caractères (3 chiffres et 1 lettre). Ce code est défini dans l’appendice 1 du RR et sert de préfixe à la classe d’émission mais n’est pas utilisé par les radioamateurs. Le code commence toujours par un chiffre compris entre 1 et 9 et la lettre du multiple utilisé (G pour GHz, M pour MHz, K pour kHz et H pour Hz) remplace la virgule\n",
+  "stem_zh": "6 MHz 的简化标示是什么？",
+  "ans_zh": "6M00",
+  "com_zh": "本题问的是用 4 个字符（3 个数字和 1 个字母）表示发射带宽的编码。该代码由《无线电规则》附录 1 定义，用作发射类别的前缀，但业余爱好者不使用。代码总是以 1 至 9 之间的数字开头，并用所用倍数的字母（G 表示 GHz、M 表示 MHz、K 表示 kHz、H 表示 Hz）代替小数点。",
+  "anchor": "R12b"
+ },
+ {
+  "num": "34992",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "CALCULER LE RENDEMENT DE CET AMPLIFICATEUR : \nPUISSANCE CONSOMMEE = 524 W\nPUISSANCE EMISE = 346 W",
+  "options": [
+   "8%",
+   "15%",
+   "66%",
+   "120%"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "66%",
+  "commentaire_fr": "Rendement = (Ps / Pe) x 100 = (346 / 524) x 100 = 66,03 arrondi à 66%\n",
+  "stem_zh": "计算该放大器的效率： 消耗功率 = 524 W | 发射功率 = 346 W",
+  "ans_zh": "66%",
+  "com_zh": "效率 = (Ps / Pe) × 100 = (346 / 524) × 100 = 66.03，取整为 66%",
+  "anchor": "R51d"
+ },
+ {
+  "num": "34993",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "PAYS D'UN INDICATIF COMMENCANT PAR FM ?",
+  "options": [
+   "Mayotte",
+   "Saint Pierre et Miquelon",
+   "Iles Marquises",
+   "Martinique"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Martinique",
+  "commentaire_fr": "",
+  "stem_zh": "以 FM 开头的呼号属于哪个国家（地区）？",
+  "ans_zh": "马提尼克",
+  "com_zh": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "34996",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "QU'EST CE QUI NE FAIT PAS PARTIE DES RAYONNEMENTS NON ESSENTIELS ?",
+  "options": [
+   "harmoniques paires",
+   "harmoniques impaires",
+   "parasites",
+   "émissions hors bande"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "parasites",
+  "commentaire_fr": "Les parasites ne sont pas considérés comme des rayonnements non essentiels puisqu’il ne sont pas issus d’une station d’émission. Les harmoniques et toutes les émissions en dehors de la bande passante nécessaire à l’émission sont des émissions non désirées. Les rayonnements non essentiels sont la partie des émissions non désirées qui ne sont pas adjacentes à la bande passante, ces dernières étant nommées « émissions hors bande ».\n",
+  "stem_zh": "下列哪一项不属于非必要辐射？",
+  "ans_zh": "干扰（parasites）",
+  "com_zh": "干扰（parasites）不被视为非必要辐射，因为它们不是来自发射电台。谐波以及所需带宽之外的所有发射都属于非期望发射。非必要辐射是非期望发射中不与带宽相邻的那部分，与带宽相邻的那部分称为「带外发射」。",
+  "anchor": "R13c"
+ },
+ {
+  "num": "34999",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELER L'INDICATIF OP6DXV",
+  "options": [
+   "Oscar Paris 6 Delta X-ray Victor",
+   "Oscar Papa 6 Delta X-ray Victor ",
+   "Oscar Papa 6 Delta Xylophone Victor",
+   "Ontario Papa 6 Delta X-ray Victor"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Oscar Papa 6 Delta X-ray Victor ",
+  "commentaire_fr": "",
+  "stem_zh": "拼读呼号 OP6DXV",
+  "ans_zh": "Oscar Papa 6 Delta X-ray Victor",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "35002",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "COMMENT S'EPELLE F1ZU ?",
+  "options": [
+   "Fox 1 Zoulou Uniform",
+   "France 1 Zoulou Uniform",
+   "Fox-trot 1 Zoulou Uniform",
+   "Florida 1 Zoulou Uniform"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Fox-trot 1 Zoulou Uniform",
+  "commentaire_fr": "",
+  "stem_zh": "F1ZU 怎么拼读？",
+  "ans_zh": "Fox-trot 1 Zoulou Uniform",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "35010",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* QUELLE EST L'AUTORITE QUI DELIVRE LES CERTIFICATS D'OPERATEURS EN POLYNESIE FRANCAISE ?",
+  "options": [
+   "L' ARCEP",
+   "L' ANFR",
+   "L' Administrateur supérieur",
+   "Le Haut-commissaire de la République"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "L' ANFR",
+  "commentaire_fr": "Depuis décembre 2014, c'est l'ANFR qui délivre les certificats d'opérateur dans toute la France, y compris en Outre Mer (avant 2014 : haut commissaire de la République qui réprésente l'Etat français en polynésie)\n",
+  "stem_zh": "在法属波利尼西亚，哪个机构签发操作员证书？",
+  "ans_zh": "ANFR",
+  "com_zh": "自 2014 年 12 月起，由 ANFR 在法国全境（包括海外）签发操作员证书（2014 年之前：由在波利尼西亚代表法国国家的共和国高级专员签发）。",
+  "anchor": "R46a"
+ },
+ {
+  "num": "35051",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "LES RADIO-CLUBS ONT-ILS LE DROIT D'ETRE SUR LA LISTE ORANGE DE L'ANNUAIRE ANFR ?",
+  "options": [
+   "Non",
+   "Oui car ils ont le droit à la vie privée",
+   "Oui si la majorité des membres de l’association le décide",
+   "Oui pour les radio-clubs scolaires uniquement"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Non",
+  "commentaire_fr": "",
+  "stem_zh": "无线电台俱乐部有权出现在 ANFR 名录的橙色名单上吗？",
+  "ans_zh": "无权",
+  "com_zh": "",
+  "anchor": "R46e"
+ },
+ {
+  "num": "35053",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "LORS D'UNE EMISSION, IL EST OBLIGATOIRE DE DONNER SON INDICATIF :",
+  "options": [
+   "au moins au début et à la fin de chaque transmission ",
+   "au moins toutes les 3 minutes",
+   "à la demande du correspondant",
+   "jamais"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "au moins au début et à la fin de chaque transmission ",
+  "commentaire_fr": "Il faut donner son indicatif au moins au début et à la fin de toute période d'émission sur une fréquence et au moins toutes les 15 minutes.\n",
+  "stem_zh": "发射时强制要求报出呼号：",
+  "ans_zh": "至少每次发射的开头和结尾",
+  "com_zh": "在任何一次在某频率上的发射期间，必须至少在开头和结尾报出呼号，并且至少每 15 分钟一次。",
+  "anchor": "R33a"
+ },
+ {
+  "num": "35054",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE BANDE N'EST PAS ATTRIBUEE A STATUT PRIMAIRE EXCLUSIF ?",
+  "options": [
+   "144-146 MHz",
+   "50-52 MHz",
+   "10,068-10,168 MHz",
+   "24,890-24,990 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50-52 MHz",
+  "commentaire_fr": "La bande 50-52 MHz est attribuée au service amateur avec un statut secondaire (statut C). Notez que le TNRBF n’emploie jamais le terme \"exclusif\" pour le service amateur même s’il n’y a pas d’autres utilisateurs sur la bande attribuée.\n",
+  "stem_zh": "哪个频段不是以专用主要业务地位指配的？",
+  "ans_zh": "50-52 MHz",
+  "com_zh": "50-52 MHz 频段以次要业务地位（地位 C）指配给业余业务。请注意，TNRBF 从不对业余业务使用「专用」一词，即使所指配的频段上没有其他用户。",
+  "anchor": "R21b"
+ },
+ {
+  "num": "35055",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUELLE EST LA CLASSE D''EMISSION POUR \n\" TRANSMISSION DE DONNEES EN MODULATION DE PHASE\" ?",
+  "options": [
+   "D2G",
+   "F1D",
+   "G1D",
+   "G3C"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "G1D",
+  "commentaire_fr": "Transmission de données = D (2ème lettre)\nModulation de phase = G (1ère lettre)\nAucune information n'est donnée sur le signal modulant. En conséquence, la classe d'émission sera du type G?D (une seule réponse possible : G1D)\n",
+  "stem_zh": "「相位调制数据传输」的发射类别是什么？",
+  "ans_zh": "G1D",
+  "com_zh": "数据传输 = D（第 2 个字母）| 相位调制 = G（第 1 个字母）| 没有给出关于调制信号的信息。因此发射类别为 G?D 型（只有一个可能答案：G1D）。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "35056",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "EST-IL OBLIGATOIRE POUR UN RADIOAMATEUR DE POSSEDER UN GENERATEUR 2 TONS ?",
+  "options": [
+   "Oui",
+   "sur demande uniquement",
+   "si un voisin en fait la demande",
+   "Non"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Non",
+  "commentaire_fr": "Question posée en juillet 2022. \nLe candidat ayant eu 20/20, on est certain que ce soit la réponse attendue par l'ANFR. On espère que les autres questions sur ce sujet auront la même réponse.\n",
+  "stem_zh": "业余爱好者必须拥有一台双音发生器吗？",
+  "ans_zh": "不必须",
+  "com_zh": "该题于 2022 年 7 月出。| 由于该考生得了满分 20/20，可以确定这就是 ANFR 期望的答案。希望关于这个主题的其他题目答案相同。",
+  "anchor": "R13a"
+ },
+ {
+  "num": "35058",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "DOIT-ON CHANGER DE FREQUENCE A LA DEMANDE D'UNE AUTORITE ?",
+  "options": [
+   "uniquement sur les bandes supérieures à 30 MHz",
+   "oui",
+   "non, j’attends un courrier de notification",
+   "non si l’opérateur a un certificat HAREC"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "oui",
+  "commentaire_fr": "Cas assez improbable mais les autres réponses que \"oui\" sont tellement inapropriées qu'on ne peut les sélectionner...\n",
+  "stem_zh": "主管机关要求时，是否必须改变频率？",
+  "ans_zh": "是",
+  "com_zh": "这种情况相当罕见，但除「是」以外的其他答案都太不合适，无法选择……",
+  "anchor": "R21c"
+ },
+ {
+  "num": "35059",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "PEUT-ON CONNECTER UNE STATION RADIO AMATEUR A INTERNET ?",
+  "options": [
+   "uniquement sur les bandes inférieures à 30 MHz ",
+   "oui si l’opérateur a un certificat d’opérateur HAREC",
+   "non",
+   "oui si la puissance de la station n’excède pas 5 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "non",
+  "commentaire_fr": "Tant qu'un décret ne fixera pas les conditions dans lesquelles une station d'amateur peut être connecetée à un réseau ouvert au public (dont Internet fait partie), connecter un émetteur à Internet (ou le manoeuvrer à distance via Internet) ne sera pas autorisé alors que la loi le permet depuis 2012 !\n",
+  "stem_zh": "可以把业余电台连接到互联网吗？",
+  "ans_zh": "不可以",
+  "com_zh": "只要还没有法令规定业余电台接入向公众开放的网络（包括互联网）的条件，把发射机连到互联网（或通过互联网远程操作）就不被允许——尽管法律自 2012 年起就已许可！",
+  "anchor": "R42f"
+ },
+ {
+  "num": "35065",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "QU'EST CE QUI APPORTE DU GAIN A UNE ANTENNE YAGI ?",
+  "options": [
+   "le manque d’éléments réflecteurs",
+   "le diamètre des tubes",
+   "le matériau utilisé pour le brin rayonnant",
+   "le nombre d’éléments directeurs "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "le nombre d’éléments directeurs ",
+  "commentaire_fr": "",
+  "stem_zh": "什么给八木天线带来增益？",
+  "ans_zh": "引向单元的数量",
+  "com_zh": "",
+  "anchor": "R52f"
+ },
+ {
+  "num": "35069",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "UN RADIOAMATEUR AYANT COMME INDICATIF TK5ABC/P EMET DEPUIS :",
+  "options": [
+   "un bateau au large de la Corse ",
+   "un pédalo sur le lac d’Annecy",
+   "à pied dans les rues de Paris",
+   "le domicile d’un radioamateur à Marseille "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "le domicile d’un radioamateur à Marseille ",
+  "commentaire_fr": "A pied dans les rues de Paris ou en pédalo, le radioamateur s’identifiera par TK5ABC/M. S’il émet dans les eaux internationales (« au large de la Corse »), il s’identifiera par TK5ABC/MM. Par élimination, on retiendra « le domicile d’un radioamateur à Marseille » et dans ce cas il n’y a pas à préciser quelle station le radioamateur corse utilise, ni s’il utilise son indicatif en dehors de la Corse.\n",
+  "stem_zh": "呼号为 TK5ABC/P 的业余爱好者从何处发射：",
+  "ans_zh": "马赛一位业余爱好者的住所",
+  "com_zh": "若在巴黎街头步行或踩脚踏船，该爱好者会用 TK5ABC/M 标识自己。若在国际水域（「科西嘉近海」）发射，则用 TK5ABC/MM 标识。通过排除法，应选「马赛一位业余爱好者的住所」；在这种情况下，无须说明这位科西嘉爱好者使用哪座电台，也无须说明他是否在科西嘉以外使用其呼号。",
+  "anchor": "R42a"
+ },
+ {
+  "num": "35101",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR : \"QRM ?\"",
+  "options": [
+   "Dois-je transmettre une série de V sur cette fréquence ?",
+   "Etes-vous brouillé ?",
+   "A quel moment me rappelez-vous ?",
+   "Etes-vous troublé par des parasites ?"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Etes-vous brouillé ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRM?」表示什么？",
+  "ans_zh": "您受到干扰吗？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "35129",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* QUEL EST LE CODE POUR : \"QTH ?\"",
+  "options": [
+   "Quel est le nom de votre station ?",
+   "Quelle est votre position en latitude ou longitude ?",
+   "Par qui suis-je appelé ?",
+   "A quelle distance approximative vous trouvez-vous de ma station ?"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Quelle est votre position en latitude ou longitude ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QTH?」表示什么？",
+  "ans_zh": "您在纬度或经度上的位置是什么？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "35500",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "UN RADIOAMATEUR DE CLASSE 3 PEUT-IL UTILISER LA CLASSE D'EMISSION G3E ?",
+  "options": [
+   "Oui",
+   "Oui mais au bout d'un an de licence",
+   "Non",
+   "Oui mais à partir de son Radio-Club"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Oui",
+  "commentaire_fr": "",
+  "stem_zh": "3 类业余爱好者可以使用发射类别 G3E 吗？",
+  "ans_zh": "可以",
+  "com_zh": "",
+  "anchor": "R12b"
+ },
+ {
+  "num": "35699",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "UNE LIGNE BIFILAIRE EST",
+  "options": [
+   "Symétrique et à haute impédance",
+   "Asymétrique",
+   "Ca n'existe pas",
+   "A faible impédance"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Symétrique et à haute impédance",
+  "commentaire_fr": "",
+  "stem_zh": "双线传输线是",
+  "ans_zh": "对称的、高阻抗的",
+  "com_zh": "",
+  "anchor": "R53a"
+ },
+ {
+  "num": "35700",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, BANDE LATERALE UNIQUE,\nPORTEUSE SUPPRIMEE, PLUSIEURS VOIES CONTENANT DE L'INFORMATION NUMERIQUE,\nTELEGRAPHIE POUR RECEPTION AUTOMATIQUE ?",
+  "options": [
+   "J7B",
+   "J3B",
+   "A1B",
+   "A2B"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "J7B",
+  "commentaire_fr": "",
+  "stem_zh": "调幅、单边带、载波抑制、多个含数字信息的信道、自动接收电报，对应哪一发射类别符号？",
+  "ans_zh": "J7B",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "36001",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR LX.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Lettonie",
+   "Luxembourg",
+   "Lituanie",
+   "Saint-Marin"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Luxembourg",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 LX 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "卢森堡",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "36027",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION DE PHASE, SIGNAL ANALOGIQUE, TELEPHONIE ?",
+  "options": [
+   "A3E",
+   "G1C",
+   "F3E",
+   "G3E"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "G3E",
+  "commentaire_fr": "",
+  "stem_zh": "相位调制、模拟信号、话务，对应哪一发射类别符号？",
+  "ans_zh": "G3E",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "36051",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA LIMITE HAUTE DE LA BANDE DES 24 MHZ ?",
+  "options": [
+   "24,850 MHz",
+   "24,890 MHz",
+   "24,900 MHz",
+   "24,990 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "24,990 MHz",
+  "commentaire_fr": "",
+  "stem_zh": "24 MHz 波段的上限是多少？",
+  "ans_zh": "24.990 MHz",
+  "com_zh": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "36101",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUE SIGNIFIE LES LETTRES RX ?",
+  "options": [
+   "Receiver",
+   "Résistance de valeur inconnue",
+   "Reçu d'un OM non connu",
+   "Quel est votre prénom ?"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Receiver",
+  "commentaire_fr": "",
+  "stem_zh": "RX 这几个字母表示什么？",
+  "ans_zh": "Receiver（接收机）",
+  "com_zh": "",
+  "anchor": "R32d"
+ },
+ {
+  "num": "36201",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUE SIGNIFIE LES LETTRES TX ?",
+  "options": [
+   "Transceiver",
+   "Tous",
+   "Taux",
+   "Taxe"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Transceiver",
+  "commentaire_fr": "",
+  "stem_zh": "TX 这几个字母表示什么？",
+  "ans_zh": "Transceiver（收发信机）",
+  "com_zh": "",
+  "anchor": "R32d"
+ },
+ {
+  "num": "36321",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR UA.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Russie",
+   "Allemagne",
+   "Uruguay",
+   "Turquie"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Russie",
+  "commentaire_fr": "Le préfixe peut être aussi la lettre R\n",
+  "stem_zh": "您联络到一位呼号前缀以 UA 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "俄罗斯",
+  "com_zh": "该前缀也可以是字母 R。",
+  "anchor": "R47b"
+ },
+ {
+  "num": "36390",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* UN RADIOAMATEUR A PIED ET QUI UTILISE UN EMETTEUR PORTABLE SE SIGNALE EN ?",
+  "options": [
+   "FXXXX / pédestre",
+   "FXXXX / portable pédestre",
+   "FXXXX / portable",
+   "FXXXX / mobile"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "FXXXX / mobile",
+  "commentaire_fr": "Le suffixe est \"portable\" si on utilise une station qui ne peut pas se transporter. Or, quand on est \"à pied\", on se déplace. Le suffixe est donc \"mobile\".\nLe terme \"émetteur portable\" est un faux ami. On devrait plutôt dire \"émetteur portatif\". Ne pas oublier que les termes \"mobile\" et \"portable\" proviennent de l'anglais même si les mots existent en français mais n'ont pas exactement la même signification. Un anglophone parle d'un \"mobile phone\" et nous parlons d'un \"téléphone portable\" mais c'est bien le même objet...\n",
+  "stem_zh": "一位步行并使用便携发射机的业余爱好者如何标识自己？",
+  "ans_zh": "FXXXX / mobile",
+  "com_zh": "如果使用的是无法随身携带的电台，后缀是「portable」。而当人「步行」时，人是移动的，因此后缀是「mobile」。|「émetteur portable」是个假朋友，更应该说「émetteur portatif」。别忘了「mobile」和「portable」这两个词来自英语，虽然法语里也有这些词，但含义并不完全相同。英语使用者说「mobile phone」，我们说「téléphone portable」，但其实是同一个东西……",
+  "anchor": "R42a"
+ },
+ {
+  "num": "36444",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR : \"QRP\"",
+  "options": [
+   "Dois-je augmenter la puissance d'émission ? ",
+   "La force de mes signaux varie-t-elle",
+   "Diminuez votre puissance d'émission",
+   "Pouvez-vous me donner accusé de réception ?"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Diminuez votre puissance d'émission",
+  "commentaire_fr": "Il n'y a pas de point d'interrogation, ce n'est donc pas une question mais une réponse ou un avis\n",
+  "stem_zh": "「QRP」表示什么？",
+  "ans_zh": "请降低您的发射功率",
+  "com_zh": "这里没有问号，所以它不是提问，而是一个回答或通知。",
+  "anchor": "R32a"
+ },
+ {
+  "num": "36450",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "QUELLE EST LA QUALIFICATION DE LA GAMME MF ?",
+  "options": [
+   "Myriamétrique",
+   "Décamétrique",
+   "Hectométrique",
+   "Décimétrique"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Hectométrique",
+  "commentaire_fr": "",
+  "stem_zh": "MF 波段的名称是什么？",
+  "ans_zh": "百米波（hectométrique）",
+  "com_zh": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "36500",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "UN AMATEUR UTILISANT UNE STATION MOBILE TERRESTRE DOIT POUR S'ANNONCER ?",
+  "options": [
+   "Faire précéder son indicatif de la lettre \"M\"",
+   "Faire suivre son indicatif de la lettre \"M\"",
+   "Faire suivre son indicatif de la lettre \"P\"",
+   "Faire précéder son indicatif de la lettre \"P\""
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Faire suivre son indicatif de la lettre \"M\"",
+  "commentaire_fr": "",
+  "stem_zh": "使用陆地移动电台的爱好者标识自己时应？",
+  "ans_zh": "在呼号后加字母「M」",
+  "com_zh": "",
+  "anchor": "R42a"
+ },
+ {
+  "num": "36666",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* QUEL EST LE CODE POUR : \"QRX\"",
+  "options": [
+   "A quel moment me rappelez-vous ?",
+   "Etes-vous prêt ?",
+   "Etes-vous troublé par des parasites ?",
+   "Etes-vous brouillé ?"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "A quel moment me rappelez-vous ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRX」表示什么？",
+  "ans_zh": "您什么时候再呼叫我？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "37029",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR : \"QRN ?\"",
+  "options": [
+   "Etes-vous troublé par des parasites ?",
+   "Etes-vous brouillé ?",
+   "Quelle est l'heure exacte ?",
+   "Quel est le nom de votre station"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Etes-vous troublé par des parasites ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRN?」表示什么？",
+  "ans_zh": "您受到干扰吗？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "37030",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "QUI DELIVRE LES CERTIFICATS D'OPERATEURS DANS LES TERRES AUSTRALES ?",
+  "options": [
+   "Le commissaire de police",
+   "L'ANFR",
+   "La gendarmerie",
+   "Le haut commissaire de la république"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "L'ANFR",
+  "commentaire_fr": "Depuis décembre 2014, c'est l'ANFR qui délivre les certificats d'opérateur dans toiute la France y compris en outre mer (avant 2014 : haut commissaire de la République qui représente l'Etat français sur les TAAF)\n",
+  "stem_zh": "谁签发法属南方和南极领地的操作员证书？",
+  "ans_zh": "ANFR",
+  "com_zh": "自 2014 年 12 月起，由 ANFR 在法国全境（包括海外）签发操作员证书（2014 年之前：由在 TAAF 代表法国国家的共和国高级专员签发）。",
+  "anchor": "R42a"
+ },
+ {
+  "num": "37086",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "AVEC QUEL SYMBOLE LE TYPE D'INFORMATION A TRANSMETTRE EST-IL DESIGNE LORS DE LA TRANSMISSIONS DE DONNEES, TELEMESURE, TELECOMMANDE ?",
+  "options": [
+   "C",
+   "A",
+   "B",
+   "D"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "D",
+  "commentaire_fr": "",
+  "stem_zh": "在数据传输、遥测、遥控时，所传输信息的类型用哪个符号表示？",
+  "ans_zh": "D",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "37301",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR : \"QSY ?\"",
+  "options": [
+   "Dois-je passer à la transmission sur une autre fréquence ?",
+   "Dois-je transmettre plus lentement ?",
+   "Dois-je transmettre plus vite ?",
+   "Ma fréquence varie-t-elle ?"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Dois-je passer à la transmission sur une autre fréquence ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QSY?」表示什么？",
+  "ans_zh": "我是否应改用另一频率发射？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "37470",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "* QUELLE EST L'IMPEDANCE AU CENTRE D'UN DOUBLET DEMI-ONDE DONT LES BRINS SONT ALIGNES ?",
+  "options": [
+   "73 Ohms",
+   "52 Ohms",
+   "300 Ohms",
+   "36 Ohms"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "73 Ohms",
+  "commentaire_fr": "",
+  "stem_zh": "振子臂成一直线的半波偶极天线，其中心处的阻抗是多少？",
+  "ans_zh": "73 欧姆",
+  "com_zh": "",
+  "anchor": "R52c"
+ },
+ {
+  "num": "37478",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR FX.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Balise française",
+   "Relais numérique français",
+   "Relais analogique français",
+   "Satellite français"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Satellite français",
+  "commentaire_fr": "La série FX est réservée aux satellites radioamateurs français\n",
+  "stem_zh": "您联络到一位呼号前缀以 FX 开头的业余爱好者。他来自哪个国家（地区）？",
+  "ans_zh": "法国（业余）卫星",
+  "com_zh": "FX 系列专用于法国业余无线电卫星。",
+  "anchor": "R46a"
+ },
+ {
+  "num": "37489",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "UN EMETTEUR ALIMENTE AVEC UNE PUISSANCE DE 40 W UNE ANTENNE A GAIN DE 6 DB\nQUELLE EST LA PUISSANCE APPARENTE A LA SORTIE DE L'ANTENNE ?",
+  "options": [
+   "80 W",
+   "160 W",
+   "240 W",
+   "320 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "160 W",
+  "commentaire_fr": "6 dB correspond à un rapport de puissance de 4. \nPAR = puissance de l’émetteur x rapport de puissance de l’antenne = 40 W x 4 = 160 W\n",
+  "stem_zh": "一台发射机以 40 W 的功率馈给增益为 6 dB 的天线，天线输出端的视在（辐射）功率是多少？",
+  "ans_zh": "160 W",
+  "com_zh": "6 dB 对应 4 倍的功率比。| PAR = 发射机功率 × 天线功率比 = 40 W × 4 = 160 W",
+  "anchor": "R52h"
+ },
+ {
+  "num": "37913",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR : \"QRZ ?\"",
+  "options": [
+   "Etes-vous occupé ?",
+   "Dois-je diminuer la puissance d'émission ?",
+   "Dois-je augmenter la puissance d'émission ?",
+   "Par qui suis-je appelé ?"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Par qui suis-je appelé ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRZ?」表示什么？",
+  "ans_zh": "是谁在呼叫我？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "38033",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "POUR UN RADIOAMATEUR TITULAIRE D'UN CERTIFICAT DE CLASSE 3, QUELLE EST LA PUISSANCE DE CRETE DE L'EMETTEUR QUI NE DOIT PAS ETRE DEPASSEE DANS LA BANDE DE FREQUENCES 144 - 146 MHZ ?",
+  "options": [
+   "10 W",
+   "1000 W",
+   "Il n'y a pas de restriction",
+   "100 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10 W",
+  "commentaire_fr": "",
+  "stem_zh": "对于持有 3 类证书的业余爱好者，在 144 - 146 MHz 频段上发射机峰值功率不得超过多少？",
+  "ans_zh": "10 W",
+  "com_zh": "",
+  "anchor": "R22a"
+ },
+ {
+  "num": "38102",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* QUEL EST LE PAYS QUI A SIGNE UN ACCORD DE RECIPROCITE AVEC LA FRANCE ?",
+  "options": [
+   "Groënland",
+   "Pérou",
+   "Brésil",
+   "USA"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Brésil",
+  "commentaire_fr": "Les 5 pays ayant signé un accord de réciprocité avec la France sont : Brésil, Côte d'Ivoire, Japon, Kenya et la Thaïlande\n",
+  "stem_zh": "哪个国家与法国签署了互惠协议？",
+  "ans_zh": "巴西",
+  "com_zh": "与法国签署互惠协议的 5 个国家是：巴西、科特迪瓦、日本、肯尼亚和泰国。",
+  "anchor": "R47d"
+ },
+ {
+  "num": "38150",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* FC6ZTV UTILISE LA STATION DE FC6WAZ. COMMENT FORMULE-T-IL SON INDICATIF ???",
+  "options": [
+   "FC6ZTV",
+   "FC6ZTV/PORTABLE",
+   "FC6WAZ",
+   "FC6WAZ opéré par FC6ZTV"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "FC6ZTV/PORTABLE",
+  "commentaire_fr": "La bonne réponse est la B. En effet, la réponse D n'est valable que dans le cadre d'un radio-club où vous devez préciser votre indicatif personnel à la suite de l'indicatif du radio-club.\n\nCertes, de nombreux radioamateurs commettent (de bonne foi) cette erreur. Il faut rappeler qu'un indicatif est attribué à une personne et non pas à du matériel (une station) comme c'était le cas avant 1983 : une même station individuelle (et donc pas un radio-club) pouvait avoir plusieurs opérateurs. Ce n'est plus le cas aujourd'hui et quand on utilise la station d'un autre OM, on utilise son indicatif personnel suivi de /P (ou /M si la station utilisée se trouve dans un véhicule) sans préciser à qui appartient la station (d'ailleurs, ce pourrait aussi être la station d'un SWL non autorisé à trafiquer)\n",
+  "stem_zh": "FC6ZTV 使用 FC6WAZ 的电台。他如何写自己的呼号？",
+  "ans_zh": "FC6ZTV/PORTABLE",
+  "com_zh": "正确答案是 B。事实上，D 选项只在无线电台俱乐部的场合才成立，那时你应在俱乐部呼号后加上自己的个人呼号。| 诚然，许多业余爱好者（出于善意地）犯这个错误。需要提醒的是，呼号是分配给个人的，而不是分配给设备（电台）的——1983 年以前是后者：同一座个人电台（因而不是无线电台俱乐部）可以有多个操作员。如今情况已不再如此：使用另一位 OM（爱好者）的电台时，用自己的个人呼号后加 /P（若所用电台在车上则加 /M），而无须说明电台属于谁（况且，那也可能是未获准通信的 SWL（收听者）的电台）。",
+  "anchor": "R42a"
+ },
+ {
+  "num": "38300",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR M.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Jersey",
+   "Ile de Man",
+   "Angleterre",
+   "Ecosse"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Angleterre",
+  "commentaire_fr": "Pour l'Angleterre, l'OFCOM (équivalent de l'ARCEP) a aussi attribué des indicatifs commençant par G.\n",
+  "stem_zh": "您联络到一位呼号前缀以 M 开头的业余爱好者。他来自哪个国家（地区）？",
+  "ans_zh": "英格兰",
+  "com_zh": "对英格兰，OFCOM（相当于 ARCEP）也指配了以 G 开头的呼号。",
+  "anchor": "R47b"
+ },
+ {
+  "num": "38350",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "* UN RADIOAMATEUR DE CLASSE 3 PEUT-IL UTLISER L'INDICATIF SUIVANT :\nON/F0XYZ/M",
+  "options": [
+   "Oui puisqu'il se trouve en Belgique",
+   "Non",
+   "Oui, s'il émet chez un Radioamateur Belge",
+   "Oui, mais avec une puissance maximum de 1 Watt"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Non",
+  "commentaire_fr": "Dès que le Radioamateur de classe 3 quitte le territoire français, celui-ci n'a plus le droit d'émettre.\n",
+  "stem_zh": "3 类业余爱好者可以使用下列呼号吗： ON/F0XYZ/M",
+  "ans_zh": "不可以",
+  "com_zh": "3 类业余爱好者一旦离开法国领土，就无权再发射。",
+  "anchor": "R47e"
+ },
+ {
+  "num": "38378",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR OK.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Belgique",
+   "Autriche",
+   "Iles Féroé",
+   "République Tchèque"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "République Tchèque",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 OK 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "捷克",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "38450",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION DE FREQUENCE, \nAVEC EMPLOI D'UNE SOUS PORTEUSE MODULANTE,\nTELEGRAPHIE POUR RECEPTION AUDITIVE ?",
+  "options": [
+   "F1A",
+   "F3E",
+   "F2A",
+   "F1D"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "F2A",
+  "commentaire_fr": "",
+  "stem_zh": "调频、使用调制副载波、听觉接收电报，对应哪一发射类别符号？",
+  "ans_zh": "F2A",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39004",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION G1F, QUE SIGNIFIE LE F ?",
+  "options": [
+   "Modulation de phase",
+   "Télévision",
+   "Modulation de fréquence",
+   "Signal digital sans emploi d'une sous porteuse modulante"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Télévision",
+  "commentaire_fr": "",
+  "stem_zh": "在发射类别 G1F 中，F 表示什么？",
+  "ans_zh": "电视",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39100",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* EN CAS DE MANQUEMENT, NOTAMMENT A LA REGLEMENTATION APPLICABLE AUX STATIONS RADIOELECTRIQUES DES SERVICES D'AMATEUR, L'INDICATIF ATTRIBUE PAR L'ADMINISTRATION PEUT ETRE SUSPENDU POUR UNE DUREE MAXIMALE DE :",
+  "options": [
+   "15 jours",
+   "1 mois",
+   "1 an",
+   "3 ans"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "3 ans",
+  "commentaire_fr": "Art. 7-3 de l'arrêté du 21/09/00 modifié :\nEn cas de manquement, notamment à la réglementation applicable aux stations radioélectriques des Services d’amateur, l’indicatif attribué par l’administration peut être suspendu pour une durée maximum de trois ans ou révoqué.\n",
+  "stem_zh": "在违犯——尤其是违犯适用于业余业务无线电台的法规时，主管机关指配的呼号可被暂停，最长期限为：",
+  "ans_zh": "3 年",
+  "com_zh": "经修订的 2000 年 9 月 21 日部令第 7-3 条：「在违犯——尤其是违犯适用于业余业务无线电台的法规时，主管机关指配的呼号可被暂停最长三年，或被撤销。」",
+  "anchor": "R44a"
+ },
+ {
+  "num": "39105",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+  "options": [
+   "10,140 MHz",
+   "10,150 kHz",
+   "18,168 MHz",
+   "21,350 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "18,168 MHz",
+  "commentaire_fr": "Attention : 10,150 est le limite de la bande des 30 mètres.\nIci elle est stipulée en Kilohertz et non en Mégahertz.\nAttention au piège.\n",
+  "stem_zh": "哪个频率是频段界限？",
+  "ans_zh": "18.168 MHz",
+  "com_zh": "注意：10.150 是 30 米波段的界限。这里它是以千赫而非兆赫给出的。当心陷阱。",
+  "anchor": "R21b"
+ },
+ {
+  "num": "39122",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* QUEL EST LE CODE POUR : \"QRK ?\"",
+  "options": [
+   "Pouvez-vous communiquer directement avec...directement ou par relais ?",
+   "Quelle est votre position en latitude ou longitude ?",
+   "Quelle est l'intelligibilité de mes signaux ?",
+   "Etes-vous brouillé ?"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Quelle est l'intelligibilité de mes signaux ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRK?」表示什么？",
+  "ans_zh": "我的信号可辨度如何？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "39123",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "SYMBOLE DE LA MODULATION DE PHASE, \nSANS EMPLOI D'UNE SOUS PORTEUSE MODULANTE, TELEVISION ?",
+  "options": [
+   "G1F",
+   "G2F",
+   "G3F",
+   "G1D"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "G1F",
+  "commentaire_fr": "",
+  "stem_zh": "相位调制、不使用调制副载波、电视，对应哪一发射类别符号？",
+  "ans_zh": "G1F",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39300",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "SYMBOLE DE LA MODULATION D'AMPLITUDE, BANDE LATERALE UNIQUE,\nPORTEUSE SUPPRIMEE, SIGNAL ANALOGIQUE, TELEPHONIE ?",
+  "options": [
+   "A3E",
+   "F3E",
+   "G3E",
+   "J3E"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "J3E",
+  "commentaire_fr": "",
+  "stem_zh": "调幅、单边带、载波抑制、模拟信号、话务，对应哪一发射类别符号？",
+  "ans_zh": "J3E",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39403",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR FR.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Réunion",
+   "Balises",
+   "relais numérique",
+   "Mayotte"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Réunion",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 FR 开头的业余爱好者。他来自哪个国家（地区）？",
+  "ans_zh": "留尼汪",
+  "com_zh": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "39411",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* QUEL EST LE CODE POUR : \"QSA ?\"",
+  "options": [
+   "Pouvez-vous me donner accusé de réception ?",
+   "Quelle est la force de mes signaux ?",
+   "Quel est le nom de votre station ?",
+   "Etes-vous prêt ?"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Quelle est la force de mes signaux ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QSA?」表示什么？",
+  "ans_zh": "我的信号强度如何？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "39904",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION F7W, QUE SIGNIFIE LA DERNIERE LETTRE ?",
+  "options": [
+   "Combinaison de différents types d'information transmise",
+   "D-Star",
+   "Modulation de fréquence",
+   "ce code n'existe pas"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Combinaison de différents types d'information transmise",
+  "commentaire_fr": "Le protocole D-Star utilise la classe d'émission F7W mais ce n'est pas la question posée\n",
+  "stem_zh": "在发射类别 F7W 中，最后一个字母表示什么？",
+  "ans_zh": "所传输的不同类型信息的组合",
+  "com_zh": "D-Star 协议使用发射类别 F7W，但这不是本题所问。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39905",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION G9W, QUE SIGNIFIE LA DERNIERE LETTRE ?",
+  "options": [
+   "Télégraphie ",
+   "Téléphonie et Transmission de données",
+   "Modulation de phase",
+   "Analogique et numérique"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Téléphonie et Transmission de données",
+  "commentaire_fr": "Emettre plusieurs types d'information simultanément nécessite l'emploi d'une classe d'émission se terminant par W (combinaison de différents types d'information)\n",
+  "stem_zh": "在发射类别 G9W 中，最后一个字母表示什么？",
+  "ans_zh": "话务与数据传输",
+  "com_zh": "同时发射多种类型的信息需要使用以 W 结尾的发射类别（不同类型信息的组合）。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39906",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION A8W, QUE SIGNIFIE LA DERNIERE LETTRE ?",
+  "options": [
+   "Modulation d'amplitude ",
+   "plusieurs voies analogiques",
+   "Télévision et Téléphonie",
+   "ce code n'existe pas"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Télévision et Téléphonie",
+  "commentaire_fr": "Emettre plusieurs types d'information simultanément nécessite l'emploi d'une classe d'émission se terminant par W (combinaison de différents types d'information)\n",
+  "stem_zh": "在发射类别 A8W 中，最后一个字母表示什么？",
+  "ans_zh": "电视与话务",
+  "com_zh": "同时发射多种类型的信息需要使用以 W 结尾的发射类别（不同类型信息的组合）。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39908",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION C9W, QUE SIGNIFIE LE CHIFFRE ?",
+  "options": [
+   "Analogique et numérique",
+   "Plusieurs voies analogiques",
+   "Plusieurs voies numériques",
+   "Une seule voie avec sous porteuse modulante à plus de 900 Hz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Analogique et numérique",
+  "commentaire_fr": "",
+  "stem_zh": "在发射类别 C9W 中，数字表示什么？",
+  "ans_zh": "模拟与数字",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39910",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION F7W, QUE SIGNIFIE LE CHIFFRE ?",
+  "options": [
+   "Analogique et numérique ",
+   "Plusieurs voies analogiques",
+   "Plusieurs voies numériques",
+   "Analogique (1 seule voie)"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Plusieurs voies numériques",
+  "commentaire_fr": "",
+  "stem_zh": "在发射类别 F7W 中，数字表示什么？",
+  "ans_zh": "多个数字信道",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39911",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION G8E, QUE SIGNIFIE LE CHIFFRE ?",
+  "options": [
+   "Téléphonie",
+   "Plusieurs voies analogiques",
+   "Plusieurs voies numérqiues",
+   "Analogique et numérique"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Plusieurs voies analogiques",
+  "commentaire_fr": "Le code  G8E sera utilisé dans le cas de transmissions en FM-Stéréo par exemple\n",
+  "stem_zh": "在发射类别 G8E 中，数字表示什么？",
+  "ans_zh": "多个模拟信道",
+  "com_zh": "例如在调频立体声传输的情况下会使用 G8E 代码。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39912",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION C8F, QUE SIGNIFIE LE CHIFFRE ?",
+  "options": [
+   "Télévision ",
+   "Analogique et numérique",
+   "Plusieurs voies analogiques",
+   "Plusieurs voies numériques"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Plusieurs voies analogiques",
+  "commentaire_fr": "",
+  "stem_zh": "在发射类别 C8F 中，数字表示什么？",
+  "ans_zh": "多个模拟信道",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39913",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION C8W, QUE SIGNIFIE LE CHIFFRE ?",
+  "options": [
+   "Analogique et numérique ",
+   "Modulation d'amplitude avec bande latérale résiduelle",
+   "Combinaison de différents types d'information transmise",
+   "Plusieurs voies analogiques"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Plusieurs voies analogiques",
+  "commentaire_fr": "La télévision analogique (vidéo + son) utilisera ce code de classe d'émission. La télévision numérique (TNT) utilisera le code D7W\n",
+  "stem_zh": "在发射类别 C8W 中，数字表示什么？",
+  "ans_zh": "多个模拟信道",
+  "com_zh": "模拟电视（图像＋伴音）将使用这个发射类别代码。数字电视（TNT）将使用代码 D7W。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39915",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION D8E, QUE SIGNIFIE LE D ?",
+  "options": [
+   "Plusieurs voies analogiques ",
+   "Modulation d'amplitude et de phase",
+   "Téléphonie",
+   "BLU avec porteuse complète"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Modulation d'amplitude et de phase",
+  "commentaire_fr": "La modulation de phase (comme la modulation de fréquence) est une modulation angulaire\n",
+  "stem_zh": "在发射类别 D8E 中，D 表示什么？",
+  "ans_zh": "幅度与相位调制",
+  "com_zh": "相位调制（与调频一样）属于角度调制。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39917",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION D7C, QUE SIGNIFIE LE D ?",
+  "options": [
+   "Transmission de données ",
+   "Plusieurs voies numériques",
+   "Fac-Similé",
+   "Modulation de phase et d'amplitude"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Modulation de phase et d'amplitude",
+  "commentaire_fr": "La modulation de phase (comme la modulation de fréquence) est une modulation angulaire\n",
+  "stem_zh": "在发射类别 D7C 中，D 表示什么？",
+  "ans_zh": "相位与幅度调制",
+  "com_zh": "相位调制（与调频一样）属于角度调制。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "39939",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* SUR QUELLE BANDE LA LARGEUR DE BANDE N'EST PAS LIMITEE ?",
+  "options": [
+   "50 MHz ",
+   "10 GHz",
+   "10,150 MHz",
+   "7 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10 GHz",
+  "commentaire_fr": "",
+  "stem_zh": "在哪个频段上带宽不受限制？",
+  "ans_zh": "10 GHz",
+  "com_zh": "",
+  "anchor": "R13b"
+ },
+ {
+  "num": "39941",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* LES RAYONNEMENTS NON ESSENTIELS SONT :",
+  "options": [
+   "définis par une decision ARCEP",
+   "les harmoniques 2 et 3 de l'émission fondamentale",
+   "incluses dans la bande passante nécessaire",
+   "les émissions non désirées au delà du domaine des émissions hors bande"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "les émissions non désirées au delà du domaine des émissions hors bande",
+  "commentaire_fr": "La valeur maximum des rayonnements non essentiels est définie dans l'appendice 3 du RR\n",
+  "stem_zh": "非必要辐射是：",
+  "ans_zh": "带外发射范围以外的非期望发射",
+  "com_zh": "非必要辐射的最大值由《无线电规则》附录 3 定义。",
+  "anchor": "R13c"
+ },
+ {
+  "num": "39944",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* LA VALEUR LIMITE DES RAYONNEMENTS NON ESSENTIELS EST DEFINIE PAR :",
+  "options": [
+   "une recommandation européenne ",
+   "une loi française",
+   "le RR",
+   "l'ANFR"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "le RR",
+  "commentaire_fr": "La valeur limite des rayonnements non essentiels est définie dans le RR et est reprise dans de nombreux textes français ou européens\n",
+  "stem_zh": "非必要辐射的限值由什么规定？",
+  "ans_zh": "《无线电规则》（RR）",
+  "com_zh": "非必要辐射的限值在《无线电规则》中规定，并被许多法国或欧洲文本沿用。",
+  "anchor": "R13c"
+ },
+ {
+  "num": "39949",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* QUELLE EST LA PUISSANCE APPARENTE RAYONNEE (PAR) MAXIMALE AUTORISEE QUI NE DEMANDE PAS DE DECLARATION ?",
+  "options": [
+   "250 W",
+   "120 W",
+   "4 W",
+   "500 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "4 W",
+  "commentaire_fr": "",
+  "stem_zh": "不需要申报的最大允许有效辐射功率（PAR）是多少？",
+  "ans_zh": "4 W",
+  "com_zh": "",
+  "anchor": "R42e"
+ },
+ {
+  "num": "39950",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* A WALLIS & FUTUNA, QUI DELIVRE LES CERTIFICATS D'OPERATEURS ?",
+  "options": [
+   "Le haut commissaire de la République",
+   "L'ANFR",
+   "Le commissaire de police\n",
+   "La gendarmerie\n"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "L'ANFR",
+  "commentaire_fr": "Depuis décembre 2014, c'est l'ANFR qui délivre les certificats d'opérateur dans toiute la France y compris en outre mer (avant 2014 : l'administrateur supérieur qui représente l'Etat français dans ces îles)\n",
+  "stem_zh": "在瓦利斯和富图纳，谁签发操作员证书？",
+  "ans_zh": "ANFR",
+  "com_zh": "自 2014 年 12 月起，由 ANFR 在法国全境（包括海外）签发操作员证书（2014 年之前：由在这些岛屿代表法国国家的高级行政长官签发）。",
+  "anchor": "R46a"
+ },
+ {
+  "num": "39951",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* QUEL EST LE NIVEAU DES RAYONNEMENTS NON ESSENTIELS SUR 28,5 MHZ",
+  "options": [
+   "-25 dBc",
+   "-60 dBc",
+   "-50 dBc",
+   "-12 dBc"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "-50 dBc",
+  "commentaire_fr": "",
+  "stem_zh": "28.5 MHz 上非必要辐射的电平是多少？",
+  "ans_zh": "-50 dBc",
+  "com_zh": "",
+  "anchor": "R13c"
+ },
+ {
+  "num": "39998",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION DE PHASE, SIGNAL ANALOGIQUE, FAC SIMILE ?",
+  "options": [
+   "G2D",
+   "G3E",
+   "G1D",
+   "G3C"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "G3C",
+  "commentaire_fr": "",
+  "stem_zh": "相位调制、模拟信号、传真，对应哪一发射类别符号？",
+  "ans_zh": "G3C",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "40001",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA BANDE PARTAGEE A STATUT SECONDAIRE ?",
+  "options": [
+   "430 à 434 MHz",
+   "434 à 440 MHz",
+   "7,000 à 7,100 MHz",
+   "14,000 à 14,250 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "430 à 434 MHz",
+  "commentaire_fr": "Pour vous rappeler de cette question, mémorisez que c'est la première bande qui est secondaire.\n",
+  "stem_zh": "哪个频段是共享且具有次要业务地位的？",
+  "ans_zh": "430 至 434 MHz",
+  "com_zh": "为了记住这道题，请记住这是第一个处于次要地位的频段。",
+  "anchor": "R21b"
+ },
+ {
+  "num": "40007",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 2 METRES ?",
+  "options": [
+   "Partagée statut secondaire",
+   "Partagée à égalité de droit",
+   "Exclusif",
+   "Partagée statut précaire et révocable"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Exclusif",
+  "commentaire_fr": "",
+  "stem_zh": "在法国本土，所谓 2 米波段的地位是什么？",
+  "ans_zh": "专用（exclusif）",
+  "com_zh": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "50000",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE A ?",
+  "options": [
+   "Alfa",
+   "Amérique",
+   "Antoine",
+   "América"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Alfa",
+  "commentaire_fr": "",
+  "stem_zh": "字母 A 的正确拼读是？",
+  "ans_zh": "Alfa",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50001",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE B ?",
+  "options": [
+   "Baltimore",
+   "Bravo",
+   "Boston",
+   "Banco"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Bravo",
+  "commentaire_fr": "",
+  "stem_zh": "字母 B 的正确拼读是？",
+  "ans_zh": "Bravo",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50002",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE C ?",
+  "options": [
+   "Canada",
+   "Charles",
+   "Charlie",
+   "Casablanca"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Charlie",
+  "commentaire_fr": "",
+  "stem_zh": "字母 C 的正确拼读是？",
+  "ans_zh": "Charlie",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50003",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE D ?",
+  "options": [
+   "Danemark",
+   "Dany",
+   "Denise",
+   "Delta"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Delta",
+  "commentaire_fr": "",
+  "stem_zh": "字母 D 的正确拼读是？",
+  "ans_zh": "Delta",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50004",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE E ?",
+  "options": [
+   "Echo",
+   "Europe",
+   "Europa",
+   "Esther"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Echo",
+  "commentaire_fr": "",
+  "stem_zh": "字母 E 的正确拼读是？",
+  "ans_zh": "Echo",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50005",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE F ?",
+  "options": [
+   "Florida",
+   "Fox Trot",
+   "France",
+   "Floride"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Fox Trot",
+  "commentaire_fr": "",
+  "stem_zh": "字母 F 的正确拼读是？",
+  "ans_zh": "Fox Trot",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50006",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE G ?",
+  "options": [
+   "Guatémala",
+   "Georges",
+   "Golf",
+   "Germany"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Golf",
+  "commentaire_fr": "",
+  "stem_zh": "字母 G 的正确拼读是？",
+  "ans_zh": "Golf",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50007",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE H ?",
+  "options": [
+   "Henry",
+   "Honolulu",
+   "Hong Kong",
+   "Hotel"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Hotel",
+  "commentaire_fr": "",
+  "stem_zh": "字母 H 的正确拼读是？",
+  "ans_zh": "Hotel",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50008",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE I ?",
+  "options": [
+   "India",
+   "Inde",
+   "Italie",
+   "Ivoire"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "India",
+  "commentaire_fr": "",
+  "stem_zh": "字母 I 的正确拼读是？",
+  "ans_zh": "India",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50009",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE J ?",
+  "options": [
+   "Juliett",
+   "Japon",
+   "Julie",
+   "Janvier"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Juliett",
+  "commentaire_fr": "",
+  "stem_zh": "字母 J 的正确拼读是？",
+  "ans_zh": "Juliett",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50011",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE L ?",
+  "options": [
+   "Londres",
+   "Lama",
+   "Lima",
+   "Luxembourg"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Lima",
+  "commentaire_fr": "",
+  "stem_zh": "字母 L 的正确拼读是？",
+  "ans_zh": "Lima",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50012",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE M ?",
+  "options": [
+   "Mexico",
+   "Midway",
+   "Micro",
+   "Mike"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Mike",
+  "commentaire_fr": "",
+  "stem_zh": "字母 M 的正确拼读是？",
+  "ans_zh": "Mike",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50013",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE N ?",
+  "options": [
+   "November",
+   "Nancy",
+   "Norway",
+   "Novembre"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "November",
+  "commentaire_fr": "",
+  "stem_zh": "字母 N 的正确拼读是？",
+  "ans_zh": "November",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50014",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE O ?",
+  "options": [
+   "Océan",
+   "Oscar",
+   "Ontario",
+   "Olga"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Oscar",
+  "commentaire_fr": "",
+  "stem_zh": "字母 O 的正确拼读是？",
+  "ans_zh": "Oscar",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50015",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE P ?",
+  "options": [
+   "Portugal",
+   "Panama",
+   "Papa",
+   "Paris"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Papa",
+  "commentaire_fr": "",
+  "stem_zh": "字母 P 的正确拼读是？",
+  "ans_zh": "Papa",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50016",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE Q ?",
+  "options": [
+   "Quadra",
+   "Quatar",
+   "Quad",
+   "Quebec"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Quebec",
+  "commentaire_fr": "",
+  "stem_zh": "字母 Q 的正确拼读是？",
+  "ans_zh": "Quebec",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50017",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE R ?",
+  "options": [
+   "Romeo",
+   "Richard",
+   "Rome",
+   "Radio"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Romeo",
+  "commentaire_fr": "",
+  "stem_zh": "字母 R 的正确拼读是？",
+  "ans_zh": "Romeo",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50018",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE S ?",
+  "options": [
+   "Santiago",
+   "Sierra",
+   "Sugar",
+   "Satelite"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Sierra",
+  "commentaire_fr": "",
+  "stem_zh": "字母 S 的正确拼读是？",
+  "ans_zh": "Sierra",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50021",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE LA LETTRE V ?",
+  "options": [
+   "Victor",
+   "Victoria",
+   "Victoire",
+   "Vénézuéla"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Victor",
+  "commentaire_fr": "",
+  "stem_zh": "字母 V 的正确拼读是？",
+  "ans_zh": "Victor",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50027",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE L'INDICATIF FD6ALO ?",
+  "options": [
+   "Fox-Trot Delta 6 Alfa Lima Oscar",
+   "Fox-Trot Danemark 6 Alfa Lima Oscar",
+   "France Delta 6 Alfa Lima Oscar",
+   "Florida Delta 6 Alfa Lima Oscar"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Fox-Trot Delta 6 Alfa Lima Oscar",
+  "commentaire_fr": "",
+  "stem_zh": "呼号 FD6ALO 的正确拼读是？",
+  "ans_zh": "Fox-Trot Delta 6 Alfa Lima Oscar",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50028",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE L'INDICATIF FD6EAC ?",
+  "options": [
+   "France Delta 6 Echo Alfa Charly",
+   "Fox-Trot Delta 6 Echo Alfa Charlie",
+   "Florida Danemark 6 Echo Alfa Charlie",
+   "Fox-Trot Delta 6 Europe Alfa Charlie"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Fox-Trot Delta 6 Echo Alfa Charlie",
+  "commentaire_fr": "",
+  "stem_zh": "呼号 FD6EAC 的正确拼读是？",
+  "ans_zh": "Fox-Trot Delta 6 Echo Alfa Charlie",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50029",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE L'INDICATIF FE5WZ ?",
+  "options": [
+   "France Echo 5 Whiskey Zoulou",
+   "Florida Echo 5 Whiskey Zoulou",
+   "Fox-Trot Echo 5 Whiskey Zoulou",
+   "Fox-Trot Echo 5 Whiskey Zanzibar"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Fox-Trot Echo 5 Whiskey Zoulou",
+  "commentaire_fr": "",
+  "stem_zh": "呼号 FE5WZ 的正确拼读是？",
+  "ans_zh": "Fox-Trot Echo 5 Whiskey Zoulou",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "50036",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE L'INDICATIF FE6VW ?",
+  "options": [
+   "Fox-Trot Echo 6 Victoire Whiskey",
+   "Fox-Trot Echo 6 Victor Washington",
+   "Fox-Trot Echo 6 Victor Whiskey",
+   "Florida Echo 6 Victor Whiskey"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Fox-Trot Echo 6 Victor Whiskey",
+  "commentaire_fr": "",
+  "stem_zh": "呼号 FE6VW 的正确拼读是？",
+  "ans_zh": "Fox-Trot Echo 6 Victor Whiskey",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "60000",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nF\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "France",
+   "Guadeloupe",
+   "Iles Féroé",
+   "Finlande"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "France",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 F 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "法国",
+  "com_zh": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "60001",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nFG\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Guyane",
+   "Guadeloupe",
+   "Martinique",
+   "Mayotte"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Guadeloupe",
+  "commentaire_fr": "Attention à ne pas confondre avec la Guyane (FY).\n",
+  "stem_zh": "您联络到一位呼号前缀以 FG 开头的业余爱好者。他来自哪个国家（地区）？",
+  "ans_zh": "瓜德罗普",
+  "com_zh": "注意不要与圭亚那（FY）混淆。",
+  "anchor": "R46a"
+ },
+ {
+  "num": "60008",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nFR\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Terres Australes",
+   "Wallis et Futuna",
+   "Martinique",
+   "Réunion (ile de la)"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Réunion (ile de la)",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 FR 开头的业余爱好者。他来自哪个国家（地区）？",
+  "ans_zh": "留尼汪（岛）",
+  "com_zh": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "60010",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nFT\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Wallis et Futuna",
+   "Terres Australes",
+   "Tromelin",
+   "Martinique"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Terres Australes",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 FT 开头的业余爱好者。他来自哪个国家（地区）？",
+  "ans_zh": "法属南方和南极领地",
+  "com_zh": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "60012",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nFX\nQUE SIGNIFIE CET INDICATIF ?",
+  "options": [
+   "Satellites Français du service amateur",
+   "Relais analogique",
+   "Relais numérique",
+   "Balise"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Satellites Français du service amateur",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 FX 开头的业余爱好者。该呼号表示什么？",
+  "ans_zh": "业余业务的法国卫星",
+  "com_zh": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "60020",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nTK\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "France",
+   "Corse",
+   "C'est un indicatif spécial français",
+   "C'est un indicatif spécial DOM-TOM"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Corse",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 TK 开头的业余爱好者。他来自哪个地区？",
+  "ans_zh": "科西嘉",
+  "com_zh": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "60026",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\n5B\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Géorgie",
+   "Malte",
+   "Chypre",
+   "Monaco"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Chypre",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 5B 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "塞浦路斯",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "60027",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\n9A\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Malte",
+   "Monaco",
+   "Chypre",
+   "Croatie"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Croatie",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 9A 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "克罗地亚",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "60028",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\n9H\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Malte",
+   "Croatie",
+   "Chypre",
+   "Géorgie"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Malte",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 9H 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "马耳他",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "60032",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nDL\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Danemark",
+   "Lettonie",
+   "Allemagne",
+   "Belgique"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Allemagne",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 DL 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "德国",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "60044",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nSV\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Grèce",
+   "Slovénie",
+   "Slovaquie",
+   "Suède"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Grèce",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 SV 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "希腊",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "60061",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nMW\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Pays Bas",
+   "Pays de Galles",
+   "Moldavie",
+   "Malte"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Pays de Galles",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 MW 开头的业余爱好者。他来自哪个国家（地区）？",
+  "ans_zh": "威尔士",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "60063",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nOK\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Roumanie",
+   "Vatican",
+   "Iles Féroé",
+   "République Tchèque"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "République Tchèque",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 OK 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "捷克",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "60067",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nOM\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Finlande",
+   "Belgique",
+   "Iles Féroé",
+   "Slovaquie"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Slovaquie",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 OM 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "斯洛伐克",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "60073",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nHV\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Hongrie",
+   "Vatican",
+   "Malte",
+   "Suède"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Vatican",
+  "commentaire_fr": "",
+  "stem_zh": "您联络到一位呼号前缀以 HV 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "梵蒂冈",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "70001",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRA.",
+  "options": [
+   "Quel est le nom de votre station",
+   "Ma fréquence varie t-elle ?",
+   "Etes-vous prêt ?",
+   "Par qui suis-je appellé ?"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Quel est le nom de votre station",
+  "commentaire_fr": "",
+  "stem_zh": "「QRA」表示什么？",
+  "ans_zh": "您的电台名称是什么？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70002",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRG.",
+  "options": [
+   "Quelle est l'heure exacte ?",
+   "Votre fréquence exacte est de...kHz ou MHz",
+   "Etes-vous troublé par des parasites ?",
+   "A quel moment me rappellerez-vous ?"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Votre fréquence exacte est de...kHz ou MHz",
+  "commentaire_fr": "",
+  "stem_zh": "「QRG」表示什么？",
+  "ans_zh": "您的准确频率是……kHz 或 MHz",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70004",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRL.",
+  "options": [
+   "A quel moment me rappellerez-vous ?",
+   "Par qui suis-je appelé ?",
+   "Quelle est votre position en latitude et en longitude (ou d'après une autre indication) ?  ",
+   "Etes-vous occupé ?"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Etes-vous occupé ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRL」表示什么？",
+  "ans_zh": "您忙吗？（此频率是否正被占用？）",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70005",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRH.",
+  "options": [
+   "Ma fréquence varie t-elle ?",
+   "Etes-vous occupé ?",
+   "Etes-vous brouillé ?",
+   "Etes-vous troublé par des parasites ?"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Ma fréquence varie t-elle ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRH」表示什么？",
+  "ans_zh": "我的频率漂移吗？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70006",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRK.",
+  "options": [
+   "Dois-je augmenter la puissance d'émission ?",
+   "Quelle est l'intelligibilité de mes signaux (ou des signaux de...) ?",
+   "Dois-je diminuer la puissance d'émission ?",
+   "Dois-je cesser la transmission ?"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Quelle est l'intelligibilité de mes signaux (ou des signaux de...) ?",
+  "commentaire_fr": "Attention à la signification de QRK qui n'est pas celle en usage chez les radioamateurs.\n",
+  "stem_zh": "「QRK」表示什么？",
+  "ans_zh": "我的信号（或……的信号）可辨度如何？",
+  "com_zh": "注意 QRK 的含义并不是业余爱好者之间的惯用含义。",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70007",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRN.",
+  "options": [
+   "Etes-vous brouillé ?",
+   "Quelle est la force de mes signaux (ou des signaux de...)",
+   "La force de mes signaux varie-t-elle ?",
+   "Etes-vous troublé par des parasites ?"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Etes-vous troublé par des parasites ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRN」表示什么？",
+  "ans_zh": "您受到干扰吗？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70008",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRO.",
+  "options": [
+   "Dois-je augmenter la puissance d'émission ?",
+   "Dois-je diminuer la puissance d'émission ?",
+   "Dois-je cesser la transmission ?",
+   "Dois-je passer à la transmission sur une autre fréquence ?"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Dois-je augmenter la puissance d'émission ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRO」表示什么？",
+  "ans_zh": "我是否应增大发射功率？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70009",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRP.",
+  "options": [
+   "Pouvez-vous retransmettre à...gratuitement ?",
+   "Dois-je diminuer la puissance d'émission ?",
+   "Par qui suis-je appelé ?",
+   "Dois-je augmenter la puissance d'émission ?"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Dois-je diminuer la puissance d'émission ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRP」表示什么？",
+  "ans_zh": "我是否应降低发射功率？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70010",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRT.",
+  "options": [
+   "A quel moment me rappellerez-vous ?",
+   "Quelle est l'heure exacte ?",
+   "Dois-je cesser la transmission ?",
+   "Avez-vous quelque chose pour moi ?"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Dois-je cesser la transmission ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRT」表示什么？",
+  "ans_zh": "我是否应停止发射？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70011",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRU.",
+  "options": [
+   "Etes-vous prêt ?",
+   "Quelle est l'intelligibilité de mes signaux (ou des signaux de...) ?",
+   "Par qui suis-je appelé ? ",
+   "Avez-vous quelque chose pour moi ?"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Avez-vous quelque chose pour moi ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRU」表示什么？",
+  "ans_zh": "您有给我的（报文）吗？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70012",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRV.",
+  "options": [
+   "Etes-vous prêt ?  ",
+   "Avez-vous quelque chose pour moi ?",
+   "Par qui suis-je appelé ?",
+   "Dois-je cesser la transmission ?"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Etes-vous prêt ?  ",
+  "commentaire_fr": "",
+  "stem_zh": "「QRV」表示什么？",
+  "ans_zh": "您准备好了吗？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70014",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QRZ.",
+  "options": [
+   "Quel est le nom de votre station ?",
+   "Quelle est votre position en latitude et en longitude (ou d'après une autre indication) ",
+   "Pouvez-vous me donner accusé de réception ?",
+   "Par qui suis-je appelé ?"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Par qui suis-je appelé ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QRZ」表示什么？",
+  "ans_zh": "是谁在呼叫我？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70015",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QSA.",
+  "options": [
+   "Quelle est la force de mes signaux (ou des signaux de...) ?",
+   "Quel est le nom de votre station ?",
+   "La force de mes signaux varie-t-elle ?",
+   "Pouvez-vous me donner accusé de réception ?"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Quelle est la force de mes signaux (ou des signaux de...) ?",
+  "commentaire_fr": "Attention à la signification de QSA qui n'est pas celle en usage chez les radioamateurs.\n",
+  "stem_zh": "「QSA」表示什么？",
+  "ans_zh": "我的信号（或……的信号）强度如何？",
+  "com_zh": "注意 QSA 的含义并不是业余爱好者之间的惯用含义。",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70016",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QSB.",
+  "options": [
+   "Etes-vous troublé par des parasites ?",
+   "La force de mes signaux varie-t-elle ?",
+   "Etes-vous brouillé ?",
+   "Quelle est la force de mes signaux (ou des signaux de...) ?"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "La force de mes signaux varie-t-elle ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QSB」表示什么？",
+  "ans_zh": "我的信号强度有变化吗？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70018",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QSO.",
+  "options": [
+   "Pouvez-vous retransmettre à...gratuitement ?",
+   "Voulez-vous m'indiquer ma fréquence exacte ou la fréquence exacte est... ? ",
+   "Dois-je cesser la transmission ?",
+   "Pouvez-vous communiquer avec...directement (ou par relais) ?"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Pouvez-vous communiquer avec...directement (ou par relais) ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QSO」表示什么？",
+  "ans_zh": "您能（直接或经中继）与……通信吗？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70019",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QSP.",
+  "options": [
+   "Pouvez-vous retransmettre à...gratuitement ?",
+   "Pouvez-vous communiquer avec...directement (ou par relais) ?",
+   "Par qui suis-je appelé ?",
+   "Avez-vous quelque chose pour moi ?"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Pouvez-vous retransmettre à...gratuitement ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QSP」表示什么？",
+  "ans_zh": "您能免费转发给……吗？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70021",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QTH.",
+  "options": [
+   "Quelle est votre position en latitude et en longitude (ou d'après une autre indication) ?",
+   "Quel est le nom de votre station ?",
+   "Par qui suis-je appelé ? ",
+   "Pouvez-vous me donner accusé de réception ?    "
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Quelle est votre position en latitude et en longitude (ou d'après une autre indication) ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QTH」表示什么？",
+  "ans_zh": "您在纬度和经度上的位置是什么（或根据其他指示）？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70022",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR QTR.",
+  "options": [
+   "Quelle est votre position en latitude et en longitude (ou d'après une autre indication) ?",
+   "Quelle est l'heure exacte ?",
+   "Avez-vous quelque chose pour moi ? ",
+   "Dois-je passer à la transmission sur une autre fréquence ?     "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Quelle est l'heure exacte ?",
+  "commentaire_fr": "",
+  "stem_zh": "「QTR」表示什么？",
+  "ans_zh": "准确时间是多少？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70026",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUELLE EST L'ABREVIATION DE CE CODE Q ?\n\nQUELLE EST L'INTELLIGIBILITE DE MES SIGNAUX (OU DES SIGNAUX DE...) ?",
+  "options": [
+   "QRH",
+   "QRN",
+   "QRK",
+   "QSL"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "QRK",
+  "commentaire_fr": "Attention à la signification de QRK qui n'est pas celle en usage chez les radioamateurs.\n",
+  "stem_zh": "这个 Q 简语的缩写是什么？ 我的信号（或……的信号）可辨度如何？",
+  "ans_zh": "QRK",
+  "com_zh": "注意 QRK 的含义并不是业余爱好者之间的惯用含义。",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70029",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUELLE EST L'ABREVIATION DE CE CODE Q ?\n\nETES-VOUS TROUBLE PAR DES PARASITES ?",
+  "options": [
+   "QSA",
+   "QRN",
+   "QRM",
+   "QSB"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "QRN",
+  "commentaire_fr": "",
+  "stem_zh": "这个 Q 简语的缩写是什么？\n\n您受到天电干扰吗？",
+  "ans_zh": "QRN",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70031",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUELLE EST L'ABREVIATION DE CE CODE Q ?\n\nDOIS-JE DIMINUER LA PUISSANCE D'EMISSION ?",
+  "options": [
+   "QRO",
+   "QRK",
+   "QRH",
+   "QRP"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "QRP",
+  "commentaire_fr": "",
+  "stem_zh": "这个 Q 简语的缩写是什么？\n\n我是否应降低发射功率？",
+  "ans_zh": "QRP",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70037",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUELLE EST L'ABREVIATION DE CE CODE Q ?\n\nQUELLE EST LA FORCE DE MES SIGNAUX (OU DES SIGNAUX DE...)",
+  "options": [
+   "QSB",
+   "QRO",
+   "QRP",
+   "QSA"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "QSA",
+  "commentaire_fr": "Attention à la signification de QSA qui n'est pas celle en usage chez les radioamateurs.\n",
+  "stem_zh": "这个 Q 简语的缩写是什么？ 我的信号（或……的信号）强度如何？",
+  "ans_zh": "QSA",
+  "com_zh": "注意 QSA 的含义并不是业余爱好者之间的惯用含义。",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70039",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUELLE EST L'ABREVIATION DE CE CODE Q ?\n\nPOUVEZ-VOUS ME DONNER ACCUSE DE RECEPTION ?",
+  "options": [
+   "QRV",
+   "QSL",
+   "QSO",
+   "QSP"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "QSL",
+  "commentaire_fr": "",
+  "stem_zh": "这个 Q 简语的缩写是什么？\n\n您能给我收妥确认吗？",
+  "ans_zh": "QSL",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70040",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUELLE EST L'ABREVIATION DE CE CODE Q ?\n\nPOUVEZ-VOUS COMMUNIQUER AVEC...DIRECTEMENT (OU PAR RELAIS) ?",
+  "options": [
+   "QSA",
+   "QRZ",
+   "QTH",
+   "QSO"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "QSO",
+  "commentaire_fr": "",
+  "stem_zh": "这个 Q 简语的缩写是什么？\n\n您能与……直接（或经中继）通信吗？",
+  "ans_zh": "QSO",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70043",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUELLE EST L'ABREVIATION DE CE CODE Q ?\n\nQUELLE EST VOTRE POSITION EN LATITUDE ET EN LONGITUDE (OU D'APRES UNE AUTRE INDICATION) ?",
+  "options": [
+   "QRA",
+   "QSL",
+   "QTH",
+   "QRG"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "QTH",
+  "commentaire_fr": "",
+  "stem_zh": "这个 Q 简语的缩写是什么？\n\n您的纬度与经度位置（或按其他指示方式）是什么？",
+  "ans_zh": "QTH",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70052",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : ETES-VOUS BROUILLE ?",
+  "options": [
+   "QRN",
+   "QSB",
+   "QRM",
+   "QRH"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "QRM",
+  "commentaire_fr": "",
+  "stem_zh": "如何翻译：您受到（人为）干扰吗？",
+  "ans_zh": "QRM",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70053",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : ETES-VOUS TROUBLE PAR DES PARASITES ?",
+  "options": [
+   "QRM",
+   "QSB",
+   "QRO",
+   "QRN"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "QRN",
+  "commentaire_fr": "",
+  "stem_zh": "如何翻译：您受到天电干扰吗？",
+  "ans_zh": "QRN",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70055",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : DOIS-JE DIMINUER LA PUISSANCE D'EMISSION ?",
+  "options": [
+   "QRO",
+   "QRP",
+   "QRT",
+   "QRU"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "QRP",
+  "commentaire_fr": "",
+  "stem_zh": "如何翻译：我是否应降低发射功率？",
+  "ans_zh": "QRP",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70056",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : DOIS-JE CESSER LA TRANSMISSION ?",
+  "options": [
+   "QRU",
+   "QRV",
+   "QRT",
+   "QSY"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "QRT",
+  "commentaire_fr": "",
+  "stem_zh": "如何翻译：我是否应停止发射？",
+  "ans_zh": "QRT",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70057",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : AVEZ-VOUS QUELQUE CHOSE POUR MOI ?",
+  "options": [
+   "QRV",
+   "QSA",
+   "QRL",
+   "QRU"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "QRU",
+  "commentaire_fr": "",
+  "stem_zh": "如何翻译：您有给我的（报文）吗？",
+  "ans_zh": "QRU",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70058",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : ETES-VOUS PRET ?",
+  "options": [
+   "QRV",
+   "QRU",
+   "QSA",
+   "QRZ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "QRV",
+  "commentaire_fr": "",
+  "stem_zh": "如何翻译：您准备好了吗？",
+  "ans_zh": "QRV",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70059",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : A QUEL MOMENT ME RAPPELLEREZ-VOUS ?",
+  "options": [
+   "QRX ?",
+   "QRZ ?",
+   "QRA ?",
+   "QTR ?"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "QRX ?",
+  "commentaire_fr": "",
+  "stem_zh": "如何翻译：您什么时候再呼叫我？",
+  "ans_zh": "QRX ?",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70063",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : POUVEZ-VOUS ME DONNER ACCUSE DE RECEPTION ?",
+  "options": [
+   "QSL",
+   "QSA",
+   "QRZ",
+   "QSO"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "QSL",
+  "commentaire_fr": "",
+  "stem_zh": "如何翻译：您能给我收妥确认吗？",
+  "ans_zh": "QSL",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70064",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : POUVEZ-VOUS COMMUNIQUER AVEC...DIRECTEMENT (OU PAR RELAIS) ?",
+  "options": [
+   "QSA",
+   "QSO",
+   "QRZ",
+   "QSL"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "QSO",
+  "commentaire_fr": "",
+  "stem_zh": "如何翻译：您能（直接或经中继）与……通信吗？",
+  "ans_zh": "QSO",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70065",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : POUVEZ-VOUS RETRANSMETTRE A...GRATUITEMENT ?",
+  "options": [
+   "QSL",
+   "QRZ",
+   "QSP",
+   "QSA"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "QSP",
+  "commentaire_fr": "",
+  "stem_zh": "如何翻译：您能免费转发给……吗？",
+  "ans_zh": "QSP",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "70067",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : QUELLE EST VOTRE POSITION EN LATITUDE ET EN LONGITUDE (OU D'APRES UNE AUTRE INDICATION) ?",
+  "options": [
+   "QTH",
+   "QRA",
+   "QRK",
+   "QSL"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "QTH",
+  "commentaire_fr": "",
+  "stem_zh": "如何翻译：您在纬度和经度上的位置是什么（或根据其他指示）？",
+  "ans_zh": "QTH",
+  "com_zh": "",
+  "anchor": "R32a"
+ }
+]

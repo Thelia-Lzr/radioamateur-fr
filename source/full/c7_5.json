@@ -1,0 +1,626 @@
+[
+ {
+  "num": "36200",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA LARGEUR DE LA BANDE DES 10 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1,7 MHz",
+   "1700 Hz",
+   "28,000 à 29,700 MHz",
+   "28,000 à 29,700 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1,7 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "36300",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 40 METRES ?",
+  "options": [
+   "Partagée statut secondaire",
+   "Partagée à égalité de droit",
+   "Exclusif",
+   "Partagée statut précaire et révocable"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Exclusif",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "36378",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUEL EST LE STATUT DE LA BANDE DE FREQUENCE 434,000 A 440,000 MHZ ?",
+  "options": [
+   "partagée, statut secondaire",
+   "partagée, à égalité de droit",
+   "exclusive, statut primaire",
+   "précaire et révocable"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "partagée, à égalité de droit",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "36380",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "QUELLE EST LA PUISSANCE DE SORTIE ?\n20 W - GAIN DE L'AMPLIFICATEUR 3 D",
+  "options": [
+   "16 W",
+   "20 W",
+   "40 W",
+   "60 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "40 W",
+  "commentaire_fr": "3 dB correspond à un rapport de puissance de 2. \nPuissance de sortie = puissance d’entrée x rapport de puissance de l’amplificateur = 20 W x 2 = 40 W\n",
+  "anchor": "R51a"
+ },
+ {
+  "num": "36544",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA LARGEUR DE LA BANDE DES 6 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "50,000 à 52,000 MHz",
+   "2 MHz",
+   "50,000 à 51,200 MHz",
+   "6 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "36741",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, DOUBLE BANDE LATERALE, \nTELEGRAPHIE POUR RECEPTION AUDITIVE,\nAVEC EMPLOI D'UNE SOUS PORTEUSE MODULANTE ?",
+  "options": [
+   "A1B",
+   "A2B",
+   "A1A",
+   "A2A"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "A2A",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "36800",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA LARGEUR DE LA BANDE DES 18,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "200 kHz",
+   "100 MHz",
+   "17 mètres",
+   "100 kHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "36885",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR FT.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Mayotte",
+   "Terres australes et antarctiques françaises",
+   "Préfixe spécial français",
+   "Réunion"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Terres australes et antarctiques françaises",
+  "commentaire_fr": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "37001",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR OE.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Autriche",
+   "Pologne",
+   "Danemark",
+   "Pays Bas"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Autriche",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "37003",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 3,5 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "3,500 à 3,850 MHz",
+   "3,500 à 3,800 MHz",
+   "3,500 à 3,750 MHz",
+   "3,750 à 3,850 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "3,500 à 3,800 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "37020",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* UN RADIOAMATEUR CANADIEN VIENT VIVRE DEFINITIVEMENT EN FRANCE.\nQUEL INDICATIF LUI SERA ATTRIBUE ?",
+  "options": [
+   "F1V??",
+   "F5V??",
+   "F/ puis son indicatif Canadien",
+   "F?W???"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "F?W???",
+  "commentaire_fr": "Le Canada n'est pas membre de l'Union Européenne mais applique la recommandation T/R 61-01\n",
+  "anchor": "R46a"
+ },
+ {
+  "num": "37128",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR LZ.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Lettonie",
+   "Luxembourg",
+   "Bulgarie",
+   "Lithuanie"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Bulgarie",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "37150",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUELLE EST CETTE MODULATION ?",
+  "options": [
+   "FM",
+   "AM",
+   "RTTY",
+   "CW"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "FM",
+  "commentaire_fr": "",
+  "anchor": "R12b"
+ },
+ {
+  "num": "37200",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, BANDE LATERALE UNIQUE,\nPORTEUSE REDUITE, SIGNAL ANALOGIQUE, FAC SIMILE ?",
+  "options": [
+   "R3C",
+   "R3E",
+   "R3D",
+   "J3C"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "R3C",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "37210",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA LARGEUR DE LA BANDE DES 14,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "350 kHz",
+   "20 mètres",
+   "14,000 à 14,450 MHz",
+   "450 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "350 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "37212",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 10 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "10,100 à 10,150 MHz",
+   "28,000 à 29,500 MHz",
+   "28,000 à 29,700 MHz",
+   "28,000 à 28,450 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "28,000 à 29,700 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut divisé 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "37250",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR TA.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Turquie",
+   "Russie",
+   "Grèce",
+   "Bulgarie"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Turquie",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "37350",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA PUISSANCE D'ALIMENTATION AUTORISE A UN AMATEUR DE CLASSE 1\nSUR LA BANDE 27 MHZ ?",
+  "options": [
+   "100 W",
+   "200 W",
+   "Il n'est pas autorisé à utiliser son indicatif d'appel sur cette bande",
+   "250 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Il n'est pas autorisé à utiliser son indicatif d'appel sur cette bande",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "37400",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 7,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "7,000 à 7,200 MHz",
+   "7,000 à 7,100 MHz",
+   "7,000 à 7,300 MHz",
+   "7,000 à 7,400 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "7,000 à 7,200 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "37401",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 80 METRES ?",
+  "options": [
+   "Partagée statut secondaire",
+   "Partagée à égalité de droit",
+   "Exclusive",
+   "Partagée statut précaire et révocable"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Partagée à égalité de droit",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "37411",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR FK.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Nouvelle calédonie",
+   "Martinique",
+   "Corse",
+   "Wallis et Futuna"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Nouvelle calédonie",
+  "commentaire_fr": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "37454",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR OM.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Autriche",
+   "Slovaquie",
+   "Danemark",
+   "Pays bas"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Slovaquie",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "37480",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUEL EST LE STATUT DE LA BANDE DE FREQUENCE 24,890 A 24,990 MHZ ?",
+  "options": [
+   "partagée, statut secondaire",
+   "partagée, à égalité de droit",
+   "exclusive, statut primaire",
+   "précaire et révocable"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "exclusive, statut primaire",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "37500",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 10,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "28,000 à 29,700 MHz",
+   "10,000 à 10,150 MHz",
+   "28,000 à 29,500 MHz",
+   "10,100 à 10,150 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10,100 à 10,150 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "37600",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "* IMPEDANCE D'UNE ANTENNE GP AVEC RADIANS PARALLELES AU SOL ?",
+  "options": [
+   "73 Ω",
+   "36 Ω",
+   "50 Ω",
+   "300 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "36 Ω",
+  "commentaire_fr": "",
+  "anchor": "R52e"
+ },
+ {
+  "num": "37622",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "POLARISATION D'UNE ANTENNE GP ?",
+  "options": [
+   "Verticale",
+   "Horizontale",
+   "Circulaire",
+   "Circulaire droite"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Verticale",
+  "commentaire_fr": "",
+  "anchor": "R52e"
+ },
+ {
+  "num": "37690",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "* ETENDUE DES ONDES HECTOMETRIQUES ?",
+  "options": [
+   "100 km à 1 km",
+   "1000 m à 100 m",
+   "10 m à 1 m",
+   "1 m à 10 cm"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1000 m à 100 m",
+  "commentaire_fr": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "37800",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA LARGEUR DE LA BANDE DES 2 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1 MHz",
+   "2 MHz",
+   "144,000 à 146,000 MHz",
+   "144,000 à 148,000 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "37900",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA LARGEUR DE LA BANDE DES 10,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "150 kHz",
+   "30 mètres",
+   "10,100 à 10,150 MHz",
+   "50 kHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "50 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "38001",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR OY.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Autriche",
+   "République Slovaque",
+   "Iles Féroé",
+   "Danemark"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Iles Féroé",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "38002",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLES SONT LES LIMITES DE LA BANDE DES 14,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "14,000 à 14,350 MHz",
+   "14,000 à 14,250 MHz",
+   "14,000 à 14,450 MHz",
+   "14,000 à 14,300 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "14,000 à 14,350 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "38005",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT L'INDICATIF COMMENCE PAR F4W.\nQUE SIGNIFIE CET INDICATIF ?",
+  "options": [
+   "Cet indicatif n'est pas attribué",
+   "C'est un Radioamateur étranger dont le pays d'origine est membre de la CEPT",
+   "C'est un radioamateur étranger dont le pays d'origine a signé un accord de réciprocité avec la France",
+   "C'est un indicatif de Wallis et Futuna"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "C'est un radioamateur étranger dont le pays d'origine a signé un accord de réciprocité avec la France",
+  "commentaire_fr": "Les nouveaux indicatis F?W sont attribués aux Radioamateurs étrangers établis pour plus de 3 mois en France dont le pays d'origine n'est pas membre de l'Union Européenne mais appliquant la T/R 61-01 ou ayant signé un accord de réciprocité avec la France.\n",
+  "anchor": "R46a"
+ },
+ {
+  "num": "38050",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION DE FREQUENCE, \nAVEC EMPLOI D'UNE SOUS PORTEUSE MODULANTE,\nTRANSMISSION DE DONNEES ?",
+  "options": [
+   "F3E",
+   "G3D",
+   "F2D",
+   "F1D"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "F2D",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "38120",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR T7.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Monaco",
+   "Croatie",
+   "Saint-Marin",
+   "Chypre"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Saint-Marin",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "38151",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* F0GCS UTILISE LA STATION DU RADIO-CLUB F8KGN. COMMENT FORMULE-T-IL SON INDICATIF ???",
+  "options": [
+   "FØGCS/P",
+   "FØGCS",
+   "FØGCS opérant F8KGN",
+   "F8KGN opéré par FØGCS"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "F8KGN opéré par FØGCS",
+  "commentaire_fr": "Lorsque un opérateur manoeuvre la station d'un radio-club, l'opérateur donne l'indicatif du radio-club puis son indicatif personnel.\n\nSi FØGCS se trouvait chez un autre radioamateur, il se signalerait avec l'indicatif FØGCS/P. Bien entendu, dans tous les cas, FØGCS utilisera une fréquence, une puissance et une classe d'émission qui lui seront autorisées.\n",
+  "anchor": "R43a"
+ },
+ {
+  "num": "38200",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION DE PHASE, \nAVEC EMPLOI D'UNE SOUS PORTEUSE MODULANTE,\nTRANSMISSION DE DONNEES ?",
+  "options": [
+   "F3D",
+   "G3C",
+   "G1D",
+   "G2D"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "G2D",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "38240",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUE VEUT DIRE LA LETTRE E DANS LA CLASSE J3E ?",
+  "options": [
+   "Données",
+   "Télévision",
+   "Avec emploi d'une sous porteuse modulante",
+   "Téléphonie"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Téléphonie",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "38301",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA LARGEUR DE LA BANDE DES 7,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "40 mètres",
+   "7,000 à 7,100 MHz",
+   "200 kHz",
+   "100 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "200 kHz",
+  "commentaire_fr": "L'extension de la bande des 7 MHz ne sera effective qu'après publication de l'homologation de l'arrêté modificatif de l'ARCEP prévue à la rentrée 2009.)\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "38307",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLES SONT LES LIMITES DE LA BANDE DES 6 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "6,000 à 6,600 MHz",
+   "50,000 à 51,200 MHz",
+   "50,000 à 52,000 MHz",
+   "50,200 à 51,200 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50,000 à 52,000 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut divisé 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ }
+]

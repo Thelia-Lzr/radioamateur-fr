@@ -1,0 +1,2267 @@
+[
+ {
+  "id": "K016",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 43,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "21461",
+    "stem_fr": "GAIN TOTAL",
+    "options": [
+     "10 dB",
+     "24 dB",
+     "20 dB",
+     "18 dB"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "10 dB",
+    "commentaire_fr": "6 dB + 4 dB = 10 dB ; les dB s'additionnent\n",
+    "stem_zh": "总增益是多少？"
+   },
+   {
+    "num": "21435",
+    "stem_fr": "GAIN TOTAL ?",
+    "options": [
+     "50 dB",
+     "15 dB",
+     "31 dB",
+     "5 dB"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "15 dB",
+    "commentaire_fr": "les gains s'additionnent lorsqu'ils sont calculés en dB\n10 + 5 = 15 dB\n",
+    "stem_zh": "总增益是多少？"
+   },
+   {
+    "num": "21194",
+    "stem_fr": "IMPEDANCE DE SORTIE",
+    "options": [
+     "infini",
+     "75 Ω",
+     "50 Ω",
+     "112,5 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "50 Ω",
+    "commentaire_fr": "Dans une ligne demi-onde, Zs = Ze quelque soit l’impédance Zc\n",
+    "stem_zh": "输出阻抗"
+   },
+   {
+    "num": "20195",
+    "stem_fr": "IMPEDANCE LIGNE COAXIALE",
+    "options": [
+     "50 Ω",
+     "2,5 Ω",
+     "1 kΩ",
+     "0,1 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "50 Ω",
+    "commentaire_fr": "Z = √ (L / C) = √ (0,000 000 05 / 0,000 000 000 02) = √ (2500) = 50\n",
+    "stem_zh": "同轴电缆的阻抗"
+   },
+   {
+    "num": "22465",
+    "stem_fr": "ON DISPOSE DE 4 LONGUEURS DE CABLE COAXIAL.",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "4",
+    "commentaire_fr": "Calculons la longueur d'onde pour 28 MHz\nλ = 300/f soit 300/28 = 10,70 m\nLe quart d'onde vaut λ/4 = 10,70/4 = 2,67 m\n\nLe coefficient de velocité du câble est de 0,66.\nLe quart d'onde formé par un tronçon de câble coaxial sur 28 MHz vaudra :\nλ / 4 x coefficient de velocité\n2,67 x 0,66 = 1,77 m\n",
+    "stem_zh": "现有 4 段不同长度的同轴电缆。"
+   },
+   {
+    "num": "20462",
+    "stem_fr": "UN BON TOS DOIT ETRE",
+    "options": [
+     "égal à 1",
+     "égal à 0",
+     "inférieur à 0",
+     "inférieur à 1"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "égal à 0",
+    "commentaire_fr": "le TOS est compris entre 0% et 100%. Le meilleur TOS est 0% (ou 0) \n",
+    "stem_zh": "良好的 TOS 应当"
+   },
+   {
+    "num": "22461",
+    "stem_fr": "LA PROPAGATION DITE \"SPORADIQUE E\" UTILISE QUELLE COUCHE ?",
+    "options": [
+     "F1",
+     "F2",
+     "E",
+     "D"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "E",
+    "commentaire_fr": "Comme son nom l'indique, la sporadique E est liée à la couche E de la ionosphère.\n",
+    "stem_zh": "所谓「E 层突发」（sporadique E）传播利用的是哪一层？"
+   },
+   {
+    "num": "21120",
+    "stem_fr": "QUEL EST LE RAPPORT DE PUISSANCE DE L'ENSEMBLE ?",
+    "options": [
+     "x 140",
+     "x 20",
+     "x 91",
+     "x 100"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "x 100",
+    "commentaire_fr": "Les gains en dB s'additionnent lorsque les amplificateurs sont en série.\n13 dB + 7 dB = 20 dB\n20 dB : Dizaine = 2 => 100 )\n                Unité = 0 =>     1 ) Rapport = 1 x 100 = 100 \n",
+    "stem_zh": "整个（级联）的功率比是多少？"
+   },
+   {
+    "num": "20735",
+    "stem_fr": "DANS QUELLE GAMME DE FREQUENCE UTILISE-T-ON GENERALEMENT UN GUIDE D'ONDE ?",
+    "options": [
+     "HF",
+     "UHF",
+     "SHF",
+     "VHF"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "SHF",
+    "commentaire_fr": "Un guide d’onde transfère les ondes par réflexion sur les parois conductrices d’un tube souvent rectangulaire. Le guide d’onde a des pertes moindres qu’un câble coaxial mais ne peut transférer que des fréquences dont la demi-longueur d’onde est inférieure à son plus grand côté ce qui, dans la pratique, limite son utilisation aux SHF et au delà (moins de 10 cm de longueur d'onde) \n",
+    "stem_zh": "波导通常在哪个频率范围内使用？"
+   },
+   {
+    "num": "20408",
+    "stem_fr": "PROPRIETES D'UN BALUN 9/1 ?",
+    "options": [
+     "Filtre\n",
+     "Atténuateur ",
+     "Transformateur d'impédance ",
+     "Isolateur de ROS"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Transformateur d'impédance ",
+    "commentaire_fr": "Le BALUN (symétriseur en français) est constitué d’un transformateur HF et permet aussi de transformer les impédances présentes à ses enroulements.\n",
+    "stem_zh": "9/1 巴伦（平衡-不平衡变换器）的特性是什么？"
+   }
+  ]
+ },
+ {
+  "id": "K017",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "anchor": "T012a",
+  "seclab": "1.2",
+  "n_q": 39,
+  "cours_fr": "1.2) Lois d'Ohm (U = R . I) et de Joule (P = U . I) . Ces deux lois sont fondamentales car elles expriment les relations entre les quatre grandeurs de base de l’électricité. En développant les deux lois, on trouve les douze équations du tableau ci-dessous : P = U . I et on sait que U = R . I ; en remplaçant U par R . I dans la première équation, on trouve : P = (R . I) . I = RI². De même, on sait que I = U / R, donc P = U . I devient P = U x (U / R) donc P = U² / R. Ainsi, deux données (intensité et résistance, par exemple), permettent de calculer les deux inconnues correspondantes (dans notre exemple : puissance P = RI² et tension U = RI). b Les quatre équations éditées en gras ci-dessus servent de base aux quatre triangles de calcul simplifié : Choisissez le triangle contenant vos deux données et votre inconnue puis cachez du doigt l'inconnue : vous obtenez la formule à appliquer. Lorsque les données sont en bas (l’inconnue est en haut du triangle), les données sont multipliées pour obtenir l’inconnue. Lorsque l’inconnue est en bas, les données sont divisées (celle du haut par celle du bas). Lorsque l’inconnue cachée est au carré, le résultat est une racine carrée (exemple : U² = PR donc U = &#8730;(PR)). Le jour de l’examen, si vous n’êtes pas à l’aise en algèbre, commencez par écrire ces quatre formules sur votre feuille de brouillon à côté de la table de conversion : elles seront ainsi toujours sous vos yeux. Exemples : 1) Soit une résistance de 1500 &#937; parcourue par un courant 0,1 A. Quelle est la tension à ses bornes ? Quelle est la puissance dissipée ? U = R . I = 1500 x 0,1 = 150 V P = U . I = 150 x 0,1 = 15 W ou P = R . I² =1.500 x 0,1 x 0,1 = 15 W ou encore P = U² / R = (150 x 150) / 1500 = 22 500 / 1500 = 15 W 2 ) quelle est la puissance P dissipée et la résistance R ? P = U . I = 2 x 0,05 = 0,1 W R = U / I = 2 / 0,05 = 40 &#937; ou R = P / I² = 0,1 / (0,05 x 0,05) = 0,1 / 0,0025 = 40 &#937; ou encore R = U² / P = 2² / 0,1 = 4 / 0,1 = 40 &#937;",
+  "samples": [
+   {
+    "num": "20416",
+    "stem_fr": "FORMULES EXACTES",
+    "options": [
+     "2 et 3",
+     "1 et 3",
+     "4",
+     "1, 2 et 3"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1, 2 et 3",
+    "commentaire_fr": "La formule fausse est la n°4 .\nPour être exacte, la formule devrait être : P = U² /R \n",
+    "stem_zh": "正确的公式"
+   },
+   {
+    "num": "23804",
+    "stem_fr": "TENSION DU GENERATEUR",
+    "options": [
+     "9 V ",
+     " 90 V",
+     "5,4 V",
+     "540 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": " 90 V",
+    "commentaire_fr": "U = R x I = 1500 x 0,06 = 90 V\n",
+    "stem_zh": "电源电压"
+   },
+   {
+    "num": "20396",
+    "stem_fr": "PUISSANCE DISSIPEE PAR R",
+    "options": [
+     "6 W",
+     "24 W",
+     "48 W",
+     "0,333 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "48 W",
+    "commentaire_fr": "P = R x I² = 12 x 2² = 48 W\n",
+    "stem_zh": "R 上耗散的功率"
+   },
+   {
+    "num": "20404",
+    "stem_fr": "FORMULE(S) EXACTE(S) ?",
+    "options": [
+     "2",
+     "3 et 4",
+     "1, 2 et 4",
+     "2 et 3"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "2 et 3",
+    "commentaire_fr": "Les formules exactes sont : P = U²/R (et non pas P = racine (R x U) ) et P = U x I (et non pas P = U²/I)\n",
+    "stem_zh": "正确的公式？"
+   },
+   {
+    "num": "23803",
+    "stem_fr": "TENSION DU GENERATEUR",
+    "options": [
+     "825 V ",
+     " 0,15 V",
+     "165 V",
+     "6,6 V"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "165 V",
+    "commentaire_fr": "U = R x I = 33 x 5 = 165 V\n",
+    "stem_zh": "电源电压"
+   },
+   {
+    "num": "23696",
+    "stem_fr": "PUISSANCE DISSIPEE DANS R",
+    "options": [
+     "0,125 mW",
+     "1 mW",
+     "1 kW",
+     "25 mW"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "25 mW",
+    "commentaire_fr": "P = U x I = 5 x 0,005 = 0,025 W = 25 mW\n",
+    "stem_zh": "R 上耗散的功率是多少？"
+   },
+   {
+    "num": "23805",
+    "stem_fr": "PUISSANCE DISSIPEE DANS R",
+    "options": [
+     "1,08 W ",
+     "40 W",
+     "25 mW",
+     "3.6 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "3.6 W",
+    "commentaire_fr": "P = U x I = 12 x 0,3 = 3,6 W\n",
+    "stem_zh": "电阻 R 中耗散的功率是多少？"
+   },
+   {
+    "num": "23727",
+    "stem_fr": "PUISSANCE DISSIPEE DANS LA CHARGE",
+    "options": [
+     "50 W ",
+     "500 W",
+     "25 W",
+     "250 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "250 W",
+    "commentaire_fr": "P = RI² = 1000 x 0,5 x 0,5 = 250 W\n",
+    "stem_zh": "负载中耗散的功率"
+   },
+   {
+    "num": "23806",
+    "stem_fr": "PUISSANCE DISSIPEE DANS LA CHARGE",
+    "options": [
+     "825 W ",
+     "16,5 mW",
+     "82,5 W",
+     "165 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "82,5 W",
+    "commentaire_fr": "P = RI² =330 x 0,5 x 0,5 = 82,5 W\n",
+    "stem_zh": "负载中耗散的功率"
+   },
+   {
+    "num": "20477",
+    "stem_fr": "QUELLE EST LA FORMULE FAUSSE ?",
+    "options": [
+     "U = R.I",
+     "P = U/I",
+     "I = P/U",
+     "R = U/I"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "P = U/I",
+    "commentaire_fr": "La formule exacte est : P = U.I\n",
+    "stem_zh": "哪个公式是错误的？"
+   }
+  ]
+ },
+ {
+  "id": "K018",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "anchor": "T031b",
+  "seclab": "3.1",
+  "n_q": 39,
+  "cours_fr": "3.1) Un transformateur est un cas particulier de bobines couplées (au moins deux enroulements bobinés autour d'un même circuit magnétique). Il ne transforme que des courants alternatifs (et si possible sinusoïdaux). Selon la fréquence du courant, le circuit magnétique est composé soit d’un empilement de tôles minces (représenté par un double trait comme ci-dessous) pour des fréquences basses (BF ou secteur 50 Hz), soit de ferrite ( représentée en pointillé comme au §",
+  "samples": [
+   {
+    "num": "21106",
+    "stem_fr": "RAPPORT DE TRANSFORMATION ?",
+    "options": [
+     "3",
+     "5",
+     "1,4",
+     "0,6"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "0,6",
+    "commentaire_fr": "N = Ip / Is = 3/5 = 0,6\nPar le produit en croix, on retient les couples I et N : Ip / Is = N / 1 ; \ndonc N = produit de la 2ème diagonale / valeur opposée = (Ip x 1) / Is \n= (3 x 1) / 5 = 0,6\n",
+    "stem_zh": "变换比？"
+   },
+   {
+    "num": "21103",
+    "stem_fr": "TENSION AU PRIMAIRE",
+    "options": [
+     "120 V",
+     "60 V",
+     "45 V",
+     "15 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "15 V",
+    "commentaire_fr": "N = ns/np = 120/60 = 2\nUp = Us/N = 30/2 = 15 V\nPar le produit en croix, on retient les couples U et n : Us / Up = ns / np ; \ndonc Up = produit de la 2ème diagonale / valeur opposée = (Us x np) / ns \n= (30 x 60) / 120 = 15\n",
+    "stem_zh": "初级电压"
+   },
+   {
+    "num": "21107",
+    "stem_fr": "TENSION AU PRIMAIRE",
+    "options": [
+     "7,5 V",
+     "10 V",
+     "15 V",
+     "25 V"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "7,5 V",
+    "commentaire_fr": "Us = R x Is = 250 Ω x 0,04 A = 10 V\nN = ns/np = 100/75 = 1,333\nUp = Us / N = 10 / 1,333 = 7,5 V\nPar le produit en croix, on retient les couples U et n : Us / Up = ns / np ; \ndonc Up = produit de la 2ème diagonale / valeur opposée = (Us x np) / ns \n= (10 x 75) / 100 = 7,5 V\n",
+    "stem_zh": "初级电压"
+   },
+   {
+    "num": "21100",
+    "stem_fr": "RAPPORT DE TRANSFORMATION ?",
+    "options": [
+     "0,1",
+     "0,15",
+     "5",
+     "10"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "0,1",
+    "commentaire_fr": "N = Us / Up = 15/150 = 0,1\nPar le produit en croix, on retient les couples U et N : Us / Up = N / 1 ; \ndonc N = produit de la 2ème diagonale / valeur opposée = (Us x 1) / Up \n= (1 x 15) / 150 = 0,1\n",
+    "stem_zh": "变换比？"
+   },
+   {
+    "num": "21271",
+    "stem_fr": "TENSION AU SECONDAIRE ?",
+    "options": [
+     "45 V",
+     "5 V",
+     "25 V",
+     "30 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "5 V",
+    "commentaire_fr": "N = ns/np = 25/75 = 1/3\nUS = UP x N= 15 x 1/3 = 15/3 = 5 V\n Plus empirique : la tension est proportionnelle aux nombres de spires. Donc trois fois moins de spires au secondaire => trois fois mois de tension.\n",
+    "stem_zh": "次级电压是多少？"
+   },
+   {
+    "num": "21286",
+    "stem_fr": "TENSION AU PRIMAIRE",
+    "options": [
+     "30 V",
+     "23,3 V",
+     "90 V",
+     "210 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "210 V",
+    "commentaire_fr": "N = ns/np = 30/90 = 1/3\nUP = US / N = 70 / (1/3) = 70 x 3 = 210 V\n\nPlus empirique : la tension est proportionnelle aux nombres de spires. 3 fois plus de spires => trois fois plus de tension.\n",
+    "stem_zh": "初级电压是多少？"
+   },
+   {
+    "num": "21104",
+    "stem_fr": "TENSION AU SECONDAIRE ?",
+    "options": [
+     "5 V",
+     "7,5 V",
+     "15 V",
+     "30 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "7,5 V",
+    "commentaire_fr": "N = ns/np = 30/60 = 0,5\nUs = Up x N = 15 x 0,5 = 7,5 V\nPar le produit en croix, on retient les couples U et n : Us / Up = ns / np ; \ndonc Us = produit de la 2ème diagonale / valeur opposée = (Up x ns) / np \n= (15 x 30) / 60 = 7,5\n",
+    "stem_zh": "二次侧电压是多少？"
+   },
+   {
+    "num": "21450",
+    "stem_fr": "INTENSITE AU SECONDAIRE",
+    "options": [
+     "1 A",
+     "25 A",
+     "10 A",
+     "2,5 A"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "25 A",
+    "commentaire_fr": "N = Us/Up = 100/500 = 0,2\nIs = Ip/N = Ip / 0,2 = 5/0,2 = 25 A\nPlus empirique : la tension est inversement proportionnelle à l'intensité ; Tension 5 fois inférieur => intensité 5 fois supérieure\n",
+    "stem_zh": "这个变压器的次级电流是多少？"
+   },
+   {
+    "num": "21105",
+    "stem_fr": "INTENSITE AU SECONDAIRE",
+    "options": [
+     "1 A",
+     "2 A",
+     "500 mA",
+     "200 mA"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "2 A",
+    "commentaire_fr": "N = ns/np = 100/200 = 0,5\nIs = Ip / N = 1/0,5 = 2 A\nPar le produit en croix, on retient les couples I et n : Ip / Is = ns / np ; \ndonc Is = produit de la 2ème diagonale / valeur opposée = (Ip x np) / ns \n= (1 x 200) / 100 = 2 A\n",
+    "stem_zh": "二次侧电流是多少？"
+   },
+   {
+    "num": "21108",
+    "stem_fr": "IMPEDANCE AU SECONDAIRE",
+    "options": [
+     "25 Ω",
+     "100 Ω",
+     "200 Ω",
+     "250 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "200 Ω",
+    "commentaire_fr": "N = ns/np = 16/8 = 2\nZs = Zp x N² = 50 x 2 x 2 = 200 Ω\nPar le produit en croix, on retient les couples Z et n : √Zs / √Zp = ns / np ; \ndonc √Zs = produit de la 2ème diagonale / valeur opposée = (√Zp x ns) / np ; en élevant au carré :\nZs = (Zp x ns²) / np² = (50 x 16²) / 8² = (50 x 256) / 64 = 200\n\nAutre méthode : le rapport des impédances est propotionnel au carré du rapport du nombre de spires. deux fois plus de spires donne une impédance multtipliée par 4 (2 au carré)\n",
+    "stem_zh": "二次侧阻抗是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K019",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 39,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "20229",
+    "stem_fr": "TAUX DE MODULATION",
+    "options": [
+     "50 % ",
+     "33 %",
+     "150 %",
+     "25 %"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "33 %",
+    "commentaire_fr": "k (%) = (Umaxi – Umini) / (Umaxi + Umini) x 100 = (10 – 5) / (10 + 5) = 5 / 15 = 0,333 = 33%\n",
+    "stem_zh": "调制率"
+   },
+   {
+    "num": "20218",
+    "stem_fr": "TYPE DE MODULATION REPRESENTE",
+    "options": [
+     "FM",
+     "AM",
+     "CW",
+     "BLU"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "CW",
+    "commentaire_fr": "il s’agit de la lettre U manipulée en CW\n",
+    "stem_zh": "图中表示的调制类型"
+   },
+   {
+    "num": "20753",
+    "stem_fr": "QUELLE EST LA BONNE CORRESPONDANCE ?",
+    "options": [
+     "BLS = LSB",
+     "BLI = LSB ",
+     "BLI = USB",
+     "BLU = USB"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "BLI = LSB ",
+    "commentaire_fr": "LSB est le terme anglais qui signifie Lower Side Band que l'on peut traduire littéralement par \"côté de la bande le plus bas\" et qui signifie \"Bande Latérale Inférieure\", BLI.\n",
+    "stem_zh": "哪种对应关系是正确的？"
+   },
+   {
+    "num": "21420",
+    "stem_fr": "NOM DE L'ETAGE",
+    "options": [
+     "Discriminateur",
+     "Détection",
+     "Détecteur de produit      ",
+     "Modulateur"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Détecteur de produit      ",
+    "commentaire_fr": "BFO => Détecteur de produit (et BLU ou CW)\n",
+    "stem_zh": "方框图中标有「?」的这一级叫什么？"
+   },
+   {
+    "num": "20444",
+    "stem_fr": "QUEL EST LE TAUX DE MODULATION QU'ON NE DOIT PAS DEPASSER EN AM ?",
+    "options": [
+     "120 %",
+     "33 %",
+     "100 %",
+     "50 %"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "100 %",
+    "commentaire_fr": "Il vaut mieux se trouver en dessous de 100% pour éviter tout problème. Un bon compromis pour le rendement se trouve vers 80%\n",
+    "stem_zh": "在 AM 中不得超过的调制率是多少？"
+   },
+   {
+    "num": "20641",
+    "stem_fr": "EN QUELLE CLASSE D'EMISSION LA PUISSANCE D'UN EMETTEUR NE VARIE-T-ELLE PAS ?",
+    "options": [
+     "FM",
+     "AM",
+     "BLU",
+     "DBL"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "FM",
+    "commentaire_fr": "DBL = Double Bande Latérale = BLI + BLS, modulation très peu utilisée par les radioamateurs car la bande passante est le double de celle utilisée pour la BLU. \nLes classes d’émission AM, BLU et DBL sont des modulations d’amplitude et la puissance en sortie d’émetteur varie au rythme de l’information transmise. \nEn FM, c’est la fréquence qui varie tandis que l’amplitude ne varie pas.\n",
+    "stem_zh": "在哪种发射类别中，发射机的功率不变化？"
+   },
+   {
+    "num": "20806",
+    "stem_fr": "SYNOPTIQUE AVEC : MICRO, AF, SEPARATEUR, MODULATEUR EQUILIBRE, FILTRE. TYPE D'EMETTEUR ?",
+    "options": [
+     "BLU",
+     "AM",
+     "FM",
+     "PM"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "BLU",
+    "commentaire_fr": "L’indice qui permet de choisir la BLU est l’étage « modulateur équilibré » spécifique à cette modulation. Il s'agit bien entendu d'un synoptique partiel puisqu'il manque notamment l'oscillateur (relié au modulateur équilibré), la ligne d'amplification (à la suite du filtre) et l'antenne.\n",
+    "stem_zh": "方框图：话筒、AF、隔离器、平衡调制器、滤波器。这是哪种发射机？"
+   },
+   {
+    "num": "21609",
+    "stem_fr": "CE MONTAGE EST UN ?",
+    "options": [
+     "Détecteur d'enveloppe",
+     "Détecteur de produit",
+     "Détecteur de phase",
+     "Détecteur de tension"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Détecteur d'enveloppe",
+    "commentaire_fr": "Ce montage est un détecteur d'enveloppe utilisé pour la détection des signaux modulés en amplitude (AM).\n",
+    "stem_zh": "这个电路是（哪一种检波器）？"
+   },
+   {
+    "num": "20465",
+    "stem_fr": "FREQUENCE IMAGE ? AVEC L'OSCILLATEUR LOCAL = 1,1 MHZ ET EN SORTIE 650 KHZ",
+    "options": [
+     "550 kHz",
+     "2,2 MHz",
+     "1,3 MHz",
+     "450 kHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "450 kHz",
+    "commentaire_fr": "Avec les valeurs proposées pour l’OL et la FI, la fréquence à recevoir pourra être : 1100 – 650 = 450 ou 1100 + 650 = 1750. Une de ces deux fréquences sera la fréquence à recevoir, la seconde sera la fréquence image. La réponse 1750 kHz n'étant pas proposée, la bonne réponse est 450 kHz\n",
+    "stem_zh": "镜像频率？已知本机振荡器 = 1.1 MHz，输出端为 650 kHz"
+   },
+   {
+    "num": "20308",
+    "stem_fr": "QUEL EST L'ETAGE MANQUANT ?",
+    "options": [
+     "Multiplicateur de fréquence",
+     "Discriminateur",
+     "Contrôle Automatique de Gain",
+     "Silencieux"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Multiplicateur de fréquence",
+    "commentaire_fr": "Schéma assez peu explicite. Il s’agit d’un émetteur FM du fait de la présence d’un préaccentuateur et d’un VCXO, oscillateur contrôlé en tension pouvant générer de la FM. Le HP à la place du microphone déroutera les candidats car on peut éventuellement se servir d’un HP à la place d’un micro mais cela reste du bricolage… Les autres réponses ne concernent que des récepteurs et doivent donc être écartées. De plus, un multiplicateur de fréquence ne peut s’envisager qu’en modulation de fréquence ou de phase comme ici ou dans le cas d’une porteuse modulée en tout ou rien (CW).\n",
+    "stem_zh": "缺少的是哪一级？"
+   }
+  ]
+ },
+ {
+  "id": "K020",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 38,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "21152",
+    "stem_fr": "CLASSE DE L'AMPLIFICATEUR",
+    "options": [
+     "A",
+     "B",
+     "AB",
+     "C"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "B",
+    "commentaire_fr": "Transformateurs et 2 transistors : classe B\n",
+    "stem_zh": "放大器的工作类别"
+   },
+   {
+    "num": "20139",
+    "stem_fr": "TENSION DE SEUIL D'UN DIODE GERMANIUM ?",
+    "options": [
+     "0,65 V ",
+     "0,3 V",
+     "1,2 V",
+     "13,8 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "0,3 V",
+    "commentaire_fr": "tension de seuil d’une diode silicium = 0,65 V \n",
+    "stem_zh": "锗二极管的导通阈值电压？"
+   },
+   {
+    "num": "20141",
+    "stem_fr": "QUELLE EST LA TENSION US AUX BORNES DU CONDENSATEUR",
+    "options": [
+     "3,2 V ",
+     " 7,1 V",
+     "4,3 V",
+     "5 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": " 7,1 V",
+    "commentaire_fr": "à la sortie du transfo, Us = Ue (même nombre de spires) ; \nle condensateur transforme U eff en U max (5 V x 1,414 = 7,07, arrondi à 7,1 V). \nPar simplification, on a ici négligé la tension de seuil de la diode. \nEn effet, on n'aura jamais plus que la tension anode moins la tension de seuil sur la cathode de la diode. Au final, la tension Us sera d’environ 6,4 volts si la diode est au silicium\n",
+    "stem_zh": "电容两端的电压 US 是多少？"
+   },
+   {
+    "num": "22468",
+    "stem_fr": "LEQUEL DE CES COMPOSANTS PEUT ASSURER UNE FONCTION D'AMPLIFICATION ?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "3",
+    "commentaire_fr": "Il s'agit du transistor référencé 3. Les autres composants sont :\n\n1-diode\n2-pont de diodes\n4-quartz\n",
+    "stem_zh": "这些元件中哪个能实现放大功能？"
+   },
+   {
+    "num": "21142",
+    "stem_fr": "QUEL SCHEMA PERMET DE REDRESSER LE COURANT ?",
+    "options": [
+     "Schéma 1",
+     "Schéma 2",
+     "Schéma 3",
+     "Schéma 4"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Schéma 3",
+    "commentaire_fr": "Les flèches des diodes doivent être toutes dirigées vers le + de l’alimentation\n",
+    "stem_zh": "哪个电路图能对电流进行整流？"
+   },
+   {
+    "num": "20763",
+    "stem_fr": "QUELLE EST LA CLASSE D'AMPLIFICATION SANS POLARISATION ?",
+    "options": [
+     "Classe D",
+     "Classe A",
+     "Classe C",
+     "Classe AB2"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Classe D",
+    "commentaire_fr": "La classe D (PWM, modulation de largeur d'impulsion) n'a pas de tension de polarisation mais n'est pas très employée dans notre activité car elle génère beaucoup d’harmoniques. Seules les amplificateurs professionnels de haute puissance (> 10 kW) utilisent cette classe.\n",
+    "stem_zh": "哪一类放大不需要偏置？"
+   },
+   {
+    "num": "20448",
+    "stem_fr": "QUELLE CLASSE D'AMPLIFICATION A UNE TENSION DE REPOS NULLE ?",
+    "options": [
+     "classe A",
+     "classe B",
+     "classe AB",
+     "classe C"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "classe B",
+    "commentaire_fr": "La classe B a une tension de repos nulle mais, contrairement aux autres classes, elle nécessite des amplificateurs (transistor ou tube)\n",
+    "stem_zh": "哪种放大类的静态（无信号）电压为零？"
+   },
+   {
+    "num": "21306",
+    "stem_fr": "QUELLE EST L'IMPEDANCE D'ENTREE D'UN AMPLIFICATEUR EN BASE COMMUNE ?",
+    "options": [
+     "basse",
+     "moyenne",
+     "élevée",
+     "infinie"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "basse",
+    "commentaire_fr": "Z entrée pour les 3 montages :\nEmetteur commun : moyenne\nCollecteur commun : élevée\nBase commune : basse\n",
+    "stem_zh": "共基极放大器的输入阻抗是多少？"
+   },
+   {
+    "num": "20437",
+    "stem_fr": "SCHEMA D'AMPLIFICATEUR AVEC TENSION DE SORTIE US = 8 V ET GAIN = 12 DB ; UE = ?",
+    "options": [
+     "1,5 V",
+     "4 V",
+     "0,66 V",
+     "2 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "2 V",
+    "commentaire_fr": "Lorsque les valeurs sont exprimées en volts, le gain est le double de celui calculé lorsque les valeurs sont exprimées en watts. Ainsi, dans cette question, gain en tension = 12 dB divisé par 2 = 6 dB ; \n6 dB correspond à un rapport de 4. Ue = Us / 4 = 8 / 4 = 2\n",
+    "stem_zh": "放大器示意图：输出电压 Us = 8 V，增益为 12 dB，求输入电压 Ue 是多少？"
+   },
+   {
+    "num": "20148",
+    "stem_fr": "QUELLE CLASSE D'AMPLIFICATION A UNE TENSION DE REPOS DE 0 VOLT ?",
+    "options": [
+     "Classe AB ",
+     "Classe A",
+     "Classe B",
+     "Classe C"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Classe B",
+    "commentaire_fr": "la classe B utilise deux amplificateurs pour amplifier les deux alternances d’un signal\n",
+    "stem_zh": "哪一类放大器的静态工作电压为 0 伏？"
+   }
+  ]
+ },
+ {
+  "id": "K021",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "anchor": "T021b",
+  "seclab": "2.1",
+  "n_q": 35,
+  "cours_fr": "2.1) Courants Alternatifs a Dans le premier chapitre, nous avons vu le comportement des résistances dans le cas de courants continus. Or, dans le domaine qui nous intéresse, celui de la radio, les courants (tensions ou intensités) sont alternatifs (on dit aussi périodiques). Le courant est qualifié d’alternatif lorsqu’il change continuellement de valeur au cours du temps et que la forme du signal se répète régulièrement. Les courants alternatifs peuvent prendre plusieurs formes : signal carré, signal triangulaire, signal dent de scie, signal impulsionnel pour les plus courants. De même, plusieurs courants peuvent se superposer : courants continus et courants alternatifs mais aussi courants alternatifs entre eux. Superposer des courants revient à additionner leurs valeurs instantanées. Les courants qui résultent de ces superpositions seront toujours considérés comme des courants alternatifs. b Le signal sinusoïdal est la forme la plus régulière, sans à-coups, des signaux alternatifs. C’est cette forme de signal alternatif que nous retrouvons le plus souvent dans les applications radio mais aussi en mécanique (mouvement du balancier d’une horloge, d’une bielle entraînée par une roue, …). Pour représenter une fonction Sinus, le point M tourne à vitesse constante sur un cercle trigonométrique de centre O dont le rayon est 1 (le vecteur OM tourne dans le sens inverse des aiguilles d’une montre, appelé aussi sens antihoraire ou sens trigonométrique). La fonction Sinus représente la hauteur du point M en fonction du temps. Le temps pendant lequel le point M (ou le vecteur OM) fait un tour complet s'appelle période (ou cycle ). La période est composée de deux alternances (une positive et une négative). Le nombre de périodes par seconde est donné en hertz (Hz). La durée (t), en secondes, d'une période est l'inverse de la fréquence (f) en hertz, soit t(s) = 1 / f(Hz), ou t(ms) = 1 / f(kHz), ou encore t(µs) = 1 / f(MHz). Le radian (noté rad) est une mesure d’angle et est la distance parcourue par le point M sur le cercle trigonométrique. Exemples : 90° = &#960;/2 = 1,57 rad ; 180° = &#960; = 3,14 rad ; 360° = 2&#960; = 6,28 rad. Remarquez que si le point M tourne en sens inverse (dans le sens des aiguilles d’une montre), la forme de la fonction reste identique à la différence près qu’elle sera décalée de 180° comme si l’origine du point M se trouvait en &#960;. La pulsation (notée &#969;, lettre grecque oméga minuscule) est une autre manière de définir une fréquence à partir d’angles (en radians par secondes au lieu des périodes par secondes pour les Hz) puisqu’une",
+  "samples": [
+   {
+    "num": "21470",
+    "stem_fr": "FREQUENCE DU SIGNAL",
+    "options": [
+     "1 MHz",
+     "500 kHz",
+     "200 kHz",
+     "5 MHz"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "500 kHz",
+    "commentaire_fr": "5 alternances en 5 µsecondes (ou 5 périodes en 10µs) => 1 période en 2 µs \nF = 1/t = 1/2µs = 1/0,000002 = 500.000 = 500 kHz\n\nEn écriture naturelle : 1 / 2.10^-6 = 500.10^3 soit 500 kHz\n",
+    "stem_zh": "信号频率"
+   },
+   {
+    "num": "21247",
+    "stem_fr": "FREQUENCE DU SIGNAL",
+    "options": [
+     "1 MHz",
+     "4 MHz",
+     "500 kHz",
+     "83.333 Hz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "500 kHz",
+    "commentaire_fr": "3 cycles en 6 µsecondes => 1 cycle en 2 µsecondes => Fq = 1/t \n= 1/0,000 002 = 500 000 Hz = 500 kHz\n",
+    "stem_zh": "这个信号的频率是多少？"
+   },
+   {
+    "num": "20043",
+    "stem_fr": "PULSATION D'UNE FREQUENCE DE 1 KHZ",
+    "options": [
+     "628",
+     "6,28",
+     "0,001",
+     "6280"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "6280",
+    "commentaire_fr": "Pulsation = 2 x p x F = 2 x 3,14 x 1000 = 6280\n",
+    "stem_zh": "1 kHz 频率的角频率"
+   },
+   {
+    "num": "20670",
+    "stem_fr": "PERIODE D'UN SIGNAL DE 50 HZ ?",
+    "options": [
+     "2 ms",
+     "20 ms",
+     "200 ms",
+     "0,2 s"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "20 ms",
+    "commentaire_fr": "t = 1/ F = 1 / 50 = 0,02 = 20 ms\n",
+    "stem_zh": "50 Hz 信号的周期？"
+   },
+   {
+    "num": "20052",
+    "stem_fr": "PERIODE T SIGNAL 250 HZ",
+    "options": [
+     "40 ms ",
+     "4 ms",
+     "400 µs",
+     "0,04 seconde"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "4 ms",
+    "commentaire_fr": "t = 1/ F = 1 / 250 = 0,004 = 4 ms\n",
+    "stem_zh": "250 Hz 信号的周期 T"
+   },
+   {
+    "num": "20798",
+    "stem_fr": "PERIODE D'UN SIGNAL DE 1000 HZ",
+    "options": [
+     "0,01 s",
+     "10000 µs",
+     "1 ms",
+     "0,1 s"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1 ms",
+    "commentaire_fr": "t = 1/ F = 1 / 1000 = 0,001 s = 1 ms\n",
+    "stem_zh": "1000 Hz 信号的周期"
+   },
+   {
+    "num": "20050",
+    "stem_fr": "PERIODE D'UN SIGNAL DE 100 HZ ?",
+    "options": [
+     "1 ms",
+     "10 ms",
+     "100 ms",
+     "0,1 seconde"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "10 ms",
+    "commentaire_fr": "t = 1/ F = 1 / 100 = 0,01 = 10 ms\n",
+    "stem_zh": "100 Hz 信号的周期？"
+   },
+   {
+    "num": "20497",
+    "stem_fr": "PERIODE D'UNE FREQUENCE DE 25 MHZ ?",
+    "options": [
+     "400 ns",
+     "0,4 ms",
+     "40 ns",
+     "25 µs"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "40 ns",
+    "commentaire_fr": "t = 1/ F ou t(µs) = 1 / F(MHz) = 1 / 2,5 = 0,04 µs = 40 ns\n",
+    "stem_zh": "频率为 25 MHz 的周期是多少？"
+   },
+   {
+    "num": "20045",
+    "stem_fr": "QUELLE EST LA PULSATION D'UN SIGNAL DE 250 HZ ?",
+    "options": [
+     "785",
+     "0,004",
+     "500",
+     "1570"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1570",
+    "commentaire_fr": "Pulsation = 2 x p x F = 2 x 3,14 x 250 = 1570\n",
+    "stem_zh": "250 Hz 信号的角频率是多少？"
+   },
+   {
+    "num": "20044",
+    "stem_fr": "QUELLE EST LA PULSATION D'UN SIGNAL DE 1000 HZ ?",
+    "options": [
+     "6280",
+     "628",
+     "0,001",
+     "6,28"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "6280",
+    "commentaire_fr": "Pulsation = 2 x p x F = 2 x 3,14 x 1000 = 6280\n",
+    "stem_zh": "1000 Hz 信号的角频率是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K022",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "anchor": "T017a",
+  "seclab": "1.7",
+  "n_q": 33,
+  "cours_fr": "1.7) Groupements Série et Parallèle (ou Dérivation) : les résistances peuvent être groupées en série (les unes derrière les autres) ou en parallèle (le terme « dérivation » est aussi employé). En appliquant les lois d’Ohm et de Joule ainsi que la loi des nœuds et des mailles, on déduit, pour chacun des montages : - la résistance équivalente de l’ensemble (ou résistances totales notées R t ; R t se prononce « R indice t » ou plus couramment « R de t »), - la répartition de la tension totale (notée U t ) entre les différentes résistances (U R1 est la tension aux bornes de la résistance R1 ; U R1 se prononce « U indice R1 » ou plus couramment « U de R1 »), - la répartition de l’intensité totale parcourue dans le circuit (notée I t ) entre chacune des résistances (I R1 est l’intensité parcourue dans R1), - la répartition de la puissance dissipée totale (notée P t ) entre chacune des résistances du groupement (P R1 est la puissance dégagée par R1) ; - enfin, nous étudierons le cas où les résistances du groupement ont des valeurs identiques. Groupement Série Parallèle (ou Dérivation) Schéma Résistance équivalente R t = R1 + R2 + ... R t = R1 x R2 (Produit sur Somme) R1 + R2 (= les Pieds sur le Sol) ou R t = 1/(1/R1 + 1/R2 + ...) Tension Proportionnelle aux résistances U R1 = U t . (R1 / R t ) U t = U R1 + U R2 + ... Constante U t = U R1 = U R2 = ... Intensité Constante I t = I R1 = I R2 = ... Inversement proportionnelle aux résistances I R1 = I t . (R t / R1) I t = I R1 + I R2 + ... Puissance dissipée P t = U t . I t = P R1 + P R2 + … P R1 = U R1 . I t = P t . (R1 / (R t ) Proportionnelle aux résistances P t = U t . I t = P R1 + P R2 + … P R1 = U t . I R1 = P t . (R t / R1) Inversement proportionnelle aux résistances Groupements de n résistances de valeur identique (R) R t = R . n I R = It U R = U t / n P R = P t / n R t = R / n I R = I t / n U R = U t P R = P t / n b Dans un groupement série , la résistance équivalente du groupement de résistances est toujours supérieure à la valeur de la plus grande résistance du groupement. De plus, la tension aux bornes de la résistance la plus grande est la plus importante, de même que la puissance dissipée par cette même résistance (répartition de la tension et de la puissance de l’ensemble au prorata de la valeur des résistances ) tandis que l’intensité est constante. Quand le groupement en série est constitué de n résistances de valeur identique R, la résistance équivalente est : R t = R x n. Dans ce cas, les tensions aux bornes de chacune des résistances et leurs puissances dissipées sont identiques (U R = U t / n et ",
+  "samples": [
+   {
+    "num": "21478",
+    "stem_fr": "INTENSITE",
+    "options": [
+     "1 A",
+     "5 A",
+     "10 A",
+     "4 A"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "5 A",
+    "commentaire_fr": "I = It x Rt / R = 6A x ((10 x 50)/(10 + 50))/10 = (6 x 10 x 50)/(60 x 10) = 5 A\nSur une calculette : calcul de RT : 1 / (1 / 10  + 1 / 50 ) = 8,33\n\nOu, plus empirique : R2 = résistance de 50 ohoms et R1 = résistance de 10 ohms. \nIl passera 5 fois plus de courant dans R1 car R1 est cinq fois plus faible que R2. \nLa répartition du courant sera donc : 1/6 dans R2 et 5/6 dans R1. \nIR1 = 6 x 5/6 = 5\n",
+    "stem_zh": "电流强度"
+   },
+   {
+    "num": "21507",
+    "stem_fr": "INTENSITE",
+    "options": [
+     "2 A",
+     "1,5 A",
+     "3 A",
+     "1 A"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "3 A",
+    "commentaire_fr": "Soit R1 la résistance du bas et R2, celle du haut du schéma\nUR = R2 x IR2 = 100 x 1 = 100 V\nIR1 = UR / R1 = 100 / 50 = 2 A\nIT = IR1 + IR2 = 2 A + 1 A = 3 A\nOu, plus empirique : il passe dans R1 deux fois plus de courant que dans R2 car elle est deux fois plus faible, donc IR1 = 2A donc IT = 1+2 = 3 A.\n",
+    "stem_zh": "电流强度"
+   },
+   {
+    "num": "21248",
+    "stem_fr": "RESISTANCE ?",
+    "options": [
+     "20 Ω",
+     "30 Ω",
+     "40 Ω",
+     "50 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "30 Ω",
+    "commentaire_fr": "IR1 = 5 A – 3 A = 2 A\nUR1 = UR2 = 20 Ω x 3A = 60 V => R1 = UR1/IR1 = 60V/2A = 30 Ω\n",
+    "stem_zh": "电阻值？"
+   },
+   {
+    "num": "21508",
+    "stem_fr": "TENSION ?",
+    "options": [
+     "10 V",
+     "15 V",
+     "7,5 V",
+     "22,5 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "22,5 V",
+    "commentaire_fr": "I = UR1/R1 = 15/100 = 0,15 A\nUT = RT x I = (100+50) x 0,15 = 150 x 0,15 = 22,5 V\n",
+    "stem_zh": "电压 U 是多少？"
+   },
+   {
+    "num": "21483",
+    "stem_fr": "INTENSITE",
+    "options": [
+     "2 mA",
+     "5 mA",
+     "200 µA",
+     "0,02 A"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "200 µA",
+    "commentaire_fr": "I = U/R = 15/(70000 + 5000) = 15/75000 = 0,0002 A = 200 µA\n",
+    "stem_zh": "电流 I 是多少？"
+   },
+   {
+    "num": "21447",
+    "stem_fr": "VALEUR DE R",
+    "options": [
+     "30 kΩ",
+     "20 kΩ",
+     "10 kΩ",
+     "5 kΩ"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "20 kΩ",
+    "commentaire_fr": "I = 5 V / 10 kΩ = 0,0005 A\nR = U/I = (15 - 5)/0,0005 = 10/0,0005 = 20.000 = 20 kΩ\nOu, plus empirique : la tension aux bornes de R est le double de celle aux bornes de la résistance de 10 kΩ (15 V-5 V = 10 V). La valeur de R sera donc le double de 10 kΩ, soit 20 kΩ.\n",
+    "stem_zh": "R 的阻值"
+   },
+   {
+    "num": "21424",
+    "stem_fr": "VALEUR DE R ?",
+    "options": [
+     "500 Ω",
+     "2 kΩ",
+     "3 kΩ",
+     "666 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "500 Ω",
+    "commentaire_fr": "Soit R1, résistance du haut et R2 résistance du bas (à calculer)\nTension aux bornes de R1 = Tension aux bornes de R2 = R x I1 = 1000 x 1 = 1000 V\nR2 = U / I2 = 1000/2 = 500 Ω\nou, plus empirique : il passe deux fois plus de courant dans R2 que dans R1, R2 aura donc une valeur deux fois plus faible : 1000  Ω / 2 = 500 Ω\n",
+    "stem_zh": "R 的阻值是多少？"
+   },
+   {
+    "num": "20027",
+    "stem_fr": "VALEUR DE R2",
+    "options": [
+     "5,6 kΩ",
+     "150 kΩ",
+     "56 kΩ",
+     "15 kΩ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "56 kΩ",
+    "commentaire_fr": "UR1 = UT – UR2 = 103 – 56 = 47 V ; IR1 = UR1 / R1 = 47 / 47000 = 0,001 = 1 mA ; R2 = UR2 / I = 56 / 0,001 = 56000 Ω = 56 kΩ\n",
+    "stem_zh": "R2 的阻值是多少？"
+   },
+   {
+    "num": "20313",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "10 Ω",
+     "45 Ω",
+     "12 Ω",
+     "25 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "10 Ω",
+    "commentaire_fr": "RT = produit / somme = (30 x 15 ) / (30 + 15) = 450 / 45 = 10\n",
+    "stem_zh": "等效电阻"
+   },
+   {
+    "num": "23697",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "0,25 Ω",
+     "4 Ω",
+     "25 Ω",
+     "100 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "4 Ω",
+    "commentaire_fr": "RT = produit / somme = (20 x 5 ) / (20 + 5) = 100 / 25 = 4. Sans calcul, on sait que la résistance équivalente est plus petite que la plus petite des résistances. Restent les réponses « 4 » et « 0,25 ». La réponse « 0,25 » est vraiment trop petite. Reste la réponse « 4 »\n",
+    "stem_zh": "等效电阻是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K023",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "anchor": "R13b",
+  "seclab": "R-1.3",
+  "n_q": 30,
+  "cours_fr": "R-1.3) Conditions techniques . Avant la décision 12-1241, les matériels suivants étaient obligatoires : indicateur de puissance, indicateur du rapport d’onde stationnaire, charge non rayonnante, filtre d’alimentation. La puissance des émetteurs BLU devait se mesurer avec un générateur 2 tons. La précision du repérage de la fréquence émise était définie (+/-1 kHz jusqu’à 30 MHz ou +/-",
+  "samples": [
+   {
+    "num": "34773",
+    "stem_fr": "ANDE PASSANTE MAX SUR F < 28 MHZ ?",
+    "options": [
+     "6 kHz",
+     "12 kHz",
+     "20 kHz",
+     "pas de limite"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "6 kHz",
+    "commentaire_fr": "Bande passante maximum :\nen dessous de 28 MHz = 6 kHz\nde 28 à 144 MHz = 12kHz\nde 144 à 225 MHz = 20 kHz\nau delà de 225 MHz = pas de limite\n",
+    "stem_zh": "28 MHz 以下的最大带宽是多少？（题面原文开头被截断）"
+   },
+   {
+    "num": "32560",
+    "stem_fr": "* QUELLE DOIT ETRE L'EXCURSION MAXIMUM SUR 433.990 MHZ ?",
+    "options": [
+     "6 kHz",
+     "12 kHz",
+     "20 kHz",
+     "Pas de limite"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Pas de limite",
+    "commentaire_fr": "Au delà de 225 MHz, la bande passante n'est plus limitée depuis la décision 12-1241\n",
+    "stem_zh": "433.990 MHz 上的最大频偏应为多少？"
+   },
+   {
+    "num": "30039",
+    "stem_fr": "* EXCURSION DE FREQUENCE MAXIMALE A NE PAS DEPASSER DANS LES BANDES VHF ?",
+    "options": [
+     "20 kHz",
+     "6 kHz",
+     "15 kHz",
+     "3 kHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "20 kHz",
+    "commentaire_fr": "Depuis la décision 12-1241, la largeur de la bande passante ne peut dépasser :\n6 kHz jusqu'à 28 MHz\n12 kHz de 28 à 144 MHz\n20 kHz de 144 à 225 MHz\npas de milite au delà de 225 MHz\nLes VHF couvrent toutes les fréquences de 30 à 300 MHz. Donc la largeur de bande sur 50 MHz est 12 kHz et 20 kHz sur 144 MHz. Sur 225 MHz (bande ouverte au trafic en région 2), la largeur de bande n'a pas de limite (cette réponse n'est pas proposée ici).\n",
+    "stem_zh": "* 在 VHF 频段中不得超过的最大频率偏移是多少？"
+   },
+   {
+    "num": "30027",
+    "stem_fr": "* LARGEUR DE BANDE A NE PAS DEPASSER EN CLASSE F3E SUR LA FREQUENCE 28.350 MHZ ?",
+    "options": [
+     "12 kHz",
+     "pas de limite",
+     "6 kHz",
+     "20 kHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "12 kHz",
+    "commentaire_fr": "Depuis la décision 12-1241, la largeur de la bande passante ne peut dépasser :\n6 kHz jusqu'à 28 MHz\n12 kHz de 28 à 144 MHz\n20 kHz de 144 à 225 MHz\npas de limite au delà de 225 MHz\n",
+    "stem_zh": "在 28.350 MHz 频率上使用 F3E 类别时，不得超过的带宽是多少？"
+   },
+   {
+    "num": "34812",
+    "stem_fr": "VALEUR EXCURSION EN FREQUENCE MAXI POUR UNE FREQUENCE INFERIEURE A 29,7 MHZ ?",
+    "options": [
+     "+/- 3 kHz",
+     "+/- 6 kHz ",
+     "+/- 5 kHz",
+     "+/- 10 kHz"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "+/- 6 kHz ",
+    "commentaire_fr": "La largeur de bande occupée ne doit pas dépasser 12 kHz sur la bande 28-29,7 MHz (soit + ou - 6 kHz)\n",
+    "stem_zh": "29.7 MHz 以下频率的最大频偏值是多少？"
+   },
+   {
+    "num": "34872",
+    "stem_fr": "QUELLE EST LA PUISSANCE DE DISSIPATION MAXIMUM AUTORISEE POUR UNE EMISSION DE TELEVISION SUR 436 MHZ ?",
+    "options": [
+     "120 W",
+     "250 W",
+     "500 W",
+     "0 W"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "120 W",
+    "commentaire_fr": "Au-dessus de 225 MHz, la bande passante n'est plus limitée. Donc la télévision est autorisée avec une puissance maximum de 120 W, comme toute autre classe d'émission (sous réserve, bien entendu, que le spectre émis reste dans la bande autorisée).\n\n",
+    "stem_zh": "在 436 MHz 上进行电视发射时，允许的最大耗散功率是多少？"
+   },
+   {
+    "num": "30160",
+    "stem_fr": "* BANDE DE FREQUENCE OCCUPEE.\nL'EXCURSION DE FREQUENCE SUR LA FREQUENCE 18,150 MHZ DOIT ETRE DE ?",
+    "options": [
+     "6 kHz",
+     "20 kHz",
+     "12 kHz",
+     "Pas de limite"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "6 kHz",
+    "commentaire_fr": "Depuis la décision 12-1241, la bande passante ne peut dépasser :\n6 kHz jusqu'à 28 MHz\n12 kHz de 28 à 144 MHz\n20 kHz de 144 à 225 MHz\npas de limite au dessus de 225 MHz\n",
+    "stem_zh": "* 占用带宽。在 18.150 MHz 频率上，频率偏移应为多少？"
+   },
+   {
+    "num": "34728",
+    "stem_fr": "EST-IL POSSIBLE D'EMETTRE EN A3F SUR 145 MHZ ?",
+    "options": [
+     "Oui si l’opérateur n’est pas un F0",
+     "Oui mais avec une puissance en sortie d’émetteur limitée à 10 W",
+     "Non",
+     "Oui dans tous les cas"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Non",
+    "commentaire_fr": "La classe A3F (télévision, partie vidéo du signal) n’est pas autorisée sur les bandes inférieures à 430 MHz à cause de la bande passante limitée à 20 kHz en dessous de 225 MHz (pour rappel, cette bande n'est autorisée qu'en région 2 de 220 à 225 MHz). En effet, la télévision nécessite une bande passante de l'ordre de quelques MHz\n",
+    "stem_zh": "能在 145 MHz 上以 A3F 发射吗？"
+   },
+   {
+    "num": "34689",
+    "stem_fr": "UN REPERE ORTHONORME, UNE FREQUENCE CENTRALE, UNE FREQUENCE A GAUCHE, UNE FREQUENCE A DROITE, QUELLE EST LA BANDE PASSANTE ? \nLES SCHEMAS SONT DES REPRESENTATIONS DE U EN FONCTION DE LA FREQUENCE",
+    "options": [
+     "720",
+     "730",
+     "740",
+     "20"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "20",
+    "commentaire_fr": "La bande passante est la différence entre la fréquence la plus élevée et la fréquence la plus basse du spectre occupé par une émission. 740 - 720 = 20\n",
+    "stem_zh": "给出正交坐标、中心频率、左侧频率、右侧频率，带宽是多少？（图中曲线是 U 随频率的变化）"
+   },
+   {
+    "num": "39921",
+    "stem_fr": "* LARGEUR DE BANDE OCCUPEE MAXIMUM SUR 3,360 MHZ ?",
+    "options": [
+     "6 kHz",
+     "4 kHz",
+     "12 kHz",
+     "20 kHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "6 kHz",
+    "commentaire_fr": "",
+    "stem_zh": "3.360 MHz 上最大占用带宽是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K024",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "anchor": "T112a",
+  "seclab": "11.2",
+  "n_q": 28,
+  "cours_fr": "11.2g ) f Moins gourmands en temps de calcul, les filtres numériques sont réalisés à partir d’un micro-contrôleur entouré d’un CAN en entrée et d’un CNA en sortie. On trouve des FIR (Réponse Impulsionnelle Finie) et IIR (Réponse Impulsionnelle Infinie). Un filtre FIR imite la réponse en fonction du temps d’un filtre ( RC, LC, … ) à partir de la réponse du filtre à une impulsion isolée en entrée (avec des piles de mémoires servant de retardateur). La réponse du filtre FIR est finie car l’influence du signal d’entrée s’arrête lorsque tous les retardateurs ont été activés. g Un filtre à ondes de surface (SAW, Surface Acoustic Waves) est un filtre mécanique imitant un filtre pour une fréquence définie (quelques dizaines de MHz) . Le signal d’entrée est converti en ondes mécaniques par un cristal piézoélectrique (voir §",
+  "samples": [
+   {
+    "num": "20207",
+    "stem_fr": "ETAGE REPERE PAR ?",
+    "options": [
+     "ampli FI ",
+     " BFO",
+     "détecteur de produit",
+     "PLL"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "ampli FI ",
+    "commentaire_fr": "il s’agit de la deuxième FI dans un récepteur à double changement de fréquences\n",
+    "stem_zh": "标出的这一级是？"
+   },
+   {
+    "num": "20205",
+    "stem_fr": "ETAGE REPERE PAR ?",
+    "options": [
+     "premier ampli",
+     "discriminateur",
+     "oscillateur",
+     "ampli RF"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "ampli RF",
+    "commentaire_fr": "La réponse « premier ampli » n’est pas suffisamment précise; en effet ampli RF signifie amplificateur avec filtre RF. Attention à la place des étages du synoptique qui peut quelquefois dérouter.\n",
+    "stem_zh": "标出的这一级是？"
+   },
+   {
+    "num": "20361",
+    "stem_fr": "COMMENT S'APPELLE L'ETAGE MARQUE  ?",
+    "options": [
+     "Ampli BF",
+     "Silencieux",
+     "Détecteur",
+     "Filtre"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Filtre",
+    "commentaire_fr": "Le synoptique est assez déroutant car, bien qu’il y ait un mélangeur, il n’y a ni oscillateur local ni d’étage de fréquence intermédiaire. C'est donc un synoptique partiel et seule la réponse « filtre » peut convenir à  cette place.\n",
+    "stem_zh": "标出的这一级叫什么？"
+   },
+   {
+    "num": "20204",
+    "stem_fr": "ETAGE REPERE PAR ?",
+    "options": [
+     "amplificateur AF ",
+     "limiteur",
+     "désaccentuateur",
+     "filtre passe-bas"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "amplificateur AF ",
+    "commentaire_fr": "les étages limiteur et désaccentuateur sont présents dans les récepteurs FM. Le filtre passe-bas est obligatoire à la sortie d’un émetteur. Attention à la place des étages du synoptique qui peut quelquefois dérouter.\n",
+    "stem_zh": "标出的这一级是？"
+   },
+   {
+    "num": "20325",
+    "stem_fr": "QUEL EST LE NOM DE L'ELEMENT MARQUE \"?\"",
+    "options": [
+     "Amplificateur HF",
+     "Amplificateur FI",
+     "Limiteur",
+     "CAG"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Amplificateur FI",
+    "commentaire_fr": "La réponse \"amplificateur HF\", même si elle est juste, n'est pas suffisamment précise\n",
+    "stem_zh": "标有「?」的元件名称是什么？"
+   },
+   {
+    "num": "20793",
+    "stem_fr": "UNE DISTORSION FORTE DU SIGNAL PEUT ETRE DUE :",
+    "options": [
+     "au CAG",
+     "à l’amplificateur RF ",
+     "à l’amplificateur AF",
+     "à l’amplificateur FI"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "à l’amplificateur RF ",
+    "commentaire_fr": "Dès qu'il y a amplification de signaux forts, il y a un risque de distorsion due à la non-linéarité de l'amplification. La CAG n'est pas à proprement parler un système d'amplification mais un système de régulation. L'ampli FI, s'il est bien construit, ne devrait pas générer de distorsion, surtout en présence d'un étage CAG qui en limitera le gain en présence de forts signaux. Quant à l'ampli AF, les distorsions amenées par cet étage devraient être limitées. Il ne reste que l'étage RF sur lequel est appliqué le signal issu de l'antenne et qui peut saturer (et donc générer de fortes distorsions) si le signal d'entrée est trop fort.\n",
+    "stem_zh": "信号的严重失真是由什么引起的："
+   },
+   {
+    "num": "21203",
+    "stem_fr": "QUEL EST LE NOM DE L'ETAGE MARQUE \"?\"",
+    "options": [
+     "Fréquence Image         ",
+     "Fréquence Intermédiaire",
+     "Filtre à quartz             ",
+     "Démodulateur"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Fréquence Intermédiaire",
+    "commentaire_fr": "Synoptique d’un récepteur superhétérodyne (avec FI = Fréquence Intermédiaire)\n",
+    "stem_zh": "标有「?」的这一级叫什么名字？"
+   },
+   {
+    "num": "20548",
+    "stem_fr": "NOM DE L'ETAGE REPERE PAR ? , SYNOPTIQUE AVEC CAG, FI, DETECTION, ...",
+    "options": [
+     "oscillateur",
+     "discriminateur",
+     "modulateur",
+     "premier amplificateur"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "oscillateur",
+    "commentaire_fr": "il s’agit d’un récepteur superhétérodyne pour recevoir de l’AM (étage de démodulation nommé « Dét » pour « Détection »).\n",
+    "stem_zh": "标有 ? 的这一级的名称，方框图中含 CAG、FI、检波……"
+   },
+   {
+    "num": "21205",
+    "stem_fr": "QUELLE EST LA FONCTION DE L'ETAGE MARQUE \"?\"",
+    "options": [
+     "Filtrer le signal d'entrée    ",
+     "Mélanger OL et HF",
+     "amplifier la puissance      ",
+     "Démoduler le signal HF"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Filtrer le signal d'entrée    ",
+    "commentaire_fr": "Synoptique d’un récepteur superhétérodyne : le premier étage est un filtre de bande.\n",
+    "stem_zh": "标有「?」的这一级有什么功能？"
+   },
+   {
+    "num": "20449",
+    "stem_fr": "SCHEMA D'UN RECEPTEUR AVEC DOUBLE CHANGEMENT DE FREQUENCE \nQUEL EST LE NOM DE L'ETAGE MARQUE \" ? \"",
+    "options": [
+     "Ampli AF",
+     "filtre passe haut",
+     "détecteur de produit",
+     "circulateur"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Ampli AF",
+    "commentaire_fr": "Plus précisément \"amplificateur audio fréquences\"\n",
+    "stem_zh": "带双变频的接收机电路图\n标有「?」的这一级叫什么？"
+   }
+  ]
+ },
+ {
+  "id": "K025",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 27,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "30948",
+    "stem_fr": "TENSION DE PROTECTION ELECTRIQUE ?",
+    "options": [
+     "110 V",
+     "10 V",
+     "50 V",
+     "220 V"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "50 V",
+    "commentaire_fr": "La tension de sécurité en milieu sec est de 50 volts (et c’est également la tension maximum) mais la tension de sécurité en milieu humide ou à l’extérieur (cas des rotors d’antennes par exemple) est de 25 volts. En milieu immergé, la tension de sécurité est ramenée à 12 volts\n",
+    "stem_zh": "电气防护电压是多少？"
+   },
+   {
+    "num": "30153",
+    "stem_fr": "QUELLE EST LA TENSION DE CONTACT MAXIMALE AUTORISE ?",
+    "options": [
+     "30 V",
+     "50 V",
+     "20 V",
+     "100 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "50 V",
+    "commentaire_fr": "Les normes en vigueur considèrent qu’une tension maximum de 50 V n’est pas dangereuse pour le corps humain s’il est en milieu sec. En milieu humide ou à l’extérieur, cette tension est ramenée à 25 V.\n",
+    "stem_zh": "允许的最大接触电压是多少？"
+   },
+   {
+    "num": "34971",
+    "stem_fr": "UNITE DU NIVEAU DE RAYONNEMENT NON ESSENTIEL ?",
+    "options": [
+     "dBc",
+     "pas d'unité",
+     "dBW",
+     "volt/mètre"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "dBc",
+    "commentaire_fr": "dBc signifie « décibels par rapport à l'émission fondamentale » ou à la porteuse (carrier en anglais, d'où le terme « dBc »). \n",
+    "stem_zh": "非必要辐射电平的单位是？"
+   },
+   {
+    "num": "34676",
+    "stem_fr": "AMPLIFICATEUR DE 20 W AVEC UNE ANTENNE DE 6 DB, QUELLE EST LA PAR ?\n",
+    "options": [
+     "40 W",
+     "120 W",
+     "80 W",
+     "26 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "80 W",
+    "commentaire_fr": "6 dB correspond à un rapport de puissance de 4 ; 20 x 4 = 80 W\n",
+    "stem_zh": "20 W 的放大器接一副 6 dB 的天线，PAR 是多少？"
+   },
+   {
+    "num": "30950",
+    "stem_fr": "APPAREIL POUR DETECTER LES HARMONIQUES ?",
+    "options": [
+     "Analyseur de spectre ",
+     "Voltmètre ",
+     "Wattmètre",
+     "Rosmètre"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Analyseur de spectre ",
+    "commentaire_fr": "Le verbe \"détecter\" n'est pas approprié. On peut mesurer la valeur d'une harmonique ou le nombre d'harmonique. On devrait plutôt demander \"APPAREIL POUR QUANTIFIER LES HARMONIQUES ?\n",
+    "stem_zh": "用于检测谐波的仪器？"
+   },
+   {
+    "num": "34930",
+    "stem_fr": "QUELLE EST LA FREQUENCE CORRESPONDANT A LA LONGUEUR D'ONDE 60 METRES ?",
+    "options": [
+     "50 MHz",
+     "200 kHz",
+     "20 MHz",
+     "5 MHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "5 MHz",
+    "commentaire_fr": "F(MHz) = 300 / L(m) = 300 / 60 = 5 MHz\n",
+    "stem_zh": "波长 60 米对应哪个频率？"
+   },
+   {
+    "num": "30205",
+    "stem_fr": "QUELLE EST LA COULEUR D'UN CONDUCTEUR PROTECTION D'UN CABLE SECTEUR A 3 CONDUCTEURS ?",
+    "options": [
+     "Marron",
+     "Rouge",
+     "Jaune-vert",
+     "Bleu"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Jaune-vert",
+    "commentaire_fr": "Dans un câble secteur à 3 conducteurs, le fil de couleur Jaune et Vert doit être relié à la terre de l'installation électrique\n",
+    "stem_zh": "三芯电源线中保护导线的颜色是什么？"
+   },
+   {
+    "num": "34696",
+    "stem_fr": "CALCULER LA PIRE : EMETTEUR = 100 W ; PERTE DANS LE COAXIAL = -7DB ; GAIN DE L'ANTENNE = 4DB ISO",
+    "options": [
+     "33 W",
+     "200 W",
+     "9 W",
+     "50 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "50 W",
+    "commentaire_fr": "gain de l'ensemble = -7dB + 4dB = -3 dB \nsoit une \"amplification\" de 1/2 (ou puissance divisée par 2)\ndonc PIRE = 100 W x 1/2 = 50 W\n",
+    "stem_zh": "计算 PIRE：发射机 = 100 W；同轴电缆损耗 = −7 dB；天线增益 = 4 dB（相对各向同性）"
+   },
+   {
+    "num": "30947",
+    "stem_fr": "QUEL EST LE PRODUIT D'UNE TRANSMODULATION ?",
+    "options": [
+     "étage d'amplification RF saturé",
+     "Mélangeur signal",
+     "Micro mal réglé",
+     "surmodulation"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "étage d'amplification RF saturé",
+    "commentaire_fr": "La transmodulation est un problème de réception qui survient lorsque l'étage d'amplification RF est saturé par une émission de très forte puissance\n",
+    "stem_zh": "交调（transmodulation）是由什么造成的？"
+   },
+   {
+    "num": "33750",
+    "stem_fr": "L'INTERMODULATION EST CREEE PAR",
+    "options": [
+     "le gain du micro",
+     "un mélange de fréquences au niveau d'un étage non linéaire",
+     "une trop forte puissance",
+     "rien"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "un mélange de fréquences au niveau d'un étage non linéaire",
+    "commentaire_fr": "L'intermodulation est un mélange de fréquences indésirable généré par un étage ou un composant non linéaire\n",
+    "stem_zh": "互调是由什么产生的？"
+   }
+  ]
+ },
+ {
+  "id": "K026",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "anchor": "T115",
+  "seclab": "11.5",
+  "n_q": 26,
+  "cours_fr": "11.5) Émetteur : Un synoptique d'émetteur se lit du microphone vers l'antenne . De même que pour les récepteurs, il peut y avoir un ou plusieurs changements de fréquences. Le modulateur comprend nécessairement un oscillateur HF et modifie le signal HF au rythme de la BF ( voir le chapitre suivant pour les différents types de modulations ). Un émetteur est obligatoirement équipé d'un filtre anti-harmonique passe-bas pour éviter les rayonnements non essentiels. Lorsque l’émetteur est couplé à un récepteur ( formant alors un transmetteur ou transceiver en anglais ), certains éléments sont en commun : l’oscillateur local (ainsi, la fréquence de réception varie avec celle de l’émission ; pour cela, la fréquence en sortie du modulateur sera égale à la FI du récepteur), la prise antenne qui permettra d’utiliser le même aérien. Toutes ces possibilités nécessitent un système de commutation (commutateurs, relais électromécaniques ou diodes de commutation) permettant de passer facilement de l’émission à la réception.",
+  "samples": [
+   {
+    "num": "20215",
+    "stem_fr": "ETAGE REPERE PAR ?",
+    "options": [
+     "VFO",
+     "CAG",
+     "Préaccentuateur",
+     "ampli RF "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "ampli RF ",
+    "commentaire_fr": "il manque aussi le filtre anti-harmonique\n",
+    "stem_zh": "标出的这一级是？"
+   },
+   {
+    "num": "20694",
+    "stem_fr": "A QUOI CORRESPOND LE SYMBOLE \"?\"",
+    "options": [
+     "détecteur",
+     "préaccentuateur",
+     "FI",
+     "limitateur"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "FI",
+    "commentaire_fr": "Le détecteur et le limitateur sont des étages de réception. Or, il s'agit ici d'un émetteur AM (présence d'un micro et d'un étage modulateur d'amplitude noté Mod Amp). Dans un émetteur FM, le préaccentuateur aurait été placé entre l'ampli AF et le modulateur FM. \nPar élimination des réponses, il ne reste que le choix \"FI\" (pour Fréquence Intermédiaire).\n",
+    "stem_zh": "符号「?」对应什么？"
+   },
+   {
+    "num": "20362",
+    "stem_fr": "COMMENT S'APPELLE L'ETAGE MARQUE  ?",
+    "options": [
+     "Ampli RF",
+     "Silencieux",
+     "Détecteur",
+     "Filtre réjecteur"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Ampli RF",
+    "commentaire_fr": "Les réponses \"Ampli RF\" et \"Filtre réjecteur\" sont bonnes toutes les deux. Mais, puisqu’il faut choisir, je ne garde que la réponse \"Ampli RF\" qui m'est indispensable  bien que la réglementation m’impose de filtrer mes émissions.\n",
+    "stem_zh": "标出的这一级叫什么？"
+   },
+   {
+    "num": "20473",
+    "stem_fr": "DERNIER ETAGE D'UN EMETTEUR AVANT L'ANTENNE ?",
+    "options": [
+     "Amplificateur final",
+     "Filtre de bande",
+     "Régulateur",
+     "Multiplicateur"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Filtre de bande",
+    "commentaire_fr": "On peut aussi trouver un filtre passe-bas\n",
+    "stem_zh": "发射机在天线之前的最后一级是什么？"
+   },
+   {
+    "num": "21209",
+    "stem_fr": "QUEL EST LE NOM DE L'ETAGE MARQUE \"?\"",
+    "options": [
+     "modulateur",
+     "mélangeur ",
+     "filtre anti-harmonique      ",
+     "Ampli de puissance"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "mélangeur ",
+    "commentaire_fr": "Les termes « modulateur », « ampli de puissance » et « filtre anti-harmonique » sont déjà représentés sur le synoptique par les mots ou abréviations « Mod », « PA » et « Filtre en pi »\n",
+    "stem_zh": "标「?」的这一级叫什么？"
+   },
+   {
+    "num": "20216",
+    "stem_fr": "ETAGE REPERE PAR ?",
+    "options": [
+     "Amplificateur audio fréquences ",
+     "amplificateur radiofréquences",
+     "détection",
+     "filtre passe bas "
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Amplificateur audio fréquences ",
+    "commentaire_fr": "le filtre passe-bas qui est obligatoire après l’ampli HF est manquent dans le schéma\n",
+    "stem_zh": "图中标记的级是什么？"
+   },
+   {
+    "num": "20516",
+    "stem_fr": "ROLE DE L'ETAGE REPERE PAR ?\nMODULATEUR AF - OSCILLATEUR - ?",
+    "options": [
+     "Amplificateur RF",
+     "Détecteur",
+     "Compresseur",
+     "Silencieux"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Amplificateur RF",
+    "commentaire_fr": "Il s’agit d’une partie du synoptique d’un émetteur (le terme « modulateur » ne peut s’appliquer qu’à un émetteur). Le schéma n'est pas complet : il manque, après l’étage RF, le filtre anti-harmonique et l’antenne\n",
+    "stem_zh": "标有 ? 的这一级的作用\nAF 调制器 - 振荡器 - ?"
+   },
+   {
+    "num": "20889",
+    "stem_fr": "QUEL EST L'ETAGE MANQUANT ?\nMICRO -- ??? - AMPLI RF --- ANTENNE",
+    "options": [
+     "Préaccentuateur",
+     "CAG",
+     "Oscillateur",
+     "Filtre passe bas"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Oscillateur",
+    "commentaire_fr": "La réponse \"Modulateur\" (non proposée ici) aurait pu aussi convenir.\n",
+    "stem_zh": "缺少的是哪一级？\n话筒 -- ??? - RF 放大器 --- 天线"
+   },
+   {
+    "num": "20711",
+    "stem_fr": "QUEL EST L'ETAGE MANQUANT ?\nMICRO -- ??? - MODULATEUR EQUILIBRE---  AMPLI RF --- ANTENNE",
+    "options": [
+     "ampli BF ",
+     "accentuateur",
+     "détection",
+     "filtre passe bas "
+    ],
+    "ans_idx": 0,
+    "ans_fr": "ampli BF ",
+    "commentaire_fr": "L'accentuateur (plus précisément, préaccentuateur) est utilisé en FM (ou en PM). Or, il s'agit ici d'un émetteur BLU (présence d'un modulateur équlibré). Donc cet étage ne peut pas correspondre au schéma.\nLa détection est l'étage de démodulation d'un réceteur AM (donc pas adapté à l'émission)\nLe filtre passe bas se situe entre l'ampli RF et l'antenne dans un émetteur. Il est manquant dans ce schéma  mais n'aurait pas été à la bonne place.\n",
+    "stem_zh": "缺少的是哪一级？\n话筒 -- ??? - 平衡调制器 --- RF 放大器 --- 天线"
+   },
+   {
+    "num": "20560",
+    "stem_fr": "COMMENT S'APPELLE L'ETAGE MARQUE  \"?\"  \nMODULATEUR - AMPLI HF - ?",
+    "options": [
+     "Filtre passe bande",
+     "Filtre passe bas",
+     "Fréquence Intermédiaire",
+     "Filtre bouchon"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Filtre passe bas",
+    "commentaire_fr": "Il s’agit d’une partie du synoptique d’un émetteur, la réponse \"filtre passe bande\" n'est pas suffisamment précise car c'est un filtre anti-harmonique (passe-bas) qui est nécessaire après l’amplificateur HF d’un émetteur.\n",
+    "stem_zh": "标有「?」的这一级叫什么？\n调制器 - HF 放大器 - ?"
+   }
+  ]
+ },
+ {
+  "id": "K027",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 26,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "34811",
+    "stem_fr": "RAPPORT D'IMPEDANCE ENTRE UN TROMBONE ET UN DIPOLE ?",
+    "options": [
+     "x 4",
+     "1",
+     "1/4",
+     "x 1,5"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "x 4",
+    "commentaire_fr": "Z trombone = 300 ohms, \nZ dipôle = 73 ohms ; \nrapport = 300/73 = 4 (arrondi)\n",
+    "stem_zh": "「trombone」天线（折合振子）与偶极天线的阻抗之比是多少？"
+   },
+   {
+    "num": "30510",
+    "stem_fr": "QUELLE EST LA PUISSANCE DE SORTIE - EMETTEUR 20W - GAIN 20 DB ?",
+    "options": [
+     "40 W",
+     "100 W",
+     "400 W",
+     "2000 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "2000 W",
+    "commentaire_fr": "Pour une antenne de 20 dB, la puissance est multipliée par 100.\n20 W x 100 = 2000 W\n",
+    "stem_zh": "输出功率是多少？发射机 20 W，增益 20 dB"
+   },
+   {
+    "num": "34982",
+    "stem_fr": "QUELLE EST LA FREQUENCE CORRESPONDANT A LA LONGUEUR D'ONDE DE 3 CM ?",
+    "options": [
+     "100 GHz",
+     "100 MHz",
+     "10 kHz",
+     "10 GHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "10 GHz",
+    "commentaire_fr": "3 cm = 0,03 mètre\nF(MHz) = 300 / L(m) = 300 / 0,03 = 10 000 MHz = 10 GHz\n",
+    "stem_zh": "波长为 3 厘米对应的频率是多少？"
+   },
+   {
+    "num": "30293",
+    "stem_fr": "* CALCULEZ LA LONGUEUR D'ONDE ?\nFREQUENCE DU SIGNAL : 24,937 MHZ",
+    "options": [
+     "15 mètres",
+     "12 mètres",
+     "10 mètres",
+     "6 mètres"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "12 mètres",
+    "commentaire_fr": "Pour calculer la longueur d'onde, on divise 300 par la fréquence\nIci 300/24,9 = 12,04 m soit 12 mètres arrondi.\n",
+    "stem_zh": "计算波长，信号频率 24.937 MHz"
+   },
+   {
+    "num": "30193",
+    "stem_fr": "CALCULER LA LONGUEUR D'ONDE\nFREQUENCE DU SIGNAL : 14,200 MHZ",
+    "options": [
+     "14,2 mètres",
+     "18,3 mètres",
+     "21,1 mètres",
+     "30,9 mètres"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "21,1 mètres",
+    "commentaire_fr": "Longueur d'onde (en mètres) = 300 / Fréquence (en MHz)\nL = 300 / 14,2 = 21,1 mètres.\n",
+    "stem_zh": "计算波长，信号频率 14.200 MHz"
+   },
+   {
+    "num": "34992",
+    "stem_fr": "CALCULER LE RENDEMENT DE CET AMPLIFICATEUR : \nPUISSANCE CONSOMMEE = 524 W\nPUISSANCE EMISE = 346 W",
+    "options": [
+     "8%",
+     "15%",
+     "66%",
+     "120%"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "66%",
+    "commentaire_fr": "Rendement = (Ps / Pe) x 100 = (346 / 524) x 100 = 66,03 arrondi à 66%\n",
+    "stem_zh": "计算该放大器的效率： 消耗功率 = 524 W | 发射功率 = 346 W"
+   },
+   {
+    "num": "30120",
+    "stem_fr": "QUELLE EST LA LONGUEUR D'ONDE D'UN SIGNAL EMIS SUR LA FREQUENCE 435,500 MHZ ?",
+    "options": [
+     "6 m",
+     "2 m",
+     "70 centimètres",
+     "23 centimètres"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "70 centimètres",
+    "commentaire_fr": "Formule = 300 / par la frequence.\n\n300\n-----  =  0,68 m soit 70 centimètres (arrondi)\n435,5\n\ncalcul difficilement réalisable sans calculette mais on sait que le \"432 MHz\" est l'autre nom de la bande des 70 cm\n",
+    "stem_zh": "在 435.500 MHz 频率上发射的信号，其波长是多少？"
+   },
+   {
+    "num": "30803",
+    "stem_fr": "QUELLE EST L'IMPEDANCE DU DOUBLET DEMI-ONDE REPLIE PAR RAPPORT A UN DOUBLET CLASSIQUE ?",
+    "options": [
+     "Le quadruple",
+     "Le double",
+     "La même",
+     "La moitié"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Le quadruple",
+    "commentaire_fr": "L’impédance du doublet demi-onde replié est de 300 ohms et le doublet demi-onde « classique », c’est-à-dire non replié est de 73 ohms, soit un rapport de 4\n",
+    "stem_zh": "折合半波偶极天线的阻抗是普通偶极的多少倍？"
+   },
+   {
+    "num": "30258",
+    "stem_fr": "QUELLE EST L'IMPEDANCE CARACTERISTIQUE D'UN CABLE DE LONGUEUR LAMBDA/4 POUR ADAPTER 300 ET 75 OHMS ?",
+    "options": [
+     "4 ohms",
+     "100 ohms",
+     "150 ohms",
+     "187 ohms"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "150 ohms",
+    "commentaire_fr": "Zcable = racine (Zentrée x Zsortie) = racine (300 x 75) = racine (22500) = 150 ohms \nDifficile de répondre à cette questions sans utiliser de calculette !\n",
+    "stem_zh": "为匹配 300 欧与 75 欧，长度为 λ/4 的电缆的特性阻抗是多少？"
+   },
+   {
+    "num": "30112",
+    "stem_fr": "QUELLE EST L'ANTENNE QU'UN RADIOAMATEUR NE PEUT PAS UTILISER ?",
+    "options": [
+     "Une antenne YAGI",
+     "Une antenne long fil",
+     "Une antenne de type GP",
+     "Une antenne isotropique"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Une antenne isotropique",
+    "commentaire_fr": "L'antenne isotropique n'existe pas (sauf dans la tête des mathématiciens !).\n",
+    "stem_zh": "业余爱好者不能使用哪种天线？"
+   }
+  ]
+ },
+ {
+  "id": "K028",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "anchor": "T022b",
+  "seclab": "2.2",
+  "n_q": 24,
+  "cours_fr": "2.2) Valeur maximum, efficace, moyenne, crête à crête. Ces notions ne s’appliquent qu’aux courants, c’est-à-dire à la tension et à l’intensité (qui varient dans le temps dans le cas d’un signal alternatif) mais pas à la puissance (issue du produit de la tension par l’intensité) ni à la résistance (qui reste, par nature, constante). a La valeur maximale (Umax ou Imax) d’un signal alternatif est la valeur la plus grande que prend le signal au cours d’une période. Elle est appelée aussi valeur crête (Ucrête ou Icrête). b La valeur efficace (Ueff ou Ieff) d’un signal alternatif est la valeur pour laquelle les lois d'Ohm et de Joule peuvent être appliquées. La formule ci-dessous est utilisée si et seulement si le signal est sinusoïdal. Des formules existent pour transformer les valeurs maximales d’autres signaux alternatifs (carrés, triangle, etc.) en valeurs efficaces mais sortent du programme de l’examen. On rappelle que le sinus de 45° est égal à 1/&#8730;2, soit 0,707. Umax = &#8730;2.Ueff = 1,414 x Ueff ou Ueff = Umax/&#8730;2 = 0,707 x Umax . c La valeur moyenne (Umoy ou Imoy) d’un signal alternatif est la moyenne algébrique du courant ou de la tension et est la valeur lue par un galvanomètre, voir §",
+  "samples": [
+   {
+    "num": "21468",
+    "stem_fr": "VALEUR EFFICACE",
+    "options": [
+     "36 V",
+     "12,7 V",
+     "25,5 V",
+     "18 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "12,7 V",
+    "commentaire_fr": "Umax = 18 V => Ueff = Umax x 0,707 = 18 V x 0,707 = 12,7 V\n",
+    "stem_zh": "有效值"
+   },
+   {
+    "num": "21425",
+    "stem_fr": "VALEUR MAXIMUM ?",
+    "options": [
+     "18,4 V",
+     "36,8 V",
+     "9,2 V",
+     "23,5 V"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "18,4 V",
+    "commentaire_fr": "Umax = Ueff x 1,414 = 13 x 1,414 = 18,4 V\n",
+    "stem_zh": "最大值是多少？"
+   },
+   {
+    "num": "20666",
+    "stem_fr": "U EFF = 24 V \nU CRETE = ?",
+    "options": [
+     "17 V",
+     "34 V",
+     "48 V",
+     "68 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "34 V",
+    "commentaire_fr": "Ucrête = Umax = 24 x 1,414 = 34 V (réponse arrondie)\n",
+    "stem_zh": "Ueff = 24 V \n峰值 U = ？"
+   },
+   {
+    "num": "21092",
+    "stem_fr": "INTENSITE EFFICACE ?",
+    "options": [
+     "14 A",
+     "50 mA",
+     "71,4 mA",
+     "0,1 A"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "50 mA",
+    "commentaire_fr": "Ueff = Umax x 0,707 = 5 x 0,707 = 3,5 V\nI = U / R = 3,5 V / 70 Ω = 0,05 A = 50 mA\n",
+    "stem_zh": "有效值电流强度？"
+   },
+   {
+    "num": "21086",
+    "stem_fr": "TENSION EFFICACE ?",
+    "options": [
+     "25,45 V",
+     "6,35 V",
+     "4,24 V",
+     "12,7 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "12,7 V",
+    "commentaire_fr": "Ueff = Umax x 0,707 = 18 V x 0,707 = 12,7 V\n",
+    "stem_zh": "有效电压是多少？"
+   },
+   {
+    "num": "21093",
+    "stem_fr": "INTENSITE MAXIMALE ?",
+    "options": [
+     "4,54 A",
+     "6,43 A",
+     "0,311 A",
+     "0,22 A"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "6,43 A",
+    "commentaire_fr": "P = U x I donc I = P / U = 1000/220 = 4,55 A\nImax = Ieff x 1,414 = 4,55 x 1,414 = 6,43 A\n",
+    "stem_zh": "最大电流强度？"
+   },
+   {
+    "num": "20476",
+    "stem_fr": "127 V MAX. \nTENSION EFFICACE ?",
+    "options": [
+     "254 V",
+     "180 V",
+     "90 V",
+     "380 V"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "90 V",
+    "commentaire_fr": "127 Vmax x 0,707 = 89,8  arrondi à 90 Veff\n",
+    "stem_zh": "最大值 127 V。\n有效值电压？"
+   },
+   {
+    "num": "20496",
+    "stem_fr": "U CRETE = 48 V, \nVALEUR DE UEFF ?",
+    "options": [
+     "24 V",
+     "68 V",
+     "17 V",
+     "34 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "34 V",
+    "commentaire_fr": "Ueff = Ucrête x 0,707 = 34 V (33,936 arrondi)\n",
+    "stem_zh": "峰值 U = 48 V，\nUeff 的值是多少？"
+   },
+   {
+    "num": "21486",
+    "stem_fr": "PUISSANCE DISSIPEE DANS R",
+    "options": [
+     "307 mW",
+     "25,6 mW",
+     "615 mW",
+     "712 mW"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "307 mW",
+    "commentaire_fr": "Ueff = 17 Vmax x 0,707 = 12,019 Veff \nP = U²/R = (12,019)²/470 = 144,46/470 = 0,307 = 307 mW\n",
+    "stem_zh": "电阻 R 上耗散的功率是多少？"
+   },
+   {
+    "num": "21236",
+    "stem_fr": "PUISSANCE DISSIPEE PAR LA RESISTANCE",
+    "options": [
+     "2,33 W",
+     "10,6 W",
+     "15 W",
+     "21 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "15 W",
+    "commentaire_fr": "Ueff = Umax x 0,707 = 7 V x 0,707 = 5V ; P = U x I = 5V x 3A \n= 15 W (valeur arrondie)\n",
+    "stem_zh": "电阻上耗散的功率"
+   }
+  ]
+ },
+ {
+  "id": "K029",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "anchor": "T017e",
+  "seclab": "1.7",
+  "n_q": 23,
+  "cours_fr": "1.7) Groupements Série et Parallèle (ou Dérivation) : les résistances peuvent être groupées en série (les unes derrière les autres) ou en parallèle (le terme « dérivation » est aussi employé). En appliquant les lois d’Ohm et de Joule ainsi que la loi des nœuds et des mailles, on déduit, pour chacun des montages : - la résistance équivalente de l’ensemble (ou résistances totales notées R t ; R t se prononce « R indice t » ou plus couramment « R de t »), - la répartition de la tension totale (notée U t ) entre les différentes résistances (U R1 est la tension aux bornes de la résistance R1 ; U R1 se prononce « U indice R1 » ou plus couramment « U de R1 »), - la répartition de l’intensité totale parcourue dans le circuit (notée I t ) entre chacune des résistances (I R1 est l’intensité parcourue dans R1), - la répartition de la puissance dissipée totale (notée P t ) entre chacune des résistances du groupement (P R1 est la puissance dégagée par R1) ; - enfin, nous étudierons le cas où les résistances du groupement ont des valeurs identiques. Groupement Série Parallèle (ou Dérivation) Schéma Résistance équivalente R t = R1 + R2 + ... R t = R1 x R2 (Produit sur Somme) R1 + R2 (= les Pieds sur le Sol) ou R t = 1/(1/R1 + 1/R2 + ...) Tension Proportionnelle aux résistances U R1 = U t . (R1 / R t ) U t = U R1 + U R2 + ... Constante U t = U R1 = U R2 = ... Intensité Constante I t = I R1 = I R2 = ... Inversement proportionnelle aux résistances I R1 = I t . (R t / R1) I t = I R1 + I R2 + ... Puissance dissipée P t = U t . I t = P R1 + P R2 + … P R1 = U R1 . I t = P t . (R1 / (R t ) Proportionnelle aux résistances P t = U t . I t = P R1 + P R2 + … P R1 = U t . I R1 = P t . (R t / R1) Inversement proportionnelle aux résistances Groupements de n résistances de valeur identique (R) R t = R . n I R = It U R = U t / n P R = P t / n R t = R / n I R = I t / n U R = U t P R = P t / n b Dans un groupement série , la résistance équivalente du groupement de résistances est toujours supérieure à la valeur de la plus grande résistance du groupement. De plus, la tension aux bornes de la résistance la plus grande est la plus importante, de même que la puissance dissipée par cette même résistance (répartition de la tension et de la puissance de l’ensemble au prorata de la valeur des résistances ) tandis que l’intensité est constante. Quand le groupement en série est constitué de n résistances de valeur identique R, la résistance équivalente est : R t = R x n. Dans ce cas, les tensions aux bornes de chacune des résistances et leurs puissances dissipées sont identiques (U R = U t / n et ",
+  "samples": [
+   {
+    "num": "20030",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "6 Ω",
+     " 42 Ω",
+     "16 Ω",
+     "20 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "16 Ω",
+    "commentaire_fr": "produit / somme = (8 x 24) / (8 + 24) = 192 / 32 = 6 ; 6 + 10 = 16\n",
+    "stem_zh": "等效电阻"
+   },
+   {
+    "num": "21299",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "75 Ω",
+     "50 Ω",
+     "100 Ω",
+     "25 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "100 Ω",
+    "commentaire_fr": "(300 x 100)/(300 + 100) = 30000/400 = 75\n75 + 25 = 100\n",
+    "stem_zh": "等效电阻是多少？"
+   },
+   {
+    "num": "20033",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "1 Ω",
+     "133 Ω",
+     "199 Ω",
+     "111 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "111 Ω",
+    "commentaire_fr": "R// = 33 / 3 = 11 ; 100 + 11 = 111\n",
+    "stem_zh": "等效电阻是多少？"
+   },
+   {
+    "num": "21432",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "6 kΩ",
+     "1,5 kΩ",
+     "3 kΩ",
+     "1 kΩ"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1,5 kΩ",
+    "commentaire_fr": "2 kΩ + 1 kΩ = 3 kΩ\n3 kΩ et 3 kΩ en parallèle => 3kΩ / 2 = 1,5 kΩ\n",
+    "stem_zh": "等效电阻是多少？"
+   },
+   {
+    "num": "23812",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "351 Ω",
+     "12,5 Ω",
+     "31 Ω",
+     "5 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "31 Ω",
+    "commentaire_fr": "produit / somme = (10 x 15) / (10 + 15) = 150 / 25 =  6 Ω ;\nRT = 6 + 25 = 31\n",
+    "stem_zh": "等效电阻是多少？"
+   },
+   {
+    "num": "23814",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "4 Ω",
+     "3,5 Ω",
+     "29 Ω",
+     "12,5 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "29 Ω",
+    "commentaire_fr": "produit / somme = (20 x 5) / (20 + 5) = 100 / 25 = 4 ; 25 + 4 = 29\n",
+    "stem_zh": "等效电阻是多少？"
+   },
+   {
+    "num": "21477",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "100 Ω",
+     "200 Ω",
+     "400 Ω",
+     "50 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "100 Ω",
+    "commentaire_fr": "100 + 100 = 200\n200 / 2 = 100\n",
+    "stem_zh": "等效电阻是多少？"
+   },
+   {
+    "num": "20031",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "10 Ω",
+     " 47,5 Ω",
+     "15 Ω",
+     "6,3 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "15 Ω",
+    "commentaire_fr": "R// = (10 x 30) / (10 + 30) = 7,5 ; 7,5 + 7,5 = 15\n",
+    "stem_zh": "等效电阻是多少？"
+   },
+   {
+    "num": "20032",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "447 Ω",
+     "87 Ω",
+     "41,6 Ω",
+     "416 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "87 Ω",
+    "commentaire_fr": "Résistance du groupement dérivation = 120 / 3 = 40. En association avec la première résistance : 40 + 47 = 87\n",
+    "stem_zh": "等效电阻是多少？"
+   },
+   {
+    "num": "21069",
+    "stem_fr": "QUELLE EST L'INTENSITE ?",
+    "options": [
+     "250 mA",
+     "125 mA",
+     "1 A",
+     "2 A"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1 A",
+    "commentaire_fr": "RT = 25 + 50/2 = 25+25 = 50\nP=RI² donc I = √(P/R) = √(50/50) = 1 A\n",
+    "stem_zh": "电流是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K030",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "anchor": "R53a",
+  "seclab": "R-5.3",
+  "n_q": 23,
+  "cours_fr": "R-5.3) lignes de transmission ..................................................................................................................... 31",
+  "samples": [
+   {
+    "num": "30938",
+    "stem_fr": "QUEL ROS AVEC 50 OHMS EN ENTREE ET 100 OHMS EN SORTIE ?",
+    "options": [
+     "1,5/1",
+     "2/1",
+     "0,5/1",
+     "3/1"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "2/1",
+    "commentaire_fr": "ROS = Z plus forte / Z plus faible = 100 / 50 = 2/1\n",
+    "stem_zh": "输入端 50 Ω、输出端 100 Ω，ROS 是多少？"
+   },
+   {
+    "num": "30936",
+    "stem_fr": "CALCUL DE ROS AVEC : TX =75 OHMS ET ANTENNE = 50 OHMS",
+    "options": [
+     "2/1",
+     "0,666/1",
+     "0,2/1",
+     "1,5/1"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1,5/1",
+    "commentaire_fr": "ROS = Z plus forte / Z plus faible  = 75 / 50 = 1,5 / 1\n",
+    "stem_zh": "计算 ROS：发射机 75 Ω，天线 50 Ω"
+   },
+   {
+    "num": "30937",
+    "stem_fr": "CALCUL DE ROS AVEC : TX =300 OHMS ET ANTENNE = 200 OHMS",
+    "options": [
+     "3/1",
+     "0,666/1",
+     "1,5/1",
+     "2/1"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1,5/1",
+    "commentaire_fr": "ROS = Z plus forte / Z plus faible = 300 / 200 = 1,5 / 1\n",
+    "stem_zh": "计算 ROS：发射机 300 Ω，天线 200 Ω"
+   },
+   {
+    "num": "30939",
+    "stem_fr": "CALCUL DE ROS AVEC 75 OHMS EN ENTREE ET 300 OHMS EN SORTIE",
+    "options": [
+     "150",
+     "7,7/1",
+     "0,25",
+     "4/1"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "4/1",
+    "commentaire_fr": "ROS = Z plus forte / Z plus faible = 300 / 75 = 4/1\n",
+    "stem_zh": "输入端 75 Ω、输出端 300 Ω，计算 ROS"
+   },
+   {
+    "num": "30931",
+    "stem_fr": "AFFAIBLISSEMENT LINEIQUE : \n10 W --> 5 W AVEC CABLE DE 20 METRES",
+    "options": [
+     "0,1 dB/m",
+     "0,2 dB/m",
+     "1,5 dB/m",
+     "0,15 dB/m"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "0,15 dB/m",
+    "commentaire_fr": "puissance divisée par 2 correspondant à une atténuation de 3 dB ; longueur du câble = 20 mètres ; affaiblissement linéique = atténuation / longueur = 3 dB / 20 m = 0,15 dB/m \n",
+    "stem_zh": "单位长度衰减：10 W 经 20 米电缆后变为 5 W"
+   },
+   {
+    "num": "30935",
+    "stem_fr": "CALCULER LA PIRE : EMETTEUR = 20 W ; PERTE DANS LE COAXIAL = -5DB ; GAIN DE L'ANTENNE = 2D",
+    "options": [
+     "50 W",
+     "5 W",
+     "10 W",
+     "0,5 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "10 W",
+    "commentaire_fr": "gain = -5dB + 2dB = -3 dB soit une \"amplification\" de 1/2 donc PIRE = 20 W x 1/2 = 10 W.\n",
+    "stem_zh": "计算 PIRE：发射机 = 20 W ；同轴电缆损耗 = -5dB ；天线增益 = 2D"
+   },
+   {
+    "num": "30798",
+    "stem_fr": "10W EN ENTREE, 5 W EN SORTIE, LONGUEUR = 33 M ; AFFAIBLISSEMENT LINEIQUE ?",
+    "options": [
+     "0,9 dB/m ",
+     "3 dB/m ",
+     "0,09 dB/m ",
+     "0,03 dB/m "
+    ],
+    "ans_idx": 2,
+    "ans_fr": "0,09 dB/m ",
+    "commentaire_fr": "rapport de puissance = 1/2 soit -3 dB ; 3 dB / 33 m = 0,0909…. = 0,09 dB/m) \nRemarque : calcul difficilement réalisable sans calculette\n",
+    "stem_zh": "输入 10 W、输出 5 W、长度 33 m，单位长度衰减是多少？"
+   },
+   {
+    "num": "35063",
+    "stem_fr": "CALCUL DE LA PAR AVEC PUISSANCE EN ENTREE 0,5W ; AFFAIBLISSEMENT CABLE 2 DB ; GAIN ANTENNE 5 D",
+    "options": [
+     "0,25 W",
+     "1 W",
+     "1,5 W",
+     "3,5 W"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1 W",
+    "commentaire_fr": "calcul : gain de l’ensemble = gain de l’antenne – perte dans le câble = 5 – 2 = 3 dB, correspondant à un rapport de puissance de 2 ; \nPAR = puissance en entrée x rapport de puissance = 0,5 x 2 = 1 W\n",
+    "stem_zh": "计算有效辐射功率（PAR）：输入功率 0.5 W；电缆衰减 2 dB；天线增益 5 dB（原文作 5 D）。"
+   },
+   {
+    "num": "31040",
+    "stem_fr": "CALCULER LA PAR ?\n\nPUISSANCE = 100 W\nPERTE DANS LE COAXIAL = 7 DB\nGAIN ISOTROPIQUE DE L'ANTENNE = 4 DB\n",
+    "options": [
+     "150 W",
+     "50 W",
+     "33 W",
+     "25 W"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "50 W",
+    "commentaire_fr": "Gain de l'ensemble câble + antenne = gain de l'antenne - pertes dans le câble = 4 - 7 = -3 dB ; -3 dB correspond à un rapport de 1/2 (c'est une perte). PAR = puissance de l'émetteur x rapport = 100 / 2 = 50 W\nLa question parle de PAR or le gain de l'antenne est donné en gain isotropique. On devrait donc parler de PIRE et non pas de PAR. On rappelle que PIRE = PAR x 1,64 ou PAR = PIRE / 1,64 (1,64 est le rapport correspondant au gain de 2,14 dB qui est le gain de l'antenne doublet par rapport à l'antenne isotropique). Dans notre cas, PIRE = 50 W donc PAR = 50 / 1,64 = 30,48. \nLa réponse \"33 W\" n'est pas bonne et correspond au piège \"-3 dB = puissance divisée par 3, soit 100W / 3 = 33 W\"\n",
+    "stem_zh": "计算 PAR？功率 = 100 W，同轴电缆中的损耗 = 7 dB，天线的各向同性增益 = 4 dB"
+   },
+   {
+    "num": "34210",
+    "stem_fr": "AFFAIBLISSEMENT LINEIQUE DU CABLE ?\n20 V  ================= 10 V\nCABLE COAXIAL DE 30 METRES",
+    "options": [
+     "0,2 dB/m",
+     "0,3 dB/m",
+     "0,4 db/m",
+     "0,6 db/m"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "0,2 dB/m",
+    "commentaire_fr": "Attention, l'affaiblissement est donné en tension et non pas en puissance. Dans ce cas, l'affaiblissement est le double de celui que l'on aurait calculer si les valeurs étaient des watts et non pas des volts.\nAffaiblissement = 6 dB\nAffaiblissement linéique = 6 dB/ 30 mètres = 0,2 dB/m\nCe calcul a été posé à l'épreuve de réglementation mais ne devrait pas y figurer car on ne doit voir apparaître que des questions sur les affaiblissements linéiques en puissance !\n",
+    "stem_zh": "电缆的单位长度衰减是多少？20 V ———————— 10 V，30 米同轴电缆"
+   }
+  ]
+ }
+]

@@ -1,0 +1,284 @@
+{
+ "P01": {
+  "verdict": "resolved",
+  "answer": "附录各项与法文原书（2025 年 11 月版）的对应关系：原书第三部分 **ANNEXES 只有两项**——「考试必记的主要公式」（98–99 页）与「参考书目、地址与联系方式」（100 页）。中文版：附录 B「公式与换算速查」对应前者；附录 C「Q 简语速查表」与附录 D「国际字母解释法」对应原书正文 §R-3.2、§R-3.1（出处为 21/09/00 部令附件 I，字母表另见 RR 附录 A14）；附录 A「考试战术」的内容取自原书 Introduction 中「考试的组织、时长与计分」一节（Intro-2 及 §R-3.3）；附录 E「高频词汇表」、附录 F「锚点索引」、附录 G「待核实事项汇总」是中文版编者所增，原书没有对应章节。",
+  "source": "PDF 目录 p.7「a3 Troisième Partie – ANNEXES：principales formules à connaître pour l'examen 98-99 / bibliographie, adresses et coordonnées 100」；PDF §R-3.1、§R-3.2",
+  "note": "目录行本身与实际章节不符：它写的「章节权重」其实是中文版导言第 5 节（不是附录），而真正的附录 F「锚点索引」没被列进去。建议目录改为「考试战术 · 公式与换算速查 · Q 简语速查 · 国际字母解释法 · 高频词汇表 · 锚点索引 · 待核实事项汇总」。"
+ },
+ "P02": {
+  "verdict": "resolved",
+  "answer": "该法令**至今（2026 年 10 月）仍未公布**，原文的判断仍然成立。2018 年 DGE 就「业余业务与互联条件」公开征询的两个文本之一，就是要为 CPCE 增设一个「接入公共网络的业余电台的运营条件」条文，草案条文为：« L'exploitant d'une station radioélectrique des services d'amateur et d'amateur par satellites connectée à un réseau ouvert au public doit prendre toute mesure pour préserver l'intégrité et la sécurité des réseaux ouverts au public »（并规定 ARCEP 可要求中断该连接）；CSNP 于 2019 年 3 月 19 日出具第 2019-01 号意见后无下文。核对现行 CPCE 合订本（最后修改 2026-08-19、2026-09-07 版）未见该条文，ANFR「Radioamateurs — Cadre juridique」现行清单亦未列该法令。",
+  "source": "CPCE 合订本 codes.droit.org（dernière modification 2026-08-19 / édition 2026-09-07，无该条文）；ANFR Radioamateurs–Cadre juridique；CSNP avis n° 2019-01 du 19/03/2019（csnp.fr）；URC « Décret sur les ROP »（草案条文全文）；REF-Info 2018-04-12（DGE 咨询）",
+  "note": "这属于政治/时间性信息。原文写「à la date de publication de ce document, n'est pas encore publié」，建议改为「截至 2026 年 10 月，该法令仍未公布」，并在每次改版时重核。草案拟插入的位置是 D. 99-3 之后（§R-1.1 引述的 ROP 相关义务见 §R-4.2 一带）。"
+ },
+ "P03": {
+  "verdict": "resolved",
+  "answer": "斜体（＝「业余无线电爱好者不使用」）的条目是：**第 1 个字符中的 B、H、K/L/M/P/Q/V、W、N；第 2 个字符中的 0、X；第 3 个字符中的 N、X**。完整表格（斜体条目加 * 标注）：\n\n**第 1 个字符——载波调制方式**\n\n| 码 | 含义（法文原表述） |\n|---|---|\n| A | 调幅（双边带）Amplitude (double bande latérale) |\n| *B* | 调幅（边带相互独立）Amplitude (bandes latérales indépendantes) |\n| C | 调幅（残余边带）Amplitude (bande latérale résiduelle) |\n| D | 幅度与角度调制 Amplitude et angulaire |\n| F | 角度调制——频率 Angulaire – Fréquence |\n| G | 角度调制——相位 Angulaire – Phase |\n| *H* | 调幅-单边带，全载波 Amplitude-BLU porteuse complète |\n| J | 调幅-单边带，抑制载波 Amplitude-BLU porteuse supprimée |\n| R | 调幅-单边带，减弱载波 Amplitude-BLU porteuse réduite |\n| *K, L, M, P, Q et V* | 脉冲序列 Trains d'impulsions |\n| *W* | 上述未涵盖的组合与情形 Combinaisons et cas non couverts ci-dessus |\n| *N* | 未调制载波 Porteuse non modulée |\n\n**第 2 个字符——被调制信号**\n\n| 码 | 含义（法文原表述） |\n|---|---|\n| 1 | 单路，无调制副载波（tout ou rien）Une seule voie sans sous porteuse modulante |\n| 2 | 单路，带调制副载波 Une seule voie avec sous porteuse modulante |\n| 3 | 模拟 Analogique |\n| 7 | 数字（多路）Numérique (plusieurs voies) |\n| 8 | 模拟（多路）Analogique (plusieurs voies) |\n| 9 | 模拟与数字（各有一路或多路） |\n| *0* | 无被调制信号 Pas de signal modulant |\n| *X* | 其他情形 Autres cas |\n\n**第 3 个字符——传送的信息类型**\n\n| 码 | 含义（法文原表述） |\n|---|---|\n| A | 可听电报 Télégraphie auditive |\n| B | 自动电报 Télégraphie automatique |\n| C | 传真／静止图像 Fac-similé (image fixe) |\n| D | 数据传输 Transmission de données |\n| E | 电话 Téléphonie |\n| F | 电视（视频）Télévision (vidéo) |\n| *N* | 无信息 Aucune information |\n| W | 上述类型的组合 Combinaison des cas ci-dessus |\n| *X* | 其他情形 Autres cas |\n\n（1、2、3、7、8、9、A、B、C、D、E、F、W 不是斜体，即业余爱好者可以使用。）",
+  "source": "cours_radio.pdf p.14 的字体信息（pdftohtml：TimesNewRoman,Italic = 斜体，斜体行恰为上列各条）；cours_utf8.html 同一表格用 <i> 标注，两者完全一致",
+  "note": "两点提醒：①原文「表内斜体定义业余爱好者不使用」这句话对 **W** 并不严格——§R-1.2b 又给出 F7W（D-Star：数字电话+数据）作为业余实际使用的例子；N（未调制载波）在 N0N 例中也出现，只是「不传送信息」。②「O、I、E、S、T、U、X、Y、Z 不使用」指这些字母在表中根本没有分配码位，与斜体是两回事。"
+ },
+ "P04": {
+  "verdict": "resolved",
+  "answer": "第 2 个字符里 1 与 2 的差别只有一点：**1 = 单路、不使用调制副载波**（tout ou rien，通断键控）；**2 = 单路、使用调制副载波**。原文「1 : simple et 2 : avancé」（1 简单、2 进阶）只是记忆口诀——两者都属于「一路携带数字或量化信息」，2 之所以叫「进阶」，是因为它在同一条路上多了一个调制副载波（数字模式下用它以不同频率区分先后到达的 0 与 1）。所以「简单／进阶」＝「不带动副载波／带调制副载波」，不是两种不同的信息类型。完整对应：1 = 无副载波、2 = 带副载波、3 = 模拟、4/5/6 不用、7 = 多路数字、8 = 多路模拟、9 = 两者兼有、0 = 无被调制信号。",
+  "source": "cours_pdf_layout.txt §R-1.2a：表内「1 Une seule voie sans sous porteuse modulante (tout ou rien)」「2 Une seule voie avec sous porteuse modulante」；同节「logique du codage : on commence par une seule voie numérique (1 : simple et 2 : avancé)」；cours_utf8.html 同处",
+  "note": "若要引用国际原文，RR 附录 A1 的措辞是「une seule voie contenant de l'information numérique ou quantifiée avec (ou sans) emploi de sous porteuse modulante」。"
+ },
+ "P05": {
+  "verdict": "resolved",
+  "answer": "§R-1.3b 给出了各频段的占用带宽（largeur de bande occupée）上限，来自 décision 12-1241 的附件：\n\n| 频率范围 | 占用带宽上限 |\n|---|---|\n| 低于 28 MHz | **6 kHz** |\n| 28 至 144 MHz（因此涵盖 28 MHz 与 50 MHz 频段） | **12 kHz** |\n| 144 至 225 MHz | **20 kHz** |\n| 高于 225 MHz | 无规定限值 |\n\n两条独立义务：①占用带宽必须整段落在所分配频段之内；②不得超过上表限值。225 MHz 以上虽无限值，但「选择发射类别时必须尽一切努力把占用带宽降到最小」（§3 du préambule，重申 RR 的 S15.9）。",
+  "source": "PDF §R-1.3b（cours_pdf_layout.txt「b La largeur de bande occupée … ne doit pas dépasser : - 6 kHz … - 12 kHz entre 28 et 144 MHz … - 20 kHz entre 144 et 225 MHz … aucune limite au-delà de 225 MHz」）；ARCEP décision n° 2012-1241, annexe, §3 « Conditions communes »（arcep.fr/uploads/tx_gsavis/12-1241.pdf）",
+  "note": "原文 §R-1.3b 明确说这是 « annexe 3 à la décision 12-1241 »。数值与 décision 原文逐字一致，可直接引用。"
+ },
+ "P06": {
+  "verdict": "source_defect",
+  "answer": "毛病在题库的写法（单位/千位分隔被破坏），不在答案：四个选项是**用 kHz 写的 14 000 / 14 340 / 29 500 / 3 750 kHz，即 14 / 14,34 / 29,5 / 3,75 MHz**。题库（以及中文版转写）把原文用空格表示的千位分隔「14 000 kHz」写成了「14.000 kHz」，看上去像 14 kHz，于是整题变得莫名其妙。禁止发射的是 **14 000 kHz（= 14,000 MHz）**：它正是 20 m 频段的下边界（14 000–14 350 kHz），而 A3E 是双边带调幅，占用带宽跨在载波两侧，载波压在边界上就会有一半边带越出所分配频段（BF 带宽 3 kHz 时发射占 13 997–14 003 kHz）。其余三个（14,34 / 29,5 / 3,75 MHz）距各自频段边界都有余量，不构成越界。",
+  "source": "PDF 练习 Série 40 第 3 题（同题，选项写作「14 000 kHz / 14 340 kHz / 29 500 kHz / 3 750 kHz」）及其解答 Réponses Série 40 Q3（réf. R1-3b）；题库 Exam1 题 32561（单位被写成 14.000 kHz）",
+  "note": "答题照题库答案选第 1 项；读题时把「14.000」按 14 000 kHz 理解，不要读成 14 kHz。另外这也说明中文版原来那句「原文没有给出任何『某频率禁止使用 A3E』的条文」不成立：原书练习解答里就写着理由。"
+ },
+ "P07": {
+  "verdict": "source_defect",
+  "answer": "两处说法冲突，根源是「强制设备」与「强制功能」被混为一谈：**自 ARCEP 决定 12-1241（2012 年 10 月）起，唯一强制随台配备的设备是功率指示器（indicateur de puissance，即 wattmètre）；独立的市电滤波器（filtre secteur）、驻波指示器与假负载都不再是强制设备**——原教材这一句是对的。但题库题 30756 的标准答案是 **« Oui »**，其理由写在 commentaire 里：电台必须满足「基本要求」、不得干扰供电网络（由 CISPR 11 / EN 301 783 的限值约束），而滤波通常已内置在 CE 认证的电源里，所以「市电滤波器是强制的」这句话按「滤波功能必须存在」理解成立。考试时应按题库选 **Oui**。原书自己的练习 Série 35 第 8 题（« Il est obligatoire de posséder dans une station : … »）的正确答案是 **功率指示器**，其解答注明「自 décision ARCEP 12-1241 起，功率指示器是唯一强制设备」。",
+  "source": "题库 Exam1 题 30756（答案 Oui + commentaire）；PDF §R-1.3a（« Depuis la décision ARCEP 12-1241, le seul matériel obligatoire reste l'indicateur de puissance »）与练习 Série 35 Q8 + Réponses Série 35 Q8（réf. R1-3a）；URC « Antenne fictive – Erratum »（2024-11-06）",
+  "note": "建议教材并列两句：法定强制设备只有功率指示器（教材口径）；「是否配备市电滤波」按官方题库答 Oui（滤波功能强制，通常已内置于 CE 认证电源；自制或老旧设备才需要外置滤波器）。"
+ },
+ "P08": {
+  "verdict": "source_defect",
+  "answer": "题库把「占用带宽上限」与「频偏（excursion）」混用了，因而两题口径不一。法定限值针对的是**占用带宽**：28,500 MHz 落在 28–144 MHz 档 → 12 kHz；145,500 MHz 落在 144–225 MHz 档 → 20 kHz。若按教材自己的换算（FM 占用带宽 = 2 × 频偏），频偏上限应是 **±6 kHz（28,500 MHz）** 与 **±10 kHz（145,500 MHz）**。题 31006 的答案正是 ±6 kHz（12 kHz 的一半，方法正确）；题 31007 问 145,500 MHz 的频偏，但四个选项（3 / 12,5 / 20 / 6 kHz）里没有正确的 ±10 kHz，只能选 **20 kHz**（整个上限）。同类还有 30160（18,150 MHz 答「6 kHz」，即整个带宽而非 ±3 kHz）与 34812（< 29,7 MHz 答 ±6 kHz，即半带宽）。原书练习 Série 35 第 2 题的解答用的是「半带宽」口径：「占用带宽不得超过 20 kHz，因此 G3E 的 FM 频偏不得超过 ±10 kHz」。",
+  "source": "题库 31006、31007、30160、34812；PDF 练习 Série 35 Q2 及 Réponses Série 35 Q2（réf. R1-3b）；ARCEP décision 2012-1241 annexe §3（占用带宽限值 6/12/20 kHz）",
+  "note": "答题口诀：问「occupée / largeur de bande」答整段值（6、12、20 kHz）；问「excursion」时先看选项里有没有半带宽值（有则选，如 31006 的 ±6 kHz）；没有（如 31007）就按题库选整段值 20 kHz。选项里出现 12,5 kHz 是 FM 信道间隔，属干扰项。"
+ },
+ "P09": {
+  "verdict": "source_defect",
+  "answer": "确系原文（PDF 与 HTML 版都有）的印错：注释 1 写作 « les bandes des **2222**, 630 et 60 mètres »，而紧接着同一句又写 « limitées à 1 watt PIRE sur les bandes des **2200** et 630 mètres et 15 watts PIRE sur la bande des 60 mètres »。正确读法是 **2200 m（135,7–137,8 kHz）／630 m（472–479 kHz）／60 m（5 351,5–5 366,5 kHz）**，功率上限分别为 **1 W / 1 W / 15 W PIRE**（135,7–137,8 kHz 与 5 351,5–5 366,5 kHz 的限值对应 RR 注 5.67A、5.133B）。「2222」是原文错字，不是 PDF 转文本造成的（HTML 版同样写作 2222）。",
+  "source": "PDF §R-2.1d 注释 1（cours_pdf_layout.txt 第 1103 行）；cours_utf8.html 第 4792 行同作 2222；同段后文与 §R-2.2a 脚注写作 2200；ARCEP décision 12-1241 附件（135,7-137,8 kHz 的 PIRE 说明）",
+  "note": "教材按「2200 m」处理，可加一句脚注：原文此处误植为「2222 m」。"
+ },
+ "P10": {
+  "verdict": "resolved",
+  "answer": "答案成立，依据也找得到：**433,750–434,250 MHz 这一子频段在安的列斯与圭亚那（2 区的法属海外省）不允许业余业务使用**，所以题库列的四个候选地中只有留尼汪（1 区）可用。原因在国际频率划分上：RR 注 5.281(NOC) 规定，在**法国 2 区的海外省与海外集体以及印度**，433,75–434,25 MHz 还以**主要业务**地位分配给空间操作业务（Terre vers espace；在法国本土与巴西为次要业务），因此该子频段对业余业务关闭；TNRBF 注 F40(NOC) 把它落到法国国内：「Aux Antilles et en Guyane, ama n'est pas autorisé dans la sous-bande 433,75-434,25 MHz」。留尼汪与马约特属 1 区（§R-2.1a），不受此限。原书正文 §R-2.1d 未提这一子频段，但**原书自己的练习解答里有**：练习 Série 26 第 4 题（réf. R2-1b）的解答写 « La bande 430-434 est en bande partagée à statut secondaire. En Guyane et aux Antilles, l'émission est interdite de 433,75 à 434,25 MHz »。",
+  "source": "TNRBF 2021-05-04 注 F40(NOC) 与 RR 注 5.281(NOC)（anfr.fr TNRBF PDF）；PDF 练习解答 Réponses Série 26 Q4（réf. R2-1b，cours_pdf_layout.txt 第 9021–9022 行）；题库题 30919；PDF §R-2.1a（DROM en Région 2 : Guyane, Martinique, Guadeloupe ; La Réunion et Mayotte en Région 1）",
+  "note": "圣皮埃尔和密克隆虽是法国领土，但属 2 区，同样不能选；选项里「圭亚那／瓜德罗普」正是被 F40 点名禁止的地方。"
+ },
+ "P11": {
+  "verdict": "resolved",
+  "answer": "考试会考的 3 个带下划线的 Morse 缩写是 **PSE、RX、TX**。法语 HTML 版（cours_utf8.html）保留了 PDF 的下划线标记 `<u>`；在 §R-3.2.d 的 15 个缩写清单里，只有 `PSE`、`RX`、`TX` 三处带下划线。",
+  "source": "PDF §R-3.2.d（cours_pdf_layout.txt 行 1346–1352；下划线信息见 cours_utf8.html 行 5780–5808 的 <u> 标记）",
+  "note": "清单共 15 个缩写：AR, BK, CQ, CW, DE, K, MSG, PSE, R, RST, RX, SIG, TX, UR, VA。另有正文讲 CQ 由来的一句把 CQ 标了下划线，不属该清单，故不算在这 3 个之内。"
+ },
+ "P12": {
+  "verdict": "source_defect",
+  "answer": "题库有毛病：Exam'1 题 36201「QUE SIGNIFIE LES LETTRES TX ?」的官方答案是 **Transceiver**，但严格讲 TX = transmitter / 法语 « Émetteur »（发射机），收发信机是 transceiver（缩写一般作 TRX）；同一题库题 36101 又把 RX 答为 « Receiver »，自相矛盾（若 TX=收发信机，RX 就不该只是接收机）。教材正文 « TX : Emetteur » 在技术上是正确的。**应试请按题库选 Transceiver**，同时注明其技术含义为「发射机」。",
+  "source": "题库 Exam1/questions/questions.json 题 36201（themeNum 303，cours 链接 #R32d）与题 36101；PDF §R-3.2.d « TX : Emetteur »",
+  "note": "两处都有据可查，矛盾出在题库答案本身，不是转文本丢失。"
+ },
+ "P13": {
+  "verdict": "not_in_source",
+  "answer": "属实：§R-3.3「通联的实施」不含任何考务内容。考试的科目、时长、计分与及格线写在教材 Intro（§Intro-2、§Intro-4、§Intro-5）与 arrêté du 21/09/00 第 2 条（2021-06-06 起施行的修订版）：Réglementation 与 Technique 两场独立考试，各 20 道单选题；Réglementation 15 分钟、Technique 30 分钟；每答对 1 分、答错或未答 0 分（2021 年 6 月起取消倒扣，旧制为好答案 3 分、错答 −1 分、满分 60）；两场各须 ≥10/20 才通过；已通过的场次保留 1 年；一场失败后须等 2 个月才能重考；残疾度 ≥70 % 者时间 ×3（45 分钟 / 1 小时 30 分钟）。",
+  "source": "PDF Intro §Intro-2 / §Intro-4 / §Intro-5（cours_pdf_layout.txt 行 55–135）；arrêté du 21 septembre 2000 art. 2 — https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043225814/2026-02-23",
+  "note": "考务内容属于 Intro（开篇）与 Technique/ Réglementation 两部分的说明，不属于 §R-3.3；该处只需删掉/改写这条警告，不必往本节补考务内容。"
+ },
+ "P14": {
+  "verdict": "resolved",
+  "answer": "官方规则（arrêté du 21/09/00 附件 II「Codification particulière des indicatifs spéciaux temporaires」，2021-06-06 起施行）：特殊呼号 = 2 字母前缀（TM 本土、TO 海外省、TK 科西嘉、TX 海外集体；FX 用于与绕地球轨道空间站相关的例外事件）+ **1 至 3 位数字**（0 至 999）+ **1 至 4 个字符，且最后一个必须是字母**。数字加后缀合计 **2 至 7 个字符**。故教材的「1 至 3 个数字 + 4 个字符」漏字，应作「1 至 3 位数字 + 1 至 4 个字符（末位为字母）」；TM9A（1 位数字 + 1 字母 = 2 字符）完全合规，教材例子 TM9A、TO9AA、TX99A、TM9AAAA、TK9999A9Z 全部合规。官方例子：TX2F、TO2018D。",
+  "source": "arrêté du 21 septembre 2000, annexe II (grille de codification, indicatifs spéciaux temporaires) — https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043225843/2026-02-23 ；PDF §R-4.6.c（行 1637–1640）",
+  "note": "PDF 原文：«2 à 7 caractères au choix du demandeur forment le suffixe qui commence par 1 à 3 chiffres suivis de 4 caractères dont le dernier est une lettre»；官方原文：«d'un à trois chiffres d'identification : de 0 à 999, d'un suffixe d'un à quatre caractères, le dernier caractère étant forcément une lettre»。"
+ },
+ "P15": {
+  "verdict": "resolved",
+  "answer": "**250 W**。题库题 30779「PUISSANCE AUTORISEE A UN OPERATEUR ETRANGER CEPT SUR 28,750 MHZ ?」的标准答案是 250 W，其依据不在 §R-4.7.a（该节只讲呼号构成：法国前缀 + / + 本国呼号 + /P 或 /M），而在 §R-2.2 的功率表：持 CEPT/HAREC 等效证书者在法国按「classe unique（ex 1 et 2）」的限值发射 —— 28 至 30 MHz 段为 250 W（< 28 MHz 为 500 W，> 30 MHz 为 120 W）。28,750 MHz 落在 28–30 MHz，故为 250 W。",
+  "source": "PDF §R-2.2（行 1144–1156，功率表）；题库题 30779",
+  "note": "该题在题库里的 cours 链接是 #R47a，属于题源链接与内容不符（#R47a 通篇没有功率数值）；数值的真正出处是 §R-2.2 的 classe unique 功率表。"
+ },
+ "P16": {
+  "verdict": "resolved",
+  "answer": "「46」本身是对的：CEPT 官方（cept.org「Membership and observers」，2026 年）现行成员为 **46 个国家**——俄罗斯与白俄罗斯自 2022 年 3 月起被暂停成员资格，已不在名单内；阿塞拜疆与格鲁吉亚则在名单内。教材主表列出的 45 个里包含已被暂停的俄罗斯，同时把成员国阿塞拜疆、格鲁吉亚另列在下方「不适用 T/R 61-01」的名单中：45 − 俄罗斯 + 阿塞拜疆 + 格鲁吉亚 = 46，与官方一致。要改的是表格本身（俄罗斯移出主表，阿塞拜疆、格鲁吉亚并入主表），以及正文「les 2 (**) pays suivants」应为 3 个国家（(**) 只标注被暂停的俄罗斯与白俄罗斯）。",
+  "source": "https://www.cept.org/cept/membership-and-observers（46 countries，逐国名单）；PDF §R-4.7.b（行 1687–1705）",
+  "note": "主表 45 项已逐项核对（Albanie … Cité du Vatican），其中含 Royaume-Uni、Fédération de Russie (**)；下方另列 Azerbaïdjan (4K)、Biélorussie (EW) (**)、Géorgie (4L)。"
+ },
+ "P17": {
+  "verdict": "resolved",
+  "answer": "VLF（myriamétriques，万米波）= **3 至 30 kHz**，即波长 **100 km 至 10 km**（UIT RR 第 2 条 No. 2.1，corresponding metric subdivision « Myriametric waves »）。教材表格的「plus de 10 km / moins de 30 kHz」只给出 VLF 与 LF 的分界（10 km / 30 kHz），把下侧留成开放式；按 ITU 定义应补成「**de 10 à 100 km / de 3 à 30 kHz**」——缺失的上界是 100 km（对应 3 kHz）。",
+  "source": "ITU Radio Regulations, Article 2, No. 2.1（VLF 3 to 30 kHz, Myriametric waves；LF 30 to 300 kHz）；PDF §R-5.2.b 表（行 1802）",
+  "note": "教材 Technique §9.2 的频谱图（PDF 第 79 页，图片形式）把左侧起点标为「radiofréquences gérées par l'UIT (de 9 kHz à 275 GHz)」，这也是 §R-5.2.b 表把 VLF 一栏写成开放式的同类处理。"
+ },
+ "P18": {
+  "verdict": "resolved",
+  "answer": "两者的换算关系是 **PIRE = PAR + 2,14 dB = PAR × 1,64**：半波振子（doublet）相对各向同性天线有 2,14 dB 增益，补充系数 1,64 = 1 + 2/π。即 \\( \\mathrm{PIRE} = \\mathrm{PAR} + 2{,}14\\ \\mathrm{dB} = \\mathrm{PAR} \\times 1{,}64 \\)。教材同一 PDF 的 §R-5.1.b 与 Technique §9.8 都写明了这条换算（只是不在 §R-5.2.h 里）。",
+  "source": "PDF §9.8（行 4855–4856；行文为 «L'antenne doublet a un gain de 2,14 dB par rapport à l'antenne isotrope, soit un coefficient complémentaire de 1,64 (= 1 + 2/π). On a donc : PIRE = PAR + 2,14 dB = PAR x 1,64.»）；另见 §R-5.1.b（行 1865）",
+  "note": "§R-5.2.h（行 1873–1880）确实只分别给出 PAR 与 PIRE 的定义，未写换算；建议把上式补进 §R-5.2.h 或加交叉引用。"
+ },
+ "P19": {
+  "verdict": "not_in_source",
+  "answer": "属实：§R-5.4 只讲现象、机理与抗干扰措施，不含测量仪器。题库中那两题确实存在，标准答案为：题 30188「QUEL APPAREIL UTILISE-T-ON POUR MESURER LES HARMONIQUES ?」→ **Un analyseur de spectre**（频谱分析仪；题 30950「APPAREIL POUR DETECTER LES HARMONIQUES ?」与题 20611 同答案）；题 20200「COMMENT MESURE-T-ON UN COURANT HF ?」→ **un ampèremètre thermique**（热偶式安培计）。这些属于 Technique 的测量部分（题库相应题目的 cours 链接为 #R54 / #R54b / #T074 / #T11），不在 §R-5.4 内。",
+  "source": "题库 Exam1/questions/questions.json 题 30188、30950、20611、20200；PDF §R-5.4（行 1958–1996）与 Technique §11.6（行 5375–5385）均无测量仪器内容",
+  "note": "«ampèremètre thermique» 在整部 PDF 里 0 次出现（全文 grep 确认），«analyseur de spectre» 只出现在 Technique §4.4（RLC 电路的 Q 值与带宽，行 3700 附近），都不是 CEM 语境。故教材该处应说明：这两题按题库答案记忆，本节不展开。"
+ },
+ "P20": {
+  "verdict": "resolved",
+  "answer": "§0.1 的「方程变换一览表」与末尾的汤姆孙定律示例在 PDF 中都是图片，转文本时内容丢失。原图内容如下：\n\n**方程变换一览表（Transformation d'équation）**\n\n| Opération | Addition et Soustraction | Multiplication et Division | Puissance et Racine |\n|---|---|---|---|\n| Équation | A + B = C – D | A × B = C / D | A² = B ou C = √D |\n| Transformation | 移项变号（取相反数）：+ ⇒ − 且 − ⇒ + | 移项变算子（取逆）：× ⇒ / 且 / ⇒ × | 两边同时变幂：² ⇒ √ 且 √ ⇒ ² |\n| Exemples（X = inconnue, A,B,C,D = données） | X + A = C − D → X = C − D − A；X − A = 0 → X = A | X × A = C × D → X = (C × D) / A；X / A = B → X = B × A | X² = B → X = √B；√X = D → X = D² |\n\n**除以分数 = 乘其倒数**：\\( \\frac{1}{1/A} = 1 \\times \\frac{A}{1} = A \\)；\\( \\frac{A/B}{C/D} = \\frac{A}{B} \\times \\frac{D}{C} = \\frac{A \\times D}{B \\times C} \\)；\\( \\frac{A}{B} / C = \\frac{A}{B \\times C} \\)\n\n**汤姆孙定律（loi de Thomson）示例**：si \\( Z_L = Z_C \\), alors \\( 2\\pi F L = \\frac{1}{2 \\pi F C} \\), donc \\( (2\\pi F)^2 = \\frac{1}{LC} \\), donc \\( F^2 = \\frac{1}{4\\pi^2 LC} \\), d'où \\( F = \\frac{1}{2\\pi\\sqrt{LC}} \\).",
+  "source": "PDF §0.1（行 2046–2090；对应 cours_utf8.html 中 §T0001a 的图片 image015.gif、image016.gif 与 §T0001 末尾的 image018.jpg，PDF 第 34 页原图经渲染核对）；汤姆孙公式另见 Technique §4.6（行 3770：f = 1/[2π√(LC)]）",
+  "note": "表中三列操作各自对应一种变换：加减（变号）、乘除（取逆）、幂与根（两边同时开方/平方）。建议在教材里用 Markdown 表格 + LaTeX 重排，并保留 T0001 锚点。"
+ },
+ "P21": {
+  "verdict": "resolved",
+  "answer": "检流计（galvanomètre）不属于 §1.1，原文在 §3.4a 才正式讲解（PDF 第 54 页）。§1.1d（锚点 T011d）只讲电流表：电流强度在一点上测量、图中用箭头表示，用电流表测电流必须断开电路把表串接进去，且 « Com » 端接电路 − 侧。真题 20520 的图形是「电阻 R 串联一只矩形＋斜箭头的仪表」（图上并未标注 GALVA），官方注释明确说明该符号是电流表（ampèremètre，与被测电阻串联），因此测得的是电流强度（Intensité）。检流计本身只能读毫安级以下的小电流（§3.4a：Ig 为最大偏转电流、Ri 为内阻），作电流表使用时须并联分流电阻（shunt）；作电压表使用时须串联电阻。",
+  "source": "PDF §1.1d、§3.4a（p.54）；题库题 20520（commentaire：« L'appareil de mesure représenté par le rectangle avec la flèche est un ampèremètre (en série avec la résistance) »）；图片 Exam1/questions/20520.png",
+  "note": "核实结论：原教材 §1.1 确实没有出现 galvanomètre 一词（全书首次出现在 §2.2c 正弦平均值，§3.4 才是正式讲解）。另真题 20609「测高频电流」也挂在本锚点 T011d，答案为热式电流表（见 P24）。"
+ },
+ "P22": {
+  "verdict": "resolved",
+  "answer": "原文 §1.5a（PDF 第 40 页）的色环表完整内容如下（第 4 环＝容差环，原文说明其含义「不要求掌握」，但考试图常画出）：\n\n| 记忆口诀（首字母＝颜色首字母） | 颜色 | 法文 | 第 1 环（十位） | 第 2 环（个位） | 第 3 环（0 的个数，倍率） | 第 4 环（容差） |\n|---|---|---|---|---|---|---|\n| Ne | 黑 | Noir | — | 0 | × 1 | **无第 4 环：20 %** |\n| Mangez | 棕 | Marron | 1 | 1 | × 10 | 1 % |\n| Rien | 红 | Rouge | 2 | 2 | × 100 | 2 % |\n| Ou | 橙 | Orange | 3 | 3 | × 1 000 | — |\n| Je | 黄 | Jaune | 4 | 4 | × 10 000 | — |\n| Vous | 绿 | Vert | 5 | 5 | × 100 000 | 0,5 % |\n| Battrai | 蓝 | Bleu | 6 | 6 | × 1 000 000 | 0,25 % |\n| VIOlemment, | 紫 | VIOlet | 7 | 7 | × 10 000 000 | 0,1 % |\n| Grand | 灰 | Gris | 8 | 8 | （× 100 000 000） | — |\n| BOA | 白 | Blanc | 9 | 9 | （× 1 000 000 000） | — |\n| — | 金 | Or | — | — | × 0,1 | 5 % |\n| — | 银 | Argent | — | — | × 0,01 | 10 % |\n\n要旨：口诀为 « Ne Mangez Rien Ou Je Vous Battrai VIOlemment, Grand BOA »；容差按色对应为 无第 4 环/黑 = 20 %、棕 = 1 %、红 = 2 %、绿 = 0,5 %、蓝 = 0,25 %、紫 = 0,1 %、金 = 5 %、银 = 10 %（橙、黄、灰、白未给容差）。原文用容差环颜色来对应系列：20 % = E6、银（10 %）= E12、金（5 %）= E24。",
+  "source": "PDF §1.5a 色环表（p.40，cours_pdf_layout.txt 第 2387–2401 行）",
+  "note": "「行序错乱」只是纯文本转写的排版问题：用 pdftotext -layout 得到的原文表格列对齐良好（cours_pdf_layout.txt 第 2387–2401 行）。已用字符位核对：第 1 环数值在第 53 位、第 2 环在第 72 位、第 3 环约 87–97 位、第 4 环（容差）在 101–111 位；Noir 行的「0」在第 72 位（即「个位／第 2 环」列，第 1 环为空），与原文「la première bague ne pourra pas être noire」一致；容差栏的值分别落在第 101–111 位，故棕=1 %、红=2 %、绿=0,5 %、蓝=0,25 %、紫=0,1 % 的对应关系可以确认。"
+ },
+ "P23": {
+  "verdict": "resolved",
+  "answer": "核实结果（此条要改的其实是本教材自己的批注）：\n①题量：锚点 #T023g2 在题库中共 **56 道**——其中 55 道的 cours 字段严格为 #T023g2，另一道 21608 的锚点印成 #T023g2.（末尾多一个点，见注）。这是**技术篇（T）中题量最大的锚点**（T015a 51 道、T012a 41 道紧随其后），但并非全书最多（法规篇 R21b 有 243 道）。\n②考点内容：这 56 道题里 54 道是**电容器的串并联等效容量**（含少数「加一个多大电容才能得到某容量」的题），1 道是电容电抗计算（20084：Z = 1/(2πFC)，题解用 159/F(MHz)/C(nF)），1 道是串联电容的**耐压**计算（21608：3 只 63 V 电容串联，隔离电压相加 = 189 V）。**没有任何谐振（loi de Thomson）或品质因数 Q 的题目**——「本锚点带有谐振/品质因数一类考点」的说法不成立，正文中该句应删除。\n③原文 §2.3g2（PDF 第 49–50 页）只讲电容器组：并联相加、串联取「和的倒数」（两只电容时 C1·C2/(C1+C2)），并用 Q = C·U（电量）与回路定律推出串联公式；串联时电压按容量反比分配，容量最小者承受电压最高（正与真题 21608 对应）。\n④品质因数 Q 的论述在原文 **§2.5e**（PDF 第 52 页）：Q = Z / R = 1 / cos φ，且 Q = 2πfL/R = 1/(2πfCR)；原文例：Z = 80 Ω、R = 69 Ω → Q = 1,16。\n⑤谐振公式（loi de Thomson）在原文 **§4.3a** 出现：Z_C = Z_L → ωL = 1/(ωC) → \\( \\omega = 1/\\sqrt{L C} \\)，\\( f_c = f_o = 1/(2\\pi\\sqrt{L C}) \\)，简化式 \\( f(MHz) = 159/\\sqrt{L(\\mu H)\\,C(pF)} \\)；完整变体见 §4.6a（C = 1/4π²f²L、ω = 1/√(LC)、X_L = X_C = √(L/C) 等）。",
+  "source": "题库 questions.json（cours 含 #T023g2 共 56 题）；PDF §2.3g2（p.49-50）、§2.5e（p.52）、§4.3a 与 §4.6a（p.59、p.62）",
+  "note": "引原文谐振公式时可直接用 §4.3a/§4.6a，无需再「向 § 4 核对」。另两处小毛病：题目 21608 的锚点写成 #T023g2.（多一个点）；本节正文里那段 Q = Z/R = 1/cos φ 出自 §2.5e，放在 §2.3.g2 下属于串位，可考虑移走或加注。（说明：本条的完整批注见 manuel-zh.html 第 4172 行，in_3.json 里的文本被截断。）"
+ },
+ "P24": {
+  "verdict": "resolved",
+  "answer": "（1）热式电流表：正式法语说法就是 **ampèremètre thermique**（热式／热线式电流表），这是官方题库的答案用词，本题（20007「AVEC QUOI MESURE-T-ON UNE TRES FORTE INTENSITE」→ « un ampèremètre thermique »）的注释只说「检流计只能测小电流，其余选项不合适」。同一考点的其他真题：20609「QUEL APPAREIL PEUT-ON UTILISER POUR MESURER L'INTENSITE D'UNE FREQUENCE ELEVEE ?」→ ampèremètre thermique；20200「COMMENT MESURE-T-ON UN COURANT HF ?」→ ampèremètre thermique；30949（法规卷 R5.4b）同。它的原理是：待测电流流过一根电阻丝，靠焦耳效应加热，丝的伸长随温度变化而带动指针；因而不分极性、不受附近磁场影响，读数与电流波形和频率无关，正是测量大电流与高频电流的手段。原文 §3.4 只讲了用分流电阻（shunt）扩大量程，确实未提热式电流表——这是原文的空白，不是题库的错误；正文按题库用法写「热式电流表（ampèremètre thermique）」即可。\n\n（2）检流计内阻 10 mΩ：两处并不矛盾，是两个不同的图。真题 20357 的图给出 R = 10 Ω、I = 5 mA，求「检流计内阻的数量级」，官方答案为 10 mΩ，注释的算法是：R 上的电压 U = R·I = 10 × 5·10⁻³ = 50 mV，而 10 mΩ 的内阻在 5 mA 下只产生 10 mΩ × 5 mA = 50 µV 的扰动，比被测的 50 mV 小 1000 倍，故可忽略（因此 10 mΩ 是该图自己的答案）。原文 §3.4 例题里的 Ri = 10 Ω 只是那道例题的已知数据（该例题的分流电阻算出为 0,0002 Ω = 0,2 mΩ）。所以「10 mΩ 很可能是例题中分流电阻的数值」这一猜测不成立，应删去。",
+  "source": "题库题 20007（#T034a）、20609（#T011d）、20200（#T11）、30949（#R54b）、20357（#T034b，含 commentaire）与图片 Exam1/questions/20357.png；PDF §3.4 例题（p.54）；ampèremètre thermique 定义见 fr.wikipedia.org/wiki/Ampèremètre（« l'ampèremètre thermique est composé d'un fil résistant… ses indications sont indépendantes de la forme et de la fréquence du courant »）",
+  "note": "原文全书没有出现与测量有关的 « thermique »（只有热噪声 bruit thermique、晶体管热失控 emballement thermique），可确认是原文空白。本条在 in_3.json 里被截断，完整批注（含第 (2) 条）见 manuel-zh.html 第 4483 行。"
+ },
+ "P25": {
+  "verdict": "source_defect",
+  "answer": "原书 §3.5 例题 2 的数字确实自相矛盾，且已核对 PDF 原页（第 55 页）确认不是转文本所致，而是原书排印错误：例题 1 明确算出 Q = (R+Ri)/U_T = 50000 Ω/V = 50 kΩ/V，也等于 1/Ig = 1/0,00002 = 50000（即 Ig = 20 µA）；例题 2 却写「La résistance du voltmètre est de 5 kΩ/V」，并以「Q = 1/Ig donc Ig = 1 / Q = 1 / 5000 = 0,0002 A」，得出 R = 90 V / 0,0002 A = 450 kΩ。这一串数字内部自洽（把 Q 当成 5 kΩ/V、Ig 当成 200 µA），但与例题 1（50 kΩ/V、20 µA）差 10 倍。按同一只表推算：\n\n\\( Q = 1/I_g = 1/0{,}00002 = 50\\,000\\ \\Omega/V = 50\\ k\\Omega/V \\)\n\\( R = (U_{新} - U_{旧}) \\times Q = (100 - 10)\\ V \\times 50\\ k\\Omega/V = 4{,}5\\ M\\Omega \\)\n（等价算法：Ig = 1/Q = 1/50000 = 0,00002 A；R = 90 V / 0,00002 A = 4 500 000 Ω = 4,5 MΩ。）\n\n故原文的 450 kΩ 应为 **4,5 MΩ**；正文以 Q = 1/Ig 与 R = (U_新 − U_原)/Ig 的方法为准，并采用 4,5 MΩ。此方法与题库一致（题 20801：2000 Ω/V 的 10 V 表扩成 500 V → (500−10) × 2000 = 980 kΩ；题 20109 同法）。",
+  "source": "PDF §3.5 例题 2（p.55，已用 pdftoppm 渲染原页逐字核对）；题库题 20109、20801（#T035a）",
+  "note": "原文两处各漏掉一位数：应为 50 kΩ/V（不是 5 kΩ/V）、Ig = 1/50000 = 0,00002 A（不是 1/5000 = 0,0002 A）；例题 1 的 50 kΩ/V、0,00002 A 是对的，故以例题 1 为基准修正。"
+ },
+ "P26": {
+  "verdict": "resolved",
+  "answer": "时间常数公式不在 §4.2，而在原文 **§2.4a**（PDF 第 50–51 页），可直接采用：\n\n\\( T_{(s)} = R_{(\\Omega)} \\cdot C_{(F)} \\) 　简化式：\\( T_{(ms)} = R_{(k\\Omega)} \\cdot C_{(\\mu F)} \\)\n\n原文 §2.4a 的所有要点：充电经过 1 个 T 达到端电压的 63,21 %（= 1 − 1/e，e = 2,718；约记作 2/3）、2 T 达 8/9、3 T 达 26/27、4,605 T 达 99 %、5 T 视为完全充满；放电相反，每个 T 放掉剩余电压的三分之一（1 T 后剩 1/3，2 T 后剩 1/9……），5 T 后残余电压低于初始值的 1 %；理论上永不「完全充满／放空」。原文例：C = 100 µF 经 R = 8 kΩ 放电，T = 8 kΩ × 100 µF = 800 ms，5 T = 4 s。线圈的电流建立时间常数见 §2.4b：\\( T_{(s)} = L_{(H)} / R_{(\\Omega)} \\)。\n\n§4.2 本身确实只讲截止频率（f = 1/(2πRC)，简化式 159/R(kΩ)/C(µF)）、高通/低通判别、八度与十倍频程、−3 dB 及 6 dB/八度衰减——所以本节只需加一句指引即可。另：题库中时间常数的真题（21094、22471、22482）挂的锚点是 **#T024a**（§2.4a），不在 §4.2 的 T042* 锚点上。",
+  "source": "PDF §2.4a（p.50-51，cours_pdf_layout.txt 第 3032–3048 行）、§2.4b；题库题 21094、22471、22482（#T024a）",
+  "note": "本教材 §2.4 单元（T024）已完整写出该公式，§4.2 的 ⚠️ 提示可改成「时间常数见 §2.4a」的交叉引用。"
+ },
+ "P27": {
+  "verdict": "resolved",
+  "answer": "对照表确实在 PDF 里是图片，已把 PDF 第 59 页渲染成图后逐格读出，表内容如下（原文标题 « Tableau comparatif des 4 montages de base des circuits LC »）：\n\n**四种基本 LC 接法对照表**\n\n| | Filtre Série（串联／带通 passe bande） | Filtre Parallèle（并联，即 bouchon ／带阻 coupe bande） |\n|---|---|---|\n| **Schéma 接法** | L 与 C **串联** | L 与 C **并联**（C 在上、L 在下） |\n| **Impédance 谐振阻抗** | 在 Fo 时**为零**（Nulle pour Fo） | 在 Fo 时**无穷大**（Infinie pour Fo） |\n| **Réponse en fréquence 频响曲线** | 在 fo 处出现**谐振峰**（曲线升到 0 dB） | 在 fo 处出现**谐振谷**（曲线掉到 −60 dB） |\n\n| | Filtre Passe Haut（高通） | Filtre Passe Bas（低通） |\n|---|---|---|\n| **Schéma 接法** | C **串联**、L 并联（电容在上） | L **串联**、C 并联（电容在下） |\n| **Réponse en fréquence 频响曲线** | 低频段衰减到 −60 dB，自 fc 起升到 0 dB | 自 0 dB 起，过 fc 后降到 −60 dB |\n\n表中两组的行标分别是「**Résonance**（谐振）」与「**Coupure**（截止）」：上半张表讲串联／并联（bouchon）两种谐振接法，下半张表讲高通／低通两种截止接法；纵轴都是 0 至 −60 dB 的衰减刻度，横轴为频率；判读仍用口诀「高通滤波器里电容在上、低通滤波器里电容在下」（地线画在下方）。\n\n同一页 §4.3a 的推导式也是图片，一并补出：\\( \\omega L = 1/(\\omega C) \\Leftrightarrow L\\,C\\,\\omega^2 = 1 \\Leftrightarrow \\omega = 1/\\sqrt{L C} \\Leftrightarrow 2\\pi f = 1/\\sqrt{L C} \\)，故 \\( f_c = f_o = 1/(2\\pi\\sqrt{LC}) = 1/(6{,}28\\sqrt{L\\,C}) \\)，简化式 \\( f(MHz) = 159/\\sqrt{L(\\mu H)\\cdot C(pF)} \\)。",
+  "source": "PDF §4.3b 对照表与 §4.3a 公式图片（p.59，用 pdftoppm -r 150 渲染后判读）",
+  "note": "表与公式都是位图，文字层无内容（cours_pdf_layout.txt 第 3541 行只剩标题行），故只能用渲染图判读；上表按图像逐格抄录，若日后要严格校对可重渲染该页。"
+ },
+ "P28": {
+  "verdict": "source_defect",
+  "answer": "三点核对结果：\n\n**① 频率单位确实缺失（这是原书的毛病）**：文字只写 « Les fréquences extrêmes du signal sont 540 et 600 »，而分析仪图的横轴只标 500、520、540、560、580、600、620（步长 20），**图上没有印任何频率单位**（无 kHz 也无 MHz）。已用 pdftoppm 渲染 PDF 第 62 页逐格核对，并在法语 HTML（cours_utf8.html，图 image088.jpg）里确认同样没有单位。因此不能断言「kHz」——正文应写：「信号的极端频率为 540 与 600（原书刻度未标单位），−13 dB 带宽为 60 个刻度（600 − 540）」。\n\n**② 「24 V / √20」并没有被截断**：原书该句完整为 « Si on n'avait que la graduation en volts, puisque U maxi = 24 V, que −13 dB correspond à un rapport de puissance de 1/20 et que U = √(P.R), la tension à −13 dB sera calculée comme suit : 24 V / √20 = 24 / 4,45 ≈ 5,4 V »。\n\n**③ 该例题的数字本身是自洽的**：图上的纵轴是 dBm 与 V 双刻度——39 dBm = 8 W ↔ U = √(P·R) = 24 V，26 dBm = 0,4 W ↔ 5,4 V，13 dBm = 0,02 W ↔ 1,2 V；且 Z = U²/P = 24²/8 = 72 Ω（= 5,4²/0,4 = 1,2²/0,02）；24/√20 = 5,37 ≈ 5,4 V（−13 dB 即功率比 1/20）。",
+  "source": "PDF §4.4d 例题（p.62，已渲染逐字核对）；cours_utf8.html 同一例题；题库中无对应真题",
+  "note": "「按图推断为 kHz」属于推测，请勿写入正文；原书唯一可指摘之处是频率轴未印单位。"
+ },
+ "P29": {
+  "verdict": "resolved",
+  "answer": "色环表在原文 **§1.5a**（PDF 第 40 页），可直接引用（见 P22 的完整表）。要点：至少 3 环——前两环是两位有效数字，第三环是 0 的个数（倍率），第 4 环是容差；第 1 环不可能是黑色（前两位必须落在 10–99）；金、银作倍率（×0,1、×0,01）的题考试不出现。\n\n本单元（#T051a）实际挂着的色环真题不止 20678、20679 两道，一共 6 道，答案如下（均与上表一致）：\n\n| 题号 | 题目 | 颜色 → 计算 | 答案 |\n|---|---|---|---|\n| 20678 | 4 环电阻 | 灰 8、棕 1、绿 5 → 81 × 10⁵ | 8,1 MΩ |\n| 20679 | 4 环电阻 | 橙 3、蓝 6、蓝 6 → 36 × 10⁶ | 36 MΩ |\n| 20691 | 4 环电阻 | 灰 8、黑 0、绿 5 → 80 × 10⁵ | 8 MΩ |\n| 20692 | 4 环电阻 | 灰 8、蓝 6、绿 5 → 86 × 10⁵ | 8,6 MΩ |\n| 20705 | 3 环电阻 | 蓝 6、红 2、蓝 6 → 62 × 10⁶ | 62 MΩ |\n| 20742 | 4 环电阻 | 蓝 6、黄 4、灰 8 → 64 × 10⁸ | 6400 MΩ |\n\n（第 4 环为金色 = 5 %，与答案无关。）#T051a 下第 7 道题 21141（« sens passant : la cathode est reliée au − »）才是真正的二极管题，与 §5.1 对得上。",
+  "source": "PDF §1.5a 色环表（p.40）；题库题 20678、20679、20691、20692、20705、20742（cours 字段均指向 #T051a）",
+  "note": "这批色环题的官方锚点是 #T051a，但原文 §5.1（PDF 第 63–64 页）只讲二极管（单向导电、P→N、阴极用色环标记、功率管外壳接阴极），没有任何色环表——属题库锚点与原文错位；内容在 §1.5a，正文按 §1.5a 的表作答即可。"
+ },
+ "P30": {
+  "verdict": "resolved",
+  "answer": "两题并不矛盾，是两张不同的配图（已逐图核对）：\n\n- **20844**（锚点 #T066a）的图：三个符号里的栅极数依次为 1、2、3 → 1 三极管、2 四极管、3 五极管，正与答案 A « 1 triode ; 2 tétrode ; 3 pentode » 相符。\n- **21610**（锚点 #T066）的图：栅极数依次为 1、3、2 → 1 三极管、2 五极管、3 四极管，正与答案 B « 1=triode, 2=pentode, 3=tétrode » 相符。\n\n判读方法就是数栅极（符号里画成虚线的横线，介乎阴极与阳极之间）：三极管 1 个栅极（约 −6 V 至 0 V 的负偏压控制板流）、四极管 2 个（多一个「帘栅 écran」，接板压的一半，以减小栅-板间电容、改善高频工作）、五极管 3 个（再加接阴极的「抑制栅 suppresseuse」，阻止二次发射的电子回到帘栅）。原文 §6.6（PDF 第 69 页）与 21610 的官方注释都是这么说的。",
+  "source": "题库题 20844（#T066a）、21610（#T066）及其配图 Exam1/questions/20844.png、21610.png；PDF §6.6a-c（p.69）",
+  "note": "图上没有字母标注，只能靠栅极条数区分；两题分别为 1-2-3 与 1-3-2 的顺序，考试时按配图数栅极即可。"
+ },
+ "P31": {
+  "verdict": "resolved",
+  "answer": "原文 §7.1a 描述三类基础放大器时，只讲「静态工作点（tension de repos）落在放大区间的什么位置」，不讲角度：A 类＝信号居中于放大区间、幅度不超出该区间（a1）；B 类＝用两个晶体管各放大信号的一个半周（une alternance），静态工作点固定在放大区间的边缘（a2）；C 类＝只有一部分信号被放大，其余部分由输出端调谐在输入频率上的谐振回路补回（a3，禁用于 AM 与 BLU）。全书（含 2692 道真题的题干、选项与注释）均未出现「导通角（angle de conduction）」一词，也没有 180°/360° 之类的角度数值，故本条所记「原文只用『信号被放大的部分』描述」属实。若正文需要给出角度，只能作为外部补充：A 类 a = 360°（全周期导通）、B 类 a = 180°、AB 类 180° < a < 360°、C 类 0 < a < 180°、D 类为开关工作 a = 0。",
+  "source": "PDF §7.1a（cours_pdf_layout.txt 第 4160–4178 行；PDF 第 70 页）；题库 20147/20148/20448/20423/20752/20790/20865/21154 等均只用 tension de repos，无角度；角度值为外部补充，见 https://fr.wikipedia.org/wiki/Classes_de_fonctionnement_d%27un_amplificateur_%C3%A9lectronique",
+  "note": "「导通角」这一术语属于通用电子学说法，F6KGL 原书与法国官方题库都不用；教材正文若保留该词，应标明为补充说明而非原文内容。"
+ },
+ "P32": {
+  "verdict": "resolved",
+  "answer": "确认：本块原文 §7.4（PDF 第 71–72 页）通篇没有放大器「增益」的计算公式，也没有以 dB 表示增益的算式。它只描述射频放大器的电路构成（去耦电容 Cd、扼流圈/bobine de choc、级间耦合变压器、抑制自激的反馈电阻 Rcr、保护用的发射极电阻 Re）与四种失真（b1 频率失真、b2 谐波失真与谐波失真率 TDH、b3 二次/交调失真、b4 三次失真）。以 dB 表示增益的算式在 §4.1：「Gain (dB) = 10 log (Ps / Pe)」或「Ps = 10^(dB/10) × Pe」（§4.1a，功率式；配 §4.1b 的 dB↔比值换算表，如 16 dB ↔ 比值 40）；以电压表示时为「Gain (dB) = 20 log (Us / Ue)」，且只在输入输出阻抗相同时成立，否则「Gain (dB) = 20 log (Us / Ue) + 10 log (Ze / Zs)」（§4.1f）。因此题库若要求「以 dB 计算放大器增益」，应引 §4.1a／§4.1f，不能引 §7.4。",
+  "source": "PDF §7.4（cours_pdf_layout.txt 第 4247–4320 行）、§4.1a（第 3388–3392 行）、§4.1b 换算表（第 3394–3405 行）、§4.1f（第 3457–3466 行）",
+  "note": "§7.4 中「gain」只出现于两处定性描述：Rcr 的说明与「lorsque la température du transistor augmente, son gain augmente」，均无算式。"
+ },
+ "P33": {
+  "verdict": "resolved",
+  "answer": "确认：§7.7「Le mélangeur」（PDF 第 74 页）全节只讲混频器本身——输出端产生 F1 + F2 与 F1 − F2，由输出端 LC 陷波器选其中一个；并说明非理想混频（MOS-FET/J-FET 近似乘法）除 f1、f2、2f1、2f2、f1 ± f2（二次失真）外还有 (2f1 + f2)、(2f1 − f2) 等三次项。全节没有出现 « fréquence intermédiaire » 与 « fréquence image »，也没有超外差接收机框图。这两个术语与框图在 §11.2、§11.3（PDF 第 89–90 页）：§11.2 讲超外差接收机的中频 FI，给出 FI = HF − FO（infradyne，FO < HF）、FI = FO − HF（supradyne，FO > HF）或 FI = FO + HF，并指出混频器输出有两个频率、其一是 FI、另一个被滤除，中频级的作用是提高选择性（陡峭的滤波flancs）与灵敏度；§11.3 讲镜像频率 Fim＝由「反向混频」（该用差频时用了和频等）产生、同样落在 FI 上的频率，示例 HF = 14 MHz、FO = 5 MHz、FI = 9 MHz 时 Fim = |2·FO − HF| = |2·FI − HF| = 4 MHz，并说明双变频（第一中频 100 MHz 以上、第二中频约 500 kHz）用于把镜像频率推远。",
+  "source": "PDF §7.7（cours_pdf_layout.txt 第 4401–4432 行；PDF 第 74 页）、§11.2（第 5277–5318 行）、§11.3（第 5329–5342 行）",
+  "note": "结论：正文如需要中频/镜像/超外差内容，应引 §11.2–§11.3，不可仅凭 §7.7 作答；混频器确实是超外差里产生中频的部件，但原文未如此表述。"
+ },
+ "P34": {
+  "verdict": "resolved",
+  "answer": "题 20155 的答案键已把口径写全，不必依赖原图：放大器输入端同时有 f1 = 145 MHz 与 f2 = 150 MHz 两个频率，二次（交调）失真下输出为 f1、f2、2f1、2f2、f1 + f2、f1 − f2，即 145、150、290（= 2 × 145，145 MHz 的二次谐波）、300（= 2 × 150，150 MHz 的二次谐波）、295（= 145 + 150，和频）、5（= 150 − 145 或 145 − 150，差频）MHz，所以正确选项是「5, 145, 150, 290, 295 和 300 MHz」（选项 A「5, 145, 150 et 295 MHz」漏掉了两个二次谐波）。其中 300 MHz 对应 2 × f2，即输入端 150 MHz 信号的二次谐波；290 MHz 对应 2 × f1。这与原文 §7.4b3「一次谐波 2f1、2f2 与和差频 f1 + f2、f1 − f2 同时出现」及 §7.7c 的说明一致。",
+  "source": "题库题 20155 及其 commentaire（Exam1/questions/questions.json）；原文 §7.4b3（cours_pdf_layout.txt 第 4309–4312 行）、§7.7c（第 4420–4430 行）",
+  "note": "试卷原图（放大器输入端标注的两个频率）未收入教材文本；「300 MHz 属哪种组合」由题库注释确定为 2 × 150 MHz，已无需按图推断。"
+ },
+ "P35": {
+  "verdict": "resolved",
+  "answer": "表在原文中并未丢失，只是以图片形式排在第 79 页（HTML 版对应 COURS_fichiers/image141.gif），所以 pdftotext 抓不到。按该图逐格抄录如下（共 18 个频段列）：\n\n| λ (m) | mam | km | hm | dam | m | dm | cm | mm | 10⁻⁴ | 10⁻⁵ | µm | 10⁻⁷ | 10⁻⁸ | nm | 10⁻¹⁰ | 10⁻¹¹ | pm | 10⁻¹³ |\n| Fréq. (Hz) | 10⁴ | 10⁵ | 10⁶ | 10⁷ | 10⁸ | 10⁹ | 10¹⁰ | 10¹¹ | 10¹² | 10¹³ | 10¹⁴ | 10¹⁵ | 10¹⁶ | 10¹⁷ | 10¹⁸ | 10¹⁹ | 10²⁰ | 10²¹ |\n| Gammes d'ondes | VLF | LF | MF | HF | VHF | UHF | SHF | EHF | Infrarouges |  |  | spectre visible | UV |  | Rayons X |  | Rayons γ | Rayons cosmiques |\n| Propagation par ondes | de sol |  | réfléchies |  | directes |  |  |  | photoniques |  |  |  |  |  |  |  |  |  |\n\n三处合并标签（写在波段名上方）：第 1–8 列＝« radiofréquences gérées par l'UIT (de 9 kHz à 275 GHz) »；第 9–14 列（Infrarouges、spectre visible、UV）＝« fréquences optiques »；第 15–18 列（Rayons X、Rayons γ、Rayons cosmiques）＝« rayonnements ionisants »。表的读法：每一列是一个波段，λ 行给该波段的量级（mam＝万米级、km＝千米级…mm＝毫米级，其后为实际波长）、频率行给该波段的代表频率；波段实际边界取相邻两列：VLF 波长 > 10 km（频率 < 30 kHz）、LF 10 km–1 km（30–300 kHz）、MF 1 km–100 m（300 kHz–3 MHz）、HF 100–10 m（3–30 MHz）、VHF 10–1 m（30–300 MHz）、UHF 1 m–10 cm（300 MHz–3 GHz）、SHF 10–1 cm（3–30 GHz）、EHF 1 cm–1 mm（30–300 GHz）。传播方式行（最后一行）用蓝色双向箭头标出各区段：de sol（VLF、LF）、réfléchies（MF、HF）、directes（VHF 至 EHF）、photoniques（光频段）。",
+  "source": "PDF 第 79 页嵌入图片（cours_radio.pdf / HTML 的 COURS_fichiers/image141.gif，619×119）；说明文字见 cours_pdf_layout.txt 第 4655–4659 行；波段边界与题库一致：30602（公里波 10 km–1 km）、30401（十米波 100–10 m）、21182（百米波 100–1000 m）、21184/30630（50 MHz = 6 m 属米波）、20858（EHF 30–300 GHz）、20487（16 GHz 属 SHF）、34755（VLF < 30 kHz / λ > 10 km）",
+  "note": "原图并非 18 个独立表格列，而是「左侧行标签列 + 右侧一大格」的画法，光学与电离辐射部分为合并单元格，横向起止只能按图近似：Infrarouges≈第 9–11 列、spectre visible≈第 12 列、UV≈第 13 列、Rayons X≈第 14–15 列、Rayons γ≈第 17 列、Rayons cosmiques≈第 18 列。传播方式行的四个箭头首尾略重叠，重叠处正落在 LF/MF 与 EHF/红外 的边界附近；题库口径为：地波可有效至 2 MHz（含百米波），百米波夜间兼有反射波传播（题 20657、21183、21185）。"
+ },
+ "P36": {
+  "verdict": "resolved",
+  "answer": "两处并不矛盾，而且这三组距离数字不属 §9.2b，出自 §9.3h（PDF 第 79 页）：「Les ondes de sol, appelées aussi ondes de surface, se propagent en restant très près de la surface de la Terre. Elles y subissent très vite une forte absorption et ce, d'autant plus que leur fréquence est élevée… Dans les bandes LF et VLF (300 kHz et en dessous), les ondes se propagent à l'intérieur d'un guide d'ondes dont les parois sont la surface terrestre et la couche D de l'ionosphère. Les espérances de distances de propagation en fonction de la fréquence sont les suivantes : 300 kHz : 2.000 km ; 4 MHz : 100 km ; 10 MHz : 50 km. Mais la conductivité du sol a aussi une grande importance. Ainsi, pour un trajet maritime… il est possible, à 2 MHz, d'obtenir une portée supérieure à 500 kilomètres. On voit le peu d'efficacité de l'onde de sol sur les fréquences décamétriques et au-delà.」即：300 kHz → 2000 km；4 MHz → 100 km；10 MHz → 50 km；海面路径 2 MHz → 可超过 500 km。§9.2b 的「超过 2 MHz 后强烈衰减」是定性结论，§9.3h 的数字正是它的量化：频率每升高一个数量级，期望距离掉一个数量级（2000 → 100 → 50 km），原文自己总结为「地波在十米波及更高频率上几乎没有效率」。正文照抄时写「地波（表面波）随频率升高衰减很快：300 kHz 约 2000 km、4 MHz 约 100 km、10 MHz 约 50 km；海面电导率高，2 MHz 仍可超过 500 km」即可，不存在两处口径冲突。",
+  "source": "PDF §9.3h（cours_pdf_layout.txt 第 4741–4749 行；PDF 第 79 页）、§9.2b（第 4638–4639 行）；题库同口径：21185、20657、21183",
+  "note": "要注意这几组数字是「espérances de distances」（期望距离，随地面电导率变化），不是保证距离；原文以海面 2 MHz > 500 km 作为高电导率的对照。"
+ },
+ "P37": {
+  "verdict": "resolved",
+  "answer": "教材文本版确实没有插图，但插图仍在 PDF 里（第 81–82 页），三题的答案都能据原书插图核实：\n(1) 题 21170「这个偶极是按哪个频率裁截的」→ 8,33 MHz。原书 §9.4c 的偶极图（PDF 第 81 页）写明 L(m) = 150 / f(MHz) = λ/2，题图上的偶极总长 18 m，故 f = 150 / 18 = 8,33 MHz；同一长度的其它公式正好构成干扰项：300 / 18 = 16,66 MHz（全波）、75 / 18 = 4,16 MHz（四分之一波）。\n(2) 题 22474「哪张图是自由空间中半波偶极的方向图」→ 图 2（两个波瓣的 8 字形）。原书 §9.7b 的辐射图组（PDF 第 82 页，列标题为 Antenne isotropique / Quart d'onde / en espace libre / à λ/2 du sol / Doublet horizontal / Beam Yagi）中，「en espace libre」即自由空间偶极的方向图；§9.7c 明确写「en espace libre, le diagramme d'un doublet ressemble à un tore rond dont le centre est très fin alors qu'à λ/2 du sol, le diagramme prendra la forme d'une banane」——所以应选两波瓣的 8 字图，而不是离地 λ/2 时那个单瓣（香蕉形）图。\n(3) 题 21601「Yagi 天线图上标注 A 的部分是」→ 天线的后方。原书 §9.6 的 Yagi 图（PDF 第 81 页）标注为：Réflecteur（反射器，比有源振子长）／Élément rayonnant = dipôle（有源振子）／Directeur（引向器，比振子短）／Direction du rayonnement maximum（最大辐射方向）；反射器一端即天线后方，与答案键「L'arrière de l'antenne」一致。",
+  "source": "PDF §9.4c、§9.6（第 81 页）、§9.7b–c（第 82 页）；题库题 21170、22474、21601 及各自 commentaire",
+  "note": "试卷原件里的插图编号（图 1/2/3/4）无法从教材文本核对，此处按题库答案键 + 原书插图的物理含义核对，结论一致；三题的 cours 锚点分别为 T094c、T097b、T096。"
+ },
+ "P38": {
+  "verdict": "source_defect",
+  "answer": "两题并不矛盾，而是对应不同几何；但题库与原文各有一处口径不清楚，答题按下面的规则。原文 §9.5a：地网/地面与四分之一波振子成 90°（垂直）时阻抗 36 Ω，成 120° 时阻抗 52 Ω。原文 §9.10f 又把「地网与振子垂直的四分之一波」标称 50 Ω 纯阻（无电抗），并将其拆为 36 Ω 辐射阻抗 + 14 Ω 损耗。题库：题 21176「Quelle est l'impédance de ce quart d'onde ?」答案 36 Ω，注释为「Z = 36 Ω quand on a un angle de 90° par rapport à la masse」；题 21177 的选项只有 36 / 50 / 120 / 73 Ω，答案键取 50 Ω，而其注释却写「Z = 52 Ω quand on a un angle de 120° entre les radiants et le brin rayonnant」——即该题考的是 120° 情形，理论值 52 Ω 不在选项里，只能取最接近的 50 Ω。答题口径：看图判断角度——地网与振子垂直（90°）答 36 Ω；成 120° 答 52 Ω（题库因选项所限记为 50 Ω）；若题目用「50 Ω 纯阻」的措辞并涉及效率/损耗，则属 §9.10f 的「36 Ω 辐射阻抗 + 14 Ω 损耗」口径。",
+  "source": "PDF §9.5a（cours_pdf_layout.txt 第 4798–4808 行）、§9.10f（第 4947–4955 行）；题库题 21176、21177",
+  "note": "毛病有两处：(1) 题库 21177 的选项里没有 52 Ω，答案键写 50 Ω 而其注释写 52 Ω，自相矛盾；(2) 原文把同一副 λ/4 垂直天线在不同段落说成 36 Ω（§9.5a，90°）与 50 Ω 纯阻（§9.10f，垂直地网），未说明后者含约 14 Ω 损耗。故记 source_defect。"
+ },
+ "P39": {
+  "verdict": "resolved",
+  "answer": "题 20188 的标准答案 400 W 是正确的，并非「简化口径」：题目给的是 16 dBi（相对各向同性天线的增益），求的也是 PIRE（相对各向同性天线的等效辐射功率），两者参考系相同，直接换算功率比即可——16 dB ⇒ 10^(16/10) = 39,8 ≈ 40，PIRE = 10 W × 40 = 400 W PIRE。原文 §9.8 的例题正是这么算的：13 dBd = 比值 20，100 W × 20 = 2000 W PAR（注意该例用的是 dBd）。只有两种情形才需要 2,14 dB / 1,64 的修正：把以 dBd（相对半波振子）表示的增益用于求 PIRE，或者把 PIRE 换算成 PAR。原文 §9.8 给出：PIRE = PAR + 2,14 dB = PAR × 1,64。所以本题若改问 PAR，答案才是 400 / 1,64 ≈ 244 W——教材原注里的 244 W 是 PAR，不是 PIRE，不能用来否定 400 W。",
+  "source": "题库题 20188 及其 commentaire（« le rapport en puissance est de 40, donc PIRE = puissance x rapport = 10 x 40 = 400 W PIRE »）；原文 §9.8（cours_pdf_layout.txt 第 4849–4858 行）、§4.1b 换算表（16 dB ↔ 比值 40，第 3394–3405 行）",
+  "note": "教材原注怀疑「dBi 与 dBd 相差 2,14 dB 会使答案不严格」，该怀疑不成立：题目问的是 PIRE 且增益以 dBi 给出，无需修正；同一段原文也说明 PAR 与 PIRE 的换算关系。"
+ },
+ "P40": {
+  "verdict": "resolved",
+  "answer": "计算核对无误，且公式出处已查明：原文 §4.3「Les circuits L-C」（loi de Thomson，PDF 第 59 页）明确写「A la résonance comme à la coupure, on a ZC = ZL (loi de Thomson)」，并给出与本题同一形式的公式与例题——f(MHz) = 159 / √(L(µH) × C(pF))，例题为 L = 32 µH、C = 200 pF → f = 159 / √(32 × 200) = 159 / 80 = 1,9875 ≈ 2 MHz。本题 C = 400 pF、L = 25 nH，即 0,025 µH：f = 159 / √(0,025 × 400) = 159 / √10 = 159 / 3,16 = 50,28 ≈ 50 MHz（自然式 f = 1 / (2π√(LC)) = 1 / (2π√(25·10⁻⁹ × 400·10⁻¹²)) = 50,3 MHz）。题 20427 问的是「带陷波器（trappes，即并联谐振回路）的天线的最低谐振频率」，即陷波器截断双极天线的频率，用 LC 谐振公式即可；§4.4（RLC 电路）与 §4.6（§4.3、§4.4 公式的变体）是同族内容。",
+  "source": "题库题 20427 及其 commentaire（« Formule simplifiée : F = 159 / √(L en µH x C en pF) = 159 / √(0,025 x 400) = 50,28 arrondi à 50 MHz »）；原文 §4.3（cours_pdf_layout.txt 第 3530–3554 行；PDF 第 59 页）、§4.4（第 3609 行起）、§4.6（第 3766 行）；同族例题另见 §2.5「le facteur 159 est fréquemment utilisé au numérateur」（第 2822 行）与 §4.4b（第 3620 行，fo = 159/√(25×100) = 3,18 MHz）",
+  "note": "50 MHz 是四舍五入值（精确 50,28 MHz）；159 ≈ 10⁶/(2π)，配 µH 与 pF 使用。本题对应的原文节是 §4.3（LC 谐振／汤姆孙定律），不是 §9.10g（该节只讲多振子与陷波器的构造）。"
+ },
+ "P41": {
+  "verdict": "source_defect",
+  "answer": "题库毛病：题 20360（D = 10、d = 3）与题 20385（D = 10、d = 2）的同轴电缆图只给出两个直径（编织网内径 D 与内导体直径 d），没有注明介质常数 ε。官方题解自己承认了这一点（题 20360 的 commentaire 原文：«si le diélectrique est de l'air, ce qui n'est pas indiqué dans le schéma»），并按空气（ε = 1）作答：Z = 138 · log₁₀(D/d)。\n· 题 20360：Z = 138 · log₁₀(10/3) = 138 × 0,5229 ≈ 72 Ω（答案 D）。\n· 题 20385：Z = 138 · log₁₀(10/2) = 138 × 0,699 ≈ 96 Ω（答案 C）。\n若按教材常用的 PE（ε = 2,3）算，题 20360 得 (138/√2,3) × 0,5229 ≈ 48 Ω，不在选项中，可见「未注明介质」时命题人的默认口径就是空气。\n带介质的一般式（题库题 20787 给出实例：ε = 4、D/d = 5 ⇒ Z = 48 Ω）：\\(Z(\\Omega) = \\dfrac{138}{\\sqrt{\\varepsilon}} \\cdot \\log_{10}(D/d)\\)，它来自原文 §10.2b 的 \\(\\sqrt{\\mu_0/\\varepsilon_0}/(2\\pi\\sqrt{\\varepsilon})\\cdot\\ln(D/d)\\)，其中 60 · ln(10) = 138,2。\n作答口径：题面未注明 ε 时一律取 ε = 1（空气）。",
+  "source": "题库题 20360、20385（含官方 commentaire）、题 20787；PDF §10.2b（p.85）",
+  "note": "判定为题库缺陷（题图/题干缺介质信息），不是教材漏译；做题按官方题解口径 ε = 1。"
+ },
+ "P42": {
+  "verdict": "resolved",
+  "answer": "工程上普遍选 50 Ω 而不是 75 Ω，理由是「最大功率容量 ↔ 最小损耗」之间的折中，源头是 Bell 实验室 1929 年前后的实验结论：对空气介质同轴电缆，30 Ω 时功率容量最大（Maximum power handling）、77 Ω 时衰减最小（Minimum attenuation）、60 Ω 时耐压最高。30 Ω 与 77 Ω 的几何平均 \\(\\sqrt{30 \\times 77} \\approx 48\\) Ω，算术平均约 53,5 Ω，取整即业界通行的 50 Ω；而对 PE 等常见实心介质的电缆，最低损耗点会从 77 Ω 降到 52～64 Ω，50 Ω 更接近最优，于是 50 Ω 成为兼顾两者的标准。75 Ω 主要留给视频／广播与有线电视（那里最看重低衰减和低成本），300 Ω 用于平行双线（电视天线）。\n原文口径：§10.2b 只给出 \\(Z = \\dfrac{138}{\\sqrt{\\varepsilon}} \\cdot \\log_{10}(D/d)\\) 的来历（60 · ln(10) = 138,2）、损耗来源（R2 集肤效应、R1 介质)与速度系数，以及唯一算例「PE 介质、编织网/内导体直径比 3,5 时 Z = 50 Ω」（(138/√2,3) × log₁₀3,5 ≈ 49,5 Ω ≈ 50 Ω），并未解释为何选 50 Ω。",
+  "source": "https://en.wikipedia.org/wiki/Coaxial_cable（Bell Labs 1929：77 Ω 低衰减、60 Ω 高耐压、30 Ω 大功率；算术平均 53,5 Ω、几何平均 48 Ω）；https://www.microwavejournal.com/articles/9169-choosing-the-optimal-high-frequency-coaxial-cable；PDF §10.2b（原文无此解释）",
+  "note": "原文确实没写这个理由（已逐字核对 PDF §10.2 与 HTML §10.2/T102b），本条内容属外部查证；若只需教材口径，写「50 Ω 是功率容量与损耗之间的折中」即可。"
+ },
+ "P43": {
+  "verdict": "resolved",
+  "answer": "§11.3 原文完整内容（PDF §11.3a–b，p.90）如下，截断处之后的续文：\n定义：镜像频率（Fim）是用「相反的混频方式」（例如以和频代替用来生成 FI 的差频）得到的那个频率。\n原文算例：HF = 14 MHz、FO = 5 MHz、FI = 9 MHz。若输入 HF 滤波器质量差、放过了 4 MHz，则 4 MHz（Fim）与 5 MHz（FO）混频得到 9 MHz（4 + 5 = 9），即中频；于是两个信号同时出现在 FI 级，在该级已无法分开。Fim 由 2·FO 或 2·FI 算出，分四种情形：\n\n| 接收机 | 条件 | 中频 | Fim | 等价写法 |\n| --- | --- | --- | --- | --- |\n| 低外差 infradyne | FO < HF | FI = HF – FO | \\|2·FO – HF\\| | \\|2·FI – HF\\| |\n| 低外差 infradyne | FO < HF | FI = HF + FO | 2·FO + HF | 2·FI – HF |\n| 高外差 supradyne | FO > HF | FI = FO – HF | 2·FO – HF | 2·FI + HF |\n| 高外差 supradyne | FO > HF | FI = HF + FO | 2·FO + HF | 2·FI – HF |\n\n原文算例续（本例如上，低外差且 FI = HF – FO）：Fim = \\|(2 × 5) – 14\\| = \\|(2 × 9) – 14\\| = 4 MHz。\n§11.3b 抑制办法：宽覆盖接收机采用双变频，第一中频取很高（100 MHz 以上），把镜像频率推得很远、便于输入滤波；第二中频固定在 500 kHz 附近，便于使用便宜的滤波器或数字处理。\n另附第 11 章章末小结表（原文照抄）：\n\n| 系统 | FO/HF | FI = | 频谱折叠 | HF 与 FI | 提高接收频率时 | Fim | 等价式 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 低外差 infradyne | FO<HF | HF+FO | 无 | HF<FI | 减小 FO | 2·FO + HF | 2·FI – HF |\n| 低外差 infradyne | FO<HF | HF–FO | 有 | HF>FI | 增大 FO | \\|2·FO – HF\\| | \\|2·FI – HF\\| |\n| 高外差 supradyne | FO>HF | FO+HF | 无 | HF<FI | 减小 FO | 2·FO + HF | 2·FI – HF |\n| 高外差 supradyne | FO>HF | FO–HF | 有 | HF>FI | 增大 FO | 2·FO – HF | 2·FI + HF |\n\nHF = 接收频率，FO = 本机振荡频率，FI = 中频，Fim = 镜像频率。",
+  "source": "PDF §11.3a–b（p.90）与第 11 章章末小结表（p.99）；可与题库题 20213、20465、20888、21207、22473 的答案逐条对上",
+  "note": "原分块恰在 §11.3 的第一句定义之后被切断；以上是同一节 §11.3a 的续文，属教材下一分块的内容，可直接补入正文。"
+ },
+ "P44": {
+  "verdict": "resolved",
+  "answer": "§11.5 原文确实只写：话筒 → 调制器（必然内含一个 HF 振荡器，并按 BF 的节拍改变 HF 信号）→ 抗谐波低通滤波器（filtre anti-harmonique passe-bas，避免非必要辐射）→ 天线插座（与接收机合成收发信机时共用天线与本机振荡器）→ 收发切换装置（开关、机电继电器或开关二极管）。原文没有出现 étage tampon、excitateur、adaptation d'antenne 这些名称。\n但这个「缺口」原文自己在 §7.3b 解释过：「有一种专门的级叫隔离级／缓冲级（séparateur，也叫 tampon），用来匹配两级之间的功率电平、电压电平和／或阻抗；在框图（synoptique，见 §11）中，这种纯技术性的级常常不画出来，因为它不参与整机的工作原理逻辑。」所以 §11.5 的发射机框图不列缓冲级（étage tampon / séparateur）是与原文一致的，不需要补，也不能据其它资料硬加。\n天线匹配／耦合不在 §11.5，而在 §10.3b（boîte de couplage 即耦合盒／匹配盒，由 π 型或 T 型滤波器构成，插在发射机与馈线之间，既限制反射功率又完成阻抗匹配）以及 §9（balun 平衡转换器、λ/4 线等 adaptation d'impédance 的手段）。术语 excitateur（激励级／驱动级）在原文全文从未出现过，法文原书用的是 séparateur / tampon；题库里对应的也正是 «séparateur»（如题 20652 的 BLU 发射机框图）。",
+  "source": "PDF §11.5（p.90）+ §7.3b（p.71）+ §10.3b（p.86）+ §9；题库题 20652、20806、20889",
+  "note": "可以放心按原文作答，不要引入原文没有的级名；若要谈「天线匹配网络」，请按原文写 boîte de couplage / système d'adaptation d'impédance，而不是 adaptation d'antenne（原文无此说法）。"
+ },
+ "P45": {
+  "verdict": "resolved",
+  "answer": "AM 的占用带宽 \\(B(Hz) = 2 \\times BF_{maxi}\\)（最高调制频率的两倍）。\n推导（原文自身的表述）：AM 的频谱是载波加两条边带 HF + BF 与 HF – BF（§12.1c：「on retrouve la porteuse au centre et deux bandes latérales」，§12.6a：「porteuse + BF et porteuse – BF」）；BF 由最低铺到最高，所以整段频谱宽度 = (HF + BFmaxi) – (HF – BFmaxi) = 2 · BFmaxi。\n原文里的数值印证：法规模拟题解（PDF 第 181 页，Série 40 第 3 题）说 14 000 kHz 上发 A3E 会越界，理由是「若 BF 带宽为 3 kHz，发射占据 13 997 至 14 003」（13,997～14,003 MHz），即 6 kHz = 2 × 3 kHz；这与 §R-1.3b 的法定上限「28 MHz 以下 6 kHz」正好吻合（现行的 6 kHz 上限就是按常规话务 BF 上限 3 kHz、AM 双边带推出来的）。\n例：常规话务 BF 300–3000 Hz ⇒ AM 占用带宽 = 2 × 3000 = 6000 Hz = 6 kHz；同样 BF 下 BLU 只发一条边带，约 3 kHz（题库常用 2,4 kHz：BF 300–2700 Hz，前缀码 2K40J3E）。",
+  "source": "PDF §12.1c（p.92）、§12.6a、§12.4e（p.95）、§R-1.3b（p.15）与第 181 页 Série 40 第 3 题题解",
+  "note": "公式在 §12.3 原文中确实没有印出，但它由原文的频谱描述直接推得，官方题解里有 3 kHz → 6 kHz 的数值印证；做题时 BFmaxi 取话务上限（通常 3 kHz）。"
+ },
+ "P46": {
+  "verdict": "resolved",
+  "answer": "调制指数 m < 1（窄带 FM，NBFM）时应使用的替换公式就是 AM 的带宽公式：\\(B \\approx 2 \\times BF_{maxi}\\)。\n三条依据：\n1) 原文 §12.4e 自己说：m 降到 1 以下时，带宽「s'écarte de la règle de Carson et se rapproche de celle de l'AM (largeur des deux bandes latérales)」——即向 AM 的带宽（两条边带的宽度）靠拢；而 AM 带宽 = 2 × BFmaxi（§12.1c/§12.6a，见本教材 §12.3 一条）。\n2) 数学上它就是卡森规则的极限：\\(B = 2(m+1)\\cdot BF_{maxi}\\)，当 m → 0 时 B → 2 · BFmaxi；m < 1 时该式给出 2·BFmaxi < B < 4·BFmaxi，工程上取窄带近似 B ≈ 2 · BFmaxi（m ≪ 1 时只保留载波与一次边带，故带宽 = 2·fm）。\n3) 外部印证：窄带调频（调制指数 h ≪ 1）的带宽约为 2·fm，fm 为最高调制频率。\n例：BFmaxi = 3 kHz、频偏 (±ΔF) = 1,5 kHz ⇒ m = 0,5 < 1，取 B ≈ 2 × 3 = 6 kHz（若用卡森公式得 9 kHz，属偏大的上限）。\n因此小结表可写成：「m ≥ 1 ⇒ B = 2(m + 1) · BFmaxi（卡森规则，含 98% 功率）；m < 1（NBFM）⇒ B ≈ 2 × BFmaxi，即等于 AM 带宽」。",
+  "source": "PDF §12.4e（p.95）+ §12.1c/§12.6a；https://en.wikipedia.org/wiki/Frequency_modulation（Modulation index：h ≪ 1 时带宽约 2·fm）；https://en.wikipedia.org/wiki/Carson_bandwidth_rule",
+  "note": "原文没有印出这个替换公式（只写了「向 AM 带宽靠拢」），以上是原文表述 + AM 带宽关系的直接推论，也是卡森公式 m→0 的极限；若考试出现窄带 FM 带宽题，仍以官方题解口径为准。"
+ },
+ "P47": {
+  "verdict": "not_in_source",
+  "answer": "§12.6 原文确实没有各类发射占用带宽的法定上限——法定上限属法规章 §R-1.3b（原书 p.15，依 décision ARCEP 12-1241 附件 3）。原文照抄：\n\n| 频率范围 | 最大占用带宽 |\n| --- | --- |\n| 28 MHz 以下 | 6 kHz |\n| 28–144 MHz（即 28 与 50 MHz 段） | 12 kHz |\n| 144–225 MHz | 20 kHz |\n| 225 MHz 以上 | 无限制 |\n\n并附原文要求：「在选定发射类别时，凡技术上与操作上可行的范围内，应尽力减小占用带宽」（décision 12-1241 前言 §3，援引 RR 第 S15.9 条）。\n另：12-1241 之前的旧口径（§R-1.3 开头提到）是「FM 最大占用带宽：30 MHz 以下 6 kHz，30 MHz 以上 15 kHz」，题库里若干旧题（如 20433、34812）仍按旧口径出题，注意甄别。\n所以 §12.6 的表应保持「各方式的频谱构成关系」比较（CW 最窄、AM = 载波 + 两条边带、BLU 只有一条边带、FM 为连续谱），并补一行交叉引用：「各类发射占用带宽的法定上限见 §R-1.3b」。",
+  "source": "PDF §R-1.3b 与 §R-1.3 开头（p.15）；题库题 30039、30160、31006、31007、32560、20433、34812",
+  "note": "判为 not_in_source：数值不在 §12.6 原文，须引 §R-1.3b。附带说明：原文 §12.6 也没有明确写出 CW 与 AM 的具体带宽数值（CW「最窄」、AM = 2 × 最高调制频率 = 6 kHz 均为推算）。"
+ }
+}

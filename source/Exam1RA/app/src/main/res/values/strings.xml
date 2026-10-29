@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Exam\'1 Radioamateur</string>
+    <string name="chose_thema">Choix des thèmes</string>
+
+    <string name="legislation">Législation</string>
+    <string name="technique">Technique</string>
+
+    <string name="theme_codeQ">Abréviations en code Q</string>
+    <string name="theme_adaptation">Adaptation, ROS, affaiblissement linéique, calcul</string>
+    <string name="theme_antennes">Caractéristiques des antennes, longueur d\'onde-fréquence</string>
+    <string name="theme_emission">Définition et autorisation des classes d’émission</string>
+    <string name="theme_cem">Gammes d’onde, décibels, CEM, protection</string>
+    <string name="theme_indicatifs">Indicatifs d\'appel français et préfixes européens</string>
+    <string name="theme_entrainement">Fréquences et puissances autorisées"</string>
+    <string name="theme_sanctions">Sanctions, examen, perturbation, bande passante</string>
+    <string name="theme_epellation">Table d\'épellation internationale</string>
+    <string name="theme_messages">Teneur des messages, matériel obligatoire, exposition</string>
+
+    <string name="theme_lignes">Antennes, couplage, propagation, ligne de transmission</string>
+    <string name="theme_resistancesCouleurs">Code des couleurs des résistances</string>
+    <string name="theme_condoBob">Condensateurs et bobines (séparés)</string>
+    <string name="theme_alternatif">Courants alternatifs</string>
+    <string name="theme_ampli">Diodes et transistors, classes d\'amplification</string>
+    <string name="theme_electricite">Électricité de base</string>
+    <string name="theme_resistancesGroupes">Groupements de résistances</string>
+    <string name="theme_etagesRF">Rôle des différents étages RF, haut-parleur, micro</string>
+    <string name="theme_synoptiques">Synoptiques d\'émetteurs et de récepteurs</string>
+    <string name="theme_transfo">Transformateurs, ampli op, filtres RC LC RLC</string>
+
+    <string name="commencer">Commencer</string>
+    <string name="tout_cocher">Tout cocher</string>
+    <string name="tout_decocher">Tout décocher</string>
+
+    <string name="reglages">Réglages</string>
+    <string name="nbr_de_questions">Nombre de questions</string>
+    <string name="show_responses">Afficher les réponses</string>
+    <string name="show_comments">Afficher les commentaires</string>
+    <string name="auto_next_Q">Question suivante automatiquement</string>
+    <string name="malus">Malus pour les mauvaises reponses</string>
+    <string name="timer_onOff">Activer le chronomètre</string>
+    <string name="tps_lim">Temps limite</string>
+    <string name="min">min</string>
+    <string name="num20">20</string>
+    <string name="chargementEnCours">Chargement en cours…</string>
+
+    <string name="numQ_invalid">Entrez un nombre de question valide</string>
+
+    <string name="remerciement">Remerciements</string>
+    <string name="opensource">Licences open source</string>
+    <string name="syncroQ">Mise à jour des questions</string>
+
+    <string name="F6KGL">Le radioclub F6KGL-F5KFF</string>
+    <string name="qsl_F6KGL">carte QSL de F6KGL-F5KFF</string>
+    <string name="remerciement_F6GPX">Avec Jean-Luc F6GPX qui met à jour la base de questions en plus de publier un
+        cours complet sur internet pour passer l\'examen
+    </string>
+    <string name="remerciement_autres">Et bien d\'autres…</string>
+    <string name="remerciement_F4HHV">Valentin F4HVV pour sa version web</string>
+    <string name="remerciement_F5AXG">René F5AXG pour la version PC</string>
+
+    <string name="licences">Licences</string>
+    <string name="licence_Exam1">© Maxime F4IQN 2020–2026</string>
+    <string name="licence_gnuV3">This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.\n
+
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+        GNU General Public License for more details.\n
+
+        You should have received a copy of the GNU General Public License
+        along with this program. If not, see https://www.gnu.org/licenses/.
+    </string>
+    <string name="licence_materialIcons">Google material design icons</string>
+    <string name="licence_apache">Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+        https://www.apache.org/licenses/LICENSE-2.0
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    </string>
+    <string name="MPChart">MPAndroidChart</string>
+    <string name="C_MPChart">© 2020 Philipp Jahoda</string>
+
+    <string name="next">Suivant</string>
+    <string name="prev">Précédent</string>
+    <string name="aide">Aide</string>
+    <string name="cours">Cours</string>
+    <string name="del_resp">Effacer la réponse</string>
+    <string name="reponse">Réponse</string>
+    <string name="terminer">Terminer l\'examen</string>
+
+    <string name="resultats">Résultats</string>
+    <string name="exam_Conclu">Nombre de points obtenus pour les %1$d questions</string>
+    <string name="questions">questions</string>
+    <string name="ptsBonneRep">3 points par bonnes réponses</string>
+    <string name="ptsRepVide">0 point pour les réponses vides</string>
+    <string name="ptsRepMauvaise">0 point par mauvaises réponses</string>
+    <string name="examReussi">Examen réussi !</string>
+    <string name="examRate">Examen raté :(</string>
+    <string name="listeQuestions">Liste des questions</string>
+
+    <string name="totalLeg">Total legislation : %1$d</string>
+    <string name="totalTech">Total technique : %1$d</string>
+    <string name="temps">Temps : %1$s</string>
+
+    <string name="corrects">Corrects : %1$d</string>
+    <string name="incorrects">Incorrect : %1$d</string>
+    <string name="ss_Rep">Sans réponse : %1$d</string>
+    <string name="total">Total : %1$d / %2$d</string>
+
+    <string name="gotoHome">Retourner au menu principal</string>
+
+    <string name="question">Question</string>
+
+
+    <string name="downloadQ">Téléchargement des questions</string>
+    <string name="downloadImg">Téléchargement des images ~30Mo. Cela peut prendre beaucoup de temps…</string>
+    <string name="downloadQuestion">Téléchargement des question</string>
+    <string name="downloadCours">Téléchargement du cours de F6KGL</string>
+    <string name="unzipProcess">Décompression en cours</string>
+    <string name="bddGen">Génération de la base de données</string>
+    <string name="ajust">Derniers ajustements</string>
+    <string name="errorCode">Un erreur s\'est produite: code %1$b/%2$b/%3$b</string>
+
+    <string name="pbConnect">Verifiez votre connexion et redémarrez l\'application</string>
+    <string name="pbRestart">Verifiez s\'il reste du stockage disponible (70Mo) puis essayez de redémarrer
+        l\'application ou contactez le développeur si le problème persiste
+    </string>
+
+    <string name="stopExam">Arrêter l\'examen</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+    <string name="gotoCours">site de F6KGL</string>
+    <string name="gotoVideo">vidéos de F6KGL</string>
+
+    <string name="newVersion">Nouveautés de la version</string>
+    <string name="nouvautés">* Maj de l\'interface en Material design\n* Corrections de bugs
+    </string>
+
+
+    <string name="htmlCours">Cour HTML</string>
+    <string name="downloadFailed">Échec du téléchargement</string>
+    <string name="retry">Réessayer</string>
+    <string name="QmoreInfo">Détail des questions</string>
+
+</resources>

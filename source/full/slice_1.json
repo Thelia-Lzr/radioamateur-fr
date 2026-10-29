@@ -1,0 +1,3122 @@
+[
+ {
+  "num": "10001",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 23 CMS EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "430 à 440 MHz",
+   "50,200 à 51,200 MHz",
+   "1240,000 à 1260,000 MHz",
+   "1240,000 à 1300,000 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1240,000 à 1300,000 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10002",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+  "options": [
+   "14,450 MHz",
+   "24,990 MHz",
+   "29,700 kHz",
+   "438 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "24,990 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10003",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 28,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "10,100 à 10,150 MHz",
+   "28,000 à 29,700 MHz",
+   "28,000 à 28,450 MHz",
+   "28,000 à 29,500 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "28,000 à 29,700 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10004",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "RETROUVEZ LES LIMITES D'UNE BANDE PARTAGEE EN EXPLOITATION SECONDAIRE EN\nREGION 1 ?",
+  "options": [
+   "1,830 à 1,850 MHz",
+   "28,000 à 29,700 MHz",
+   "10,100 à 10,150 MHz",
+   "14,000 à 14,350 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10,100 à 10,150 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10005",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+  "options": [
+   "14,350 MHz",
+   "21,350 kHz",
+   "50,200 MHz",
+   "420,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "14,350 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10006",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+  "options": [
+   "14,450 MHz",
+   "21 350 kHz",
+   "50,000 MHz",
+   "420,000 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50,000 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10007",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 14 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "14,000 à 14,300 MHz",
+   "14,000 à 14,350 MHz",
+   "350 kHz",
+   "Cette bande n'est pas attribuée au service amateur"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Cette bande n'est pas attribuée au service amateur",
+  "commentaire_fr": "Ne pas confondre la longeur d'onde (en mètres) et la fréquence (en MHz). Bien lire les questions pour détecter les pièges ! \n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10008",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 70 CENTIMETRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "434,000 à 440,000 MHz",
+   "430,000 à 440,000 MHz",
+   "430,000 à 435,000 MHz",
+   "432,000 à 444,000 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "430,000 à 440,000 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10010",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 80 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "3,500 à 3,750 MHz",
+   "3,500 à 3,600 MHz",
+   "3,500 à 3,800 MHz",
+   "3,500 à 3,900 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "3,500 à 3,800 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10011",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 50,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "50,000 à 54,000 MHz",
+   "50,200 à 51,200 MHz",
+   "51,000 à 51,200 MHz",
+   "50,000 à 52,000 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "50,000 à 52,000 MHz",
+  "commentaire_fr": "Les limites 50,2-51,2 MHz sont celles antérieures à la décision 12-1241 qui a autorisé l'ensemble de la bande sans restrictions. Les limites 50-54 MHz sont celles des régions 2 et 3. ",
+  "anchor": "R21d"
+ },
+ {
+  "num": "10012",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 144,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "144,000 à 146,000 MHz",
+   "144,000 à 148,000 MHz",
+   "145,000 à 146,000 MHz",
+   "144,000 à 145,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "144,000 à 146,000 MHz",
+  "commentaire_fr": "En région 2 (dont la France Métropolitaine ne fait pas partie), les limites de la bande sont 144-148 MHz sauf aux opérateurs de classe 3 qui sont autorisés comme en Métropole. ",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10013",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 40 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "7,000 à 7,100 kHz",
+   "7,020 à 7,100 MHz",
+   "7,000 à 7,200 MHz",
+   "7,000 à 7,100 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "7,000 à 7,200 MHz",
+  "commentaire_fr": "Attention à ne pas confondre la virgule décimale et le point se séparation des milliers.\nPour trouver la fréquence, il faut divisé 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10014",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 30 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "30,000 à 31,150 MHz",
+   "10,100 à 10,150 MHz",
+   "10,000 à 10,150 MHz",
+   "10,000 à 10,200 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10,100 à 10,150 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut divisé 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION\n",
+  "anchor": "R21b."
+ },
+ {
+  "num": "10015",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 430,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "434,000 à 440,000 MHz",
+   "430,000 à 440,000 MHz",
+   "434,000 à 435,000 MHz",
+   "430,000 à 435,000 MHz "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "430,000 à 440,000 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10016",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 160 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1,800 à 1,850 MHz",
+   "1,810 à 1,850 MHz",
+   "1,830 à 1,850 MHz",
+   "1,800 à 2,000 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1,810 à 1,850 MHz",
+  "commentaire_fr": "En région 2 (dont la France Métropolitaine ne fait pas partie), les limites de la bande sont 1,8 à 2,0 MHz.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10017",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 1240,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1240,00 à 1300,00 GHz",
+   "1200,00 à 1300,00 MHz",
+   "1240,00 à 1300,00 MHz",
+   "1240,00 à 1280,00 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1240,00 à 1300,00 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10018",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 20 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "14,000 à 14,350 MHz",
+   "14,000 à 14,450 MHz",
+   "14,100 à 14,350 MHz",
+   "14,000 à 14,250 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "14,000 à 14,350 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10019",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 17 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "17,000 à 17,168 MHz",
+   "18,068 à 18,268 MHz",
+   "18,068 à 18,168 MHz",
+   "18,000 à 18,350 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "18,068 à 18,168 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10020",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 15 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "21,000 à 21,450 MHz",
+   "21,000 à 21,350 MHz",
+   "21,000 à 21,250 MHz",
+   "21,000 à 21,450 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "21,000 à 21,450 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10021",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 1,8 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1,810 à 1,850 MHz",
+   "1,800 à 1,850 MHz",
+   "1,830 à 1,850 MHz",
+   "1,810 à 2,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1,810 à 1,850 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10023",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 12 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "24,500 à 24,900 MHz",
+   "24,890 à 24,990 MHz",
+   "24,500 à 24950 MHz",
+   "12,000 à 12,350 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "24,890 à 24,990 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10024",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 3,5 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "3,500 à 3,850 MHz",
+   "3,500 à 3,800 MHz",
+   "3,500 à 3,750 MHz",
+   "3,750 à 3,850 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "3,500 à 3,800 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10025",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 10 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "10,100 à 10,150 MHz",
+   "28,000 à 29,500 MHz",
+   "28,000 à 29,700 MHz",
+   "28,000 à 28,450 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "28,000 à 29,700 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10026",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 7,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "7,000 à 7,200 MHz",
+   "7,000 à 7,100 MHz",
+   "7,000 à 7,300 MHz",
+   "7,000 à 7,400 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "7,000 à 7,200 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10027",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 10,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "28,000 à 29,700 MHz",
+   "10,000 à 10,150 MHz",
+   "28,000 à 29,500 MHz",
+   "10,100 à 10,150 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10,100 à 10,150 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10028",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 14,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "14,000 à 14,350 MHz",
+   "14,000 à 14,250 MHz",
+   "14,000 à 14,450 MHz",
+   "14,000 à 14,300 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "14,000 à 14,350 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10029",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 6 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "6,000 à 6,600 MHz",
+   "50,000 à 51,200 MHz",
+   "50,000 à 52,000 MHz",
+   "50,200 à 51,200 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50,000 à 52,000 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10030",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 18,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "18,000 à 18,250 MHz",
+   "18,068 à 18,168 MHz",
+   "18,068 à 18,268 MHz",
+   "18,000 à 18,168 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "18,068 à 18,168 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10031",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 21,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "21,000 à 21,450 kHz",
+   "21,000 à 21,350 MHz",
+   "21,000 à 21,450 MHz",
+   "21,000 à 21,700 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "21,000 à 21,450 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10032",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 2 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "144,000 à 146,000 MHz",
+   "144,000 à 148,000 MHz",
+   "144,500 à 145,500 MHz",
+   "144,000 à 150,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "144,000 à 146,000 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10034",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 24,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "24,890 à 24,990 MHz",
+   "24,500 à 24,900 MHz",
+   "24,000 à 24,350 MHz",
+   "24,000 à 24,450 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "24,890 à 24,990 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10036",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 30 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "100 kHz",
+   "50 kHz",
+   "150 kHz",
+   "350 kHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10037",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 80 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "3,500 à 3,800 MHz",
+   "300 MHz",
+   "300 kHz",
+   "3,500 à 3,850 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "300 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10038",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 40 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "100 kHz",
+   "200 kHz",
+   "100 MHz",
+   "7,000 à 7,200 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "200 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10039",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 20 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "14,000 à 14,350 MHz",
+   "350 kHz",
+   "450 kHz",
+   "14,000 à 14,450 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "350 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10040",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 1240,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "6 MHz",
+   "23 centimètres",
+   "60 kHz",
+   "60 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "60 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10041",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 17 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "18,068 à 18,168 MHz",
+   "100 kHz",
+   "18 068 à 18 168 kHz",
+   "200 kHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10042",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 430,00 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "10 kHz",
+   "100 kHz",
+   "10 MHz",
+   "0,7 mètres"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10043",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 23 CMS EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "60 MHz",
+   "60 kHz",
+   "1240,000 à 1300,000 MHz",
+   "1260,000 à 1300,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "60 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10044",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 144,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1 MHz",
+   "2 MHz",
+   "2 mètres",
+   "144,000 à 146,000 kHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10045",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 50,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "2000 kHz",
+   "10 MHz",
+   "6 mètres",
+   "0,2 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "2000 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10046",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 15 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "350 kHz",
+   "21,000 à 21,450 MHz",
+   "450 kHz",
+   "21,000 à 21,350 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "450 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10047",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 28,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "28,000 à 29,700 MHz",
+   "1700 MHz",
+   "1,7 MHz",
+   "10 mètres"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1,7 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10048",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 12 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "24,000 à 25,000 MHz",
+   "100 kHz",
+   "24,890 à 29,990 MHz",
+   "24,890 à 24,990 kHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10049",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 24,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "100 kHz",
+   "1 MHz",
+   "10 MHz",
+   "1000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10050",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 21,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "450 kHz",
+   "21 mètres",
+   "15 mètres",
+   "21,000 à 21,450 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "450 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10051",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 10 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1,7 MHz",
+   "1700 Hz",
+   "28,000 à 29,700 MHz",
+   "28,000 à 29,700 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1,7 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10052",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 6 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "50,000 à 52,000 MHz",
+   "2 MHz",
+   "50,000 à 51,200 MHz",
+   "6 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10053",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 18,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "200 kHz",
+   "100 MHz",
+   "17 mètres",
+   "100 kHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10054",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 14,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "350 kHz",
+   "20 mètres",
+   "14,000 à 14,450 MHz",
+   "450 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "350 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10055",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 2 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1 MHz",
+   "2 MHz",
+   "144,000 à 146,000 MHz",
+   "144,000 à 148,000 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10056",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 10,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "150 kHz",
+   "30 mètres",
+   "10,100 à 10,150 MHz",
+   "50 kHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "50 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10057",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 7,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "40 mètres",
+   "7,000 à 7,100 MHz",
+   "200 kHz",
+   "100 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "200 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10058",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 70 CMS EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "434,000 à 435,000 MHz",
+   "430,000 à 440,000 MHz",
+   "10 MHz",
+   "6 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10059",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 3,5 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "400 kHZ",
+   "300 kHz",
+   "80 mètres",
+   "3,500 à 3,800 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "300 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "10060",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 1,8 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "40 kHz",
+   "160 mètres",
+   "20 kHz",
+   "100 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "40 kHz",
+  "commentaire_fr": "La bande va de 1,810 à 1,850 MHz en région 1. Les limitres sont différentes en région 2 et 3 (respectivement 1,800-2,000 et 1,830-2,000 MHz).\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "20002",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULES EXACTES : 1) U = RACINE(P*R) ; 2) Q = I/T ; 3) W = C*U2 ; 4) P = P/I2",
+  "options": [
+   "1, 2 et 3",
+   "1 et 4 ",
+   "3 et 4",
+   "1 et 2"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1 et 4 ",
+  "commentaire_fr": "Les formules exactes sont : \nQ = I x t\nW (ou E) = ½ x C x U²\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20003",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULES EXACTES",
+  "options": [
+   "Imax = Ieff / √ 2",
+   "P = √ (R x I)",
+   "P = U² / R",
+   "W = R x I x t "
+  ],
+  "ans_idx": 2,
+  "ans_fr": "P = U² / R",
+  "commentaire_fr": "Les formules exactes sont : \nP = R I² \nImax = Ieff x √ 2\nW = U x I x t (ou W = R x I² x t)\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20009",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE PAR R",
+  "options": [
+   "27,3 mW ",
+   "1,636 W",
+   "36,6 W",
+   "164 mW"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "164 mW",
+  "commentaire_fr": "P = U² / R = 6 x 6 / 220 = 0,1636 W = 164 mW (arrondi)\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20010",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE PAR R",
+  "options": [
+   "60 mW ",
+   "100 W",
+   "10 mW",
+   "16,7 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "60 mW ",
+  "commentaire_fr": "P = U² / R = 6 x 6 / 600 = 0,06 W = 60 mW\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20011",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE PAR R",
+  "options": [
+   "50 W ",
+   "5 W",
+   "500 mW",
+   "50 mW"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "5 W",
+  "commentaire_fr": "P = U x I = 100 x 0,05 = 5 W\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20013",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE PAR R",
+  "options": [
+   "270 mW",
+   " 27 W",
+   "2,7 W",
+   "270 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2,7 W",
+  "commentaire_fr": "P = RI² = 27000 x 0,01 x 0,01 = 2,7 W\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20014",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "TENSION AUX BORNES DE LA PILE",
+  "options": [
+   "500 mV",
+   " 2,5 V",
+   "50 V",
+   "5 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "5 V",
+  "commentaire_fr": "U = R x I = 100 x 0,05 = 5\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20015",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "TENSION AUX BORNES DE LA PILE ?",
+  "options": [
+   "83,3 V",
+   "12 V",
+   "120 V ",
+   "14,4 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "120 V ",
+  "commentaire_fr": "U = R x I = 1200 x 0,1 = 120 V \n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20016",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA PUISSANCE DISSIPEE",
+  "options": [
+   "3,93 W",
+   "6,35 W",
+   "31,75 W",
+   "63,5 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "63,5 W",
+  "commentaire_fr": "P = U x I = 127  x 0,5  = 63,5 W\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20018",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "TENSION AUX BORNES DE LA PILE ?",
+  "options": [
+   "6 V ",
+   "12 V",
+   "2400 V",
+   "0,3V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "6 V ",
+  "commentaire_fr": "U = R x I = 120 x 0,05 = 6 V\n",
+  "anchor": "T012"
+ },
+ {
+  "num": "20019",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA QUANTITE D'ELECTRICITE",
+  "options": [
+   " 1,4  Ah",
+   "1125 C",
+   "675 C",
+   "250 C"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1125 C",
+  "commentaire_fr": "Q = 7,5A x 150 s = 1125 C. La valeur de R n'a pas à être connue et la fém de la pile ne sert à rien.\n",
+  "anchor": "T013a"
+ },
+ {
+  "num": "20023",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "1,47 MΩ",
+   "14,7 MΩ",
+   "147 kΩ",
+   "320 kΩ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1,47 MΩ",
+  "commentaire_fr": "470 kΩ = 0,47 MΩ ; RT = R1 + R2 = 1 + 0,47 = 1,47\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20024",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "100 Ω",
+   "1 kΩ",
+   "250 Ω",
+   "500 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1 kΩ",
+  "commentaire_fr": "RT = R1+ R2 = 470 Ω + 530 Ω = 1000 Ω = 1 kΩ\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20025",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "TENSION AUX BORNES DE LA RESISTANCE",
+  "options": [
+   "15 V ",
+   "20 V",
+   "5 V",
+   "50 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "5 V",
+  "commentaire_fr": "IR2 = 10 / 1000 = 0,01 ; UR1 = 500 x 0 ,01 = 5. Lorsque les résistances sont montées en série, les tensions aux bornes des résistances sont proportionnelles à leurs valeurs. R1 est deux fois plus petite que R2, la tension à ses bornes est deux fois moindre.\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20026",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "TENSION AUX BORNES R2",
+  "options": [
+   "6,87 V",
+   "27,13 V",
+   "15,13 V",
+   "12 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "15,13 V",
+  "commentaire_fr": "Répartition de la tension au pro-rata des résistances : UR2 = UT x [R2 / (R1 + R2)] = 22 x 3,3 / 4,8 = 15,13 V\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20027",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE R2",
+  "options": [
+   "5,6 kΩ",
+   "150 kΩ",
+   "56 kΩ",
+   "15 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "56 kΩ",
+  "commentaire_fr": "UR1 = UT – UR2 = 103 – 56 = 47 V ; IR1 = UR1 / R1 = 47 / 47000 = 0,001 = 1 mA ; R2 = UR2 / I = 56 / 0,001 = 56000 Ω = 56 kΩ\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20029",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "545 Ω",
+   "2200 Ω",
+   "5,45 kΩ",
+   "820 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "545 Ω",
+  "commentaire_fr": "produit / somme = (1200 x 1000) / (1200 + 1000) = 545 Ω\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20031",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "10 Ω",
+   " 47,5 Ω",
+   "15 Ω",
+   "6,3 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "15 Ω",
+  "commentaire_fr": "R// = (10 x 30) / (10 + 30) = 7,5 ; 7,5 + 7,5 = 15\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20032",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "447 Ω",
+   "87 Ω",
+   "41,6 Ω",
+   "416 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "87 Ω",
+  "commentaire_fr": "Résistance du groupement dérivation = 120 / 3 = 40. En association avec la première résistance : 40 + 47 = 87\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20033",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE",
+  "options": [
+   "1 Ω",
+   "133 Ω",
+   "199 Ω",
+   "111 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "111 Ω",
+  "commentaire_fr": "R// = 33 / 3 = 11 ; 100 + 11 = 111\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20034",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE RX",
+  "options": [
+   "5 kΩ",
+   "10  kΩ",
+   "7,5 kΩ",
+   "22,5 kΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10  kΩ",
+  "commentaire_fr": "Produit en croix : R = 15 x 2 / 3 = 10\n",
+  "anchor": "T018a"
+ },
+ {
+  "num": "20035",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE RX",
+  "options": [
+   "30 kΩ",
+   "10 kΩ",
+   "7,5 kΩ",
+   "15 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "15 kΩ",
+  "commentaire_fr": "Produit en croix : R = 8 x 7,5 / 4 = 15\n",
+  "anchor": "T018a"
+ },
+ {
+  "num": "20036",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE RX",
+  "options": [
+   "10 Ω",
+   "32,5 Ω",
+   "36 Ω",
+   "Impossible à  calculer"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10 Ω",
+  "commentaire_fr": "Produit en croix : R = 15 x 6 / 9 = 10\n",
+  "anchor": "T018a"
+ },
+ {
+  "num": "20037",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "CALCULER IR1",
+  "options": [
+   "3,05 A ",
+   "0,305 A",
+   "0,045 A",
+   "350 mA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,305 A",
+  "commentaire_fr": "I dans résistance de 2,2 kΩ : 100/2200 = 0,04545 A ; IR1 = IR – 0,04545 = 0,304545 arrondi à 0,305 A\n",
+  "anchor": "T018c"
+ },
+ {
+  "num": "20038",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "CALCULER IR1",
+  "options": [
+   "28 mA ",
+   "20 mA",
+   "10 mA",
+   "0,1 A"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 mA",
+  "commentaire_fr": "IR2 = UR2 / R2 = 24 / 1200 = 0,02 A = 20 mA. IR1 = IT – IR2 = 30 – 20 = 10 mA\n",
+  "anchor": "T018c"
+ },
+ {
+  "num": "20044",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA PULSATION D'UN SIGNAL DE 1000 HZ ?",
+  "options": [
+   "6280",
+   "628",
+   "0,001",
+   "6,28"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "6280",
+  "commentaire_fr": "Pulsation = 2 x p x F = 2 x 3,14 x 1000 = 6280\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20046",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA FREQUENCE D'UN SIGNAL DONT LA PERIODE DURE 500 MICROSECONDES ?",
+  "options": [
+   "4 kHz",
+   "200 Hz",
+   "20 000 Hz",
+   "2 kHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2 kHz",
+  "commentaire_fr": "500 µs = 0,000 5 secondes ; F = 1/t = 1 / 0,0005 = 2000 Hz = 2 kHz\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20047",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA FREQUENCE D'UN SIGNAL DE PERIODE 500 MILLISECONDES",
+  "options": [
+   "2 kHz",
+   "2 Hz",
+   "0,2 Hz",
+   "20 Hz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 Hz",
+  "commentaire_fr": "500 ms = 0,5 s ; F = 1/t = 1 / 0,5 = 2\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20048",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "DUREE D'UNE PERIODE D'UN SIGNAL DE FREQUENCE 10 KILOHERTZ ?",
+  "options": [
+   "0,001 seconde",
+   "10 µs",
+   "100 µs",
+   "10 ms"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100 µs",
+  "commentaire_fr": "t = 1/ F = 1 / 10000 = 0,0001 = 0,1 ms = 100 µs\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20049",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "DUREE D'UNE PERIODE D'UN SIGNAL DE FREQUENCE 10 HERTZ ?",
+  "options": [
+   "1 ms",
+   "10 ms",
+   "100 ms",
+   "0,01 seconde"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100 ms",
+  "commentaire_fr": "t = 1/ F = 1 / 10 = 0, 1 = 100 ms\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20053",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA DUREE D'UNE PERIODE D'UN SIGNAL DE 10 HERTZ ?",
+  "options": [
+   "1000 ms",
+   "10 ms",
+   "0,1 ms",
+   "100 ms"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "100 ms",
+  "commentaire_fr": "t = 1/ F = 1 / 10 = 0,1 s = 100 ms\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20054",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "FREQUENCE DU SIGNAL 5MS / DIVISION",
+  "options": [
+   "100 Hz ",
+   "25 Hz",
+   "50 Hz",
+   "200 Hz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50 Hz",
+  "commentaire_fr": "La période d’observation durait : 8 x 5 ms = 40 ms, il y avait 2 périodes, d’où 20 ms par période, d’où une fréquence de 50 Hz ( = 1 / 0,02)\n",
+  "anchor": "T022f"
+ },
+ {
+  "num": "20055",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "UN SIGNAL DE 100 HZ CORRESPOND A : \n1) UNE PERIODE DE 10 MILLISESONDES\n2) UNE LONGUEUR D'ONDE DE 300 KILOMETRES\n3) UNE PULSATION DE 628 RADIANS PAR SECONDES\n4) UNE PERIODE DE 100 SECONDES",
+  "options": [
+   "1, 2 et 3",
+   "1 et 2",
+   "2 et 4",
+   "1 et 3"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1 et 3",
+  "commentaire_fr": "1 – bonne réponse (1 /100 = 0,01 = 10 ms) ; \n2 - faux: la longueur d’onde correspondant à 100 Hz est de 3.000 km ; \n3 – bonne réponse : pulsation  = 2 x pi x F = 6,28 x 100 = 628 rad/s ; \n4 – faux, voir 1 (t = 10 ms)\n",
+  "anchor": ""
+ },
+ {
+  "num": "20056",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA VALEUR CRETE D'UN SIGNAL EFFICACE DE 12 VOLTS ?",
+  "options": [
+   "24 V",
+   "8,5 V",
+   "17 V",
+   "34 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "17 V",
+  "commentaire_fr": "12 x 1,414 = 17 V (réponse arrondie)\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20057",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "10 VOLTS EFFICACES, QUELE EST LA TENSION CRETE ?",
+  "options": [
+   "20 V",
+   "7,07 V",
+   "28,28 V",
+   "14,14 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "14,14 V",
+  "commentaire_fr": "Umax = Ueff x 1,414 = 14,14 Vmax\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20058",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "TENSION CRETE D'UN SIGNAL DE TENSION EFFICACE 5 V",
+  "options": [
+   "6 V",
+   "3,53 V  ",
+   "14,14 V",
+   "7,07 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "7,07 V",
+  "commentaire_fr": "Umax = Ueff x 1,414 = 7,07 V \n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20059",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "VALEUR EFFICACE D'UNE TENSION CRETE A CRETE 622 VOLTS ?",
+  "options": [
+   "220 V",
+   "311 V",
+   "439,8 V",
+   "879 V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "220 V",
+  "commentaire_fr": "Umax = Ucac / 2 = 622 / 2 = 311 \nUeff = Umax x 0,707 = 220 V(réponse arrondie)\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20061",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "VALEUR EFFICADE D'UNE TENSION CRETE A CRETE 96 V ?",
+  "options": [
+   "68 V ",
+   "34 V",
+   "136 V",
+   "272 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "34 V",
+  "commentaire_fr": "96 Vcàc = 48 Vmax ; 48Vmax x 0,707 = 33,94  arrondi à 34 Veff)\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20062",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "TENSION CRETE SIGNAL 20W COAXIAL 75 OHMS",
+  "options": [
+   "55 V ",
+   " 39 V",
+   "75 V",
+   "110 V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "55 V ",
+  "commentaire_fr": "U = √ (P x R) = √ (1500) = 39 Volts efficaces (valeur arrondie) = 55 Volts crête. \n\nEn considérant qu’il n’y a pas d’ondes stationnaires.\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20063",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "INTENSITE CRETE PUISSANCE 40 W COAXIAL 50 OHMS",
+  "options": [
+   "45 A ",
+   " 0,9 A",
+   "32 A",
+   "1,27 A"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1,27 A",
+  "commentaire_fr": "I = √ (P / R) = √ (40 / 50) = 0,9 A eff = 1,27 A crête (réponse arrondie).\nEn considérant qu’il n’y a pas d’ondes stationnaires.\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20066",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE DE CHARGE CONDENSATEUR",
+  "options": [
+   "1 et 2",
+   "1, 2 et 4",
+   "2, 3 et 4",
+   "1 et 4"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1 et 4",
+  "commentaire_fr": "La nature du matériau constituant les lames et la tension appliquée n’ont aucune incidence sur la valeur du condensateur.\n",
+  "anchor": "T023c3"
+ },
+ {
+  "num": "20067",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE CONDENSATEUR",
+  "options": [
+   "1, 2 et 3",
+   "2 et 3",
+   "2, 3 et 4",
+   "1, 3 et 4"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 et 3",
+  "commentaire_fr": "La fréquence et la puissance du signal n’ont aucune incidence sur la valeur d’un condensateur.\n",
+  "anchor": "T023c3"
+ },
+ {
+  "num": "20068",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE CONDENSATEUR",
+  "options": [
+   "2 et 4 ",
+   "1 et 3",
+   "3 et 4",
+   "1, 2 et 3"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "3 et 4",
+  "commentaire_fr": "Les propositions 3 et 4  signifient la même chose\n",
+  "anchor": "T023c3"
+ },
+ {
+  "num": "20071",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "ON DOUBLE LA DISTANCE QUI SEPARE LES ARMATURES D'UN CONDENSATEUR PLAN",
+  "options": [
+   "La capacité est divisée par 2 ",
+   "La capacité est quadruplée",
+   "La capacité ne change pas",
+   "La capacité est multipliée par 2"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "La capacité est divisée par 2 ",
+  "commentaire_fr": "",
+  "anchor": "T023c3"
+ },
+ {
+  "num": "20075",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE",
+  "options": [
+   "400 µF ",
+   "4,8 mF",
+   "480 µF",
+   "300 µF"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "300 µF",
+  "commentaire_fr": "1200 / 4 = 300\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20076",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE",
+  "options": [
+   "5,5 nF ",
+   "198 nF",
+   "33 nF",
+   "550 µF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "5,5 nF ",
+  "commentaire_fr": "33 / 6 = 5,5.\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20077",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE",
+  "options": [
+   "45 µF ",
+   "8,8 µF",
+   "88 µF",
+   "45 mF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "45 µF ",
+  "commentaire_fr": "Ceq = C1+C2 = 12 + 33 = 45\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20078",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE",
+  "options": [
+   "1500 pF ",
+   "333 pF",
+   "1,05 nF",
+   "501 nF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1500 pF ",
+  "commentaire_fr": "CT = C1 + C2 = 1500 pF ou 1,5 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20079",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE",
+  "options": [
+   "2 nF ",
+   " 0,5 nF",
+   "1250 pF",
+   "50 pF"
+  ],
+  "ans_idx": 1,
+  "ans_fr": " 0,5 nF",
+  "commentaire_fr": "C en // : 2 x 500 pF = 1 nF ; en série avec le condensateur de 1 nF : 1 nF / 2 = 0,5 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20082",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUE DOIT-ON RAJOUTER A UN CONDENSATEUR DE 20 PICOFARADS POUR OBTENIR 25 PICOFARADS ?",
+  "options": [
+   "ajouter un condensateur de 11 pF en parallèle ",
+   "ajouter un condensateur de 5 pF en série",
+   "ajouter un condensateur de 5 pF en parallèle",
+   "ajouter un condensateur de 11 pF en série"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "ajouter un condensateur de 5 pF en parallèle",
+  "commentaire_fr": "Pour augmenter la capacité équivalente, il faut ajouter un condensateur en parallèle.\nFormule : CT = C1 + C2\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20084",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "Z= ?",
+  "options": [
+   "227 Ω",
+   "0,000 227 Ω",
+   "22 mΩ",
+   "0,000 440 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,000 227 Ω",
+  "commentaire_fr": "Z = 1 / (2 x π x F x C) ou Z en ohms = 159 / F(MHz) / C(nF)  = 159 / 7 / 100 000 = 0,000 227\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20086",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "DEPHASAGE INTRODUIT PAR UN CONDENSATEUR ?",
+  "options": [
+   "180°",
+   "+ 90°",
+   "- 90°",
+   "pas de déphasage"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "- 90°",
+  "commentaire_fr": "La tension est en retard (-90°) par rapport l’intensité : il y a d’abord intensité puis tension\n",
+  "anchor": "T023h1"
+ },
+ {
+  "num": "20087",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUE SE PASSE-T-IL SI, SUR UNE BOBINE, ON DOUBLE LE NOMBRE DE SPIRES ?",
+  "options": [
+   "la valeur de la bobine est quadruplée ",
+   "la valeur de la bobine est doublée",
+   "la valeur de la bobine est divisée par 2",
+   "la valeur de la bobine est divisée par 4"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "la valeur de la bobine est quadruplée ",
+  "commentaire_fr": "Ceci est vrai si on ne change pas la forme de la bobine, ce qui est difficilement réalisable...\n",
+  "anchor": "T023d"
+ },
+ {
+  "num": "20091",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "FORMULE EXACTE",
+  "options": [
+   "t(s) = R / C",
+   "t(s) = R / L",
+   "t(s) = 1 / (R x C)",
+   "t(s) = L / R"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "t(s) = L / R",
+  "commentaire_fr": "la formule exacte pour les condensateurs est : t(s) = R x C\n",
+  "anchor": "T024"
+ },
+ {
+  "num": "20095",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "COURANT DANS LE PRIMAIRE",
+  "options": [
+   "1 A",
+   "2,5 A",
+   "400 mA",
+   "10 mA"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1 A",
+  "commentaire_fr": "Puissance primaire = puissance secondaire = 100 W, Uprimaire = 100 V donc I = P / U = 1 A). Les caractéristiques du transformateur (nombre de spires) sont inutiles.\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20096",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "INTENSITE AU SECONDAIRE",
+  "options": [
+   "0,4 A",
+   "4 mA",
+   "200 mA",
+   "4 A "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "4 A ",
+  "commentaire_fr": "P primaire = P secondaire ; I secondaire = P / U = 300 / 75 = 4\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20097",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "COURANT TRAVERSE RESISTANCE",
+  "options": [
+   "25 A",
+   "2 A",
+   "0,5 A",
+   "200 mA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 A",
+  "commentaire_fr": "P primaire = P secondaire donc I = P / U soit 100 W / 50 V = 2 A\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20099",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "INTENSITE DANS LA RESISTANCE R",
+  "options": [
+   "10 mA",
+   "1A",
+   "10 A",
+   "0,1 A "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "0,1 A ",
+  "commentaire_fr": "U secondaire = 220 x (100 / 1000) = 220 / 10 = 22 ; \nI = U / R = 22 / 220 = 0,1 A\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20100",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "PUISSANCE DISSIPEE RESISTANCE R",
+  "options": [
+   "350 W ",
+   " 3,5 W",
+   "35 W",
+   "350 mW"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "35 W",
+  "commentaire_fr": "le transformateur est supposé parfait, donc Ps = Pp = Up x Ip = 100 x 0,35 ; les valeurs de Ns et Np sont inutiles pour résoudre le problème.\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20102",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "IMPEDANCE AU PRIMAIRE ?",
+  "options": [
+   "4 Ω",
+   "270 Ω",
+   "120 Ω",
+   "3600 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "3600 Ω",
+  "commentaire_fr": "En supposant que le transformateur est parfait, N = rapport de transfo = 1/30 ; Ze = Zs / N² = 4 / (1/30)² = 4 x 30 x 30 = 3600 Ω\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20103",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "IMPEDANCE AU PRIMAIRE",
+  "options": [
+   "200 Ω",
+   "40 Ω",
+   "1,6 Ω",
+   "320 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "200 Ω",
+  "commentaire_fr": "en supposant que le transformateur est parfait, N = rapport de transfo = 300/1500 = 0,2 ; Zs = Ze / N² = 8 / 0,2 / 0,2 = 200\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20105",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT",
+  "options": [
+   "204 Ω",
+   "20,4 Ω",
+   "2 Ω",
+   "0,2 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "20,4 Ω",
+  "commentaire_fr": "Ishunt = 50 mA – 1 mA = 49 mA ; U shunt = U galva = 1000 x 0,001 = 1 V ; Rshunt = U / I = 1 V / 0,049 = 20,408 arrondi à 20,4\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20106",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT",
+  "options": [
+   "15 Ω",
+   "1,5 Ω",
+   "3 Ω",
+   "0,02 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1,5 Ω",
+  "commentaire_fr": "Ushunt = U galva = 600 x 0,0005 = 0,3 V ; Ishunt = 0,2 – 0,0005 = 0,1995 A ; Rshunt = U / I = 0,3 / 0,1995 = 1,5037 arrondi à 1,5 ohms)\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20107",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT",
+  "options": [
+   "0,002 kΩ",
+   "2 Ω",
+   "0,002040 MΩ",
+   "2,04 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2,04 Ω",
+  "commentaire_fr": "Ushunt = Ugalva = 100 x 0,001 = 0,1 V ; Ishunt = 50 mA – Igalva = 0,049 A ; R = U / I = 0,1/0,049 = 2,0408 arrondi à 2,04 Ω. Attention, les réponses 2 Ω et 0,002 kΩ (qui sont la même chose) ne sont pas assez précises : l’arrondi a été fait trop tôt.\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20108",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT",
+  "options": [
+   "111 Ω",
+   "100 Ω",
+   "1 kΩ",
+   "1,11 kΩ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "111 Ω",
+  "commentaire_fr": "Ug = Ri x Ig = 0,1 V ; S = Ug / (I – Ig) = 0,1 / (0,001 – 0,000 1) = 0,1 / 0,0009 = 111\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20109",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA VALEUR R A METTRE EN SERIE AVEC UN VOLTMETRE",
+  "options": [
+   "8 MΩ",
+   "0,8 MΩ",
+   "400 kΩ",
+   "10 kΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,8 MΩ",
+  "commentaire_fr": "UR = 500 – Uvoltmètre = 500 – 100 = 400 V ; IR = Ig = 1/2000 = 0,0005 A ; R = U / I = 400/0,0005 = 800.000 Ω = 0,8 MΩ. \nAutre méthode : tension à chuter = 500 – 100 = 400 V ; 400 V x 2000 Ω/V = 800 000 Ω\nS'il y a quelques dizaines d'années on parlait de résistance caractéristique des voltmètres à aiguille en ohm/v, pour la plupart des voltmètres électroniques actuels et de par leur construction, la résistance de ces appareils est constante quelque soit le calibre et a souvent pour valeur 100 Mohms et non 100 Mohms/volt\n",
+  "anchor": "T035a"
+ },
+ {
+  "num": "20112",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUELLE EST LA FREQUENCE DE COUPURE",
+  "options": [
+   "10 MHz ",
+   "160 kHz",
+   "1,6 MHz ",
+   "1 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1,6 MHz ",
+  "commentaire_fr": "F = 1 / (2 x pi x R x C) = 1,59 MHz arrondi à 1,6 MHz\n",
+  "anchor": "T042a"
+ },
+ {
+  "num": "20113",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUELLE EST LA TENSION VS",
+  "options": [
+   "2 V ",
+   "2,8 V",
+   "8 V",
+   "4 V "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2,8 V",
+  "commentaire_fr": "D’abord, calculer la fréquence de résonance du circuit : F = 1 / (2 x p x R x C) = 99 kHz (arrondi à 100 kHz dans ce cas). On est donc à la fréquence de coupure où le signal est atténué de 3 dB en sortie. Attention, le piège est que la puissance est divisée par 2 tandis que la tension n’est diminuée que de sa racine carrée (2 x √ 2 = 2,83 V) car P = U² / R (effet du carré). \n",
+  "anchor": "T042a"
+ },
+ {
+  "num": "20114",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA FREQUENCE SUPERIEURE DE 1 OCTAVE A 2000 HZ ?",
+  "options": [
+   " 1 000 Hz ",
+   "20 000 Hz",
+   "4 000 Hz",
+   "200 Hz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "4 000 Hz",
+  "commentaire_fr": "2000 x 2 = 4000 Hz (ou 4 kHz)\n",
+  "anchor": "T042c"
+ },
+ {
+  "num": "20118",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "F = 500 HZ\nFREQUENCE SUPERIEURE DE 2 DECADES ?",
+  "options": [
+   "5 kHz ",
+   "50 kHz",
+   "1000 Hz",
+   "2000 Hz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50 kHz",
+  "commentaire_fr": "500 x 10 x 10 = 50.000 Hz = 50 kHz\n",
+  "anchor": "T042c"
+ },
+ {
+  "num": "20120",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA FREQUENCE SUPERIEURE D'UNE DECADE A 2000 HZ",
+  "options": [
+   "20 kHz ",
+   "4 kHz",
+   "1000 Hz",
+   "200 000 Hz "
+  ],
+  "ans_idx": 0,
+  "ans_fr": "20 kHz ",
+  "commentaire_fr": "2000 Hz x 10 = 20000 Hz = 20 kHz\n",
+  "anchor": "T042c"
+ },
+ {
+  "num": "20122",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE TYPE DE FILTRE",
+  "options": [
+   "passe bas à -6 dB/octave ",
+   "réjecteur ",
+   "coupe bande ",
+   "passe haut à -6 dB/octave"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "passe haut à -6 dB/octave",
+  "commentaire_fr": "inverse du filtre RC : \"dans un filtre passe haut, la bobine est en bas\"\n",
+  "anchor": "T042e"
+ },
+ {
+  "num": "20123",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE TYPE DE FILTRE",
+  "options": [
+   "filtre en pi",
+   "filtre passe-bas à -6 dB/octave ",
+   "circuit coupe bande",
+   "circuit bouchon"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "filtre passe-bas à -6 dB/octave ",
+  "commentaire_fr": "inverse du filtre RC.\n",
+  "anchor": "T042e"
+ },
+ {
+  "num": "20124",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FREQUENCE DE RESONANCE",
+  "options": [
+   "22 MHz ",
+   "7,3 MHz",
+   "11 MHz",
+   "34 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "34 MHz",
+  "commentaire_fr": "Formule simplifiée : F = 159 / √ (L en µH x C en pF) = 159 / √ (0,022 x 1000) = 159/ √ (22) = 159/4,7 = 33,8 arrondi à 34 MHz\n",
+  "anchor": "T043a"
+ },
+ {
+  "num": "20125",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FREQUENCE DE RESONANCE",
+  "options": [
+   "1,6 MHz ",
+   "100 kHz",
+   "4 MHz",
+   "1 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "4 MHz",
+  "commentaire_fr": "Formule simplifiée : F = 159 / √ (L en µH x C en pF) = 159 / √ (8 x 200) = 159/ √ (1600) = 159/40= 3,975 arrondi à 4 MHz\n",
+  "anchor": "T043a"
+ },
+ {
+  "num": "20126",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "IMPEDANCE DE LA RESONANCE",
+  "options": [
+   "5 kΩ",
+   "50 kΩ",
+   "infini",
+   "4 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50 kΩ",
+  "commentaire_fr": "formule simplifiée : Z en kΩ = L en µH / C en pF / R en kΩ = 20 / 100 / 0,004 = 50 kΩ\n",
+  "anchor": "T044a3"
+ },
+ {
+  "num": "20131",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TAUX DE SELECTIVITE",
+  "options": [
+   "50 %",
+   "14 %",
+   "7 %",
+   "1,4 %"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "14 %",
+  "commentaire_fr": "(3657-3643)/(3700-3600) x  100 = 14%\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20132",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TAUX DE SELECTIVITE",
+  "options": [
+   "70 %",
+   "10 %",
+   "7 %",
+   "14 %"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "14 %",
+  "commentaire_fr": "taux de sélectivité = bande passante à –3 dB / bande passante à –60 dB x 100 =  (3607-3593) / (3650-3550) x 100 = 14 / 100 x 100 =14\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20133",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TAUX DE SELECTIVITE",
+  "options": [
+   "5 %",
+   "10 %",
+   "20 %",
+   "14 %"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "20 %",
+  "commentaire_fr": "(taux de sélectivité = bande passante à –3 dB / bande passante à –60 dB x 100 = (3610-3590)/(3650-3550)x100 = 20 / 100 x 100 = 20)\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20135",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCULER R EN CONNAISANT L C ET Q",
+  "options": [
+   "33 Ω",
+   "100 Ω",
+   "13 Ω",
+   "0,3 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "13 Ω",
+  "commentaire_fr": "R(kΩ) = √(L(µH) / C(pF)) / Q = √(50 / 50) / 75 =\n√(1) / 75 = 1 / 75 = 0,013 kΩ = 13 Ω\n",
+  "anchor": "T046b"
+ },
+ {
+  "num": "20136",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCULER R EN CONNAISANT L C ET Q",
+  "options": [
+   "25 Ω",
+   "50 Ω",
+   "100 Ω",
+   "2 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2 Ω",
+  "commentaire_fr": "R(kΩ) = √(L(µH) / C(pF)) / Q = √(20 / 500) / 100 =\n√(0,04) / 100 = 0,2 / 100 = 0,002 kΩ = 2 Ω\n",
+  "anchor": "T046b"
+ },
+ {
+  "num": "20137",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCULER Z EN CONNAISANT L C ET Q",
+  "options": [
+   "200 000 Ω",
+   "4,4 kΩ",
+   "Infinie",
+   "10 000 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "200 000 Ω",
+  "commentaire_fr": "Z(kΩ) = √(L(µH) / C(pF)) x Q = √(200 / 50) x 100 =\n√(4) x 100 = 2 x 100 = 200 kΩ = 200 000 Ω\n",
+  "anchor": "T046b"
+ },
+ {
+  "num": "20138",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCULER Z EN CONNAISANT L C ET Q",
+  "options": [
+   "20 Ω",
+   "80 Ω",
+   "64 Ω",
+   "80 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "64 Ω",
+  "commentaire_fr": "Z(kΩ) = √(L(µH) / C(pF)) x Q = √(0,01 / 10000) x 64 =\n√(1/10^6) x 64 = 1/1000 x 64 = 0,064 kΩ = 64 Ω\n",
+  "anchor": "T046b"
+ },
+ {
+  "num": "20141",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA TENSION US AUX BORNES DU CONDENSATEUR",
+  "options": [
+   "3,2 V ",
+   " 7,1 V",
+   "4,3 V",
+   "5 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": " 7,1 V",
+  "commentaire_fr": "à la sortie du transfo, Us = Ue (même nombre de spires) ; \nle condensateur transforme U eff en U max (5 V x 1,414 = 7,07, arrondi à 7,1 V). \nPar simplification, on a ici négligé la tension de seuil de la diode. \nEn effet, on n'aura jamais plus que la tension anode moins la tension de seuil sur la cathode de la diode. Au final, la tension Us sera d’environ 6,4 volts si la diode est au silicium\n",
+  "anchor": "T054"
+ },
+ {
+  "num": "20142",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL EST LE COURANT IC",
+  "options": [
+   "1,8 A ",
+   "1,8m A",
+   "6,66 mA",
+   "12 mA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1,8m A",
+  "commentaire_fr": "Ic = Ib x b = 150 x 12 µA = 1,8 x 10-3 = 1,8 mA. La valeur de la résistance de collecteur ne sert à rien.\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20143",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CALCULER LE COURANT DE BASE I",
+  "options": [
+   "10 µA ",
+   "10 mA ",
+   "15 mA",
+   "225 mA"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10 µA ",
+  "commentaire_fr": "Ib = Ic / ϐ = 1,5 mA / 150 = 0,01 mA = 10 µA\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20144",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CALCULER IC",
+  "options": [
+   "330 µA ",
+   "950 µA",
+   "0,095 A",
+   "1,8 A"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "950 µA",
+  "commentaire_fr": "Ic = Ib x b = 9,5 µA x 100 = 950 µA\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20145",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CALCULER IC",
+  "options": [
+   "18000 µA ",
+   "18,12 mA ",
+   " 18,1 µA",
+   "0,18 A"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "18000 µA ",
+  "commentaire_fr": "Ic = Ib x b = 120 µA x 150 = 18000 µA. La réponse 18,12 mA est un piège : c’est la valeur du courant passant dans l’émetteur (= courant de base + courant collecteur)\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20147",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "RENDEMENT D'UN TRANSISTOR MONTE EN CLASSE A",
+  "options": [
+   "plus de 50 % ",
+   "de 50 à 80%",
+   "plus de 80 %",
+   "moins de 100%"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "moins de 100%",
+  "commentaire_fr": "Dans un amplificateur de classe A, le composant actif est toujours en conduction. Cet amplificateur amplifie tout le signal d’entrée, limitant ainsi les distorsions sur le signal de sortie. Il n’a pas un bon rendement : il dissipe une puissance constante quelle que soit l'amplitude du signal d'entrée. Ainsi, cet amplificateur atteint son rendement maximum lorsque l'amplitude du signal de sortie est aux limites de ce que peut fournir l'amplificateur. Le rendement maximum d'un amplificateur de classe A dépend de la topologie du montage utilisé : le rendement maximum théorique de ces amplificateurs est de 50 % dans le cas d'une liaison par transformateur, de 25 % dans le cas d'une liaison directe et entre 6 % et 25 % pour une liaison capacitive\n",
+  "anchor": "T071a1"
+ },
+ {
+  "num": "20148",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE CLASSE D'AMPLIFICATION A UNE TENSION DE REPOS DE 0 VOLT ?",
+  "options": [
+   "Classe AB ",
+   "Classe A",
+   "Classe B",
+   "Classe C"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Classe B",
+  "commentaire_fr": "la classe B utilise deux amplificateurs pour amplifier les deux alternances d’un signal\n",
+  "anchor": "T071a2"
+ },
+ {
+  "num": "20149",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL TYPE DE MODULATION EST ADAPTE A UN AMPLIFICATEUR MONTE EN CLASSE C ?",
+  "options": [
+   "CW et FM ",
+   "AM",
+   "AM et BLU",
+   "BLU"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "CW et FM ",
+  "commentaire_fr": "La classe C ne permet pas d’amplifier un signal modulé en amplitude comme l’AM et la BLU\n",
+  "anchor": "T071a3"
+ },
+ {
+  "num": "20156",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "AMPLIFICATEUR ET 2 FREQUENCES",
+  "options": [
+   "4 et 10.000 Hz",
+   "4, 96, 100 et 104 Hz",
+   "100 et 200 Hz",
+   "2, 98, 100 et 102 H"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2, 98, 100 et 102 H",
+  "commentaire_fr": "on devrait aussi avoir les harmoniques 2 des fréquences d’entrée, soit 4 et 200 Hz\n",
+  "anchor": "T077c"
+ },
+ {
+  "num": "20160",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN EN TENSION",
+  "options": [
+   "-3,3 ",
+   " 33",
+   "-33",
+   "3,3 "
+  ],
+  "ans_idx": 2,
+  "ans_fr": "-33",
+  "commentaire_fr": "G = - R2 / R1 = -33000 / 1000 = -33\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20161",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN EN TENSION",
+  "options": [
+   "-1,5 ",
+   "25",
+   "2,5",
+   "-15"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "-15",
+  "commentaire_fr": "G = - R2 / R1 = -330 000 / 22 000 = -15\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20162",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN EN TENSION",
+  "options": [
+   "-1,5 ",
+   "25",
+   "2,5",
+   "-15"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "-15",
+  "commentaire_fr": "G = - R2 / R1 = -33 000 / 2 200 = -15\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20163",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TENSION DE SORTIE VS",
+  "options": [
+   "9,4 V",
+   "0,94 V",
+   "-9,4 V",
+   "-0,94 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "-9,4 V",
+  "commentaire_fr": "G = -(R2 / R1) ; Vs = Ve x G = 0,2 x –47 = -9,4 V\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20164",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TENSION DE SORTIE VS",
+  "options": [
+   "3,3 V ",
+   "- 3,3 V",
+   "33 V",
+   "-33 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "- 3,3 V",
+  "commentaire_fr": "G = -(R2 / R1) ; Vs = Ve x G = 0,1 x –33 = -3,3V\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20165",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TENSION DE SORTIE VS",
+  "options": [
+   "-0,05 V ",
+   " -0,5 V",
+   "-1,8 V",
+   "-4,5 V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "-0,05 V ",
+  "commentaire_fr": "G = -R2/R1 = -0,1666 ; Vs = Ve x G = 0,3 x –0,1666 = -0,05 V\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20166",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN EN TENSION",
+  "options": [
+   "0,5 ",
+   "1,6",
+   "2,5",
+   "0,3"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2,5",
+  "commentaire_fr": "G = (R2/R1) + 1 = (33/22) + 1 = 1,5 + 1 = 2,5; question hors programme, seul le montage inverseur est au programme.\n",
+  "anchor": "T083"
+ },
+ {
+  "num": "20167",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN EN TENSION",
+  "options": [
+   "16 ",
+   "15",
+   "15000",
+   "0,0667"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "16 ",
+  "commentaire_fr": "G = (R2 / R1) + 1 = (33000 / 2200) + 1 = 15 + 1 = 16 ; question hors programme, seul le montage inverseur est au programme.\n",
+  "anchor": "T083"
+ },
+ {
+  "num": "20169",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "LONGUEUR D'ONDE D'UN SIGNAL DE FREQUENCE16 GHZ",
+  "options": [
+   "1,875 cm ",
+   "1,875 m",
+   "0,01875 cm",
+   "18,75 m"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1,875 cm ",
+  "commentaire_fr": "L = 300 / 16000 = 0,01875 m = 1,875 cm\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20170",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "LONGUEUR D'ONDE D'UN SIGNAL DE FREQUENCE 7,5 MHZ",
+  "options": [
+   "400 m ",
+   "40 m",
+   "4 cm",
+   "40 cm"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "40 m",
+  "commentaire_fr": "L = 300 / 7,5 = 40\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20172",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA LONGUEUR D'ONDE D'UNE FREQUENCE DE 16,5 MHZ ?",
+  "options": [
+   "18,2 m ",
+   "182 cm",
+   "0,55 m",
+   "5,5 m"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "18,2 m ",
+  "commentaire_fr": "L= 300/16,5 = 18,2\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20173",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA LONGUEUR D'ONDE D'UNE FREQUENCE DE 20,98 MHZ",
+  "options": [
+   "70 m ",
+   "7 m",
+   "143 cm",
+   "14,3 m"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "14,3 m",
+  "commentaire_fr": "L= 300 / 20,98 = 14,3\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20175",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA FREQUENCE D'UN SIGNAL DE LONGUEUR D'ONDE = 20,98 METRES ?",
+  "options": [
+   "143 MHz ",
+   "14,3 MHz",
+   "18,068 MHz",
+   "10,1 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "14,3 MHz",
+  "commentaire_fr": "F= 300 / 20,98 = 14,299 arrondi à 14,3\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20176",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA FREQUENCE D'UN SIGNAL DE LONGUEUR D'ONDE = 12,5 CM ?",
+  "options": [
+   "24 GHz ",
+   "24 MHz",
+   "2,4 GHz",
+   "240 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2,4 GHz",
+  "commentaire_fr": "12,5 cm = 0,125 m ; F = 300 / 0,125 = 2400 MHz = 2,4 GHz\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20177",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "FREQUENCE D'UN SIGNAL DE LONGUEUR = 7,5 CM ?",
+  "options": [
+   "40 GHz ",
+   "40 MHz",
+   "4 GHz",
+   "400 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "4 GHz",
+  "commentaire_fr": "7,5 cm = 0,075 m ; 300 / 0,075 = 4000 MHz = 4 GHz\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20178",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "FREQUENCE D'UN SIGNAL DE LONGUEUR = 3 CM",
+  "options": [
+   "1 GHz ",
+   "100 MHz",
+   "100 GHz",
+   "10 GHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10 GHz",
+  "commentaire_fr": "3 cm = 0,03 m ; 300 / 0,03 = 10000 MHz = 10 GHz\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20183",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "UNE ONDE RADIO EST CONSTITUEE DE",
+  "options": [
+   "un champ magnétique et un champ électronique",
+   "un champ électrique",
+   "un champ magnétique",
+   "un champ magnétique et un champ électrique"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "un champ magnétique et un champ électrique",
+  "commentaire_fr": "",
+  "anchor": "T094b"
+ },
+ {
+  "num": "20184",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "VOUS FAITES UN CONTACT AVEC L'INDE LA NUIT. VOUS REFAITES CE CONTACT DE JOUR. QUE DEVEZ-VOUS FAIRE ?",
+  "options": [
+   "j'augmente ma puissance ",
+   "je me décale en descendant légèrement en fréquence",
+   "je réduis ma puissance ",
+   "je me décale en montant légèrement en fréquence "
+  ],
+  "ans_idx": 2,
+  "ans_fr": "je réduis ma puissance ",
+  "commentaire_fr": "en théorie, un contact de jour nécessite moins de puissance puisque l'ionosphère est éclairée sur tout le parcours de l'onde. NB : avec l'Est (L'Inde), ça marche mieux le matin et avec l'Ouest (Canada, USA), ça marche mieux en fin de journée. Ceci n'est valable que pour les ondes décamétriques, évidemment.\n",
+  "anchor": "T093f"
+ },
+ {
+  "num": "20185",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "CONTACTE INDE 10 MHZ",
+  "options": [
+   "en montant en fréquence puis en la diminuant ",
+   "en descendant en fréquence puis en l’augmentant",
+   "en augmentant la puissance d’émission",
+   "en réduisant la puissance d’émission"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "en montant en fréquence puis en la diminuant ",
+  "commentaire_fr": "l’indication 2 h du matin est importante car c’est l’heure où le soleil se lève en Inde (quand on se trouve en Europe). Le parcours de l’onde commence à être ionisée par le soleil, ce qui permet d’utiliser des fréquences plus élevées. Une fois le soleil couché, il faut redescendre sur des bandes plus basses. Mais c’est très théorique et ça ne marche pas souvent aussi bien…\n",
+  "anchor": "T093f"
+ },
+ {
+  "num": "20190",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "CARACTERISTIQUE D'UN CABLE COAXIAL ?",
+  "options": [
+   "faible perte ",
+   "haute impédance",
+   "asymétrique",
+   "composé de deux fils parallèles faiblement écartés"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "asymétrique",
+  "commentaire_fr": "",
+  "anchor": "T101a"
+ },
+ {
+  "num": "20192",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "AFFAIBLISSEMENT LINEIQUE",
+  "options": [
+   "0,2 dB/m ",
+   "0,1 dB/m",
+   "0,6 dB/m",
+   "0,4 dB/m"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,1 dB/m",
+  "commentaire_fr": "affaiblissement = 3 dB, affaiblissement linéique = 3/30 = 0,1 dB/m. Ce type de question est également posé à l’épreuve de réglementation\n",
+  "anchor": "T101a"
+ },
+ {
+  "num": "20193",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "AFFAIBLISSEMENT LINEIQUE",
+  "options": [
+   "0,09 dB/m ",
+   "3,03 dB/m",
+   "0,19 dB/m",
+   "1,51 dB/m"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "0,09 dB/m ",
+  "commentaire_fr": "puissance divisée par deux = -3 dB ; 3 dB / 33 m = 0,0909 dB/m arrondi à 0,09. Ce type de question est également posé à l’épreuve de réglementation\n",
+  "anchor": "T101a"
+ },
+ {
+  "num": "20200",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "COMMENT MESURE-T-ON UN COURANT HF ?",
+  "options": [
+   "avec un ampèremètre thermique ",
+   "avec un ampèremètre à feuilles",
+   "avec un voltmètre à galvanomètre",
+   "avec un wobulateur"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "avec un ampèremètre thermique ",
+  "commentaire_fr": "Les propositions fausses sont fantaisistes (ampèremètrre à feuilles) ou non adaptées (voltmètre, wobulateur)\n",
+  "anchor": "T11"
+ },
+ {
+  "num": "20201",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "RELEVER L'AFFIRMATION VRAIE",
+  "options": [
+   "le taux de réjection de la fréquence image dépend de la sélectivité de l'ampli RF ",
+   "un bon rapport signal à bruit implique automatiquement une bonne fidélité dans le récepteur",
+   "une bonne stabilité n'est possible que dans le cas d'un signal modulé utilisant une large bande passante",
+   "une mauvaise sensibilité implique automatiquement une mauvaise sélectivité"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "le taux de réjection de la fréquence image dépend de la sélectivité de l'ampli RF ",
+  "commentaire_fr": "",
+  "anchor": "T11"
+ },
+ {
+  "num": "20203",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ETAGE MANQUANT",
+  "options": [
+   "oscillateur",
+   "filtre FI ",
+   "modulateur ",
+   "détecteur"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "détecteur",
+  "commentaire_fr": "",
+  "anchor": "T111"
+ },
+ {
+  "num": "20206",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "ETAGE REPERE PAR ?",
+  "options": [
+   "Ampli MF",
+   "Ampli BF",
+   "Ampli RF",
+   "Ampli FI"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Ampli RF",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20209",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ETAGE REPERE PAR ?",
+  "options": [
+   "CAG",
+   "détecteur de produit ",
+   "BFO",
+   "détecteur d’enveloppe "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "détecteur de produit ",
+  "commentaire_fr": "le détecteur de produit est toujours associé à un BFO (nommé ici OL)\n",
+  "anchor": "T126h"
+ },
+ {
+  "num": "20210",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST L'AVANTAGE D'UN RECEPTEUR HETERODYNE PAR RAPPORT A UN RECEPTEUR DIRECT ?",
+  "options": [
+   "L'élimination des fréquences indésirables  ",
+   "La démodulation qui se fait sur des basses fréquences.",
+   "L'ampli FI qui améliore très fortement la sensibilité du récepteur ",
+   "La double sélectivité des amplificateurs"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "L'ampli FI qui améliore très fortement la sensibilité du récepteur ",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20211",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ROLE D'UN AMPLI F.I. ?",
+  "options": [
+   "élimine toute trace de modulation d’amplitude dans un récepteur FM",
+   "Transforme les fréquences à recevoir",
+   "sélectionne la fréquence d’émission",
+   "améliore la sélectivité et la sensibilité "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "améliore la sélectivité et la sensibilité ",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20212",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUELLE EST L'AFFIRMATION VRAIE ?",
+  "options": [
+   "utiliser une FI permet d'améliorer la sélectivité ",
+   "utiliser une FI permet de réduire la fréquence image",
+   "augmenter la sensibilité permet d'augmenter la sélectivité.",
+   "utiliser une deuxième FI supprime l’effet d’intermodulation"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "utiliser une FI permet d'améliorer la sélectivité ",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20216",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ETAGE REPERE PAR ?",
+  "options": [
+   "Amplificateur audio fréquences ",
+   "amplificateur radiofréquences",
+   "détection",
+   "filtre passe bas "
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Amplificateur audio fréquences ",
+  "commentaire_fr": "le filtre passe-bas qui est obligatoire après l’ampli HF est manquent dans le schéma\n",
+  "anchor": "T115"
+ },
+ {
+  "num": "20217",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ETAGE REPERE PAR ?",
+  "options": [
+   "détection",
+   "Amplificateur audio fréquences ",
+   "amplificateur radiofréquences",
+   "filtre anti-harmonique"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "filtre anti-harmonique",
+  "commentaire_fr": "",
+  "anchor": "T115"
+ },
+ {
+  "num": "20219",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "MODULATION PORTEUSE",
+  "options": [
+   "en phase ",
+   "en fréquence",
+   "en amplitude",
+   "en tout ou rien"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "en amplitude",
+  "commentaire_fr": "",
+  "anchor": "T121"
+ },
+ {
+  "num": "20222",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "TYPE DE MODULATION RECEPTEUR",
+  "options": [
+   "modulation de fréquence",
+   "modulation d'amplitude ",
+   "bande latérale unique",
+   "télégraphie."
+  ],
+  "ans_idx": 1,
+  "ans_fr": "modulation d'amplitude ",
+  "commentaire_fr": "détecteur d’enveloppe = récepteur AM\n",
+  "anchor": "T123b"
+ },
+ {
+  "num": "20224",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "A QUOI SERT UN DETECTEUR D'ENVELOPPE ?",
+  "options": [
+   "à démoduler de la BLU",
+   "à moduler de l’AM",
+   "à démoduler de l'AM",
+   "à générer de la double bande latérale (DSB)"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "à démoduler de l'AM",
+  "commentaire_fr": "",
+  "anchor": "T123b"
+ },
+ {
+  "num": "20225",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "TYPE DE MODULATION RECEPTEUR",
+  "options": [
+   "récepteur  CW",
+   "récepteur AM à double changement de fréquence",
+   "récepteur BLU",
+   "Récepteur FM"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Récepteur FM",
+  "commentaire_fr": "discriminateur = démodulateur FM\n",
+  "anchor": "T124"
+ },
+ {
+  "num": "20226",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "REPRESENTATION SHEMA AMPLI - OSCILLATEUR",
+  "options": [
+   "modulateur de fréquence ",
+   "Filtre sélectif",
+   "Modulateur équilibré",
+   "Modulateur d’amplitude"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "modulateur de fréquence ",
+  "commentaire_fr": "",
+  "anchor": "T124d"
+ },
+ {
+  "num": "20227",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUE DEMODULE-T-ON AVEC UN DISCRIMATEUR ?",
+  "options": [
+   "de la CW",
+   "de l’AM",
+   "de la BLU",
+   "de la FM"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "de la FM",
+  "commentaire_fr": "on détecte (ou on démodule) de la FM ou de la modulation de phase (PM), les deux étant appelés communément modulation angulaire\n",
+  "anchor": "T124"
+ },
+ {
+  "num": "20228",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "TYPE DE MODULATION RECEPTEUR",
+  "options": [
+   "FM",
+   "AM",
+   "BLU",
+   "modulation de phase"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "BLU",
+  "commentaire_fr": "Mélangeur de produit + BFO = récepteur BLU (ou CW mais ne faisait pas partie des réponses proposées)\n",
+  "anchor": "T126h"
+ },
+ {
+  "num": "20300",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "CODE DES COULEURS : RESISTANCE ROUGE ROUGE BLEU",
+  "options": [
+   "2,2 MΩ",
+   "11 MΩ",
+   "22 MΩ",
+   "1,1 MΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "22 MΩ",
+  "commentaire_fr": "Rouge = 2 ; Rouge = 2 ; Bleu = 6 ; donc 22 x 10 6 = 22 000 000 = 22 MΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20303",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA FREQUENCE ISSUE D'UN MELANGE DU 3EME ORDRE AVEC \nF1 = 149 MHZ ET F2 = 150 MHZ",
+  "options": [
+   "299 MHz",
+   "1 MHz",
+   "148 MHz",
+   "300 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "148 MHz",
+  "commentaire_fr": "Un produit du 3ème ordre est un mélange du type (2 x A) + B ou (2 x A) - B. Le premier mélange nous amène à plus de 400 MHz (aucune réponse). Nous procéderons par élimination avec le second mélange : (2 x 149) - 150 = 298 - 150 = 148. Les fréquences 299 et 1 MHz sont des mélanges « classiques » du second ordre et 300 est aussi un mélange du second ordre (harmonique 2)\n",
+  "anchor": "T077c"
+ },
+ {
+  "num": "20304",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST LE NOM DE L'ELEMENT MARQUE  ? \nANTENNE --- RF----ML-----FI----DETECTION--- ?-----HAUT PARLEUR",
+  "options": [
+   "Amplificateur MF",
+   "BFO",
+   "Amplificateur AF",
+   "CAG"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Amplificateur AF",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20305",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUE REPRESENTE LE SCHEMA",
+  "options": [
+   "Modulateur équilibré",
+   "Filtre sélectif",
+   "Modulateur de fréquence ",
+   "Modulateur d’amplitude"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Modulateur de fréquence ",
+  "commentaire_fr": "oscillateur à réactance variable, c'est-à-dire modulateur FM\n",
+  "anchor": "T124d"
+ },
+ {
+  "num": "20306",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'UNE BOBINE DE 25 MILLIHENRYS A 1000 HERTZ ?",
+  "options": [
+   "6280 Ω",
+   "25 Ω",
+   "6,36 Ω",
+   "157 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "157 Ω",
+  "commentaire_fr": "Z = 6,28 x F x L = 6,28 x 0,025 x 1000 = 157 Ω\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20307",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA TENSION AUX BORNES DU CONDENSATEUR",
+  "options": [
+   "14,1 V",
+   "7,1 V",
+   "10 V",
+   "20 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "7,1 V",
+  "commentaire_fr": "Tension à la sortie du transfo : Us = Ue x (Ns / Np) = \n10 x (50 / 100) = 5 V. Le condensateur a pour effet de transformer\nla tension efficace en tension maximum : 5 x 1,414 = 7,07 arrondi à 7,1 V sans tenir compte de la chute de tension provoquée par la diode qu’on a ici négligé par simplification. En effet, on n'aura jamais plus que la tension anode moins la tension de seuil sur la cathode de la diode. Au final, la tension Us sera d’environ 6,4 volts si la diode est au silicium.\n",
+  "anchor": "T054a"
+ },
+ {
+  "num": "20317",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA PUISSANCE MINIMUM DE LA RESISTANCE",
+  "options": [
+   "250 mW",
+   "0,5 W",
+   "1 W",
+   "2 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "250 mW",
+  "commentaire_fr": "P = U² / R = 6 x 6 / 220 = 0,1636 W = 164 mW. On retiendra la première puissance supérieure (250 mW). \nEn répondant « 0,5 W » et plus, on utilise une résistance trop grosse.\n",
+  "anchor": "T015c"
+ },
+ {
+  "num": "20319",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'UNE BOBINE DE 50 MICROHENRYS A 50 HERTZ",
+  "options": [
+   "2,5 mΩ",
+   "15,7 mΩ",
+   "0,157 Ω",
+   "0,25 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "15,7 mΩ",
+  "commentaire_fr": "ZL = 6,28 x F x L = 6,28 x 0,000 05 x 50 = 0,0157 Ω = 15,7 mΩ\n",
+  "anchor": "T023f1"
+ }
+]

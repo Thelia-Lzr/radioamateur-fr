@@ -1,0 +1,317 @@
+{
+ "block": "W2",
+ "lines": [
+  1741,
+  2657
+ ],
+ "units": [
+  {
+   "id": "R13",
+   "ref": "R-1.3",
+   "nq": 12,
+   "depth": 2,
+   "anchors": [
+    "R013b",
+    "R13"
+   ],
+   "title_fr": "Conditions techniques .",
+   "questions": [
+    {
+     "num": "31006",
+     "question": "* BANDE DE FREQUENCE OCCUPEE\nL'EXCURSION DE FREQUENCE SUR LA FREQUENCE 28,500 DOIT ETRE DE ?",
+     "reponse": "+/- 6 kHz au maximum"
+    },
+    {
+     "num": "31007",
+     "question": "* BANDE DE FREQUENCE OCCUPEE\nL'EXCURSION DE FREQUENCE SUR LA FREQUENCE 145,500 DOIT ETRE DE ?",
+     "reponse": "20 kHz au maximum"
+    },
+    {
+     "num": "32561",
+     "question": "* EN MODE A3E, POUR UN RADIOAMATEUR AYANT UNE AUTORISATION D'EMETTRE DE L'EX CLASSE 1, IL EST INTERDIT D'EMETTRE SUR :",
+     "reponse": "14.000 kHz"
+    },
+    {
+     "num": "34714",
+     "question": "PRECISION DES EMETTEURS EN DESSOUS DE 29,7 MHZ ?",
+     "reponse": "+/- 1 kHz"
+    }
+   ]
+  },
+  {
+   "id": "R13b",
+   "ref": "R-1.3.b",
+   "nq": 34,
+   "depth": 1,
+   "anchors": [
+    "R13b"
+   ],
+   "title_fr": "Conditions techniques .",
+   "questions": [
+    {
+     "num": "30027",
+     "question": "* LARGEUR DE BANDE A NE PAS DEPASSER EN CLASSE F3E SUR LA FREQUENCE 28.350 MHZ ?",
+     "reponse": "12 kHz"
+    },
+    {
+     "num": "34773",
+     "question": "ANDE PASSANTE MAX SUR F < 28 MHZ ?",
+     "reponse": "6 kHz"
+    },
+    {
+     "num": "39923",
+     "question": "* LARGEUR DE BANDE OCCUPEE MAXIMUM SUR 14,230 MHZ ?",
+     "reponse": "6 kHz"
+    },
+    {
+     "num": "39931",
+     "question": "* LARGEUR DE BANDE OCCUPEE MAXIMUM SUR 10,150 GHZ ?",
+     "reponse": "pas de limite"
+    }
+   ]
+  },
+  {
+   "id": "R13c",
+   "ref": "R-1.3.c",
+   "nq": 20,
+   "depth": 1,
+   "anchors": [
+    "R13c"
+   ],
+   "title_fr": "Conditions techniques .",
+   "questions": [
+    {
+     "num": "31015",
+     "question": "DANS QUEL DOCUMENT SONT CONSIGNEES LES LIMITES DES RAYONNEMENTS NON ESSENTIELS ?",
+     "reponse": "Un document édité par l'UIT"
+    },
+    {
+     "num": "34908",
+     "question": "PUISSANCE D'EMISSION DES RAYONNEMENTS NON ESSENTIELS MAXIMUM POUR 28,5 MHZ ?",
+     "reponse": "2,5 mW"
+    },
+    {
+     "num": "39941",
+     "question": "* LES RAYONNEMENTS NON ESSENTIELS SONT :",
+     "reponse": "les émissions non désirées au delà du domaine des émissions hors bande"
+    },
+    {
+     "num": "39946",
+     "question": "* QU'EST CE QU'UNE EMISSION NON DESIREE ?",
+     "reponse": "C'est une émission qui est dans le domaine des rayonnements non essentiels ou dans le domaine des émissions hors bande"
+    }
+   ]
+  },
+  {
+   "id": "R13a",
+   "ref": "R-1.3.a",
+   "nq": 14,
+   "depth": 2,
+   "anchors": [
+    "R13a"
+   ],
+   "title_fr": "Conditions techniques .",
+   "questions": [
+    {
+     "num": "30014",
+     "question": "* L'UTILISATEUR D'UNE STATION RADIOAMATEUR DOIT :\n\n1-DISPOSER D'UNE CHARGE NON RAYONNANTE.\n2-DISPOSER D'UN FILTRE SECTEUR.\n3-S'ASSURER QUE SES MISSIONS NE BROUILLENT PAS DES EMISSIONS DEJA EN COURS.\n4-EFFECTUER TOUTES SES TRANSMISSIONS DANS UN LANGAGE CLAIR OU DANS UN CODE RECONNU PAR L'U.I.T.",
+     "reponse": "3-4"
+    },
+    {
+     "num": "30756",
+     "question": "LE FILTRE SECTEUR EST-IL OBLIGATOIRE DANS UNE STATION D'AMATEUR ?",
+     "reponse": "Oui"
+    },
+    {
+     "num": "34674",
+     "question": "QUELLE CLASSE D'OPERATEUR DOIT POSSEDER UN INDICATEUR DE ROS ?",
+     "reponse": "aucune"
+    },
+    {
+     "num": "34808",
+     "question": "UN RADIOAMATEUR OPERE EN J7W, DOIT-IL OBLIGATOIREMENT POSSEDER UN GENERATEUR 2 TONS ?",
+     "reponse": "Non dans tous les cas "
+    }
+   ]
+  },
+  {
+   "id": "R21",
+   "ref": "R-2.1",
+   "nq": 1,
+   "depth": 3,
+   "anchors": [
+    "R21a"
+   ],
+   "title_fr": "R-2.1)",
+   "questions": [
+    {
+     "num": "30135",
+     "question": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, BANDE LATERALE UNIQUE, \nSANS EMPLOI D'UNE SOUS PORTEUSE MODULANTE,\nTRANSMISSIONS DE DONNEES ?",
+     "reponse": "J1D"
+    }
+   ]
+  },
+  {
+   "id": "R21b",
+   "ref": "R-2.1.b",
+   "nq": 245,
+   "depth": 1,
+   "anchors": [
+    "R21b"
+   ],
+   "title_fr": "R-2.1)",
+   "questions": [
+    {
+     "num": "10001",
+     "question": "QUELLES SONT LES LIMITES DE LA BANDE DES 23 CMS EN FRANCE METROPOLITAINE ?",
+     "reponse": "1240,000 à 1300,000 MHz"
+    },
+    {
+     "num": "30023",
+     "question": "DANS QUELLE BANDE LE SERVICE D'AMATEUR PAR SATELLITE (A.M.S.) EST-IL\nAUTORISE ?",
+     "reponse": "21,000 à 21,450 MHz"
+    },
+    {
+     "num": "32511",
+     "question": "* QUELLE FREQUENCE EST AUTORISEE UNIQUEMENT EN REGION 2 ?",
+     "reponse": "3,950 MHz"
+    },
+    {
+     "num": "36047",
+     "question": "* QUEL EST LE STATUT DE LA BANDE DE FREQUENCE 21,000 A 21,450 MHZ ?",
+     "reponse": "exclusive, statut primaire"
+    }
+   ]
+  },
+  {
+   "id": "R21d",
+   "ref": "R-2.1.d",
+   "nq": 16,
+   "depth": 2,
+   "anchors": [
+    "R21d"
+   ],
+   "title_fr": "R-2.1)",
+   "questions": [
+    {
+     "num": "10011",
+     "question": "QUELLES SONT LES LIMITES DE LA BANDE DES 50,0 MHZ EN FRANCE METROPOLITAINE ?",
+     "reponse": "50,000 à 52,000 MHz"
+    },
+    {
+     "num": "30919",
+     "question": "* OU PEUT-ON UTILISER LA SOUS BANDE 433,750 A 434,250 MHZ ?",
+     "reponse": "à la Réunion"
+    },
+    {
+     "num": "34662",
+     "question": "UN OPERATEUR DE CLASSE 3 PEUT-IL EMETTRE ENTRE 50,2 ET 51,2 MHZ ?",
+     "reponse": "jamais"
+    },
+    {
+     "num": "34851",
+     "question": "QUI PEUT EMETTRE SUR 51 MHZ ?",
+     "reponse": "Tous les radioamateurs de la classe unique "
+    }
+   ]
+  },
+  {
+   "id": "R21c",
+   "ref": "R-2.1.c",
+   "nq": 11,
+   "depth": 2,
+   "anchors": [
+    "R21c"
+   ],
+   "title_fr": "R-2.1)",
+   "questions": [
+    {
+     "num": "30017",
+     "question": "* RETROUVEZ UNE AFFIRMATION VRAIE ?\n1 - UN RADIOAMATEUR \"HAREC\" PEUT EMETTRE SUR LA FREQUENCE 50,150 MHZ\n2 - UN RADIOAMATEUR DOIT CESSER SES EMISSIONS DES QU'UNE STATION OFFICIELLE\n     LUI DEMANDE\n3 - DES L'OBTENTION DE SA LICENCE, UN RADIOAMATEUR PEUT EMETTRE\n4 - UN RADIOAMATEUR DE L'EX CLASSE 3 PEUT METTRE SUR LA BANDE DES 12 METRES",
+     "reponse": "1 et 2"
+    },
+    {
+     "num": "30511",
+     "question": "QUELLE ATTITUDE DEVEZ-VOUS ADOPTER SUR LA PORTION DE BANDE 1240 A 1260 MHZ SI UN UTILISATEUR PRIMAIRE VOUS DEMANDE DE CESSEZ VOS EMISSIONS ?",
+     "reponse": "vous cessez vos émissions sans délai"
+    },
+    {
+     "num": "34762",
+     "question": "QUELLE ATTITUDE DOIT-ON AVOIR EN CAS D'APPEL D'UNE STATION PRIMAIRE SUR LA BANDE DES 2,4 GHZ ?",
+     "reponse": "je cesse toutes mes émissions sur cette bande "
+    },
+    {
+     "num": "34939",
+     "question": "SI UNE STATION PRIMAIRE VOUS DEMANDE DE CESSER LES EMISSIONS, QUE FAIRE ?",
+     "reponse": "je cesse toutes mes émissions sur cette bande "
+    }
+   ]
+  },
+  {
+   "id": "R22",
+   "ref": "R-2.2",
+   "nq": 17,
+   "depth": 2,
+   "anchors": [
+    "R22b",
+    "R22c",
+    "R22d"
+   ],
+   "title_fr": "Puissances et classes",
+   "questions": [
+    {
+     "num": "30045",
+     "question": "QUELLE EST LA DISTANCE A RESPECTER ENTRE VOTRE STATION ET DES INSTALLATIONS\nDE RADIO-COMMUNICATIONS APPARTENANT A L'ADMINISTRATION ?",
+     "reponse": "1 kilomètre"
+    },
+    {
+     "num": "30225",
+     "question": "* EN CAS DE PERTURBATION RADIOELECTRIQUE, LES PUISSANCES D'EMISSION AUTORISEES PEUVENT ETRE REDUITES PAR ?",
+     "reponse": "L' A.R.C.E.P"
+    },
+    {
+     "num": "30235",
+     "question": "* POUR NE PAS ETRE DECLAREE CONFORMEMENT AU CODE DE L'URBANISME, LA DIMENSION D'UNE ANTENNE NE DOIT PAS EXCEDER ?",
+     "reponse": "Il n'y a pas de limite"
+    },
+    {
+     "num": "34653",
+     "question": "EST-CE QU'UN RADIOAMATEUR A LE DROIT DE MONTER LUI-MEME SUR SON TOIT UNE ANTENNE DIRECTIVE ?",
+     "reponse": "oui"
+    }
+   ]
+  },
+  {
+   "id": "R22a",
+   "ref": "R-2.2.a",
+   "nq": 65,
+   "depth": 1,
+   "anchors": [
+    "R22a"
+   ],
+   "title_fr": "Puissances et classes",
+   "questions": [
+    {
+     "num": "30004",
+     "question": "* QUELLE EST LA PUISSANCE MAXIMALE QU'UN RADIOAMATEUR PEUT\nUTILISER SUR LA BANDE DES 15 METRES ?",
+     "reponse": "500 Watts"
+    },
+    {
+     "num": "30450",
+     "question": "EN CLASSE J3E QUELLE EST LA PUISSANCE MAXIMUM AUTORISEE EN MODULANT L'EMETTEUR PAR UN GENERATEUR 2 TONS POUR UN AMATEUR DE CLASSE 1 ?",
+     "reponse": "500 W"
+    },
+    {
+     "num": "30754",
+     "question": "* POUR UN RADIOAMATEUR EX CLASSE 2 (F1 ET F4) QUELLES SONT LES CLASSES D'EMISSIONS AUTORISEES ?",
+     "reponse": "Toutes les classes d'émission sont autorisées"
+    },
+    {
+     "num": "34764",
+     "question": "QUEL EST LE GAIN MAXIMUM D'UNE ANTENNE QU'UN RADIOAMATEUR A LE DROIT D'UTILISER ?",
+     "reponse": "aucune limite"
+    }
+   ]
+  }
+ ]
+}

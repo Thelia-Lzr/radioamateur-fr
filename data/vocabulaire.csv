@@ -1,0 +1,1070 @@
+Français,中文,词性/类别,频次,所属主题,备注
+MHz,兆赫（MHz，1 MHz = 1 000 kHz）,单位,1246,波段划分与分贝,波长换算：λ(m) = 300 / f(MHz)
+dB,分贝,单位,483,波段划分与分贝,3 dB = 功率 ×2；dBm/dBW 为绝对功率，dBc 相对载波
+kHz,千赫（1 kHz = 1 000 Hz）,单位,476,波段划分与分贝,与 MHz 换算常考
+signal,信号,名词,382,通用,signal HF 高频信号 / signal BF 音频信号
+radioamateur,业余无线电爱好者；业余无线电的,名词,373,通用,service radioamateur 业余业务；也写作 amateur (radio)
+classe,类别；等级,名词,316,发射类别,classe d'émission 发射类别；旧制 opérateur de classe 3 三等操作员
+antenne,天线,名词,310,天线与传播,antenne directive 定向天线；antenne quart d'onde 四分之一波长天线
+France,法国,专有名词,296,呼号与前缀,本土前缀 F；FG 瓜德罗普、FJ 圣巴泰勒米等
+valeur,值；数值,名词,289,电学基础,valeur efficace 有效值；valeur de la résistance 电阻值
+modulation,调制,名词,264,发射类别,taux de modulation 调制率；modulation d'amplitude 调幅
+pays,国家,名词,240,呼号与前缀,题中常问 de quel pays est-il originaire ?（由前缀定国家）
+rapport,比；比率,名词,239,匹配与驻波,rapport d'ondes stationnaires 驻波比；rapport S/B 信噪比
+gain,增益,名词,235,天线与传播,天线增益以 dBd/dBi 计；放大器增益为输出与输入之比
+mètres,米,单位,234,天线特性与波长,λ(m) = 300 / f(MHz)；注意不要与 MHz 弄混
+impédance,阻抗,名词,230,匹配与驻波,单位 Ω；impédance caractéristique 特性阻抗
+sortie,输出（端）,名词,226,收发信机框图,与 entrée 输入端 相对；Z de sortie 输出阻抗
+indicatif,呼号,名词,223,呼号与前缀,indicatif d'appel 呼号；indicatif spécial 特别呼号
+filtre,滤波器,名词,216,变压器与滤波器,filtre passe-bas 低通；filtre bouchon 陷波器
+statut,地位；业务地位,名词,215,波段划分与分贝,statut primaire 主要业务地位 / statut secondaire 次要业务地位
+schéma,电路图；示意图,名词,212,通用,schéma synoptique 方框图；与 schéma électrique 电路图 区分
+circuit,电路；回路,名词,207,电学基础,circuit bouchon 并联谐振回路
+fréquences,频率（复数）,名词,204,波段划分与分贝,单数 fréquence；fréquence de coupure 截止频率
+courant,电流,名词,195,电学基础,sens du courant 电流方向；courant alternatif 交流电
+condensateur,电容器,名词,191,电容与线圈,单位 farad (F)；en série 串联 / en parallèle 并联
+série,串联；系列,名词,188,电阻的串并联,montage en série 串联；注意也指（呼号）系列
+station,电台；台站,名词,168,报文与设备,station fixe 固定台 / mobile 移动台 / portable 便携台
+ondes,波（复数）,名词,165,天线与传播,ondes stationnaires 驻波；longueur d'onde 波长
+Hz,赫兹（频率单位）,单位,162,波段划分与分贝,实际多用 kHz/MHz/GHz
+code,电码；代码,名词,159,报文与设备,code Morse 摩尔斯电码；code Q Q 简语；code des couleurs 色环码
+bobine,线圈,名词,155,电容与线圈,单位 henry (H)；nombre de spires 匝数
+France métropolitaine,法国本土（不含海外省与海外领地）,短语,148,呼号与前缀,与 DROM/COM 适用规则不同，是常考区分点
+maximum,最大的；最大值,形容词,148,通用,puissance maximum 最大功率；与 minimum 相对
+longueur,长度,名词,147,天线特性与波长,longueur d'onde 波长；longueur de l'antenne 天线长度
+émetteur,发射机,名词,147,收发信机框图,与 récepteur 接收机 相对；émetteur-récepteur 收发信机
+ohm (Ω),欧姆（Ω，电阻单位）,单位,146,电学基础,符号 Ω；习题中常用 kΩ、MΩ
+secondaire,次要的；次级的,形容词,144,波段划分与分贝,statut secondaire 次要业务地位；变压器次级绕组也叫 secondaire
+partagée,共用的；共享的,形容词,141,波段划分与分贝,bande partagée 共用频段；statut partagé 共享（业务）地位
+originaire,来自…的；原籍的,形容词,139,呼号与前缀,常见题干：de quel pays est-il originaire ? 他来自哪个国家？
+récepteur,接收机,名词,139,收发信机框图,récepteur hétérodyne 超外差接收机
+HF,HF 高频（有用射频信号）,缩写,133,收发信机框图,与 FI 中频、BF 音频 区分；HF 常指接收机输入的高频信号
+porteuse,载波,名词,132,发射类别,porteuse modulée 已调载波；coupure de porteuse 载波键控（CW）
+pF,pF 皮法（1 pF = 10⁻¹² F）,单位,128,电容与线圈,1 nF = 1 000 pF；谐振公式 f = 159 / √(L·C) 中 L 用 µH、C 用 pF
+intensité,电流强度,名词,126,电学基础,单位 ampère (A)；I = U / R
+câble,电缆,名词,124,匹配与驻波,câble coaxial 同轴电缆；câble bifilaire 双线电缆
+entrée,输入（端）,名词,124,收发信机框图,与 sortie 输出端 相对；étage d'entrée 输入级
+amplificateur,放大器,名词,119,各级作用与话筒扬声器,缩写 ampli；amplificateur RF 高频 / BF 音频放大器
+signaux,信号（复数）,名词,115,通用,单数 signal，复数不规则 signaux
+résistances,电阻（复数）,名词,113,电阻的串并联,单数 résistance；en série 串联 / en parallèle 并联
+équivalente,等效的,形容词,113,电学基础,capacité équivalente 等效电容；résistance équivalente 等效电阻
+parallèle,并联；平行,名词,109,电阻的串并联,montage en parallèle 并联接法；与 série 串联 对照记忆
+nF,nF 纳法（1 nF = 10⁻⁹ F）,单位,108,电容与线圈,1 nF = 1 000 pF
+radioamateurs,业余无线电爱好者（复数）,名词,108,通用,单数 radioamateur
+onde,波,名词,107,天线与传播,onde de sol 地波；onde réfléchie 反射波（电离层）
+FM,FM 调频（调制方式）,缩写,105,发射类别,法语全称 modulation de fréquence
+bouchon,并联谐振（陷波）电路,名词,104,电容与线圈,circuit bouchon 并联谐振回路，谐振时阻抗极高；filtre bouchon 陷波器
+charge,负载；电荷,名词,103,匹配与驻波,impédance de charge 负载阻抗；注意别只记成「充电」
+émission,发射；（一次）发送,名词,103,发射类别,classe d'émission 发射类别；puissance d'émission 发射功率
+largeur,宽度,名词,102,波段划分与分贝,largeur de bande 带宽（＝ bande passante）
+watts,瓦特（复数，符号 W）,单位,102,波段划分与分贝,单数 watt；PAR/PIRE 可用 W 或 dBW 表示
+droit,权利；法律,名词,101,处罚与考试,à égalité de droit 权利平等；avoir le droit de 有权做…
+utilisé,使用的；所用的,形容词,101,通用,过去分词作形容词；阴性 utilisée、复数 utilisés/utilisées
+examen,考试,名词,100,处罚与考试,examen de réglementation et de technique 法规与技术考试
+formule,公式,名词,100,电学基础,如 loi de Thomson f = 159/√(L·C) 等直接套用
+primaire,主要的；初级的,形容词,100,波段划分与分贝,statut primaire 主要业务地位；变压器初级绕组
+bandes,频段（复数）,名词,99,波段划分与分贝,bandes basses 低频段；bande des 2 m 2 米波段
+calcul,计算,名词,98,电学基础,习题常见「Calculer …」；注意单位换算陷阱
+ligne,线；传输线,名词,95,匹配与驻波,ligne de transmission 传输线；ligne λ/4 四分之一波长线
+nombre,数目；数,名词,93,电学基础,nombre de spires 匝数；nombre pair 偶数
+fonction,功能；函数,名词,92,收发信机框图,en fonction de 取决于；fonction CAG 自动增益控制功能
+GHz,GHz 吉赫（1 GHz = 1 000 MHz）,单位,92,波段划分与分贝,微波波段常用
+transmission,传输；通信,名词,92,报文与设备,transmission de données 数据传输（发射类别码 D）
+lettre,字母,名词,91,字母解释法,呼号由 préfixe + chiffre + suffixe（字母）组成
+résonance,谐振；共振,名词,91,电容与线圈,fréquence de résonance 谐振频率；LC 电路谐振时阻抗极小或极大
+service,业务,名词,90,波段划分与分贝,service amateur 业余业务；主/次要业务——不是普通的「服务」
+opérateur,操作员；持照者,名词,89,处罚与考试,certificat d'opérateur 操作员证书；opérateur de classe 3 三等操作员
+phase,相位,名词,87,交流电,en opposition de phase 反相；déphasage de 90° 相移 90°
+valeurs,值（复数）,名词,87,电学基础,单数 valeur
+amateur,业余的,形容词,86,通用,service amateur 业余业务；sans intérêt pécuniaire 无营利目的
+capacité,电容；容量,名词,86,电容与线圈,单位 farad (F)；别与电池容量混淆
+limites,界限；极限（复数）,名词,84,波段划分与分贝,limites de la bande 频段边界；sans limite 无限制
+champ,场,名词,83,天线与传播,champ magnétique 磁场；champ électrique 电场
+bornes,端子；接线柱（复数）,名词,82,电学基础,固定搭配 aux bornes de … 在…两端（测电压处）
+partie,部分,名词,82,通用,l'examen se compose de deux parties 考试分两部分
+BF,BF 音频（低频）,缩写,81,各级作用与话筒扬声器,basse fréquence 音频；与 HF 高频、FI 中频 区分
+cm,厘米,单位,80,天线特性与波长,天线长度（如 λ/4）常以 cm 表示
+région,区域；（UIT）区,名词,80,波段划分与分贝,région 1/2/3 = UIT 三个区；région parisienne 法兰西岛
+mesure,测量；测量仪器,名词,79,报文与设备,appareil de mesure 测量仪表；l'unité de mesure 计量单位
+FI,FI 中频,缩写,78,收发信机框图,fréquence intermédiaire 中频；FI = |HF ± FO|
+Fox-trot,字母 F 的读法（Fox-trot）,字母解释法,78,字母解释法,另写作 Foxtrot；考试按官方表照抄
+mois,月,名词,78,通用,moins de 3 mois 少于 3 个月（CEPT 推荐 T/R 61-01 临时使用原呼号）
+réglementation,法规；（考试）法规科目,名词,78,处罚与考试,épreuve de réglementation 法规科目，需 ≥10/20
+BLU,BLU 单边带,缩写,77,发射类别,bande latérale unique 单边带；英语 SSB
+Charlie,字母 C 的读法（Charlie）,字母解释法,76,字母解释法,注意法语读 [ʃ]，不是 [tʃ]
+français,法国的；法语的,形容词,76,呼号与前缀,opérateur français 法国操作员
+AM,AM 调幅,缩写,75,发射类别,modulation d'amplitude 调幅；发射类别首字母 A
+permet,允许；使能够,动词,75,通用,permet de + 不定式 可以（做）…（介绍功能的固定句式）
+uniquement,仅仅；只,副词,75,通用,与 exclusivement 同义，常见于法规题干
+sens,方向；意义,名词,74,电学基础,sens du courant 电流方向；sens contraire 相反方向
+spires,匝；圈（复数）,名词,74,电容与线圈,nombre de spires 匝数；单数 spire
+transistor,晶体管,名词,74,二极管与晶体管,à transistor 晶体管式的；FET 场效应管由 drain/porte/source 组成
+calculer,计算；求出,动词,73,电学基础,题干常见「Calculer …」要求算出数值
+condensateurs,电容器（复数）,名词,73,电容与线圈,单数 condensateur
+type,类型；型号,名词,73,通用,type d'information 信息类型（发射类别第 2 位码）
+modulante,调制的；调制用的（信号）,形容词,72,发射类别,signal modulant 调制信号；sous-porteuse modulante 调制副载波
+point,点；分（分数）,名词,72,处罚与考试,point négatif 答错扣分（2021 年起取消）；points S 信号报告单位
+étage,级；级单元,名词,72,各级作用与话筒扬声器,étage final 末级；étage FI 中频级
+crête,峰值,名词,70,交流电,valeur crête 峰值；crête à crête 峰峰值；puissance crête (PEP) 峰包功率
+Delta,字母 D 的读法（Delta）,字母解释法,70,字母解释法,注意别与希腊字母/差值混淆
+ROS,ROS 驻波比,缩写,70,匹配与驻波,rapport d'ondes stationnaires；ROS = (1+ρ)/(1−ρ)，1 表示匹配
+stations,电台（复数）,名词,70,报文与设备,单数 station
+temps,时间；次,名词,70,通用,en même temps 同时；se fait en deux temps 分两步进行
+utiliser,使用；采用,动词,70,通用,utiliser une sous-porteuse 使用副载波
+égalité,平等；相同,名词,70,处罚与考试,à égalité de droit 权利平等（海外台与本土台同等权利）
+diode,二极管,名词,69,二极管与晶体管,effet diode 单向导电效应；mélangeur à diodes 二极管混频器
+Foxtrot,字母 F 的读法（Foxtrot）,字母解释法,69,字母解释法,与 Fox-trot 为同一字母的两种写法，考试只认官方表
+réception,接收,名词,69,收发信机框图,与 émission 发射 相对；en réception 接收时
+ANFR,ANFR 法国国家频率管理局,专有名词,68,处罚与考试,Agence Nationale des Fréquences：编制 TNRBF、受理干扰投诉
+bas,低的；下端,形容词,68,通用,filtre passe-bas 低通；bandes basses 低频段
+classe d'émission,发射类别,短语,68,发射类别,由 3 个字符表示（如 J3E、A1A），见 RR 附录 A1
+double,双的；两倍的,形容词,68,发射类别,double bande latérale 双边带；double conversion 二次变频
+latérale,边带的,形容词,68,发射类别,bande latérale 边带；BLU = bande latérale unique 单边带
+selon,根据；按照,介词,68,通用,selon la table d'épellation 按照字母解释表
+télégraphie,电报（报务）,名词,68,发射类别,télégraphie auditive 听抄电报（A1A）；télégraphie automatique 自动电报（B）
+amplitude,幅度；振幅,名词,67,发射类别,modulation d'amplitude 调幅；amplitude de l'enveloppe 包络幅度
+mélangeur,混频器,名词,67,收发信机框图,混频后得到 FI、和频与差频（含三阶产物）
+base,基极；基础,名词,66,二极管与晶体管,晶体管三极：base 基极 / collecteur 集电极 / émetteur 发射极
+données,数据（复数）,名词,66,报文与设备,transmission de données 数据传输，发射类别码 D
+émettre,发射；发送,动词,66,发射类别,变位特殊：il émet；ne pas émettre 禁止发射
+épellation,拼读；字母读法,名词,66,字母解释法,table d'épellation 字母解释表；动词 épeler 逐字母拼读
+formules,公式（复数）,名词,65,电学基础,单数 formule
+aucune,没有任何（的）,形容词,64,通用,aucune limite 没有限制；与 ne 连用加强否定
+doublet,偶极天线；对称振子,名词,64,天线与传播,antenne doublet 偶极天线；doublet demi-onde 半波偶极（约 73 Ω）
+technique,技术的；（考试）技术科目,形容词,64,处罚与考试,épreuve de technique 技术科目，需 ≥8/20
+utilisée,被使用的（阴性）,形容词,64,通用,utilisé 的阴性形式，用于修饰阴性名词
+statut secondaire,次要业务地位,短语,63,波段划分与分贝,次要业务不得干扰主要业务，且须容忍主要业务的干扰
+diodes,二极管（复数）,名词,62,二极管与晶体管,单数 diode
+modulation d'amplitude,调幅（AM）,短语,62,发射类别,发射类别中首字母 A 即表示调幅
+passante,通带的,形容词,62,变压器与滤波器,bande passante 通带/带宽，常考计算
+RF,RF 射频,缩写,62,收发信机框图,radiofréquence 射频；étage RF 高频级
+RR,RR《无线电规则》,缩写,61,处罚与考试,Règlement des Radiocommunications（UIT），法国法规的国际依据
+antennes,天线（复数）,名词,60,天线与传播,单数 antenne
+correspond,对应；相当于,动词,60,通用,correspond à 等于/对应于（题目中数值与选项的对应）
+faible,弱的；低的,形容词,60,通用,signal faible 弱信号；faible puissance 小功率
+CW,CW 等幅电报（连续波）,缩写,59,发射类别,原文 continuous waves；法语亦称 manipulation pour coupure de porteuse
+facteur,因数；系数,名词,59,通用,facteur de bruit 噪声系数；facteur de qualité Q 品质因数
+indicatifs,呼号（复数）,名词,59,呼号与前缀,单数 indicatif
+niveau,电平；水平,名词,59,波段划分与分贝,niveau du signal 信号电平，用 dBm/dBµ 表示
+oscillateur,振荡器,名词,59,收发信机框图,oscillateur local 本机振荡器（FO）
+quart,四分之一,数量词,59,天线与传播,quart d'onde 四分之一波长；与 demi（一半）成对记忆
+ampli,放大器（amplificateur 的缩写）,名词,58,各级作用与话筒扬声器,正式写法 amplificateur
+porteuse modulante,调制载波（副载波结构）,短语,58,发射类别,见发射类别定义 « sous-porteuse modulante » 调制副载波（A2A/A2B 等）
+certificat,证书,名词,57,处罚与考试,certificat d'opérateur 操作员证书；HAREC、CEPT Novice 两种
+ci-dessous,以下；如下,副词,57,通用,指点考生看下面的表或图；与之相对 ci-dessus 以上
+forme,形状；形式,名词,57,通用,sous forme de 以…形式；forme d'onde 波形
+appel,呼叫；呼号,名词,56,呼号与前缀,indicatif d'appel 呼号；signal d'appel 呼叫信号
+magnétique,磁的；磁性的,形容词,56,天线与传播,champ magnétique 磁场；induction magnétique 磁感应
+produit,乘积；产物,名词,56,电学基础,produit du troisième ordre 三阶产物（互调干扰）
+conditions,条件（复数）,名词,55,处罚与考试,conditions d'examen 考试条件；arrêté fixant les conditions…
+fois,次；倍,名词,55,通用,la première fois 首次；à la fois 同时
+haut,高的；上端,形容词,55,通用,limite haute 上限；passe-haut 高通；haut-parleur 扬声器
+limite,界限；极限,名词,55,波段划分与分贝,limite de la bande 频段边界；sans limite 无限制
+mW,mW 毫瓦（1 mW = 10⁻³ W）,单位,55,波段划分与分贝,dBm 即以 1 mW 为基准的分贝值
+numérique,数字的；数字方式,形容词,55,报文与设备,traitement numérique du signal 数字信号处理；与 analogique 相对
+téléphonie,电话（话务）,名词,55,发射类别,téléphonie 只能是模拟（analogique）方式
+analogique,模拟的,形容词,54,发射类别,与 numérique 数字 相对
+inverse,反向的；相反的,形容词,54,电学基础,sens inverse 反向；inversement 反之
+précaire,（许可）临时的,形容词,54,处罚与考试,固定说法 précaire et révocable：临时且可撤销
+révocable,可撤销的,形容词,54,处罚与考试,固定说法 précaire et révocable：临时且可撤销
+symbole,符号；代号,名词,54,电学基础,如 Ω、F、H；注意区分 l'unité 与 son symbole
+taux,比率；率,名词,54,发射类别,taux de modulation 调制率；TOS = taux d'ondes stationnaires 驻波百分比
+augmente,增加（augmenter 的变位）,动词,53,通用,la puissance augmente 功率增大；与 diminue 减小 相对
+autorisée,被允许的；许可的,形容词,53,处罚与考试,阴性形式；bande autorisée 允许使用的频段
+demi-onde,半波,短语,53,天线特性与波长,antenne demi-onde 半波天线；doublet demi-onde 半波偶极
+montage,电路；接法；安装,名词,53,电学基础,montage en série/parallèle 串/并联接法
+classes,类别（复数）,名词,52,发射类别,单数 classe；classes d'émission 发射类别
+exemples,例子（复数）,名词,52,通用,单数 exemple；教材 « Exemples » 为计算示例
+radio,无线电；收音机,名词,52,通用,radio-club 无线电俱乐部；radiodiffusion 无线电广播
+relais,中继器；中继台,名词,52,报文与设备,台站通过中继台通信：via le relais；别理解成「接力」
+souvent,经常,副词,52,通用,题干与教材中的高频副词
+bruit,噪声,名词,51,收发信机框图,facteur de bruit 噪声系数；rapport S/B 信噪比；bruit thermique 热噪声
+dissipée,耗散的,形容词,51,电学基础,puissance dissipée 耗散功率（发热消耗）
+peuvent,可以（pouvoir 第三人称复数）,动词,51,处罚与考试,法规题中 peuvent 表许可，doivent 表强制
+période,周期,名词,51,交流电,T = 1/f；50 Hz 对应 20 ms
+ème,序数词后缀（3ème 第三）,数量词,51,通用,正式写法为 3e；教材中常见 3ème、20ème
+circuits,电路（复数）,名词,50,电学基础,单数 circuit
+lettres,字母（复数）,名词,50,字母解释法,单数 lettre
+supérieure,较高的；高于…的,形容词,50,通用,fréquences supérieures à 28 MHz 高于 28 MHz 的频率
+éléments,元件；要素（复数）,名词,50,电学基础,élément parasite 寄生元件（八木天线引向器）
+modulateur,调制器,名词,49,收发信机框图,在发射链路中把音频加到载波上
+rayonnement,辐射；辐射方向图,名词,49,天线与传播,diagramme de rayonnement 辐射方向图；rayonnements non essentiels 非必要辐射
+satellite,卫星,名词,49,报文与设备,service d'amateur par satellite 业余卫星业务
+arrêté,部令（部长签发的行政法令）,名词,48,处罚与考试,arrêté du 21 septembre 2000 等；绝不是「停止」
+cours,教材；课程,名词,48,通用,le cours 本教材；au cours de 在…过程中
+fil,导线；线材,名词,48,天线与传播,fil d'antenne 天线导线（线天线）
+émissions,发射（复数）,名词,48,发射类别,单数 émission
+passer,通过；经过；变成,动词,47,通用,le courant passe 电流通过；passer à 转到
+perte,损耗,名词,47,匹配与驻波,perte en ligne 线路损耗；损耗 6 dB 即功率除以 4
+représente,表示；代表,动词,47,通用,le schéma représente… 该图表示…
+Whiskey,字母 W 的读法（Whiskey）,字母解释法,47,字母解释法,拼写为 Whiskey（不是 Whisky）
+CEPT,CEPT 欧洲邮电行政大会,专有名词,46,处罚与考试,推荐 T/R 61-01（临时操作）、T/R 61-02（HAREC）的来源
+coaxial,同轴的,形容词,46,匹配与驻波,câble coaxial 同轴电缆（业余常用 50 Ω）
+correcte,正确的（阴性）,形容词,46,通用,阳性 correct；épellation correcte 正确读法
+durée,时长；期限,名词,46,通用,durée de validité 有效期；durée maximum 最长时限
+décision,决定；裁定,名词,46,处罚与考试,ARCEP 的决定须经主管部长批准后方可生效
+ensemble,整体；全套（设备）,名词,46,通用,gain de l'ensemble 总增益；l'ensemble 整个系统
+force,强度；力,名词,46,电学基础,force du signal 信号强度（QSA 询问信号强度）
+gamme,频段；范围,名词,46,波段划分与分贝,gamme de fréquences 频率范围；gamme VHF 甚高频段
+kΩ,kΩ 千欧（1 kΩ = 1 000 Ω）,单位,46,电学基础,电阻值常用 kΩ / MΩ
+mm,毫米,单位,46,天线特性与波长,电缆直径、导线截面以 mm² 计
+égale,等于…的；相等的,形容词,46,电学基础,est égale à 等于（阴性形式；阳性 égal）
+électrique,电的,形容词,46,电学基础,courant électrique 电流；champ électrique 电场
+épellation correcte,正确拼读,短语,46,字母解释法,题型：Quelle est l'épellation correcte de … ?
+ARCEP,ARCEP 法国电子通信与邮政管理局,专有名词,45,处罚与考试,与 ANFR（频率管理）分工，决定需部长批准生效
+km,千米,单位,45,通用,传播距离常以 km 计（如 6 000 km）
+opérateurs,操作员（复数）,名词,45,处罚与考试,单数 opérateur
+propagation,传播,名词,45,天线与传播,propagation dite « sporadique E » 偶发 E 层传播；onde de sol 地波
+trois,三,数量词,45,通用,trois lettres 三个字母；trois régions UIT 三个 UIT 区
+demande,申请；请求,名词,44,处罚与考试,à la demande de 应…要求；demande d'indicatif 呼号申请
+emploi,使用；运用（sans emploi de 不使用…）,名词,44,发射类别,sans emploi de sous-porteuse 不使用副载波（A1A 的定义）
+rad,rad 弧度（角度/角频率单位）,单位,44,交流电,90° = π/2 rad；角频率 ω = 2πf，单位 rad/s
+brin,振子；线股,名词,43,天线与传播,brin rayonnant 辐射振子；doublet 的两臂也叫 brins
+direction,方向,名词,43,天线与传播,antenne directive 定向天线；sens 也表示方向
+droite,右（边）；直线,名词,43,通用,schéma de droite 右边的图；注意与 droit 权利 区分
+déphasage,相移,名词,43,交流电,déphasage de 90° 相移 90°；LC 电路的电压/电流相位差
+détecteur,检波器；检测器,名词,43,收发信机框图,détecteur électrolytique 电解检波器（历史）
+sol,地面；大地,名词,43,天线与传播,onde de sol 地波；hauteur au-dessus du sol 距地高度（12 m 须申报）
+volts,伏特（复数，符号 V）,单位,43,电学基础,单数 volt
+XYZ,例题呼号中的占位字母（如 F5XYZ）,呼号/前缀,43,呼号与前缀,仅为例题占位符，非真实呼号；如 HB9XYZ、P/F5XYZ
+élevée,高的,形容词,43,通用,fréquence élevée 高频率；tension élevée 高电压
+calculette,计算器,名词,42,处罚与考试,教材解题示例用计算器（亦作 calculatrice）；注意科学记数法输入
+diminue,减少（diminuer 的变位）,动词,42,通用,la puissance diminue 功率减小；与 augmente 增加 相对
+loi,定律；法律,名词,42,电学基础,loi d'Ohm 欧姆定律；loi de Thomson 谐振公式
+ms,ms 毫秒,单位,42,交流电,50 Hz 对应 20 ms；oscillogramme 上时间轴常用 ms
+ans,年,名词,41,通用,tous les 3 ou 4 ans 每 3～4 年（世界无线电大会会期）
+composé,由…组成的,形容词,41,通用,est composé de 由…组成（同 constituté de）
+courants,电流（复数）,名词,41,电学基础,单数 courant
+FO,FO 本机振荡器频率,缩写,41,收发信机框图,fréquence de l'oscillateur local；FI = |HF ± FO|（超外差）
+premier,第一的；首要的,形容词,41,通用,Premier Ministre 总理（部令签署人）；premier contact 首次联络
+seule,仅有的；单独的,形容词,41,通用,une seule voie 单一路（发射类别码 1）；une seule antenne 只用一根天线
+télévision,电视,名词,41,发射类别,发射类别第 2 位码 F 表示电视（视频）
+unique,唯一的；单一的,形容词,41,发射类别,bande latérale unique 单边带（BLU）；voie unique 单路
+alimentation,电源；供电,名词,40,报文与设备,bloc d'alimentation 电源；alimentation stabilisée 稳压电源
+efficace,有效的；有效值（的）,形容词,40,交流电,valeur efficace 有效值（RMS）；Ueff = Umax/√2
+Kilo,字母 K 的读法（Kilo）,字母解释法,40,字母解释法,兼作数量前缀「千」（如 1 kHz）；集体台呼号 F6K… 中的 K 表示 club
+note,分数；成绩,名词,40,处罚与考试,note minimum 10/20 最低分；noté(e) 记作
+Tango,字母 T 的读法（Tango）,字母解释法,40,字母解释法,与法语单词 tango 同形，注意是字母读法
+Zoulou,字母 Z 的读法（Zoulou）,字母解释法,40,字母解释法,法语表写作 Zoulou（英语 Zulu）
+attribué,被分配的；授予的,形容词,39,呼号与前缀,indicatif attribué 所分配的呼号；attribuer 分配
+centre,中心,名词,39,通用,centre d'examen 考试中心；fréquence centrale 中心频率
+dipôle,偶极子；二端网络,名词,39,天线与传播,antenne dipôle 偶极天线；也指二端元件
+groupement,组合；连接方式,名词,39,电阻的串并联,groupement série/parallèle 串联/并联组合
+mobile,移动的,形容词,39,报文与设备,station mobile 移动电台（车载、船载）
+mode,模式；方式,名词,39,通用,mode de calcul 计算方式；别与 classe d'émission 发射类别 混淆
+spectre,频谱,名词,39,发射类别,spectre du signal 信号频谱；repli spectral 频谱折叠
+transformateur,变压器,名词,39,变压器与滤波器,primaire 初级 / secondaire 次级 绕组
+épreuve,考试科目,名词,39,处罚与考试,deux épreuves 两门科目：réglementation 与 technique
+bagues,色环（复数）,名词,38,电阻色环码,4 bagues = 2 位有效数字 + 乘数 + 误差；5 bagues 多一位有效数字
+circuit bouchon,并联谐振电路,短语,38,电容与线圈,谐振时阻抗极高（理论为无穷大）；用作陷波器 filtre bouchon
+programme,大纲；计划,名词,38,处罚与考试,programme de l'épreuve 考试大纲
+radio-club,业余无线电俱乐部；集体台,名词,38,通用,呼号中 K 表示 club，如 F6KGL/F6GPX 表示由某操作员操作
+utilisation,使用；应用,名词,38,通用,utilisation de fréquences 频率使用
+appelé,被称为的；叫做,形容词,37,通用,定义句式 on appelle X le… 我们把…称为 X
+bien,好地；（si bien que 以致）,副词,37,通用,si bien que 以致于（表结果）；bien que 尽管
+champ magnétique,磁场,短语,37,天线与传播,由电流产生；与 champ électrique 电场 相对
+correspondant,联络对方；对方电台,名词,37,报文与设备,votre correspondant 你的通信对方；correspondant à 对应于…
+couche,层（电离层）,名词,37,天线与传播,couches E、F1、F2；couche E sporadique 偶发 E 层
+coupure,切断；截止,名词,37,变压器与滤波器,fréquence de coupure 截止频率；coupure de porteuse 载波键控
+dite,所谓的；被称为的,形容词,37,通用,la ligne est dite ouverte 该线路称为开路；propagation dite « sporadique E » 所谓 Es 传播
+pile,电池（干电池）,名词,37,报文与设备,pile électrique 电池；与 accumulateur 蓄电池 区分
+première,第一（的）；首次,形容词,37,通用,pour la première fois 首次；première liaison 首次联络
+bord,边；船上,名词,36,通用,à bord des navires 在船上（历史题固定说法）
+coefficient,系数,名词,36,匹配与驻波,coefficient de réflexion ρ 反射系数；TOS(%) = 100ρ
+distorsion,失真,名词,36,发射类别,surmodulation 过调制会引起失真
+fixe,固定的,形容词,36,报文与设备,station fixe 固定电台；fréquence fixe 固定频率
+générateur,发电机；信号源,名词,36,电学基础,générateur HF 高频信号发生器；impédance du générateur 源阻抗
+notée,记作的；标示为,形容词,36,通用,une perte de 6 dB est notée −6 dB 记作 −6 dB
+parasites,干扰；寄生（信号、元件）,名词,36,天线与传播,parasites industriels 工业干扰；éléments parasites 八木天线引向/反射元件
+QSA,QSA 信号强度（如何）,Q 简语,36,Q 简语,QSA ? 我的信号强度如何？回答 S1～S9
+rayonnements,辐射（复数）,名词,36,天线与传播,rayonnements non essentiels 非必要（杂散）辐射，需低通滤波抑制
+rendement,效率,名词,36,电学基础,rendement(%) = 有用输出功率 / 总输入功率
+réfléchie,反射的,形容词,36,匹配与驻波,onde réfléchie 反射波；puissance réfléchie 反射功率
+service amateur,业余业务,短语,36,波段划分与分贝,RR S1-56 定义：个人爱好、无营利目的的无线电业务
+tensions,电压（复数）,名词,36,电学基础,单数 tension；tension crête 峰值电压
+terre,大地；接地,名词,36,天线与传播,prise de terre 接地极；liaison à la terre 接地连接
+vide,真空,名词,36,电学基础,tube à vide 真空管；dans le vide 在真空中（µ₀、ε₀ 的取值前提）
+voltmètre,电压表,名词,36,报文与设备,测电压；与 ampèremètre 电流表、ohmmètre 欧姆表 区分
+étages,级（复数）,名词,36,各级作用与话筒扬声器,单数 étage
+atténuation,衰减,名词,35,波段划分与分贝,courbe d'atténuation 衰减曲线，以 dB 表示
+augmenter,增加；提高,动词,35,通用,augmenter la puissance 提高功率
+bleu,蓝色（色环）,名词,35,电阻色环码,色环蓝 = 6，乘数 ×10⁶；见 code des couleurs 色环码
+capacité équivalente,等效电容,短语,35,电容与线圈,串联时 1/C = Σ1/Ci，并联时直接相加
+chiffre,数字（0～9）,名词,35,呼号与前缀,呼号中的 chiffre 表示分区/系列（如 F8xxx 中的 8）
+dBm,dBm 分贝毫瓦（以 1 mW 为基准）,单位,35,波段划分与分贝,0 dBm = 1 mW；dBm + 30 = dBW
+devient,变为；成为（devenir 的变位）,动词,35,电学基础,l'impédance devient inductive 阻抗变为感性
+fc,fc 截止频率,缩写,35,变压器与滤波器,fréquence de coupure，滤波器衰减曲线的转折频率（注意 Fc 也用于噪声系数）
+VHF,VHF 甚高频（30～300 MHz，米波）,缩写,35,波段划分与分贝,如 2 m 波段（144 MHz）、6 m 波段
+article,（法律）条款,名词,34,处罚与考试,article L41 du CPCE 等；RR 中称 disposition S1 等
+bobines,线圈（复数）,名词,34,电容与线圈,单数 bobine
+CAG,CAG 自动增益控制,缩写,34,收发信机框图,contrôle automatique de gain（英语 AGC），稳定接收音量
+caractéristiques,特性；参数（复数）,名词,34,通用,impédance caractéristique 特性阻抗；caractéristiques d'un filtre 滤波器参数
+communications,通信（复数）,名词,34,报文与设备,communications 只能为本台使用，不得为第三方传递（除紧急情况）
+divisée,被除的；被分割的,形容词,34,波段划分与分贝,la puissance est divisée par 4 功率被除以 4（每 −6 dB）
+doublet demi-onde,半波偶极天线,短语,34,天线特性与波长,阻抗约 73 Ω 对称；经 λ/4 变换可与 50 Ω 同轴电缆匹配
+exclusif,专用的；（OU exclusif 异或）,形容词,34,通用,correspond exclusivement à 专用于…；porte OU exclusif 异或门
+harmoniques,谐波（复数）,名词,34,发射类别,filtre anti-harmonique passe-bas 低通防谐波滤波器；谐波为 f 的整数倍
+LC,LC 回路（电感电容）,缩写,34,电容与线圈,circuit LC 谐振回路 / filtre LC 滤波器
+passe-bas,低通（滤波器）,短语,34,变压器与滤波器,filtre passe-bas 低通滤波器；与 passe-haut 高通 相对
+PIRE,PIRE 等效全向辐射功率,缩写,34,天线与传播,puissance isotrope rayonnée équivalente（英语 EIRP）= 功率 × 天线增益
+radioélectriques,无线电的,形容词,34,波段划分与分贝,fréquences/installations radioélectriques 无线电频率/设施
+RC,RC 电路（电阻电容）,缩写,34,变压器与滤波器,filtre RC 适用于低频；fc = 1/(2πRC)
+rouge,红色（色环）,名词,34,电阻色环码,色环红 = 2，乘数 ×100
+zone,区；区域,名词,34,通用,示意图中的 zone 1～4 表示不同调制状态
+automatique,自动的,形容词,33,发射类别,télégraphie automatique 自动电报（码 B）；contrôle automatique de gain 自动增益控制
+contact,联络；接触,名词,33,报文与设备,premier contact 首次联络；prendre contact 取得联系
+doivent,必须；应当（devoir 第三人称复数）,动词,33,处罚与考试,法规文本中 doivent 表强制，peuvent 表许可，是审题关键
+effet,效应,名词,33,电学基础,effet de peau 集肤效应；effet diode 二极管（单向）效应
+fonctionnement,运行；工作（原理）,名词,33,通用,conditions de fonctionnement 工作条件；hors d'état de fonctionner 不能工作
+longueur d'onde,波长,短语,33,天线特性与波长,λ(m) = 300 / f(MHz)；半波天线约为 λ/2
+max,最大（maximum 的缩写）,缩写,33,通用,puissance max 最大功率；正式写法 maximum/maximale
+modifié,修改过的,形容词,33,处罚与考试,l'arrêté du 02/03/21 qui a modifié… 修改了…的部令
+octave,倍频程,名词,33,变压器与滤波器,滤波器衰减斜率以 dB/octave 表示；频率加倍即一个倍频程
+porte,门；栅极,名词,33,二极管与晶体管,porte logique 逻辑门；FET 的 porte = gate 栅极；on porte… à 把…提高到
+puissances,功率（复数）,名词,33,波段划分与分贝,单数 puissance；puissances de 10 也指 10 的幂
+recevoir,接收；收到,动词,33,收发信机框图,recevoir un signal 接收信号；与 émettre 发射 相对
+système,系统,名词,33,通用,système de radiocommunication 无线电通信系统
+tableau,表；表格,名词,33,通用,tableau ci-dessus 上表；TNRBF 国家频率划分表
+UHF,UHF 特高频（300～3 000 MHz，分米波）,缩写,33,波段划分与分贝,如 70 cm 波段（430 MHz）
+utilisées,被使用的（阴性复数）,形容词,33,通用,utilisé 的阴性复数形式
+émet,发射（émettre 第三人称单数）,动词,33,发射类别,il émet 它发射；注意与不定式 émettre 的拼写差
+ci-dessus,以上；上述,副词,32,通用,上表/上图；与 ci-dessous 以下 相对
+impédances,阻抗（复数）,名词,32,匹配与驻波,单数 impédance
+latérale unique,单边带（bande latérale unique）,短语,32,发射类别,即 BLU / 英语 SSB；业余最常用的语音方式
+lieu,地点；场合,名词,32,通用,avoir lieu 举行（premier contact a eu lieu en 1907）
+Lima,字母 L 的读法（Lima）,字母解释法,32,字母解释法,与汉字无对应，按官方表照抄
+masse,地；接地（机壳地）,名词,32,电学基础,vers la masse 到地；与 prise de terre 大地接地 区分
+maxi,最大的（maximum 的口语缩写）,形容词,32,通用,教材中 U maxi / I maxi 表示最大电压/电流
+ordre,数量级；顺序,名词,32,通用,de l'ordre de 数量级约为…；produit du troisième ordre 三阶产物
+peu,少；不多,副词,32,通用,peu 很少；un peu 一点；peu de 几乎没有
+spécial,特别的；专用的,形容词,32,呼号与前缀,indicatif spécial 特别呼号（如活动呼号 TM9A，可用 7 个周末）
+suivi,后接的；跟随的,形容词,32,呼号与前缀,le chiffre 8 suivi de 3 lettres 数字 8 后接 3 个字母；suivi de 后跟
+sélectivité,选择性,名词,32,收发信机框图,与 sensibilité 灵敏度 相对；由 FI 滤波器决定
+TOS,TOS 驻波百分比,缩写,32,匹配与驻波,taux d'ondes stationnaires = 100ρ；TOS 11% 即反射系数为 11%
+électrons,电子（复数）,名词,32,电学基础,courant = déplacement d'électrons 电子移动形成电流
+aura,将有；将是（avoir 简单将来时）,动词,31,通用,quelle impédance aura le câble ? 该电缆的阻抗将为多少？
+autorisation,许可；批准,名词,31,处罚与考试,soumis à autorisation 须经许可；无许可使用频率即违规
+constitué,由…构成的,形容词,31,通用,est constitué de 由…构成（同 composé de）
+forte,强的；大的,形容词,31,通用,forte amplitude 幅度大；forte diminution 大幅减弱
+Golf,字母 G 的读法（Golf）,字母解释法,31,字母解释法,与法语单词 golf 同形，是字母读法而非「高尔夫」
+image,图像；镜像,名词,31,发射类别,image fixe 静止图像（SSTV，码 C）；fréquence image 镜像频率
+maximale,最大的（阴性）,形容词,31,通用,puissance rayonnée maximale 最大辐射功率
+multiplicateur,乘数；倍频器,名词,31,电阻色环码,色环第 3 环为乘数环；也指频率倍增器
+nulle,为零的；无效的,形容词,31,电学基础,l'impédance est nulle 阻抗为零（串联谐振时）
+obtenir,得到；求得,动词,31,电学基础,pour obtenir R 为求得 R；obtenir le même niveau 获得同样电平
+rayonnée,辐射的,形容词,31,天线与传播,puissance rayonnée 辐射功率；PAR 有效辐射功率
+recommandation,建议书；推荐规范,名词,31,处罚与考试,recommandation T/R 61-01（CEPT 临时操作）、T/R 61-02（HAREC）
+section,截面；章节,名词,31,电学基础,section du conducteur 导线截面（mm²）；教材 Section A/B 章节
+statut primaire,主要业务地位,短语,31,波段划分与分贝,主要业务不受其他业务干扰；次要业务须避让
+synoptique,方框图（流程框图）,名词,31,收发信机框图,schéma synoptique 框图；synoptique de récepteur 接收机方框图
+utilisant,使用（现在分词，常用于 en utilisant）,动词,31,通用,en utilisant 使用…；les stations utilisant… 使用…的电台
+X-ray,字母 X 的读法（X-ray）,字母解释法,31,字母解释法,法语表写作 X-ray
+énergie,能量；电能,名词,31,电学基础,énergie dissipée 耗散能量；énergie émise 发射能量
+étant,由于…（être 的现在分词，独立表原因）,动词,31,通用,les intensités étant égales 由于电流相等（技术解释的固定结构）
+dessin,图；图形,名词,30,通用,题干 dessin d'une résistance 电阻的图示
+démodulateur,解调器,名词,30,收发信机框图,把中频/高频已调信号还原为音频（信号 BF）
+essentiels,必要的（复数）,形容词,30,发射类别,rayonnements non essentiels 非必要（杂散）辐射，须按 RR 附录 3 限值
+faire,做；使得,动词,30,通用,faire + 不定式 让…做；faire un calcul 做一次计算
+généré,产生的；生成的,形容词,30,通用,signal généré 产生的信号；généré par l'oscillateur 由振荡器产生
+Mike,字母 M 的读法（Mike）,字母解释法,30,字母解释法,与麦克风（micro）无关，只是字母 M 的读法
+monté,连接的；装配的,形容词,30,电学基础,monté en série 串联连接；filtre monté en parallèle 并联的滤波器
+multiples,倍数（复数）,名词,30,波段划分与分贝,multiples du hertz 赫兹的倍数：kHz、MHz、GHz；也指 10 的幂
+OR,金色（电阻色环乘数 ×0.1）,名词,30,电阻色环码,第 3 环金色为乘数 ×0.1（银色为 ×0.01）；教材注明考试不出此类乘数题
+phonétique,语音的；字母读音的,形容词,30,字母解释法,alphabet phonétique 字母解释表（arrêté 附件 I）
+portable,便携的；手提的,形容词,30,报文与设备,station portable 便携电台（也指手机）
+position,位置；状态,名词,30,通用,position d'un commutateur 开关档位
+QRZ,QRZ 谁在呼叫我？,Q 简语,30,Q 简语,题例：被 HB9XYZ 呼叫 → 答 « QRZ HB9XYZ »
+Saint,圣（地名用词）,专有名词,30,呼号与前缀,如 Saint-Pierre-et-Miquelon 圣皮埃尔和密克隆（海外领地）
+Alfa,字母 A 的读法（Alfa）,字母解释法,29,字母解释法,法语官方表写作 Alfa（不是 Alpha）
+aucun,没有任何的（ne…aucun：一个也没有）,形容词,29,通用,否定搭配 ne…aucun；考试中见 aucun point（不得分）、aucun changement（无变化）
+collecteur,（晶体管的）集电极,名词,29,二极管与晶体管,三极：émetteur 发射极、base 基极、collecteur 集电极；勿与 collecteur 整流子混
+câble coaxial,同轴电缆,名词,29,天线与传播,阻抗 50 Ω（RG-58 等）；非对称馈线，损耗以 dB/m 表示
+exclusive,（业务地位）专用的、排他的,形容词,29,波段划分与分贝,"答案固定语 exclusive, statut primaire = 专用、主要业务地位；与 partagée（共用）相对"
+fin,末尾、结尾,名词,29,通用,la fin de l'indicatif 呼号末尾；à la fin de l'examen 考试结束时
+matériel,设备、器材,名词,29,报文与设备,matériel d'émission 发射设备；同形形容词「物质的」
+Oscar,Oscar：字母 O 的读法,字母解释法,29,字母解释法,国际字母解释法；L 是 Lima，别选 Ontario/Londres
+Papa,Papa：字母 P 的读法,字母解释法,29,字母解释法,注意 P 不是 Portugal（常见错答）
+SHF,SHF：超高频 3–30 GHz（厘米波）,缩写,29,波段划分与分贝,SHF 在 UHF 之上、EHF（30–300 GHz）之下；16 GHz 属 SHF
+signé,签署（signé：已签署的）,动词,29,呼号与前缀,pays ayant signé un accord de réciprocité 已签互惠协议的国家；名词 signe = 符号，勿混
+techniques,技术的（conditions techniques 技术要求）,形容词,29,通用,也作名词 les techniques 技术
+totale,总的（puissance totale 总功率）,形容词,29,电学基础,total 的阴性；puissance consommée totale 总耗电功率
+autorisées,获许可的（阴性复数）,形容词,28,报文与设备,fréquences/classes autorisées 许可频率/发射类别；conversations non autorisées 禁止的谈话内容
+diélectrique,电介质（绝缘介质）,名词,28,电容与线圈,C = ε·S/e：介电层越薄、介电常数越大，容量越大
+inférieure,较低的、低于…的,形容词,28,通用,inférieur(e) à = 小于；反义 supérieure；ROS 越小越好
+internationale,国际的（阴性形式）,形容词,28,通用,table internationale d'épellation 国际字母解释法表；UIT 国际电信联盟
+linéaire,线性的,形容词,28,通用,amplificateur linéaire 线性放大器；affaiblissement linéique 线性（单位长度）衰减
+minimum,最小值；最小的,名词,28,通用,puissance minimum de la résistance 电阻最小功率；考试固定写法 minimum（不用 minimale）
+qualité,质量；品质,名词,28,电容与线圈,facteur de qualité 品质因数 Q；qualité du sol 土壤导电性
+réseau,网络；（电桥的）一侧支路网络,名词,28,电学基础,pont de Wheatstone：réseau du haut/bas 上/下侧网络；也指电网、通信网
+résultat,结果,名词,28,综合练习,résultat de l'épreuve 考试成绩
+sauf,除…以外,介词,28,处罚与考试,sauf autorisation 除获批准外；sauf indication contraire 除非另有说明
+seconde,秒,名词,28,交流电,时间单位；也作序数词「第二」（la seconde épreuve）
+services,业务（复数）,法规用语,28,通用,service d'amateur 业余业务；service mobile 移动业务
+somme,和、总和,名词,28,电学基础,somme des tensions 电压之和；也指「相加」
+table,表、表格,名词,28,综合练习,table de conversion 换算表；table d'épellation 字母解释法表
+trafic,通联、通信联络,名词,28,报文与设备,faire du trafic 进行通联；cesser tout trafic 停止一切通联
+varie,变化（varier：变动）,动词,28,通用,la fréquence varie 频率变化；勿与 varié（多样的）混；碎片 varie-t-elle 已剔除
+émise,（被）发射的,形容词,28,发射类别,puissance émise 发射功率；与 puissance réfléchie 反射功率配合算 ROS
+épreuves,考试科目（épreuve：测试）,名词,28,处罚与考试,两部分：réglementation 与 technique；bénéfice de l'épreuve 单科成绩保留
+AF,AF：音频（audiofréquence）,缩写,27,各级作用与话筒扬声器,étage AF 音频级；对比 RF 射频、FI 中频、BF 声频
+an,年,名词,27,处罚与考试,bénéfice de l'épreuve conservé 1 an 单科成绩保留 1 年
+anglais,英语；英国的,名词,27,综合练习,CEPT、WRC、T/R 等英文缩写按英文理解
+au-delà,超出、在…之外,短语,27,波段划分与分贝,au-delà de = 超过（某值）；au-delà de 30 MHz 30 MHz 以上
+auditive,听觉的（télégraphie auditive 听抄电报）,形容词,27,发射类别,A1A/A2A 听抄，automatique 为自动收报；也是字母解释法中的 télégraphie
+Bravo,Bravo：字母 B 的读法,字母解释法,27,字母解释法,注意 B 不是 Baltimore（常见错答）
+dépend,取决于（dépendre de）,动词,27,通用,la fréquence dépend de… 频率取决于…
+filtres,滤波器（复数）,名词,27,变压器与滤波器,filtre passe-bas/passe-haut/RC/LC；单数 filtre
+Florida,Florida：字母 F 的读法（法国旧表）,字母解释法,27,字母解释法,国际表为 Foxtrot；考试两表都出现，但 F 不能读 France
+gauche,左（à gauche 在左边）,名词,27,综合练习,看图描述用语：réseau de gauche 左侧网络；反义 droite
+infinie,无限的（impédance infinie 无穷大阻抗）,形容词,27,电学基础,并联谐振时阻抗趋于无穷；反义 nulle 为零
+interne,内部的（résistance interne 内阻）,形容词,27,电学基础,电池内阻、电流表内阻；反义 externe
+marron,棕色（色环数字 1）,名词,27,电阻色环码,棕 1、红 2、橙 3；也用于旧导线颜色标准
+reste,保持、仍然是（rester）,动词,27,通用,la fréquence reste identique 频率保持不变；也作名词 le reste 其余
+référence,基准、参考（oscillateur de référence 基准振荡器）,名词,27,收发信机框图,PLL 框图题中的「référence」输入端与 comparateur de phase 配对
+statut précaire,临时性地位,短语,27,波段划分与分贝,完整说法 statut précaire et révocable＝临时且可撤销；50 MHz 等波段即此地位
+surface,面积（极板面积）,名词,27,电容与线圈,容量与相对极板面积成正比、与间距成反比
+UIT,UIT：国际电信联盟,缩写,27,处罚与考试,Union Internationale des Télécommunications，日内瓦；RR（无线电规则）出自该组织
+voies,路、通道（plusieurs voies 多路）,名词,27,发射类别,发射类别第 3 位数字 7 = plusieurs voies（多路数字信息）
+AB,AB（classe AB：甲乙类放大）,缩写,26,二极管与晶体管,静态电压介于 0 与满值之间，效率高于 A 类、失真小于 B 类
+alimenté,供电的、馈电的（alimenté par 由…供电）,形容词,26,电学基础,câble qui alimente l'antenne 天线馈线；双极型管需正确偏置
+alternatif,交流的（courant alternatif 交流电）,形容词,26,交流电,对比 continu 直流；也指「交替的」
+bout,端、末端,名词,26,天线与传播,en bout d'antenne 天线末端；au bout d'une ligne 线路末端；au bout de 2 mois 两个月后
+compte,计数、计分（compter pour…）,名词,26,处罚与考试,chaque bonne réponse compte pour 1 point 每题 1 分；tenir compte de 考虑
+conversion,（频率）变换、混频,名词,26,收发信机框图,double changement de fréquence 二次变频；conversion directe 直接变频
+couches,层（电离层 E、F 层）,名词,26,天线与传播,couches E/F1/F2 反射短波；couche D 白天吸收、夜间消失
+CPCE,CPCE：邮政与电子通信法典,缩写,26,处罚与考试,Code des Postes et des Communications Électroniques，法国法规的根本来源
+définition,定义,名词,26,通用,题干常用 quelle est la définition de… 下列哪项是…的定义
+détermine,决定、确定（déterminer）,动词,26,通用,qu'est-ce qui détermine la capacité 什么决定电容值；l'adresse détermine le préfixe 地址决定前缀
+Echo,Echo：字母 E 的读法,字母解释法,26,字母解释法,注意 E 不是 Emile（常见错答）
+existe,存在（il existe：有、存在）,动词,26,通用,il n'existe pas 不存在；cet indicatif n'existe pas 该呼号不存在
+indication,指示、标注（图上的标注/读数）,名词,26,综合练习,avec l'indication : 16 dBi 图上标注 16 dBi；précision de l'affichage 显示精度
+Morse,莫尔斯（code Morse 莫尔斯电码）,专有名词,26,发射类别,2003 年后短波不再强制考电报，但 A1A/A2A 题仍考
+protection,保护（protection contre la foudre 防雷）,名词,26,报文与设备,保护导体为黄绿双色；天线须以最短路径接入防雷装置
+présente,呈现、存在于（présent à l'entrée）,动词,26,通用,la tension présente à l'entrée 输入端出现的电压
+seul,唯一的、单独的,形容词,26,通用,un seul sens 单一方向；un condensateur seul 仅一只电容
+suffixe,后缀（呼号后缀）,名词,26,呼号与前缀,喊后缀 /T /P /M：transportable / portable / mobile；信标用 /B
+supprimée,被抑制的（porteuse supprimée 抑制载波）,形容词,26,发射类别,BLU 抑制载波；对比 porteuse réduite 减幅载波
+Uniform,Uniform：字母 U 的读法,字母解释法,26,字母解释法,注意 U 不是 United/Union（常见错答）
+adresse,地址,名词,25,呼号与前缀,adresse déclarée 申报地址决定呼号前缀；改地址须在期限内告知
+art.,art.（article 的缩写：条）,缩写,25,处罚与考试,art. L130 du CPCE 法典第 L130 条；文中另有 alinéa（款）
+Corse,科西嘉（呼号前缀 TK）,专有名词,25,呼号与前缀,TK 为科西嘉；TM、TO7 等为特别活动呼号
+côté,侧、旁边（côté）,名词,25,综合练习,de chaque côté du signe = 等号两边；与 côte（海岸）形近，Côte d'Ivoire 勿混
+dBc,dBc：相对于载波的分贝,单位,25,波段划分与分贝,以基波功率为 0 dB 参考；非必要辐射限值如 -60 dBc
+différents,不同的、多种的,形容词,25,通用,différents types d'information 多种信息类型（发射类别第 3 位 W 的含义）
+distance,距离,名词,25,电学基础,极板间距加倍则容量减半；另有天线与居民区最小距离的规定
+déclaration,申报（déclaration à l'ANFR）,名词,25,报文与设备,PAR 超过 5 W 须向 ANFR 申报；不是泛指的「声明」
+galvanomètre,检流计,名词,25,电学基础,测极小电流；测强电流须用热式电流表
+jours,天（期限单位）,名词,25,处罚与考试,变更地址须在 15 jours 内告知；勿与 heures 混
+marque,标记、标志；牌号,名词,25,报文与设备,设备应有 CE 标记（logo CE）；也指品牌
+ministre,部长,名词,25,处罚与考试,arrêté signé du Premier Ministre 由总理签署的部令
+moment,时刻、时候,名词,25,通用,à un moment de la journée 一天中某时刻；à tout moment 随时
+noir,黑色（色环数字 0）,名词,25,电阻色环码,黑 0、棕 1；第四环金色为 ±5%
+proche,接近的（proche de）,形容词,25,匹配与驻波,TOS proche de 1 驻波比接近 1
+QRK,QRK：你收我的信号可辨度如何？,Q 简语,25,Q 简语,可辨度 1–5；与信号强度 S（QRSA 中的 R、S）区分
+quartz,石英（晶体）,名词,25,收发信机框图,filtre à quartz 石英晶体滤波器（BLU 边带滤波）；résonateur à quartz 石英谐振器
+Sierra,Sierra：字母 S 的读法,字母解释法,25,字母解释法,注意 S 不是 Santiago（常见错答）
+source,源、电源,名词,25,电学基础,source de courant 电流源；也泛指来源
+variable,可变的；变量,形容词,25,电学基础,résistance variable 可变电阻；反义 constante
+égal,相等的、等于…的（égal à）,形容词,25,电学基础,TOS égal à 1 驻波比等于 1；à égalité de droit 权利平等
+électroniques,电子的（communications électroniques 电子通信）,形容词,25,处罚与考试,ministère chargé des communications électroniques 主管部门
+alphabet,字母表（alphabet phonétique 字母解释法表）,名词,24,字母解释法,国际表与法国旧表（Florida 等）并存，考试须认国际表
+angle,角、角度,名词,24,交流电,angle de déphasage 相位角；三角函数用于交流电计算
+brouille,干扰（brouiller：使受扰）,动词,24,处罚与考试,QRM 答语 Je suis brouillé 我受干扰；brouillage préjudiciable 有害干扰
+date,日期,名词,24,报文与设备,日志必记 date du contact 联络日期
+directement,直接地,副词,24,收发信机框图,récepteur à conversion directe 直接变频接收机
+délivre,发放、签发（délivrer）,动词,24,处罚与考试,qui délivre les certificats 谁颁发证书；呼号由 ANFR 签发
+exploitation,使用、运营（exploitation d'une station 电台操作）,名词,24,处罚与考试,conditions d'exploitation 使用条件；CEPT 许可允许临时操作
+fonctionne,工作、运行（fonctionner）,动词,24,通用,ne fonctionne qu'en courant continu 只能直流工作
+grâce,借助、由于（grâce à）,介词,24,通用,grâce à l'effet électrostatique 借助静电效应
+haute,高的（haute fréquence 高频）,形容词,24,通用,haute/basse 高/低；HF 即 haute fréquence 的缩写
+HB,HB：瑞士（HB9）、列支敦士登（HB0）呼号前缀,呼号/前缀,24,呼号与前缀,HB0 列支敦士登不属欧盟，是「非欧盟前缀」常考项
+Hotel,Hotel：字母 H 的读法,字母解释法,24,字母解释法,注意 H 不是 Honolulu（常见错答）
+information,信息,名词,24,发射类别,type d'information transmise 传输的信息类型（发射类别第 3 位）
+Martinique,马提尼克（海外省，前缀 FM）,专有名词,24,呼号与前缀,DROM 前缀：FM 马提尼克、FG 瓜德罗普、FR 留尼汪、FY 圭亚那
+moyenne,平均的；中等的（moyenne fréquence 中频）,形容词,24,各级作用与话筒扬声器,也作名词 moyenne 平均分；impédance moyenne 中等阻抗
+occupée,被占用的（bande occupée 占用带宽）,形容词,24,发射类别,bande passante occupée 占用带宽须留在指配频段内
+QRV,QRV：你（我）准备好了吗？,Q 简语,24,Q 简语,答语 Je suis prêt；与 QRT（停止发射）区别
+reliée,连接的（relié à 接于）,形容词,24,电学基础,l'antenne est reliée à… 天线接到…；也指 montage relié à la masse 接到地
+vitesse,速度（vitesse de propagation 传播速度）,名词,24,天线与传播,λ = v/f，v 取光速约 300 000 km/s
+Yagi,Yagi：八木（日本姓氏）；八木天线,专有名词,24,天线与传播,定向天线由反射器、辐射器、一个或多个引向器组成
+applique,施加、加（appliquer une tension）,动词,23,电学基础,on applique une tension 加电压；也指「适用」（la France applique…）
+autorisé,被许可的、允许的,形容词,23,报文与设备,qui est autorisé 获许可；non autorisé 禁止
+brouillage,干扰,名词,23,处罚与考试,brouillage préjudiciable 有害干扰，可被追究；perturbation 指对设备的骚扰
+cathode,阴极,名词,23,二极管与晶体管,二极管符号三角形指向的一侧为阴极；FET 则为 drain/porte/source
+connaître,知道、了解（connaître）,动词,23,通用,il faut connaître 必须掌握；考题常以«必须知道»表述
+constante,恒定的；常数,名词,23,电学基础,constante de temps τ = RC 时间常数；反义 variable
+discriminateur,鉴频器（FM 解调级）,名词,23,收发信机框图,把频率变化变为电压变化；位于限幅器之后
+HAREC,HAREC：欧洲业余无线电统一考试标准,缩写,23,处罚与考试,法国证书与该标准接轨，故称 HAREC 级
+heure,小时、时刻,名词,23,报文与设备,日志记 heure de début/fin；注意题目问的是本地时还是 UTC
+jour,日、天,名词,23,通用,le jour 白天；注意与 journée 的搭配差异
+lignes,线、线路（ligne de transmission 传输线）,名词,23,天线与传播,ligne de transmission 传输线（馈线）
+linéique,单位长度的（affaiblissement linéique 线衰减）,形容词,23,匹配与驻波,"以 dB/100 m 或 dB/m 表示；计算题常给 0,03 dB/m"
+milieu,中间、中部；介质,名词,23,天线与传播,dipôle alimenté en son milieu 中央馈电偶极天线；au milieu de 在…中间
+naturelle,自然的（écriture naturelle 自然书写）,形容词,23,综合练习,计算器自然书写输入；catastrophe naturelle 自然灾害
+négative,负的（tension négative）,形容词,23,电学基础,负电压、负半周；反义 positive
+obligatoire,必须的、强制的,形容词,23,报文与设备,matériel obligatoire 必备设备；日志中哪项非必填是考点
+passant,正向导通的（sens passant）,形容词,23,二极管与晶体管,sens passant 顺向导通、电阻很小；反义 non passant（截止）
+pont,电桥（pont de Wheatstone）,名词,23,电学基础,惠斯通电桥测电阻；平衡时两中点间电压为 0 V
+possible,可能的（si possible 尽可能）,形容词,23,通用,une seule réponse possible 只有一个正确答案
+pulsation,角频率（ω = 2πf）,名词,23,交流电,单位 rad/s；X_L = Lω、X_C = 1/(Cω)
+QRA,QRA：你的电台名称是什么？,Q 简语,23,Q 简语,QRA 是台名/电台标识，QTH 才是位置
+QSL,QSL：确认收到（QSL 卡）,Q 简语,23,Q 简语,QSL 卡片为联络确认卡
+rayonnant,辐射的（brin rayonnant 辐射振子）,形容词,23,天线与传播,brin rayonnant 天线真正辐射的部分
+repéré,标注为（repéré par 用…标出）,动词,23,综合练习,l'étage repéré par « ? » 标着「?」的那一级；名词 repère 为标记
+schémas,电路图、示意图（复数）,名词,23,综合练习,题干常见「看图回答」
+seulement,仅仅、只,副词,23,通用,oui mais seulement au-dessus de… 仅当频率高于…时才成立
+simplifiée,简化的（formule simplifiée 简化公式）,形容词,23,综合练习,考试只要求用简化公式
+Union,联盟（Union Internationale des Télécommunications）,名词,23,处罚与考试,UIT 国际电信联盟；Union européenne 欧盟（判断欧盟前缀题）
+utilisés,被使用的（les chiffres utilisés）,形容词,23,发射类别,"les chiffres 4, 5 et 6 ne sont pas utilisés 第 4/5/6 位数字不使用"
+affaiblissement,衰减,名词,22,匹配与驻波,affaiblissement linéique 线衰减；dB 相加，功率按 10^(dB/10) 换算
+appelée,被称为…的（appelée aussi 又称）,形容词,22,通用,同义表达还有 désignée、signifiant
+Belgique,比利时（呼号前缀 ON）,专有名词,22,呼号与前缀,ON 比利时、PA 荷兰、DA–DL 德国、F 法国
+caractéristique,特性（曲线）；特性的,名词,22,天线与传播,impédance caractéristique 特性阻抗；courbe caractéristique 特性曲线
+composant,（电子）元件,名词,22,电学基础,composants actifs/passifs 有源/无源元件
+courbe,曲线,名词,22,电学基础,courbe de réponse 响应曲线；读图题常用
+donnée,数据（données）；给定值,名词,22,通用,les données 数据；也作过去分词 donné 给定的
+HP,HP：扬声器（haut-parleur）,缩写,22,各级作用与话筒扬声器,接收机框图最后一级接 HP，与 micro 话筒对应
+indicatif spécial,特别呼号（纪念/临时活动用，如 TM…）,短语,22,呼号与前缀,法国特别活动呼号多用 TM；TO7 属海外特别呼号
+inductance,电感（量）,名词,22,电容与线圈,单位 H；e = -L·di/dt；与 capacité 相对
+international,国际的（阳性形式）,形容词,22,通用,accord international 国际协议
+micro,话筒（microphone）；微（10⁻⁶）,名词,22,各级作用与话筒扬声器,étage micro 话筒级；与 HP 分居发射/接收框图两端
+obtenu,获得的（obtenu）,动词,22,处罚与考试,note obtenue 所得分数；indicatif obtenu 获得的呼号
+ohm,欧姆（电阻单位）,单位,22,电学基础,符号 Ω，如 50 Ω
+orange,橙色（色环数字 3）,名词,22,电阻色环码,黑 0 棕 1 红 2 橙 3 黄 4 绿 5 蓝 6 紫 7 灰 8 白 9
+plan,平面（condensateur plan）；规划、平面图,名词,22,电容与线圈,condensateur plan 平板电容器；plan de bandes 波段规划
+racine,根（racine carrée 平方根）,名词,22,综合练习,E = √(PR) 等开方计算
+Victor,Victor：字母 V 的读法,字母解释法,22,字母解释法,注意 V 不是 Victoria/Victoire（常见错答）
+écriture,书写、输入（écriture naturelle 自然书写）,名词,22,综合练习,计算器输入方式；与 notation ingénieur 相对
+électromagnétique,电磁的（onde électromagnétique 电磁波）,形容词,22,天线与传播,电场 E 与磁场 H 相互垂直
+étranger,外国的；外国人,形容词,22,呼号与前缀,radioamateur étranger 外国爱好者；F/ON1USA 这类呼号题
+éviter,避免,动词,22,通用,pour éviter le brouillage 为避免干扰
+ajouter,增加、加上（s'ajouter 相加）,动词,21,电学基础,并联时容量相加；也指在电路中添加元件
+arithmétique,算术的；算术,形容词,21,综合练习,rapport arithmétique 算术比（与对数比 dB 对应）
+attribuée,被指配的（bande attribuée 指配频段）,形容词,21,波段划分与分贝,une bande attribuée au service amateur 指配给业余业务的频段
+brin rayonnant,辐射振子（天线真正辐射的部分）,短语,21,天线与传播,偶极天线的两根 brins；八木中只有辐射器接馈线
+ci-contre,（见）旁边（图中）,短语,21,综合练习,ci-contre 指参照相邻的插图或公式
+commun,共同的（émetteur commun 共射极）,形容词,21,二极管与晶体管,三种组态：émetteur commun、base commune、collecteur commun
+couleurs,颜色（code des couleurs 色环）,名词,21,电阻色环码,bague de couleur 色环；黑棕红橙黄绿蓝紫灰白 = 0–9
+deuxième,第二（序数词）,数量词,21,处罚与考试,la deuxième épreuve 第二部分（技术）考试
+différence,差、差别,名词,21,电学基础,différence de potentiel 电位差；也指频率差
+décibels,分贝（复数）,名词,21,波段划分与分贝,功率比 dB = 10·log，电压比 dB = 20·log
+détection,检波,名词,21,收发信机框图,接在 FI 放大之后；有包络检波与乘积检波
+filtre passe-bas,低通滤波器,名词,21,变压器与滤波器,让低频通过、抑制高频；常见 RC 与 LC 低通
+formule simplifiée,简化公式,短语,21,综合练习,考纲允许使用的近似公式，如 λ = 300/f(MHz)
+générer,产生、生成（générer des harmoniques）,动词,21,通用,un mélangeur génère-t-il des harmoniques 混频器是否产生谐波
+harmonique,谐波；谐波的,名词,21,通用,distorsion harmonique 谐波失真；h2 = 2f、h3 = 3f
+libre,自由的、空闲的（espace libre 自由空间）,形容词,21,天线与传播,en espace libre 自由空间；libre circulation 自由通行（CEPT/T/R 61-01）
+local,本地的、本机的（oscillateur local 本振）,形容词,21,收发信机框图,OL = oscillateur local 本机振荡器，与 FI 一起完成混频
+mF,mF：毫法（电容单位）；MF：中频/中波,单位,21,电容与线圈,1 mF = 10⁻³ F；MF = moyenne fréquence 中频（也简写 FI）
+mètre,米（长度单位）,单位,21,天线特性与波长,ondes métriques 米波；波长计算的基本单位
+november,November：字母 N 的读法,字母解释法,21,字母解释法,注意 N 不是 Nancy（常见错答）
+postes,电台（复数）；邮政（Postes）,名词,21,处罚与考试,CPCE 中的 Postes 指邮政；也可指多部电台
+présentes,现有的、出现的（阴性复数）,形容词,21,通用,les fréquences présentes à l'entrée 输入端出现的频率
+quantité,数量,名词,21,电学基础,quantité d'électricité 电量；grandeur/quantité 常作题干主语
+réactance,电抗,名词,21,电容与线圈,X_C = 1/(Cω)、X_L = Lω，单位 Ω；与电阻合成阻抗 Z
+transmettre,发射、传输,动词,21,发射类别,transmettre une information 传送信息；发射类别看的就是所传信息
+types,类型、种类（复数）,名词,21,发射类别,différents types d'information 不同类型的信息
+télécommunications,电信,名词,21,处罚与考试,UIT 主管国际电信；频率也用于电信业务
+virgule,逗号；法语小数点,名词,21,综合练习,"法语用逗号作小数点：7,000 MHz 即 7.000 MHz，不要误读成千位分隔"
+écriture naturelle,自然书写（计算器输入方式）,短语,21,综合练习,可直接输入 (20.10⁻³)² ÷ (5.10³) 的写法
+émettant,发射着（en émettant 在发射时）,动词,21,发射类别,station émettant sur… 在某频率上发射的电台
+équilibré,平衡的（pont équilibré 平衡电桥）,形容词,21,电学基础,电桥平衡时对角电压为 0；名词 équilibre 为平衡
+amplificateurs,放大器（复数）,名词,20,各级作用与话筒扬声器,amplificateurs RF/FI/AF 射频/中频/音频放大器
+antenne Yagi,八木天线（定向天线）,名词,20,天线与传播,由反射器、辐射器和一个或多个引向器组成；增益随引向器数量增加
+bague,（电阻）色环；套环,名词,20,电阻色环码,四环：前两环为数字、第三环为倍率、第四环为误差（金 ±5%、银 ±10%）
+bonne,好的、正确的（bonne réponse 正确答案）,形容词,20,处罚与考试,chaque bonne réponse compte pour 1 point 每答对一题得 1 分
+calcule,计算（calculer）,动词,20,综合练习,se calcule 可以算出；calculs 为计算题
+cause,原因（à cause de 由于）,名词,20,通用,quelle est la cause de… 原因是…
+change,改变（changer de fréquence 改频）,动词,20,通用,la capacité ne change pas 电容不变；也指换频点（QSY）
+conducteur,导体；导线,名词,20,电学基础,黄绿双色为保护导体；电流在导体中流动
+continu,连续的；直流的（courant continu 直流）,形容词,20,电学基础,对比 alternatif 交流
+disposition,规定、条款；布置,名词,20,报文与设备,disposition S1-56 du RR 无线电规则第 S1-56 条；mettre à disposition 提供
+décamétriques,十米波段的（ondes décamétriques，HF 3–30 MHz）,形容词,20,波段划分与分贝,波长 10–100 m；短波业余频段即在此范围
+définit,定义、确定（définir）,动词,20,通用,la réglementation définit… 法规规定…
+européenne,欧洲的（préfixes européens 欧洲前缀）,形容词,20,呼号与前缀,欧盟/CEPT 前缀判别题的考点
+installations,设施、装置（复数）,名词,20,处罚与考试,installations du service amateur 业余业务设施；与民用设施的最小距离
+log,log：对数（logarithme）,缩写,20,波段划分与分贝,43 dB + 10 log[P] 等非必要辐射限值公式
+long,长的（antenne long fil 长线天线）,形容词,20,天线与传播,long fil 长线天线；也指 λ/2 偶极天线的长度
+manière,方式（de manière à 以便）,名词,20,通用,de telle manière que 使得
+mesurer,测量（mesurer une tension）,动词,20,综合练习,avec quoi mesure-t-on… 用什么测量
+mini,最小的（= minimum，与 maxi 相对）,形容词,20,通用,puissance mini de la résistance 电阻最小功率；与 maxi 成对出现
+mV,mV：毫伏,单位,20,电学基础,1 mV = 10⁻³ V；接收机灵敏度常用 µV 与 mV
+mélange,混合；混频,名词,20,收发信机框图,mélangeur 混频器产生和频与差频（FI）
+nouvelle,新的（阴性形式）,形容词,20,通用,la nouvelle bobine 新绕的线圈；Nouvelle-Calédonie 新喀里多尼亚
+nul,零的、无效的（nulle）,形容词,20,电学基础,tension de repos nulle 静态电压为零；gain en intensité nul 电流增益为零
+place,位置（à la place de 代替）,名词,20,综合练习,à la place de 在…的位置上；on place 放置
+porteuse supprimée,抑制载波（BLU 的特征）,短语,20,发射类别,BLU 抑制载波；对比 porteuse réduite（减幅载波，如 H3E）
+signal analogique,模拟信号,短语,20,发射类别,发射类别第 3 位数字 1 = 模拟信号（无副载波）
+supérieures,较高的、高于…的（阴性复数 supérieures à）,形容词,20,通用,fréquences supérieures à 30 MHz 高于 30 MHz 的频率
+textes,条文、文本（les textes 法规文本）,名词,20,处罚与考试,les textes réglementaires 法规条文
+trait,线条（图中连接线）,名词,20,综合练习,relié par un trait 用一条线连接；trait d'union 为连字符
+transistors,晶体管（复数）,名词,20,二极管与晶体管,双极型 NPN/PNP 与场效应 FET（drain/porte/source）
+trouve,位于、找到（se trouve 位于）,动词,20,综合练习,où se trouve… 在哪里；on trouve 可以找到
+état,国家（l'État）；状态,名词,20,处罚与考试,le spectre est la propriété de l'État 频谱属国家所有
+affaiblissement linéique,线衰减（单位长度衰减）,短语,19,匹配与驻波,以 dB/100 m 或 dB/m 表示；总衰减 = 单位衰减 × 长度
+affichage,显示、读数（频率显示）,名词,19,综合练习,précision de l'affichage 显示精度：±1 kHz（<30 MHz）、±1·10⁻⁴
+alphabet phonétique,国际字母解释法表,短语,19,字母解释法,法国旧表（Florida、Ontario 等）与国际表（Foxtrot、Oscar）并存
+amateurs,业余爱好者（复数）,名词,19,通用,service d'amateur 业余业务；radioamateurs
+attribution,指配、授予,名词,19,呼号与前缀,attribution des fréquences 频率指配；attribution de l'indicatif 呼号授予
+cesser,停止（cesser d'émettre 停止发射）,动词,19,处罚与考试,须立即停止通联并把电台置于不能发射状态；QRT 即「要我停止发射吗」
+communications électroniques,电子通信,短语,19,处罚与考试,ministère/ARCEP chargé des communications électroniques 主管部门
+document,文件、文档,名词,19,处罚与考试,document édité par l'ANFR 由 ANFR 发布的文件
+dépasser,超过、超出,动词,19,处罚与考试,ne doit pas dépasser 不得超过（功率、带宽、辐射限值）
+française,法国的（阴性形式）,形容词,19,处罚与考试,réglementation française 法国法规
+logique,逻辑的（porte logique 逻辑门）,形容词,19,综合练习,OU / ET / NON ET / OU exclusif 逻辑门题
+Monaco,摩纳哥（呼号前缀 3A）,专有名词,19,呼号与前缀,3A 摩纳哥；与 5B 塞浦路斯等非欧盟前缀一起考
+montages,电路、接法（montage 的复数）,名词,19,电学基础,montages en série/parallèle 串联/并联接法
+montés,接成…的、组装的（montés en série 串联的）,形容词,19,电阻的串并联,deux résistances montées en série 两只串联的电阻
+Paris,巴黎（法国本土呼号区域）,专有名词,19,呼号与前缀,呼号按申报地址分配，Paris 为常见考点城市
+pertes,损耗（复数）,名词,19,匹配与驻波,pertes dans le câble/connecteur 线缆与接头损耗，以 dB 计
+positive,正的（tension positive）,形容词,19,电学基础,正电压、正半周；反义 négative
+QRN,QRN：天电（大气）干扰,Q 简语,19,Q 简语,QRN 为自然噪声，QRM 为人为干扰，二者常对比考
+QSO,QSO：联络、通联,Q 简语,19,Q 简语,faire un QSO 与某台联络；QSL 卡用于确认 QSO
+représentant,表示、描绘（schéma représentant… 表示…的图）,动词,19,综合练习,现在分词，用于引出图形描述
+simple,简单的（récepteur AM simple 简单 AM 接收机）,形容词,19,收发信机框图,synoptique 题的选项用语
+suisse,瑞士（呼号前缀 HB9）,专有名词,19,呼号与前缀,HB9 瑞士；HB0 为列支敦士登
+TK,TK：科西嘉呼号前缀,呼号/前缀,19,呼号与前缀,TK 为科西嘉；TO7、TM 等属特别活动呼号
+transformation,变换、变形（方程/频率变换）,名词,19,综合练习,la transformation d'équation permet de calculer l'inconnue 通过方程变形求未知量
+unité,单位,名词,19,综合练习,注意单位（Hz/kHz/MHz、W/mW、F/µF）；题干常设单位陷阱
+étendue,范围（频段范围）,名词,19,波段划分与分贝,étendue des ondes décamétriques 十米波范围：3–30 MHz
+ampèremètre,电流表（安培计）,名词,18,电学基础,测电流须串联；大电流用热式电流表
+attention,注意（题干提醒语）,名词,18,处罚与考试,Attention aux unités 注意单位；也是考试注意事项用语
+basse,低的（basse fréquence 低频）,形容词,18,通用,basse fréquence 声频；也指低频段
+calibre,量程（仪表量程）,名词,18,电学基础,changer de calibre 换量程；分流电阻题给出 calibre = 1 A
+carré,平方的（carré）；方形的,形容词,18,综合练习,racine carrée 平方根；mètre carré 平方米
+Chypre,塞浦路斯（呼号前缀 5B）,专有名词,18,呼号与前缀,5B 塞浦路斯；与 3A 摩纳哥同属非欧盟前缀题
+composants,元件（复数）,名词,18,电学基础,composants passifs/actifs 无源/有源元件
+contrôle,控制；检查,名词,18,收发信机框图,CAG = contrôle automatique de gain 自动增益控制
+demander,要求、申请,动词,18,处罚与考试,demander une autorisation 申请许可；demander un indicatif 申请呼号
+diagramme,图、曲线图（diagramme de rayonnement 方向图）,名词,18,天线与传播,diagramme de rayonnement 辐射方向图；也指框图
+diamètre,直径,名词,18,电学基础,导线直径影响载流量；线圈直径影响电感量
+début,开始（heure de début 开始时刻）,名词,18,报文与设备,日志必记 heure de début/fin de la communication
+fils,导线（复数）,名词,18,电学基础,fil 单根导线；antenne long fil 长线天线
+flèche,箭头,名词,18,二极管与晶体管,晶体管符号箭头指向发射极电流方向（PNP 朝内、NPN 朝外）
+fr,FR：留尼汪（海外省）呼号前缀,呼号/前缀,18,呼号与前缀,FR 留尼汪、FG 瓜德罗普、FM 马提尼克、FY 圭亚那
+GP,GP：Ground Plane 地网天线（1/4 波长垂直天线）,缩写,18,天线与传播,垂直极化；5/8 GP 比 1/4 长但短于偶极天线
+identiques,相同的、一样的,形容词,18,通用,circuits identiques 相同电路；反义 différents
+intermédiaire,中间的（fréquence intermédiaire 中频）,形容词,18,收发信机框图,"FI = fréquence intermédiaire 中频（455 kHz、10,7 MHz）"
+jonction,结（PN 结）,名词,18,二极管与晶体管,jonction PN 构成二极管
+mise,放置、置于（固定搭配）,名词,18,报文与设备,mise en service 启用、mise à disposition 提供、mise en œuvre 实施
+polarisation,极化；（晶体管）偏置,名词,18,天线与传播,polarisation verticale/horizontale 垂直/水平极化；也指偏置电压
+prendre,拿、采取（prendre une mesure 采取措施）,动词,18,报文与设备,le préfet peut-il prendre la décision 省长能否作出该决定
+prêt,准备好的（Je suis prêt 我准备好了）,形容词,18,Q 简语,QRV 的答语
+QRM,QRM：人为干扰,Q 简语,18,Q 简语,答语 Je suis brouillé 我受到干扰；QRN 为天电干扰
+QSB,QSB：信号衰落（忽强忽弱）,Q 简语,18,Q 简语,与 QRN/QRM 的区别：QSB 是信号强度起伏
+QTH,QTH：你的位置（地址）,Q 简语,18,Q 简语,QTH 是位置、QRA 是台名，最易混的一对
+rapport arithmétique,算术比（非对数比）,短语,18,波段划分与分贝,功率 2 倍即算术比 2；dB 才是对数表示
+service d'amateur,业余业务,短语,18,处罚与考试,RR 定义的业务之一；primaire/secondaire 即业务地位
+température,温度,名词,18,电学基础,电阻温度系数；元件工作温度
+transmissions,传输、发射（复数）,名词,18,处罚与考试,transmissions radioélectriques 无线电传输
+télégraphie auditive,听抄电报（A1A/A2A）,短语,18,发射类别,auditive 听抄、automatique 自动收报
+vert,绿色（色环数字 5）,名词,18,电阻色环码,绿 5、蓝 6；导线黄绿双色为保护导体
+verticale,垂直的（polarisation verticale 垂直极化）,形容词,18,天线与传播,GP 等垂直天线为垂直极化；偶极水平架设为水平极化
+alternatifs,交流的（courants alternatifs 交流电）,形容词,17,交流电,与 continus 直流相对
+BFO,BFO：拍频振荡器（收 CW/SSB 用）,缩写,17,收发信机框图,Beat Frequency Oscillator，在检波前注入以恢复音频
+cadre,框架、范围（dans le cadre de 在…范围内）,名词,17,报文与设备,dans le cadre de la recommandation T/R 61-01 在该建议范围内；antenne cadre 为框形天线
+champ électrique,电场,短语,17,天线与传播,电场 E 与磁场 H 相互垂直
+changement,变换、改变,名词,17,收发信机框图,double changement de fréquence 二次变频超外差
+diminuer,减小、降低,动词,17,通用,la capacité est diminuée 容量减小；反义 augmenter
+entrées,输入端（复数）,名词,17,电学基础,E1、E2 为逻辑门输入；entrée/sortie 输入/输出
+espace,空间；间隔,名词,17,天线与传播,espace libre 自由空间；Terre vers espace 地对空
+Futuna,富图纳（瓦利斯和富图纳，前缀 FW）,专有名词,17,呼号与前缀,Wallis-et-Futuna 前缀 FW
+grand,大的、高的（un grand gain 高增益）,形容词,17,通用,un grand gain 高增益
+grande,大的（阴性形式）,形容词,17,通用,une grande partie 大部分
+inversement,反之、相反地,副词,17,通用,et inversement 反之亦然（波长↔频率换算）
+Irlande,爱尔兰（呼号前缀 EI）,专有名词,17,呼号与前缀,EI 爱尔兰；与 GI（北爱尔兰）区别
+journal,日志（journal de bord 电台日志）,名词,17,报文与设备,必记：日期、开始与结束时刻、频率、对方呼号
+latérales,边带（bandes latérales 的复数）,名词,17,发射类别,bande latérale unique 单边带 BLU；LSB/USB 上下边带；B 类为独立边带
+limitée,受限的、被限制的（limitée à 50 W）,形容词,17,波段划分与分贝,puissance limitée à… 功率限于…
+longueurs,长度（复数）,名词,17,天线特性与波长,longueurs d'onde 波长；λ = 300/f(MHz)
+matériau,材料,名词,17,电容与线圈,介电材料决定 ε；磁芯材料影响电感量
+miquelon,密克隆（圣皮埃尔和密克隆，前缀 FP）,专有名词,17,呼号与前缀,Saint-Pierre-et-Miquelon 前缀 FP，属 DROM-COM 系列
+multipliée,被乘的、增大的（multipliée par 2 乘以 2）,形容词,17,电学基础,la capacité est multipliée par 2 容量增大一倍；反义 divisée par
+novice,Novice：新手级（旧 Class 3 等级）,专有名词,17,处罚与考试,法国已取消该等级，历史题中仍出现「classe novice」
+nécessaire,必要的（bande passante nécessaire 必要带宽）,形容词,17,发射类别,bande passante nécessaire 必要带宽，与占用带宽区分
+parcourue,所经过的（distance parcourue 走过的距离）,形容词,17,电学基础,la distance parcourue par l'onde 波传播的距离
+passe-haut,高通（的）,形容词,17,变压器与滤波器,filtre passe-haut 高通滤波器；对比 passe-bas
+perturbations,骚扰、干扰（复数）,名词,17,处罚与考试,电台引起的骚扰可能招致投诉与处罚；antiparasitage 抗干扰措施
+Pierre,圣皮埃尔（Saint-Pierre-et-Miquelon，前缀 FP）,专有名词,17,呼号与前缀,Saint-Pierre-et-Miquelon 属海外领地，前缀 FP
+points,点（图中交点）；分数,名词,17,处罚与考试,une bonne réponse = 3 points、une mauvaise retire 1 point 的计分规则
+possède,拥有、具有（posséder）,动词,17,通用,une antenne qui possède un grand gain 具有高增益的天线
+QRU,QRU：你有给我的（报文）吗？,Q 简语,17,Q 简语,标准答语 Je n'ai rien pour vous 我没有东西给你
+Quebec,字母 Q 的读法（Quebec）,字母解释法,17,字母解释法,法语表与国际表写法一致；呼号里 Q 不可漏读
+remplace,代替、替换（remplacer）,动词,17,通用,remplacer un composant 替换元件
+représentation,表示、图示,名词,17,综合练习,图形的表示方式；题干描述符号/图形
+réunion,留尼汪（海外省，前缀 FR）,专有名词,17,呼号与前缀,小写 réunion 另有「会议」义，读题时看上下文；FR 为留尼汪前缀
+secteur,市电、交流电网；区段,名词,17,报文与设备,alimentation secteur 市电供电；filtre secteur 电源滤波器
+sert,用于（servir à）,动词,17,通用,à quoi sert un détecteur d'enveloppe 包络检波器有何用
+signal FM,FM（调频）信号,短语,17,发射类别,F3E 调频电话；频偏 3 kHz 等为常考点
+suivant,下一个的、以下的；根据,形容词,17,通用,l'indicatif suivant 下列呼号；suivant la région 视地区而定
+supérieur,较高的、高于…的（阳性形式 supérieur à）,形容词,17,通用,supérieur ou égal à 70% 大于等于 70%
+troublé,受干扰的（Êtes-vous troublé par des parasites ?）,形容词,17,Q 简语,QRN 的提问语；答语 Je suis troublé par des parasites
+Wallis,瓦利斯（瓦利斯和富图纳，前缀 FW）,专有名词,17,呼号与前缀,Wallis-et-Futuna 前缀 FW
+activité,活动、业务活动,名词,16,处罚与考试,cette activité est régie par le CPCE 该活动受法典管辖
+amplificateur RF,射频放大器（RF 放大级）,短语,16,各级作用与话筒扬声器,接收机第一级 RF 放大，决定选择性与抗镜像干扰
+amplification,放大；放大类别,名词,16,各级作用与话筒扬声器,classe d'amplification 放大类别（A/AB/B/C）
+calculs,计算（复数）,名词,16,综合练习,考试含计算题：dB、波长、串并联、ROS
+certificats,证书（复数）,名词,16,处罚与考试,certificat d'opérateur 操作员证书；HAREC 级
+chiffres,数字（0–9）,名词,16,呼号与前缀,呼号为 2 个字母 + 1 个数字 + 1–3 个字母；数字用 1–9
+conférence,会议（CMR/WRC 世界无线电通信大会）,名词,16,处罚与考试,conférence mondiale des radiocommunications 负责修订 RR
+contre,相对、反对（par contre 相反）,介词,16,电学基础,par contre 相反地；contre-réaction 负反馈
+couleur,颜色,名词,16,电阻色环码,code des couleurs 色环码；也指导线颜色
+différentes,不同的、各种的（阴性复数）,形容词,16,通用,différentes bandes 不同的波段
+décibel,分贝（dB）,单位,16,波段划分与分贝,功率比 dB = 10 log(P1/P2)；电压比 dB = 20 log(U1/U2)
+décision ARCEP,ARCEP 决定（法规文件）,短语,16,处罚与考试,如 décision ARCEP 10-0537 规定技术条件；与 arrêté（部令）区分
+eff,eff：有效值（efficace）,缩写,16,交流电,U_eff = U_crête/√2；127 V eff 的峰值约 180 V
+excursion,频偏（excursion de fréquence）,名词,16,发射类别,FM 频偏 3 kHz；经过倍频后频偏同步加倍
+grecque,希腊的（lettre grecque 希腊字母）,形容词,16,综合练习,公式中的 λ、ω、φ、Ω 等希腊字母
+Guadeloupe,瓜德罗普（海外省，前缀 FG）,专有名词,16,呼号与前缀,FG 瓜德罗普；与 FM 马提尼克、FR 留尼汪、FY 圭亚那并列记忆
+Guyane,圭亚那（法属，前缀 FY）,专有名词,16,呼号与前缀,FY 法属圭亚那；四个 DROM 前缀之一
+générale,总的、一般的,形容词,16,通用,en règle générale 一般来说
+Hongrie,匈牙利（呼号前缀 HA）,专有名词,16,呼号与前缀,HA 匈牙利，欧盟成员国，前缀题常考
+hors,在…之外,介词,16,报文与设备,hors du périmètre 超出范围；hors bande 超出业余频段
+ile,岛（île）,名词,16,呼号与前缀,如 île de Man、île de Mayotte 等呼号题
+inconnue,未知的；未知数,形容词,16,综合练习,valeur inconnue à calculer 待求的未知量；RX 即未知电阻
+lettre grecque,希腊字母,短语,16,综合练习,λ 波长、ω 角频率、φ 相位、Ω 欧姆
+LF,LF：低频 30–300 kHz（长波）,缩写,16,波段划分与分贝,LF 在 MF 之下；HF 为 3–30 MHz
+liaison,联络、连接（liaison radio）,名词,16,报文与设备,liaison radio 无线电联络；也指两个电路之间的连接
+liste,清单、名录,名词,16,报文与设备,liste orange de l'annuaire ANFR 橙名单（可申请不公开地址）
+manquant,缺少的、缺失的（l'étage manquant 缺失的那一级）,形容词,16,收发信机框图,题干常见 quel est l'étage manquant 框图缺的是哪一级
+Mayotte,马约特（海外省，前缀 FH）,专有名词,16,呼号与前缀,Mayotte 前缀 FH；呼号由 ANFR 签发
+message,报文、消息,名词,16,报文与设备,报文内容受限制：禁止商业与政治内容
+microhenrys,微亨（µH，电感单位）,单位,16,电容与线圈,1 µH = 10⁻⁶ H；线圈电感常以 µH 计
+montées,接成、装成（过去分词，阴性复数）,形容词,16,电学基础,常考搭配 montées en série / en parallèle：接成串联/并联
+métriques,米波的（ondes métriques，VHF 30–300 MHz）,形容词,16,波段划分与分贝,ondes métriques 即 VHF；décamétriques 为十米波（HF）
+nécessite,需要、要求（nécessiter 第三人称单数）,动词,16,通用,nécessite l'emploi de 需要使用……
+personnel,人员的；人员、员工（名词阳性）,形容词,16,通用,personnel 作名词＝人员；作形容词＝人员的、个人的
+prend,取（prendre 第三人称单数）：prend la valeur… 取值为……,动词,16,通用,计算题常见：la tension prend la valeur de 5 V
+précision,精度、准确度,名词,16,电学基础,instrument de précision 精密仪器；与 exactitude 近义
+QSP,QSP：要我转发（转报）吗？,Q 简语,16,Q 简语,考试只考通信义「转报」；海事专业义（转交）不考
+radioélectrique,无线电的；无线电（形容词）,形容词,16,通用,stations radioélectriques 无线电台；fréquences radioélectriques 无线电频率
+représentée,（被）表示的、所示的,形容词,16,通用,graphiquement représentée par 用图表示为
+retransmettre,转发、转（报文）,动词,16,报文与设备,QSP : pouvez-vous me retransmettre… ? 你能替我转报吗？
+Romeo,字母解释法 R（Romeo）,字母解释法,16,字母解释法,R = Romeo；注意与 Romeo/« Roméo » 拼写一致
+réflexion,反射,名词,16,匹配与驻波,coefficient de réflexion 反射系数 ρ；电离层反射写 réflexion sur l'ionosphère
+Slovénie,斯洛文尼亚,专有名词,16,呼号与前缀,前缀 S5（Slovaquie 斯洛伐克为 OM，别混）
+suivants,下列的（复数）：les suivants,形容词,16,综合练习,题干高频：parmi les suivants 下列各项中
+TNRBF,国家频率划分表（TNRBF，ANFR 编制）,缩写,16,波段划分与分贝,Tableau National de Répartition des Bandes de Fréquences；由总理签署 arrêté 发布
+touche,按键；触点,名词,16,报文与设备,manipulateur 电键的触点；clavier 的按键也用 touche
+télégraphie automatique,自动电报（发射类别第二字符 1）,技术术语,16,发射类别,1 = 自动电报（无音频副载波）；2 = 自动电报＋调制副载波
+variations,变化、变动（复数）,名词,16,通用,variations de la tension 电压变化；varier 变动
+vertical,垂直的；垂直天线（名词 la verticale）,形容词,16,天线与传播,天线类型：doublet / verticale / Yagi / quart d'onde
+watt,瓦特（W）,单位,16,电学基础,P = U × I；1 W = 1 V × 1 A；复数 watts
+Yankee,字母解释法 Y（Yankee）,字母解释法,16,字母解释法,Y = Yankee；干扰项常见 Yokohame、Yokohama
+électricité,电、电学,名词,16,电学基础,électricité de base 电学基础
+élément,元件、单元；（天线）振子,名词,16,综合练习,élément directeur 引向器、élément réflecteur 反射器（八木天线）
+accord,调谐；谐振；协议,名词,15,匹配与驻波,mise à l'accord 调谐；circuit d'accord 调谐回路；也指国际协议
+ampli RF,射频放大器（ampli RF）,缩写,15,收发信机框图,RF = radiofréquence 射频；AF/BF 为音频
+analyseur,分析仪,名词,15,报文与设备,analyseur de spectre 频谱分析仪（频谱＝频率轴上的功率）
+annexe,附件、附录,名词,15,通用,annexe I de l'arrêté du 21/09/00 含拼读表与 Q 简语表；annexe 1 à la décision 12-1241 为设备清单
+bandes latérales,边带（复数）,名词,15,发射类别,bande latérale unique (BLU) 单边带；bandes latérales indépendantes 独立边带
+brins,（天线）振子臂；（导线）股,名词,15,天线与传播,les deux brins d'un doublet 双极天线的两臂；un brin rayonnant 辐射臂
+Canada,加拿大,专有名词,15,呼号与前缀,前缀 VE（Terre-Neuve VO，Yukon/Î.-P.-É. VY）
+candidat,考生、报考人,名词,15,处罚与考试,candidat à l'examen 考生；须两科均及格才获证书
+CMR,世界无线电通信大会（CMR/WRC）,缩写,15,波段划分与分贝,Conférence Mondiale des Radiocommunications，每 3～4 年修订 RR；法国由 ANFR 派代表
+conducteurs,导体；导线（复数）,名词,15,电学基础,conducteur 导体（金属）；isolant 绝缘体
+courant alternatif,交流电（CA/AC）,短语,15,交流电,与 courant continu（直流）相对；正弦、频率、周期、有效值
+courant continu,直流电（CC/DC）,短语,15,电学基础,电池、电源整流后输出；欧姆定律直接适用
+directivité,方向性、指向性,名词,15,天线特性与波长,与 gain 增益相关；话筒也有 directivité（指向性）
+domicile,住所、住处；à domicile 在家,名词,15,处罚与考试,固定台须从申报给 ANFR 的地址（adresse déclarée）发射；地址变更 2 个月内通知
+déclarer,申报；声明,动词,15,处罚与考试,materiel d'émission 不需申报，但 PAR 变化须更新 déclaration；固定站 PAR>5 W 需申报
+déterminer,确定、求出；测定,动词,15,综合练习,déterminer la valeur de… 求……的值
+ex-classe,原类别（旧证书等级），如 ex-classe 3,短语,15,处罚与考试,旧制分 1/2/3 级；ex-classe 3 即旧三级（F0 呼号）
+facilement,容易地、轻易地,副词,15,通用,
+forment,构成、组成（former 第三人称复数）,动词,15,通用,les deux brins forment un doublet；être formé de 由……组成
+gris,灰色（色环：灰 = 8）,名词,15,电阻色环码,色环灰 = 8；紫 violet = 7，两者最易混
+générée,（被）产生的、（被）生成的,形容词,15,通用,généré par 由……产生；nombre généré 生成的数
+identique,相同的、一样的,形容词,15,通用,identique à 与……相同；真题问「两者是否相同」
+India,字母解释法 I（India）,字母解释法,15,字母解释法,I = India；干扰项常见 Italie、Italie？正确拼法只有 India
+inférieures,较低的、小于……的（阴性复数）,形容词,15,波段划分与分贝,inférieur à 低于；fréquences inférieures à 30 MHz
+interdit,被禁止的；禁止,形容词,15,处罚与考试,il est interdit de… 禁止……；名词 interdiction
+lecture,读取、读数；阅读,名词,15,通用,lecture d'un schéma 读电路图；lecture d'une valeur 读数值
+lois,定律（复数）,名词,15,电学基础,loi d'Ohm 欧姆定律、lois de Kirchhoff 基尔霍夫定律、lois de Maxwell
+marquée,被标出的、（图上）标注的,形容词,15,综合练习,la grandeur marquée sur le schéma 图上标出的量
+mesurée,被测得的、测量得到的,形容词,15,电学基础,valeur mesurée 测量值 ≠ valeur calculée 计算值
+microphone,话筒、传声器,名词,15,各级作用与话筒扬声器,与 haut-parleur 扬声器相对；有动态、电容、驻极体等式
+nature,性质、种类,名词,15,发射类别,nature du signal modulant 调制信号的性质＝发射类别第二字符
+novembre,十一月,名词,15,处罚与考试,法条日期高频：arrêté du 10 novembre 1930、décret du 24/11/23
+numériques,数字的、数字式的（复数）,形容词,15,收发信机框图,与 analogique 相对；traitement numérique du signal (DSP)
+oscillateur local,本机振荡器（OL）,短语,15,收发信机框图,混频器的一个输入；FO 与 HF 混频得到 FI = HF ± FO
+particulier,特殊的、特定的；en particulier 尤其,形容词,15,通用,
+piles,（不可充电的）电池、干电池,名词,15,电学基础,pile 一次电池 / accumulateur 蓄电池；fém 电动势 E
+potentiel,电位；势；潜在的,名词,15,电学基础,某点电位（相对参考点）；两点之差＝tension 电压；barrière de potentiel 势垒
+près,靠近；près de 接近、大约,副词,15,通用,près de 30 MHz 接近 30 MHz；注意别与 prêt 混
+prévoit,规定、预定（prévoir 第三人称单数）,动词,15,处罚与考试,la réglementation prévoit que… 法规规定（真题高频动词）
+public,公众的、公共的；公众,形容词,15,处罚与考试,réseau ouvert au public (ROP) 对公众开放的网络（互联网）
+QRO,QRO：要我增大发射功率吗？,Q 简语,15,Q 简语,QRO = 增大功率、高功率台；反向 QRP 降低功率
+radioamateur français,法国业余无线电爱好者,短语,15,通用,français 形容词修饰 radioamateur；标准写法 radioamateur 为一个词
+relié,被连接的、与……相连的,形容词,15,通用,relié à 与……相连；接在电路中的元件
+représentés,（被）表示的（阳性复数）,形容词,15,通用,
+revanche,en revanche 相反、然而,副词,15,通用,真题解析常用转折词；同义 par contre
+rôle,作用、角色,名词,15,各级作用与话筒扬声器,真题常问：quel est le rôle de cet étage ? 这一级起什么作用？
+sensibilité,灵敏度；敏感度,名词,15,收发信机框图,récepteur 灵敏度以可懂的最小输入信号表示；较好者可达 S0～S1
+seuil,阈值、门限,名词,15,二极管与晶体管,"seuil de conduction 导通阈值：硅 0,6～0,7 V，锗 0,3 V"
+silicium,硅（Si）,名词,15,二极管与晶体管,"二极管/晶体管主材料；导通压降 0,6～0,7 V（锗 Ge 约 0,3 V）"
+sinusoïdal,正弦的,形容词,15,交流电,signal sinusoïdal 正弦信号；Ueff = Umax/√2
+stationnaires,驻波的（关于 ondes stationnaires）,形容词,15,匹配与驻波,ondes stationnaires 驻波＝入射波＋反射波；失配越严重驻波越明显
+séries,串联（复数）；系列,名词,15,电阻的串并联,en série 串联；groupement série；注意 série 也指「系列/组」
+taxe,税费、收费,名词,15,处罚与考试,ANFR 干扰排查属收费项目（taxe），不是罚款（amende）
+traite,处理（traiter 第三人称单数）,动词,15,通用,signal à traiter 待处理的信号；traitement 处理
+tubes,电子管,名词,15,二极管与晶体管,旧式器件（真空管），与 transistor 相对；仅作历史/概念题
+violet,紫色（色环：紫 = 7）,名词,15,电阻色环码,色环紫 = 7，乘数 ×10⁷；与灰 gris = 8 区分
+VLF,VLF 甚低频,缩写,15,波段划分与分贝,VLF = 3～30 kHz；波段名称按频率/波长都要会认
+électromagnétiques,电磁的（复数）,形容词,15,天线与传播,champ électromagnétique 电磁场＝电场 E ＋磁场 H
+îles,岛屿（复数）,名词,15,呼号与前缀,îles Féroé 法罗群岛 OY、Groenland OX；海外岛屿前缀与本土不同
+ABC,（例题呼号中的）占位字母 ABC，如 F5ABC,呼号/前缀,14,呼号与前缀,不是「字母表」：真题用 F5ABC、F0ABC/P、ON/F6ABC/M 等示例呼号
+accusé,accusé de réception 收妥确认,名词,14,报文与设备,annexe I 用语：Pouvez-vous me donner accusé de réception ? 请给收妥确认
+air,空气、大气,名词,14,天线与传播,les ondes se propagent dans l'air ou le vide（空气或真空）
+alimentée,被供电的、（天线）被馈电的,形容词,14,天线与传播,alimenter 馈电；antenne alimentée au centre 中心馈电
+appliquer,施加、加上（电压等）；应用,动词,14,电学基础,appliquer une tension 加电压；appliquer une formule 套公式
+attribuées,被指配的、被分配的（阴性复数）,形容词,14,呼号与前缀,bandes attribuées 指配给业余业务的频段；indicatif attribué 分配到的呼号
+branche,支路、分支（电路）,名词,14,电学基础,montage 的分支；并联中各支路电压相同
+brouillages,干扰（复数）,名词,14,处罚与考试,brouillage préjudiciable 有害干扰；不得对主要业务造成干扰
+candidats,考生（复数）,名词,14,处罚与考试,自 2021 年 6 月起答错不再扣分（point négatif 取消）
+chose,事物、事情,名词,14,通用,quelque chose 某事物；autre chose 别的东西
+classe AB,AB 类（放大器工作类别）,技术术语,14,各级作用与话筒扬声器,A 类线性但效率低、B 类效率高但有交越失真、AB 类折中；C 类用于调谐放大
+contenant,包含、含有（现在分词）,动词,14,通用,un signal contenant plusieurs fréquences 含多个频率的信号
+couplage,耦合,名词,14,变压器与滤波器,couplage magnétique/inductif；boîte de couplage 天线耦合盒（匹配用）
+créée,（被）产生的、（被）建立的,形容词,14,通用,créé par 由……产生；créer 创建
+Danemark,丹麦,专有名词,14,呼号与前缀,前缀 OZ（法罗群岛 OY、格陵兰 OX）
+dBW,dBW 分贝瓦（以 1 W 为基准的绝对功率）,单位,14,波段划分与分贝,0 dBW = 1 W = 30 dBm；功率限制有时以 dBW 给出（如 12 dBW ≈ 15 W）
+densité,密度,名词,14,天线与传播,densité d'électrons 电离层电子密度；densité de courant 电流密度
+dernière,最后的、最新的；上一个的,形容词,14,通用,la dernière 最新的；l'année dernière 去年
+dispositions,规定、条款（复数）,名词,14,处罚与考试,les dispositions du RR 无线电规则的条款；真题解析高频词
+divisant,除以……；把……分开（现在分词）,动词,14,电学基础,en divisant U par I 用 U 除以 I（求 R）
+décimétriques,分米波段的,形容词,14,天线特性与波长,ondes décimétriques＝波长 10 cm～1 m，即 300 MHz～3 GHz
+exactes,精确的、正确的（阴性复数）,形容词,14,综合练习,题干：donner la/les formule(s) exacte(s) 给出正确公式；反义 fausse
+font,组成、等于（faire 第三人称复数）,动词,14,通用,deux brins qui font 2 × 5 m 两臂共 10 m；计算题常见
+formules exactes,（各）正确公式,短语,14,综合练习,题干用语：les formules exactes 正确公式；注意与近似式区分
+fortement,强烈地、很大程度上,副词,14,通用,fortement atténué 强烈衰减
+Fx,Fx（例题/教材所用计算器型号 Casio FX-92）,专有名词,14,处罚与考试,考试允许带计算器；教材以 Casio FX-92 Collège 说明按键用法
+gendarmerie,国家宪兵队,专有名词,14,处罚与考试,与警察同为具有认定违法（constater l'infraction）资格的机关
+hertz,赫兹（Hz）,单位,14,波段划分与分贝,1 Hz = 每秒 1 周；常用 kHz、MHz、GHz
+indiquée,被指出的、所示的,形容词,14,通用,valeur indiquée 给定值；sauf indication contraire 除另有说明外
+installation,装置、设施；安装,名词,14,处罚与考试,installation radioélectrique 无线电装置；installation perturbée 受扰设备
+isotrope,各向同性的（理想点源）,形容词,14,天线特性与波长,以各向同性天线为参考的增益记作 dBi；PIRE 即相对 isotrope
+latitude,纬度,名词,14,天线与传播,配合 longitude 使用；影响极光与传播条件
+licence,执照、许可证（英文/他国用语）,名词,14,处罚与考试,法国本土正式用语是 certificat d'opérateur ＋ autorisation d'émettre
+Liechtenstein,列支敦士登,专有名词,14,呼号与前缀,前缀 HB0（瑞士为 HB9，两者常互为干扰项）
+longitude,经度,名词,14,天线与传播,与 latitude 成对出现
+longue,长的（阴性）,形容词,14,通用,onde longue 长波（LW）；longueur d'onde 波长
+modulation d'amplitude double,调幅—双带（发射类别调制方式 A）,短语,14,发射类别,"A = 调幅双带（amplitude, double bande latérale）；BLU 属 J"
+moitié,一半,名词,14,电学基础,la moitié de la puissance 功率的一半（–3 dB）
+nommé,被称为……的；（被）命名的,形容词,14,通用,on nomme X le… 把……称作 X；nommé aussi 又称
+OK,OK：可以、同意（通信用语）,缩写,14,报文与设备,annexe I 的通信简语；注意它不是 Q 简语
+part,部分；de la part de 来自、代表,名词,14,通用,une grande part de… 大部分
+passage,通过、经过；通道,名词,14,电学基础,le passage du courant 电流通过；passant 导通
+pente,斜率；跨导,名词,14,二极管与晶体管,pente de la caractéristique 特性曲线斜率；滤波器衰减斜率 dB/octave
+pi,"圆周率 π（≈3,14）",名词,14,通用,谐振 f = 1/(2π√LC)、波长与电容计算都要用
+PM,PM 相位调制（phase modulation）,缩写,14,发射类别,属角度调制；发射类别字母中 G = 角度—相位（angulaire-phase）
+pointillé,虚线,名词,14,电容与线圈,铁氧体磁芯在电路图中用虚线表示；硅钢片叠层用双实线
+proportionnelle,成正比的（阴性）,形容词,14,电学基础,proportionnelle à 与……成正比；反义 inversement proportionnelle
+précisé,精确的、明确的,形容词,14,通用,valeur précise 准确值；préciser 明确说明
+présence,存在、有无,名词,14,通用,en présence de 在有……时；absence de 无……
+QRH,QRH：我的频率漂移吗？,Q 简语,14,Q 简语,QRH = 频率漂移；QRG 频率、QRZ 谁在呼叫、QSY 改频、QRT 停止发射
+QRX,QRX：你什么时候再呼叫我？（我将在……时再呼叫你）,Q 简语,14,Q 简语,按 arrêté 附件 I 的表：QRX 不是「请稍等」，而是约定再次呼叫的时间/频率
+QSY,QSY：要我改频吗？（改频）,Q 简语,14,Q 简语,QRG 报告频率、QSY 换频率；两者常互为干扰项
+radiocommunications,无线电通信（复数）,名词,14,波段划分与分贝,Règlement des radiocommunications (RR)；services de radiocommunications 各无线电通信业务
+résistivité,电阻率 ρ,名词,14,电学基础,R = ρ·l/S；铜、铝、镍铬合金等材料的 ρ 不同
+s'appelle,被称为（s'appeler 第三人称单数）,动词,14,通用,on l'appelle aussi… 它又叫……
+sens inverse,反向、反方向,短语,14,二极管与晶体管,sens inverse 反偏（截止）；与 sens passant 正偏（导通）相对
+six,六（6）,数量词,14,通用,题目中的 6 常指 6 m 波段（50 MHz 一带）；拼读呼号时数字直接读出
+St,St / Saint 圣（用于地名）,缩写,14,呼号与前缀,St Pierre & Miquelon 前缀 FP、St Barthélemy FJ、St Martin FS
+suis,是（être 第一人称单数 je suis）,动词,14,通用,je suis （我）是；别与 suivre 的 je suis 混
+tolérance,公差、容差,名词,14,电阻色环码,色环最后一环表示误差：金 ±5 %、银 ±10 %；无色环 ±20 %
+traitement,处理,名词,14,收发信机框图,traitement numérique du signal (DSP) 数字信号处理；位于 AF 放大器之前
+travail,功；工作；工程（复数 travaux）,名词,14,电学基础,功＝能量（W = P × t）；travaux 也指施工作业
+trop,太、过于,副词,14,通用,trop de 太多；trop faible 太弱（题干常见）
+Ueff,Ueff 有效值电压（RMS）,缩写,14,交流电,"Ueff = Umax/√2 ≈ 0,707 Umax；功率计算用有效值"
+usage,使用、用途、惯例,名词,14,处罚与考试,usage personnel 个人使用；conditions d'usage 使用条件
+ZE,ZE（图中标注的入口/源阻抗）,缩写,14,匹配与驻波,题图标注：ZE 入口阻抗、ZC 负载阻抗、ZA 天线阻抗，用来算 ROS
+épaisseur,厚度、粗细,名词,14,电学基础,épaisseur/diamètre du conducteur 导线粗细；effet de peau 集肤深度也用它
+adapter,匹配；适配,动词,13,匹配与驻波,adapter l'antenne à la ligne 把天线匹配到馈线；名词 adaptation 匹配
+administration,主管行政机关,名词,13,处罚与考试,在法规语境指 ANFR、Arcep 等；l'administration peut… 主管机关可……
+appareil,设备；仪器,名词,13,通用,appareil de mesure 测量仪器；appareil récepteur 接收设备
+apparente,视在的,形容词,13,天线与传播,puissance apparente rayonnée (PAR) 视在辐射功率
+axe,轴（图表）,名词,13,交流电,axe des temps 时间轴；axe des tensions 电压轴
+code morse,摩尔斯电码,短语,13,报文与设备,2012 年起法国考试已取消电码测试，但术语与 CW 类发射仍考
+communiquer,通信；联络,动词,13,Q 简语,QSO：Pouvez-vous communiquer avec… ? 你能与……通信吗
+courants alternatifs,交流电流（复数）,短语,13,交流电,交流的周期、频率、有效值与本值关系需熟
+Croatie,克罗地亚（呼号前缀 9A）,专有名词,13,呼号与前缀,CEPT 成员国；国别识别题常考
+dB par octave,dB par octave 每倍频程分贝（滤波器衰减斜率）,单位,13,变压器与滤波器,频率每翻一倍衰减多少 dB；一阶 RC 滤波器为 –6 dB/octave（＝–20 dB/décade）
+digital,数字的,形容词,13,收发信机框图,traitement numérique du signal 数字信号处理；与 analogique 相对
+diviseur,分压器,名词,13,电阻的串并联,pont diviseur de tension；U_R = U × R/(R+R′)
+droits,权利,名词,13,波段划分与分贝,à égalité de droits 平等使用权；statut B 的业务地位
+décret,法令、政令（décret）,法规用语,13,处罚与考试,décret 由总统/总理签署，效力高于 arrêté（部令）；décret du 24/11/23
+dérivation,并联（en dérivation）,名词,13,电阻的串并联,monté en dérivation 并接，与 série（串联）相对
+enveloppe,包络,名词,13,发射类别,détecteur d'enveloppe 包络检波器（用于 AM）；BLU/CW 需 détecteur de produit
+environnement,环境,名词,13,处罚与考试,environnement réglementaire 监管环境（国际/欧洲/法国三级）
+fraction,分数；一部分,名词,13,天线与传播,une fraction de la bande 频段的一部分
+gratuitement,免费地,副词,13,Q 简语,QSP：retransmettre gratuitement 免费转发（考试原文如此）
+grille,栅极（电子管）；网格,名词,13,二极管与晶体管,三极/四极/五极管的栅极；écran 帘栅极
+hectométriques,百米波的（100–1000 m）,形容词,13,天线特性与波长,ondes hectométriques = MF 中波；ondes décamétriques 十米波 = HF
+hétérodyne,外差的,形容词,13,收发信机框图,récepteur superhétérodyne 超外差接收机；无变频接收机 = récepteur sans conversion de fréquence
+indicateur,指示器,名词,13,处罚与考试,indicateur de puissance 功率指示器（现行法规下唯一强制的指示装置）
+Lettonie,拉脱维亚（呼号前缀 YL）,专有名词,13,呼号与前缀,CEPT 成员国
+Malte,马耳他（呼号前缀 9H）,专有名词,13,呼号与前缀,CEPT 成员国
+ondes stationnaires,驻波,短语,13,匹配与驻波,入射波与反射波叠加；失配越重驻波越明显，可用 ROS/TOS 衡量
+Saint-Pierre,圣皮埃尔（Saint-Pierre-et-Miquelon）,专有名词,13,呼号与前缀,前缀 FP，海外领地（COM），呼号前缀为两字母
+signification,含义,名词,13,通用,Quelle est la signification de… ? 是 Q 简语题的典型问法
+Slovaquie,斯洛伐克（呼号前缀 OM）,专有名词,13,呼号与前缀,CEPT 成员国
+sous-multiples,分数单位（mA、µF、nH…）,名词,13,通用,multiples et sous-multiples 倍数与分数单位；换算题的基础
+station fixe,固定电台,法规用语,13,处罚与考试,与 station mobile（移动）、portable（便携）、radio-club 相对；从申报地址发射
+titulaire,持有人（证书/呼号持有人）,法规用语,13,处罚与考试,le titulaire d'un certificat d'opérateur 操作员证书持有人；呼号持有人的义务是考点
+vélocité,速度（波速）,名词,13,天线与传播,vélocité de l'onde (m/s)；λ = v/f
+équivalent,等效的,形容词,13,电学基础,résistance équivalente 等效电阻；PIRE = puissance isotrope rayonnée équivalente
+filtre passe-haut,高通滤波器,短语,12,变压器与滤波器,通过高频、衰减低频；与 passe-bas 电路布局相反
+filtre RC,RC 滤波器（电阻—电容）,短语,12,变压器与滤波器,检波＝二极管＋RC 低通；时间常数 τ = RC
+Fox-trot Echo,字母解释法 F、E（Fox-trot、Echo）,字母解释法,12,字母解释法,F = Foxtrot（也写 Fox-trot）、E = Echo
+indicatif d'appel,呼号,法规用语,12,呼号与前缀,indicatif attribué 指配的呼号；usurpation d'indicatif 盗用呼号属违法
+Juliett,字母解释法 J（Juliett）,字母解释法,12,字母解释法,国际表写 Juliett（词尾双 t），不是 Juliet
+Lima Kilo,字母解释法 L、K（Lima、Kilo）,字母解释法,12,字母解释法,干扰项常见 Kilowatt、Kyoto；正确为 Lima、Kilo
+QRP,QRP：要我降低发射功率吗？（小功率）,Q 简语,12,Q 简语,QRP = 小功率操作，与 QRO（大功率）相对
+radioamateur étranger,外国业余无线电爱好者,短语,12,呼号与前缀,CEPT T/R 61-01：持本国呼号在他国可加前缀使用，3 个月内无需另办
+signal HF,射频信号（HF 信号）,短语,12,收发信机框图,HF 指无线电频（高频），音频写 BF 或 AF，勿混
+table internationale d'épellation,国际拼读字母表,短语,12,字母解释法,UIT 1956 年采用（RR 附录 A14），也见 arrêté 附件 I；字母词＋数字读法
+thermique,热的,形容词,12,电学基础,bruit thermique 热噪声；ampèremètre thermique 热偶式电流表（测 HF 大电流）
+circuit série,串联电路,短语,11,电阻的串并联,R = R1 + R2；电流相同、电压分压；并联写 circuit parallèle/en dérivation
+conditions techniques,技术条件（法规用语）,短语,11,处罚与考试,décision ARCEP 12-1241 规定功率、带宽、必要设备等技术条件
+ministre chargé,主管部长（ministre chargé des communications électroniques）,法规用语,11,处罚与考试,部长签发 arrêté 并规定证书与呼号规则（CPCE L42-4）
+partie technique,技术部分（考试科目）,短语,11,处罚与考试,考试分 réglementation 与 technique 两部分，须两部分均通过
+QRL,QRL：你忙吗？（此频率正被占用）,Q 简语,11,Q 简语,QRL＝被占用；QRM 人为干扰、QRN 天电干扰、QRT 停止发射
+QRT,QRT：要我停止发射吗？（停止发射）,Q 简语,11,Q 简语,QRT = 结束通信、关机；与 QSY/QRL 区分
+radio amateur,业余无线电（者）；radioamateur 的分写形式,名词,11,通用,标准写法为 radioamateur（一个词）；service amateur 为「业余业务」
+récepteur hétérodyne,外差式接收机,短语,11,收发信机框图,superhétérodyne 超外差：HF 与 FO 混频得 FI；双变频可抑制镜像频率
+sous-porteuse modulante,调制副载波（发射类别第二字符 2）,技术术语,11,发射类别,2 = 自动电报带调制副载波（如 F2A）；1 = 无副载波、0 = 无调制
+antenne GP,GP 垂直天线（Ground Plane）,短语,10,天线与传播,＝四分之一波长垂直天线＋地网/接大地，VHF 常用；需要 plan de sol 或 masse
+champ électromagnétique,电磁场,短语,10,天线与传播,由电场 E 与磁场 H 组成，二者互相垂直；无线电波即电磁波
+Charlie X-ray,字母解释法 C、X（Charlie、X-ray）,字母解释法,10,字母解释法,X = X-ray（带连字符）；干扰项常见 Xylophone、X-ray 之外的自造词
+France Charlie,France Charlie（干扰项写法）,字母解释法,10,字母解释法,⚠️ 陷阱：F 的国际拼读是 Foxtrot，France 是错误选项；见真题 FC6XN 拼读
+fréquences supérieures,较高的频率（大于……）,短语,10,波段划分与分贝,fréquences supérieures à 144 MHz 高于 144 MHz 的频率
+mélangeur équilibré,平衡混频器,短语,10,收发信机框图,产生 BLU 时先得双边带（DBL）再滤波；二极管环形混频器（en anneau）
+QRG,QRG：我的准确频率是多少？,Q 简语,10,Q 简语,QRG = 频率；QSY = 改频，二者常配对出题
+signal modulant,调制信号,短语,10,发射类别,发射类别第二字符＝调制信号性质：0 无、1/2 电报、3 模拟电话、7/8/9 多路
+traitement numérique,数字处理（DSP）,短语,10,收发信机框图,需 CAN/CNA 转换；数字滤波 FIR/IIR；老式设备为全模拟
+transistor bipolaire,双极型晶体管,短语,10,二极管与晶体管,NPN/PNP；β 为电流增益；与 FET（单极型）区分，等效为两只背靠背二极管
+valeur équivalente,等效值（résistance/impédance équivalente）,短语,10,电阻的串并联,串联相加；并联 1/R = 1/R1 + 1/R2；两等值电阻并联＝一半
+adaptation,匹配（阻抗匹配）,名词,9,匹配与驻波,adaptation d'impédance；失配写 désadaptation，会引起驻波与反射
+amplificateur AF,音频放大器（AF）,短语,9,各级作用与话筒扬声器,AF（audiofréquence）＝BF 低频；位于检波/DSP 之后推动扬声器
+antenne quart,四分之一波长天线（quart d'onde）,短语,9,天线与传播,λ/4 垂直天线＝半个 doublet 加地网；VHF 常用的 GP
+circuits logiques,逻辑电路（门电路）,短语,9,收发信机框图,ET/OU/NON-ET/OU EXCLUSIF 四种门；用于收发信机的控制与显示逻辑
+désadaptation,失配（阻抗不匹配）,名词,9,匹配与驻波,失配产生反射与驻波，功率传不到天线；耦合法只保护末级，不解决失配
+fac-similé,传真（fac-similé）,短语,9,发射类别,如 R3C、J3C；SSTV 属图像传输类，考试按字母含义辨认
+Foxtrot Delta,字母解释法 F、D（Foxtrot、Delta）,字母解释法,9,字母解释法,F = Foxtrot（或 Fox-trot），D = Delta；干扰项用 France、Danemark
+France continentale,法国本土（大陆部分）,短语,9,呼号与前缀,呼号前缀为单字母 F；与 Corse（TK）、DROM、COM 的规则不同
+fréquences inférieures,较低的频率（小于……）,短语,9,波段划分与分贝,如 fréquences inférieures à 30 MHz 属 HF；比较级题型
+indicatifs spéciaux,特别呼号,短语,9,呼号与前缀,法国本土用 TM 前缀；通常限特定活动期间使用（如 6 个月内最多 15 天）
+Nouvelle-Calédonie,新喀里多尼亚,专有名词,9,呼号与前缀,前缀 FK；海外领地（COM），呼号前缀为两字母
+période d'un signal,信号周期（T）,短语,9,交流电,T = 1/f；与 pulsation ω = 2πf 区分（真题常混）
+QTR,QTR：正确的时间是多少？,Q 简语,9,Q 简语,QTR ＝ 时间（通信用 UTC）；与 QRG（频率）、QRH（频率漂移）区分
+schéma d'un circuit,电路图,短语,9,综合练习,真题常给出 schéma 并问某一元件/某级的作用
+sens passant,正向（导通方向）,短语,9,二极管与晶体管,"二极管正偏导通（约 0,6～0,7 V 压降）；反偏写 sens inverse"
+signal digital,数字信号,短语,9,报文与设备,与 signal analogique 相对；发射类别中数字信息用 B、D、W 表示
+union européenne,欧盟（UE）,专有名词,9,处罚与考试,CEPT/HAREC 与欧盟协调相关；法国规则依据本国 arrêté 与 CPCE
+valeur efficace,有效值（RMS）,短语,9,交流电,"Ueff = Umax/√2 ≈ 0,707 Umax；功率用有效值计算"
+voies analogiques,模拟话路（多路）,短语,9,发射类别,发射类别第二字符：3 单路模拟、7 多路数字、8 多路模拟
+Whiskey Golf,字母解释法 W、G（Whiskey、Golf）,字母解释法,9,字母解释法,干扰项常见 Whisky、Golf/Guatemala；国际表为 Whiskey、Golf
+Îles Féroé,法罗群岛（Îles Féroé）,专有名词,9,呼号与前缀,前缀 OY（丹麦 OZ、格陵兰 OX）
+ampli BF,低频（音频）放大器（ampli BF）,短语,8,各级作用与话筒扬声器,BF = basse fréquence 音频，与 AF 同义；不是射频
+ampli op,运算放大器（ampli op）,短语,8,各级作用与话筒扬声器,amplificateur opérationnel；增益由外接反馈电阻决定
+amplificateurs opérationnels,运算放大器（复数）,短语,8,各级作用与话筒扬声器,可作放大、比较、滤波等；理想增益无穷大
+argent,银色（色环容差 ±10%）,名词,8,电阻色环码,第 4 环银 = ±10%（E12 系列）；金 = ±5%（E24）
+brouillage préjudiciable,有害干扰（brouillage préjudiciable）,法规用语,8,处罚与考试,RR 术语：业余业务不得对主要业务造成有害干扰，也不能要求保护
+Charlie Mike,字母解释法 C、M（Charlie、Mike）,字母解释法,8,字母解释法,干扰项常见 Micro、Canada；正确为 Charlie、Mike
+circuit LC,LC 谐振回路,短语,8,电容与线圈,f0 = 1/(2π√LC)；谐振时 L 与 C 的无功阻抗相等
+circuit RLC,RLC 电路（串联/并联谐振）,短语,8,电容与线圈,串联谐振时阻抗最小（Z = R）、电流最大；Q 决定选择性
+classes d'émission,发射类别（复数）,短语,8,发射类别,三字符：载波调制＋调制信号性质＋信息类型，其后可加带宽后缀
+dB (gain),dB（增益）,单位,8,波段划分与分贝,功率比 ×2 = 3 dB、×4 = 6 dB、×10 = 10 dB；电压比是功率 dB 的两倍
+Delta Alfa,字母解释法 D、A（Delta、Alfa）,字母解释法,8,字母解释法,A 的国际拼法为 Alfa（无 ph），Alpha 是干扰项
+Delta X-ray,字母解释法 D、X（Delta、X-ray）,字母解释法,8,字母解释法,X = X-ray；干扰项常见 Xylophone
+deux bandes latérales,双边带（à deux bandes latérales）,短语,8,发射类别,DBL＝调幅双带；抑制载波单边带为 BLU（J3E）
+deux lettres,两字母（呼号前缀）,短语,8,呼号与前缀,DROM/COM 及特别呼号用两字母前缀（FG、FK、FO、FT、TM…），本土只用 F
+distorsion harmonique,谐波失真,名词,8,各级作用与话筒扬声器,taux de distorsion harmonique 衡量线性度；由放大器非线性引起
+double changement,双变频（double changement de fréquence）,短语,8,收发信机框图,第一次中频取高（如 100 MHz 以上）以远离镜像频率，便于输入滤波
+droit d'émettre,发射权,法规用语,8,处罚与考试,une autorisation d'émettre 发射许可；无授权发射即违法
+France Delta,France Delta（干扰项写法）,字母解释法,8,字母解释法,⚠️ 陷阱：F 只能读 Foxtrot；Danemark 也不能代表 D（应为 Delta）
+gain d'une antenne,天线增益,短语,8,天线特性与波长,相对半波偶极子记 dBd，相对各向同性天线记 dBi；PAR 用 dBd
+gamme d'onde,波段名称（gammes d'ondes）,短语,8,天线特性与波长,八个波段名（kilométriques…décimillimétriques）须与频率/波长范围对应记忆
+groupement série,串联组合,短语,8,电阻的串并联,R = ΣR；并联（dérivation）1/R = Σ1/R；混联分组化简
+impédance caractéristique,特性阻抗（Zc）,短语,8,匹配与驻波,同轴电缆常见 50 Ω、双线线约 300 Ω；与频率基本无关
+ionosphère,电离层,名词,8,天线与传播,约 50～650 km；F 层白天电子密度最高，HF 靠其反射（onde réfléchie）
+ondes décamétriques,十米波（HF 短波）,短语,8,天线特性与波长,波长 10～100 m，即 3～30 MHz；与 métriques（VHF）对照记
+ondes métriques,米波（VHF）,短语,8,天线特性与波长,波长 1～10 m，即 30～300 MHz；中国 A 类证常用此段
+ondes réfléchies,反射波（天波）,短语,8,天线与传播,经电离层反射返回地面；与 onde de sol 地波相对
+Pays-Bas,荷兰,专有名词,8,呼号与前缀,前缀 PA（PB 亦为荷兰）；Pays-Bas 带连字符
+perturbation,干扰、骚扰,名词,8,处罚与考试,perturbation des réceptions 接收受扰；被投诉时 ANFR 作为专家判定责任方
+Polynésie française,法属波利尼西亚,专有名词,8,呼号与前缀,前缀 FO（含 Clipperton）；海外领地，呼号前缀为两字母
+racine carrée,平方根（√）,短语,8,通用,"√2 ≈ 1,414、√3 ≈ 1,732；有效值与功率计算常用"
+réception auditive,听觉接收（人工抄收）,短语,8,发射类别,发射类别第四字符：1 = réception auditive、2 = réception automatique
+réception automatique,自动接收（机器抄收）,短语,8,发射类别,如 F1B、J2B 等自动收发的数字/电报模式
+seule voie,单路（une seule voie）,短语,8,发射类别,第二字符 1/2/3 为单路，7/8/9 为多路；真题按字符含义判断
+signal modulé,已调信号（signal modulé）,短语,8,发射类别,已调制后的载波；与 signal modulant（调制信号）区分，是高频常见陷阱
+station portable,便携电台（portable 操作）,法规用语,8,处罚与考试,便携（临时）操作一般无需城市规划申报；与 station fixe/mobile 区分
+stations radioélectriques,无线电台（复数）,短语,8,处罚与考试,stations radioélectriques du service d'amateur 业余业务电台；呼号指配对象
+Terres australes,法属南方和南极领地（TAAF）,专有名词,8,呼号与前缀,前缀 FT；呼号前缀为两字母（Crozet、Kerguelen、Amsterdam 等）
+éléments parasites,寄生单元（Yagi 的引向器/反射器）,短语,8,天线与传播,Yagi ＝一个辐射单元＋若干寄生单元；directeur 引向器、réflecteur 反射器
+étage repéré,（图上）标出的那一级,短语,8,各级作用与话筒扬声器,真题句式：l'étage repéré sur le schéma est… 标出的是哪一级？
+étage RF,射频级（étage RF）,短语,8,收发信机框图,接收机前端/发射机推动级；RF 放大、滤波后送混频器
+blanc,白色（色环码数字 9）,名词,7,电阻色环码,第 1/2 环白 = 9，倍率环 ×10⁹
+manquement,违犯、不履行（manquement à la réglementation）,法规用语,7,处罚与考试,违反法规或盗用呼号时，呼号可被暂停（suspension）乃至收回（retrait）
+redressement,整流,名词,7,二极管与晶体管,单半波/全波整流；桥式（pont de diodes）全波最常用
+suspension,暂停（呼号）,法规用语,7,处罚与考试,另有 suspension volontaire 主动停用：满 10 年后呼号可被重新指配或注销
+délivrance,签发、发放（证书/呼号）,法规用语,6,处罚与考试,délivrance du certificat d'opérateur 证书签发；动词 délivrer
+jaune,黄色（色环码数字 4）,名词,6,电阻色环码,第 1/2 环黄 = 4，倍率环 ×10⁴
+ohmmètre,欧姆表（电阻表）,名词,6,报文与设备,测电阻必须断电、脱开电路；万用表的多用功能之一
+oscilloscope,示波器,名词,6,报文与设备,显示电压随时间变化（波形）；与 analyseur de spectre（频谱）区分
+retrait,收回、撤销（呼号/证书）,法规用语,6,处罚与考试,retrait de l'indicatif 比 suspension 更严厉；刑事处罚另由法院判处
+wattmètre,瓦特表（功率表）,名词,6,报文与设备,测发射功率；功率指示器（indicateur de puissance）是必备设备
+multimètre,万用表（多用表）,名词,5,报文与设备,可测电压/电流/电阻；测量前选对交流或直流档
+self,（自感）线圈、扼流线圈,名词,5,电容与线圈,self ＝ self-inductance 线圈，单位 H；与 condensateur 组成 LC 谐振回路
+Lituanie,立陶宛（呼号前缀 LY）,专有名词,4,呼号与前缀,CEPT 成员国
+plainte,投诉、报案,名词,4,处罚与考试,dépôt d'une plainte 报案后由法院处刑事罚；干扰投诉则由 ANFR 鉴定责任
+quadrature,正交（相位差 90°）,名词,4,电学基础,en quadrature de phase；démodulateur I-Q 用于数字解调
+sanction,处罚、制裁,法规用语,4,处罚与考试,分行政处罚（暂停/收回呼号）与刑事处罚（法院判处罚款/监禁）
+transceiver,收发信机,名词,4,收发信机框图,＝émetteur ＋ récepteur；现代设备把收发合装在一个机箱内
+ARCOM,ARCOM 法国视听与数字通信监管局,缩写,3,处罚与考试,由 CSA 改组而来，不负责业余业务；勿与 ARCEP（频谱使用条件）、ANFR（频率管理）混淆
+convocation,（考试/司法）通知、召集,名词,3,处罚与考试,convocation à l'examen 考试通知；报名与考试安排走 ANFR 的 téléservice
+RST,RST 报告（可读性/信号强度/音调）,缩写,3,报文与设备,"Readibility, Strength, Tone：R 1～5、S 1～9、T 1～9；非 CW 时省略 T"
+amende,罚款,名词,2,处罚与考试,CPCE L39-1：盗用呼号等行为可处 6 个月监禁及 30 000 € 罚款（教材原文）
+Zulu,字母解释法 Z（Zulu）,字母解释法,2,字母解释法,Z = Zulu；法语文本也写作 Zoulou，两者都是同一字母
+infraction,违法行为、违犯,法规用语,1,处罚与考试,须先认定违法（constater l'infraction）才能由法院处罚；认定人由法规限定
+TOS-mètre,驻波比表（TOS-mètre）,名词,1,匹配与驻波,TOS＝taux d'ondes stationnaires；réflectomètre 常直接显示 ROS/TOS(%)
+amplificateur opérationnel,运算放大器,短语,0,各级作用与话筒扬声器,理想器件：输入阻抗无穷大、增益无穷大；实际由反馈设定增益
+angle d'ouverture,（天线）张角、波束宽度,短语,0,天线特性与波长,＝两个半功率点（–3 dB）方向的夹角；张角越小增益越高
+antenne doublet,偶极天线（doublet demi-onde）,短语,0,天线与传播,半波偶极子（dipôle），中心馈电；常作增益参考天线（dBd）
+arrêté du 21 septembre 2000,2000 年 9 月 21 日部令,法规用语,0,处罚与考试,法国业余无线电核心部令（多次修订）：呼号、功率、设备、处罚均源于此
+bande latérale unique,单边带（BLU / SSB）,短语,0,发射类别,抑制载波与一个边带；话务类别 J3E；与双边带 DBL 相对
+bande passante,通带、带宽,短语,0,变压器与滤波器,＝largeur de bande；常以 –3 dB 两点之间表示，滤波器曲线讲选择性
+carnet de station,电台日志（电台记事簿）,法规用语,0,处罚与考试,与 journal de bord / carnet de trafic 同类：记录时间、频率、对方呼号与报告
+certificat d'opérateur,操作员证书,法规用语,0,处罚与考试,2012 年起只有一种证书；须同时通过 réglementation 与 technique 两科
+code des couleurs,（电阻）色环码,短语,0,电阻色环码,"黑棕红橙黄绿蓝紫灰白 = 0～9；口诀：Ne Mangez Rien Ou Je Vous Battrai Violemment, Grand BOA"
+coefficient de réflexion,反射系数（ρ）,短语,0,匹配与驻波,ρ = Ur/Ue = √(Pr/Pe)；TOS(%) = 100ρ；与 ROS 不是同一个量
+collectivités d'outre-mer,海外领地（COM）,法规用语,0,呼号与前缀,前缀两字母：FK 新喀里多尼亚、FO 波利尼西亚、FP 圣皮埃尔、FT 南方领地、FJ/FS
+diagramme de rayonnement,辐射方向图,短语,0,天线特性与波长,极坐标表示各方向辐射强弱；含主瓣、旁瓣、前后比
+départements d'outre-mer,海外省和海外大区（DROM）,法规用语,0,呼号与前缀,FG 瓜德罗普、FM 马提尼克、FY 圭亚那、FR 留尼汪、FH 马约特；前缀为两字母
+dérogation,豁免、特别许可,法规用语,0,处罚与考试,对一般条件（功率、天线、设备等）的个别免除，须申请批准，不可自行适用
+facteur de qualité,品质因数（Q）,名词,0,电容与线圈,谐振回路 Q = f0/带宽（选择性）；伏特表 Q ＝ R totale / calibre (Ω/V)
+filtre passe-bande,带通滤波器,短语,0,变压器与滤波器,只通过某频段；由 LC 或石英实现，多节可提高选择性
+fréquence,频率,名词,0,波段划分与分贝,f = 1/T；单位 Hz/kHz/MHz/GHz；波长 λ(m) = 300 / f(MHz)
+fréquence image,镜像频率（Fim）,短语,0,收发信机框图,混频时另一组合（取和而非差）产生的无用频率；用高第一中频或双变频抑制
+fréquence intermédiaire,中频（FI）,短语,0,收发信机框图,FI = |HF ± FO|；固定中频上完成滤波与放大，便于获得高增益与选择性
+journal de bord,电台日志（journal de bord）,法规用语,0,处罚与考试,发射许可持有人须记录：日期、时间（UTC）、频率、对方呼号、报告等
+largeur de bande,带宽,短语,0,波段划分与分贝,＝bande passante；发射时应尽量减小 largeur de bande occupée 占用带宽
+ligne bifilaire,双线传输线（对称线）,短语,0,匹配与驻波,特性阻抗约 300 Ω（与同轴 50 Ω 对照）；平衡线，VHF 少用
+ligne de transmission,传输线（馈线）,短语,0,匹配与驻波,把发射机能量送到天线，也称 feeder；须与天线阻抗匹配
+modulation de fréquence,调频（FM）,短语,0,发射类别,载波频率随调制信号变化，属角度调制；F3E 为 VHF 话务常用
+MUF,MUF 最高可用频率,缩写,0,天线与传播,Maximum Usable Frequency：高于它电波穿透电离层不返回地面；HF 选频的重要概念
+onde de sol,地波（地表波）,短语,0,天线与传播,沿地表传播，低频/中波为主；与 onde réfléchie（天波，电离层反射）相对
+onde réfléchie,反射波（天波，电离层反射）,短语,0,天线与传播,HF 远距离通信靠电离层反射；频率越高越易穿透电离层
+PAR,PAR 有效辐射功率,缩写,0,天线特性与波长,puissance apparente rayonnée ＝发射功率 × 天线相对增益（以半波偶极子为参考，dBd）
+précaire et révocable,（许可）临时且可撤销的,法规用语,0,处罚与考试,法国业余电台许可的法律性质：随时可被撤回，不是既得权利
+préfixe,前缀（呼号前缀）,名词,0,呼号与前缀,F 为法国本土；海外省/领地及 Corse 用两字母前缀；前缀决定国家与实体
+puissance apparente rayonnée,有效辐射功率（PAR）,法规用语,0,天线特性与波长,PAR ＝发射机功率 × 相对增益（相对半波偶极子）；功率限值以 PAR 计
+quantité d'électricité,电量（电荷量）,短语,0,电学基础,Q = I·t，单位库仑；1 Ah = 3600 C
+quart d'onde,四分之一波长（λ/4）,短语,0,天线特性与波长,λ/4 垂直天线须配地网或接地；λ/4 线也用于阻抗变换
+Règlement des radiocommunications,《无线电规则》（RR）,法规用语,0,波段划分与分贝,UIT 制定的国际法规（条文如 S1-56、S25.9）；法国法规按其制定
+résistance,电阻；电阻器,名词,0,电学基础,R = U/I（欧姆定律），单位 Ω；实际电阻由色环读出阻值与误差
+service d'amateur par satellite,业余卫星业务,法规用语,0,波段划分与分贝,比业余业务多一层限制（如空间台与地球站的协调规则）
+station mobile,移动电台,法规用语,0,处罚与考试,车载/船载等移动操作；与 station fixe（固定）、portable（便携）区分
+téléservice,远程（在线）服务（ANFR）,法规用语,0,处罚与考试,teleservice-amateurs.anfr.fr：考试报名、呼号申请、资料变更等在线服务
+à égalité de droit,平等使用权（业务地位）,法规用语,0,波段划分与分贝,TNRBF 中的「statut B」：与其它主要业务平等使用，无优先权

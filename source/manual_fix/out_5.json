@@ -1,0 +1,44 @@
+{
+ "P41": {
+  "verdict": "source_defect",
+  "answer": "题库毛病：题 20360（D = 10、d = 3）与题 20385（D = 10、d = 2）的同轴电缆图只给出两个直径（编织网内径 D 与内导体直径 d），没有注明介质常数 ε。官方题解自己承认了这一点（题 20360 的 commentaire 原文：«si le diélectrique est de l'air, ce qui n'est pas indiqué dans le schéma»），并按空气（ε = 1）作答：Z = 138 · log₁₀(D/d)。\n· 题 20360：Z = 138 · log₁₀(10/3) = 138 × 0,5229 ≈ 72 Ω（答案 D）。\n· 题 20385：Z = 138 · log₁₀(10/2) = 138 × 0,699 ≈ 96 Ω（答案 C）。\n若按教材常用的 PE（ε = 2,3）算，题 20360 得 (138/√2,3) × 0,5229 ≈ 48 Ω，不在选项中，可见「未注明介质」时命题人的默认口径就是空气。\n带介质的一般式（题库题 20787 给出实例：ε = 4、D/d = 5 ⇒ Z = 48 Ω）：\\(Z(\\Omega) = \\dfrac{138}{\\sqrt{\\varepsilon}} \\cdot \\log_{10}(D/d)\\)，它来自原文 §10.2b 的 \\(\\sqrt{\\mu_0/\\varepsilon_0}/(2\\pi\\sqrt{\\varepsilon})\\cdot\\ln(D/d)\\)，其中 60 · ln(10) = 138,2。\n作答口径：题面未注明 ε 时一律取 ε = 1（空气）。",
+  "source": "题库题 20360、20385（含官方 commentaire）、题 20787；PDF §10.2b（p.85）",
+  "note": "判定为题库缺陷（题图/题干缺介质信息），不是教材漏译；做题按官方题解口径 ε = 1。"
+ },
+ "P42": {
+  "verdict": "resolved",
+  "answer": "工程上普遍选 50 Ω 而不是 75 Ω，理由是「最大功率容量 ↔ 最小损耗」之间的折中，源头是 Bell 实验室 1929 年前后的实验结论：对空气介质同轴电缆，30 Ω 时功率容量最大（Maximum power handling）、77 Ω 时衰减最小（Minimum attenuation）、60 Ω 时耐压最高。30 Ω 与 77 Ω 的几何平均 \\(\\sqrt{30 \\times 77} \\approx 48\\) Ω，算术平均约 53,5 Ω，取整即业界通行的 50 Ω；而对 PE 等常见实心介质的电缆，最低损耗点会从 77 Ω 降到 52～64 Ω，50 Ω 更接近最优，于是 50 Ω 成为兼顾两者的标准。75 Ω 主要留给视频／广播与有线电视（那里最看重低衰减和低成本），300 Ω 用于平行双线（电视天线）。\n原文口径：§10.2b 只给出 \\(Z = \\dfrac{138}{\\sqrt{\\varepsilon}} \\cdot \\log_{10}(D/d)\\) 的来历（60 · ln(10) = 138,2）、损耗来源（R2 集肤效应、R1 介质)与速度系数，以及唯一算例「PE 介质、编织网/内导体直径比 3,5 时 Z = 50 Ω」（(138/√2,3) × log₁₀3,5 ≈ 49,5 Ω ≈ 50 Ω），并未解释为何选 50 Ω。",
+  "source": "https://en.wikipedia.org/wiki/Coaxial_cable（Bell Labs 1929：77 Ω 低衰减、60 Ω 高耐压、30 Ω 大功率；算术平均 53,5 Ω、几何平均 48 Ω）；https://www.microwavejournal.com/articles/9169-choosing-the-optimal-high-frequency-coaxial-cable；PDF §10.2b（原文无此解释）",
+  "note": "原文确实没写这个理由（已逐字核对 PDF §10.2 与 HTML §10.2/T102b），本条内容属外部查证；若只需教材口径，写「50 Ω 是功率容量与损耗之间的折中」即可。"
+ },
+ "P43": {
+  "verdict": "resolved",
+  "answer": "§11.3 原文完整内容（PDF §11.3a–b，p.90）如下，截断处之后的续文：\n定义：镜像频率（Fim）是用「相反的混频方式」（例如以和频代替用来生成 FI 的差频）得到的那个频率。\n原文算例：HF = 14 MHz、FO = 5 MHz、FI = 9 MHz。若输入 HF 滤波器质量差、放过了 4 MHz，则 4 MHz（Fim）与 5 MHz（FO）混频得到 9 MHz（4 + 5 = 9），即中频；于是两个信号同时出现在 FI 级，在该级已无法分开。Fim 由 2·FO 或 2·FI 算出，分四种情形：\n\n| 接收机 | 条件 | 中频 | Fim | 等价写法 |\n| --- | --- | --- | --- | --- |\n| 低外差 infradyne | FO < HF | FI = HF – FO | \\|2·FO – HF\\| | \\|2·FI – HF\\| |\n| 低外差 infradyne | FO < HF | FI = HF + FO | 2·FO + HF | 2·FI – HF |\n| 高外差 supradyne | FO > HF | FI = FO – HF | 2·FO – HF | 2·FI + HF |\n| 高外差 supradyne | FO > HF | FI = HF + FO | 2·FO + HF | 2·FI – HF |\n\n原文算例续（本例如上，低外差且 FI = HF – FO）：Fim = \\|(2 × 5) – 14\\| = \\|(2 × 9) – 14\\| = 4 MHz。\n§11.3b 抑制办法：宽覆盖接收机采用双变频，第一中频取很高（100 MHz 以上），把镜像频率推得很远、便于输入滤波；第二中频固定在 500 kHz 附近，便于使用便宜的滤波器或数字处理。\n另附第 11 章章末小结表（原文照抄）：\n\n| 系统 | FO/HF | FI = | 频谱折叠 | HF 与 FI | 提高接收频率时 | Fim | 等价式 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 低外差 infradyne | FO<HF | HF+FO | 无 | HF<FI | 减小 FO | 2·FO + HF | 2·FI – HF |\n| 低外差 infradyne | FO<HF | HF–FO | 有 | HF>FI | 增大 FO | \\|2·FO – HF\\| | \\|2·FI – HF\\| |\n| 高外差 supradyne | FO>HF | FO+HF | 无 | HF<FI | 减小 FO | 2·FO + HF | 2·FI – HF |\n| 高外差 supradyne | FO>HF | FO–HF | 有 | HF>FI | 增大 FO | 2·FO – HF | 2·FI + HF |\n\nHF = 接收频率，FO = 本机振荡频率，FI = 中频，Fim = 镜像频率。",
+  "source": "PDF §11.3a–b（p.90）与第 11 章章末小结表（p.99）；可与题库题 20213、20465、20888、21207、22473 的答案逐条对上",
+  "note": "原分块恰在 §11.3 的第一句定义之后被切断；以上是同一节 §11.3a 的续文，属教材下一分块的内容，可直接补入正文。"
+ },
+ "P44": {
+  "verdict": "resolved",
+  "answer": "§11.5 原文确实只写：话筒 → 调制器（必然内含一个 HF 振荡器，并按 BF 的节拍改变 HF 信号）→ 抗谐波低通滤波器（filtre anti-harmonique passe-bas，避免非必要辐射）→ 天线插座（与接收机合成收发信机时共用天线与本机振荡器）→ 收发切换装置（开关、机电继电器或开关二极管）。原文没有出现 étage tampon、excitateur、adaptation d'antenne 这些名称。\n但这个「缺口」原文自己在 §7.3b 解释过：「有一种专门的级叫隔离级／缓冲级（séparateur，也叫 tampon），用来匹配两级之间的功率电平、电压电平和／或阻抗；在框图（synoptique，见 §11）中，这种纯技术性的级常常不画出来，因为它不参与整机的工作原理逻辑。」所以 §11.5 的发射机框图不列缓冲级（étage tampon / séparateur）是与原文一致的，不需要补，也不能据其它资料硬加。\n天线匹配／耦合不在 §11.5，而在 §10.3b（boîte de couplage 即耦合盒／匹配盒，由 π 型或 T 型滤波器构成，插在发射机与馈线之间，既限制反射功率又完成阻抗匹配）以及 §9（balun 平衡转换器、λ/4 线等 adaptation d'impédance 的手段）。术语 excitateur（激励级／驱动级）在原文全文从未出现过，法文原书用的是 séparateur / tampon；题库里对应的也正是 «séparateur»（如题 20652 的 BLU 发射机框图）。",
+  "source": "PDF §11.5（p.90）+ §7.3b（p.71）+ §10.3b（p.86）+ §9；题库题 20652、20806、20889",
+  "note": "可以放心按原文作答，不要引入原文没有的级名；若要谈「天线匹配网络」，请按原文写 boîte de couplage / système d'adaptation d'impédance，而不是 adaptation d'antenne（原文无此说法）。"
+ },
+ "P45": {
+  "verdict": "resolved",
+  "answer": "AM 的占用带宽 \\(B(Hz) = 2 \\times BF_{maxi}\\)（最高调制频率的两倍）。\n推导（原文自身的表述）：AM 的频谱是载波加两条边带 HF + BF 与 HF – BF（§12.1c：「on retrouve la porteuse au centre et deux bandes latérales」，§12.6a：「porteuse + BF et porteuse – BF」）；BF 由最低铺到最高，所以整段频谱宽度 = (HF + BFmaxi) – (HF – BFmaxi) = 2 · BFmaxi。\n原文里的数值印证：法规模拟题解（PDF 第 181 页，Série 40 第 3 题）说 14 000 kHz 上发 A3E 会越界，理由是「若 BF 带宽为 3 kHz，发射占据 13 997 至 14 003」（13,997～14,003 MHz），即 6 kHz = 2 × 3 kHz；这与 §R-1.3b 的法定上限「28 MHz 以下 6 kHz」正好吻合（现行的 6 kHz 上限就是按常规话务 BF 上限 3 kHz、AM 双边带推出来的）。\n例：常规话务 BF 300–3000 Hz ⇒ AM 占用带宽 = 2 × 3000 = 6000 Hz = 6 kHz；同样 BF 下 BLU 只发一条边带，约 3 kHz（题库常用 2,4 kHz：BF 300–2700 Hz，前缀码 2K40J3E）。",
+  "source": "PDF §12.1c（p.92）、§12.6a、§12.4e（p.95）、§R-1.3b（p.15）与第 181 页 Série 40 第 3 题题解",
+  "note": "公式在 §12.3 原文中确实没有印出，但它由原文的频谱描述直接推得，官方题解里有 3 kHz → 6 kHz 的数值印证；做题时 BFmaxi 取话务上限（通常 3 kHz）。"
+ },
+ "P46": {
+  "verdict": "resolved",
+  "answer": "调制指数 m < 1（窄带 FM，NBFM）时应使用的替换公式就是 AM 的带宽公式：\\(B \\approx 2 \\times BF_{maxi}\\)。\n三条依据：\n1) 原文 §12.4e 自己说：m 降到 1 以下时，带宽「s'écarte de la règle de Carson et se rapproche de celle de l'AM (largeur des deux bandes latérales)」——即向 AM 的带宽（两条边带的宽度）靠拢；而 AM 带宽 = 2 × BFmaxi（§12.1c/§12.6a，见本教材 §12.3 一条）。\n2) 数学上它就是卡森规则的极限：\\(B = 2(m+1)\\cdot BF_{maxi}\\)，当 m → 0 时 B → 2 · BFmaxi；m < 1 时该式给出 2·BFmaxi < B < 4·BFmaxi，工程上取窄带近似 B ≈ 2 · BFmaxi（m ≪ 1 时只保留载波与一次边带，故带宽 = 2·fm）。\n3) 外部印证：窄带调频（调制指数 h ≪ 1）的带宽约为 2·fm，fm 为最高调制频率。\n例：BFmaxi = 3 kHz、频偏 (±ΔF) = 1,5 kHz ⇒ m = 0,5 < 1，取 B ≈ 2 × 3 = 6 kHz（若用卡森公式得 9 kHz，属偏大的上限）。\n因此小结表可写成：「m ≥ 1 ⇒ B = 2(m + 1) · BFmaxi（卡森规则，含 98% 功率）；m < 1（NBFM）⇒ B ≈ 2 × BFmaxi，即等于 AM 带宽」。",
+  "source": "PDF §12.4e（p.95）+ §12.1c/§12.6a；https://en.wikipedia.org/wiki/Frequency_modulation（Modulation index：h ≪ 1 时带宽约 2·fm）；https://en.wikipedia.org/wiki/Carson_bandwidth_rule",
+  "note": "原文没有印出这个替换公式（只写了「向 AM 带宽靠拢」），以上是原文表述 + AM 带宽关系的直接推论，也是卡森公式 m→0 的极限；若考试出现窄带 FM 带宽题，仍以官方题解口径为准。"
+ },
+ "P47": {
+  "verdict": "not_in_source",
+  "answer": "§12.6 原文确实没有各类发射占用带宽的法定上限——法定上限属法规章 §R-1.3b（原书 p.15，依 décision ARCEP 12-1241 附件 3）。原文照抄：\n\n| 频率范围 | 最大占用带宽 |\n| --- | --- |\n| 28 MHz 以下 | 6 kHz |\n| 28–144 MHz（即 28 与 50 MHz 段） | 12 kHz |\n| 144–225 MHz | 20 kHz |\n| 225 MHz 以上 | 无限制 |\n\n并附原文要求：「在选定发射类别时，凡技术上与操作上可行的范围内，应尽力减小占用带宽」（décision 12-1241 前言 §3，援引 RR 第 S15.9 条）。\n另：12-1241 之前的旧口径（§R-1.3 开头提到）是「FM 最大占用带宽：30 MHz 以下 6 kHz，30 MHz 以上 15 kHz」，题库里若干旧题（如 20433、34812）仍按旧口径出题，注意甄别。\n所以 §12.6 的表应保持「各方式的频谱构成关系」比较（CW 最窄、AM = 载波 + 两条边带、BLU 只有一条边带、FM 为连续谱），并补一行交叉引用：「各类发射占用带宽的法定上限见 §R-1.3b」。",
+  "source": "PDF §R-1.3b 与 §R-1.3 开头（p.15）；题库题 30039、30160、31006、31007、32560、20433、34812",
+  "note": "判为 not_in_source：数值不在 §12.6 原文，须引 §R-1.3b。附带说明：原文 §12.6 也没有明确写出 CW 与 AM 的具体带宽数值（CW「最窄」、AM = 2 × 最高调制频率 = 6 kHz 均为推算）。"
+ }
+}

@@ -1,0 +1,626 @@
+[
+ {
+  "num": "20036",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE RX",
+  "options": [
+   "10 Ω",
+   "32,5 Ω",
+   "36 Ω",
+   "Impossible à  calculer"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10 Ω",
+  "commentaire_fr": "Produit en croix : R = 15 x 6 / 9 = 10\n",
+  "anchor": "T018a"
+ },
+ {
+  "num": "20037",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "CALCULER IR1",
+  "options": [
+   "3,05 A ",
+   "0,305 A",
+   "0,045 A",
+   "350 mA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,305 A",
+  "commentaire_fr": "I dans résistance de 2,2 kΩ : 100/2200 = 0,04545 A ; IR1 = IR – 0,04545 = 0,304545 arrondi à 0,305 A\n",
+  "anchor": "T018c"
+ },
+ {
+  "num": "20038",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "CALCULER IR1",
+  "options": [
+   "28 mA ",
+   "20 mA",
+   "10 mA",
+   "0,1 A"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 mA",
+  "commentaire_fr": "IR2 = UR2 / R2 = 24 / 1200 = 0,02 A = 20 mA. IR1 = IT – IR2 = 30 – 20 = 10 mA\n",
+  "anchor": "T018c"
+ },
+ {
+  "num": "20044",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA PULSATION D'UN SIGNAL DE 1000 HZ ?",
+  "options": [
+   "6280",
+   "628",
+   "0,001",
+   "6,28"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "6280",
+  "commentaire_fr": "Pulsation = 2 x p x F = 2 x 3,14 x 1000 = 6280\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20046",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA FREQUENCE D'UN SIGNAL DONT LA PERIODE DURE 500 MICROSECONDES ?",
+  "options": [
+   "4 kHz",
+   "200 Hz",
+   "20 000 Hz",
+   "2 kHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2 kHz",
+  "commentaire_fr": "500 µs = 0,000 5 secondes ; F = 1/t = 1 / 0,0005 = 2000 Hz = 2 kHz\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20047",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA FREQUENCE D'UN SIGNAL DE PERIODE 500 MILLISECONDES",
+  "options": [
+   "2 kHz",
+   "2 Hz",
+   "0,2 Hz",
+   "20 Hz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 Hz",
+  "commentaire_fr": "500 ms = 0,5 s ; F = 1/t = 1 / 0,5 = 2\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20048",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "DUREE D'UNE PERIODE D'UN SIGNAL DE FREQUENCE 10 KILOHERTZ ?",
+  "options": [
+   "0,001 seconde",
+   "10 µs",
+   "100 µs",
+   "10 ms"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100 µs",
+  "commentaire_fr": "t = 1/ F = 1 / 10000 = 0,0001 = 0,1 ms = 100 µs\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20049",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "DUREE D'UNE PERIODE D'UN SIGNAL DE FREQUENCE 10 HERTZ ?",
+  "options": [
+   "1 ms",
+   "10 ms",
+   "100 ms",
+   "0,01 seconde"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100 ms",
+  "commentaire_fr": "t = 1/ F = 1 / 10 = 0, 1 = 100 ms\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20053",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA DUREE D'UNE PERIODE D'UN SIGNAL DE 10 HERTZ ?",
+  "options": [
+   "1000 ms",
+   "10 ms",
+   "0,1 ms",
+   "100 ms"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "100 ms",
+  "commentaire_fr": "t = 1/ F = 1 / 10 = 0,1 s = 100 ms\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20054",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "FREQUENCE DU SIGNAL 5MS / DIVISION",
+  "options": [
+   "100 Hz ",
+   "25 Hz",
+   "50 Hz",
+   "200 Hz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50 Hz",
+  "commentaire_fr": "La période d’observation durait : 8 x 5 ms = 40 ms, il y avait 2 périodes, d’où 20 ms par période, d’où une fréquence de 50 Hz ( = 1 / 0,02)\n",
+  "anchor": "T022f"
+ },
+ {
+  "num": "20055",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "UN SIGNAL DE 100 HZ CORRESPOND A : \n1) UNE PERIODE DE 10 MILLISESONDES\n2) UNE LONGUEUR D'ONDE DE 300 KILOMETRES\n3) UNE PULSATION DE 628 RADIANS PAR SECONDES\n4) UNE PERIODE DE 100 SECONDES",
+  "options": [
+   "1, 2 et 3",
+   "1 et 2",
+   "2 et 4",
+   "1 et 3"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1 et 3",
+  "commentaire_fr": "1 – bonne réponse (1 /100 = 0,01 = 10 ms) ; \n2 - faux: la longueur d’onde correspondant à 100 Hz est de 3.000 km ; \n3 – bonne réponse : pulsation  = 2 x pi x F = 6,28 x 100 = 628 rad/s ; \n4 – faux, voir 1 (t = 10 ms)\n",
+  "anchor": ""
+ },
+ {
+  "num": "20056",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA VALEUR CRETE D'UN SIGNAL EFFICACE DE 12 VOLTS ?",
+  "options": [
+   "24 V",
+   "8,5 V",
+   "17 V",
+   "34 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "17 V",
+  "commentaire_fr": "12 x 1,414 = 17 V (réponse arrondie)\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20057",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "10 VOLTS EFFICACES, QUELE EST LA TENSION CRETE ?",
+  "options": [
+   "20 V",
+   "7,07 V",
+   "28,28 V",
+   "14,14 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "14,14 V",
+  "commentaire_fr": "Umax = Ueff x 1,414 = 14,14 Vmax\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20058",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "TENSION CRETE D'UN SIGNAL DE TENSION EFFICACE 5 V",
+  "options": [
+   "6 V",
+   "3,53 V  ",
+   "14,14 V",
+   "7,07 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "7,07 V",
+  "commentaire_fr": "Umax = Ueff x 1,414 = 7,07 V \n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20059",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "VALEUR EFFICACE D'UNE TENSION CRETE A CRETE 622 VOLTS ?",
+  "options": [
+   "220 V",
+   "311 V",
+   "439,8 V",
+   "879 V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "220 V",
+  "commentaire_fr": "Umax = Ucac / 2 = 622 / 2 = 311 \nUeff = Umax x 0,707 = 220 V(réponse arrondie)\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20061",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "VALEUR EFFICADE D'UNE TENSION CRETE A CRETE 96 V ?",
+  "options": [
+   "68 V ",
+   "34 V",
+   "136 V",
+   "272 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "34 V",
+  "commentaire_fr": "96 Vcàc = 48 Vmax ; 48Vmax x 0,707 = 33,94  arrondi à 34 Veff)\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20062",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "TENSION CRETE SIGNAL 20W COAXIAL 75 OHMS",
+  "options": [
+   "55 V ",
+   " 39 V",
+   "75 V",
+   "110 V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "55 V ",
+  "commentaire_fr": "U = √ (P x R) = √ (1500) = 39 Volts efficaces (valeur arrondie) = 55 Volts crête. \n\nEn considérant qu’il n’y a pas d’ondes stationnaires.\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20063",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "INTENSITE CRETE PUISSANCE 40 W COAXIAL 50 OHMS",
+  "options": [
+   "45 A ",
+   " 0,9 A",
+   "32 A",
+   "1,27 A"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1,27 A",
+  "commentaire_fr": "I = √ (P / R) = √ (40 / 50) = 0,9 A eff = 1,27 A crête (réponse arrondie).\nEn considérant qu’il n’y a pas d’ondes stationnaires.\n",
+  "anchor": "T022"
+ },
+ {
+  "num": "20066",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE DE CHARGE CONDENSATEUR",
+  "options": [
+   "1 et 2",
+   "1, 2 et 4",
+   "2, 3 et 4",
+   "1 et 4"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1 et 4",
+  "commentaire_fr": "La nature du matériau constituant les lames et la tension appliquée n’ont aucune incidence sur la valeur du condensateur.\n",
+  "anchor": "T023c3"
+ },
+ {
+  "num": "20067",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE CONDENSATEUR",
+  "options": [
+   "1, 2 et 3",
+   "2 et 3",
+   "2, 3 et 4",
+   "1, 3 et 4"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 et 3",
+  "commentaire_fr": "La fréquence et la puissance du signal n’ont aucune incidence sur la valeur d’un condensateur.\n",
+  "anchor": "T023c3"
+ },
+ {
+  "num": "20068",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE CONDENSATEUR",
+  "options": [
+   "2 et 4 ",
+   "1 et 3",
+   "3 et 4",
+   "1, 2 et 3"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "3 et 4",
+  "commentaire_fr": "Les propositions 3 et 4  signifient la même chose\n",
+  "anchor": "T023c3"
+ },
+ {
+  "num": "20071",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "ON DOUBLE LA DISTANCE QUI SEPARE LES ARMATURES D'UN CONDENSATEUR PLAN",
+  "options": [
+   "La capacité est divisée par 2 ",
+   "La capacité est quadruplée",
+   "La capacité ne change pas",
+   "La capacité est multipliée par 2"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "La capacité est divisée par 2 ",
+  "commentaire_fr": "",
+  "anchor": "T023c3"
+ },
+ {
+  "num": "20075",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE",
+  "options": [
+   "400 µF ",
+   "4,8 mF",
+   "480 µF",
+   "300 µF"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "300 µF",
+  "commentaire_fr": "1200 / 4 = 300\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20076",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE",
+  "options": [
+   "5,5 nF ",
+   "198 nF",
+   "33 nF",
+   "550 µF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "5,5 nF ",
+  "commentaire_fr": "33 / 6 = 5,5.\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20077",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE",
+  "options": [
+   "45 µF ",
+   "8,8 µF",
+   "88 µF",
+   "45 mF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "45 µF ",
+  "commentaire_fr": "Ceq = C1+C2 = 12 + 33 = 45\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20078",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE",
+  "options": [
+   "1500 pF ",
+   "333 pF",
+   "1,05 nF",
+   "501 nF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1500 pF ",
+  "commentaire_fr": "CT = C1 + C2 = 1500 pF ou 1,5 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20079",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE",
+  "options": [
+   "2 nF ",
+   " 0,5 nF",
+   "1250 pF",
+   "50 pF"
+  ],
+  "ans_idx": 1,
+  "ans_fr": " 0,5 nF",
+  "commentaire_fr": "C en // : 2 x 500 pF = 1 nF ; en série avec le condensateur de 1 nF : 1 nF / 2 = 0,5 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20082",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUE DOIT-ON RAJOUTER A UN CONDENSATEUR DE 20 PICOFARADS POUR OBTENIR 25 PICOFARADS ?",
+  "options": [
+   "ajouter un condensateur de 11 pF en parallèle ",
+   "ajouter un condensateur de 5 pF en série",
+   "ajouter un condensateur de 5 pF en parallèle",
+   "ajouter un condensateur de 11 pF en série"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "ajouter un condensateur de 5 pF en parallèle",
+  "commentaire_fr": "Pour augmenter la capacité équivalente, il faut ajouter un condensateur en parallèle.\nFormule : CT = C1 + C2\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20084",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "Z= ?",
+  "options": [
+   "227 Ω",
+   "0,000 227 Ω",
+   "22 mΩ",
+   "0,000 440 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,000 227 Ω",
+  "commentaire_fr": "Z = 1 / (2 x π x F x C) ou Z en ohms = 159 / F(MHz) / C(nF)  = 159 / 7 / 100 000 = 0,000 227\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20086",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "DEPHASAGE INTRODUIT PAR UN CONDENSATEUR ?",
+  "options": [
+   "180°",
+   "+ 90°",
+   "- 90°",
+   "pas de déphasage"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "- 90°",
+  "commentaire_fr": "La tension est en retard (-90°) par rapport l’intensité : il y a d’abord intensité puis tension\n",
+  "anchor": "T023h1"
+ },
+ {
+  "num": "20087",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUE SE PASSE-T-IL SI, SUR UNE BOBINE, ON DOUBLE LE NOMBRE DE SPIRES ?",
+  "options": [
+   "la valeur de la bobine est quadruplée ",
+   "la valeur de la bobine est doublée",
+   "la valeur de la bobine est divisée par 2",
+   "la valeur de la bobine est divisée par 4"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "la valeur de la bobine est quadruplée ",
+  "commentaire_fr": "Ceci est vrai si on ne change pas la forme de la bobine, ce qui est difficilement réalisable...\n",
+  "anchor": "T023d"
+ },
+ {
+  "num": "20091",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "FORMULE EXACTE",
+  "options": [
+   "t(s) = R / C",
+   "t(s) = R / L",
+   "t(s) = 1 / (R x C)",
+   "t(s) = L / R"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "t(s) = L / R",
+  "commentaire_fr": "la formule exacte pour les condensateurs est : t(s) = R x C\n",
+  "anchor": "T024"
+ },
+ {
+  "num": "20095",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "COURANT DANS LE PRIMAIRE",
+  "options": [
+   "1 A",
+   "2,5 A",
+   "400 mA",
+   "10 mA"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1 A",
+  "commentaire_fr": "Puissance primaire = puissance secondaire = 100 W, Uprimaire = 100 V donc I = P / U = 1 A). Les caractéristiques du transformateur (nombre de spires) sont inutiles.\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20096",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "INTENSITE AU SECONDAIRE",
+  "options": [
+   "0,4 A",
+   "4 mA",
+   "200 mA",
+   "4 A "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "4 A ",
+  "commentaire_fr": "P primaire = P secondaire ; I secondaire = P / U = 300 / 75 = 4\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20097",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "COURANT TRAVERSE RESISTANCE",
+  "options": [
+   "25 A",
+   "2 A",
+   "0,5 A",
+   "200 mA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 A",
+  "commentaire_fr": "P primaire = P secondaire donc I = P / U soit 100 W / 50 V = 2 A\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20099",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "INTENSITE DANS LA RESISTANCE R",
+  "options": [
+   "10 mA",
+   "1A",
+   "10 A",
+   "0,1 A "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "0,1 A ",
+  "commentaire_fr": "U secondaire = 220 x (100 / 1000) = 220 / 10 = 22 ; \nI = U / R = 22 / 220 = 0,1 A\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20100",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "PUISSANCE DISSIPEE RESISTANCE R",
+  "options": [
+   "350 W ",
+   " 3,5 W",
+   "35 W",
+   "350 mW"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "35 W",
+  "commentaire_fr": "le transformateur est supposé parfait, donc Ps = Pp = Up x Ip = 100 x 0,35 ; les valeurs de Ns et Np sont inutiles pour résoudre le problème.\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20102",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "IMPEDANCE AU PRIMAIRE ?",
+  "options": [
+   "4 Ω",
+   "270 Ω",
+   "120 Ω",
+   "3600 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "3600 Ω",
+  "commentaire_fr": "En supposant que le transformateur est parfait, N = rapport de transfo = 1/30 ; Ze = Zs / N² = 4 / (1/30)² = 4 x 30 x 30 = 3600 Ω\n",
+  "anchor": "T031"
+ },
+ {
+  "num": "20103",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "IMPEDANCE AU PRIMAIRE",
+  "options": [
+   "200 Ω",
+   "40 Ω",
+   "1,6 Ω",
+   "320 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "200 Ω",
+  "commentaire_fr": "en supposant que le transformateur est parfait, N = rapport de transfo = 300/1500 = 0,2 ; Zs = Ze / N² = 8 / 0,2 / 0,2 = 200\n",
+  "anchor": "T031"
+ }
+]

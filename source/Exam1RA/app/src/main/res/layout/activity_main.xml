@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="?android:attr/windowBackground"
+        android:fitsSystemWindows="true"
+        tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+        <!-- Carte des Thèmes -->
+        <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardThemes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintWidth_max="600dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chose_thema"
+                        android:textAppearance="?attr/textAppearanceHeadlineSmall"
+                        android:layout_marginBottom="16dp"/>
+
+                <!-- Section Législation -->
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                    <TextView
+                            android:id="@+id/legislationTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/legislation"
+                            android:textAppearance="?attr/textAppearanceTitleMedium"
+                            app:drawableStartCompat="@drawable/ic_arrow_drop_down_24dp"
+                            app:drawableEndCompat="@drawable/ic_book_24dp"
+                            android:drawablePadding="8dp"/>
+
+                    <com.google.android.material.checkbox.MaterialCheckBox
+                            android:id="@+id/legislationCheckBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
+
+                <!-- Liste Législation -->
+                <LinearLayout
+                        android:id="@+id/legislationRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:animateLayoutChanges="true">
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/codeQCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_codeQ" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/emissionCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_emission" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/adaptationCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_adaptation" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/epellationCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_epellation" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cemCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_cem" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/antennesCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_antennes" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/sanctionsCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_sanctions" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/messagesCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_messages" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/indicatifsCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_indicatifs" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/entrainementCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_entrainement" android:onClick="updateNbrofQSpinner"/>
+                </LinearLayout>
+
+                <Space android:layout_width="match_parent" android:layout_height="24dp"/>
+
+                <!-- Section Technique -->
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                    <TextView
+                            android:id="@+id/techniqueTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/technique"
+                            android:textAppearance="?attr/textAppearanceTitleMedium"
+                            app:drawableStartCompat="@drawable/ic_arrow_drop_down_24dp"
+                            app:drawableEndCompat="@drawable/ic_build_24dp"
+                            android:drawablePadding="8dp"/>
+
+                    <com.google.android.material.checkbox.MaterialCheckBox
+                            android:id="@+id/techniqueCheckBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
+
+                <!-- Liste Technique -->
+                <LinearLayout
+                        android:id="@+id/techniqueRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:animateLayoutChanges="true">
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/lignesCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_lignes" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/etagesRFCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_etagesRF" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/resistancesGroupesCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_resistancesGroupes" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/ampliCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_ampli" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/transfoCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_transfo" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/alternatifCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_alternatif" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/synoptiquesCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_synoptiques" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/resistancesCouleursCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_resistancesCouleurs" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/electriciteCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_electricite" android:onClick="updateNbrofQSpinner"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/condoBobCheckBox" android:minHeight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/theme_condoBob" android:onClick="updateNbrofQSpinner"/>
+                </LinearLayout>
+
+                <!-- Boutons d'action -->
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="24dp">
+
+                    <com.google.android.material.button.MaterialButton
+                            android:id="@+id/allThemeButton"
+                            style="@style/Widget.Material3.Button.TonalButton"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="8dp"
+                            android:text="@string/tout_cocher"/>
+
+                    <com.google.android.material.button.MaterialButton
+                            android:id="@+id/noThemeButton"
+                            style="@style/Widget.Material3.Button.TonalButton"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginStart="8dp"
+                            android:text="@string/tout_decocher"/>
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                        android:id="@+id/startButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/commencer"
+                        android:textSize="18sp"
+                        android:textColor="?attr/colorOnPrimary"
+                        app:cornerRadius="8dp"/>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Carte des Réglages -->
+        <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardSettings"
+                style="?attr/materialCardViewElevatedStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                app:layout_constraintWidth_max="600dp"
+                app:layout_constraintTop_toBottomOf="@id/cardThemes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:focusableInTouchMode="true">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reglages"
+                        android:textAppearance="?attr/textAppearanceHeadlineSmall"
+                        android:layout_marginBottom="16dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/nbr_de_questions"
+                        android:layout_marginBottom="16dp">
+
+                    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                            android:id="@+id/nbrQSpinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="none"
+                            android:text="@string/num20" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/showRespSwitch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/show_responses"
+                        android:checked="true"
+                        android:layout_marginBottom="8dp"/>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/timerSwitch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/timer_onOff"
+                        android:layout_marginBottom="8dp"/>
+
+                <!-- Champ temps avec TextInputLayout Material -->
+                <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/tps_lim"
+                        app:endIconMode="clear_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tempsEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

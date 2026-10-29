@@ -1,0 +1,62 @@
+[
+ {
+  "sec": "§7.1 放大器的分类（A、B、C、D、AB 类） · Les classes d'amplification (ou de polarisation) #T071 #T07 #T",
+  "anchor": "T071b",
+  "text": "⚠️ 待核实：原文只用「信号被放大的部分」描述 B 类和 C 类，并未使用「导通角（angle de conduction）」一词，也没有给出 180°/360° 之类的角度数值",
+  "id": "P31"
+ },
+ {
+  "sec": "§7.4 射频放大器、增益与失真（含谐波失真率计算） · L'amplificateur R.F. et les distorsions #T074 #T074a #T074b2",
+  "anchor": "T074b2",
+  "text": "⚠️ 待核实：本块原文（§7.4）没有给出射频放大器「增益」的计算公式，也没有以 dB 表示增益的算式（该内容在 §4.1f，不在本块）",
+  "id": "P32"
+ },
+ {
+  "sec": "§7.7 混频器：和频与差频 · Le mélangeur #T077 #T077a #T077b #T077c",
+  "anchor": "T077c",
+  "text": "⚠️ 待核实：本块原文 §7.7 全程没有出现「中频（fréquence intermédiaire）」和「镜像频率（fréquence image）」这两个术语，也没有超外差接收机的框图",
+  "id": "P33"
+ },
+ {
+  "sec": "§7.7 混频器：和频与差频 · Le mélangeur #T077 #T077a #T077b #T077c",
+  "anchor": "T077c",
+  "text": "⚠️ 待核实：真题 20155「射频放大器—输出端频率」的原图未包含在本块原文中，答案（5、145、150、290、295 和 300 MHz）只能按题库答案键转述，其中 300 MHz 对应哪一种混频组合需按原图核实",
+  "id": "P34"
+ },
+ {
+  "sec": "§9.2 电波传播：地波、反射波、空间波与波段划分 · Propagation : Les ondes radioélectriques #T092 #T092b #T092c",
+  "anchor": "T092c",
+  "text": "⚠️ 待核实：原文 §9.2c 说「下表给出整个无线电频谱：波段、波长、各波段对应的频率，最后一行还给出各波段的传播方式」，但这张表在 PDF 转文本时丢失，只留下这段说明文字",
+  "id": "P35"
+ },
+ {
+  "sec": "§9.2 电波传播：地波、反射波、空间波与波段划分 · Propagation : Les ondes radioélectriques #T092 #T092b #T092c",
+  "anchor": "T092c",
+  "text": "⚠️ 待核实：原文说地波「只在低频有效，超过 2 MHz 后强烈衰减」，但紧接着又给出 4 MHz 时 100 km、10 MHz 时 50 km 的期望距离，两处口径不完全一致",
+  "id": "P36"
+ },
+ {
+  "sec": "§9.4 天线的基本原理：辐射、驻波与极化 · Une antenne est un dispositif assurant la liaison entre le milieu ",
+  "anchor": "T094c",
+  "text": "⚠️ 待核实：本教材的文本版本不含 F6KGL 原书的插图，而题库中有若干题必须看图作答，例如题 21170「图中这个偶极天线是按哪个频率裁截的」、题 22474「哪一张图是自由空间中半波偶极的方向图」、题 21601「标注 A 的部分是」",
+  "id": "P37"
+ },
+ {
+  "sec": "§9.5 垂直四分之一波天线（Ground Plane）：接地与地网 · L'antenne quart d'onde verticale #T095 #T095a",
+  "anchor": "T095a",
+  "text": "⚠️ 待核实：题库中四分之一波天线的阻抗出现两个答案——题 21176 是 36 Ω，题 21177 是 50 Ω",
+  "id": "P38"
+ },
+ {
+  "sec": "§9.8 有效辐射功率（PAR / PIRE）与增益、馈线损耗的换算 · Puissance apparente rayonnée (P.A.R.) #T098",
+  "anchor": "T098",
+  "text": "⚠️ 待核实：题库题 20188 给出「10 W 接到增益标注 16 dBi 的天线」，标准答案为 400 W，即把 16 dBi 直接当作 16 dB 换算成比值 40（10 × 40）",
+  "id": "P39"
+ },
+ {
+  "sec": "§9.10 天线补充：功率密度、场强、极化、阻抗、效率、环形天线与抛物面 · Compléments sur les antennes #T0910 #T0910e #T0910g",
+  "anchor": "T0910j",
+  "text": "⚠️ 待核实：真题 20427 要用 C = 400 pF、L = 25 nH 求陷波器的谐振频率，标准答案为 50 MHz",
+  "id": "P40"
+ }
+]

@@ -1,0 +1,4315 @@
+[
+ {
+  "num": "20573",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST LE NOM DE L'ETAGE MARQUE \" ? \" AVEC SCHEMA : ANTENNE, \" ? \" EN DESSOUS, MEL EN DESSOUS, OL A GAUCHE DE MEL, A DROITE DE MEL : POINTILLES PUIS HP",
+  "options": [
+   "Ampli MF",
+   "Ampli BF",
+   "Ampli RF",
+   "Ampli FI"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Ampli RF",
+  "commentaire_fr": "Il s’agit d’un synoptique partiel de récepteur hétérodyne\n",
+  "stem_zh": "标有「?」的这一级叫什么？电路图为：天线，「?」在其下方，再下方是混频器（MEL），本机振荡器（OL）在 MEL 左侧，MEL 右侧是虚线然后是 HP",
+  "ans_zh": "射频放大器",
+  "com_zh": "这是一台外差式接收机方框图的一部分\n",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20578",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'UNE BOBINE DE 100 MICROHENRYS A 21 MHZ ?",
+  "options": [
+   "2100 Ω",
+   "120 Ω",
+   "13 kΩ",
+   "6280 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "13 kΩ",
+  "commentaire_fr": "Z = 6,28 x F x L = 6,28 x 100.10^-6 x 21.10^6 = 6,28 x 100 x 21 = 13188 = 13 kΩ (arrondi)\n",
+  "stem_zh": "100 微亨的线圈在 21 MHz 时的阻抗是多少？",
+  "ans_zh": "13 kΩ",
+  "com_zh": "Z = 6.28 x F x L = 6.28 x 100.10^-6 x 21.10^6 = 6.28 x 100 x 21 = 13188 = 13 kΩ（取整）\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20580",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "UN SIGNAL SINUS DONT L'AMPLITUDE VARIE. QUELLE EST LA CLASSE D'EMISSION ?",
+  "options": [
+   "A1A",
+   "A3E",
+   "G3E",
+   "F3E"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "A3E",
+  "commentaire_fr": "Si l'amplitude varie, ce ne peut être F3E ou G3E (FM ou modulation de phase). \nA1A, c'est du tout ou rien (j'émets ou je n'émets pas) et ça ne correspond pas au schéma. \nReste donc A3E (AM) mais ce pourrait être aussi de la BLU (J3E), non proposée ici\n",
+  "stem_zh": "一个幅度变化的正弦信号。其发射类别是什么？",
+  "ans_zh": "A3E",
+  "com_zh": "如果幅度变化，就不可能是 F3E 或 G3E（调频或调相）。\nA1A 是全有全无（发射或不发射），与该图不符。\n因此剩下 A3E（AM），但也可能是 BLU（J3E），本题未给出该选项\n",
+  "anchor": "T121a"
+ },
+ {
+  "num": "20581",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "4 COURBES DE DEUX SIGNAUX SINUSOIDAUX ; TROUVER LESQUELS ETAIENT EN OPPOSITION DE PHASE",
+  "options": [
+   "schéma 1",
+   "schéma 2",
+   "schéma 3",
+   "schéma 4"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "schéma 1",
+  "commentaire_fr": "Dans le schéma 3, le signal en pointillé est en avance\nDans les schémas 2 et 4, le signal en pointillé est en retard (environ 90° et 45°)\n",
+  "stem_zh": "两条正弦信号的 4 条曲线；找出哪两条反相",
+  "ans_zh": "图 1",
+  "com_zh": "图 3 中，虚线信号是超前的\n图 2 和图 4 中，虚线信号是滞后的（约 90° 和 45°）\n",
+  "anchor": "T025c"
+ },
+ {
+  "num": "20585",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CALCULEZ Z AVEC \nF = 403 MHZ ET L = 50 MICROHENRYS",
+  "options": [
+   "12,7 kΩ",
+   "20 kΩ",
+   "200 kΩ",
+   "127 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "127 kΩ",
+  "commentaire_fr": "Z = 2 x pi x F x L = 6,283 x 403.10^6 x 50.10^-6 \n= 6,28 x 403 x 50 = 126602 ohms = 127 kohms\n",
+  "stem_zh": "计算 Z，已知\nF = 403 MHz，L = 50 微亨",
+  "ans_zh": "127 kΩ",
+  "com_zh": "Z = 2 x π x F x L = 6.283 x 403.10^6 x 50.10^-6 \n= 6.28 x 403 x 50 = 126602 欧姆 = 127 kΩ\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20588",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA REPRESENTANT UN GROUPEMENT SERIE RLC. QUELLE EST L'AFFIRMATION VRAIE ?",
+  "options": [
+   "I eff maximum et Z minimum",
+   "I eff et Z maximum",
+   "I eff et Z minimum",
+   "I eff minimum et Z maximum"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "I eff maximum et Z minimum",
+  "commentaire_fr": "A la résonnance, un circuit série RLC a une impédance Z égale à R.\nC’est son impédance la plus faible et c’est à cette fréquence que l’intensité traversant le circuit est maximale\n",
+  "stem_zh": "图中表示串联 RLC 电路。哪种说法正确？",
+  "ans_zh": "有效值电流 I 最大，阻抗 Z 最小",
+  "com_zh": "谐振时，串联 RLC 电路的阻抗 Z 等于 R。\n这是它最小的阻抗，也是该频率下流过电路的电流强度最大\n",
+  "anchor": "T044a2"
+ },
+ {
+  "num": "20589",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "SOIT UNE INDUCTANCE DE 40 MICROHENRYS DONT ON DIVISE PAR DEUX LE NOMBRE DE SPIRES. \nQUELLE EST LA VALEUR DE LA NOUVELLE BOBINE ?",
+  "options": [
+   "80 µH",
+   "160 µH",
+   "20 µH",
+   "10 µH"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10 µH",
+  "commentaire_fr": "La bobine a deux fois moins de spires, elle aura donc une valeur quatre fois moindre (effet du carré de nombre de spires dans la formule donnant la valeur d'une bobine : L = F.N².D²) : L = 10 µH en négligeant l'impact de la modification de la forme de la bobine\n",
+  "stem_zh": "一只 40 微亨的电感，把其匝数除以 2。\n新线圈的数值是多少？",
+  "ans_zh": "10 µH",
+  "com_zh": "线圈匝数变为原来的一半，其电感值也就减为原来的四分之一（在线圈电感值公式 L = F.N².D² 中匝数取平方）：忽略线圈形状改变的影响，L = 10 µH\n",
+  "anchor": "T023d4"
+ },
+ {
+  "num": "20591",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE D'UN RECEPTEUR AVEC LE \"?\" QUI ETAIT A LA PLACE DE LA CAG",
+  "options": [
+   "désaccentuateur",
+   "oscillateur",
+   "CAG",
+   "filtre passe-bas"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "CAG",
+  "commentaire_fr": "L’étage désaccentuateur est présent uniquement dans les récepteurs FM. Or l’étage « Dét » (détection) indique un récepteur AM. Ce n’est donc pas un émetteur. D’où l’inutilité d’un filtre passe bas (surtout à cet endroit). Attention à la place des étages du synoptique qui peut quelquefois dérouter...\n",
+  "stem_zh": "接收机方框图，「?」位于 CAG 的位置",
+  "ans_zh": "CAG",
+  "com_zh": "去加重级只存在于 FM 接收机中。而「Dét」（检波）这一级表明这是一台 AM 接收机。因此它不是发射机。由此可见低通滤波器没有用处（尤其在这个位置）。注意方框图中各级的位置，有时会让人迷惑……\n",
+  "anchor": "T123c"
+ },
+ {
+  "num": "20592",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "EXCURSION SIGNAL FM DE 3 KHZ QUI EST DOUBLE EN FREQUENCE ?",
+  "options": [
+   "9 kHz",
+   "3 kHz",
+   "1,5 kHz",
+   "6 kHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "6 kHz",
+  "commentaire_fr": "L’excursion d’un signal FM est doublée à la sortie d’un doubleur de fréquence\n",
+  "stem_zh": "3 kHz 频偏的 FM 信号被倍频为两倍后？",
+  "ans_zh": "6 kHz",
+  "com_zh": "FM 信号的频偏在倍频器输出端会加倍\n",
+  "anchor": "T076"
+ },
+ {
+  "num": "20597",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "FREQUENCE D'UNE SINUSOIDE REPRESENTEE SUR 1 PERIODE ET DEMIE... IL Y A UN QUADRILLAGE ET IL EST PRECISE A DROITE QUE 1 DIVISION EST EGALE A 1MS EN HORIZONTALE ET UNE VALEUR AFFICHEE POUR L'AXE VERTICAL",
+  "options": [
+   "167 Hz",
+   "250 Hz",
+   "500 Hz",
+   "100 Hz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "250 Hz",
+  "commentaire_fr": "durée d'une période = 4 x 1 ms = 4 ms ; F = 1/t = 1/0,004 = 250 Hz\n",
+  "stem_zh": "正弦波显示为一个半周期……图中有网格，右侧注明水平方向 1 格等于 1 ms，纵轴也有一个给定值",
+  "ans_zh": "250 Hz",
+  "com_zh": "一个周期的时长 = 4 x 1 ms = 4 ms ；F = 1/t = 1/0.004 = 250 Hz\n",
+  "anchor": "T022f"
+ },
+ {
+  "num": "20602",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "SCHEMA AVEC UN RECTANGLE \"EMETTEUR\", UN CABLE ET UNE ANTENNE TYPE YAGI. ROS = 2 ; PE = 9 W ; PR = ?",
+  "options": [
+   "1 W",
+   "4,5 W",
+   "3 W",
+   "2,25 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1 W",
+  "commentaire_fr": "Transformation ROS>TOS : TOS = (ROS-1)/(ROS+1) = (2-1)/(2+1) = 1/3 = 0,33\nTaux de puissance réfléchie = TOS² = 0,33² = 0,11 ;\nPuissance réfléchie (Pr) = Puissance émise (Pe) x taux de puissance réfléchie \n= 9 x 0,11 = 1 W\n",
+  "stem_zh": "图中有一个「发射机」矩形、一条电缆和一副八木天线。ROS = 2 ；PE = 9 W ；PR = ？",
+  "ans_zh": "1 W",
+  "com_zh": "ROS > TOS 的换算：TOS = (ROS-1)/(ROS+1) = (2-1)/(2+1) = 1/3 = 0.33\n反射功率比 = TOS² = 0.33² = 0.11 ；\n反射功率（Pr）= 发射功率（Pe）x 反射功率比 \n= 9 x 0.11 = 1 W\n",
+  "anchor": "T103b6"
+ },
+ {
+  "num": "20603",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA PAS TRES CONVENTIONNEL D'UN AMPLI OP MONTE EN NON INVERSEUR (SIGNAL SUR ENTREE POSITIVE DE L'AMPLI OP). R2 = 4,7 KOHMS ET R1 = 1 KOHM. QUEL EST LE GAIN EN TENSION ?",
+  "options": [
+   "+ 4,7",
+   "+ 5,7",
+   "- 4,7",
+   "- 5,7"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "+ 5,7",
+  "commentaire_fr": "Il s'agit d'un montage non inverseur (signal appliqué sur l'entrée positive de l'ampli op)\nGain = +(R2/R1) + 1 = +(4,7/1) + 1 = +5,7\n",
+  "stem_zh": "不太常规的运算放大器电路图，接成非反相组态（信号加在运算放大器的正输入端）。R2 = 4.7 kΩ，R1 = 1 kΩ。电压增益是多少？",
+  "ans_zh": "+ 5.7",
+  "com_zh": "这是非反相接法（信号加在运算放大器的正输入端）\n增益 = +(R2/R1) + 1 = +(4.7/1) + 1 = +5.7\n",
+  "anchor": "T083"
+ },
+ {
+  "num": "20605",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "FREQUENCE = 20 MHZ, \nLAMBDA =  ?",
+  "options": [
+   "70 m",
+   "7,5 m",
+   "1,5 m",
+   "15 m"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "15 m",
+  "commentaire_fr": "Lambda est la longueur d’onde en mètres. λ(m) = 300 / F(MHz) = 300/20 = 15 mètres\n",
+  "stem_zh": "频率 = 20 MHz，\nλ = ？",
+  "ans_zh": "15 m",
+  "com_zh": "Lambda 是以米为单位的波长。λ(m) = 300 / F(MHz) = 300/20 = 15 米\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20606",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "SUR QUELLES COUCHES SE REFLETENT LES ONDES ELECTROMAGNETIQUES ?",
+  "options": [
+   "E, F",
+   "D, E",
+   "D, F",
+   "C, D"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "E, F",
+  "commentaire_fr": "La couche F de la ionosphère se décompose en  F1 et F2 dans la journée et est responsable de la réflexion des ondes décamétrique. La réflexion sur la couche E ne concerne que les VHF. Quant à la couche D, elle ne réfléchit pas mais elle atténue les ondes la traversant. Les couches A, B et C de l’atmosphère n’ont aucune incidence sur la propagation des ondes.\n",
+  "stem_zh": "电磁波在哪些层上被反射？",
+  "ans_zh": "E、F",
+  "com_zh": "电离层的 F 层白天分裂为 F1 和 F2，负责十米波的反射。E 层的反射只与 VHF 有关。至于 D 层，它不反射，但会衰减穿过它的波。大气的 A、B、C 层对波的传播没有任何影响。\n",
+  "anchor": "T093"
+ },
+ {
+  "num": "20607",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUEL EST L'EFFET DU RACCOURCISSEMENT D'UN DIPOLE ?",
+  "options": [
+   "son impédance aura une réactivité positive",
+   "sa fréquence de résonance augmente ",
+   "sa directivité diminue",
+   "sa fréquence de résonance diminue"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "sa fréquence de résonance augmente ",
+  "commentaire_fr": "Lorsque l'on raccourcit un dipôle, sa fréquence de résonance augmente ou, si on garde la même fréquence d'émission, l'impédance du dipôle aura une réactivité négative (le déphasage sera comparable à celui d'un condensateur).\n",
+  "stem_zh": "把偶极天线缩短会有什么效果？",
+  "ans_zh": "其谐振频率升高",
+  "com_zh": "把偶极天线缩短时，其谐振频率升高；或者，若保持发射频率不变，偶极天线的阻抗将呈现负电抗（其相移相当于一只电容器）。\n",
+  "anchor": "T0910e"
+ },
+ {
+  "num": "20608",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SCHEMA AVEC UN SYNOPTIQUE SUR LEQUEL IL Y A LE CAG QUI VA D'UN COTE SUR LE DETECTEUR ET SUR L'AUTRE \"?\"",
+  "options": [
+   "modulateur",
+   "préaccentuateur",
+   "étage RF ",
+   "oscillateur local"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "étage RF ",
+  "commentaire_fr": "Il s’agit d’un synoptique partiel. \nLe CAG peut agir sur un étage RF comme ici ou sur un étage FI (réponse non proposée).\n",
+  "stem_zh": "方框图中 CAG 一端接到检波器上，另一端接到「?」",
+  "ans_zh": "RF 级（射频级）",
+  "com_zh": "这是一个局部方框图。\nCAG 可以像此处一样作用于 RF 级，也可以作用于中频级（未给出该选项）。\n",
+  "anchor": "T123c"
+ },
+ {
+  "num": "20611",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "AVEC QUEL INSTRUMENT MESURE-T-ON LES HARMONIQUES?",
+  "options": [
+   "un analyseur de spectre ",
+   "un multimètre numérique",
+   "un multimètre analogique",
+   "un bolomètre"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "un analyseur de spectre ",
+  "commentaire_fr": "Un simple multimètre, qu'il soit analogique ou numérqiue ne permet pas de mesurer des harmoniques (ou un taux d'harmoniques).\nUn bolomètre est un appareil de mesure de puissance fonctionnant à partir d'un thermomètre (impossible donc d'isoler les harmoniques par rapport à la fréquence fondamentale)\n",
+  "stem_zh": "用什么仪器测量谐波？",
+  "ans_zh": "频谱分析仪",
+  "com_zh": "无论模拟还是数字的普通万用表都不能测量谐波（或谐波含量）。\n辐射热计（bolomètre）是一种基于温度计的功率测量仪器（因此无法把谐波与基频分开）\n",
+  "anchor": "T074"
+ },
+ {
+  "num": "20613",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FO = 6 MHZ ET BANDE PASSANTE A -3 DB (B) = 50 KHZ, \nVALEUR DE Q ?",
+  "options": [
+   "100",
+   "8,33",
+   "120",
+   "25"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "120",
+  "commentaire_fr": "Par définition, B = Fo / Q, \ndonc Q = Fo / B = 6 MHz / 50 kHz = 6000 kHz / 50 kHz = 120\n",
+  "stem_zh": "FO = 6 MHz，-3 dB 带宽（B）= 50 kHz，\nQ 的值是多少？",
+  "ans_zh": "120",
+  "com_zh": "按定义，B = Fo / Q，\n因此 Q = Fo / B = 6 MHz / 50 kHz = 6000 kHz / 50 kHz = 120\n",
+  "anchor": "T044c"
+ },
+ {
+  "num": "20615",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN CIRCUIT BOUCHON AVEC L = 10 MICROHENRY ET C =12 PICOFARAD",
+  "options": [
+   "14,5 MHz",
+   "1,3 MHz",
+   "16 MHz",
+   "1,6 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "14,5 MHz",
+  "commentaire_fr": "F = 159 / √ (L en µH x C en pF) = 159 / √ (120) = 14,5 MHz (arrondi)\n",
+  "stem_zh": "并联谐振电路图，L = 10 微亨，C = 12 皮法",
+  "ans_zh": "14.5 MHz",
+  "com_zh": "F = 159 / √ (L 以 µH 计 x C 以 pF 计) = 159 / √ (120) = 14.5 MHz（取整）\n",
+  "anchor": "T043a."
+ },
+ {
+  "num": "20616",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN FILTRE LC PASSE HAUT, QUEL EST CE FILTRE ?",
+  "options": [
+   "Passe Haut",
+   "Passe Bas",
+   "Bouchon",
+   "Série"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Passe Haut",
+  "commentaire_fr": "Attention au piège de la représentation : le condensateur est en bas mais il s'agit d'un filtre passe-haut. \nAutre manière de reconnaitre un filtre : le condenasteur laisse passer les fréquences hautes tandis que la bobine laisse passer les fréquences basses. Dans le schéma, les fréquences basses sont envoyées à la masse tandis que les fréquences hautes traversent le consensateur et se retrouvent à la sortie du filtre.\n",
+  "stem_zh": "LC 高通滤波器电路图，这是什么滤波器？",
+  "ans_zh": "高通",
+  "com_zh": "注意图示的陷阱：电容器画在下面，但这确实是高通滤波器。\n另一种识别滤波器的方法：电容器让高频通过，而线圈让低频通过。图中，低频被送到底（地），而高频通过电容器到达滤波器输出端。\n",
+  "anchor": "T043b"
+ },
+ {
+  "num": "20617",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "UNE TENSION DE 10 MICROVOLTS EST APPLIQUEE SUR UNE ANTENNE DONT LE GAIN EST DE 12 DB. AUCUNE PERTE N'EST CONSTATEE DANS LA LIGNE DE TRANSMISSION. QUELLE EST LA TENSION PRESENTE A L'ENTREE DU RECEPTEUR ?",
+  "options": [
+   "10 µV",
+   "40 µV",
+   "120 µV",
+   "160 µV"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "40 µV",
+  "commentaire_fr": "12 dB correspond à un  gain en puissance de 16 ou à un gain en tension de 4, c'est-à-dire racine(16) puisque P =U²/R ou U = racine(PR)\nAutre solution : transformer les dB en rapport de tension : rapport en tension = 10^(dB/20) = 10^(12/20) = 3,98 arrondi à 4\nAinsi, la tension à l'entrée du récepteur sera de 4 x 10 µV = 40 µV\n",
+  "stem_zh": "10 微伏的电压加在增益为 12 dB 的天线上。传输线中未发现任何损耗。接收机输入端出现的电压是多少？",
+  "ans_zh": "40 µV",
+  "com_zh": "12 dB 对应功率增益 16，或电压增益 4，即 √16，因为 P = U²/R 或 U = √(PR)\n另一种解法：把 dB 换算为电压比：电压比 = 10^(dB/20) = 10^(12/20) = 3.98，取整为 4\n因此，接收机输入端的电压为 4 x 10 µV = 40 µV\n",
+  "anchor": "T041f"
+ },
+ {
+  "num": "20624",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "SCHEMA AVEC UNE PILE RELIEE A UNE RESISTANCE R. \nINTENSITE = 0,5A, R = 12000 OHMS, P = ?",
+  "options": [
+   "600 W",
+   "3000 W",
+   "6 kW",
+   "30 kW"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "3000 W",
+  "commentaire_fr": "P = RI² = 12000 x 0,5 x 0,5 = 3000 W\n",
+  "stem_zh": "电路图中一个电池接一只电阻 R。\n电流强度 = 0.5 A，R = 12000 欧姆，P = ？",
+  "ans_zh": "3000 W",
+  "com_zh": "P = RI² = 12000 x 0.5 x 0.5 = 3000 W\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20632",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "SCHEMA AVEC UN RECTANGLE AVEC L A L'INTERIEUR ET LES INDICATIONS \"100 MICROH\" ET \"Z = ?\" AVEC UNE FLECHE AUX BORNES DE LA BOBINE. IMPEDANCE A LA FREQUENCE 7MHZ ?",
+  "options": [
+   "22 kΩ",
+   "4,4 kΩ",
+   "44 kΩ",
+   "2,2 kΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "4,4 kΩ",
+  "commentaire_fr": "Z = 2 x pi x 100.10^-6 x 7.10^6 = 4396, arrondi à 4,4 kΩ.\n",
+  "stem_zh": "图中一个矩形内有 L，标注「100 微亨」和「Z = ?」，线圈两端有一个箭头。7 MHz 频率下的阻抗是多少？",
+  "ans_zh": "4.4 kΩ",
+  "com_zh": "Z = 2 x π x 100.10^-6 x 7.10^6 = 4396，取整为 4.4 kΩ。\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20635",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "DANS UN RECEPTEUR HETERODYNE, LE CIRCUIT DE CONTROLE AUTOMATIQUE DE GAIN (CAG) SIMPLE :",
+  "options": [
+   "modifie les réglages du silencieux ",
+   "stabilise l'ampli F.I et R.F du récepteur ",
+   "limite la création d'harmoniques",
+   "accroît la sensibilité du récepteur"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "modifie les réglages du silencieux ",
+  "commentaire_fr": "Le récepteur hétérodyne accroit la sensibilité du récepteur mais ce n’est pas à cause de la CAG, c’est à cause de  l’étage FI. \nLe circuit CAG n’empêche pas la création d'harmoniques et ne stabilise pas l'ampli F.I et R.F du récepteur mais agit sur ces étages. \nEn agissant sur le gain de l’amplificateur FI ou RF, la CAG modifiera le seuil de déclenchement du silencieux (squelch). Toutefois, en règle générale, le silencieux est utilisé en FM et la CAG est, dans ce type de modulation, assez peu utilisée.\n",
+  "stem_zh": "在外差式接收机中，简单的自动增益控制（CAG）电路：",
+  "ans_zh": "会改变静噪的设定",
+  "com_zh": "外差式接收机提高了接收机的灵敏度，但这不是因为 CAG，而是因为中频级。\nCAG 电路并不能阻止谐波的产生，也不会使接收机的中频和高频放大器稳定，而是作用于这些级。\n通过作用于中频或高频放大器的增益，CAG 会改变静噪（squelch）的触发阈值。不过一般来说，静噪用于 FM，而在这类调制中 CAG 用得相当少。\n",
+  "anchor": "T123c"
+ },
+ {
+  "num": "20636",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUEL EST CE MONTAGE ?\nSCHEMA AVEC \"MICRO A CAPACITE VARIABLE\" ET UN \"OSCILLATEUR LOCAL\"",
+  "options": [
+   "Amplificateur de Fréquence",
+   "Modulateur FM  ",
+   "Synthétiseur audio",
+   "Manipulateur CW "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Modulateur FM  ",
+  "commentaire_fr": "",
+  "stem_zh": "这是什么电路？\n电路图中有「可变电容话筒」和「本机振荡器」",
+  "ans_zh": "FM 调制器",
+  "com_zh": "",
+  "anchor": "T124d"
+ },
+ {
+  "num": "20637",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "EFFET D'UNE SELF DE CHOC DANS UN ETAGE RF ?",
+  "options": [
+   "éliminer les harmoniques",
+   "augmenter la puissance",
+   "bloquer le passage du courant HF ",
+   "éviter les auto-oscillations"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "bloquer le passage du courant HF ",
+  "commentaire_fr": "La self de choc (et le condensateur de découplage associé) évite que de la HF ne remonte dans les autres étages via l’alimentation, surtout s'il s'agit d'un étage RF de puissance.\n",
+  "stem_zh": "RF 级中扼流圈（self de choc）的作用？",
+  "ans_zh": "阻挡高频电流通过",
+  "com_zh": "扼流圈（以及与之配套的去耦电容器）可防止高频通过电源返回到其他各级，尤其是在功率 RF 级中。\n",
+  "anchor": "T074a"
+ },
+ {
+  "num": "20640",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "HAUT-PARLEUR, UN AMPLI BF, UN BLOC ? , UN VCXO (BIZARRE...), UN DOUBLEUR DE FREQUENCE.\nQUEL EST L'ETAGE MANQUANT ?",
+  "options": [
+   "discriminateur",
+   "préaccentuateur",
+   "CAG",
+   "silencieux"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "préaccentuateur",
+  "commentaire_fr": "Il s’agit d’un émetteur FM du fait de la présence d’un doubleur  de fréquence et d’un VCXO, oscillateur contrôlé en tension pouvant  générer de la FM. \nLe HP à la place du microphone déroutera les candidats car on peut éventuellement se servir d’un HP à la place d’un micro mais cela reste du bricolage… \n",
+  "stem_zh": "扬声器、一个 BF 放大器、一个 ? 方框、一个 VCXO（很奇怪……）、一个倍频器。\n缺少的是哪一级？",
+  "ans_zh": "预加重器",
+  "com_zh": "这是一台 FM 发射机，因为有倍频器和 VCXO（压控振荡器，可产生调频）。\n把扬声器放在话筒的位置会让考生迷惑，因为偶尔可以用扬声器代替话筒，但那只是凑合……\n",
+  "anchor": "T124"
+ },
+ {
+  "num": "20641",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "EN QUELLE CLASSE D'EMISSION LA PUISSANCE D'UN EMETTEUR NE VARIE-T-ELLE PAS ?",
+  "options": [
+   "FM",
+   "AM",
+   "BLU",
+   "DBL"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "FM",
+  "commentaire_fr": "DBL = Double Bande Latérale = BLI + BLS, modulation très peu utilisée par les radioamateurs car la bande passante est le double de celle utilisée pour la BLU. \nLes classes d’émission AM, BLU et DBL sont des modulations d’amplitude et la puissance en sortie d’émetteur varie au rythme de l’information transmise. \nEn FM, c’est la fréquence qui varie tandis que l’amplitude ne varie pas.\n",
+  "stem_zh": "在哪种发射类别中，发射机的功率不变化？",
+  "ans_zh": "FM",
+  "com_zh": "DBL = Double Bande Latérale（双边带）= BLI + BLS，这种调制业余无线电爱好者极少使用，因为其带宽是 BLU 的两倍。\nAM、BLU 和 DBL 这几类发射都属于调幅，发射机输出功率随所传信息而变化。\n在 FM 中，变化的是频率，而幅度不变。\n",
+  "anchor": "T121"
+ },
+ {
+  "num": "20643",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN CIRCUIT BOUCHON (VERTICAL) AVEC DES VALEURS EN PICOHENRY ET MICROFARAD",
+  "options": [
+   "160 kHz",
+   "160 MHz",
+   "16 MHz ",
+   "1,6 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "16 MHz ",
+  "commentaire_fr": "La formule simplifiée peut aussi s’appliquer puisque nous utilisons les mêmes sous-multiples (p et µ) et que la multiplication est une opération commutative (le résultat n’est pas changé si on inverse les termes : A x B = B x A)\nFormule simplifiée : F = 159 / √ (L en pH x C en µF) = 159 / √ (100) = 159/10 = 15,9 arrondi à 16 MHz.\n",
+  "stem_zh": "并联谐振电路图（竖向），数值以皮亨和微法给出",
+  "ans_zh": "16 MHz",
+  "com_zh": "既然用的是同样的分数单位（p 和 µ），而且乘法满足交换律（交换因数结果不变：A x B = B x A），简化公式同样适用\n简化公式：F = 159 / √ (L 以 pH 计 x C 以 µF 计) = 159 / √ (100) = 159/10 = 15.9，取整为 16 MHz。\n",
+  "anchor": "T043a"
+ },
+ {
+  "num": "20644",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "TAUX DE DISTORSION HARMONIQUE A CALCULER A PARTIR D'UN SPECTRE DE 4 RAIES",
+  "options": [
+   "2",
+   "40%",
+   "4",
+   "20%"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "20%",
+  "commentaire_fr": "TDH de l’harmonique 3 : on compare donc les tensions de la fréquence amplifiée, F1 (1,5), et de son harmonique 3, F3 (4,5) ; \nTDH = 2 / 10 x 100 = 20%\n",
+  "stem_zh": "需要根据有 4 条谱线的频谱计算总谐波失真率",
+  "ans_zh": "20%",
+  "com_zh": "3 次谐波的 TDH：即比较被放大的频率 F1（1.5）与其 3 次谐波 F3（4.5）的电压 ；\nTDH = 2 / 10 x 100 = 20%\n",
+  "anchor": "T074b2"
+ },
+ {
+  "num": "20645",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "NOMMER LES 3 PATTES D'UN TRANSISTOR BIPOLAIRE",
+  "options": [
+   "émetteur, base, collecteur ",
+   "patte a, patte b, patte c",
+   "entrée, commun, sortie",
+   "cathode, anode, gâchette"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "émetteur, base, collecteur ",
+  "commentaire_fr": "",
+  "stem_zh": "说出双极型晶体管三个引脚的名称",
+  "ans_zh": "发射极、基极、集电极",
+  "com_zh": "",
+  "anchor": "T061a"
+ },
+ {
+  "num": "20646",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULE(S) FAUSSE(S) ?\n   1) U = R + I\n\n   2) Q = CU\n   3) P = W/T \n   4) I = RACINE(P*R)",
+  "options": [
+   "1",
+   "1 et 4 ",
+   "1, 3, 4",
+   "2 et 3"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1 et 4 ",
+  "commentaire_fr": "Les formules exactes sont : U = RI et I = racine( P/R)\n",
+  "stem_zh": "哪个（些）公式是错误的？\n   1) U = R + I\n\n   2) Q = CU\n   3) P = W/T\n   4) I = √(P×R)",
+  "ans_zh": "1 和 4",
+  "com_zh": "正确的公式是：U = RI  和  I = √(P/R)",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20648",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "EN HF, VOUS REALISEZ UN CONTACT DE JOUR, QUE DEVEZ-VOUS FAIRE POUR LE CONTINUER LA NUIT ?",
+  "options": [
+   "diminuer la fréquence ",
+   "augmenter la fréquence ",
+   "se fier à l’heure TU",
+   "se fier à l’heure d’été"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "diminuer la fréquence ",
+  "commentaire_fr": "En théorie, pour continuer à garder le contact en HF (ondes décamétriques) une fois le soleil couché, il faut choisir une bande plus basse (diminuer la fréquence) pour bénéficier d'une ionisation adaptée à la bande utilisée. Mais ceci n'est que théorique et ça ne fonctionne pas aussi facilement dans la réalité…\n",
+  "stem_zh": "在 HF 中，你白天建立了联络，要把它维持到夜间应该怎么做？",
+  "ans_zh": "降低频率",
+  "com_zh": "理论上，要在太阳落山后继续维持 HF（十米波）联络，就应选择更低的频段（降低频率），以利用与该频段相适应的电离情况。但这只是理论，实际上并没有这么容易……\n",
+  "anchor": "T093f"
+ },
+ {
+  "num": "20649",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA FREQUENCE DE LA DEUXIEME DECADE DE 1000 HZ ?",
+  "options": [
+   "2000 kHz",
+   "100 kHz",
+   "1 Hz",
+   "500 Hz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "100 kHz est plus précisément la deuxième décade supérieure. La réponse 10 Hz n'étant pas proposée (deuxième décade inférieure), il n'y a pas de doute\n",
+  "stem_zh": "1000 Hz 的第二个十倍频程的频率是多少？",
+  "ans_zh": "100 kHz",
+  "com_zh": "更准确地说，100 kHz 是高两个十倍频程。由于没有给出 10 Hz 这个答案（低两个十倍频程），所以没有疑问\n",
+  "anchor": "T042c"
+ },
+ {
+  "num": "20650",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "DEUX RESISTANCES EN PARALLELE (1 KOHM, R2 NON PRECISEE) RELIEES A LA MASSE. COURANT DANS LES DEUX RESISTANCES = 30 MA, TENSION SUR R1 = 24 V. I DANS R2 ?",
+  "options": [
+   "24 mA",
+   "28 mA",
+   "6 mA",
+   "0,1 A"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "6 mA",
+  "commentaire_fr": "IR1 = UR1 / R1 = 24 / 1000 = 0,024 A = 24 mA. \nIR2 = IT – IR1 = 30 – 24 = 6 mA\n",
+  "stem_zh": "两只并联电阻（1 kΩ，R2 未给出）接到地。流过两只电阻的总电流 = 30 mA，R1 上的电压 = 24 V。R2 中的电流 I 是多少？",
+  "ans_zh": "6 mA",
+  "com_zh": "IR1 = UR1 / R1 = 24 / 1000 = 0.024 A = 24 mA。\nIR2 = IT – IR1 = 30 – 24 = 6 mA\n",
+  "anchor": "T018c"
+ },
+ {
+  "num": "20651",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "DEUX FILS PARALLELES MAIS ESPACES AVEC L'INDICATION DE LONGUEUR \"L\" RELIES A UNE CHARGE ZC ET INDICATION ZC = IMPEDANCE CARACTERISTIQUE DE LA LIGNE. \nQUELLE EST L'IMPEDANCE D'ENTREE (ZE = ?)",
+  "options": [
+   "Ze = Zc x L",
+   "Ze = Zc / L",
+   "Ze = Zc / 2",
+   "Ze = Zc "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Ze = Zc ",
+  "commentaire_fr": "Les deux fils épais représentent une ligne d'alimentation dont la longueur est quelconque puisque rien n'est indiqué. Lorsque l’impédance de la charge (Zc) est égale à l’impédance caractéristique de la ligne, on a Ze = Zc pour toutes les longueurs de câble\n",
+  "stem_zh": "两条平行但分开的导线，标出长度「L」，接到负载 ZC 上，并注明 ZC = 线路的特性阻抗。\n输入阻抗是多少（ZE = ?）",
+  "ans_zh": "Ze = Zc",
+  "com_zh": "两条粗线表示的是一条馈线，其长度任意，因为图上没有标明。当负载阻抗（Zc）等于线路的特性阻抗时，无论电缆多长都有 Ze = Zc\n",
+  "anchor": "T101a"
+ },
+ {
+  "num": "20652",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ELEMENTS SUIVANTS A LA SUITE : MICRO - OSC - SEPARATEUR - ? - FILTER - AMPLI RF - ANTENNE\nQUEL EST L'ETAGE MARQUE \" ? \"",
+  "options": [
+   "Mélangeur équilibré",
+   "silencieux",
+   "CAG",
+   "démodulateur"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Mélangeur équilibré",
+  "commentaire_fr": "Il s'agit d'un émetteur (présence d'un micro) et les autres étages cités dans les réponses sont tous relatifs à des récepteurs. Le schéma est tout de même peu orthodoxe puisque le mélangeur équilibré est censé avoir sur ses entrées l’oscillateur local et la BF à moduler\n",
+  "stem_zh": "下列各级依次相连：话筒 - 振荡器 - 隔离器 - ? - 滤波器 - RF 放大器 - 天线\n标有「?」的是哪一级",
+  "ans_zh": "平衡混频器",
+  "com_zh": "这是一台发射机（因为有话筒），而答案中提到的其他各级都只与接收机有关。不过这张图仍不太规范，因为平衡混频器的输入端本应接本机振荡器和要调制的音频信号\n",
+  "anchor": "T126d"
+ },
+ {
+  "num": "20654",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "A QUOI SERT LE FILTRE PASSE-BANDE DANS UN EMETTEUR ?",
+  "options": [
+   "éliminer la fréquence image",
+   "augmenter la sélectivité",
+   "éliminer les harmoniques ",
+   "faciliter la modulation "
+  ],
+  "ans_idx": 2,
+  "ans_fr": "éliminer les harmoniques ",
+  "commentaire_fr": "Le filtre passe-bande sert à éliminer les harmoniques, même si ceci est plus facile à réaliser avec un filtre passe bas. Les autres réponses sont farfelues ou concernent des récepteurs et non pas des émetteurs\n",
+  "stem_zh": "发射机中带通滤波器有什么用？",
+  "ans_zh": "滤除谐波",
+  "com_zh": "带通滤波器用于滤除谐波，尽管用低通滤波器更容易做到。其他答案要么荒谬，要么只涉及接收机而不是发射机\n",
+  "anchor": "T115"
+ },
+ {
+  "num": "20656",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "SCHEMA DE RECEPTEUR AVEC UNE CASE [?]=>[AMPLI BF]=[HP]. \"NOM DE L'ELEMENT MARQUE \"?\"",
+  "options": [
+   "Détecteur de produit ",
+   "Commutateur",
+   "Filtre HF",
+   "Modulateur"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Détecteur de produit ",
+  "commentaire_fr": "Positionné à cet endroit, le seul étage possible est le détecteur de produit.\n",
+  "stem_zh": "接收机电路图，其中一个方框 [?]=>[BF 放大器]=[HP]。「标有 ? 的元件名称是」",
+  "ans_zh": "乘积检波器",
+  "com_zh": "处在这个位置上，唯一可能的级就是乘积检波器。\n",
+  "anchor": "T126h"
+ },
+ {
+  "num": "20657",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUELLES SONT LES ONDES QUI SE PROPAGENT ESSENTIELLEMENT PAR LE SOL ?",
+  "options": [
+   "ondes décamétriques",
+   "ondes kilométriques ",
+   "ondes décimétriques",
+   "ondes métriques"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "ondes kilométriques ",
+  "commentaire_fr": "les ondes kilométriques et myriamétriques ne se propagent presque exclusivement que par des ondes de sol qui suivent la courbure de la terre. On appelle ce type de propagation \"ondes de sol\". Les ondes hectométriques se propage aussi par ondes de sol mais, dès la tombée de la nuit, elles se propagent aussi par ondes réfléchies.\n",
+  "stem_zh": "哪些波基本上通过地面传播？",
+  "ans_zh": "千米波（长波）",
+  "com_zh": "千米波和万米波几乎只以沿地球曲率传播的地波方式传播。这种传播方式称为「地波」。百米波也以地波传播，但天一黑，它们也会以反射波方式传播。\n",
+  "anchor": "T092b"
+ },
+ {
+  "num": "20660",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QU'EST CE QUI DETERMINE LA CAPACITE D'UN CONDENSATEUR ?",
+  "options": [
+   "la surface de ses armatures et leur écartement ",
+   "la tension",
+   "la fréquence",
+   "la surface de ses armatures"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "la surface de ses armatures et leur écartement ",
+  "commentaire_fr": "",
+  "stem_zh": "什么决定电容器的容量？",
+  "ans_zh": "其极板的面积以及极板间距",
+  "com_zh": "",
+  "anchor": "T023c3"
+ },
+ {
+  "num": "20661",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN AMPLI OP INVERSEUR AVEC R= 2KOHMS ET R = 30 KOHMS; GAIN = ?",
+  "options": [
+   "+15",
+   "-15",
+   "+60",
+   "-60"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "-15",
+  "commentaire_fr": "G = - R2 / R1 = -30 000 / 2 000 = -15\n",
+  "stem_zh": "反相运算放大器电路图，R = 2 kΩ 和 R = 30 kΩ；增益 = ？",
+  "ans_zh": "-15",
+  "com_zh": "G = - R2 / R1 = -30 000 / 2 000 = -15\n",
+  "anchor": "T082b"
+ },
+ {
+  "num": "20663",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCUL DU FACTEUR Q AVEC L = 25 MICROH, C = 400 PF ET R = 5 OHMS, BOBINE REPRESENTEE PAR UN RECTANGLE",
+  "options": [
+   "20",
+   "2500",
+   "62,5",
+   "50"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "50",
+  "commentaire_fr": "Q = √ [L(µH) / C(pF)] / R(kΩ) = √(25/400) / 0,005 = √(0,0625) / 0,005 = 0,25 / 0,005 = 50\n",
+  "stem_zh": "计算品质因数 Q，已知 L = 25 微亨，C = 400 pF，R = 5 欧姆，线圈用矩形表示",
+  "ans_zh": "50",
+  "com_zh": "Q = √ [L(µH) / C(pF)] / R(kΩ) = √(25/400) / 0.005 = √(0.0625) / 0.005 = 0.25 / 0.005 = 50\n",
+  "anchor": "T044b1"
+ },
+ {
+  "num": "20665",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "DEUX SINUSOIDES DEPHASEES DE 180 DEGRES (UNE COURBE I EN ROUGE, UNE COURBE U EN BLEU), INDICATION DE T/2 ET T AUX POINTS OU LES COURBES DE CROISENT \" DEPHASAGE COURANT-TENSION ? \"",
+  "options": [
+   "aucune des réponses proposées ",
+   "100 000 pF",
+   "1000 nF",
+   "10 000 pF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "aucune des réponses proposées ",
+  "commentaire_fr": "Aucune réponse ne correspond. La tension est en opposition de phase avec l'intensité (déphasage de 180°). Aucun condensateur ou aucune bobine ne peut donner ce déphasage\n",
+  "stem_zh": "两条相位差 180° 的正弦曲线（一条红色 I 曲线，一条蓝色 U 曲线），在曲线交点处标出 T/2 和 T，「电流—电压的相位差？」",
+  "ans_zh": "所列答案都不对",
+  "com_zh": "没有答案符合。电压与电流反相（相位差 180°）。任何电容器或线圈都不可能给出这样的相位差\n",
+  "anchor": "T025c"
+ },
+ {
+  "num": "20666",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "U EFF = 24 V \nU CRETE = ?",
+  "options": [
+   "17 V",
+   "34 V",
+   "48 V",
+   "68 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "34 V",
+  "commentaire_fr": "Ucrête = Umax = 24 x 1,414 = 34 V (réponse arrondie)\n",
+  "stem_zh": "Ueff = 24 V \n峰值 U = ？",
+  "ans_zh": "34 V",
+  "com_zh": "Ucrête = Umax = 24 x 1.414 = 34 V（取整后的答案）\n",
+  "anchor": "T022b"
+ },
+ {
+  "num": "20669",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "FREQUENCE D'UN SIGNAL DE LONGUEUR D'ONDE DE 12,5 MM ?",
+  "options": [
+   "24 GHz",
+   "2,4 GHz",
+   "150 GHz",
+   "15 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "24 GHz",
+  "commentaire_fr": "12,5 mm = 0,0125 m ; 300 / 0,0125 = 24000 MHz = 24 GHz\n",
+  "stem_zh": "波长为 12.5 mm 的信号的频率？",
+  "ans_zh": "24 GHz",
+  "com_zh": "12.5 mm = 0.0125 m ；300 / 0.0125 = 24000 MHz = 24 GHz\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20670",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "PERIODE D'UN SIGNAL DE 50 HZ ?",
+  "options": [
+   "2 ms",
+   "20 ms",
+   "200 ms",
+   "0,2 s"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "20 ms",
+  "commentaire_fr": "t = 1/ F = 1 / 50 = 0,02 = 20 ms\n",
+  "stem_zh": "50 Hz 信号的周期？",
+  "ans_zh": "20 ms",
+  "com_zh": "t = 1/ F = 1 / 50 = 0.02 = 20 ms\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20672",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "CODE COULEUR DES CONDENSATEURS (SANS VALEUR DANS LE MESSAGE). VALEUR DU CONDENSATEUR AVEC CODE COULEUR : MARRON , ROUGE , JAUNE , NOIR , ROUGE ?",
+  "options": [
+   "120 nF",
+   "1240 pF",
+   "2 µF",
+   "1,2 µF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "120 nF",
+  "commentaire_fr": "Le code couleur se lit du haut vers le bas (les pattes). Les trois premières bandes de couleurs déterminent la valeur (comme pour les résistances), la quatrième bande donne la tolérance et la dernière bande (celle du bas, plus large)  indique la tension à ne pas dépasser. L’unité est le picofarad. \nMarron = 1 ; Rouge = 2 ; Jaune = 4\n12 x 10^4 = 120000 pF = 120 nF. \nLes 2 bandes de couleurs du bas (noir et rouge) ne servent pas à déterminer la valeur du condensateur.\n",
+  "stem_zh": "电容器的色码（题干中没有给出数值）。色码为：棕、红、黄、黑、红的电容器数值是多少？",
+  "ans_zh": "120 nF",
+  "com_zh": "色码自上而下（沿引脚）读取。前三条色环决定数值（与电阻相同），第四条色环给出误差，最后一条色环（最下方较宽的那条）表示不得超过的电压。单位为皮法。\n棕 = 1 ；红 = 2 ；黄 = 4\n12 x 10^4 = 120000 pF = 120 nF。\n下面两条色环（黑和红）不用来确定电容器的数值。\n",
+  "anchor": "T023c6"
+ },
+ {
+  "num": "20676",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUELLE EST L'IMPEDANCE DE CETTE LIGNE LC ?\nL = 50 MILLIHENRY/M ET C = 20 PICOFARAD/M",
+  "options": [
+   "50 Ω",
+   "1 kΩ",
+   "0,1Ω",
+   "50 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "50 kΩ",
+  "commentaire_fr": " Z = √ (L / C) = √ (50.10^-3/20.10^-12) = 50 kΩ. \nSi la valeur de l'inductance est 50nH/m, l’impédance de la ligne devient 50 ohms, valeur plus courante dans nos montages radio.\n",
+  "stem_zh": "这条 LC 线路的阻抗是多少？\nL = 50 毫亨/米，C = 20 皮法/米",
+  "ans_zh": "50 kΩ",
+  "com_zh": " Z = √ (L / C) = √ (50.10^-3/20.10^-12) = 50 kΩ。\n如果电感值是 50 nH/m，线路阻抗就变为 50 欧姆，这是我们无线电电路里更常见的数值。\n",
+  "anchor": "T102a"
+ },
+ {
+  "num": "20680",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL EST LE GAIN TOTAL DE DEUX AMPLIFICATEURS EN SERIE, LE PREMIER ETANT DE 6 DB ET LE SECOND DE 4 DB ?",
+  "options": [
+   "64 dB",
+   "46 dB",
+   "24 dB",
+   "10 dB"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10 dB",
+  "commentaire_fr": "",
+  "stem_zh": "两台串联放大器的总增益是多少？第一台 6 dB，第二台 4 dB。",
+  "ans_zh": "10 dB",
+  "com_zh": "",
+  "anchor": "T041d"
+ },
+ {
+  "num": "20689",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE DE 40 CONDENSATEURS DE 120 PICOFARADS MONTES EN SERIE",
+  "options": [
+   "3 pF",
+   "30 pF",
+   "4,8 nF",
+   "48 nF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "3 pF",
+  "commentaire_fr": "CT = C / n = 120 / 40 = 3 pF \n",
+  "stem_zh": "40 只 120 皮法电容器串联的等效电容",
+  "ans_zh": "3 pF",
+  "com_zh": "CT = C / n = 120 / 40 = 3 pF \n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20694",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "A QUOI CORRESPOND LE SYMBOLE \"?\"",
+  "options": [
+   "détecteur",
+   "préaccentuateur",
+   "FI",
+   "limitateur"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "FI",
+  "commentaire_fr": "Le détecteur et le limitateur sont des étages de réception. Or, il s'agit ici d'un émetteur AM (présence d'un micro et d'un étage modulateur d'amplitude noté Mod Amp). Dans un émetteur FM, le préaccentuateur aurait été placé entre l'ampli AF et le modulateur FM. \nPar élimination des réponses, il ne reste que le choix \"FI\" (pour Fréquence Intermédiaire).\n",
+  "stem_zh": "符号「?」对应什么？",
+  "ans_zh": "中频（FI）",
+  "com_zh": "检波器和限幅器都是接收机的级。而这是一台 AM 发射机（有话筒，还有一个标为 Mod Amp 的调幅调制级）。在 FM 发射机中，预加重器本应放在 AF 放大器与 FM 调制器之间。\n用排除法，只剩下「FI」（中频 Fréquence Intermédiaire）这个选项。\n",
+  "anchor": "T115"
+ },
+ {
+  "num": "20696",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "CALCUL DE L'ENERGIE DISSIPEE PAR LA RESISTANCE PENDANT UNE HEURE (SCHEMA AVEC UNE RESISTANCE DE 100 OHMS ET UNE INTENSITE DE 5 A)",
+  "options": [
+   "2500 J",
+   "9 MJ",
+   "15 kJ",
+   "18000 J"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "9 MJ",
+  "commentaire_fr": "P = R x I² = 100 x 5 x 5 = 2500 W x 3600 s (= une heure) = 9 000 000 J = 9 MJ (mégajoules)\n",
+  "stem_zh": "计算电阻在一小时内耗散的能量（电路图为一只 100 欧姆的电阻和 5 A 的电流）",
+  "ans_zh": "9 MJ",
+  "com_zh": "P = R x I² = 100 x 5 x 5 = 2500 W x 3600 s（= 一小时）= 9 000 000 J = 9 MJ（兆焦）\n",
+  "anchor": "T013b"
+ },
+ {
+  "num": "20698",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "IMPEDANCE D'UN CONDENSATEUR DE 20 PF A 144 MHZ",
+  "options": [
+   "5,5 Ω",
+   "347 Ω",
+   "34,7 Ω",
+   "55 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "55 Ω",
+  "commentaire_fr": "Z = 1 / (2πFC) = 1 /( 6,28 x 144 x10^6 x 20 x 10^-12 )  = 55 ohms\n",
+  "stem_zh": "20 pF 电容器在 144 MHz 时的阻抗",
+  "ans_zh": "55 Ω",
+  "com_zh": "Z = 1 / (2πFC) = 1 /( 6.28 x 144 x10^6 x 20 x 10^-12 )  = 55 欧姆\n",
+  "anchor": "T023f2"
+ },
+ {
+  "num": "20700",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL EST LE SCHEMA CORRECT ? (4 SCHEMAS - POLARISATION DES DIODES)",
+  "options": [
+   "Schéma 1",
+   "Schéma 2",
+   "Schéma 3",
+   "Schéma 4"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Schéma 2",
+  "commentaire_fr": "En sens passant (pour qu’il y ait de l’intensité dans la diode), la  cathode doit être reliée au –. La cathode (K) est l’électrode de la diode repérée par la barre verticale. L’autre électrode se nomme l’anode (A).\n",
+  "stem_zh": "哪张电路图是正确的？（4 张电路图 —— 二极管的偏置）",
+  "ans_zh": "图 2",
+  "com_zh": "在正向（导通）方向下（使二极管中有电流），阴极必须接 −。阴极（K）是二极管中由竖线标出的那个电极。另一个电极叫阳极（A）。\n",
+  "anchor": "T051"
+ },
+ {
+  "num": "20701",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN CIRCUIT RL (AVEC VE, VS, R EN SERIE  ET L A LA MASSE). TYPE DE CIRCUIT ?",
+  "options": [
+   "passe haut",
+   "coupe bande",
+   "passe bas ",
+   "passe bande"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "passe haut",
+  "commentaire_fr": "Ce filtre est un filtre passe haut dont la réjection est de 6 dB/octave au-delà de la fréquence de coupure\n",
+  "stem_zh": "RL 电路图（含 Ve、Vs、串联的 R 以及接地的 L）。这是什么类型的电路？",
+  "ans_zh": "高通",
+  "com_zh": "这个滤波器是高通滤波器，在截止频率之外的抑制为 6 dB/倍频程\n",
+  "anchor": "T042e"
+ },
+ {
+  "num": "20702",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "UN QUART D'ONDE PLAN :",
+  "options": [
+   "n’est pas directif",
+   "a un gain de 6 dB par rapport à un doublet",
+   "a une longueur d’une demi-onde",
+   "est en polarisation horizontale "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "est en polarisation horizontale ",
+  "commentaire_fr": "Un quart d'onde plan est un quart d'onde horizontal avec un plan de masse vertical. Il émet donc en polarisation horizontale, il est directif (pas de puissance émise dans la direction du plan de masse) et n'a pas de gain (ou très peu) par rapport au dipôle. Toutefois, cette antenne n'est pas mentionnée dans le programme de l'examen\n",
+  "stem_zh": "平面四分之一波长天线（quart d'onde plan）：",
+  "ans_zh": "为水平极化",
+  "com_zh": "平面四分之一波长天线是水平放置的四分之一波长天线，带一个垂直的接地平面。因此它以水平极化发射，是定向的（朝接地平面方向不发射功率），相对偶极天线没有增益（或极少）。不过考试大纲中没有提到这种天线\n",
+  "anchor": "T0910g"
+ },
+ {
+  "num": "20704",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "CALCUL DU TOS AVEC 9W EMIS ET 1W REFLECHI",
+  "options": [
+   "11%",
+   "33%",
+   "9%",
+   "25%"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "33%",
+  "commentaire_fr": "Rapport de puissance = Puissance réfléchie / Puissance émise = 1 /9 = 0,11 ; TOS = racine (rapport des puissance) = racine (0,11) = 0,33 = 33%\n",
+  "stem_zh": "已知发射 9 W、反射 1 W，计算 TOS",
+  "ans_zh": "33%",
+  "com_zh": "功率比 = 反射功率 / 发射功率 = 1 /9 = 0.11 ；TOS = √(功率比) = √(0.11) = 0.33 = 33%\n",
+  "anchor": "T103b6"
+ },
+ {
+  "num": "20706",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "SCHEMA COMPORTANT 4 BLOCS EN CARRE : FILTRE DE BOUCLE-VCO ?- DIVISEURS - BLOC A TROUVER ? SUR LEQUEL EST INDIQUEE UNE FLECHE D'ENTREE NOMMEE REFERENCE",
+  "options": [
+   "oscillateur à Quartz",
+   "limiteur",
+   "modulateur FM",
+   "comparateur de phase "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "comparateur de phase ",
+  "commentaire_fr": "Le schéma représente un oscillateur à boucle PLL. L’étage comparateur se nomme aussi « multiplieur » en référence au circuit utilisé pour son fonctionnement, la porte logique ET qui, dans l’algèbre booléen, effectue l’opération multiplication.\n",
+  "stem_zh": "电路图含 4 个方形方框：滤波器 - VCO ? - 分频器 - 待找出的方框 ?，上面标有一个名为 reference（基准）的输入箭头",
+  "ans_zh": "鉴相器",
+  "com_zh": "图中表示的是一个 PLL 锁相环振荡器。比较级也叫「乘法器」，这是因为它所用的电路——逻辑「与」门在布尔代数中执行的是乘法运算。\n",
+  "anchor": "T075d"
+ },
+ {
+  "num": "20707",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "LONGUEUR D'ONDE D'UN SIGNAL DE FREQUENCE 10 GHZ",
+  "options": [
+   "3 cm",
+   "3 m",
+   "30 cm",
+   "3 mm"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "3 cm",
+  "commentaire_fr": "L = 300 / 10000 = 0,03 m = 3 cm\n",
+  "stem_zh": "频率为 10 GHz 的信号的波长",
+  "ans_zh": "3 cm",
+  "com_zh": "L = 300 / 10000 = 0.03 m = 3 cm\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20708",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "UN TRANSISTOR BIPOLAIRE EST COMPOSE DE :",
+  "options": [
+   "deux diodes montées en série",
+   "deux diodes montées tête bêche ",
+   "deux diodes montées en parallèle",
+   "deux diodes montées en anneau"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "deux diodes montées tête bêche ",
+  "commentaire_fr": "",
+  "stem_zh": "双极型晶体管由哪些部分构成：",
+  "ans_zh": "两只反向对接的二极管",
+  "com_zh": "",
+  "anchor": "T061a"
+ },
+ {
+  "num": "20709",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CALCUL BETA SUR TRANSISTOR MONTE EN EMETTEUR COMMUN AVEC IC ET IE DONNES",
+  "options": [
+   "50",
+   "82",
+   "100",
+   "164"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100",
+  "commentaire_fr": "Ib = Ic – Ie = 1 mA\nϐ = Ic / Ib = 100 mA / 1 mA = 100. \nLes valeurs des résistances de base et de collecteur ne servent à rien\n",
+  "stem_zh": "计算共发射极接法晶体管的 beta，已知 IC 和 IE",
+  "ans_zh": "100",
+  "com_zh": "Ib = Ic – Ie = 1 mA\nϐ = Ic / Ib = 100 mA / 1 mA = 100。\n基极和集电极电阻的数值没有用处\n（⚠️待核：原文写「Ib = Ic – Ie = 1 mA」，与下一行按 Ic/Ib 的计算不一致）",
+  "anchor": "T062"
+ },
+ {
+  "num": "20711",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST L'ETAGE MANQUANT ?\nMICRO -- ??? - MODULATEUR EQUILIBRE---  AMPLI RF --- ANTENNE",
+  "options": [
+   "ampli BF ",
+   "accentuateur",
+   "détection",
+   "filtre passe bas "
+  ],
+  "ans_idx": 0,
+  "ans_fr": "ampli BF ",
+  "commentaire_fr": "L'accentuateur (plus précisément, préaccentuateur) est utilisé en FM (ou en PM). Or, il s'agit ici d'un émetteur BLU (présence d'un modulateur équlibré). Donc cet étage ne peut pas correspondre au schéma.\nLa détection est l'étage de démodulation d'un réceteur AM (donc pas adapté à l'émission)\nLe filtre passe bas se situe entre l'ampli RF et l'antenne dans un émetteur. Il est manquant dans ce schéma  mais n'aurait pas été à la bonne place.\n",
+  "stem_zh": "缺少的是哪一级？\n话筒 -- ??? - 平衡调制器 --- RF 放大器 --- 天线",
+  "ans_zh": "BF（音频）放大器",
+  "com_zh": "加重器（更确切地说是预加重器）用于 FM（或 PM）。而这里是一台 BLU 发射机（有平衡调制器）。因此这一级与图不符。\n检波是 AM 接收机的解调级（因此不适用于发射）\n在发射机中，低通滤波器位于 RF 放大器与天线之间。本图中它缺失了，但即便补上也不在正确的位置。\n",
+  "anchor": "T115"
+ },
+ {
+  "num": "20712",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "SCHEMA D'EMETTEUR (RETROUVER L'ELEMENT MANQUANT QUI ETAIT UN MELANGEUR EQUILIBRE POUR LA BLU) AVEC COMME MICRO LE SCHEMA D'UN HP",
+  "options": [
+   "Silencieux",
+   "Mélangeur équilibré ",
+   "CAG",
+   "Démodulateur"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Mélangeur équilibré ",
+  "commentaire_fr": "Un haut-parleur à la place du micro dans un émetteur ? Mais si, ça marche ! (c'est d'ailleurs le principe de base du microphone électrodynamique). Le reste du schéma est tout de même peu orthodoxe puisque le mélangeur équilibré est censé avoir sur ses entrées l’oscillateur local et la BF à moduler. Tout pour perturber les candidats ! Les autres étages proposés sont relatifs à des récepteurs.\n",
+  "stem_zh": "发射机电路图（找出缺失的元件，即用于 BLU 的平衡混频器），图中话筒的位置画的是一个扬声器的符号",
+  "ans_zh": "平衡混频器",
+  "com_zh": "在发射机中用扬声器代替话筒？其实可以！（这正是电动式话筒的基本原理）。不过这张图的其余部分仍不太规范，因为平衡混频器的输入端本应接本机振荡器和要调制的音频信号。一切都是为了扰乱考生！其他选项涉及的级都属于接收机。\n",
+  "anchor": "T126d"
+ },
+ {
+  "num": "20716",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE D'UN GROUPEMENT SERIE/PARALLELE DE CONDENSATEURS : 100 NF SUIVI DE DEUX CONDENSATEURS EN PARALLELE DE 50 NF ?",
+  "options": [
+   "50 µF",
+   "25 nF",
+   "25 µF",
+   "50 nF"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "50 nF",
+  "commentaire_fr": "condensateurs en parallèle : CT =50 +50 = 100 ; \nCT en série (de valeur identique) : 100 / 2 = 50 nF\n",
+  "stem_zh": "电容器串/并联组合的电容：100 nF 后面接两只 50 nF 并联的电容器？",
+  "ans_zh": "50 nF",
+  "com_zh": "并联的电容器：CT = 50 + 50 = 100 ；\n再串联（数值相同）：100 / 2 = 50 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20717",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUELLE IMPEDANCE VOIT-ON A L'ENTREE D'UN CABLE (DE LONGUEUR L) D'IMPEDANCE CARACTERISTIQUE 50 OHM DONT LA SORTIE EST BRANCHEE SUR UNE CHARGE D'IMPEDANCE CARACTERISTIQUE 50 OHMS ?",
+  "options": [
+   "50 Ω",
+   "50 L",
+   "25 Ω",
+   "100 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "50 Ω",
+  "commentaire_fr": "Les deux fils épais représentent une ligne de transmission (ligne bifilaire ?) dont la longueur est quelconque. Lorsque l’impédance de la charge est égale à l’impédance caractéristique de la ligne, on a Ze = Zc pour toutes les longueurs de câble\n",
+  "stem_zh": "在一段长度为 L、特性阻抗为 50 欧姆的电缆（其输出端接到 50 欧姆特性阻抗的负载上）的输入端，看到的阻抗是多少？",
+  "ans_zh": "50 Ω",
+  "com_zh": "两条粗线表示的是一条传输线（双线线？），其长度任意。当负载阻抗等于线路的特性阻抗时，无论电缆多长都有 Ze = Zc\n",
+  "anchor": "T101a"
+ },
+ {
+  "num": "20718",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "HP (DESSINE EN FORME NORMALISEE DE HP), AMPLI, ?, VCXO, PUIS EN DESSOUS (LIE PAR UN TRAIT) : MULTIPLICATEUR), MELANGEUR (AVEC OL EN DESSOUS), AMPLI RF ET ANTENNE. QUEL EST L'ETAGE MANQUANT ?",
+  "options": [
+   "discriminateur",
+   "préaccentuateur",
+   "CAG",
+   "silencieux"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "préaccentuateur",
+  "commentaire_fr": "Le schéma est peu explicite. Il s’agit d’un émetteur FM du fait de la présence d’un multiplicateur et d’un VCXO, oscillateur contrôlé en tension pouvant générer de \nla FM. Le HP à la place du microphone déroutera les candidats mais reste correct car on peut se servir d’un HP à la place d’un micro (principe du micro dynamique)\n",
+  "stem_zh": "HP（按标准符号绘制）、放大器、?、VCXO，然后下方（用一条线连接）：倍频器、混频器（下方带 OL）、RF 放大器和天线。缺少的是哪一级？",
+  "ans_zh": "预加重器",
+  "com_zh": "这张图不够清楚。这是一台 FM 发射机，因为有倍频器和 VCXO（压控振荡器，可产生调频）。话筒位置上放扬声器会让考生迷惑，但这没错，因为可以用扬声器代替话筒（动圈话筒的原理）\n",
+  "anchor": "T124"
+ },
+ {
+  "num": "20719",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "POUR CONTACTER L'INDE DE JOUR, IL FAUT :",
+  "options": [
+   "augmenter la puissance",
+   "attendre 12h00 GMT",
+   "que les couches soient ionisées par le soleil se déplaçant ",
+   "attendre que l'antenne se réchauffe"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "que les couches soient ionisées par le soleil se déplaçant ",
+  "commentaire_fr": "La bonne réponse est assez mal libellée mais les autres réponses ne conviennent pas ou sont fantaisistes\n",
+  "stem_zh": "白天要与印度联络，需要：",
+  "ans_zh": "各层被移动中的太阳电离",
+  "com_zh": "正确选项的表述相当糟糕，但其他答案都不合适或纯属臆造\n",
+  "anchor": "T093f"
+ },
+ {
+  "num": "20721",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "PONT DE WHEASTONE EQUILIBRE. QUELLE RESISTANCE FAUT-IL POUR EQUILIBRER LE PONT ? SCHEMA AVEC DEUX BRANCHES : PREMIERE BRANCHE : 4 KOMS ET 30 KOHMS, DEUXIEME BRANCHE : 20 KOHMS ET ?",
+  "options": [
+   "15 kΩ",
+   "34 kΩ",
+   "150 kΩ",
+   "600 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "150 kΩ",
+  "commentaire_fr": "Produit en croix : R = 20 x 30 / 4 = 150\n",
+  "stem_zh": "惠斯通电桥平衡。需要多大电阻才能使电桥平衡？电路图有两条支路：第一条支路：4 kΩ 和 30 kΩ，第二条支路：20 kΩ 和 ？",
+  "ans_zh": "150 kΩ",
+  "com_zh": "交叉相乘：R = 20 x 30 / 4 = 150\n",
+  "anchor": "T018a"
+ },
+ {
+  "num": "20725",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "RENDEMENT THEORIQUE MAXIMUM D'UN TRANSISTOR MONTE EN CLASSE A ?",
+  "options": [
+   "50%",
+   "30%",
+   "80%",
+   "100%"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "50%",
+  "commentaire_fr": "Le rendement théorique maximum de la classe A est 50 %. \nMais, pour que le montage soit linéaire, le rendement est limité à 30%, voire moins (mais ce n'est pas la question posée, n'en déplaise aux techniciens et bricoleurs...)\n",
+  "stem_zh": "按 A 类工作的晶体管的理论最大效率？",
+  "ans_zh": "50%",
+  "com_zh": "A 类的理论最大效率为 50 %。\n但为了使电路线性，效率被限制在 30%，甚至更低（虽然这不是本题所问，技术派和业余爱好者可能不爱听……）\n",
+  "anchor": "T071a1"
+ },
+ {
+  "num": "20726",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "UN SIGNAL SINUSOIDAL SUR UN GRAPHE AVEC 0V SUR L'AXE DES ABSCISSES ET 72 VOLTS SUR L'AXE DES ORDONNEES. COMMENT SE NOMME LA TENSION 72 VOLTS ?",
+  "options": [
+   "crête",
+   "crête à crête",
+   "maximum",
+   "efficace"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "crête à crête",
+  "commentaire_fr": "La tension 72 volts est mesurée entre les deux extrêmes. Il s'agit donc de la tension crête à crête. La tension crête ou maximum est la moitié (36 volts). La tension efficace (pour laquelle s'applique la loi d'ohm) est égale à 36 x 0,707 = 25,5 Volts\n",
+  "stem_zh": "一张图上的正弦信号，横轴为 0 V，纵轴为 72 伏。72 伏这个电压叫什么？",
+  "ans_zh": "峰峰值",
+  "com_zh": "72 伏是在两个极值之间测得的电压。因此它是峰峰值电压。峰值或最大值电压是它的一半（36 伏）。有效值电压（欧姆定律适用的那个）等于 36 x 0.707 = 25.5 伏\n",
+  "anchor": "T022d"
+ },
+ {
+  "num": "20728",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "SINUSOIDE AVEC 2 PERIODES ET FREQUENCE INDIQUEE : 2 KHZ. DUREE DU SIGNAL ?",
+  "options": [
+   "100 µs",
+   "500 µs",
+   "250 µs",
+   "1000 µs"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1000 µs",
+  "commentaire_fr": "La période d’un signal de 2 kHz dure 500 µs (T = 1 / F = 1 / 2000 = 0,0005 = 500 µs). La période d’observation dure 2 périodes. L’observation dure donc 500 µs x 2 = 1000 µs (ou 1 ms)\n",
+  "stem_zh": "正弦波显示 2 个周期，标注频率为 2 kHz。信号的时长是多少？",
+  "ans_zh": "1000 µs",
+  "com_zh": "2 kHz 信号的周期为 500 µs（T = 1 / F = 1 / 2000 = 0.0005 = 500 µs）。观察时长共 2 个周期。因此观察时长为 500 µs x 2 = 1000 µs（或 1 ms）\n",
+  "anchor": "T022f"
+ },
+ {
+  "num": "20729",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "TROIS CONDENSATEURS EN PARALLELE (6800 PF, 4,7 NF ET 10 NF), CAPACITE EQUIVALENTE ?",
+  "options": [
+   "21,5 nF",
+   "6847,5 nF",
+   "2,17 nF",
+   "4,65 nF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "21,5 nF",
+  "commentaire_fr": "Transformer tout en nF : 6800 pF = 6,8 nF\nCeq = C1 + C2 + C3 = 6,8 + 4,7 + 10 = 21,5 nF\n",
+  "stem_zh": "三只并联电容器（6800 pF、4.7 nF 和 10 nF），等效电容是多少？",
+  "ans_zh": "21.5 nF",
+  "com_zh": "全部换算成 nF：6800 pF = 6.8 nF\nCeq = C1 + C2 + C3 = 6.8 + 4.7 + 10 = 21.5 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20730",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE METHODE PEUT-ON UTILISER POUR ELIMINER LA FREQUENCE IMAGE ?",
+  "options": [
+   "choisir un oscillateur local peu bruyant",
+   "choisir un premier étage RF très sélectif ",
+   "choisir une antenne ayant du gain",
+   "choisir un amplificateur AF ayant un grand gain"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "choisir un premier étage RF très sélectif ",
+  "commentaire_fr": "Le problème de la Fréquence Image est lié au manque de sélectivité des étages précédant le mélangeur du premier changement de fréquence d'un récepteur hétérodyne.\nUne autre méthode (non proposée ici) consiste à utiliser une fréquence intermédaire de fréquence très élevée (récepteur supradyne) rejetant très loin la fréquence image, bien au-delà de la bande passante du récepteur. Dans ce cas, un second changement de fréquence est souvent nécessaire.\n",
+  "stem_zh": "可以用什么方法来消除镜像频率？",
+  "ans_zh": "选择选择性很高的第一射频级",
+  "com_zh": "镜像频率问题与外差式接收机第一次变频的混频器之前各级选择性不足有关。\n另一种方法（此处未给出）是采用频率非常高的中频（超外差式接收机），把镜像频率远远推到接收机带宽之外。这种情况下往往需要第二次变频。\n",
+  "anchor": "T113"
+ },
+ {
+  "num": "20748",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA AVEC UN FILTRE PASSE-HAUT RC, UNE TENSION DE 4 V EN ENTREE, F=100 KHZ, (R = 33 KOHMS ET C = 50 PF)  ET ON DEMANDAIT LA TENSION EN SORTIE (AUX BORNES DE LA RESISTANCE)",
+  "options": [
+   "8 nV",
+   "1,4 mV",
+   "123 V",
+   "2,8 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2,8 V",
+  "commentaire_fr": "D’abord, calculer la fréquence de résonance du circuit : F = 1 / (2 x pi x R x C) = 96,5 kHz (arrondi à 100 kHz dans ce cas). On est donc proche de la fréquence de coupure où le signal est atténué de 3 dB en sortie. Attention, le piège est que la puissance est divisée par 2 tandis que la tension n’est diminuée que de sa racine carrée (4 / √ 2 = 2,8 V) car P = U² / R (effet du carré de la tension).\n",
+  "stem_zh": "电路图为 RC 高通滤波器，输入端电压 4 V，F = 100 kHz，（R = 33 kΩ，C = 50 pF），要求输出端（电阻两端）的电压",
+  "ans_zh": "2.8 V",
+  "com_zh": "首先计算电路的谐振频率：F = 1 / (2 x π x R x C) = 96.5 kHz（在本题中取整为 100 kHz）。因此接近截止频率，输出端信号衰减 3 dB。注意陷阱在于：功率除以 2，而电压只减小到原来的 1/√2（4 / √ 2 = 2.8 V），因为 P = U² / R（电压的平方效应）。\n",
+  "anchor": "T042d"
+ },
+ {
+  "num": "20749",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA PARTICULARITE DE LA DIODE ZENER ?",
+  "options": [
+   "elle peut laisser passer le courant en inverse à la tension Zener",
+   "elle ne laisse passer le courant que dans un seul sens",
+   "elle ne peut pas griller",
+   "l’impédance augmente si l’on applique la tension Zener"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "elle peut laisser passer le courant en inverse à la tension Zener",
+  "commentaire_fr": "La diode Zener laisse passer le courant en sens normal (comme toutes les diodes) mais aussi en sens inverse lorsque la tension appliquée est supérieure à la tension Zener car sa résistance (on ne peut pas parler d'impédance) est très faible au delà de cette tension. Elle peut \"griller\" si elle dissipe trop de puissance par rapport à ce pour quoi elle est prévue par le constructeur.\n",
+  "stem_zh": "齐纳二极管的特点是什么？",
+  "ans_zh": "在齐纳电压下可以让电流反向通过",
+  "com_zh": "齐纳二极管可以让电流按正常方向通过（和所有二极管一样），但当所加电压超过齐纳电压时，也可以反向通过，因为在超过该电压后它的电阻（不能说阻抗）非常小。如果它耗散的功率相对厂家设计值过大，就可能「烧毁」。\n",
+  "anchor": "T052a"
+ },
+ {
+  "num": "20752",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA CLASSE D'EMISSION LA PLUS ECONOMIQUE ?",
+  "options": [
+   "classe C",
+   "classe B",
+   "classe AB",
+   "classe A"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "classe C",
+  "commentaire_fr": "La classe C est la classe d'amplification qui a le meilleur rendement (en dehors de la classe D qui n'est pas citée ici et qui est très peu utilisée dans les applications radio). Pour autant, peut-on dire que c'est la classe la plus \"économique\" ? Si on se réfère à la simplicité du montage (peu de composants pas chers) sans s’occuper du rendement, la classe A pourrait être la bonne réponse... Encore une question tordue (et mal posée ! ! )\n",
+  "stem_zh": "最经济的发射类别是哪一类？",
+  "ans_zh": "C 类",
+  "com_zh": "C 类是效率最高的放大类（除了此处未提到的 D 类，D 类在无线电应用中很少使用）。不过，能说它是最「经济」的吗？如果只看电路的简单程度（元件少且便宜）而不考虑效率，那么 A 类倒可能是正确答案……又是一道刁钻（而且出得很糟！！）的题\n",
+  "anchor": "T071a3"
+ },
+ {
+  "num": "20753",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUELLE EST LA BONNE CORRESPONDANCE ?",
+  "options": [
+   "BLS = LSB",
+   "BLI = LSB ",
+   "BLI = USB",
+   "BLU = USB"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "BLI = LSB ",
+  "commentaire_fr": "LSB est le terme anglais qui signifie Lower Side Band que l'on peut traduire littéralement par \"côté de la bande le plus bas\" et qui signifie \"Bande Latérale Inférieure\", BLI.\n",
+  "stem_zh": "哪种对应关系是正确的？",
+  "ans_zh": "BLI = LSB",
+  "com_zh": "LSB 是英文 Lower Side Band，字面可译为「波段较低的那一侧」，意思是「Bande Latérale Inférieure」，即 BLI（下边带）。\n",
+  "anchor": "T126"
+ },
+ {
+  "num": "20754",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "ON VOYAIT L'ANTENNE, APRES UN  DETECTEUR RACCORDE A UN OL ET DERRIERE RIEN DE DESSINE SAUF PEUT-ETRE LE HP, ET ON DEMANDAIT LAQUELLE DE 4 PROPRIETES AVAIT CE DETECTEUR",
+  "options": [
+   "mélangeur",
+   "filtre passe-bas",
+   "amplificateur RF",
+   "désaccentuateur"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "mélangeur",
+  "commentaire_fr": "Il s’agit d’un récepteur à conversion directe. Dans ce montage, la fréquence de l’OL est proche de la fréquence à recevoir et l’ampli AF doit avoir un très grand gain. Ce type de récepteur est prévu pour démoduler des signaux modulés en amplitude. Pour les modulations angulaires (fréquence ou phase), le signal AF sera traité numériquement avant d’être envoyé au HP\n",
+  "stem_zh": "图中可以看到天线，之后是一个接到本机振荡器上的检波器，后面没有画任何东西，也许只有扬声器 HP，题目问这个检波器具备 4 种性质中的哪一种",
+  "ans_zh": "混频器",
+  "com_zh": "这是一台直接变频接收机。在这种电路中，本振频率接近待接收频率，AF 放大器必须有非常大的增益。这类接收机用于解调调幅信号。对于角度调制（调频或调相），音频信号要先经过数字处理再送到扬声器\n",
+  "anchor": "T126"
+ },
+ {
+  "num": "20755",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA PROPRIETE ESSENTIELLE D'UN AMPLIFICATEUR EN CLASSE A ?",
+  "options": [
+   "elle est utilisée pour des puissances élevées en sortie",
+   "elle possède une grande linéarité ",
+   "elle est utilisée pour les mélangeurs",
+   "elle est utilisée pour les étages multiplicateurs de fréquence"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "elle possède une grande linéarité ",
+  "commentaire_fr": "La classe A est la plus linéaire et génère donc peu de distorsions, d'où l'impossibilité de l'utiliser dans des mélangeurs ou des multiplicateurs de fréquence puisque ces étages sont, par nature, non linéaire. En revanche, la classe A ne sera pas utilisée pour des puissances élevées à cause de son faible rendement\n",
+  "stem_zh": "A 类放大器的本质特性是什么？",
+  "ans_zh": "它具有很高的线性度",
+  "com_zh": "A 类的线性度最高，因此产生的失真很小，所以不能用于混频器或倍频器，因为这些级本质上都是非线性的。反过来说，由于效率低，A 类不会用于大功率\n",
+  "anchor": "T071a1"
+ },
+ {
+  "num": "20757",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUE SE PASSE-T-IL QUAND ON DOUBLE LA SURFACE DES PLAQUES EN VIS-A-VIS D'UN CONDENSATEUR ?",
+  "options": [
+   "La capacité est divisée par 2 ",
+   "La capacité ne change pas",
+   "La capacité est quadruplée",
+   "La capacité est multipliée par 2 "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "La capacité est multipliée par 2 ",
+  "commentaire_fr": "La formule du condensteur est C = d x S / E où d est le coefficient diélectrique, S est la surface des plaques en vi-à-vis et E est l'épaisseur du diélectrqiue (ou l'espacement des plaques).\n",
+  "stem_zh": "当把电容器两块正对极板之间的面积加倍时会怎样？",
+  "ans_zh": "容量增大一倍",
+  "com_zh": "电容器公式为 C = d x S / E，其中 d 是介电系数，S 是正对极板的面积，E 是电介质的厚度（即极板间距）。\n",
+  "anchor": "T023c3"
+ },
+ {
+  "num": "20759",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "SUR QUEL ETAGE SE FORMENT LES HARMONIQUES ?",
+  "options": [
+   "sur un filtre passe haut",
+   "sur un étage non linéaire ",
+   "sur un préaccentuateur",
+   "sur un microphone à ruban"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "sur un étage non linéaire ",
+  "commentaire_fr": "Les harmoniques sont générées au niveau d'un étage non linéaire (la forme du signal de sortie n'est pas la même qu'en entrée)\n",
+  "stem_zh": "谐波在哪一级上产生？",
+  "ans_zh": "在非线性级上",
+  "com_zh": "谐波产生于非线性级（输出信号的波形与输入不同）\n",
+  "anchor": "T074"
+ },
+ {
+  "num": "20760",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QU'EST CE QUI DETERMINE LE GAIN D'UNE ANTENNE YAGI ?",
+  "options": [
+   "l’épaisseur des brins",
+   "la proximité d’un mur du voisin",
+   "le nombre d'éléments directeurs ",
+   "la longueur du réflecteur"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "le nombre d'éléments directeurs ",
+  "commentaire_fr": "Accessoirement, la longueur du réflecteur, si elle n'est pas adaptée à la fréquence, aura une incidence sur le gain mais la bonne réponse est sans discussion le nombre d'éléments directeurs (et/ou réflecteurs).\n",
+  "stem_zh": "什么决定八木天线的增益？",
+  "ans_zh": "引向器的数量",
+  "com_zh": "附带说明：反射器的长度如果不适合该频率，也会影响增益，但毫无争议的正确选项是引向器（和/或反射器）的数量。\n",
+  "anchor": "T096"
+ },
+ {
+  "num": "20763",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA CLASSE D'AMPLIFICATION SANS POLARISATION ?",
+  "options": [
+   "Classe D",
+   "Classe A",
+   "Classe C",
+   "Classe AB2"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Classe D",
+  "commentaire_fr": "La classe D (PWM, modulation de largeur d'impulsion) n'a pas de tension de polarisation mais n'est pas très employée dans notre activité car elle génère beaucoup d’harmoniques. Seules les amplificateurs professionnels de haute puissance (> 10 kW) utilisent cette classe.\n",
+  "stem_zh": "哪一类放大不需要偏置？",
+  "ans_zh": "D 类",
+  "com_zh": "D 类（PWM，脉宽调制）没有偏置电压，但在我们的活动中用得不多，因为它产生大量谐波。只有专业的大功率放大器（> 10 kW）使用这一类。\n",
+  "anchor": "T071b"
+ },
+ {
+  "num": "20764",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCUL DE LA FREQUENCE DE RESONANCE D'UN CIRCUIT BOUCHON AVEC L = 10 MICROH ET C = 400 NF EN PRECISANT QUE 1/(2*PI) = 0,16",
+  "options": [
+   "8 MHz",
+   "80 kHz",
+   "400 kHz",
+   "4 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "80 kHz",
+  "commentaire_fr": "Formule simplifiée : F = 160 / √ (L en µH x C en pF) = 160 / √ (10 x 400.000) \n= 160/ √ (4.000.000) = 160 / 2000= 0,08 MHz \n= 80 kHz\n",
+  "stem_zh": "计算并联谐振电路的谐振频率，L = 10 微亨，C = 400 nF，并说明 1/(2*π) = 0.16",
+  "ans_zh": "80 kHz",
+  "com_zh": "简化公式：F = 160 / √ (L 以 µH 计 x C 以 pF 计) = 160 / √ (10 x 400.000) \n= 160/ √ (4.000.000) = 160 / 2000= 0.08 MHz \n= 80 kHz\n",
+  "anchor": "T043a"
+ },
+ {
+  "num": "20765",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "ON A BRANCHE PAR MEGARDE UN REFLECTOMETRE A L'ENVERS. \nUNE FOIS LE CALIBRAGE EN PUISSANCE INCIDENTE EFFECTUE, QUEL RAPPORT DE PUISSANCE REFLECHIE MESURE-T-ON ?",
+  "options": [
+   "un rapport égal à 0",
+   "une valeur négative",
+   "un rapport supérieur à 1 ",
+   "une valeur en dents de scie"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "un rapport supérieur à 1 ",
+  "commentaire_fr": "L’instrument de mesure (le ROS-mètre) étant monté à l’envers, l'aiguille de l'appareil va en butée (donc ROS>100% ou >1) une fois le calibre \"en sens direct\" effectué puisque, par définition la puissance réfléchie est toujours inférieure à la puissance émise (ou puissance incidente). Impossible de lire le taux de puissance réfléchie avec un appareil à aiguille dans ce cas…\n",
+  "stem_zh": "有人粗心地把反射计（驻波表）接反了。\n在校准了入射功率之后，测得的是怎样的反射功率比？",
+  "ans_zh": "大于 1 的比值",
+  "com_zh": "由于测量仪器（驻波表）装反了，在完成「正向」量程校准之后，指针会打到满刻度（即 ROS > 100% 或 > 1），因为按定义反射功率总是小于发射功率（或入射功率）。这种情况下用指针式仪器根本无法读出反射功率比……\n",
+  "anchor": "T103"
+ },
+ {
+  "num": "20767",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "SCHEMA AVEC UNE PILE RELIEE A UNE RESISTANCE R. INTENSITE = 0,5 A, R = 1200 OHMS, P = ?",
+  "options": [
+   "300 W",
+   "600 W",
+   "6 kW",
+   "2400 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "300 W",
+  "commentaire_fr": "P = RI² = 1200 x 0,5 x 0,5 = 300 W\n",
+  "stem_zh": "电路图中一个电池接一只电阻 R。电流强度 = 0.5 A，R = 1200 欧姆，P = ？",
+  "ans_zh": "300 W",
+  "com_zh": "P = RI² = 1200 x 0.5 x 0.5 = 300 W\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20769",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "OU SE TROUVE L'IMPEDANCE LA PLUS ELEVEE DANS DIPOLE DEMI-ONDE ?",
+  "options": [
+   "au centre",
+   "aux deux extrémités ",
+   "à l’extrémité droite",
+   "à l’extrémité gauche "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "aux deux extrémités ",
+  "commentaire_fr": "Aux deux extrémités, on a un maximum de tension et un minimum d'intensité et, par conséquence, l’impédance la plus élevée\n",
+  "stem_zh": "半波偶极天线的阻抗最高处在哪里？",
+  "ans_zh": "在两个末端",
+  "com_zh": "在两个末端，电压最大、电流最小，因此阻抗最高\n",
+  "anchor": "T094c"
+ },
+ {
+  "num": "20775",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "L'USAGE D'UN FREQUENCEMETRE PERMET DE :",
+  "options": [
+   "mesurer les fréquences",
+   "mesurer l'excursion de fréquence",
+   "mesurer le bruit blanc généré par une diode Zener",
+   "mesurer un courant HF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "mesurer les fréquences",
+  "commentaire_fr": "",
+  "stem_zh": "使用频率计可以：",
+  "ans_zh": "测量频率",
+  "com_zh": "",
+  "anchor": "T075a"
+ },
+ {
+  "num": "20777",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "UN TRANSFO EST REPRESENTE AVEC 1000 SPIRES AU PRIM. ET 100 SPIRES AU SEC., UN HP DE 4 OHMS BRANCHE AU SECONDAIRE. Z PRIMAIRE = ?",
+  "options": [
+   "40 Ω",
+   "10 Ω",
+   "400 Ω",
+   "0,4 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "400 Ω",
+  "commentaire_fr": "N = Rapport de transformation = Ns / Np = 100 sp /1000 sp = 1/10 (transfo abaisseur) ; Ze = Zs / N² = 4 ohms / (1/10)² = 4 x 100 = 400 Ω\n\n",
+  "stem_zh": "图中一个变压器，初级 1000 匝，次级 100 匝，次级接一只 4 欧姆的扬声器。初级阻抗 Z = ？",
+  "ans_zh": "400 Ω",
+  "com_zh": "N = 变比 = Ns / Np = 100 匝 /1000 匝 = 1/10（降压变压器）；Ze = Zs / N² = 4 欧姆 / (1/10)² = 4 x 100 = 400 Ω\n\n",
+  "anchor": "T031b"
+ },
+ {
+  "num": "20779",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FO = 15KHZ ; BANDE PASSANTE = 370 HZ ; QUEL EST LE FACTEUR Q ?",
+  "options": [
+   "40,5",
+   "24,7",
+   "5,5",
+   "7,5"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "40,5",
+  "commentaire_fr": "par définition, B = Fo / Q, donc Q = Fo / B = 15000/370 = 40,5 (arrondi)\n\n",
+  "stem_zh": "FO = 15 kHz ；带宽 = 370 Hz ；品质因数 Q 是多少？",
+  "ans_zh": "40.5",
+  "com_zh": "按定义，B = Fo / Q，因此 Q = Fo / B = 15000/370 = 40.5（取整）\n\n",
+  "anchor": "T044c"
+ },
+ {
+  "num": "20782",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE IMPEDANCE PEUT-ON ESPERER TROUVER A L'ENTREE D'UN AMPLIFICATEUR RF ?",
+  "options": [
+   "très élevée",
+   "7,5 Ω",
+   "basse",
+   "25 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "basse",
+  "commentaire_fr": "Lorsqu'il s'agit d’amplificateur HF de puissance avec transistors, les impédances d'entrée de l'ordre d'une dizaine d'ohms. Le choix \"7,5 Ω\" est trop sélectif même s'il entre dans les critères.\n",
+  "stem_zh": "在射频放大器的输入端可能遇到多大的阻抗？",
+  "ans_zh": "低（欧姆级）",
+  "com_zh": "对于采用晶体管的功率高频放大器，其输入阻抗约为十几欧姆。选项「7.5 Ω」过于局限，尽管它也符合条件。\n",
+  "anchor": "T074a"
+ },
+ {
+  "num": "20785",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CONDENSATEUR EQUIVALENT AVEC EN SERIE 4,7 NANOF, 6800 PICOF ET 10 NANOF \n",
+  "options": [
+   "21,5 nF",
+   "2,2 nF",
+   "6815 nF",
+   "8 µF"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2,2 nF",
+  "commentaire_fr": "CT = 1/(1/4,7 + 1/6,8 + 1/10 ) = 2,174 = 2,2 (arrondi)\n",
+  "stem_zh": "4.7 nF、6800 pF 与 10 nF 串联后的等效电容",
+  "ans_zh": "2.2 nF",
+  "com_zh": "CT = 1/(1/4.7 + 1/6.8 + 1/10) = 2.174 = 2.2（取整）",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20787",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUELLE EST L'IMPEDANCE DU CABLE COAXIAL ?\nD = 10 ; D = 2 ; COEFFICIENT DIELECTRIQUE = 4\n",
+  "options": [
+   "24 Ω",
+   "96 Ω",
+   "690 Ω",
+   "48 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "48 Ω",
+  "commentaire_fr": "Z = (138/√(e)) x log (D/d) = (138/√(4)) x log (10/2) \n= (138/2) log (5) = 69 x 0,699 = 48 Ω\n",
+  "stem_zh": "同轴电缆的阻抗是多少？\nD = 10 ；D = 2 ；介电系数 = 4\n",
+  "ans_zh": "48 Ω",
+  "com_zh": "Z = (138/√(e)) x log (D/d) = (138/√(4)) x log (10/2) \n= (138/2) log (5) = 69 x 0.699 = 48 Ω\n",
+  "anchor": "T102b"
+ },
+ {
+  "num": "20788",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULES EXACTES ?  \n1) P = RU      ; 2) P = W/T ; 3) W = RI^2T ; 4) I = RACINE (PR) \n",
+  "options": [
+   "2 et 3",
+   "1 et 2",
+   "1 et 3",
+   "1"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "2 et 3",
+  "commentaire_fr": "Les autres formules exactes sont : P=UI (ou P=U²/R) et I = racine (P/R)\n",
+  "stem_zh": "哪些公式是正确的？\n1) P = RU      ； 2) P = W/T ； 3) W = RI²T ； 4) I = √(PR)",
+  "ans_zh": "2 和 3",
+  "com_zh": "其他正确的公式是：P = UI（或 P = U²/R）和 I = √(P/R)",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20789",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "UN MELANGEUR GENERE-T-IL DES HARMONIQUES ?",
+  "options": [
+   "non",
+   "oui",
+   "non, seulement au-dessus de 29,7 MHz",
+   "oui mais seulement au-dessus de 29,7 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "oui",
+  "commentaire_fr": "un mélangeur est par nature non linéaire (il multiplie les tensions présentes à son entrée alors qu'un amplificateur linéaire les additionnerait). Mais le problème survient quand le mélangeur ne multiplie pas exactement les tensions : il a seulement une \"fonction de transfert\" assez proche pour faire le job (mélangeur) et c'est ce \"pas exactement\" qui génère en plus des harmoniques (et des mélanges du 3ème ordre)\n",
+  "stem_zh": "混频器会产生谐波吗？",
+  "ans_zh": "会",
+  "com_zh": "混频器本质上是非线性的（它把输入端的电压相乘，而线性放大器则是相加）。但当混频器并非精确地相乘这些电压时问题就出现了：它的「传递函数」只是足够接近以完成混频工作，而这个「并非精确」正会额外产生谐波（以及三阶混频产物）\n",
+  "anchor": "T077a"
+ },
+ {
+  "num": "20791",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUEL EST LE ROS DE 1,5 ET LA REPONSE 4 SCHEMAS AVEC DEPHASAGE",
+  "options": [
+   "Schéma 4",
+   "Schéma 3",
+   "Schéma 2",
+   "Schéma 1"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Schéma 4",
+  "commentaire_fr": "Les schémas représentent les courbes des valeurs efficaces constatées U et I dans un câble en fonction de la distance par rapport à la charge. Ainsi, un ROS de 1,5 dans un câble de 50 ohms pourrait donner des valeurs U et I au niveau de la charge de 12 V et 0,16 A (soit 75 ohms, d'où ROS = 1,5) et, à un quart d'onde de la charge : 8 V et 0,24 A. Dans ce cas, le courant incident (émis) a pour valeur 10 V et 0,2 A (50 ohms) et le courant réfléchi mesure 2 V et 0,04 A (encore 50 ohms). C'est la superposition de ces deux courants de sens contraire qui forme les ondes stationnaires\n",
+  "stem_zh": "1.5 的 ROS 对应哪张图？给出 4 张带相位差的示意图",
+  "ans_zh": "图 4",
+  "com_zh": "这些图表示电缆中实测的有效值 U 和 I 随距负载距离变化的曲线。这样，50 欧姆电缆中 1.5 的 ROS 在负载处可能给出 12 V 和 0.16 A（即 75 欧姆，故 ROS = 1.5），而在距负载四分之一波长处为 8 V 和 0.24 A。此时入射（发射）电流为 10 V 和 0.2 A（50 欧姆），反射电流为 2 V 和 0.04 A（同样是 50 欧姆）。正是这两个方向相反的电流叠加构成了驻波\n",
+  "anchor": "T103b4"
+ },
+ {
+  "num": "20792",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "ON PEUT MESURER LA BANDE OCCUPEE AVEC UN :",
+  "options": [
+   "analyseur de spectre  ",
+   "dosimètre",
+   "TOS-mètre",
+   "multimètre numérique"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "analyseur de spectre  ",
+  "commentaire_fr": "",
+  "stem_zh": "可以用哪种仪器测量占用带宽：",
+  "ans_zh": "频谱分析仪",
+  "com_zh": "",
+  "anchor": "T044d"
+ },
+ {
+  "num": "20793",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "UNE DISTORSION FORTE DU SIGNAL PEUT ETRE DUE :",
+  "options": [
+   "au CAG",
+   "à l’amplificateur RF ",
+   "à l’amplificateur AF",
+   "à l’amplificateur FI"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "à l’amplificateur RF ",
+  "commentaire_fr": "Dès qu'il y a amplification de signaux forts, il y a un risque de distorsion due à la non-linéarité de l'amplification. La CAG n'est pas à proprement parler un système d'amplification mais un système de régulation. L'ampli FI, s'il est bien construit, ne devrait pas générer de distorsion, surtout en présence d'un étage CAG qui en limitera le gain en présence de forts signaux. Quant à l'ampli AF, les distorsions amenées par cet étage devraient être limitées. Il ne reste que l'étage RF sur lequel est appliqué le signal issu de l'antenne et qui peut saturer (et donc générer de fortes distorsions) si le signal d'entrée est trop fort.\n",
+  "stem_zh": "信号的严重失真是由什么引起的：",
+  "ans_zh": "射频放大器",
+  "com_zh": "只要有强信号的放大，就有因放大非线性而失真的风险。CAG 严格来说不是放大系统，而是调节系统。中频放大器如果制作良好，本不应产生失真，尤其是还有 CAG 级会在强信号下限制其增益。至于 AF 放大器，该级带来的失真应当有限。只剩下来自天线的信号所加于其上的 RF 级，如果输入信号太强就可能饱和（从而产生严重失真）。\n",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20795",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TRANSFO AVEC 4 OHM AU SECONDAIRE, NOMBRE DE SPIRES AU SECONDAIRE FOURNI (400 SPIRES AU PRIMAIRE ET 20 SPIRES AU SECONDAIRE). \nIMPEDANCE AU PRIMAIRE ?\n",
+  "options": [
+   "20 Ω",
+   "80 Ω",
+   "400 Ω",
+   "1600 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1600 Ω",
+  "commentaire_fr": "rapport de transformation de 1/20 (20 fois plus de spires au primaire qu'au secondaire),\n Zp = 4 / (1/ 20)² = 4 x 20² = 4 x 400 = 1600 Ω\n",
+  "stem_zh": "变压器次级为 4 欧姆，给出了次级匝数（初级 400 匝，次级 20 匝）。\n初级阻抗是多少？\n",
+  "ans_zh": "1600 Ω",
+  "com_zh": "变比为 1/20（初级匝数是次级的 20 倍），\nZp = 4 / (1/ 20)² = 4 x 20² = 4 x 400 = 1600 Ω\n",
+  "anchor": "T031b"
+ },
+ {
+  "num": "20796",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUELLE MODULATION NECESSITE UN DETECTEUR DE PRODUIT ?",
+  "options": [
+   "BLU",
+   "FM",
+   "AM",
+   "PM"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "BLU",
+  "commentaire_fr": "Le détecteur de produit est associé à un oscillateur de battement de fréquence (BFO en anglais) pour démoduler la BLU ou la CW.\n",
+  "stem_zh": "哪种调制需要乘积检波器？",
+  "ans_zh": "BLU（单边带）",
+  "com_zh": "乘积检波器与拍频振荡器（英文 BFO）配合，用于解调 BLU 或 CW。\n",
+  "anchor": "T126h"
+ },
+ {
+  "num": "20798",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "PERIODE D'UN SIGNAL DE 1000 HZ",
+  "options": [
+   "0,01 s",
+   "10000 µs",
+   "1 ms",
+   "0,1 s"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1 ms",
+  "commentaire_fr": "t = 1/ F = 1 / 1000 = 0,001 s = 1 ms\n",
+  "stem_zh": "1000 Hz 信号的周期",
+  "ans_zh": "1 ms",
+  "com_zh": "t = 1/ F = 1 / 1000 = 0.001 s = 1 ms\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20801",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA VALEUR DE LA RESISTANCE A METTRE EN SERIE AVEC UN VOLTMETRE CALIBRE A 10 V DE 2000 OHMS/V POUR OBTENIR UN VOLTMETRE DONT LE CALIBRE EST DE 500 V ?",
+  "options": [
+   "500 kΩ",
+   "980 kΩ",
+   "98 MΩ",
+   "20 kΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "980 kΩ",
+  "commentaire_fr": "UR = Ucalibre – Uvoltmètre = 500 – 10 = 490 V ; IR = Ig = 1/2000 = 0,0005 A ; R = U / I = 490/0,0005 = 980.000 Ω = 980 kΩ. \nAutre méthode : tension à chuter = 500 – 10 = 490 V ; 490 V x 2000 Ω/V = 980 000 Ω = 980 kΩ\n",
+  "stem_zh": "一只量程为 10 V、灵敏度为 2000 Ω/V 的电压表，要串联多大电阻才能得到量程为 500 V 的电压表？",
+  "ans_zh": "980 kΩ",
+  "com_zh": "UR = U量程 – U电压表 = 500 – 10 = 490 V ；IR = Ig = 1/2000 = 0.0005 A ；R = U / I = 490/0.0005 = 980.000 Ω = 980 kΩ。\n另一种方法：需降落的电压 = 500 – 10 = 490 V ；490 V x 2000 Ω/V = 980 000 Ω = 980 kΩ\n",
+  "anchor": "T035a"
+ },
+ {
+  "num": "20802",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA AVEC CIRCUIT LC SERIE : 1600 MICROH ET 400 PICOF , FREQUENCE DE RESONANCE ?",
+  "options": [
+   "4 MHz",
+   "800 kHz",
+   "200 kHz",
+   "2 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "200 kHz",
+  "commentaire_fr": "Réponse avec la formule simplifiée : F(MHz) = 160 / √ (L en µH x C en pF) \n= 160 / √ (1600 x 400) = 160 / (40 x 20) = 160 / 800 = 0,2 MHz = 200 kHz\n",
+  "stem_zh": "串联 LC 电路图：1600 微亨和 400 皮法，谐振频率是多少？",
+  "ans_zh": "200 kHz",
+  "com_zh": "用简化公式解答：F(MHz) = 160 / √ (L 以 µH 计 x C 以 pF 计) \n= 160 / √ (1600 x 400) = 160 / (40 x 20) = 160 / 800 = 0.2 MHz = 200 kHz\n",
+  "anchor": "T043a"
+ },
+ {
+  "num": "20805",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "SCHEMA AVEC UNE SINUSOIDE ET UEFF (10 V), UMAX = ?",
+  "options": [
+   "7,1 V",
+   "14,1 V",
+   "20 V",
+   "24,2 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "14,1 V",
+  "commentaire_fr": "Umax = Ueff x 1,414 = 10 x 1,414 = 14,1 V\n",
+  "stem_zh": "图中有一条正弦曲线和 Ueff（10 V），Umax = ？",
+  "ans_zh": "14.1 V",
+  "com_zh": "Umax = Ueff x 1.414 = 10 x 1.414 = 14.1 V\n",
+  "anchor": "T022b"
+ },
+ {
+  "num": "20806",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE AVEC : MICRO, AF, SEPARATEUR, MODULATEUR EQUILIBRE, FILTRE. TYPE D'EMETTEUR ?",
+  "options": [
+   "BLU",
+   "AM",
+   "FM",
+   "PM"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "BLU",
+  "commentaire_fr": "L’indice qui permet de choisir la BLU est l’étage « modulateur équilibré » spécifique à cette modulation. Il s'agit bien entendu d'un synoptique partiel puisqu'il manque notamment l'oscillateur (relié au modulateur équilibré), la ligne d'amplification (à la suite du filtre) et l'antenne.\n",
+  "stem_zh": "方框图：话筒、AF、隔离器、平衡调制器、滤波器。这是哪种发射机？",
+  "ans_zh": "BLU（单边带）",
+  "com_zh": "选择 BLU 的线索是「平衡调制器」这一为这种调制所特有的级。当然这是一张局部方框图，因为还缺少振荡器（接到平衡调制器上）、放大链路（在滤波器之后）和天线。\n",
+  "anchor": "T126d"
+ },
+ {
+  "num": "20807",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCUL DU TAUX DE DISTORSION TOTAL AVEC UN GRAPHIQUE MONTRANT DIFFERENTES TENSIONS (SANS FREQUENCES) : 10, 4 ET 2 VOLTS\n",
+  "options": [
+   "25 %",
+   "44,7 %",
+   "60 %",
+   "30 %"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "44,7 %",
+  "commentaire_fr": "le TDH total est égal à : racine (4² + 2²) / 10 = racine(20) / 10 \n= 4,472/10 = 0,447 = 44,7%\n",
+  "stem_zh": "根据一张只给出不同电压（未给频率）的图计算总失真率：10、4 和 2 伏\n",
+  "ans_zh": "44.7 %",
+  "com_zh": "总 TDH 等于：√ (4² + 2²) / 10 = √(20) / 10 \n= 4.472/10 = 0.447 = 44.7%\n",
+  "anchor": "T074b2"
+ },
+ {
+  "num": "20809",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCUL D'UN TAUX DE DISTORSION DE L'HARMONIQUE 3 AVEC UN GRAPHIQUE MONTRANT DIFFERENTES TENSIONS : 10 POUR 0,5 ; 8 POUR 1 ; 4 POUR 1,5 ET 2 POUR 2\n",
+  "options": [
+   "80 %",
+   "20 %",
+   "30 %",
+   "40 %"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "40 %",
+  "commentaire_fr": "TDH de l’harmonique 3 : on compare donc les tensions de F1 (0,5)  et F3 (1,5) ; \nTDH = 4 / 10 x 100 = 40%\n",
+  "stem_zh": "根据一张给出不同电压的图计算 3 次谐波的失真率：0.5 对应 10 ；1 对应 8 ；1.5 对应 4 ；2 对应 2",
+  "ans_zh": "40 %",
+  "com_zh": "3 次谐波的 TDH：即比较 F1（0.5）与 F3（1.5）的电压 ；\nTDH = 4 / 10 x 100 = 40%\n",
+  "anchor": "T074b2"
+ },
+ {
+  "num": "20811",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE EST L'UTILITE D'UN ONDEMETRE ?",
+  "options": [
+   "Il mesure avec précision la puissance de sortie de l'émetteur",
+   "Il indique la fréquence de résonance d'un circuit ",
+   "Il mesure avec précision la force du champ électromagnétique",
+   "Il mesure la fréquence avec précision"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Il indique la fréquence de résonance d'un circuit ",
+  "commentaire_fr": "Question issue du programme de l’examen canadien ! \nPour rappel, un ondemètre (ou dip-mètre) est un ancien appareil constitué d’un circuit LC à bobine interchangeable et muni d’un voltmètre. Lorsque la fréquence du signal à mesurer (qui doit être suffisamment puissante) coïncide avec la fréquence de résonance du circuit LC, le voltmètre indique un pic très net (le « dip ») mais ce n’est pas précis ni pour la fréquence du signal mesuré ni pour la puissance de celui-ci.\n",
+  "stem_zh": "栅陷表（ondemètre）有什么用？",
+  "ans_zh": "指示电路的谐振频率",
+  "com_zh": "这道题来自加拿大考试大纲！\n提醒一下，栅陷表（或称 dip-mètre）是一种老式仪器，由一个可更换线圈的 LC 电路加上一只电压表构成。当待测信号（必须足够强）的频率与 LC 电路的谐振频率一致时，电压表会显示一个非常明显的尖峰（「dip」），但无论对待测信号的频率还是其功率，它都不精确。\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20819",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN CIRCUIT RLC SERIE AVEC L = 50 MICROH, R = 8 OHMS ET C = 100 PF. IMPEDANCE A LA RESONANCE ?",
+  "options": [
+   "zéro",
+   "4 Ω",
+   "8 Ω",
+   "infinie"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "8 Ω",
+  "commentaire_fr": "Z = R, attention à la présentation de la bobine et du condensateur pas très conventionnelle...\n",
+  "stem_zh": "串联 RLC 电路图，L = 50 微亨，R = 8 欧姆，C = 100 pF。谐振时的阻抗是多少？",
+  "ans_zh": "8 Ω",
+  "com_zh": "Z = R，注意线圈和电容器的画法不太规范……\n",
+  "anchor": "T044a2"
+ },
+ {
+  "num": "20822",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "LA FREQUENCE IMAGE",
+  "options": [
+   "est générée par le récepteur ",
+   "vaut 3 fois la FI",
+   "vaut deux fois la FI",
+   "est un harmonique pair de la fréquence à recevoir"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "est générée par le récepteur ",
+  "commentaire_fr": "",
+  "stem_zh": "镜像频率",
+  "ans_zh": "由接收机产生",
+  "com_zh": "",
+  "anchor": "T113"
+ },
+ {
+  "num": "20828",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE EST L'EXCURSION D'UN SIGNAL FM DONT ON DOUBLE LA FREQUENCE ?",
+  "options": [
+   "l’excursion reste identique ",
+   "l’excursion est divisée par deux",
+   "l’excursion double aussi ",
+   "l’excursion dépend de la fréquence du signal modulant"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "l’excursion double aussi ",
+  "commentaire_fr": "L'excursion (écart entre la fréquence centrale et une des fréquences extrêmes) est doublée. De même,  l'indice de modulation (rapport entre l'excursion et la fréquence BF maximum) est doublé.\n",
+  "stem_zh": "对频率加倍的 FM 信号，其频偏如何？",
+  "ans_zh": "频偏也加倍",
+  "com_zh": "频偏（中心频率与其中一个极端频率之间的间隔）加倍。同样，调制指数（频偏与最大音频频率之比）也加倍。\n",
+  "anchor": "T076"
+ },
+ {
+  "num": "20829",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "ETENDUE DES ONDES UHF ?",
+  "options": [
+   "300 kHz à 3 MHz",
+   "300 MHz à 3 GHz",
+   "3 à 30 MHz",
+   "30 à 300 MHz "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "300 MHz à 3 GHz",
+  "commentaire_fr": "",
+  "stem_zh": "UHF 波的频率范围？",
+  "ans_zh": "300 MHz 至 3 GHz",
+  "com_zh": "",
+  "anchor": "T092c"
+ },
+ {
+  "num": "20832",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN AMPLI OP INVERSEUR AVEC R= 100 OHMS EN ENTREE ET R = 500 OHMS EN CONTRE-REACTION. QUEL EST LE GAIN ?",
+  "options": [
+   "-0,2",
+   "+0,2",
+   "-5",
+   "+5"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "-5",
+  "commentaire_fr": "G = - R2 / R1 = -500 / 100 = -5\n",
+  "stem_zh": "反相运算放大器电路图，输入端 R = 100 欧姆，反馈电阻 R = 500 欧姆。增益是多少？",
+  "ans_zh": "-5",
+  "com_zh": "G = - R2 / R1 = -500 / 100 = -5\n",
+  "anchor": "T082b"
+ },
+ {
+  "num": "20835",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QU'EST-CE QUI SE PASSE SI LE SIGNAL D'ENTREE D'UN MELANGEUR EST D'AMPLITUDE TROP ELEVEE ?",
+  "options": [
+   "Le mélangeur tombe en suppression",
+   "Il se produit une limitation automatique",
+   "Une fréquence de battement est produite",
+   "Il y a production de signaux indésirables "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Il y a production de signaux indésirables ",
+  "commentaire_fr": "Un mélangeur reçoit deux entrées qui  se combinent pour produire deux nouvelles fréquences en sortie: la somme des fréquences d'entrée et la différence entre les entrées. Si le mélangeur est poussé au-delà de sa plage d'opération normale par des signaux trop forts, des signaux indésirables seront aussi produits.\n",
+  "stem_zh": "如果混频器的输入信号幅度过高会发生什么？",
+  "ans_zh": "会产生无用信号",
+  "com_zh": "混频器有两个输入，它们组合后在输出端产生两个新频率：输入频率之和与输入频率之差。如果混频器被过强的信号推离正常工作范围，还会产生无用信号。\n",
+  "anchor": "T077c"
+ },
+ {
+  "num": "20836",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "IL EST FAUX DE DIRE QU'UN MELANGEUR NE PRODUIT PAS",
+  "options": [
+   "F1 + F2",
+   "F1 x F2",
+   "F1 / F2",
+   "aucune de ces combinaisons"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "F1 + F2",
+  "commentaire_fr": "attention à la tournure de la phrase qui revient à demander ce que l’on trouve à la sortie d’un mélangeur…\n",
+  "stem_zh": "下列说法是错误的：混频器不产生",
+  "ans_zh": "F1 + F2",
+  "com_zh": "注意这句话的句式，它实际上等于问：混频器的输出端有什么……\n",
+  "anchor": "T077a"
+ },
+ {
+  "num": "20838",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA DUREE D'UN SIGNAL SINUSOIDAL DURANT 2,5 PERIODES DONT LA FREQUENCE EST DE 14 KHZ ?",
+  "options": [
+   "29 µs",
+   "71 µs",
+   "179 µs",
+   "5,6 ms"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "179 µs",
+  "commentaire_fr": "t = 1/ F = 1 / 14000 = 7,14 x 10^-5 (soit 71 µs) ; \ndurée du signal = 2,5 t = 2,5 x 7,14 x 10^-5  = 1,79 x 10^-4 = 179 µs\n",
+  "stem_zh": "频率为 14 kHz 的正弦信号持续 2.5 个周期，其时长是多少？",
+  "ans_zh": "179 µs",
+  "com_zh": "t = 1/ F = 1 / 14000 = 7.14 x 10^-5（即 71 µs）；\n信号时长 = 2.5 t = 2.5 x 7.14 x 10^-5 = 1.79 x 10^-4 = 179 µs\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20839",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUE MESURE-T-ON AVEC UN VOLTMETRE ?",
+  "options": [
+   "Ucàc",
+   "Ucrête",
+   "Ueff",
+   "Umoyen"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Umoyen",
+  "commentaire_fr": "Un voltmètre est bâti autour d’un galvanomètre qui, lui-même, ne peut mesurer que des valeurs moyennes (à cause notamment de son inertie mécanique). En revanche, en présence de courant sinusoïdal, pour éviter de lire une tension moyenne nulle, il faudra ajouter une diode en série pour redresser le courant et utiliser une échelle de lecture adaptée indiquant la valeur efficace de la mesure.\n",
+  "stem_zh": "用电压表测量的是什么？",
+  "ans_zh": "平均电压 U",
+  "com_zh": "电压表是围绕检流计构成的，而检流计本身只能测量平均值（尤其是由于它的机械惯性）。不过在正弦电流的情况下，为了避免读到零的平均电压，需要在电路中串联一只二极管以整流，并采用相应的读数刻度显示测量的有效值。\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20840",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "ZE = 50 OHMS ; ZS = 100 OHMS. QUEL EST LE ROS ?",
+  "options": [
+   "2/1",
+   "1/2",
+   "50%",
+   "200%"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "2/1",
+  "commentaire_fr": "ROS = Z plus forte / Z plus faible = 100 / 50 = 2/1\n",
+  "stem_zh": "ZE = 50 欧姆 ；ZS = 100 欧姆。ROS 是多少？",
+  "ans_zh": "2/1",
+  "com_zh": "ROS = 较大阻抗 / 较小阻抗 = 100 / 50 = 2/1\n",
+  "anchor": "T103b2"
+ },
+ {
+  "num": "20844",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "REPRESENTATION EN DESSIN (SCHEMA) DE TROIS LAMPES : QUEL EST LE NOM DE CES COMPOSNATS ?",
+  "options": [
+   "1 triode ; 2 tétrode ; 3 pentode ",
+   "1 pentode ; 2 tétrode ; 3 triode",
+   "1 cathode ; 2 anode ; 3 grille",
+   "1 diode ; 2 triac ; 3 thyristor"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1 triode ; 2 tétrode ; 3 pentode ",
+  "commentaire_fr": "",
+  "stem_zh": "三只电子管的图示（电路符号）：这些元件叫什么？",
+  "ans_zh": "1 三极管；2 四极管；3 五极管",
+  "com_zh": "",
+  "anchor": "T066a"
+ },
+ {
+  "num": "20848",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL COMPOSANT EST ABSENT DE CETTE ALIMENTATION EN COURANT CONTINU ?",
+  "options": [
+   "filtre à condensateur ",
+   "diode",
+   "filtre à inductance",
+   "filtre bouchon"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "filtre à condensateur ",
+  "commentaire_fr": "Il manque le condensateur monté en parallèle sur la sortie qui filtre l’alternance positive à la sortie de la diode. Les puristes feront remarquer que l’on peut aussi employer un filtre à inductance (en série avec la diode) mais sa valeur risque d’être prohibitive surtout si le circuit débite peu de courant.\n",
+  "stem_zh": "这个直流电源中缺少哪个元件？",
+  "ans_zh": "电容滤波器",
+  "com_zh": "缺少并联在输出端的电容器，它用于滤除二极管输出端的正半周。严格来说也可以使用电感滤波器（与二极管串联），但其数值可能大到无法接受，尤其在电路输出电流很小时。\n",
+  "anchor": "T054a"
+ },
+ {
+  "num": "20849",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR D'UN RESEAU  R 300 OHMS EN SERIE AVEC  2 RESISTANCES EN PARALLELE DE 10 KOHMS ET 15 KOHMS",
+  "options": [
+   "306 kΩ",
+   "25,3 kΩ",
+   "6,3 kΩ",
+   "6 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "6,3 kΩ",
+  "commentaire_fr": "Résiatnces en parallèle : produit / somme = (10 x 15) / (10 + 15) = 150 / 25 =  6 kΩ\nRT = 6 kΩ + 300 Ω = 6,3 kΩ\n",
+  "stem_zh": "一个由 300 欧姆电阻与两只并联电阻（10 kΩ 和 15 kΩ）串联组成的网络，其阻值是多少？",
+  "ans_zh": "6.3 kΩ",
+  "com_zh": "并联电阻：积/和 = (10 x 15) / (10 + 15) = 150 / 25 = 6 kΩ\nRT = 6 kΩ + 300 Ω = 6.3 kΩ\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20852",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SCHEMA D'UN EMETTEUR FM OU IL FALLAIT RETROUVER LE MULTIPLICATEUR",
+  "options": [
+   "discriminateur",
+   "multiplicateur",
+   "CAG",
+   "silencieux"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "multiplicateur",
+  "commentaire_fr": "Il s’agit d’un émetteur FM du fait de la présence d’un VCXO, oscillateur contrôlé en tension pouvant générer de la FM. L’étage manquant ne peut être que le multiplicateur, les autres étages étant tous relatifs à des récepteurs (FM pour le discriminateur et le silencieux ou AM pour la CAG. \nLe HP à la place du microphone déroutera les candidats mais reste correct car on peut se servir d’un HP à la place d’un micro (principe du micro dynamique)\n",
+  "stem_zh": "FM 发射机电路图，需要找出倍频器",
+  "ans_zh": "倍频器",
+  "com_zh": "这是一台 FM 发射机，因为有 VCXO（压控振荡器，可产生调频）。缺少的级只能是倍频器，因为其他各级都只与接收机有关（鉴频器和静噪用于 FM，CAG 用于 AM）。\n话筒位置上放扬声器会让考生迷惑，但这没错，因为可以用扬声器代替话筒（动圈话筒的原理）\n",
+  "anchor": "T124"
+ },
+ {
+  "num": "20853",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL ELEMENT PEUT CONDUIRE L'ELECTRICITE ?",
+  "options": [
+   "transistor PNP",
+   "transistor NPN",
+   "transistor PPP ",
+   "transistor ABB"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "transistor PPP ",
+  "commentaire_fr": "Bien que le transistor PPP n’existe pas en tant que tel, cela pourrait représenter un barreau P (comme dans un transistor à effet de champ JFET). Un transistor bipolaire (NPN ou PNP) n’est conducteur que dans certaines conditions (notamment présence d’un courant de base) et le transistor ABB n’existe pas.\n",
+  "stem_zh": "哪个元件能导电？",
+  "ans_zh": "PPP 晶体管",
+  "com_zh": "虽然 PPP 晶体管并不真实存在，但它可能代表一块 P 型半导体棒（如 JFET 场效应管中那样）。双极型晶体管（NPN 或 PNP）只在某些条件下导电（尤其是有基极电流时），而 ABB 晶体管并不存在。\n",
+  "anchor": "T064a"
+ },
+ {
+  "num": "20854",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "APPAREIL UTILISE POUR MESURER LA BANDE OCCUPEE EN EMISSION :",
+  "options": [
+   "ondemètre",
+   "fréquencemètre",
+   "voltmètre numérique",
+   "analyseur de spectre"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "analyseur de spectre",
+  "commentaire_fr": "",
+  "stem_zh": "用于测量发射占用带宽的仪器：",
+  "ans_zh": "频谱分析仪",
+  "com_zh": "",
+  "anchor": "T121b"
+ },
+ {
+  "num": "20855",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "CALCUL QC = I(AMP) X TEMPS 5 MA ET 1 HEURE",
+  "options": [
+   "18 C",
+   "1 C",
+   "90 C",
+   "1000 C"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "18 C",
+  "commentaire_fr": "Q = I x t = 0,005 A x 3600 s = 18 C. \nLa valeur de la tension aux bornes de la résistance ne sert à rien.\n",
+  "stem_zh": "计算 Q，Q = I（安培）x 时间，5 mA 和 1 小时",
+  "ans_zh": "18 C",
+  "com_zh": "Q = I x t = 0.005 A x 3600 s = 18 C。\n电阻两端的电压数值没有用处。\n",
+  "anchor": "T013a"
+ },
+ {
+  "num": "20856",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE EST LA FREQUENCE A LA SORTIE DU MELANGEUR ? \nF1 = 10 MHZ ET F2 = 15 MHZ",
+  "options": [
+   "5 kHz",
+   "25 MHz",
+   "150 MHz",
+   "20 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "25 MHz",
+  "commentaire_fr": "A la sortie de ce mélangeur, on trouve les fréquences 5 et 25 MHz (15 - 10 et 15 + 10)\n",
+  "stem_zh": "混频器输出端的频率是多少？\nF1 = 10 MHz，F2 = 15 MHz",
+  "ans_zh": "25 MHz",
+  "com_zh": "这个混频器的输出端有 5 和 25 MHz（15 - 10 和 15 + 10）\n",
+  "anchor": "T077b"
+ },
+ {
+  "num": "20858",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA GAMMES DES ONDES EHF ?",
+  "options": [
+   "1 à 1 cm",
+   "10 cm à 1 m",
+   "1 à 10 m",
+   "1 à 10 mm "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1 à 10 mm ",
+  "commentaire_fr": "Les EHF vont de 30 à 300 GHz, soit une longueur d’onde 1 à 10 mm. Ce sont les ondes millimétriques.\n",
+  "stem_zh": "EHF 波段的界限是什么？",
+  "ans_zh": "1 至 10 mm",
+  "com_zh": "EHF 为 30 至 300 GHz，即波长 1 至 10 mm。这就是毫米波。\n",
+  "anchor": "T092c"
+ },
+ {
+  "num": "20860",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "COMMENT SE COMPORTENT LES ONDES SUR LA BANDE DES 80 METRES ?",
+  "options": [
+   "ondes de sol",
+   "ondes réfléchies ",
+   "ondes directes",
+   "ondes stationnaires"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "ondes réfléchies ",
+  "commentaire_fr": "La propagation en ondes réfléchies est le mode de propagation privilégié. Bien entendu, à courte distance, les ondes de sol et les ondes directes fonctionnent aussi.\n",
+  "stem_zh": "在 80 米波段上电波如何传播？",
+  "ans_zh": "反射波（天波）",
+  "com_zh": "反射波传播是主要的传播方式。当然，在近距离上，地波和直接波也起作用。\n",
+  "anchor": "T093"
+ },
+ {
+  "num": "20861",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST L'AFFIRMATION FAUSSE ?",
+  "options": [
+   "dans le sens passant, la cathode d’une diode est reliée au -",
+   "dans le sens passant, une diode a une très faible résistance",
+   "le sens non passant d’une diode est P>N ",
+   "la tension de seuil d’une diode silicium est d'environ 0,7 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "le sens non passant d’une diode est P>N ",
+  "commentaire_fr": "Bien lire les réponses ! Et la question...\n",
+  "stem_zh": "哪种说法是错误的？",
+  "ans_zh": "二极管的非导通方向是 P > N",
+  "com_zh": "要仔细读答案！还有题目……\n",
+  "anchor": "T051"
+ },
+ {
+  "num": "20863",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUEL TERME DECRIT LA VITESSE DES CHARGE ELECTRIQUES DANS UN CIRCUIT ?",
+  "options": [
+   "vélocité",
+   "tension",
+   "résistance",
+   "puissance"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "vélocité",
+  "commentaire_fr": "La vélocité est le rapport (en %) de la vitesse de déplacement des charges électriques dans un corps ou un environnement par rapport à leur vitesse dans le vide.\n",
+  "stem_zh": "哪个术语描述电路中电荷的速度？",
+  "ans_zh": "vélocité（速度）",
+  "com_zh": "vélocité 是电荷在某一物体或环境中的移动速度与其在真空中速度之比（以百分比表示）。\n",
+  "anchor": "T102b"
+ },
+ {
+  "num": "20865",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE CLASSE D'AMPLIFICATION A LA TENSION DE REPOS LA PLUS BASSE ?",
+  "options": [
+   "Classe A",
+   "Classe B",
+   "Classe C",
+   "Classe D"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Classe C",
+  "commentaire_fr": "La tension de repos de la classe C est négative puisque ce ne sont que les pointes de la période positive du signal qui sont amplifiées.\n",
+  "stem_zh": "哪一类放大的静态（无信号）电压最低？",
+  "ans_zh": "C 类",
+  "com_zh": "C 类的静态电压是负的，因为只有信号正半周的尖峰被放大。\n",
+  "anchor": "T071a3"
+ },
+ {
+  "num": "20866",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "IMPEDANCE D'UN 1/4 D'ONDE POUR ADAPTER 100 OHMS ET 30 OHMS ?",
+  "options": [
+   "70 Ω",
+   "65 Ω",
+   "33 Ω",
+   "55 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "55 Ω",
+  "commentaire_fr": "Zcâble = racine (Ze x Zs) = racine (100 x 30) = racine (3000) = 54,77 arrondi à 55  Ω. Ce câble n'est pas facile à trouver dans le commerce !\n",
+  "stem_zh": "用于把 100 欧姆与 30 欧姆匹配的四分之一波长线的阻抗是多少？",
+  "ans_zh": "55 Ω",
+  "com_zh": "Zcâble = √ (Ze x Zs) = √ (100 x 30) = √ (3000) = 54.77，取整为 55 Ω。这种电缆在市面上可不容易找到！\n",
+  "anchor": "T104a2"
+ },
+ {
+  "num": "20869",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR EQUIVALENTE D'UN RESEAU  R 8 KOHMS EN SERIE AVEC 2 R PARALLELES DE 10 ET 30 OHMS",
+  "options": [
+   "15,5 kΩ",
+   "8040 Ω",
+   "3,87 kΩ",
+   "8007 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "8007 Ω",
+  "commentaire_fr": "groupe de résistances en parallèle : produit / somme = (10 x 30) / (10 + 30) = 300 / 40 =  7,5  Ω ;\nRT = 8 kΩ + 7,5 Ω = 8007 Ω (arrondi)\n",
+  "stem_zh": "由 8 kΩ 电阻与两只并联电阻（10 和 30 欧姆）串联组成的网络的等效值",
+  "ans_zh": "8007 Ω",
+  "com_zh": "并联电阻组：积/和 = (10 x 30) / (10 + 30) = 300 / 40 = 7.5 Ω ；\nRT = 8 kΩ + 7.5 Ω = 8007 Ω（取整）\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20870",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUE DOIT-ON AJOUTER A UN CONDENSATEUR DE 10 PF POUR OBTENIR 25 PF ?",
+  "options": [
+   "ajouter un condensateur de 15 pF en série",
+   "ajouter un condensateur de 15 pF en parallèle ",
+   "ajouter un condensateur de 9 pF en parallèle",
+   "ajouter un condensateur de 9 pF en série"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "ajouter un condensateur de 15 pF en parallèle ",
+  "commentaire_fr": "",
+  "stem_zh": "要在 10 pF 电容器上加什么才能得到 25 pF？",
+  "ans_zh": "并联一只 15 pF 电容器",
+  "com_zh": "",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20872",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SOIT UN SIGNAL DE 10 MICROVOLTS SUR UNE ANTENNE DONT LE GAIN EST DE 24 DB. QUELLE EST LA TENSION PRESENTE A L'ENTREE DU RECEPTEUR ?",
+  "options": [
+   "120 µV",
+   "160 µV",
+   "40 µV",
+   "20 µV"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "160 µV",
+  "commentaire_fr": "Rapport de tension correspondant à 24 dB = 10^(24/20) = 15,8 arrondi à 16 ; tension = 10 µV x 16 = 160 µV\n",
+  "stem_zh": "假设天线上有 10 微伏的信号，天线增益为 24 dB。接收机输入端的电压是多少？",
+  "ans_zh": "160 µV",
+  "com_zh": "24 dB 对应的电压比 = 10^(24/20) = 15.8，取整为 16 ；电压 = 10 µV x 16 = 160 µV\n",
+  "anchor": "T041f"
+ },
+ {
+  "num": "20878",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "GENERALEMENT, ON RETROUVE DES OSCILLATIONS PARASITES :",
+  "options": [
+   "Dans les étages de sortie audio à gain élevé",
+   "Dans les amplificateurs de puissance HF ",
+   "Dans un redresseur HT",
+   "Dans les étages mélangeurs"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Dans les amplificateurs de puissance HF ",
+  "commentaire_fr": "Pas facile de choisir entre « amplificateurs de puissance HF » et « mélangeurs » car ces deux étages peuvent générer des distorsions (appelées ici « oscillations parasites »). En règle générale, le problème vient plutôt d’un manque de linéarité des amplificateurs de puissance. Les mélanges « parasites » (du troisième ordre par exemple) sont moins communs.\n",
+  "stem_zh": "通常，寄生振荡出现在：",
+  "ans_zh": "在高频功率放大器中",
+  "com_zh": "在「高频功率放大器」和「混频器」之间不容易选择，因为这两级都可能产生失真（此处称为「寄生振荡」）。一般来说，问题更多来自功率放大器的非线性。而「寄生」混频（例如三阶产物）较少见。\n",
+  "anchor": "T074"
+ },
+ {
+  "num": "20879",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "COMPOSANT NE FIGURANT PAS DANS UN BLOC D'ALIMENTATION ?",
+  "options": [
+   "Filtre à condensateur ",
+   "Filtre à inductance",
+   "Une bobine ",
+   "Une diode"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Une bobine ",
+  "commentaire_fr": "Les 4 réponses peuvent se trouver dans un bloc alimentation ! \nMais, puisqu'il y a un choix à faire, je choisirai la bobine (qui, seule, ne peut servir de filtre RL) mais sans grande conviction…\n",
+  "stem_zh": "电源模块中不会出现的元件？",
+  "ans_zh": "一只线圈",
+  "com_zh": "这 4 个答案都可能出现在电源模块中！\n但既然必须选一个，我就选线圈（单独一只线圈不能用作 RL 滤波器），不过也没什么把握……\n",
+  "anchor": "T054a"
+ },
+ {
+  "num": "20880",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "INTERET D'UN FACTEUR DE BRUIT FAIBLE DANS UN RECEPTEUR ?",
+  "options": [
+   "augmente la bande passante",
+   "diminue les interférences",
+   "supprime la fréquence image",
+   "augmente la sensibilité "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "augmente la sensibilité ",
+  "commentaire_fr": "La sensibilté d'un récepteur est sa faculté de recevoir des signaux faibles. Cette faculté requiert des étages à faible bruit, c'est à dire le plus linéaire possible.\n",
+  "stem_zh": "接收机中低噪声系数的意义？",
+  "ans_zh": "提高灵敏度",
+  "com_zh": "接收机的灵敏度是它接收弱信号的能力。这种能力要求各级噪声很低，也就是尽可能线性。\n",
+  "anchor": "T117e"
+ },
+ {
+  "num": "20882",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QU'EST CE QUI DETERMINE LA VALEUR D'UN CONDENSATEUR ?\n  1) L'EPAISSEUR DU DIELECTRIQUE\n  2) LA NATURE DU DIELECTRIQUE\n  3) LA DISTANCE ENTRE LES ARMATURES \n  4) LA FREQUENCE",
+  "options": [
+   "2, 3 et 4",
+   "1, 2, et 3 ",
+   "1, 2 et 4",
+   "2 et 3"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1, 2, et 3 ",
+  "commentaire_fr": "L’épaisseur du diélectrique et la distance entre les armatures signifie la même chose.\n",
+  "stem_zh": "什么决定电容器的数值？\n  1) 电介质的厚度\n  2) 电介质的性质\n  3) 极板之间的距离\n  4) 频率",
+  "ans_zh": "1、2 和 3",
+  "com_zh": "电介质的厚度与极板之间的距离是同一回事。\n",
+  "anchor": "T023c3"
+ },
+ {
+  "num": "20887",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : MARRON, JAUNE, BLEU, OR",
+  "options": [
+   "1,4 MΩ",
+   "1,5 MΩ",
+   "15 MΩ",
+   "14 MΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "14 MΩ",
+  "commentaire_fr": "Marron = 1 ; Jaune = 4 ; Bleu = 6 ; donc 14 x 10^6 = 14 000 000 = 14 MΩ\n",
+  "stem_zh": "4 环电阻的图示：棕、黄、蓝、金",
+  "ans_zh": "14 MΩ",
+  "com_zh": "棕 = 1 ；黄 = 4 ；蓝 = 6 ；因此 14 x 10^6 = 14 000 000 = 14 MΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20888",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SCHEMA AVEC UN MELANGEUR ; A DROITE (1ERE ENTREE) = 650 KHZ ; EN DESSOUS (2EME ENTREE) = 1,1 MHZ. \"QUELLE EST LA FREQUENCE IMAGE ?\"",
+  "options": [
+   "450 kHz",
+   "1550 kHz",
+   "1,75 MHz",
+   "2 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1550 kHz",
+  "commentaire_fr": "étape n° 1 : définir les fréquences FI possibles : 1750 (650 + 1100) et 450 (1100 - 650). \nétape n°2 : calculer les fréquences images pour ces deux cas : \n- avec 1750, Fim = 2850 (2850 - 1100 = 1750) ; \n- avec 450, FIm = 1550 (1550 - 1100 = 450). \nIl y a donc deux réponses possibles : 2850 et 1550 et 2850 n’est pas proposé, il ne reste donc que 1550 kHz.\n",
+  "stem_zh": "电路图中有混频器；右侧（第 1 个输入）= 650 kHz ；下方（第 2 个输入）= 1.1 MHz。「镜像频率是多少？」",
+  "ans_zh": "1550 kHz",
+  "com_zh": "第 1 步：确定可能的中频：1750（650 + 1100）和 450（1100 - 650）。\n第 2 步：计算这两种情况下的镜像频率：\n- 对应 1750 时，Fim = 2850（2850 - 1100 = 1750）；\n- 对应 450 时，FIm = 1550（1550 - 1100 = 450）。\n因此有两个可能答案：2850 和 1550，而 2850 未在选项中给出，所以只剩 1550 kHz。\n",
+  "anchor": "T113a"
+ },
+ {
+  "num": "20889",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST L'ETAGE MANQUANT ?\nMICRO -- ??? - AMPLI RF --- ANTENNE",
+  "options": [
+   "Préaccentuateur",
+   "CAG",
+   "Oscillateur",
+   "Filtre passe bas"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Oscillateur",
+  "commentaire_fr": "La réponse \"Modulateur\" (non proposée ici) aurait pu aussi convenir.\n",
+  "stem_zh": "缺少的是哪一级？\n话筒 -- ??? - RF 放大器 --- 天线",
+  "ans_zh": "振荡器",
+  "com_zh": "「调制器」这个答案（此处未给出）本来也可以。\n",
+  "anchor": "T115"
+ },
+ {
+  "num": "21051",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "VALEUR DE LA RESISTANCE ?\nVERT - JAUNE - ROUGE",
+  "options": [
+   "2.400 Ω",
+   "24.000 Ω",
+   "5.400 Ω",
+   "542 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "5.400 Ω",
+  "commentaire_fr": "Vert : 5\nJaune : 4\nRouge : 2  \n==> 5 4 x 10² = 5.400 Ω  \n",
+  "stem_zh": "电阻的阻值是多少？\n绿 - 黄 - 红",
+  "ans_zh": "5.400 Ω",
+  "com_zh": "绿：5\n黄：4\n红：2  \n==> 5 4 x 10² = 5.400 Ω  \n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "21052",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "QUELLES SONT LES COULEURS DE CETTE RESISTANCE?\n820 OHMS",
+  "options": [
+   "Gris Marron Rouge        ",
+   "Gris Rouge Marron            ",
+   "Marron Rouge Gris            ",
+   "Blanc Rouge Marron            "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Gris Rouge Marron            ",
+  "commentaire_fr": "820 Ω = 8 2 x 10^1 ==> 8 : Gris ; 2 : Rouge ; 1 : Marron  \n",
+  "stem_zh": "这只电阻的色环是什么？\n820 欧姆",
+  "ans_zh": "灰 红 棕",
+  "com_zh": "820 Ω = 8 2 x 10^1 ==> 8：灰 ；2：红 ；1：棕  \n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "21053",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "QUELLES SONT LES COULEURS DE LA RESISTANCE? \nR = 1 KO",
+  "options": [
+   "Noir Marron Orange     ",
+   "Marron Noir Rouge",
+   "Marron Orange Noir     ",
+   "Marron Orange Argent"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Marron Noir Rouge",
+  "commentaire_fr": "1 kΩ = 1000 Ω = 1 0 x 10²  ==>  1 : Marron ; 0 : Noir ; 2 : Rouge\n",
+  "stem_zh": "这只电阻的色环是什么？\nR = 1 kΩ",
+  "ans_zh": "棕 黑 红",
+  "com_zh": "1 kΩ = 1000 Ω = 1 0 x 10² ==> 1：棕 ；0：黑 ；2：红\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "21070",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "UN FIL DE 2 CM2 DE SECTION A UNE RESISTANCE DE 20 OHMS. \nSI CE FIL, COMPOSE DU MEME MATERIAU, AVAIT UNE SECTION DE 5 CM2, QUELLE SERAIT SA RESISTANCE ?",
+  "options": [
+   "10 Ω",
+   "50 Ω",
+   "5 Ω",
+   "8 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "8 Ω",
+  "commentaire_fr": "La résistance d'un fil est proportionnellement inverse à sa section. Le fil est 2,5 fois plus gros. Sa résistance sera 2,5 fois moindre. 20/2,5 = 8 Ω\n",
+  "stem_zh": "一根截面积为 2 cm² 的导线电阻为 20 欧姆。\n如果这根由相同材料制成的导线截面积为 5 cm²，其电阻将是多少？",
+  "ans_zh": "8 Ω",
+  "com_zh": "导线的电阻与其截面积成反比。这根导线粗了 2.5 倍。其电阻将减小到 1/2.5。20/2.5 = 8 Ω\n",
+  "anchor": "T014a"
+ },
+ {
+  "num": "21079",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA QUANTITE D'ELECTRICITE ?",
+  "options": [
+   "36 C",
+   "540 C",
+   "150 C",
+   "54 C"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "36 C",
+  "commentaire_fr": "10 mA pendant 1 heure = 10 mA x 3600 s = 36 C. \nLa valeur de la résistance ne sert à rien.\n",
+  "stem_zh": "电量是多少？",
+  "ans_zh": "36 C",
+  "com_zh": "10 mA 持续 1 小时 = 10 mA x 3600 s = 36 C。\n电阻的数值没有用处。\n",
+  "anchor": "T013a"
+ },
+ {
+  "num": "21084",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "PULSATION DE CE SIGNAL ?",
+  "options": [
+   "157.000 rad/s           ",
+   "40.000 rad/s             ",
+   "251.300 rad/s",
+   "246.490 rad/s"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "251.300 rad/s",
+  "commentaire_fr": "La période dure 25 µs = 0,000 025 s, la fréquence est donc de :\n1/0,000 025 = 40.000 Hz\nSur cette fréquence, la pulsation est de : 2 x π x F = 6,2832 x 40.000 \n= 251.300 rad/s\n",
+  "stem_zh": "该信号的角频率是多少？",
+  "ans_zh": "251.300 rad/s",
+  "com_zh": "周期为 25 µs = 0.000025 s，因此频率为：1 / 0.000025 = 40.000 Hz。\n在该频率下，角频率为：2 × π × F = 6.2832 × 40.000 = 251.300 rad/s",
+  "anchor": "T021b"
+ },
+ {
+  "num": "21088",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "IMPEDANCE DU CONDENSATEUR ?",
+  "options": [
+   "150 Ω",
+   "24 Ω",
+   "6,6 Ω",
+   "41,7 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "6,6 Ω",
+  "commentaire_fr": "Z(Ω) = 159/(F(MHz) x C(nF)) = 159 / (12 x 2) = 159/24 = 6,625 arrondi à 6,6 Ω\n",
+  "stem_zh": "电容器的阻抗？",
+  "ans_zh": "6.6 Ω",
+  "com_zh": "Z(Ω) = 159/(F(MHz) x C(nF)) = 159 / (12 x 2) = 159/24 = 6.625，取整为 6.6 Ω\n",
+  "anchor": "T023f2"
+ },
+ {
+  "num": "21091",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "COMMENT SE NOMME LA TENSION 75 V ?",
+  "options": [
+   "Ueff",
+   "Umax",
+   "Ucrête",
+   "Ucrête à crête"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Ucrête à crête",
+  "commentaire_fr": "il ne s’agit pas de Umax (ou Ucrête) car la tension de référence (0 V) n’est pas située au milieu de la sinusoïde.\n",
+  "stem_zh": "75 伏这个电压叫什么？",
+  "ans_zh": "峰峰值电压 U",
+  "com_zh": "它不是 Umax（或峰值 U），因为参考电压（0 V）并不位于正弦曲线的中间。\n",
+  "anchor": "T022d"
+ },
+ {
+  "num": "21092",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "INTENSITE EFFICACE ?",
+  "options": [
+   "14 A",
+   "50 mA",
+   "71,4 mA",
+   "0,1 A"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50 mA",
+  "commentaire_fr": "Ueff = Umax x 0,707 = 5 x 0,707 = 3,5 V\nI = U / R = 3,5 V / 70 Ω = 0,05 A = 50 mA\n",
+  "stem_zh": "有效值电流强度？",
+  "ans_zh": "50 mA",
+  "com_zh": "Ueff = Umax x 0.707 = 5 x 0.707 = 3.5 V\nI = U / R = 3.5 V / 70 Ω = 0.05 A = 50 mA\n",
+  "anchor": "T022b"
+ },
+ {
+  "num": "21093",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "INTENSITE MAXIMALE ?",
+  "options": [
+   "4,54 A",
+   "6,43 A",
+   "0,311 A",
+   "0,22 A"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "6,43 A",
+  "commentaire_fr": "P = U x I donc I = P / U = 1000/220 = 4,55 A\nImax = Ieff x 1,414 = 4,55 x 1,414 = 6,43 A\n",
+  "stem_zh": "最大电流强度？",
+  "ans_zh": "6.43 A",
+  "com_zh": "P = U x I，因此 I = P / U = 1000/220 = 4.55 A\nImax = Ieff x 1.414 = 4.55 x 1.414 = 6.43 A\n",
+  "anchor": "T022b"
+ },
+ {
+  "num": "21094",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "EN COMBIEN DE TEMPS LE CONDENSATEUR SERA-T-IL \"REMPLI\" UNE FOIS LE CONTACT ETABLI.",
+  "options": [
+   "150 ms",
+   "750 ms",
+   "450 ms",
+   "15 ms"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "750 ms",
+  "commentaire_fr": "Le condensateur est rempli à plus de 99 % au bout de 5 constantes de temps (T)\nLa constante de temps est calculée comme suit : T(s) = R(Ω) x C(F)\nT = 15.000 Ω x 0,000 010 F = 0,15 s\n5T = 5 x 0,15 = 0,75 s = 750 ms\n",
+  "stem_zh": "接触闭合后，电容器需要多长时间才会「充满」。",
+  "ans_zh": "750 ms",
+  "com_zh": "经过 5 个时间常数（T）后，电容器充电达到 99% 以上。\n时间常数这样计算：T(s) = R(Ω) x C(F)\nT = 15.000 Ω x 0.000 010 F = 0.15 s\n5T = 5 x 0.15 = 0.75 s = 750 ms\n",
+  "anchor": "T024a"
+ },
+ {
+  "num": "21095",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "UNE BOBINE DE 10 MICROHENRYS POSSEDE 8 SPIRES.\nCOMBIEN SE SPIRES POSSEDERA UNE BOBINE DE 40 MICROHENRYS (LES AUTRES PARAMETRES DE LA BOBINE NE CHANGE PAS) ?",
+  "options": [
+   "4",
+   "16",
+   "2",
+   "32"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "16",
+  "commentaire_fr": "L = F x N² x D²\nLa bobine a une valeur 4 fois plus grande, elle devra donc avoir √4 fois plus de spires, soit 2 fois plus = 16 spires\n",
+  "stem_zh": "一个 10 微亨的线圈有 8 匝。一个 40 微亨的线圈将有多少匝（线圈的其他参数不变）？",
+  "ans_zh": "16",
+  "com_zh": "L = F × N² × D²\n线圈的电感值是原来的 4 倍，因此匝数应为 √4 倍，即 2 倍 = 16 匝",
+  "anchor": "T023d4"
+ },
+ {
+  "num": "21098",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "INDUCTANCE EQUIVALENTE",
+  "options": [
+   "4,8 µH",
+   "20 µH",
+   "impossible à calculer",
+   "infinie"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "4,8 µH",
+  "commentaire_fr": "L’indication « les bobines sont blindées » signifie qu’il n’y a pas de mutuelle induction entre les deux bobines. Les calculs se font donc comme pour les résistances. Sans l’indication sur le blindage des bobines, le calcul aurait été impossible à faire.\nL éq = (L1 x L2)/(L1 + L2) = (12 x 8)/(12 + 8) = 96/20 = 4,8 µH\n",
+  "stem_zh": "等效电感",
+  "ans_zh": "4.8 µH",
+  "com_zh": "「线圈是屏蔽的」这一说明意味着两个线圈之间没有互感，因此计算方式与电阻相同。若没有线圈屏蔽这一条件，此题将无法计算。\nL 等效 = (L1 × L2)/(L1 + L2) = (12 × 8)/(12 + 8) = 96/20 = 4.8 µH",
+  "anchor": "T023g1"
+ },
+ {
+  "num": "21100",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "RAPPORT DE TRANSFORMATION ?",
+  "options": [
+   "0,1",
+   "0,15",
+   "5",
+   "10"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "0,1",
+  "commentaire_fr": "N = Us / Up = 15/150 = 0,1\nPar le produit en croix, on retient les couples U et N : Us / Up = N / 1 ; \ndonc N = produit de la 2ème diagonale / valeur opposée = (Us x 1) / Up \n= (1 x 15) / 150 = 0,1\n",
+  "stem_zh": "变换比？",
+  "ans_zh": "0.1",
+  "com_zh": "N = Us / Up = 15/150 = 0.1\n用交叉相乘，记住 U 与 N 的对应关系：Us / Up = N / 1；\n所以 N = 第 2 条对角线的乘积 / 对角的另一项 = (Us × 1) / Up\n= (1 × 15) / 150 = 0.1",
+  "anchor": "T031b"
+ },
+ {
+  "num": "21102",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE NOMBRE DE SPIRES AU SECONDAIRE ?",
+  "options": [
+   "15",
+   "10",
+   "66",
+   "25"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "15",
+  "commentaire_fr": "N = Us/Up = 10/150 = 0,0666\nN = ns/np donc ns = np x N = 225 x 0,0666 = 15\nPar le produit en croix, on retient les couples U et N : Us / Up = N / 1\ndonc N = produit de la 2ème diagonale / valeur opposée = (Up x 1) / Us \n= (150 x 1) / 10 = 15\n",
+  "stem_zh": "次级有多少匝？",
+  "ans_zh": "15",
+  "com_zh": "N = Us/Up = 10/150 = 0.0666\nN = ns/np，所以 ns = np × N = 225 × 0.0666 = 15\n用交叉相乘，记住 U 与 N 的对应关系：Us / Up = N / 1\n所以 N = 第 2 条对角线的乘积 / 对角的另一项 = (Up × 1) / Us\n= (150 × 1) / 10 = 15",
+  "anchor": "T031b"
+ },
+ {
+  "num": "21103",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TENSION AU PRIMAIRE",
+  "options": [
+   "120 V",
+   "60 V",
+   "45 V",
+   "15 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "15 V",
+  "commentaire_fr": "N = ns/np = 120/60 = 2\nUp = Us/N = 30/2 = 15 V\nPar le produit en croix, on retient les couples U et n : Us / Up = ns / np ; \ndonc Up = produit de la 2ème diagonale / valeur opposée = (Us x np) / ns \n= (30 x 60) / 120 = 15\n",
+  "stem_zh": "初级电压",
+  "ans_zh": "15 V",
+  "com_zh": "N = ns/np = 120/60 = 2\nUp = Us/N = 30/2 = 15 V\n用交叉相乘，记住 U 与 n 的对应关系：Us / Up = ns / np；\n所以 Up = 第 2 条对角线的乘积 / 对角的另一项 = (Us × np) / ns\n= (30 × 60) / 120 = 15",
+  "anchor": "T031b"
+ },
+ {
+  "num": "21106",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "RAPPORT DE TRANSFORMATION ?",
+  "options": [
+   "3",
+   "5",
+   "1,4",
+   "0,6"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "0,6",
+  "commentaire_fr": "N = Ip / Is = 3/5 = 0,6\nPar le produit en croix, on retient les couples I et N : Ip / Is = N / 1 ; \ndonc N = produit de la 2ème diagonale / valeur opposée = (Ip x 1) / Is \n= (3 x 1) / 5 = 0,6\n",
+  "stem_zh": "变换比？",
+  "ans_zh": "0.6",
+  "com_zh": "N = Ip / Is = 3/5 = 0.6\n用交叉相乘，记住 I 与 N 的对应关系：Ip / Is = N / 1；\n所以 N = 第 2 条对角线的乘积 / 对角的另一项 = (Ip × 1) / Is\n= (3 × 1) / 5 = 0.6",
+  "anchor": "T031b"
+ },
+ {
+  "num": "21107",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TENSION AU PRIMAIRE",
+  "options": [
+   "7,5 V",
+   "10 V",
+   "15 V",
+   "25 V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "7,5 V",
+  "commentaire_fr": "Us = R x Is = 250 Ω x 0,04 A = 10 V\nN = ns/np = 100/75 = 1,333\nUp = Us / N = 10 / 1,333 = 7,5 V\nPar le produit en croix, on retient les couples U et n : Us / Up = ns / np ; \ndonc Up = produit de la 2ème diagonale / valeur opposée = (Us x np) / ns \n= (10 x 75) / 100 = 7,5 V\n",
+  "stem_zh": "初级电压",
+  "ans_zh": "7.5 V",
+  "com_zh": "Us = R × Is = 250 Ω × 0.04 A = 10 V\nN = ns/np = 100/75 = 1.333\nUp = Us / N = 10 / 1.333 = 7.5 V\n用交叉相乘，记住 U 与 n 的对应关系：Us / Up = ns / np；\n所以 Up = 第 2 条对角线的乘积 / 对角的另一项 = (Us × np) / ns\n= (10 × 75) / 100 = 7.5 V",
+  "anchor": "T031b"
+ },
+ {
+  "num": "21112",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "RESISTANCE INTERNE DE LA PILE",
+  "options": [
+   "10 Ω",
+   "15 Ω",
+   "25 Ω",
+   "60 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10 Ω",
+  "commentaire_fr": "r = Rtotale - R = (E/I) - R = (1,5 / 0,025) - 50 = 60 - 50 = 10 Ω\n",
+  "stem_zh": "电池的内阻",
+  "ans_zh": "10 Ω",
+  "com_zh": "r = R总 - R = (E/I) - R = (1.5 / 0.025) - 50 = 60 - 50 = 10 Ω",
+  "anchor": "T033d"
+ },
+ {
+  "num": "21113",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "RESISTANCE INTERNE DE LA PILE",
+  "options": [
+   "1 Ω",
+   "10 Ω",
+   "50 Ω",
+   "100 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "100 Ω",
+  "commentaire_fr": "r = Ur / I = (E - U) / I = (9 - 8) / 0,01 = 1 / 0,01 = 100 Ω \n",
+  "stem_zh": "电池的内阻",
+  "ans_zh": "100 Ω",
+  "com_zh": "r = Ur / I = (E - U) / I = (9 - 8) / 0.01 = 1 / 0.01 = 100 Ω",
+  "anchor": "T033d"
+ },
+ {
+  "num": "21114",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "TENSION DE LA PILE",
+  "options": [
+   "0,15 V",
+   "0,6 V",
+   "6 V",
+   "9 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,6 V",
+  "commentaire_fr": "La pile et sa résistance interne ne servent à rien dans ce problème\nU = R x I = 40 x 0,015 = 0,6 V\n",
+  "stem_zh": "电池电压",
+  "ans_zh": "0.6 V",
+  "com_zh": "在这道题中，电池及其内阻没有任何作用\nU = R × I = 40 × 0.015 = 0.6 V",
+  "anchor": "T033d"
+ },
+ {
+  "num": "21117",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "RESISTANCE DU VOLTMETRE",
+  "options": [
+   "9950 Ω",
+   "99950 Ω",
+   "50050 Ω",
+   "49950 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "9950 Ω",
+  "commentaire_fr": "R = (Ucalibre / Igalva) - r = (10 V / 0,001 A) - 50 = 10000 - 50 = 9950 Ω \n",
+  "stem_zh": "电压表的内阻",
+  "ans_zh": "9950 Ω",
+  "com_zh": "R = (U量程 / I检流计) - r = (10 V / 0.001 A) - 50 = 10000 - 50 = 9950 Ω",
+  "anchor": "T034b"
+ },
+ {
+  "num": "21118",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "IG DU GALVANOMETRE",
+  "options": [
+   "0,01 A",
+   "0,1 A",
+   "0,1 mA",
+   "1 mA"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1 mA",
+  "commentaire_fr": "I = U / R = 20 / (19900 + 100) = 20 / 20000 = 0,001 = 1 mA\n",
+  "stem_zh": "检流计的 Ig",
+  "ans_zh": "1 mA",
+  "com_zh": "I = U / R = 20 / (19900 + 100) = 20 / 20000 = 0.001 = 1 mA",
+  "anchor": "T034b"
+ },
+ {
+  "num": "21120",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUEL EST LE RAPPORT DE PUISSANCE DE L'ENSEMBLE ?",
+  "options": [
+   "x 140",
+   "x 20",
+   "x 91",
+   "x 100"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "x 100",
+  "commentaire_fr": "Les gains en dB s'additionnent lorsque les amplificateurs sont en série.\n13 dB + 7 dB = 20 dB\n20 dB : Dizaine = 2 => 100 )\n                Unité = 0 =>     1 ) Rapport = 1 x 100 = 100 \n",
+  "stem_zh": "整个（级联）的功率比是多少？",
+  "ans_zh": "× 100",
+  "com_zh": "各级放大器串联时，以 dB 表示的增益相加。\n13 dB + 7 dB = 20 dB\n20 dB：十位 = 2 => 100 ）\n                个位 = 0 =>     1 ） 比值 = 1 × 100 = 100",
+  "anchor": "T041d"
+ },
+ {
+  "num": "21121",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST CE FILTRE",
+  "options": [
+   "passe haut",
+   "passe bas",
+   "passe bande",
+   "en Pi"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "passe haut",
+  "commentaire_fr": "Filtre passe haut : le condensateur est en haut.\n",
+  "stem_zh": "这是什么滤波器？",
+  "ans_zh": "高通滤波器",
+  "com_zh": "高通滤波器：电容器位于上方。",
+  "anchor": "T042a"
+ },
+ {
+  "num": "21122",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "ATTENUATION DE CE FILTRE",
+  "options": [
+   "6 dB/octave",
+   "10 dB/octave",
+   "12 dB/octave",
+   "3 dB/octave"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "6 dB/octave",
+  "commentaire_fr": "Un filtre R-C a une atténuation de 6 dB par octave pour une cellule à partir de la fréquence de résonance\n",
+  "stem_zh": "这个滤波器的衰减是多少？",
+  "ans_zh": "6 dB/倍频程",
+  "com_zh": "单节 R-C 滤波器从谐振频率起，衰减为每倍频程 6 dB。",
+  "anchor": "T042d"
+ },
+ {
+  "num": "21123",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FREQUENCE DE COUPURE FILTRE RC",
+  "options": [
+   "1,27 Hz",
+   "125 Hz",
+   "12,7 Hz",
+   "5 Hz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1,27 Hz",
+  "commentaire_fr": "formule simplifiée : F(Hz) = 159 / (R(kΩ) x C(µF)) \n= 159 / (25 x 5) = 159 / 125 = 1,27 Hz\n",
+  "stem_zh": "RC 滤波器的截止频率",
+  "ans_zh": "1.27 Hz",
+  "com_zh": "简化公式：F(Hz) = 159 / (R(kΩ) × C(µF))\n= 159 / (25 × 5) = 159 / 125 = 1.27 Hz",
+  "anchor": "T042a"
+ },
+ {
+  "num": "21124",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "COURBE CIRCUIT BOUCHON",
+  "options": [
+   "passe bande",
+   "bouchon",
+   "passe bas",
+   "passe haut"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "bouchon",
+  "commentaire_fr": "Filtre bouchon : la tension aux bornes du circuit est maximum à la fréquence de résonance.\n",
+  "stem_zh": "并联谐振电路的曲线",
+  "ans_zh": "并联谐振（陷波）电路",
+  "com_zh": "并联谐振（陷波）滤波器：在谐振频率处，电路两端的电压最大。",
+  "anchor": "T043b"
+ },
+ {
+  "num": "21125",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "COURBE FILTRE PASSE HAUT",
+  "options": [
+   "schéma 1",
+   "schéma 2",
+   "schéma 3",
+   "schéma 4"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "schéma 2",
+  "commentaire_fr": "La courbe montre la tension à la sortie du filtre et donc l'atténuation d'un signal. Le filtre passe haut ne laisse passer que les fréquences supérieures à sa fréquence de coupure \n",
+  "stem_zh": "高通滤波器的曲线",
+  "ans_zh": "图 2",
+  "com_zh": "该曲线表示滤波器输出端的电压，也就是信号的衰减情况。高通滤波器只让高于其截止频率的频率通过。",
+  "anchor": "T043b"
+ },
+ {
+  "num": "21127",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "COMBIEN DE DB FONT UN RAPPORT DE PUISSANCE DE 800 ?",
+  "options": [
+   "25 dB",
+   "29 dB",
+   "3 dB",
+   "18 dB"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "29 dB",
+  "commentaire_fr": "800 = 8 x 100 : Dizaine = 100 => 2 )\n                              Unité = 8   => 9 )  29 dB \n",
+  "stem_zh": "功率比为 800 相当于多少 dB？",
+  "ans_zh": "29 dB",
+  "com_zh": "800 = 8 × 100：十位 = 100 => 2 ）\n                    个位 = 8   => 9 ）  29 dB",
+  "anchor": "T041b"
+ },
+ {
+  "num": "21129",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "PUISSANCE A L'ENTREE",
+  "options": [
+   "2 W",
+   "10 W",
+   "20 W",
+   "40 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "2 W",
+  "commentaire_fr": "13 dB : Dizaine = 1 => 10 )\n               Unité = 3   => 2  ) Rapport = 2 x 10 = 20 \nSortie = 200 W ; Entrée = 200 W / Rapport = 200 W / 100 = 2 W\n",
+  "stem_zh": "输入功率",
+  "ans_zh": "2 W",
+  "com_zh": "13 dB：十位 = 1 => 10 ）\n          个位 = 3 =>  2 ） 比值 = 2 × 10 = 20\n输出 = 200 W；输入 = 200 W / 比值 = 200 W / 100 = 2 W",
+  "anchor": "T041b"
+ },
+ {
+  "num": "21130",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE CIRCUIT SERIE ?",
+  "options": [
+   "Schéma 1",
+   "Schéma 2",
+   "Schéma 3",
+   "Schéma 4"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Schéma 2",
+  "commentaire_fr": "Dans un filtre série (ou filtre passe-bande), l’impédance (notée Z) est minimum à la fréquence de résonance. La mesure de l’impédance se fait aux bornes du circuit lorsqu’il est en série ou en parallèle et à sa sortie (entre la sortie et la masse) lorsqu’il est passe-haut ou passe-bas.\n",
+  "stem_zh": "哪个是串联电路？",
+  "ans_zh": "图 2",
+  "com_zh": "在串联滤波器（或称带通滤波器）中，谐振频率处阻抗（记作 Z）最小。测量阻抗时，串联或并联电路在其两端测量；高通或低通电路则在其输出端（输出端与地之间）测量。",
+  "anchor": "T043b"
+ },
+ {
+  "num": "21133",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE CIRCUIT \"PASSE HAUT\" ?",
+  "options": [
+   "Schéma 1",
+   "Schéma 2",
+   "Schéma 3",
+   "Schéma 4"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Schéma 3",
+  "commentaire_fr": "Attention, dans le schéma, le condensateur n’est pas en haut : il faut redessiner le schéma en mettant la masse et la bobine en bas si on utilise le phrase mnémotechnique. Les schémas 1 et 4 représentent le même filtre (passe bas)\n",
+  "stem_zh": "哪个是「高通」电路？",
+  "ans_zh": "图 3",
+  "com_zh": "注意：图中电容器并不在上方；若要使用那句记忆口诀，就得重画电路图，把地和线圈画到下方。图 1 和图 4 表示的是同一种滤波器（低通）。",
+  "anchor": "T043b"
+ },
+ {
+  "num": "21137",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "ATTENUATION DE CE FILTRE ?",
+  "options": [
+   "1,5 dB",
+   "12 dB",
+   "6 dB",
+   "8 dB"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "12 dB",
+  "commentaire_fr": "28 MHz est l'harmonique 2 du 14 MHz, c'est donc l'octave supérieure.\nIl s’agit d’un filtre passe bas et atténue les fréquences supérieures à la fréquence de coupure. Le filtre possède une seule cellule LC. L'atténuation est de 12 dB par cellule LC et par octave supérieure. L’atténuation de ce filtre à 28 MHz est donc de 12 dB.\n",
+  "stem_zh": "这个滤波器的衰减是多少？",
+  "ans_zh": "12 dB",
+  "com_zh": "28 MHz 是 14 MHz 的二次谐波，也就是高一个倍频程。\n这是一个低通滤波器，会衰减高于截止频率的频率。该滤波器只有一节 LC。每节 LC、每高一个倍频程衰减 12 dB。因此该滤波器在 28 MHz 处的衰减为 12 dB。",
+  "anchor": "T043f"
+ },
+ {
+  "num": "21138",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "IMPEDANCE A LA RESONANCE ?",
+  "options": [
+   "50 Ω",
+   "22,7 kΩ",
+   "infinie",
+   "nulle"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "infinie",
+  "commentaire_fr": "Pour le filtre bouchon parfait (sans résistance), l'impédance à la résonance est infinie. Les valeurs de L et C ne servent à rien. Elles auraient servis dans un filtre bouchon non parfait (avec résistance).\n",
+  "stem_zh": "谐振时的阻抗是多少？",
+  "ans_zh": "无穷大",
+  "com_zh": "对于理想的并联谐振电路（不含电阻），谐振时阻抗为无穷大。L 和 C 的数值在此没有用；它们本来会在非理想（含电阻）的并联谐振电路中派上用场。",
+  "anchor": "T043b"
+ },
+ {
+  "num": "21139",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TAUX DE SELECTIVITE",
+  "options": [
+   "10%",
+   "20%",
+   "5%",
+   "1%"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "20%",
+  "commentaire_fr": "Le taux de sélectivité d’un filtre se calcule par le rapport de la bande passante à –3 dB divisé par la bande passante à –60 dB. La bande passante à –3 dB est de 20 kHz (3710 – 3690 = 20). La bande passante à –60 dB est de 100 kHz (3750 – 3650 = 100). D’où un taux de sélectivité de : (20 / 100) x 100 = 20 %. Les valeurs 3600, 3700 et 3800 ne servent à rien. Le facteur de forme (ou facteur de sélectivité) est l’inverse du taux de sélectivité (= 5 soit 100/20)\n",
+  "stem_zh": "选择性比率",
+  "ans_zh": "20%",
+  "com_zh": "滤波器的选择性比率由 -3 dB 带宽除以 -60 dB 带宽得出。-3 dB 带宽为 20 kHz（3710 - 3690 = 20）。-60 dB 带宽为 100 kHz（3750 - 3650 = 100）。因此选择性比率为：(20 / 100) × 100 = 20%。3600、3700 和 3800 这几个数值没有用。波形因数（或称选择性因数）是选择性比率的倒数（= 5，即 100/20）。",
+  "anchor": "T044e"
+ },
+ {
+  "num": "21142",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL SCHEMA PERMET DE REDRESSER LE COURANT ?",
+  "options": [
+   "Schéma 1",
+   "Schéma 2",
+   "Schéma 3",
+   "Schéma 4"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Schéma 3",
+  "commentaire_fr": "Les flèches des diodes doivent être toutes dirigées vers le + de l’alimentation\n",
+  "stem_zh": "哪个电路图能对电流进行整流？",
+  "ans_zh": "图 3",
+  "com_zh": "所有二极管的箭头都必须指向电源的 + 极。",
+  "anchor": "T053a"
+ },
+ {
+  "num": "21143",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL EST LE TRANSISTOR ALIMENTE CORRECTEMENT",
+  "options": [
+   "Schéma 1",
+   "Schéma 2",
+   "Schéma 3",
+   "Schéma 4"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Schéma 3",
+  "commentaire_fr": "La flèche de l’émetteur indique le - ; seuls les schémas 1 et 3 correspondent à cette condition. Le collecteur est relié à la tension inverse de l’émetteur et la base à une tension intermédiaire ; des deux réponses encore possible, seul le schéma 3 correspond à cette condition\n",
+  "stem_zh": "哪个晶体管的供电接法是正确的",
+  "ans_zh": "图 3",
+  "com_zh": "发射极的箭头表示 - 极；只有图 1 和图 3 符合这一条件。集电极接与发射极相反的电压，基极接中间电压；在剩下的这两个可能答案中，只有图 3 符合这一条件。",
+  "anchor": "T061a"
+ },
+ {
+  "num": "21144",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "COURANT COLLECTEUR",
+  "options": [
+   "150 mA",
+   "1,5 A",
+   "225 mA",
+   "6,67 mA"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "150 mA",
+  "commentaire_fr": "Ic = beta x Ib = 150 x 1 mA = 150 mA\n",
+  "stem_zh": "集电极电流",
+  "ans_zh": "150 mA",
+  "com_zh": "Ic = β × Ib = 150 × 1 mA = 150 mA",
+  "anchor": "T062"
+ },
+ {
+  "num": "21145",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "COURANT DE BASE",
+  "options": [
+   "5 A",
+   "1,62 A",
+   "2 mA",
+   "200 µA"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "200 µA",
+  "commentaire_fr": "Ic = beta x I b, donc Ib = Ic / beta = 18 mA / 90 = 0,2 mA = 200 µA\n",
+  "stem_zh": "基极电流",
+  "ans_zh": "200 µA",
+  "com_zh": "Ic = β × Ib，所以 Ib = Ic / β = 18 mA / 90 = 0.2 mA = 200 µA",
+  "anchor": "T062"
+ },
+ {
+  "num": "21146",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "COURANT DE BASE",
+  "options": [
+   "150 mA",
+   "1 mA",
+   "225 mA",
+   "6,67 mA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1 mA",
+  "commentaire_fr": "Ie = Ib x (beta + 1), donc Ib = Ie / (beta + 1) = 101 mA / 101 = 1 mA\n",
+  "stem_zh": "基极电流",
+  "ans_zh": "1 mA",
+  "com_zh": "Ie = Ib × (β + 1)，所以 Ib = Ie / (β + 1) = 101 mA / 101 = 1 mA",
+  "anchor": "T062"
+ },
+ {
+  "num": "21148",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST L'AFFIRMATION FAUSSE ?",
+  "options": [
+   "Ic est directement fonction de Ib",
+   "L'émetteur d'un PNP est relié au -",
+   "La flèche du transistor est dirigée vers le -",
+   "un transistor est composé de deux diodes montées tête bêche\n"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "L'émetteur d'un PNP est relié au -",
+  "commentaire_fr": "L’émetteur d’un transistor PNP doit être relié au + (mnémotechnique : initiale P comme +)\n",
+  "stem_zh": "哪个说法是错误的？",
+  "ans_zh": "PNP 晶体管的发射极接 -",
+  "com_zh": "PNP 晶体管的发射极应接 +（记忆法：首字母 P 就对应 +）。",
+  "anchor": "T061a"
+ },
+ {
+  "num": "21150",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "A LA SORTIE D'UN MELANGEUR, ON TROUVE 2 FREQUENCES : 10 ET 18 MHZ\nQUELLES SONT LES FREQUENCES D'ENTREE ?",
+  "options": [
+   "8 et 28 MHz            ",
+   "4 et 14 MHz            ",
+   "8 et 10 MHz",
+   "2 et 20 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "4 et 14 MHz            ",
+  "commentaire_fr": "Appelons Fmax = 18 MHz et Fmin = 10 MHz\nF1 = (Fmax – Fmin) / 2 = (18 – 10) / 2 = 8 / 2 = 4 MHz\nF2 = Fmax – F1 = 18 – 4 = 14 MHz\nAutre méthode : par tâtonnement et élimination : on détermine les fréquences de sortie correspondant aux réponses proposées. Seul un couple de fréquences correspond aux fréquences de sortie proposées (méthode plus empirique mais plus rapide)\n",
+  "stem_zh": "混频器输出端得到两个频率：10 与 18 MHz。\n输入频率是多少？",
+  "ans_zh": "4 和 14 MHz",
+  "com_zh": "设 Fmax = 18 MHz、Fmin = 10 MHz。\nF1 = (Fmax – Fmin) / 2 = (18 – 10) / 2 = 8 / 2 = 4 MHz\nF2 = Fmax – F1 = 18 – 4 = 14 MHz\n另一种方法：用试错与排除法，从所给选项反推出对应的输出频率——只有一对频率与所给输出频率相符（更经验化，但更快）",
+  "anchor": "T077a"
+ },
+ {
+  "num": "21151",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL NOM DONNE-T-ON A R ?",
+  "options": [
+   "Contre-Résistance",
+   "Résistance d'alimentation",
+   "Résistance de charge",
+   "Résistance de liaison"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Résistance de charge",
+  "commentaire_fr": "Montage classique du transistor : émetteur commun en classe A, récupération de la tension de sortie sur la résistance de charge. \n",
+  "stem_zh": "R 叫什么名字？",
+  "ans_zh": "负载电阻",
+  "com_zh": "晶体管的经典电路：共射极、A 类工作，输出电压取自负载电阻。",
+  "anchor": "T072a"
+ },
+ {
+  "num": "21152",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CLASSE DE L'AMPLIFICATEUR",
+  "options": [
+   "A",
+   "B",
+   "AB",
+   "C"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "B",
+  "commentaire_fr": "Transformateurs et 2 transistors : classe B\n",
+  "stem_zh": "放大器的工作类别",
+  "ans_zh": "B",
+  "com_zh": "变压器加两个晶体管：B 类",
+  "anchor": "T071a2"
+ },
+ {
+  "num": "21153",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "TAUX DE DISTORTION HARMONIQUE ?",
+  "options": [
+   "5 %",
+   "70 %",
+   "15 %",
+   "50 %"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "50 %",
+  "commentaire_fr": "Harmonique 2 de 7 MHz = 14 MHz ; Taux de distorsion harmonique \n= (Tension harmonique / Tension désirée) x 100 = (5 / 10) x 100 = 50%\n",
+  "stem_zh": "谐波失真率是多少？",
+  "ans_zh": "50%",
+  "com_zh": "7 MHz 的二次谐波 = 14 MHz；谐波失真率\n= (谐波电压 / 所需电压) × 100 = (5 / 10) × 100 = 50%",
+  "anchor": "T074b2"
+ },
+ {
+  "num": "21154",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST L'AFFIRMATION FAUSSE ?",
+  "options": [
+   "le rendement de la classe A peut atteindre 50 %\n",
+   "la classe B nécessite deux transistors",
+   "la classe C est surtout utilisée en AM",
+   "en classe C, le rendement peut dépasser 80 %\n"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "la classe C est surtout utilisée en AM",
+  "commentaire_fr": "Ne pas amplifier l’AM avec un amplificateur monté en classe C à cause des distorsions (écrêtage) créées par cette classe.\n",
+  "stem_zh": "哪个说法是错误的？",
+  "ans_zh": "C 类主要用于 AM",
+  "com_zh": "不要用 C 类放大器去放大 AM 信号，因为该类别会产生失真（削波）。",
+  "anchor": "T071a"
+ },
+ {
+  "num": "21155",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "UNE LIAISON ENTRE DEUX ETAGES D'AMPLIFICATION PAR TRANSFORMATEUR :",
+  "options": [
+   "ne fonctionne qu'en courant continu",
+   "permet d'adapter les impédances des circuits",
+   "est le montage le plus utilisé",
+   "ne permet pas le passage de puissance élevée"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "permet d'adapter les impédances des circuits",
+  "commentaire_fr": "L’utilisation d’un transformateur permet d’adapter les impédances d’entrée et de sortie de l’étage.\n",
+  "stem_zh": "用变压器连接两级放大的电路：",
+  "ans_zh": "可以匹配各电路的阻抗",
+  "com_zh": "使用变压器可以匹配该级的输入和输出阻抗。",
+  "anchor": "T073a"
+ },
+ {
+  "num": "21156",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "NOM DE L'ETAGE",
+  "options": [
+   "comparateur de phase",
+   "oscillateur de référence",
+   "Diviseur",
+   "Microprocesseur"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Diviseur",
+  "commentaire_fr": "Cet étage est le diviseur qui peut être commandé par un microprocesseur.\nL’oscillateur de référence est le VXO et le comparateur de phase est repéré par la lettre \"phi\" sur le schéma.\n",
+  "stem_zh": "这一级的名称",
+  "ans_zh": "分频器",
+  "com_zh": "这一级是可由微处理器控制的分频器。\n基准振荡器是 VXO，鉴相器在图中用字母「phi」标出。",
+  "anchor": "T075d"
+ },
+ {
+  "num": "21158",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "UN MELANGEUR :",
+  "options": [
+   "additionne les tensions présentes à ses entrées",
+   "multiplie les tensions présentes sur ses entrées",
+   "est un amplificateur linéaire",
+   "est monté autour d'un FET à une porte"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "multiplie les tensions présentes sur ses entrées",
+  "commentaire_fr": "Un mélangeur multiplie les tensions d’entrée (il doit avoir plusieurs entrées et n’est pas linéaire puisqu’il multiplie) et additionne (et soustraie) les fréquences présentes à ses entrées.\n",
+  "stem_zh": "混频器：",
+  "ans_zh": "把其各输入端的电压相乘",
+  "com_zh": "混频器把输入的电压相乘（它必须有多个输入端，而且由于做乘法所以是非线性的），并把其各输入端的频率相加（并相减）。",
+  "anchor": "T077a"
+ },
+ {
+  "num": "21160",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "ANDE PASSANTE A -3 D",
+  "options": [
+   "5 kHz",
+   "800 Hz",
+   "200 kHz",
+   "2 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "200 kHz",
+  "commentaire_fr": "Q à la résonance = racine(L(µH)/C(pF)) / (R(kΩ)= racine(16 / 100) / 0,02 \n= racine (0,16) / 0,02 = 0,4 / 0,02 = 20 \n\nFréquence de résonance du circuit : Fo(MHz) = 159 / (√(L(µH).C(pF)) \n= 159 / √(16 x 100) = 159 / 40 = 3,975 MHz\n\nBande passante à –3 dB = Fo / Q = 3,975 MHz / 20 \n= 3.975.000 / 20 = 200 kHz (arrondi)\n",
+  "stem_zh": "-3 dB 带宽",
+  "ans_zh": "200 kHz",
+  "com_zh": "谐振时的 Q = √(L(µH)/C(pF)) / R(kΩ) = √(16 / 100) / 0.02\n= √(0.16) / 0.02 = 0.4 / 0.02 = 20\n\n电路的谐振频率：Fo(MHz) = 159 / (√(L(µH)·C(pF))\n= 159 / √(16 × 100) = 159 / 40 = 3.975 MHz\n\n-3 dB 带宽 = Fo / Q = 3.975 MHz / 20\n= 3.975.000 / 20 = 200 kHz（取整）",
+  "anchor": "T044"
+ },
+ {
+  "num": "21161",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "DANS UN AMPLIFICATEUR OPERATIONNEL,",
+  "options": [
+   "les impédances d'entrée sont infinies",
+   "on a une seule borne d’entrée",
+   "le gain de tension en sortie est nul",
+   "le gain d'intensité en sortie est faible"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "les impédances d'entrée sont infinies",
+  "commentaire_fr": "Un amplificateur opérationnel est un circuit comparateur : il doit donc avoir deux entrées puisqu’il compare.\n",
+  "stem_zh": "在运算放大器中，",
+  "ans_zh": "输入阻抗为无穷大",
+  "com_zh": "运算放大器是一个比较电路：既然要作比较，它就必须有两个输入端。",
+  "anchor": "T081b"
+ },
+ {
+  "num": "21163",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN DE CE MONTAGE",
+  "options": [
+   "+5",
+   "-5",
+   "+0,2",
+   "-0,2"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "-5",
+  "commentaire_fr": "G = -R2/R1 = -500/100 = -5\n",
+  "stem_zh": "这个电路的增益",
+  "ans_zh": "-5",
+  "com_zh": "G = -R2/R1 = -500/100 = -5",
+  "anchor": "T082b"
+ },
+ {
+  "num": "21164",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN DE CE MONTAGE",
+  "options": [
+   "-1/4",
+   "-1/3",
+   "-2",
+   "-3"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "-1/3",
+  "commentaire_fr": "G = -R2/R1 = -500/1,5 kΩ = -500/1500 = -1/3\n",
+  "stem_zh": "这个电路的增益",
+  "ans_zh": "-1/3",
+  "com_zh": "G = -R2/R1 = -500/1.5 kΩ = -500/1500 = -1/3",
+  "anchor": "T082b"
+ },
+ {
+  "num": "21167",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL CIRCUIT LOGIQUE ?",
+  "options": [
+   "OU",
+   "ET",
+   "NON ET",
+   "OU EXCLUSIF"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "ET",
+  "commentaire_fr": "Logique de la porte ET : si toutes les entrées sont à 1, la sortie est à 1.\n",
+  "stem_zh": "这是哪种逻辑电路？",
+  "ans_zh": "与门（ET）",
+  "com_zh": "与门的逻辑：所有输入都为 1 时，输出为 1。",
+  "anchor": "T044"
+ },
+ {
+  "num": "21169",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FACTEUR Q LA RESONANCE",
+  "options": [
+   "1 000",
+   "31",
+   "225",
+   "1 500"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "31",
+  "commentaire_fr": "Q = racine(L(µH)/C(pF)) / (R(kΩ) \n= racine(15/150) / 0,01 \n= racine (0,1) / 0,01 = 0,31 x 100 = 31 (arrondi)\n",
+  "stem_zh": "谐振时的品质因数 Q",
+  "ans_zh": "31",
+  "com_zh": "Q = √(L(µH)/C(pF)) / R(kΩ)\n= √(15/150) / 0.01\n= √(0.1) / 0.01 = 0.31 × 100 = 31（取整）",
+  "anchor": "T044b3"
+ },
+ {
+  "num": "21171",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "DANS UN DIPOLE, AUX EXTREMITES, ON A :",
+  "options": [
+   "U max et I max",
+   "U nul et I nul",
+   "U max et I nul",
+   "U nul et I max"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "U max et I nul",
+  "commentaire_fr": "A l’extrémité d’une antenne ouverte (comme le dipôle), on a toujours une intensité nulle et une tension maximum\n",
+  "stem_zh": "在偶极天线的两端：",
+  "ans_zh": "U 最大，I 为零",
+  "com_zh": "在开路天线（如偶极天线）的末端，电流始终为零，而电压最大。",
+  "anchor": "T094c"
+ },
+ {
+  "num": "21173",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "LONGUEUR D'UN BRIN DE DIPOLE",
+  "options": [
+   "5 m",
+   "15 m",
+   "10 m",
+   "20 m"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "5 m",
+  "commentaire_fr": "Un dipôle mesure une demi-longueur d'onde et est composé de deux brins de même longueur. C'est à la jonction de ces deux brins que l'antenne est alimentée. Un brin de dipôle mesure donc un quart d'onde. La longueur d'onde étant 20 mètres, le brin mesure 5 mètres (=20 / 4)\n",
+  "stem_zh": "偶极天线单臂的长度",
+  "ans_zh": "5 m",
+  "com_zh": "偶极天线长度为半个波长，由两条等长的振子臂组成。天线正是在这两臂的连接处馈电。因此偶极天线的单臂长度为四分之一波长。波长为 20 米，故单臂长 5 米（= 20 / 4）。",
+  "anchor": "T094c"
+ },
+ {
+  "num": "21174",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "IMPEDANCE AU CENTRE D'UN DIPOLE",
+  "options": [
+   "36 Ω",
+   "50 Ω",
+   "52 Ω",
+   "73 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "73 Ω",
+  "commentaire_fr": "Z = 73 Ω quand on a un angle plat entre les brins (les brins sont en prolongement)\n",
+  "stem_zh": "偶极天线中心的阻抗",
+  "ans_zh": "73 Ω",
+  "com_zh": "当两臂之间成平角（两臂成一直线）时，Z = 73 Ω。",
+  "anchor": "T094c"
+ },
+ {
+  "num": "21175",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "A LA BASE DU BRIN DE CE QUART D'ONDE, ON A",
+  "options": [
+   "U max et I nul",
+   "U max et I max",
+   "U nul et I max",
+   "U nul et I nul"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "U nul et I max",
+  "commentaire_fr": "A la base d’un quart d’onde (à son point d'alimentation), on a une tension nulle et une intensité maximum, comme au point d’alimentation d’un dipôle.\n",
+  "stem_zh": "在四分之一波长振子的底部：",
+  "ans_zh": "U 为零，I 最大",
+  "com_zh": "在四分之一波长天线的底部（即其馈电点），电压为零、电流最大，与偶极天线的馈电点相同。",
+  "anchor": "T095a"
+ },
+ {
+  "num": "21177",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "IMPEDANCE D'UN QUART D'ONDE",
+  "options": [
+   "36 Ω",
+   "50 Ω",
+   "120 Ω",
+   "73 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50 Ω",
+  "commentaire_fr": "Z = 52 Ω quand on a un angle de 120° entre les radiants et le brin rayonnant\n",
+  "stem_zh": "四分之一波长天线的阻抗",
+  "ans_zh": "50 Ω",
+  "com_zh": "当辐射体与辐射振子之间成 120° 角时，Z = 52 Ω。",
+  "anchor": "T095a"
+ },
+ {
+  "num": "21178",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUEL EST LE GAIN D'UN DIPOLE PAR RAPPORT A L'ANTENNE \"ISOTROPE\" ?",
+  "options": [
+   "pas de gain",
+   "-3 dB",
+   "3 dB",
+   "2,14 dB"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2,14 dB",
+  "commentaire_fr": "L’antenne isotrope a un diagramme de rayonnement en forme de sphère et le gain du dipôle, dont le diagramme de rayonnement est un tore, est de 2,14 dB par rapport à l’antenne isotrope.\n",
+  "stem_zh": "偶极天线相对于「各向同性」天线的增益是多少？",
+  "ans_zh": "2.14 dB",
+  "com_zh": "各向同性天线的辐射方向图是球形，偶极天线的辐射方向图是环面；偶极天线相对于各向同性天线的增益为 2.14 dB。",
+  "anchor": "T098"
+ },
+ {
+  "num": "21180",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "SOIT UN CABLE AYANT UNE PERTE CARACTERISTIQUE DE 3 DB POUR 100 METRES, QUELLE SERA LA PERTE  POUR 33 METRES ?",
+  "options": [
+   "10 %",
+   "1 dB",
+   "9 dB",
+   "1,5 dB"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1 dB",
+  "commentaire_fr": "3dB pour 100 mètres, donc pour 33 mètres : 3dB / 100 x 33 = 1 dB (valeur arrondie)\n",
+  "stem_zh": "设一条电缆每 100 米的特性损耗为 3 dB，那么 33 米的损耗将是多少？",
+  "ans_zh": "1 dB",
+  "com_zh": "100 米为 3 dB，所以 33 米为：3 dB / 100 × 33 = 1 dB（取整值）",
+  "anchor": "T101a"
+ },
+ {
+  "num": "21181",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "A QUELLES FREQUENCES CORRESPONDENT LES \"ONDES METRIQUES\" ?",
+  "options": [
+   "300 kHz à 3 MHz                 ",
+   "3 à 30 MHz",
+   "30 à 300 MHz                    ",
+   "300 MHz à 3 GHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "30 à 300 MHz                    ",
+  "commentaire_fr": "Ondes métriques : de 1 à 10 m donc de 300 / 1m à 300 / 10m = 300 MHz à 30 MHz. Ce genre de questions est posée essentiellement à l'épreuve de réglementation\n",
+  "stem_zh": "「米波」对应哪些频率？",
+  "ans_zh": "30 至 300 MHz",
+  "com_zh": "米波：1 至 10 米，即 300 / 1 m 至 300 / 10 m = 300 MHz 至 30 MHz。这类题目主要在法规科目中出。",
+  "anchor": "T092c"
+ },
+ {
+  "num": "21182",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "A QUELLES LONGUEURS D'ONDE CORRESPONDENT LES \"ONDES HECTOMETRIQUES\" ?",
+  "options": [
+   "1 à 10 km                   ",
+   "100 à 1000 m",
+   "10 à 100 m                  ",
+   "1 à 10 m"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "100 à 1000 m",
+  "commentaire_fr": "Ondes hectométriques : de 100 m à 1000 m, soit 1 hm (hectomètre) à 10 hm\n",
+  "stem_zh": "「百米波」对应哪些波长？",
+  "ans_zh": "100 至 1000 m",
+  "com_zh": "百米波：100 m 至 1000 m，即 1 hm（百米）至 10 hm。",
+  "anchor": "T092c"
+ },
+ {
+  "num": "21185",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "LA PROPAGATION PAR ONDES DE SOL N'EST PAS LE MODE DE PROPAGATION PRINCIPAL EN ONDES",
+  "options": [
+   "kilométriques",
+   "hectométriques",
+   "décamétriques",
+   "myriamétriques"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "décamétriques",
+  "commentaire_fr": "Les ondes de sol fonctionnent jusqu’à 2 MHz (donc jusqu’aux ondes hectométriques)\n",
+  "stem_zh": "地面波传播不是下列哪种波的主要传播方式？",
+  "ans_zh": "十米波（HF，3 至 30 MHz）",
+  "com_zh": "地面波的工作频率最高约到 2 MHz（也就是直到百米波）。",
+  "anchor": "T092b"
+ },
+ {
+  "num": "21189",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "LA VELOCITE DU CABLE",
+  "options": [
+   "est fonction de la perte du câble",
+   "est constante pour toutes les fréquences",
+   "est toujours supérieure à 100 %",
+   "est fonction de la fréquence utilisée"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "est constante pour toutes les fréquences",
+  "commentaire_fr": "La vélocité d’une ligne d’alimentation est constante pour toutes les fréquences et dépend du matériau utilisé comme diélectrique\n",
+  "stem_zh": "电缆的波速",
+  "ans_zh": "对所有频率都是恒定的",
+  "com_zh": "传输线的波速对所有频率恒定，并取决于用作介质的材料。",
+  "anchor": "T102b"
+ },
+ {
+  "num": "21191",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUEL EST LE ROS A L'ENTREE DU CABLE",
+  "options": [
+   "1/1",
+   "1,5/1",
+   "2/1",
+   "2,5/1"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1,5/1",
+  "commentaire_fr": "ROS = Z plus forte / Z plus faible = 50 / 33 = 1,515 = 1,5/1\n",
+  "stem_zh": "电缆输入端的驻波比（ROS）是多少",
+  "ans_zh": "1.5/1",
+  "com_zh": "驻波比（ROS）= 较大阻抗 / 较小阻抗 = 50 / 33 = 1.515 = 1.5/1",
+  "anchor": "T103b2"
+ },
+ {
+  "num": "21193",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "IMPEDANCE DE LA LIGNE QUART D'ONDE",
+  "options": [
+   "162,5 Ω",
+   "75 Ω",
+   "62,5 Ω",
+   "81,25 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "75 Ω",
+  "commentaire_fr": "Dans une ligne quart d’onde, on a Zc = √ (Ze x Zs) = √ (50 x 112,5) \n= √5625 = 75 Ω\n",
+  "stem_zh": "四分之一波长线的阻抗",
+  "ans_zh": "75 Ω",
+  "com_zh": "在四分之一波长传输线中，Zc = √(Ze × Zs) = √(50 × 112.5)\n= √5625 = 75 Ω",
+  "anchor": "T104a2"
+ },
+ {
+  "num": "21194",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "IMPEDANCE DE SORTIE",
+  "options": [
+   "infini",
+   "75 Ω",
+   "50 Ω",
+   "112,5 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50 Ω",
+  "commentaire_fr": "Dans une ligne demi-onde, Zs = Ze quelque soit l’impédance Zc\n",
+  "stem_zh": "输出阻抗",
+  "ans_zh": "50 Ω",
+  "com_zh": "在半波长传输线中，无论 Zc 为何值，Zs = Ze。",
+  "anchor": "T104a1"
+ },
+ {
+  "num": "21196",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "LE GAIN D'UNE ANTENNE :",
+  "options": [
+   "est fonction de son impédance",
+   "se mesure en dBd par rapport au dipôle",
+   "se mesure en P.A.R",
+   "détermine l’angle d'ouverture de l’antenne"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "se mesure en dBd par rapport au dipôle",
+  "commentaire_fr": "Le gain d’une antenne peut se mesurer en dBd (dB par rapport au dipôle) mais aussi en dBi (dB par rapport à l’antenne isotrope).\n",
+  "stem_zh": "天线的增益：",
+  "ans_zh": "以 dBd（相对于偶极天线）来测量",
+  "com_zh": "天线增益可以用 dBd（相对于偶极天线）表示，也可以用 dBi（相对于各向同性天线）表示。",
+  "anchor": "T097b"
+ },
+ {
+  "num": "21197",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "UN EMETTEUR DELIVRE 100 WATTS DANS UNE ANTENNE AYANT 10 DBD DE GAIN.\nQUELLE EST LA PUISSANCE APPARENTE RAYONNEE DE LA STATION ?",
+  "options": [
+   "10 W",
+   "110 W",
+   "500 W",
+   "1 kW"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1 kW",
+  "commentaire_fr": "10 dB = 1 x 10 = 10\n100 W x 10 = 1000 W = 1 kW\n",
+  "stem_zh": "一台发射机向增益为 10 dBd 的天线输出 100 瓦。该台的有效辐射功率（PAR）是多少？",
+  "ans_zh": "1 kW",
+  "com_zh": "10 dB = 1 × 10 = 10\n100 W × 10 = 1000 W = 1 kW",
+  "anchor": "T098"
+ },
+ {
+  "num": "21198",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "UNE STATION A UNE PUISSANCE APPARENTE RAYONNEE DE 200 WATTS, L'ANTENNE A UN GAIN DE 13 DBD.\nQUELLE SERA LA PUISSANCE DELIVREE PAR L'EMETTEUR ?",
+  "options": [
+   "20 W",
+   "10 W",
+   "40 W",
+   "4 kW"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10 W",
+  "commentaire_fr": "13 dB = 2 x 10 = 20\nPAR = P x rapport ; donc P = PAR / rapport = 200 W/ 20 = 10 W\nEn supposant qu'il n'y ait pas de perte dans le coaxial qui relie l'émetteur et l'antenne.\n",
+  "stem_zh": "某台的有效辐射功率为 200 瓦，天线增益为 13 dBd。发射机输出的功率将是多少？",
+  "ans_zh": "10 W",
+  "com_zh": "13 dB = 2 × 10 = 20\nPAR = P × 比值；所以 P = PAR / 比值 = 200 W / 20 = 10 W\n假设连接发射机与天线的同轴电缆没有损耗。",
+  "anchor": "T098"
+ },
+ {
+  "num": "21201",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "COMMENT SE NOMME UN TEL RECEPTEUR ?",
+  "options": [
+   "Récepteur supradyne         ",
+   "Récepteur infradyne",
+   "Récepteur sans conversion   ",
+   "Récepteur à PLL"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Récepteur sans conversion   ",
+  "commentaire_fr": "PLL = oscillateur (ce récepteur n’est pas concerné car il n’en a pas)\nInfradyne et supradyne : s’adresse à un récepteur superhétérodyne (avec FI)\n",
+  "stem_zh": "这种接收机叫什么名字？",
+  "ans_zh": "无变频接收机",
+  "com_zh": "PLL = 振荡器（本接收机不涉及，因为它没有 PLL）\nInfradyne 与 supradyne（低外差与高外差）：针对超外差接收机（带中频 FI）而言",
+  "anchor": "T111c"
+ },
+ {
+  "num": "21203",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST LE NOM DE L'ETAGE MARQUE \"?\"",
+  "options": [
+   "Fréquence Image         ",
+   "Fréquence Intermédiaire",
+   "Filtre à quartz             ",
+   "Démodulateur"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Fréquence Intermédiaire",
+  "commentaire_fr": "Synoptique d’un récepteur superhétérodyne (avec FI = Fréquence Intermédiaire)\n",
+  "stem_zh": "标有「?」的这一级叫什么名字？",
+  "ans_zh": "中频（FI）",
+  "com_zh": "超外差接收机的方框图（FI = 中频，Fréquence Intermédiaire）",
+  "anchor": "T112a"
+ },
+ {
+  "num": "21205",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUELLE EST LA FONCTION DE L'ETAGE MARQUE \"?\"",
+  "options": [
+   "Filtrer le signal d'entrée    ",
+   "Mélanger OL et HF",
+   "amplifier la puissance      ",
+   "Démoduler le signal HF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Filtrer le signal d'entrée    ",
+  "commentaire_fr": "Synoptique d’un récepteur superhétérodyne : le premier étage est un filtre de bande.\n",
+  "stem_zh": "标有「?」的这一级有什么功能？",
+  "ans_zh": "对输入信号进行滤波",
+  "com_zh": "超外差接收机的方框图：第一级是带通滤波器。",
+  "anchor": "T112a"
+ },
+ {
+  "num": "21206",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "FREQUENCE DE L'OL",
+  "options": [
+   "18 MHz",
+   "2 MHz",
+   "5 MHz",
+   "30 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "5 MHz",
+  "commentaire_fr": "fréquence de l'OL = FI - HF = 13-18 = 5 (ou -5 mais une fréquence ne peut pas être négative)\nu HF + FI = 18+13 = 31 (pas dans les réponses proposées)\n",
+  "stem_zh": "本机振荡器（OL）的频率",
+  "ans_zh": "5 MHz",
+  "com_zh": "本振频率 = FI - HF = 13 - 18 = 5（或 -5，但频率不能为负）\n或 HF + FI = 18 + 13 = 31（不在所给选项内）",
+  "anchor": "T112b"
+ },
+ {
+  "num": "21207",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE SERA LA FREQUENCE IMAGE ?",
+  "options": [
+   "5 MHz",
+   "10 MHz",
+   "15 MHz",
+   "20 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "5 MHz",
+  "commentaire_fr": "Il s’agit d’un récepteur infradyne (HF>FI) avec FI>FO, on applique donc la formule Fim = HF – 2.FO\nFim = 15 – (2 x 5) = 15 – 10 = 5 MHz\nOn peut aussi utiliser une méthode « par tâtonnements » avec les 4 réponses proposées : avec la réponse 10 MHz, la FI aura pour valeur 5  et 15 MHz ; la réponse 15 MHz est la valeur de la fréquence à recevoir et ne peut donc pas être la fréquence image ; avec la réponse 20 MHz, la FI aura pour valeur 15 et 25 MHz. Seule la réponse 5 MHz done une solution cohérente avec une FI de 10 MHz. \n",
+  "stem_zh": "镜像频率将是多少？",
+  "ans_zh": "5 MHz",
+  "com_zh": "这是一台低外差接收机（HF > FI），且 FI > FO，因此套用公式 Fim = HF - 2.FO\nFim = 15 - (2 × 5) = 15 - 10 = 5 MHz\n也可以用「试算」法，拿给出的 4 个选项逐一检验：若答 10 MHz，则 FI 的取值会是 5 和 15 MHz；15 MHz 这个选项就是要接收的频率，因此不可能是镜像频率；若答 20 MHz，则 FI 的取值会是 15 和 25 MHz。只有答案 5 MHz 给出与 FI = 10 MHz 相符的解。",
+  "anchor": "T113a"
+ },
+ {
+  "num": "21208",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE PEUT ETRE LA FREQUENCE DE LA FI ?",
+  "options": [
+   "8 MHz",
+   "23 MHz",
+   "15 MHz",
+   "18 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "15 MHz",
+  "commentaire_fr": "FI = HF + VFO ou HF - VFO\n     23 +  8  ou 23 -  8\n         31     ou     15\n",
+  "stem_zh": "中频（FI）可能是多少？",
+  "ans_zh": "15 MHz",
+  "com_zh": "FI = HF + VFO 或 HF - VFO\n      23 +  8  或 23 -  8\n           31    或     15",
+  "anchor": "T112b"
+ },
+ {
+  "num": "21210",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE CLASSE D'EMISSION PERMET DE  GENERER CE MODULATEUR ?",
+  "options": [
+   "AM",
+   "FM",
+   "BLU",
+   "CW"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "AM",
+  "commentaire_fr": "l’ensemble OL + Mélangeur est un des systèmes permettant de moduler de l’AM\n",
+  "stem_zh": "这个调制器可以产生哪种发射类别？",
+  "ans_zh": "AM",
+  "com_zh": "本振（OL）+ 混频器这一组合是能够产生 AM 调制的系统之一。",
+  "anchor": "T122"
+ },
+ {
+  "num": "21215",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "UN DEMODULATEUR FM S'APPELLE",
+  "options": [
+   "une détection",
+   "un détecteur de produit",
+   "un oscillateur de battement de fréquence",
+   "un discriminateur"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "un discriminateur",
+  "commentaire_fr": "Un démodulateur FM s’appelle un discriminateur et peut être précédé d’un limiteur et/ou suivi d’un désaccentuateur\n",
+  "stem_zh": "FM 解调器又叫",
+  "ans_zh": "鉴频器",
+  "com_zh": "FM 解调器叫鉴频器，它前面可以接限幅器，后面可以接去加重电路。",
+  "anchor": "T122"
+ },
+ {
+  "num": "21216",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "CE RECEPTEUR PEUT RECEVOIR :",
+  "options": [
+   "l'AM",
+   "la FM",
+   "la BLU",
+   "la CW"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "la FM",
+  "commentaire_fr": "Un discriminateur démodule de la FM. Le circuit limiteur et le désaccentuateur sont des circuits accessoires qui ne sont pas toujours indiqués\n",
+  "stem_zh": "这台接收机可以接收：",
+  "ans_zh": "FM（调频）",
+  "com_zh": "鉴频器用于解调 FM。限幅电路和去加重电路属于附属电路，图中并不总是标出。",
+  "anchor": "T122"
+ },
+ {
+  "num": "21217",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "UN RECEPTEUR EQUIPE D'UN DETECTEUR DE PRODUIT ET D'UN BFO PERMET DE RECEVOIR",
+  "options": [
+   "la modulation d'amplitude",
+   "la modulation de fréquence",
+   "la modulation de phase",
+   "la bande latérale unique"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "la bande latérale unique",
+  "commentaire_fr": "L’ensemble Détecteur de produit + BFO (Oscillateur de battement de fréquence) permet de démoduler de la bande latérale unique (BLU) mais aussi de la CW\n",
+  "stem_zh": "装有乘积检波器和 BFO 的接收机可以接收",
+  "ans_zh": "单边带（BLU）",
+  "com_zh": "乘积检波器 + BFO（拍频振荡器，Oscillateur de battement de fréquence）这一组合可以解调单边带（BLU），也能解调 CW。",
+  "anchor": "T122"
+ },
+ {
+  "num": "21218",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "UNE DETECTION PERMET DE DEMODULER",
+  "options": [
+   "la modulation d'amplitude",
+   "la modulation de phase",
+   "la bande latérale unique",
+   "la classe A1A"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "la modulation d'amplitude",
+  "commentaire_fr": "La classe A1A est de la CW\n",
+  "stem_zh": "检波可以解调",
+  "ans_zh": "调幅（AM）",
+  "com_zh": "A1A 类是 CW。",
+  "anchor": "T122"
+ }
+]

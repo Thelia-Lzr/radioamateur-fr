@@ -1,0 +1,2267 @@
+[
+ {
+  "id": "K031",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T091a",
+  "seclab": "9.1",
+  "n_q": 22,
+  "cours_fr": "9.1) Relation longueur d'onde/fréquence a La longueur d’onde, d’une manière générale, se définit par les deux relations suivantes : longueur d’onde = &#955;(m) = v (m/s) / f (Hz) et &#955;(m) = v (m/s) . t(s) La longueur d'onde, notée &#955; (lettre grecque lambda minuscule), est la distance (en mètres) entre deux points identiques d'une onde (période) dans son milieu de propagation ; v est la vélocité de l’onde (en m/s), c’est-à-dire la vitesse de propagation de l’onde ; f est la fréquence (en Hz) et t est le temps que dure la période (en s). La longueur d’onde est directement fonction de la vélocité de l’onde dans son milieu de propagation. Les ondes radioélectriques se propagent dans le vide et dans l'air à la vitesse de la lumière (299 792 458 m/s, toujours arrondi à 300 000 km/s), on a la relation : &#955;(m) = 300 000 000 / f(Hz) ou &#955;(m) . f(Hz) = 300 000 000 m/s. Les formules ci-dessous sont le plus souvent utilisées avec le multiple MHz pour la fréquence et le mètre pour la longueur d’onde. Exemples : 1) Quelle est la longueur d'onde d'une fréquence de 14,1 MHz ? Réponse : L(m) = 300 / 14,1 = 21,27 m 2) Quelle est la fréquence dont la longueur d'onde est de 3 cm ? Réponse : 3 cm = 0,03 m ; f(MHz) = 300 / 0,03 = 10 000 MHz = 10 GHz b Lorsque les stations sont en mouvement l’une par rapport à l’autre (trafic via satellite), la vitesse de propagation est modifiée : si les stations se rapprochent très rapidement, la vélocité relative diminue, ce qui augmente artificiellement la fréquence de réception ( effet Doppler ). Et inversement lorsque les stations s’éloignent. Le même phénomène existe en acoustique : le bruit d’un véhicule est plus aigu s’il se rapproche. a",
+  "samples": [
+   {
+    "num": "20605",
+    "stem_fr": "FREQUENCE = 20 MHZ, \nLAMBDA =  ?",
+    "options": [
+     "70 m",
+     "7,5 m",
+     "1,5 m",
+     "15 m"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "15 m",
+    "commentaire_fr": "Lambda est la longueur d’onde en mètres. λ(m) = 300 / F(MHz) = 300/20 = 15 mètres\n",
+    "stem_zh": "频率 = 20 MHz，\nλ = ？"
+   },
+   {
+    "num": "20171",
+    "stem_fr": "LONGUEUR D'ONDE D'UN SIGNAL DE 60 MHZ",
+    "options": [
+     "50 m ",
+     "50 cm",
+     "0,2 m",
+     "5 m"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "5 m",
+    "commentaire_fr": "L =300 / 60 = 5\n",
+    "stem_zh": "60 MHz 信号的波长"
+   },
+   {
+    "num": "20707",
+    "stem_fr": "LONGUEUR D'ONDE D'UN SIGNAL DE FREQUENCE 10 GHZ",
+    "options": [
+     "3 cm",
+     "3 m",
+     "30 cm",
+     "3 mm"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "3 cm",
+    "commentaire_fr": "L = 300 / 10000 = 0,03 m = 3 cm\n",
+    "stem_zh": "频率为 10 GHz 的信号的波长"
+   },
+   {
+    "num": "20178",
+    "stem_fr": "FREQUENCE D'UN SIGNAL DE LONGUEUR = 3 CM",
+    "options": [
+     "1 GHz ",
+     "100 MHz",
+     "100 GHz",
+     "10 GHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "10 GHz",
+    "commentaire_fr": "3 cm = 0,03 m ; 300 / 0,03 = 10000 MHz = 10 GHz\n",
+    "stem_zh": "波长为 3 厘米的信号频率是多少？"
+   },
+   {
+    "num": "20170",
+    "stem_fr": "LONGUEUR D'ONDE D'UN SIGNAL DE FREQUENCE 7,5 MHZ",
+    "options": [
+     "400 m ",
+     "40 m",
+     "4 cm",
+     "40 cm"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "40 m",
+    "commentaire_fr": "L = 300 / 7,5 = 40\n",
+    "stem_zh": "频率为 7.5 MHz 的信号的波长是多少？"
+   },
+   {
+    "num": "20174",
+    "stem_fr": "FREQUENCE CORRESPONDANT A L = 16,50 M",
+    "options": [
+     "182 MHz ",
+     "1,82 MHz",
+     "18,2 MHz",
+     "1,82 GHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "18,2 MHz",
+    "commentaire_fr": "F= 300 / 16,5 = 18,2\n",
+    "stem_zh": "波长为 L = 16.50 m 对应的频率"
+   },
+   {
+    "num": "20177",
+    "stem_fr": "FREQUENCE D'UN SIGNAL DE LONGUEUR = 7,5 CM ?",
+    "options": [
+     "40 GHz ",
+     "40 MHz",
+     "4 GHz",
+     "400 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "4 GHz",
+    "commentaire_fr": "7,5 cm = 0,075 m ; 300 / 0,075 = 4000 MHz = 4 GHz\n",
+    "stem_zh": "波长为 7.5 厘米的信号频率是多少？"
+   },
+   {
+    "num": "21186",
+    "stem_fr": "QUELLE EST LA LONGUEUR D'ONDE D'UN SIGNAL DE 10 MHZ ?",
+    "options": [
+     "3 m",
+     "10 m",
+     "30 m",
+     "33 cm"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "30 m",
+    "commentaire_fr": "L(m) = 300 / F(MHz) = 300 / 10 = 30 m\n",
+    "stem_zh": "10 MHz 信号的波长是多少？"
+   },
+   {
+    "num": "20179",
+    "stem_fr": "FREQUENCE D'UN SIGNAL DE LONGUEUR = 2 MM ?",
+    "options": [
+     "15 GHz ",
+     "150 MHz",
+     "150 GHz",
+     "1,5 GHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "150 GHz",
+    "commentaire_fr": "2 mm = 0,002 m ; 300 / 0,002 = 150.000 MHz = 150 GHz\n",
+    "stem_zh": "波长为 2 mm 的信号的频率？"
+   },
+   {
+    "num": "20688",
+    "stem_fr": "FREQUENCE D'UN SIGNAL DE LONGUEUR D'ONDE = 2 CM",
+    "options": [
+     "15 MHz",
+     "150 GHz",
+     "1,5 GHz",
+     "15 GHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "15 GHz",
+    "commentaire_fr": "F(MHz) = 300 / L(m)\n2 cm = 0,02 m ; \nF = 300 / 0,02 = 15.000 MHz = 15 GHz\n",
+    "stem_zh": "波长为 2 cm 的信号的频率是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K032",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "anchor": "T034b",
+  "seclab": "3.4",
+  "n_q": 20,
+  "cours_fr": "3.4b . La valeur moyenne d’un courant sinusoïdal dont la longueur est égale à un nombre entier de période (comme dans le schéma ci-dessous) est nulle car la surface des alternances positives est égale à celle des alternances négatives (loi des aires). d La valeur crête à crête (Ucàc ou Icàc), à ne pas confondre avec la valeur crête, est la valeur de l’écart entre l’extrême positif et l’extrême négatif du signal, soit 2 fois la valeur maximale pour un courant sinusoïdal. e Attention : seules les valeurs efficaces (Ueff et Ieff) doivent être utilisées dans les calculs en courants alternatifs sinusoïdaux pour appliquer les lois d’Ohm et de Joule. Il faut donc transformer toutes les valeurs en valeurs efficaces avant d’effectuer d’autres calculs. Les valeurs efficaces ne portent aucun signe (+ ou –) et calculer la valeur efficace de deux signaux superposés est difficile sans utiliser trop de mathématiques. Le calcul le plus simple est la superposition d’un signal sinusoïdal avec une composante continue. Dans ce cas, on retiendra la formule suivante : U efftot = &#8730;(U cont 2 + U eff 2 ) . Les autres combinaisons sont plus complexes. Exemple : calculer la tension efficace Ueff de ce signal Réponse : calcul de la tension efficace du signal sinusoïdal : Ucac = 5V [= 4V –(– 1V)], donc Umax = 2,5 V et Ueff = 1,77 V (= 2,5 x 0,707). La composante continue de ce signal est égale à sa tension moyenne : Ucont = Umoy = [4 + (– 1)] / 2 = 1,5 V Ueff = &#8730; [U cont 2 + U eff 2 ] = &#8730; [1,5 2 + 1,77 2 ] = 2,3 V Nous avons vu au §1. 1d que l’intensité est une agitation organisée d’électrons. En courant alternatif, les électrons continuent de s’agiter au rythme du courant mais ne bougent presque plus de place, surtout en haute fréquence. En revanche, la propagation de l’agitation se déplace à la vitesse de la lumière (ou presque), comme en courant continu, en allant de la source (le générateur) vers la charge (qui consomme l’énergie). On peut comparer la propagation de l’agitation à la chute de dominos : une fois l’impulsion donnée par la chute du premier domino, les dominos suivants chutent les uns après les autres en se déplaçant très peu alors que le mouvement de chute se propage de la première à la dernière pièce. Le développement des réseaux électriques à la fin du 19 ème siècle impose le courant alternatif dont l’énergie se transporte plus facilement que celle du courant continu malgré ses dangers. f Un oscilloscope est un instrument de mesure qui permet de visualiser sur un écran cathodique la forme d’un signal en fonction du temps. Le point lumineux qui pa",
+  "samples": [
+   {
+    "num": "20106",
+    "stem_fr": "VALEUR DU SHUNT",
+    "options": [
+     "15 Ω",
+     "1,5 Ω",
+     "3 Ω",
+     "0,02 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1,5 Ω",
+    "commentaire_fr": "Ushunt = U galva = 600 x 0,0005 = 0,3 V ; Ishunt = 0,2 – 0,0005 = 0,1995 A ; Rshunt = U / I = 0,3 / 0,1995 = 1,5037 arrondi à 1,5 ohms)\n",
+    "stem_zh": "分流电阻的阻值是多少？"
+   },
+   {
+    "num": "20105",
+    "stem_fr": "VALEUR DU SHUNT",
+    "options": [
+     "204 Ω",
+     "20,4 Ω",
+     "2 Ω",
+     "0,2 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "20,4 Ω",
+    "commentaire_fr": "Ishunt = 50 mA – 1 mA = 49 mA ; U shunt = U galva = 1000 x 0,001 = 1 V ; Rshunt = U / I = 1 V / 0,049 = 20,408 arrondi à 20,4\n",
+    "stem_zh": "分流电阻的阻值是多少？"
+   },
+   {
+    "num": "21119",
+    "stem_fr": "R SHUNT ?",
+    "options": [
+     "0,025 Ω",
+     "0,5 mΩ",
+     "2,5 Ω",
+     "2501 µΩ"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "2501 µΩ",
+    "commentaire_fr": "R = (r x Ig) / (Icalibre - Ig) = (5 x 0,0005) / (1 - 0,0005)\n                               = 0,0025 V / 0,9995 A = 0,0025012 Ω \n                               = 2,501 mΩ  = 2501 µΩ\nou, autre raisonnement plus empirique : il passe dans le shunt 1999 fois plus de courant que dans le galvanomètre (999,5/0,5=999,5x2=1999), la résistance du shunt sera donc 1999 fois plus petite : \n5/1999 = 0,0025012\n",
+    "stem_zh": "分流电阻（R shunt）是多少？"
+   },
+   {
+    "num": "20108",
+    "stem_fr": "VALEUR DU SHUNT",
+    "options": [
+     "111 Ω",
+     "100 Ω",
+     "1 kΩ",
+     "1,11 kΩ"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "111 Ω",
+    "commentaire_fr": "Ug = Ri x Ig = 0,1 V ; S = Ug / (I – Ig) = 0,1 / (0,001 – 0,000 1) = 0,1 / 0,0009 = 111\n",
+    "stem_zh": "分流电阻的阻值是多少？"
+   },
+   {
+    "num": "20409",
+    "stem_fr": "VALEUR DU SHUNT S",
+    "options": [
+     "300 Ω",
+     "150 Ω",
+     "200 Ω",
+     "1800 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "200 Ω",
+    "commentaire_fr": "Réponse empirique (sans sortir sa calculette) : L'ampèremètre a un calibre de 2 mA alors que le galvanomètre mesure au maximum une intensité de 0,5 mA. Il passera donc dans le shunt 1,5 mA, soit 3 fois moins que dans le galvanomètre. La résistance du shunt devra donc être 3 fois moindre que la résistance du galvanomètre : Rshunt = 600 / 3 = 200 ohms\n",
+    "stem_zh": "分流电阻 S 的阻值是多少？"
+   },
+   {
+    "num": "21118",
+    "stem_fr": "IG DU GALVANOMETRE",
+    "options": [
+     "0,01 A",
+     "0,1 A",
+     "0,1 mA",
+     "1 mA"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1 mA",
+    "commentaire_fr": "I = U / R = 20 / (19900 + 100) = 20 / 20000 = 0,001 = 1 mA\n",
+    "stem_zh": "检流计的 Ig"
+   },
+   {
+    "num": "21457",
+    "stem_fr": "CALIBRE DU VOLTMETRE",
+    "options": [
+     "1 V",
+     "100 V",
+     "1000 V",
+     "100 mV"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "100 V",
+    "commentaire_fr": "U = R x I = (99.000 + 1.000) x 1 mA\n               = 100.000 x 0,001 = 100 V\n",
+    "stem_zh": "电压表的量程"
+   },
+   {
+    "num": "21328",
+    "stem_fr": "VALEUR DE R",
+    "options": [
+     "100 kΩ",
+     "99,9 kΩ",
+     "999.900 Ω",
+     "999.000 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "99,9 kΩ",
+    "commentaire_fr": "R = (UT/Ig) - (Ug/Ig)\n  = (10 V / 100 µA) - (10 mV / 100 µA)\n  = (10 / 0,0001) - (0,01/0,0001)\n  = 100000 - 100 = 99.900 Ω = 99,9 kΩ\nou, plus empirique : en faisant abstraction de la résistance interne du galvanomètre, la résistance mesurera 100 kΩ (R = U/I = 10 / 0,0001 = 100 000) desquels il faut déduire la résistance interne du galvanomètre (généralement petite par rapport à la résistance série). La réponse 99,9 kΩ impliquerait que la valeur de la résistance interne du galvanomètre est de 100Ω, ce qui est plausible. La réponse A implique que la résistance interne est nulle (ce qui est faux car il y a une tension aux bornes du galvanomètre). Les valeurs des réponses C et D sont 10 fois trop grandes.\n",
+    "stem_zh": "R 的阻值是多少？"
+   },
+   {
+    "num": "20107",
+    "stem_fr": "VALEUR DU SHUNT",
+    "options": [
+     "0,002 kΩ",
+     "2 Ω",
+     "0,002040 MΩ",
+     "2,04 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "2,04 Ω",
+    "commentaire_fr": "Ushunt = Ugalva = 100 x 0,001 = 0,1 V ; Ishunt = 50 mA – Igalva = 0,049 A ; R = U / I = 0,1/0,049 = 2,0408 arrondi à 2,04 Ω. Attention, les réponses 2 Ω et 0,002 kΩ (qui sont la même chose) ne sont pas assez précises : l’arrondi a été fait trop tôt.\n",
+    "stem_zh": "分流电阻的阻值是多少？"
+   },
+   {
+    "num": "21296",
+    "stem_fr": "INTENSITE DANS LE GALVANOMETRE",
+    "options": [
+     "2 mA",
+     "20 µA",
+     "5 mA",
+     "2,5 µA"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "20 µA",
+    "commentaire_fr": "Ig = IR = UR/R ; UR = Ucalibre = 2 V (à la tension aux bornes du galvanomètre près)\nI = 2 V/100 kΩ = 0,000 02 A = 20 µA\n",
+    "stem_zh": "检流计中的电流"
+   }
+  ]
+ },
+ {
+  "id": "K033",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 20,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "30922",
+    "stem_fr": "* QUEL INDICATIF FRANCAIS PEUT EMETTRE SUR LA FREQUENCE 146,275 MHZ ?",
+    "options": [
+     "FR5XY",
+     "FH5YZ",
+     "FM5XYZ",
+     "F0XYZ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "FM5XYZ",
+    "commentaire_fr": "En région 2 la bande des 2 mètres va de 144 à 148 MHz (sauf pour les opérateurs de classe 3 qui ont le chiffre 0 dans leur indicatif d'appel pour lesquels la bande va de 144 à 146 MHz). Les départements de Martinique (FM) , Guyane (FY) et Guadeloupe (FG) sont en région 2. Les opérateurs de ces départements (sauf ceux de classe 3) ont donc le droit d'émettre sur 146,275 MHz\n",
+    "stem_zh": "哪个法国呼号可以在 146.275 MHz 上发射？"
+   },
+   {
+    "num": "38102",
+    "stem_fr": "* QUEL EST LE PAYS QUI A SIGNE UN ACCORD DE RECIPROCITE AVEC LA FRANCE ?",
+    "options": [
+     "Groënland",
+     "Pérou",
+     "Brésil",
+     "USA"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Brésil",
+    "commentaire_fr": "Les 5 pays ayant signé un accord de réciprocité avec la France sont : Brésil, Côte d'Ivoire, Japon, Kenya et la Thaïlande\n",
+    "stem_zh": "哪个国家与法国签署了互惠协议？"
+   },
+   {
+    "num": "38151",
+    "stem_fr": "* F0GCS UTILISE LA STATION DU RADIO-CLUB F8KGN. COMMENT FORMULE-T-IL SON INDICATIF ???",
+    "options": [
+     "FØGCS/P",
+     "FØGCS",
+     "FØGCS opérant F8KGN",
+     "F8KGN opéré par FØGCS"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "F8KGN opéré par FØGCS",
+    "commentaire_fr": "Lorsque un opérateur manoeuvre la station d'un radio-club, l'opérateur donne l'indicatif du radio-club puis son indicatif personnel.\n\nSi FØGCS se trouvait chez un autre radioamateur, il se signalerait avec l'indicatif FØGCS/P. Bien entendu, dans tous les cas, FØGCS utilisera une fréquence, une puissance et une classe d'émission qui lui seront autorisées.\n",
+    "stem_zh": "F0GCS 使用无线电俱乐部 F8KGN 的电台。他应如何报出自己的呼号？"
+   },
+   {
+    "num": "30424",
+    "stem_fr": "QUELLE EST L'AUTORITE QUI DELIVRE LES INDICATIFS D'APPEL EN FRANCE ?",
+    "options": [
+     "le ministre chargé des communications électroniques ",
+     "l'ANFR",
+     "l'ARCEP",
+     "la gendarmerie"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "l'ANFR",
+    "commentaire_fr": "depuis décembre 2014 (modification des missions de l'ANFR dans le code des Postes et Commuications Electronqiues), c'est l'ANFR qui  délivre les certificats d'opérateur et les indicatifs d'appel. \n",
+    "stem_zh": "法国由哪个机关核发业余无线电呼号？"
+   },
+   {
+    "num": "33900",
+    "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR MW. \nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+    "options": [
+     "Wallis et Futuna",
+     "Angleterre",
+     "Ile de Man",
+     "Pays de Galles"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Pays de Galles",
+    "commentaire_fr": "Les préfixes du Royaume Uni peuvent commencer également par G. Ce qui donne, pour le Pays de Galles, GW\n",
+    "stem_zh": "您联络到一位呼号前缀以 MW 开头的业余爱好者。他来自哪个国家（地区）？"
+   },
+   {
+    "num": "34712",
+    "stem_fr": "QUELLE EST L'AUTORITE QUI DELIVRE LES INDICATIFS D'APPEL EN ZONE 2 UIT ?",
+    "options": [
+     "le ministre chargé des communications électroniques ",
+     "le préfet",
+     "la gendarmerie",
+     "l'ANFR"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "l'ANFR",
+    "commentaire_fr": "Depuis décembre 2014, les missions de l'ANFR ont été étendues à la délivrance des certificats d'opérateur et aux indicatifs d'appel\n",
+    "stem_zh": "在 UIT 第 2 区内，哪个机构签发呼号？"
+   },
+   {
+    "num": "34767",
+    "stem_fr": "LES INDICATIFS DES RADIOAMATEURS MORTS POUR LA FRANCE",
+    "options": [
+     "sont réattribués au bout de 50 ans",
+     "sont réattribués normalement",
+     "sont réattribués au bout de 100 ans",
+     "ne sont jamais réattribués"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "sont réattribués normalement",
+    "commentaire_fr": "Les indicatifs qui ne sont pas réattribués sont ceux à deux lettres au suffixe (exemple : F8AA).\n",
+    "stem_zh": "「为法国捐躯」的业余爱好者的呼号"
+   },
+   {
+    "num": "34737",
+    "stem_fr": "IL EST PREVU DE REATTRIBUER LES INDICATIFS DES RADIOAMATEURS MORTS POUR LA FRANCE",
+    "options": [
+     "jamais",
+     "en 2041",
+     "quand toutes les lettres des suffixes auront été attribuées ",
+     "à la demande d’un ayant droit"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "quand toutes les lettres des suffixes auront été attribuées ",
+    "commentaire_fr": "Seuls les indicatifs individuels à 2 lettres au suffixe ne sont pas réattribuables\n",
+    "stem_zh": "计划重新指配「为法国捐躯」的业余爱好者的呼号"
+   },
+   {
+    "num": "30918",
+    "stem_fr": "* UN RADIOAMATEUR DE CLASSE 3 DE FRANCE METROPOLITAINE A-T-IL LE DROIT D'EMETTRE EN MARTINIQUE ?",
+    "options": [
+     "Non",
+     "Oui",
+     "Oui, uniquement à partir d'un Radio-Club",
+     "Oui, uniquement depuis la station d'un radioamateur de Martinique"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Oui",
+    "commentaire_fr": "Un opérateur de classe 3 originaire de France Métropolitaine (F0ABC) a le droit d'émettre en Martqinique uniquement sur 144 MHz (bande ouverte au trafic pour tous les opérateurs de classe 3 en région 2 = 144-146 MHz)\n",
+    "stem_zh": "* 法国本土的 3 类业余爱好者有权在马提尼克发射吗？"
+   },
+   {
+    "num": "32526",
+    "stem_fr": "POUR ETRE RESPONSABLE D'UN RADIO-CLUB, IL FAUT :",
+    "options": [
+     "avoir un casier judiciaire vierge",
+     "être titulaire d'un certificat d'opérateur autre que celui de classe 3",
+     "avoir un diplôme d'électronique",
+     "avoir son certificat d'opérateur depuis plus d'un an"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "être titulaire d'un certificat d'opérateur autre que celui de classe 3",
+    "commentaire_fr": "On parle ici du reponsable technique de la station du radio-club, pas de l'équipe dirigeante d'un radio-club. Le Président d'un radio-club peut très bien ne pas être radioamateur (cas des radio-clubs en milieu scolaire où le président est obligatoirement le proviseur de l'établissement) \n",
+    "stem_zh": "要成为无线电俱乐部（台站）的负责人，必须："
+   }
+  ]
+ },
+ {
+  "id": "K034",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "anchor": "R42a",
+  "seclab": "R-4.2",
+  "n_q": 20,
+  "cours_fr": "R-4.2) L’exploitation d’une station se différencie par le suffixe utilisé après l’indicatif d’appel de l’opérateur - en station fixe , l’opérateur émet avec son indicatif d’appel sans suffixe depuis l’ adresse déclarée à l’ANFR qui doit être informée de tout changement dans les 2 mois (article 7 de l’arrêté du 21/09/00 modifié). Depuis 2021, deux adresses peuvent être communiquées à l’ANFR : celle du domicile de l’opérateur et celle de la station (la résidence secondaire de l’opérateur par exemple ou toute autre adresse). Pour une utilisation portable, mobile ou maritime, l’indicatif d’appel personnel devra être complété de la lette /P, /M ou /MM ( dernier alinéa de l’article 7 de l’arrêté du 21/09/00 modifié ) dans les cas suivants : - une station transportable est une station construite de manière à être déplacée mais ne peut pas fonctionner pendant son transport. L’indicatif d’appel est suivi du suffixe « /P » en CW ou « Portable » en téléphonie. - une station mobile est « destinée à être utilisée lorsqu'elle est en mouvement, ou pendant des haltes en des points non déterminés » (S1.67 du RR) . L’indicatif d’appel est suivi du suffixe « /M » en CW ou « Mobile ». - une station installée à bord d’un navire situé dans les eaux internationales (à plus de 12 milles nautiques des côtes) utilisera le suffixe « /MM » ou « Maritime Mobile ». La station est alors assimilée à une station de navire (art. S1.77 du RR) et relève de l'autorité du capitaine (art D406-12 du CPCE) . Une station située dans un navire dans les eaux territoriales, sur un fleuve ou à quai dans un port est assimilée à une station mobile (/M). Exemples : un radioamateur émettant en CW depuis la station d’un autre radioamateur utilisera un indicatif d’appel sous la forme « F5ABC/P » ; le même opérateur émettant en téléphonie depuis un véhicule ou en se promenant à pied ou en vélo s’identifiera ainsi : « Foxtrot Cinq Alfa Bravo Charlie Mobile ». b Les textes en vigueur ne règlent pas le cas du radioamateur français qui n’émet pas depuis le territoire pour lequel son indicatif d’appel lui a été attribué. L’usage veut que, dans ce cas, l’indicatif d’appel est précédé du préfixe de localisation du lieu d’émission ( voir §",
+  "samples": [
+   {
+    "num": "30207",
+    "stem_fr": "DANS QUEL DELAI DOIT-ON INFORMER L'ADMINISTRATION DE SON CHANGEMENT D'ADRESSE ?",
+    "options": [
+     "15 jours",
+     "1 mois",
+     "2 mois",
+     "3 mois"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "2 mois",
+    "commentaire_fr": "Depuis la décision 08-0841, le délai est de 2 mois (trois mois auparavant).\n",
+    "stem_zh": "应在多长时间内将地址变更告知主管部门？"
+   },
+   {
+    "num": "30055",
+    "stem_fr": "* VOUS EMETTEZ A BORD D'UNE PENICHE.\nCOMMENT DEVEZ-VOUS FORMULER VOTRE INDICATIF ?",
+    "options": [
+     "F1XYZ",
+     "F1XYZ/P",
+     "F1XYZ/MM",
+     "F1XYZ/M"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "F1XYZ/M",
+    "commentaire_fr": "L'émission à bord d'une péniche est considérée comme une émission mobile,  il faut donc faire suivre son indicatif par la lettre M. Le suffixe MM est réservé aux stations installée sur un navire émettant en dehors des eaux territoriales (à plus de 12 milles nautiques des côtes)\n",
+    "stem_zh": "* 你在一条驳船上发射。你的呼号应如何构成？"
+   },
+   {
+    "num": "32470",
+    "stem_fr": "JE SUIS RADIOAMATEUR ET J'EMETS SUR 144 MHZ A PARTIR D'UN BATEAU QUI NAVIGUE EN PLEINE MER.\nJ'ANNONCE MON INDICATIF :",
+    "options": [
+     "/P",
+     "/M",
+     "/MP",
+     "/MM"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "/MM",
+    "commentaire_fr": "Ne pas confondre avec la navigation sur une péniche qui est considérée comme une station mobile terrestre.\n",
+    "stem_zh": "我是业余无线电爱好者，正在公海上航行的一艘船上从 144 MHz 发射。我报出的呼号后缀是："
+   },
+   {
+    "num": "30046",
+    "stem_fr": "JE SUIS A BICYCLETTE ET JE TRAFIQUE AVEC UN PORTABLE VHF.\nQUE DOIS-JE ANNONCER A LA FIN DE MON INDICATIF ?",
+    "options": [
+     "F1XYZ/PM",
+     "F1XYZ/P",
+     "F1XYZ/B",
+     "F1XYZ/M"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "F1XYZ/M",
+    "commentaire_fr": "Attention, un appareil portatif (appelé portable en français) n'est pas transportable (suffixe P) mais est mobile (suffixe M). Les termes utilisés (mobile et portable) doivent prendre le sens des mots anglais (rappelons que les anglais nomment leur téléphone GSM \"mobile phone\")\n",
+    "stem_zh": "我骑自行车，用一台 VHF 手持台通联。我应在呼号末尾加上什么？"
+   },
+   {
+    "num": "30110",
+    "stem_fr": "* EN NOUVELLE-CALEDONIE, QUI DELIVRE LES CERTIFICATS D'OPERATEURS ?",
+    "options": [
+     "Le commissaire de police\n",
+     "La gendarmerie\n",
+     "L'ANFR\n",
+     "L'administrateur supérieur\n"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "L'ANFR\n",
+    "commentaire_fr": "Depuis décembre 2014, c'est l'ANFR qui délivre les certificats d'opérateur y compris en outre mer (avant 2014 : haut commissaire de la République qui représente l'Etat français en Nouvelle Calédonie)\n",
+    "stem_zh": "* 在新喀里多尼亚，谁签发操作员证书？"
+   },
+   {
+    "num": "36390",
+    "stem_fr": "* UN RADIOAMATEUR A PIED ET QUI UTILISE UN EMETTEUR PORTABLE SE SIGNALE EN ?",
+    "options": [
+     "FXXXX / pédestre",
+     "FXXXX / portable pédestre",
+     "FXXXX / portable",
+     "FXXXX / mobile"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "FXXXX / mobile",
+    "commentaire_fr": "Le suffixe est \"portable\" si on utilise une station qui ne peut pas se transporter. Or, quand on est \"à pied\", on se déplace. Le suffixe est donc \"mobile\".\nLe terme \"émetteur portable\" est un faux ami. On devrait plutôt dire \"émetteur portatif\". Ne pas oublier que les termes \"mobile\" et \"portable\" proviennent de l'anglais même si les mots existent en français mais n'ont pas exactement la même signification. Un anglophone parle d'un \"mobile phone\" et nous parlons d'un \"téléphone portable\" mais c'est bien le même objet...\n",
+    "stem_zh": "一位步行并使用便携发射机的业余爱好者如何标识自己？"
+   },
+   {
+    "num": "37030",
+    "stem_fr": "QUI DELIVRE LES CERTIFICATS D'OPERATEURS DANS LES TERRES AUSTRALES ?",
+    "options": [
+     "Le commissaire de police",
+     "L'ANFR",
+     "La gendarmerie",
+     "Le haut commissaire de la république"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "L'ANFR",
+    "commentaire_fr": "Depuis décembre 2014, c'est l'ANFR qui délivre les certificats d'opérateur dans toiute la France y compris en outre mer (avant 2014 : haut commissaire de la République qui représente l'Etat français sur les TAAF)\n",
+    "stem_zh": "谁签发法属南方和南极领地的操作员证书？"
+   },
+   {
+    "num": "30020",
+    "stem_fr": "UNE STATION RADIOAMATEUR INSTALLEE A BORD D'UNE PENICHE EST ASSIMILEE A ?",
+    "options": [
+     "Une station Maritime/Mobile",
+     "Une station Fluviale",
+     "Une station Mobile",
+     "Une station Fixe"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Une station Mobile",
+    "commentaire_fr": "Attention à ne pas confondre avec MM (Maritime Mobile) où on émet en pleine mer.\n",
+    "stem_zh": "安装在内河驳船上的业余电台被视作什么电台？"
+   },
+   {
+    "num": "35050",
+    "stem_fr": "* VOUS EMETTEZ A BORD D'UN TRAIN. COMMENT DEVEZ-VOUS FORMULER VOTRE INDICATIF ?",
+    "options": [
+     "Vous n'avez pas le droit d'émettre",
+     "Votre indicatif suivi de /T",
+     "Votre indicatif suivi de /P",
+     "Votre indicatif suivi de /M"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Votre indicatif suivi de /M",
+    "commentaire_fr": "Dans un train, on est considéré comme un mobile.\n",
+    "stem_zh": "你在火车上发射。呼号应如何表述？"
+   },
+   {
+    "num": "31202",
+    "stem_fr": "EN CAS DE CHANGEMENT DE DOMICILE, UN RADIOAMATEUR DOIT AVERTIR :",
+    "options": [
+     "Le commissariat de police de son ancien domicile ",
+     "l'UIT dans un délai de 3 mois",
+     "La gendarmerie de son nouveau domicile",
+     "l'ANFR dans un délai de 2 mois"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "l'ANFR dans un délai de 2 mois",
+    "commentaire_fr": "La déclaration de changement de domicile peut s'effectuer sur le site Internet de l'ANFR\n",
+    "stem_zh": "住所变更时，业余爱好者必须通知："
+   }
+  ]
+ },
+ {
+  "id": "K035",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 19,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "34852",
+    "stem_fr": "DANS QUELLE GAMME D'ONDE CLASSE-T-ON LA BANDE DU 160 METRES ?",
+    "options": [
+     "VLF",
+     "LF",
+     "MF",
+     "HF"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "MF",
+    "commentaire_fr": "Les ondes hectométriques (dont la longueur d'onde est comprise entre 1 hectomètre et 10 hm) sont les ondes MF.\n",
+    "stem_zh": "160 米波段归入哪个波段分类？"
+   },
+   {
+    "num": "30779",
+    "stem_fr": "PUISSANCE AUTORISEE A UN OPERATEUR ETRANGER CEPT SUR 28,750 MHZ ?",
+    "options": [
+     "120 W",
+     "500 W",
+     "250 W",
+     "10 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "250 W",
+    "commentaire_fr": "Les radioamateurs étrangers de passage en France (et titulaires d’un certificat d’opérateur CEPT) ont droit aux mêmes puissances que les radioamateurs français.\nDe même, si vous émettez depuis l'étranger dans le cadre de la recommandation T/R 61-01, vous devez utiliser les bandes de fréquences et la puissance maximum autorisées aux opérateurs de ce pays.\n",
+    "stem_zh": "CEPT 外国操作员在 28.750 MHz 上允许的功率是多少？"
+   },
+   {
+    "num": "34704",
+    "stem_fr": "DANS QUELLE REGION DE L'UIT SE SITUENT LES ILES CROZET",
+    "options": [
+     "région 1",
+     "région 2",
+     "région 3",
+     "région 4"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "région 1",
+    "commentaire_fr": "Les îles Crozet sont rattachées aux Terres Australes et Antarctiques Françaises et sont situées dans la partie sud-ouest de l'océan indien (à mi chemin entre Madagascar et le continent antarctique)\n",
+    "stem_zh": "克罗泽群岛位于国际电信联盟（UIT）的哪个区？"
+   },
+   {
+    "num": "30054",
+    "stem_fr": "* PUISSANCE DE SORTIE AUTORISEE POUR LA CLASSE 3 DANS UN PAYS LIMITROPHE A\nLA FRANCE ?",
+    "options": [
+     "0 W",
+     "2 W",
+     "5 W",
+     "10 W"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "0 W",
+    "commentaire_fr": "Les opérateurs de classe 3 (qui ont donc obtenu leur certificat d'opérateur avant 2012) ne peuvent pas émettre hors de France car leur certificat d'opérateur n'a pas d'équivalence CEPT.\n",
+    "stem_zh": "* 在法国的邻国，3 类操作员被允许的输出功率是多少？"
+   },
+   {
+    "num": "30603",
+    "stem_fr": "* A QUELLE LONGUEUR D'ONDE APPARTIENT LA FREQUENCE 1,835 MHZ ?",
+    "options": [
+     "17 mètres",
+     "18 mètres",
+     "160 mètres",
+     "80 mètres"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "160 mètres",
+    "commentaire_fr": "Pour calculer la longueur d'onde on divise 300 par 1,835 ce qui donne 163,48 mètres de longueur d'onde soit la bande dite des 160 mètres.\n",
+    "stem_zh": "频率 1.835 MHz 属于哪个波长？"
+   },
+   {
+    "num": "30425",
+    "stem_fr": "LE SPECTRE RADIOELECTRIQUE EST LA PROPRIETE DE :",
+    "options": [
+     "L'UIT",
+     "l'Europe",
+     "des associations de radioamateurs",
+     "l'Etat"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "l'Etat",
+    "commentaire_fr": "Selon l’article L41-1 du code des Postes et Communications Electroniques, l’ensemble du spectre des fréquences radioélectriques fait partie du domaine public de l’Etat\n",
+    "stem_zh": "无线电频谱属于谁所有？"
+   },
+   {
+    "num": "34918",
+    "stem_fr": "QUELLE FREQUENCE PEUT ETRE UTILISEE POUR LES BALISES ?",
+    "options": [
+     "7,300 MHz",
+     "145,900 MHz",
+     "441 MHz",
+     "aucune de ces fréquences"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "145,900 MHz",
+    "commentaire_fr": "Rien dans la réglementation n'indique que des fréquences ou des bandes sont réservées aux balises. En conclusion, toutes les fréquences autorisées peuvent être utilisées. Les fréquences 7,3 MHz et 441 MHz ne sont pas ouvertes au trafic radioamateur.\n",
+    "stem_zh": "哪个频率可用于信标？"
+   },
+   {
+    "num": "30560",
+    "stem_fr": "QUEL DEPARTEMENT D'OUTRE-MER NE FAIT PAS PARTIE DE LA REGION 2 DE L'UIT ?",
+    "options": [
+     "Guyane",
+     "Guadeloupe",
+     "Martinique",
+     "Réunion"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Réunion",
+    "commentaire_fr": "La région 2 couvre le continent américain, les Antilles et la moitié Nord de l’Océan Pacifique.\n",
+    "stem_zh": "哪个海外省不属于 UIT 第 2 区？"
+   },
+   {
+    "num": "34986",
+    "stem_fr": "QUELLE BANDE DE FREQUENCE EST EXPLOITEE A EGALITE DE DROITS ?",
+    "options": [
+     "10,1 – 10,15 MHz",
+     "3500 – 3800 kHz ",
+     "430 – 434 MHz",
+     "144 – 146 MHz"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "3500 – 3800 kHz ",
+    "commentaire_fr": "En région 2 (aux Antilles et en Guyane), la bande 3,5-3,75 MHz a, par contre, un statut primaire (attention au piège pour les candidats de cette région UIT). Il aurait donc fallu préciser \"en région 1\" dans la question\n",
+    "stem_zh": "哪个频段以平等使用权被使用？"
+   },
+   {
+    "num": "34938",
+    "stem_fr": "QUI ATTRIBUE LE SPECTRE DES BANDES DE FREQUENCES ?",
+    "options": [
+     "l'ANFR",
+     "le Préfet",
+     "le Ministre chargé des Communications Electroniques",
+     "l'ARCEP"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "l'ARCEP",
+    "commentaire_fr": "C’est le Premier Ministre qui répartit le spectre radioélectrique entre l’ARCEP, le CSA et les services de l’Etat. Puis l’ARCEP attribue les fréquences aux utilisateurs finaux et fixe les conditions d’utilisation de ces fréquences.\n",
+    "stem_zh": "谁指配频段的频谱？"
+   }
+  ]
+ },
+ {
+  "id": "K036",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "anchor": "T062",
+  "seclab": "6.2",
+  "n_q": 19,
+  "cours_fr": "6.2) Gain d'un transistor : Le courant collecteur est directement fonction du courant de base . &#946; (lettre grecque bêta minuscule) est le gain du transistor, désigné aussi par h FE dans les caractéristiques du constructeur (data sheet ; h = fonction de transfert ; F = Forward current amplification ; E = common Emitter). Quelle que soit la tension appliquée sur le collecteur, on a I c = I b . &#946; ou I b = I c /&#946; . Notez que le gain est, dans ce cas, un coefficient multiplicateur, à ne pas confondre avec un gain en dB. On pourra utiliser le triangle comme pour la loi d’Ohm. Le gain est toujours donné par le constructeur pour du courant continu et pour une température de 20°C. Le gain augmente avec la température , d'où les problèmes liés à l'emballement thermique. Le gain du transistor diminue lorsque la fréquence à amplifier augmente. La fréquence de coupure est la fréquence pour laquelle le gain du transistor n'est plus que de 70% du gain initial en courant continu. Donc, à cette fréquence, la puissance dissipée sera atténuée de 3 dB ( voir §",
+  "samples": [
+   {
+    "num": "20425",
+    "stem_fr": "GAIN D'UN TRANSISTOR",
+    "options": [
+     "120",
+     "101",
+     "100",
+     "80"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "100",
+    "commentaire_fr": "Ic = Ie – Ib = 1,212 mA – 12 µA = 1,2 mA\nbeta = Ic / Ib = 1,2 mA / 12 µA = 1200 µA / 12 µA = 100\nLa réponse 101 correspond au rapport Ie/Ib mais ce n’est pas le bon calcul\n",
+    "stem_zh": "晶体管的增益"
+   },
+   {
+    "num": "21145",
+    "stem_fr": "COURANT DE BASE",
+    "options": [
+     "5 A",
+     "1,62 A",
+     "2 mA",
+     "200 µA"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "200 µA",
+    "commentaire_fr": "Ic = beta x I b, donc Ib = Ic / beta = 18 mA / 90 = 0,2 mA = 200 µA\n",
+    "stem_zh": "基极电流"
+   },
+   {
+    "num": "20144",
+    "stem_fr": "CALCULER IC",
+    "options": [
+     "330 µA ",
+     "950 µA",
+     "0,095 A",
+     "1,8 A"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "950 µA",
+    "commentaire_fr": "Ic = Ib x b = 9,5 µA x 100 = 950 µA\n",
+    "stem_zh": "集电极电流 IC 是多少？"
+   },
+   {
+    "num": "21146",
+    "stem_fr": "COURANT DE BASE",
+    "options": [
+     "150 mA",
+     "1 mA",
+     "225 mA",
+     "6,67 mA"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1 mA",
+    "commentaire_fr": "Ie = Ib x (beta + 1), donc Ib = Ie / (beta + 1) = 101 mA / 101 = 1 mA\n",
+    "stem_zh": "基极电流"
+   },
+   {
+    "num": "21291",
+    "stem_fr": "COURANT COLLECTEUR",
+    "options": [
+     "125 µA",
+     "100 mA",
+     "80 mA",
+     "0,8 mA"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "0,8 mA",
+    "commentaire_fr": "Ic = ß x Ib = 80 x 10 µA = 800 µA = 0,8 mA\n",
+    "stem_zh": "集电极电流"
+   },
+   {
+    "num": "21144",
+    "stem_fr": "COURANT COLLECTEUR",
+    "options": [
+     "150 mA",
+     "1,5 A",
+     "225 mA",
+     "6,67 mA"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "150 mA",
+    "commentaire_fr": "Ic = beta x Ib = 150 x 1 mA = 150 mA\n",
+    "stem_zh": "集电极电流"
+   },
+   {
+    "num": "20145",
+    "stem_fr": "CALCULER IC",
+    "options": [
+     "18000 µA ",
+     "18,12 mA ",
+     " 18,1 µA",
+     "0,18 A"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "18000 µA ",
+    "commentaire_fr": "Ic = Ib x b = 120 µA x 150 = 18000 µA. La réponse 18,12 mA est un piège : c’est la valeur du courant passant dans l’émetteur (= courant de base + courant collecteur)\n",
+    "stem_zh": "集电极电流 IC 是多少？"
+   },
+   {
+    "num": "21147",
+    "stem_fr": "COURANT COLLECTEUR",
+    "options": [
+     "47,5 mA",
+     "48,5 mA",
+     "96 mA",
+     "100 mA"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "47,5 mA",
+    "commentaire_fr": "Ie = Ib + Ic, donc Ic = Ie - Ib = 48 mA - 0,5 mA = 47,5 mA\n",
+    "stem_zh": "集电极电流"
+   },
+   {
+    "num": "20142",
+    "stem_fr": "QUEL EST LE COURANT IC",
+    "options": [
+     "1,8 A ",
+     "1,8m A",
+     "6,66 mA",
+     "12 mA"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1,8m A",
+    "commentaire_fr": "Ic = Ib x b = 150 x 12 µA = 1,8 x 10-3 = 1,8 mA. La valeur de la résistance de collecteur ne sert à rien.\n",
+    "stem_zh": "集电极电流 IC 是多少？"
+   },
+   {
+    "num": "21292",
+    "stem_fr": "GAIN DU TRANSISTOR",
+    "options": [
+     "ß = 99",
+     "ß = 101",
+     "ß = 100",
+     "ß = 1,01"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "ß = 100",
+    "commentaire_fr": "Ie = Ic + Ib, donc Ib = Ie - Ic = 101 mA - 100 mA = 1 mA\nIc = ß x Ib, donc ß = Ic/Ib = 100/1 = 100\n",
+    "stem_zh": "晶体管的增益"
+   }
+  ]
+ },
+ {
+  "id": "K037",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 19,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "34789",
+    "stem_fr": "VERS QUELLE VALEUR DOIT TENDRE LE TOS POUR UNE EMISSION OPTIMALE ?",
+    "options": [
+     "0%",
+     "1",
+     "50 ohms",
+     "13,8 volts"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "0%",
+    "commentaire_fr": "Le TOS (Taux d'Ondes Stationnaires) se définit en %. Un TOS de 0% signifie qu'il n'y a pas d'ondes stationnaires.\n",
+    "stem_zh": "为了获得最佳发射效果，驻波比（TOS）应趋向哪个值？"
+   },
+   {
+    "num": "30033",
+    "stem_fr": "UN EMETTEUR CONSOMME 10 WATTS EN ENTREE.\nLA PUISSANCE DE SORTIE DE CET EMETTEUR EST DE 5 WATTS.\nQUEL EST SON RENDEMENT ?",
+    "options": [
+     "0,5 %",
+     "2,5 %",
+     "2 %",
+     "50 %"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "50 %",
+    "commentaire_fr": "Le rendement est le rapport de la puissance émise par rapport à la puissance consommée, soit 5 / 10 = 0,5 = 50%\n",
+    "stem_zh": "一台发射机输入端消耗 10 W，输出功率为 5 W。它的效率是多少？"
+   },
+   {
+    "num": "39080",
+    "stem_fr": "* VOUS EMETTEZ AVEC UNE PUISSANCE DE 45 WATTS.\nLA PUISSANCE REFLECHIE EST DE 5 WATTS.\nQUELLE EST L'IMPEDANCE DE L'ANTENNE ?",
+    "options": [
+     "11 Ω",
+     "90 Ω",
+     "100 Ω",
+     "50 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "100 Ω",
+    "commentaire_fr": "Taux de puissance réfléchie = puissance réfléchie / puissance émise = 5 / 45 = 1/9 = 0,11111\nk = taux de réflexion = racine (taux de puissance réfléchie) = racine (0,1111) = 0,333\nTransformation k > ROS : ROS = (1 + k) / (1 – k) = 1,333 / 0,6666 = 2. \nLe ROS exprime le rapport des impédances de l’émetteur et de l’antenne. L’impédance de l’antenne pourra donc être 50 / 2 (25 ohms) ou 50 x 2 (100 ohms). Mais ce développement est, à notre avis, hors programme de l'épreuve de réglementation.\n",
+    "stem_zh": "您以 45 W 的功率发射，反射功率为 5 W。天线阻抗是多少？"
+   },
+   {
+    "num": "30302",
+    "stem_fr": "* UN EMETTEUR CONSOMME 250 WATTS EN ENTREE.\nLA PUISSANCE DE SORTIE DE CET EMETTEUR EST DE 125 WATTS.\nQUEL EST SON RENDEMENT ?",
+    "options": [
+     "25 %",
+     "50 %",
+     "75 %",
+     "80 %"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "50 %",
+    "commentaire_fr": "Rendement (%) = (puissance émise / puissance consommée) x 100 = (125 / 250) x 100 = 50%\n",
+    "stem_zh": "一台发射机输入消耗 250 W，输出功率 125 W，其效率是多少？"
+   },
+   {
+    "num": "30119",
+    "stem_fr": "* AU BOUT D'UNE LIGNE DE 100 METRES DE LONGUEUR, AYANT UNE PERTE DE 0,06 DB\nPAR METRE, LA PUISSANCE DE SORTIE SERA DIVISEE PAR COMBIEN ?",
+    "options": [
+     "2",
+     "4",
+     "6",
+     "10"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "4",
+    "commentaire_fr": "La perte dans le coaxial sera de 0,06 dB/m  x 100 m = 6 dB. -6 dB correspond à une puissance divisée par 4.\n",
+    "stem_zh": "在一条长 100 米、每米损耗 0.06 dB 的线路末端，输出功率会被除以几？"
+   },
+   {
+    "num": "30232",
+    "stem_fr": "* UN EMETTEUR CONSOMME 200 WATTS EN ENTREE.\nLA PUISSANCE DE SORTIE DE CET EMETTEUR EST DE 150 WATTS.\nQUEL EST SON RENDEMENT ?",
+    "options": [
+     "50 %",
+     "75 %",
+     "100 %",
+     "33 %"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "75 %",
+    "commentaire_fr": "Rendement (%) = (puissance émise / puissance consommée) x 100 = (150 / 200) x 100 = 75%\n",
+    "stem_zh": "一台发射机输入消耗 200 W，输出功率 150 W，其效率是多少？"
+   },
+   {
+    "num": "30168",
+    "stem_fr": "UN EMETTEUR D'IMPEDANCE 50 OHMS ALIMENTE UNE ANTENNE 1/4 D'ONDE FONCTIONNANT\nSUR LA BANDE DES 2 METRES.\nCALCULEZ LE R.O.S. ?",
+    "options": [
+     "1,4/1",
+     "1,8/1",
+     "3/1",
+     "4,2/1"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1,4/1",
+    "commentaire_fr": "Impédance de l’antenne = 36 ohms ; ROS = Z plus forte / Z plus faible = 50 / 36 = 1,39, arrondi à 1,4\n",
+    "stem_zh": "一台阻抗 50 Ω 的发射机给工作于 2 米波段的四分之一波长天线馈电，请计算驻波比 ROS？"
+   },
+   {
+    "num": "30189",
+    "stem_fr": "* CALCULEZ LE TOS ?\nPUISSANCE INCIDENTE              PUISSANCE REFLECHIE\n      15 WATTS ---------------------------      3 WATTS",
+    "options": [
+     "5 %",
+     "20 %",
+     "12 %",
+     "44 %"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "44 %",
+    "commentaire_fr": "TOS = racine (Puissance réfléchie / puissance émise) x 100 ; \nracine (3 / 15) = racine (0,2) = 0,44 x 100 = 44 %\n",
+    "stem_zh": "计算 TOS？入射功率 15 W，反射功率 3 W"
+   },
+   {
+    "num": "30757",
+    "stem_fr": "* LA CHARGE NON RAYONNANTE EST-ELLE OBLIGATOIRE DANS UNE STATION D'AMATEUR ?",
+    "options": [
+     "Oui",
+     "Non",
+     "Non si vous possédez un filtre secteur",
+     "Non si votre antenne est bien réglée"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Non",
+    "commentaire_fr": "Depuis le mois de mars 2013, la charge non rayonnante n'est plus obligatoire ni le filtre secteur.\n",
+    "stem_zh": "* 业余电台中非辐射负载（假负载）是必须的吗？"
+   },
+   {
+    "num": "31021",
+    "stem_fr": "A QUOI SERT UNE SELF DE CHOC ?",
+    "options": [
+     "A accorder une antenne",
+     "A empêcher la HF de circuler vers l'alimentation",
+     "A régler son émetteur",
+     "A avoir plus de puissance en émission"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "A empêcher la HF de circuler vers l'alimentation",
+    "commentaire_fr": "Question relevant de la partie technique mais qui a été posée lors d'un examen de réglementation . De plus, plutôt que d'utiliser le terme \"self\", le mot \"bobine\" aurait été mieux choisi (argot de technicien).\n",
+    "stem_zh": "扼流圈（self de choc）的作用是什么？"
+   }
+  ]
+ },
+ {
+  "id": "K038",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 18,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "20089",
+    "stem_fr": "OBINE DE 4 NANOHENRYS 5 SPIRES",
+    "options": [
+     "20",
+     "1,25",
+     "10",
+     "17"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "10",
+    "commentaire_fr": "La formule est L = F x N² x D². La bobine a une valeur 4 fois plus forte, le nombre de spires est donc multiplié par 2 (effet du carré)\n",
+    "stem_zh": "4 纳亨（nH）的线圈，5 匝"
+   },
+   {
+    "num": "21254",
+    "stem_fr": "FREQUENCE DE RESONANCE",
+    "options": [
+     "625 kHz",
+     "1,6 MHz",
+     "159 MHz",
+     "1 MHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1 MHz",
+    "commentaire_fr": "F(MHz) = 159/√(L(µH)xC(pF)) = 159/√(64 x 400) = 159/160 = 1 MHz (arrondi)\n\nEn écriture naturelle : 1 / (2 x π x √(64.10^-6 x 400.10^-12)) \n= 994,7.10^3 converti en 995 kHz arrondi à 1 MHz\n",
+    "stem_zh": "谐振频率是多少？"
+   },
+   {
+    "num": "20586",
+    "stem_fr": "10 MICROFARAD = ?",
+    "options": [
+     "aucune des réponses ",
+     "100.000 pF",
+     "1000 nF",
+     "1 nF"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "aucune des réponses ",
+    "commentaire_fr": "10 µF = 10.000 nF = 10.000.000 pF, donc aucune des réponses proposées. Il n'y a pas de calcul, cette question est posée pour voir si le candidat maîtrise les multiples et sous-multiples.\n",
+    "stem_zh": "10 微法 = ？"
+   },
+   {
+    "num": "22471",
+    "stem_fr": "CONSTANTE DE TEMPS DE CE CIRCUIT ?",
+    "options": [
+     "0,94 s",
+     "0,094s",
+     "0,0094s",
+     "9,4 s"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "0,94 s",
+    "commentaire_fr": "La constante de temps est donnée par la relation :\nt = R x C avec t en secondes , R en Ω et C en F\n\nt = 20.10^3 x 47.10^-6 \nt = 940.10^(+3-6)\nt = 940.10^-3\nt = 940 ms ou t = 0,94 s\n",
+    "stem_zh": "这个电路的时间常数是多少？"
+   },
+   {
+    "num": "20091",
+    "stem_fr": "FORMULE EXACTE",
+    "options": [
+     "t(s) = R / C",
+     "t(s) = R / L",
+     "t(s) = 1 / (R x C)",
+     "t(s) = L / R"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "t(s) = L / R",
+    "commentaire_fr": "la formule exacte pour les condensateurs est : t(s) = R x C\n",
+    "stem_zh": "正确的公式是哪一个？"
+   },
+   {
+    "num": "20086",
+    "stem_fr": "DEPHASAGE INTRODUIT PAR UN CONDENSATEUR ?",
+    "options": [
+     "180°",
+     "+ 90°",
+     "- 90°",
+     "pas de déphasage"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "- 90°",
+    "commentaire_fr": "La tension est en retard (-90°) par rapport l’intensité : il y a d’abord intensité puis tension\n",
+    "stem_zh": "电容器引入的相移是多少？"
+   },
+   {
+    "num": "21087",
+    "stem_fr": "QUELLE EST LA QUANTITE D'ELECTRICITE EMMAGASINEE DANS LE CONDENSATEUR",
+    "options": [
+     "25,45 mC",
+     "18 C",
+     "180 µC",
+     "55,5 µC"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "180 µC",
+    "commentaire_fr": "Q = C x U = 18 µF x 10 V\n          = 0,000 018 x 10\n          = 0,000 18 C\n          = 0,18 mC  = 180 µC\n",
+    "stem_zh": "电容器中储存的电量是多少？"
+   },
+   {
+    "num": "20442",
+    "stem_fr": "QUELLE VALEUR CORRESPOND A UN CONDENSATEUR DE 100 PF ?",
+    "options": [
+     "0,01 µF",
+     "1000 nF",
+     "0,001 µF",
+     "aucune de ces valeurs"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "aucune de ces valeurs",
+    "commentaire_fr": "la bonne réponse aurait été 0,1 nF ou 0,0001 µF, réponse qui n'est pas proposée ici\n",
+    "stem_zh": "100 pF 的电容器对应下面哪个数值？"
+   },
+   {
+    "num": "21094",
+    "stem_fr": "EN COMBIEN DE TEMPS LE CONDENSATEUR SERA-T-IL \"REMPLI\" UNE FOIS LE CONTACT ETABLI.",
+    "options": [
+     "150 ms",
+     "750 ms",
+     "450 ms",
+     "15 ms"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "750 ms",
+    "commentaire_fr": "Le condensateur est rempli à plus de 99 % au bout de 5 constantes de temps (T)\nLa constante de temps est calculée comme suit : T(s) = R(Ω) x C(F)\nT = 15.000 Ω x 0,000 010 F = 0,15 s\n5T = 5 x 0,15 = 0,75 s = 750 ms\n",
+    "stem_zh": "接触闭合后，电容器需要多长时间才会「充满」。"
+   },
+   {
+    "num": "21099",
+    "stem_fr": "PULSATION D'UN CIRCUIT AVEC UNE BOBINE DE 1 MICROHENRY A 21 MHZ",
+    "options": [
+     "131,88 rad/s",
+     "131.880.000 rad/s",
+     "21.000 rad/s",
+     "62.800 rad/s"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "131.880.000 rad/s",
+    "commentaire_fr": "pulsation = 2 x pi x F = 6,28 x 21 MHz = 6,28 x 21.000.000 = 131.880.000 rad/s\nLa valeur de la bobine ne sert pas dans les calculs.\n",
+    "stem_zh": "一个 1 µH 线圈在 21 MHz 时的角频率是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K039",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "anchor": "T043a",
+  "seclab": "4.3",
+  "n_q": 16,
+  "cours_fr": "4.3) Les circuits LC sont des filtres composés de bobines et de condensateurs. Ces filtres, s’ils sont montés comme les filtres RC (la bobine remplaçant la résistance), ont un effet de coupure. Seuls les circuits LC ont un effet de résonance à une fréquence s’ils sont montés en série ou en parallèle. Les filtres LC sont utilisés dans le domaine de la Haute Fréquence (HF). A la résonance comme à la coupure, on a Z C = Z L ( loi de Thomson ), d'où : b Le tableau ci-après récapitule les quatre montages de base des filtres LC. Comme pour les filtres RC, l’expression mnémotechnique citée plus haut sera employée pour reconnaître les filtres passe-haut ou passe-bas (« dans un filtre passe-haut, le condensateur est en haut et dans un filtre passe-bas, le condensateur est en bas »). Les graphiques expriment l’atténuation du signal à la sortie du filtre en fonction de la fréquence. 0 dB signifie qu’il n’y a aucune atténuation. L’axe des fréquences est souvent logarithmique (comme l’axe des décibels). D’autres graphiques expriment la tension aux bornes du circuit ou son impédance en fonction de la fréquence. Tableau comparatif des 4 montages de base des circuits LC Exemple : Quelle est la fréquence de résonance d'un circuit bouchon avec L = 32 µH et C = 200 pF ? Réponse : f(MHz) = 159 / [&#8730;(L(µH).C(pF)] = 159 / [&#8730;(32 x 200)] = 159 / &#8730;(6400) = 159 / 80 = 1,9875 &#8776; 2 MHz Sur une calculette : en écriture naturelle : 1 ÷ (2 x [&#960;] x [&#8730;] (",
+  "samples": [
+   {
+    "num": "20125",
+    "stem_fr": "FREQUENCE DE RESONANCE",
+    "options": [
+     "1,6 MHz ",
+     "100 kHz",
+     "4 MHz",
+     "1 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "4 MHz",
+    "commentaire_fr": "Formule simplifiée : F = 159 / √ (L en µH x C en pF) = 159 / √ (8 x 200) = 159/ √ (1600) = 159/40= 3,975 arrondi à 4 MHz\n",
+    "stem_zh": "谐振频率是多少？"
+   },
+   {
+    "num": "20124",
+    "stem_fr": "FREQUENCE DE RESONANCE",
+    "options": [
+     "22 MHz ",
+     "7,3 MHz",
+     "11 MHz",
+     "34 MHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "34 MHz",
+    "commentaire_fr": "Formule simplifiée : F = 159 / √ (L en µH x C en pF) = 159 / √ (0,022 x 1000) = 159/ √ (22) = 159/4,7 = 33,8 arrondi à 34 MHz\n",
+    "stem_zh": "谐振频率是多少？"
+   },
+   {
+    "num": "21298",
+    "stem_fr": "FREQUENCE DE RESONANCE",
+    "options": [
+     "159 MHz",
+     "1,59 MHz",
+     "10 MHz",
+     "100 MHz"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1,59 MHz",
+    "commentaire_fr": "F = 159/√(L(MHz) x C(pF)) = 159/√(25 x 400) = 159/√(10000) = 159/100 = 1,59\n\nEn écriture naturelle : 1 / (2 x π x √(25.10^-6 x 400.10^-12 )) \n= 1,59.10^6 converti en 1,59 MHz\n",
+    "stem_zh": "谐振频率是多少？"
+   },
+   {
+    "num": "23820",
+    "stem_fr": "FREQUENCE DE RESONANCE",
+    "options": [
+     "160 MHz ",
+     "160 kHz",
+     "16 MHz",
+     "1,6 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "16 MHz",
+    "commentaire_fr": "Formule simplifiée : F = 159 / √ (L en µH x C en pF) = 159 / √ (100) = 159/10 = 15,9 arrondi à 16 MHz. La donnée supplémentaire indique que le résultat sera arrondi.\n",
+    "stem_zh": "谐振频率是多少？"
+   },
+   {
+    "num": "21134",
+    "stem_fr": "FREQUENCE DE RESONANCE ?",
+    "options": [
+     "7,1 MHz",
+     "38 MHz",
+     "710 kHz",
+     "3,8 MHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "7,1 MHz",
+    "commentaire_fr": "Formule simplifiée : F(MHz) = 159 / (√(L(µH)xC(pF))) \n= 159 / √(5x100) = 159 / √500 = 159 / 22,4 = 7,1 MHz\n",
+    "stem_zh": "谐振频率是多少？"
+   },
+   {
+    "num": "21276",
+    "stem_fr": "FREQUENCE DE RESONANCE",
+    "options": [
+     "7,95 MHz",
+     "397 kHz",
+     "3,97 MHz",
+     "15,9 MHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "7,95 MHz",
+    "commentaire_fr": "F(MHz) = 159/√(L(µH) x C(pF)) = 159/√(10 x 40) = 159/√(400) = 159/20 = 7,95 MHz\n\nEn écriture naturelle : 1 / (2 x π x √(10.10^-6 x 40.10^-12)) \n= 7,957.10^6 converti et arrondi en 7,95 MHz\n",
+    "stem_zh": "谐振频率是多少？"
+   },
+   {
+    "num": "21135",
+    "stem_fr": "QUELLE EST LA FREQUENCE DE COUPURE DE CE CIRCUIT ?",
+    "options": [
+     "120 kHz",
+     "144,5 MHz",
+     "18,4 MHz",
+     "1,325 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "18,4 MHz",
+    "commentaire_fr": "Formule simplifiée : F = 159 / √(3 x 25) = 159 / √75 \n= 159 / 8,66 = 18,4 MHz\n",
+    "stem_zh": "该电路的截止频率是多少？"
+   },
+   {
+    "num": "20615",
+    "stem_fr": "SCHEMA D'UN CIRCUIT BOUCHON AVEC L = 10 MICROHENRY ET C =12 PICOFARAD",
+    "options": [
+     "14,5 MHz",
+     "1,3 MHz",
+     "16 MHz",
+     "1,6 MHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "14,5 MHz",
+    "commentaire_fr": "F = 159 / √ (L en µH x C en pF) = 159 / √ (120) = 14,5 MHz (arrondi)\n",
+    "stem_zh": "并联谐振电路图，L = 10 微亨，C = 12 皮法"
+   },
+   {
+    "num": "20802",
+    "stem_fr": "SCHEMA AVEC CIRCUIT LC SERIE : 1600 MICROH ET 400 PICOF , FREQUENCE DE RESONANCE ?",
+    "options": [
+     "4 MHz",
+     "800 kHz",
+     "200 kHz",
+     "2 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "200 kHz",
+    "commentaire_fr": "Réponse avec la formule simplifiée : F(MHz) = 160 / √ (L en µH x C en pF) \n= 160 / √ (1600 x 400) = 160 / (40 x 20) = 160 / 800 = 0,2 MHz = 200 kHz\n",
+    "stem_zh": "串联 LC 电路图：1600 微亨和 400 皮法，谐振频率是多少？"
+   },
+   {
+    "num": "20643",
+    "stem_fr": "SCHEMA D'UN CIRCUIT BOUCHON (VERTICAL) AVEC DES VALEURS EN PICOHENRY ET MICROFARAD",
+    "options": [
+     "160 kHz",
+     "160 MHz",
+     "16 MHz ",
+     "1,6 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "16 MHz ",
+    "commentaire_fr": "La formule simplifiée peut aussi s’appliquer puisque nous utilisons les mêmes sous-multiples (p et µ) et que la multiplication est une opération commutative (le résultat n’est pas changé si on inverse les termes : A x B = B x A)\nFormule simplifiée : F = 159 / √ (L en pH x C en µF) = 159 / √ (100) = 159/10 = 15,9 arrondi à 16 MHz.\n",
+    "stem_zh": "并联谐振电路图（竖向），数值以皮亨和微法给出"
+   }
+  ]
+ },
+ {
+  "id": "K040",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "anchor": "R51a",
+  "seclab": "R-5.1",
+  "n_q": 16,
+  "cours_fr": "R-5.1 pour les définitions des décibels (dB, dBc, dBW) et les calculs) . Le RR limite le niveau des rayonnements non essentiels au moins contraignant entre la formule générale et : - – 50 dBc pour les fréquences inférieures à 30 MHz (cette limite ne s’applique qu’au service amateur) - –70 dBc pour les fréquences supérieures à 30 MHz . La puissance d’émission étant limitée à 120 W sur ces fréquences, soit environ 21 dBW, l’atténuation à rechercher est au maximum de – 64 dBc (43 + 21). Les rayonnements non essentiels sont les émissions non désirées qui ne sont pas dans le domaine des émissions hors bande (rayonnements adjacents à la bande passante nécessaire pour l’émission, communément appelés « moustaches » ou « splatters », à ne pas confondre avec des émissions qui ne se situent pas dans les bandes de fréquences attribuées au service amateur). La frontière entre les rayonnements non essentiels et les émissions hors bande est définie dans l’appendice 3 du RR : 2,5 fois la bande passante nécessaire (BP) de part et d’autre de la fréquence centrale de l’émission et pas moins de : o 10 kHz pour les fréquences à 30 MHz o 62,5 kHz de 30 MHz à 1 GHz o 250 kHz de 1 à 10 GHz o 750 kHz de 10 à 15 GHz o 1,25 MHz de 15 à 26 GHz o 2,5MHz au-delà de 26 GHz En applicant la formule générale ( 43 dB + 10 log[P] ) pour les fréquences supérieures à 30 MHz, le niveau des rayonnements non essentiels ne peut jamais excéder -43 dBW (soit -13 dBm ou encore 50 µW ). d La décision ARCEP 12-1241 ne fait pas de référence explicite aux normes européennes CISPR 11 et EN 301 783. Pour autant, nos appareils sont concernés par ces deux normes puisqu’elles définissent les « exigences essentielles », voir §",
+  "samples": [
+   {
+    "num": "34917",
+    "stem_fr": "PUISSANCE ET GAIN EN DECIBELS : 40 W ET -3 D",
+    "options": [
+     "13,3 W",
+     "20 W",
+     "40 W",
+     "60 W"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "20 W",
+    "commentaire_fr": "Le circuit génère une perte de 3 dB (-3 dB indiqués au dessus du circuit). La puissance est donc deux fois moindre qu'à l'entrée du circuit : 40 W / 2 = 20 W\n",
+    "stem_zh": "功率与分贝增益：40 W 与 −3 dB"
+   },
+   {
+    "num": "31011",
+    "stem_fr": "* CALCULEZ LA PUISSANCE OBTENUE ?\nPUISSANCE 15W - GAIN 6 D",
+    "options": [
+     "60 W",
+     "21 W",
+     "90 W",
+     "30 W"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "60 W",
+    "commentaire_fr": "Pour un gain de 6 dB, on multiplie par 4.\n\nIci 15 W, gain de 6 dB = 15 x 4 = 60 W\n",
+    "stem_zh": "计算所得功率？功率 15 W，增益 6 dB"
+   },
+   {
+    "num": "31012",
+    "stem_fr": "* CALCULEZ LA PUISSANCE OBTENUE ?\nPUISSANCE 10W - GAIN -3 D",
+    "options": [
+     "20 W",
+     "5 W",
+     "13 W",
+     "30 W"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "5 W",
+    "commentaire_fr": "Pour un gain de moins 3 dB, on divise par 2.\n\nATTENTION, ici le gain en dB est négatif.\n\nIci 10 W, gain de -3 dB = 10 / 2 = 5 W\n",
+    "stem_zh": "计算所得功率？功率 10 W，增益 −3 dB"
+   },
+   {
+    "num": "31010",
+    "stem_fr": "CALCULEZ LA PUISSANCE OBTENUE ?\nPUISSANCE 50W - GAIN 10 D",
+    "options": [
+     "10 W",
+     "50 W",
+     "100 W",
+     "500 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "500 W",
+    "commentaire_fr": "Pour un gain de 10 dB, on multiplie par la puissance par 10.\n\nIci 50 W, gain de 10 dB = 50 x 10 = 500 W\n",
+    "stem_zh": "计算所得功率？功率 50 W，增益 10 dB"
+   },
+   {
+    "num": "31013",
+    "stem_fr": "* CALCULEZ LA PUISSANCE OBTENUE ?\nPUISSANCE 5W - GAIN -10 D",
+    "options": [
+     "50 W",
+     "15 W",
+     "10 W",
+     "0,5 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "0,5 W",
+    "commentaire_fr": "Pour un gain de moins 3 dB, on divise par 2, -6 dB / 4, -10 dB /10, -20 dB / 100.\n\nATTENTION, ici le gain en dB est négatif.\n\nIci 5 W, gain de -10 dB = 5 / 10 = 0,5 W\n",
+    "stem_zh": "计算所得功率？功率 5 W，增益 −10 dB"
+   },
+   {
+    "num": "34770",
+    "stem_fr": "SCHEMA AVEC AMPLI, ENTREE = 2W -> AMPLI 20 DB -> P.SORTIE = ?",
+    "options": [
+     "40 W",
+     "200 W",
+     "22 W",
+     "50 W"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "200 W",
+    "commentaire_fr": "un gain de 20 dB correspond à un rapport de puissance de 100 ; \n2 x 100 = 200\n",
+    "stem_zh": "图中放大器：输入端 2 W → 放大 20 dB → 输出功率是多少？"
+   },
+   {
+    "num": "30095",
+    "stem_fr": "QUELLE EST LA PUISSANCE DE SORTIE ?\n10 W - GAIN DE L'AMPLIFICATEUR 6 D",
+    "options": [
+     "16 W",
+     "20 W",
+     "40 W",
+     "60 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "40 W",
+    "commentaire_fr": "Un gain de 6 dB correspond à un rapport de puissance de 4. 10 W x 4 = 40 W\n",
+    "stem_zh": "输出功率是多少？\n输入 10 W，放大器增益 6 dB"
+   },
+   {
+    "num": "36380",
+    "stem_fr": "QUELLE EST LA PUISSANCE DE SORTIE ?\n20 W - GAIN DE L'AMPLIFICATEUR 3 D",
+    "options": [
+     "16 W",
+     "20 W",
+     "40 W",
+     "60 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "40 W",
+    "commentaire_fr": "3 dB correspond à un rapport de puissance de 2. \nPuissance de sortie = puissance d’entrée x rapport de puissance de l’amplificateur = 20 W x 2 = 40 W\n",
+    "stem_zh": "输出功率是多少？输入 20 W，放大器增益 3 dB"
+   },
+   {
+    "num": "30185",
+    "stem_fr": "QUELLE EST LA PUISSANCE DE SORTIE ?\nPUISSANCE = 2 W   \nGAIN DE L'AMPLIFICATEUR = 6 D",
+    "options": [
+     "4 W",
+     "6 W",
+     "8 W",
+     "10 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "8 W",
+    "commentaire_fr": "Un gain de 6 dB correspond à un rapport de puissance de 4. \n2 W x 4 = 8 W\n",
+    "stem_zh": "输出功率是多少？功率 = 2 W，放大器增益 = 6 dB"
+   },
+   {
+    "num": "33640",
+    "stem_fr": "SI ON ALIMENTE UNE ANTENNE AVEC 20 WATTS \nET QU'ELLE A UN GAIN DE 3 DB,\nLA P.A.R. SERA DE ?",
+    "options": [
+     "23 W",
+     "40 W",
+     "60 W",
+     "80 W"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "40 W",
+    "commentaire_fr": "3 dB correspond à un rapport de puissance de 2. PAR = puissance de l’émetteur x rapport de puissance de l’antenne = 20 W x 2 = 40 W\n",
+    "stem_zh": "如果用 20 W 功率馈入一副增益为 3 dB 的天线，其 PAR 是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K041",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "anchor": "R46c",
+  "seclab": "R-4.6",
+  "n_q": 16,
+  "cours_fr": "R-4.6) Formation des indicatifs d’appel : tous les indicatifs d’appel français sont formés selon les règles de la disposition S19-68 du RR et de l’annexe 4 (grille de codification des indicatifs des services d’amateur) de l’arrêté du 21/09/00 modifié. L’ adresse déclarée de la station détermine son préfixe (voir aussi §",
+  "samples": [
+   {
+    "num": "30300",
+    "stem_fr": "* UN INDICATIF DE TYPE 'TM' EST VALABLE POUR UNE DUREE DE ?",
+    "options": [
+     "15 jours",
+     "20 jours",
+     "1 mois",
+     "3 mois"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "15 jours",
+    "commentaire_fr": "Les indicatifs spéciaux (comme TM) peuvent être utilisés pendant 15 jours non consécutifs sur une période de 6 mois.\n",
+    "stem_zh": "* 类型为「TM」的呼号有效期为多久？"
+   },
+   {
+    "num": "34911",
+    "stem_fr": "QUEL EST LE PREFIXE UTILISE PAR LES RADIO-CLUBS, LES INDICATIFS SPECIAUX OU LES RELAIS ?",
+    "options": [
+     "TM",
+     "TX",
+     "FK",
+     "TK"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "TK",
+    "commentaire_fr": "Le préfixe TK est utilisé pour les indicatifs d’appel individuels (dont les radio-clubs et les relais) et pour les stations temporaires dont l’activité est déclarée en Corse.\n",
+    "stem_zh": "无线电台俱乐部、特别呼号或中继台使用哪个前缀？"
+   },
+   {
+    "num": "34702",
+    "stem_fr": "A QUEL PAYS EST ATTRIBUE L'INDICATIF TM ?",
+    "options": [
+     "Maroc",
+     "indicatif spécial DOM",
+     "indicatif spécial TOM",
+     "indicatif spécial français "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "indicatif spécial français ",
+    "commentaire_fr": "Plus précisément, c'est le préfixe des indicatifs spéciaux de France continentale (la Corse utilise le préfixe TK pour ses indicatifs spéciaux)\n",
+    "stem_zh": "呼号前缀 TM 被指配给哪个国家（地区）？"
+   },
+   {
+    "num": "34874",
+    "stem_fr": "QUEL PREFIXE PEUT ETRE A LA FOIS UTILISE POUR DES INDICATIFS PERSONNELS ET POUR DES INDICATIFS SPECIAUX TEMPORAIRES ?",
+    "options": [
+     "TM",
+     "TX",
+     "TK",
+     "TO"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "TK",
+    "commentaire_fr": "Le préfixe TK est utilisé pour les indicatifs d’appel individuels et pour les stations temporaires dont l’activité est déclarée en Corse.\n\n",
+    "stem_zh": "哪个前缀既可用于个人呼号，又可用于临时特别呼号？"
+   },
+   {
+    "num": "30325",
+    "stem_fr": "POUR OBTENIR UN INDICATIF SPECIAL D'EMISSION, ON DOIT FAIRE LE DEMANDE ?",
+    "options": [
+     "15 jours avant",
+     "20 jours ouvrés avant",
+     "2 mois avant",
+     "1 mois avant"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "20 jours ouvrés avant",
+    "commentaire_fr": "Les jours ouvrés sont tous les jours de la semaine sauf les samedis, dimanches et jours fériés. 20 jours ouvrés correspondent à peu près à 1 mois (4 semaines s'il n'y a pas de jours fériés)\n",
+    "stem_zh": "要获得特别发射呼号，申请应在什么时候提出？"
+   },
+   {
+    "num": "30774",
+    "stem_fr": "LES INDICATIFS SPECIAUX PEUVENT-ILS ETRE REATTRIBUES ?",
+    "options": [
+     "Oui mais uniquement les indicatifs spéciaux ayant une seule lettre au suffixe",
+     "Non",
+     "Oui mais uniquement au demandeur de la première attribution",
+     "Oui"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Oui",
+    "commentaire_fr": "la réattribution des indicatifs spéciaux uniquement au demandeur de la première attribution est une demande des associations de radioamateurs. Mais rien n'est écrit dans les textes.\n",
+    "stem_zh": "特别呼号可以重新指配吗？"
+   },
+   {
+    "num": "32541",
+    "stem_fr": "* UN INDICATIF D'APPEL AYANT TM EN PREFIXE EST UTILISABLE ?",
+    "options": [
+     "Pendant 15 jours non consécutifs sur une période de 6 mois",
+     "Pendant 25 jours non consécutifs sur une période de 1 an",
+     "Pendant 1 an",
+     "Sans limite de temps"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Pendant 15 jours non consécutifs sur une période de 6 mois",
+    "commentaire_fr": "TM est le préfixe pour la France continentale des indicatifs spéciaux. Ces indicatifs spéciaux sont délivrés pour une durée maximum de 15 jours non consécutifs pendant une période de 6 mois. \n\nPar exemple, on pourra utiliser l’indicatif spécial pendant 7 week-ends (le samedi et le dimanche, soit 14 jours) de janvier à juin (soit 6 mois).\n",
+    "stem_zh": "以 TM 为前缀的呼号可使用多久？"
+   },
+   {
+    "num": "34838",
+    "stem_fr": "LORS DE L'ACTIVATION D'UN MOULIN, LE SUFFIXE /P EST UTILISE QUAND",
+    "options": [
+     "on utilise son propre indicatif d’appel ",
+     "on utilise un indicatif spécial temporaire",
+     "on est propriétaire du moulin",
+     "l’activation a été acceptée par l’ANFR"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "on utilise son propre indicatif d’appel ",
+    "commentaire_fr": "Une station utilisant un indicatif spécial temporaire ne peut pas utiliser un suffixe /P (ou /M) puisque l'adresse a été communiquée à l'ANFR. \nSi on est propriétaire du moulin, il n'y a pas de suffixe à ajouter sauf si ce n'est pas l'adresse fournie à l'ANFR (résidence secondaire par exemple). \nUne activation (émission temporaire sur un lieu particulier) n'a pas besoin d'être déclarée à l'ANFR (sauf si une demande d'indicatif spécial a été faite à l'ANFR)\n",
+    "stem_zh": "在激活（on air）一座磨坊时，/P 后缀在什么情况下使用？"
+   },
+   {
+    "num": "34903",
+    "stem_fr": "DANS QUEL CAS L'ANFR PEUT-ELLE DONNER UNE AUTORISATION SPECIALE A UN RADIOAMATEUR POUR EXPLOITER LES BANDES RADIOAMATEURS ?",
+    "options": [
+     "pour activer un moulin ",
+     "pour des émissions expérimentales",
+     "pour émettre sur la bande des 50 MHz",
+     "pour utiliser une puissance d’émission supérieure à celle autorisée"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "pour activer un moulin ",
+    "commentaire_fr": "Une \"activation\" signifie \"utiliser une station à proximité de (ou dans) un lieu spécial (un château, un phare, une île, un moulin, ...)\". Certains opérateurs demandent à l’ANFR un indicatif spécial temporaire à cette occasion.\n",
+    "stem_zh": "在什么情况下 ANFR 可以给业余爱好者发放特别的波段使用许可？"
+   },
+   {
+    "num": "34828",
+    "stem_fr": "DUREE D'UTILISATION D'UN INDICATIF SPECIAL ?",
+    "options": [
+     "15 jours non consécutifs pendant 6 mois ",
+     "15 jours consécutifs",
+     "1 an",
+     "2 jours"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "15 jours non consécutifs pendant 6 mois ",
+    "commentaire_fr": "",
+    "stem_zh": "特别呼号的使用期限？"
+   }
+  ]
+ },
+ {
+  "id": "K042",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "anchor": "R13c",
+  "seclab": "R-1.3",
+  "n_q": 16,
+  "cours_fr": "R-1.3) Conditions techniques . Avant la décision 12-1241, les matériels suivants étaient obligatoires : indicateur de puissance, indicateur du rapport d’onde stationnaire, charge non rayonnante, filtre d’alimentation. La puissance des émetteurs BLU devait se mesurer avec un générateur 2 tons. La précision du repérage de la fréquence émise était définie (+/-1 kHz jusqu’à 30 MHz ou +/-",
+  "samples": [
+   {
+    "num": "34949",
+    "stem_fr": "RAYONNEMENTS NON ESSENTIELS A 18,1 MHZ ?",
+    "options": [
+     "- 50 dB",
+     "- 40 dB",
+     "- 63 dB",
+     "- 43 dB"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "- 50 dB",
+    "commentaire_fr": "Les rayonnements non essentiels sont limités à -50 dBc (décibels par rapport à l'émission fondamentale) pour les stations d'amateur sur les fréquences inférieures à 30 MHz.\n",
+    "stem_zh": "18.1 MHz 上的非必要辐射是多少？"
+   },
+   {
+    "num": "34765",
+    "stem_fr": "LIMITE DES RAYONNEMENTS NON ESSENTIELS SUR 24 MHZ AVEC UNE PUISSANCE DE 25 W ?",
+    "options": [
+     "-40 dB",
+     "-50 dB",
+     "-60 dB",
+     "-70 dB"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "-50 dB",
+    "commentaire_fr": "La réglementation fait simplement référence à l'appendice 3 du RR. \nCe texte définit le niveau maximum des rayonnements non essentiels grâce à la formule suivante : 43 dB + 10.log(P), P étant la puissance d'émission en watts. Au cas particulier, 10.log(25) = 14 (valeur arrondie) ; 43 + 14 = 57 dB. \nDe plus, le RR précise que, pour les radioamateurs et pour les fréquences inférieures à 30 MHz (c'est le cas dans notre question), le niveau maximum des rayonnements non essentiels est limité à -50 dB.\n",
+    "stem_zh": "24 MHz 上、功率 25 W 时，非必要辐射的限值是多少？"
+   },
+   {
+    "num": "34741",
+    "stem_fr": "NIVEAU DE PUISSANCE TOLERE MAXIMUM POUR LES RAYONNEMENTS NON ESSENTIELS SUR LA BANDE DES 144 MHZ ?",
+    "options": [
+     "-50 dB",
+     "-60 dB",
+     "-64 dB",
+     "-70 dB"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "-64 dB",
+    "commentaire_fr": "La bonne réponse est -64 dB mais ce n'est pas aussi simple que cela car ce n'est mentionné dans aucun texte et il y a quelques calculs à faire ! Petit rappel : le niveau de puissance toléré maximal pour les rayonnements non essentiels est donné par une formule : 43 dB + 10 log (P) où P désigné la puissance de l'émission fondamentale. 10 log (P) désigne donc la puissance en dBW. Sur 144 MHz, la puissance maximum autorisée est de 120 W, soit 21 dBW environ. Le niveau total est donc : 43 + 21 = 64 dBc. Toutefois, le RR limite ce niveau à -70 dBc (sauf sur les bandes inférieures à 30 MHz où le niveau maximum est de -50dBc), ce qui ne peut être atteint compte tenu de la puissance autorisée au-delà de 30 MHz.\n",
+    "stem_zh": "144 MHz 波段上非必要辐射允许的最大功率电平是多少？"
+   },
+   {
+    "num": "39944",
+    "stem_fr": "* LA VALEUR LIMITE DES RAYONNEMENTS NON ESSENTIELS EST DEFINIE PAR :",
+    "options": [
+     "une recommandation européenne ",
+     "une loi française",
+     "le RR",
+     "l'ANFR"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "le RR",
+    "commentaire_fr": "La valeur limite des rayonnements non essentiels est définie dans le RR et est reprise dans de nombreux textes français ou européens\n",
+    "stem_zh": "非必要辐射的限值由什么规定？"
+   },
+   {
+    "num": "34960",
+    "stem_fr": "COMMENT SONT AUSSI APPELEES LES EMISSIONS HORS BANDE ?",
+    "options": [
+     "bande passante de l’émission fondamentale",
+     "trafic illégal",
+     "émissions non désirées ",
+     "rayonnements essentiels"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "émissions non désirées ",
+    "commentaire_fr": "Les émissions hors bande et les rayonnements non essentiels forment les émissions non désirées (en dehors de la bande passante nécessaire pour l’émission du signal transmis).\n",
+    "stem_zh": "带外发射还被称为什么？"
+   },
+   {
+    "num": "34882",
+    "stem_fr": "UN EMETTEUR SORT UNE PUISSANCE DE 40 DBM. L'EMISSION SE FAIT SUR LA GAMME ALLANT DE 144 A 145 MHZ. QUELLE EST LA PUISSANCE DES RAYONNEMENTS NON ESSENTIELS POSSIBLE ?",
+    "options": [
+     "-19 dBm",
+     "-120 dBm",
+     "-13 dBm",
+     "-70 dBm"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "-13 dBm",
+    "commentaire_fr": "40 dBm (décibels par rapport à 1 milliwatt) correspond à 10 dBW (décibels par rapport à 1 Watt) et donc à 10 watts. \nLa formule générale qui définit le niveau maximum des rayonnements non essentiels est : 43 + 10 log(P) soit 43 + 10 log (10) = 43 + 10x1 = 53 dB. On reprend donc les 40 dBm de puissance émise et on retranche 53, soit -13 dBm.\nQuestion extrêmement tordue ! ! \n",
+    "stem_zh": "一台发射机输出功率为 40 dBm，发射在 144 至 145 MHz 范围内进行。非必要辐射的功率可能是多少？"
+   },
+   {
+    "num": "31015",
+    "stem_fr": "DANS QUEL DOCUMENT SONT CONSIGNEES LES LIMITES DES RAYONNEMENTS NON ESSENTIELS ?",
+    "options": [
+     "La règlementation Radioamateur ARCEP",
+     "Un document qui est fourni dans les Radio-Clubs",
+     "Un document de l'ANFR",
+     "Un document édité par l'UIT"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Un document édité par l'UIT",
+    "commentaire_fr": "La décision ARCEP fait référence à l'annexe 3 du RR qui définit les limites des rayonnement non essentiels.\n",
+    "stem_zh": "非必要辐射的限值记载在哪份文件中？"
+   },
+   {
+    "num": "39941",
+    "stem_fr": "* LES RAYONNEMENTS NON ESSENTIELS SONT :",
+    "options": [
+     "définis par une decision ARCEP",
+     "les harmoniques 2 et 3 de l'émission fondamentale",
+     "incluses dans la bande passante nécessaire",
+     "les émissions non désirées au delà du domaine des émissions hors bande"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "les émissions non désirées au delà du domaine des émissions hors bande",
+    "commentaire_fr": "La valeur maximum des rayonnements non essentiels est définie dans l'appendice 3 du RR\n",
+    "stem_zh": "非必要辐射是："
+   },
+   {
+    "num": "39948",
+    "stem_fr": "QUEL EST LE NIVEAU DES RAYONNEMENTS NON ESSENTIELS SUR 14,150 MHZ",
+    "options": [
+     "-60 dBc",
+     "-50 dBc",
+     "-40 dBc",
+     "-43 dBc"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "-50 dBc",
+    "commentaire_fr": "",
+    "stem_zh": "14.150 MHz 上非必要辐射的电平是多少？"
+   },
+   {
+    "num": "39951",
+    "stem_fr": "* QUEL EST LE NIVEAU DES RAYONNEMENTS NON ESSENTIELS SUR 28,5 MHZ",
+    "options": [
+     "-25 dBc",
+     "-60 dBc",
+     "-50 dBc",
+     "-12 dBc"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "-50 dBc",
+    "commentaire_fr": "",
+    "stem_zh": "28.5 MHz 上非必要辐射的电平是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K043",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "anchor": "R21d",
+  "seclab": "R-2.1",
+  "n_q": 15,
+  "cours_fr": "R-2.1) Fréquences attribuées a Le tableau présenté à la page suivante est une synthèse de différents textes : - décision ARCEP 12-1241 modifiée par les décisions 13-1515 et 19-1412, - arrêté du 02/03/2021 fixant les conditions d’utilisation dans les COM où l’ARCEP n’est pas compétente, - arrêté pris par le Premier Ministre relatif au Tableau National de Répartition des Bandes de Fréquences (TNRBF), document publié par l’ANFR et disponible sur son site Internet. a Le RR (art. S5-2 à S5-9) découpe le globe terrestre en 3 régions : Région 1 = Europe, Afrique, Proche Orient et pays de l’ex-URSS ; Région 2 = Amériques et Pacifique Nord ; Région 3 = Reste du Monde (Asie sauf Proche Orient et ex-URSS, Océanie et Pacifique Sud). L’antarctique et l’arctique sont découpés dans le prolongement des méridiens séparant les zones. Certains territoires français sont en Région 2 ou 3 et les fréquences allouées ne sont pas les mêmes qu'en Métropole située en région 1. Les Départements et Régions d'Outre-Mer (DROM) situés en Région 2 sont la Guyane, la Martinique et la Guadeloupe. La Réunion et Mayotte sont en Région 1, comme la France continentale et la Corse ( voir §",
+  "samples": [
+   {
+    "num": "34904",
+    "stem_fr": "DANS QUEL DEPARTEMENT EST INTERDITE LA BANDE DES 50 MHZ ?",
+    "options": [
+     "tous",
+     "aucun",
+     "la Somme",
+     "le Val de Marne"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "aucun",
+    "commentaire_fr": "Avant 2012, il y avait des restrictions pour la bande des 50 MHz dans certains départements. Mais, avec la décision ARCEP 2012-1241, toutes les restrictioons ont été levées.\n",
+    "stem_zh": "50 MHz 波段在哪个省被禁止？"
+   },
+   {
+    "num": "35067",
+    "stem_fr": "DANS QUEL DEPARTEMENT EST INTERDITE LA BANDE DES 50 MHZ ?",
+    "options": [
+     "Isère",
+     "aucun de ces départements",
+     "Ariège",
+     "Haute Garonne"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "aucun de ces départements",
+    "commentaire_fr": "Question posée en décembre 2022, plus de 10 ans après la suppression des restrictions pour la bande des 50 MHz dans certains départements…\n",
+    "stem_zh": "50 MHz 波段在哪个省是被禁止的？"
+   },
+   {
+    "num": "30919",
+    "stem_fr": "* OU PEUT-ON UTILISER LA SOUS BANDE 433,750 A 434,250 MHZ ?",
+    "options": [
+     "en Guadeloupe",
+     "en Guyane",
+     "à la Réunion",
+     "à St Pierre et Miquelon"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "à la Réunion",
+    "commentaire_fr": "La sous-bande 433,75 - 434,25 n'est pas autorisée en région 2. Seule la Réunion est en région 1.\n",
+    "stem_zh": "* 433.750 至 434.250 MHz 这一子频段可以在哪里使用？"
+   },
+   {
+    "num": "34662",
+    "stem_fr": "UN OPERATEUR DE CLASSE 3 PEUT-IL EMETTRE ENTRE 50,2 ET 51,2 MHZ ?",
+    "options": [
+     "seulement en fixe",
+     "sur autorisation de l’ANFR",
+     "seulement en mobile",
+     "jamais"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "jamais",
+    "commentaire_fr": "Les opérateurs de classe 3 ne peuvent émettre que dans la bande 144-146 MHz\n",
+    "stem_zh": "3 类操作员能否在 50.2 至 51.2 MHz 之间发射？"
+   },
+   {
+    "num": "30750",
+    "stem_fr": "* EN FRANCE, QUELLE EST LA PUISSANCE MAXIMALE AUTORISEE POUR UN RELAIS TERRESTRE SUR LA FREQUENCE 50,205 MHZ ?",
+    "options": [
+     "120 W",
+     "5 W",
+     "10 W",
+     "C'est interdit"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "120 W",
+    "commentaire_fr": "Depuis la décision 12-1241, les relais sont autorisés sur 50 MHz\n",
+    "stem_zh": "* 在法国，50.205 MHz 频率上的地面中继台允许的最大功率是多少？"
+   },
+   {
+    "num": "34735",
+    "stem_fr": "DANS QUELLE REGION DE FRANCE METROPOLITAINE EST-IL INTERDIT DE TRANSMETTRE DANS LA FREQUENCE 50 - 52 MHZ ?",
+    "options": [
+     "Ile de France ",
+     "Alsace",
+     "Vendée",
+     "aucune région"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "aucune région",
+    "commentaire_fr": "Depuis la décision 12-1241, la bande 50 - 52 MHz est autorisée sur tout le territoire français sans limitation de PAR et sans restriction\n",
+    "stem_zh": "在法国本土的哪个地区禁止在 50 - 52 MHz 频率上发射？"
+   },
+   {
+    "num": "10011",
+    "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 50,0 MHZ EN FRANCE METROPOLITAINE ?",
+    "options": [
+     "50,000 à 54,000 MHz",
+     "50,200 à 51,200 MHz",
+     "51,000 à 51,200 MHz",
+     "50,000 à 52,000 MHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "50,000 à 52,000 MHz",
+    "commentaire_fr": "Les limites 50,2-51,2 MHz sont celles antérieures à la décision 12-1241 qui a autorisé l'ensemble de la bande sans restrictions. Les limites 50-54 MHz sont celles des régions 2 et 3. ",
+    "stem_zh": "法国本土 50.0 MHz 波段的频率界限是什么？"
+   },
+   {
+    "num": "34769",
+    "stem_fr": "QUEL EST LE DEPARTEMENT DE FRANCE METROPOLITAINE OU L'EMISSION EST INTERDITE POUR TOUTES LES CLASSES D'OPERATEUR ?",
+    "options": [
+     "Aucun",
+     "Landes",
+     "Finistère",
+     "Pyrénées Orientales"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Aucun",
+    "commentaire_fr": "Avant 2012, il y avait des restrictions pour uniquement pour la bande des 50 MHz dans certains départements\nDepuis la décision 2012-1241, ces restrictions ont été levées.\n",
+    "stem_zh": "在法国本土的哪个省，所有类别的操作员都被禁止发射？"
+   },
+   {
+    "num": "31008",
+    "stem_fr": "* UN RADIOAMATEUR FRANCAIS PEUT-IL EMETTRE SUR LA FREQUENCE 50,110 MHZ ?",
+    "options": [
+     "Non",
+     "Oui",
+     "Oui si son indicatif commence par F5",
+     "Oui mais uniquement à partir de son Radio-Club"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Oui",
+    "commentaire_fr": "Depuis le mois de mars 2013, les Radioamateurs français (sauf les ex-classes 3) ont accès à toute la bande 50 MHz à partir de 50,000 jusqu'a 52,000 MHz avec une puissance de 120 watts.\nCeci est valable pour tous les départements de la France métropolitaine.\nLes stations répétitrices sont égalements autorisées en France métropolitaine.\n",
+    "stem_zh": "法国业余无线电爱好者可以在 50.110 MHz 上发射吗？"
+   },
+   {
+    "num": "30755",
+    "stem_fr": "* UNE STATION REPETITRICE EST-ELLE AUTORISEE SUR LA BANDE DES 50 MHZ ?",
+    "options": [
+     "Oui",
+     "Non",
+     "Oui mais la puissance est limitée à 1 watt PAR",
+     "Oui si le responsable est titulaire d'un certificat d'opérateur de l'ex classe 1"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Oui",
+    "commentaire_fr": "Depuis le mois de mars 2013, les stations répétitrices sont autorisés sur la bande des 50 MHz (50,000 à 52,000 MHz).\nLes opérateurs novices de classe 3 ne sont pas autorisés à installer des stations répétitrices.\n",
+    "stem_zh": "* 50 MHz 频段上允许设置中继台吗？"
+   }
+  ]
+ },
+ {
+  "id": "K044",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 15,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "21433",
+    "stem_fr": "INTENSITE ?",
+    "options": [
+     "5 mA",
+     "4 mA",
+     "1 mA",
+     "1 A"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1 mA",
+    "commentaire_fr": "I = U / R = 10 V / 10 kΩ = 10/10000 = 0,001 A = 1 mA\n",
+    "stem_zh": "电流 I 是多少？"
+   },
+   {
+    "num": "21423",
+    "stem_fr": "INTENSITE ?",
+    "options": [
+     "10 mA",
+     "0,001 A",
+     "0,1 A",
+     "10 A"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "10 mA",
+    "commentaire_fr": "I = U/R = 10 V / 1 kΩ  = 10/1000 = 0,01 A = 10 mA\n",
+    "stem_zh": "电流是多少？"
+   },
+   {
+    "num": "20035",
+    "stem_fr": "VALEUR DE RX",
+    "options": [
+     "30 kΩ",
+     "10 kΩ",
+     "7,5 kΩ",
+     "15 kΩ"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "15 kΩ",
+    "commentaire_fr": "Produit en croix : R = 8 x 7,5 / 4 = 15\n",
+    "stem_zh": "Rx 的阻值是多少？"
+   },
+   {
+    "num": "20034",
+    "stem_fr": "VALEUR DE RX",
+    "options": [
+     "5 kΩ",
+     "10  kΩ",
+     "7,5 kΩ",
+     "22,5 kΩ"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "10  kΩ",
+    "commentaire_fr": "Produit en croix : R = 15 x 2 / 3 = 10\n",
+    "stem_zh": "Rx 的阻值是多少？"
+   },
+   {
+    "num": "21270",
+    "stem_fr": "RESISTANCE EQUIVALENTE",
+    "options": [
+     "40 Ω",
+     "50 Ω",
+     "220 Ω",
+     "400 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "40 Ω",
+    "commentaire_fr": "en calculant la résistance équivalente d'ensembles de plus en plus complexes\n\nR(200;50) = (200 x 50)/(200 + 50) = 40\nR(200;50;10) = 40 + 10 = 50\nR(200;50;10;200) = (200 x 50)/(200 + 50) = 40 Ω\n\nOu sur une calculette : 1 / (1 / 200 + 1 / 50) = 40\n40 + 10 = 50\n1 / (1 / 50 + 1 / 200) = 40 Ω\n",
+    "stem_zh": "等效电阻是多少？"
+   },
+   {
+    "num": "20041",
+    "stem_fr": "CALCULER U",
+    "options": [
+     "tension infinie",
+     "12,5 V ",
+     "15 V ",
+     "27,5 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "27,5 V",
+    "commentaire_fr": "Tension aux bornes de la résistance de 3000 ohms = 15 V (0,005 x 3000) ; \nIntensité dans la résistance de 2000 ohms = 7,5 mA (15 / 2000) ; Intensité dans la résistance de 1000 ohms = 12,5 mA (5 + 7,5) ; Tension aux bornes de la résistance de 1000 ohms = 12,5 V (12,5 mA x 1000 ohms) ; \nTension totale = 27,5 V (= 15 + 12,5 V)\n",
+    "stem_zh": "计算 U"
+   },
+   {
+    "num": "21067",
+    "stem_fr": "QUELLE EST LA TENSION ?",
+    "options": [
+     "1,25 V",
+     "0,75 V",
+     "3 V",
+     "0,833 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "0,75 V",
+    "commentaire_fr": "La tension aux bornes de la résistance du haut est égale à la tension aux bornes de chacune des résistances : calculer la tension aux bornes de la résistance du bas revient à calculer la tension aux bornes de chacune des résistances du groupement.\nU = 15 x 0,05 = 0,75 V\n",
+    "stem_zh": "电压是多少？"
+   },
+   {
+    "num": "21065",
+    "stem_fr": "QUELLE EST L'INTENSITE ?",
+    "options": [
+     "900 mA",
+     "100 mA",
+     "30 mA",
+     "200 mA"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "100 mA",
+    "commentaire_fr": "Le courant est réparti uniformément car les résistances sont égales : 300 mA / 3 = 100 mA\n",
+    "stem_zh": "电流是多少？"
+   },
+   {
+    "num": "20036",
+    "stem_fr": "VALEUR DE RX",
+    "options": [
+     "10 Ω",
+     "32,5 Ω",
+     "36 Ω",
+     "Impossible à  calculer"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "10 Ω",
+    "commentaire_fr": "Produit en croix : R = 15 x 6 / 9 = 10\n",
+    "stem_zh": "RX 的阻值是多少？"
+   },
+   {
+    "num": "21076",
+    "stem_fr": "QUELLE EST LA RESISTANCE EQUIVALENTE ?",
+    "options": [
+     "25 kΩ",
+     "2,5 kΩ",
+     "5 kΩ",
+     "20 kΩ"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "2,5 kΩ",
+    "commentaire_fr": "Groupe des deux résistances de 10 kΩ : 10 / 2 = 5 kΩ\nEnsemble du premier groupe et de la résistance de 5kΩ : 5 / 2 = 2,5 kΩ\n",
+    "stem_zh": "等效电阻是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K045",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T094c",
+  "seclab": "9.4",
+  "n_q": 15,
+  "cours_fr": "9.4d ) à partir de l'extrémité du brin, il y a un ventre d'intensité et un nœud de tension. Les tensions et intensités reprennent les valeurs constatées à l'extrémité du brin toutes les demi-ondes. c Ventre d'intensité et lobes de rayonnement : à chaque nœud d'intensité correspond un lobe de rayonnement car un lobe est issu du champ électromagnétique composé d’un champ électrique, lui-même issu d’un courant électrique. Un maximum de courant correspond à un maximum de champ électromagnétique rayonné. Selon la forme de l'antenne, les lobes de rayonnement se superposent ou s'annulent, donnant de la directivité à l'antenne. d Polarisations : les ondes radio sont des champs électromagnétiques composés d’un champ électrique (noté E) et d’un champ magnétique (noté H) qui lui est perpendiculaire. Ces deux champs sont eux-mêmes perpendiculaires à l’axe de direction du champ électromagnétique (vecteur de Poynting). Le champ électrique est issu du courant présent dans le brin rayonnant de l’antenne. La direction de ce champ dépend donc de la position du brin rayonnant de l’antenne. Si le brin est vertical, comme dans le cas du quart d’onde, l’onde aura une polarisation verticale . Si le brin rayonnant est horizontal, comme dans le cas du doublet demi-onde, la polarisation de l’onde est horizontale . A la réception, le brin de l’antenne reçoit la composante électrique du champ électromagnétique de l’onde. Certaines configurations d'antennes (antenne hélice, couplage d’antennes croisées) permettent des polarisations circulaires (rotation Droite ou Gauche). En polarisation circulaire, lorsqu’on émet en rotation Droite (rotation sens horaire, la plus utilisée), on reçoit en rotation Droite. En VHF et au-delà, la polarisation des antennes joue un rôle important dans la faisabilité d'une liaison. La réception en une autre polarisation que l’onde à recevoir peut conduire à des atténuations jusqu’à 20 dB. En décamétrique, la polarisation n’est pas critique car les ondes réfléchies, en rebondissant, voient leur polarisation changer et devenir circulaire ou oblique. Pour que les ondes de sol soient correctement propagées (bandes LF et en-dessous), la polarisation doit être verticale. e Impédance d’un « long fil » : les valeurs de l’impédance du doublet demi-onde et du quart d’onde ont été vues plus haut. Dans tous les cas, l’impédance de l’élément rayonnant dépend de sa forme et de son environnement. L’impédance d’un fouet vertical (avec radiants à 90° ou plan de masse) peut être estimée grâce au diagramme de Smith représenté ci-contre. Un brin rayonnant d’une longueur d’une",
+  "samples": [
+   {
+    "num": "20187",
+    "stem_fr": "TENSION COURANT ANTENNE DEMI ONDE",
+    "options": [
+     "1 ",
+     " 2",
+     "3",
+     "4"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1 ",
+    "commentaire_fr": "aux extrémités d’un antenne ouverte (comme la demi-onde, on a le maximum de tension et le minimum d’intensité. De plus, on n’a qu’une alternance\n",
+    "stem_zh": "半波天线的电压与电流"
+   },
+   {
+    "num": "21173",
+    "stem_fr": "LONGUEUR D'UN BRIN DE DIPOLE",
+    "options": [
+     "5 m",
+     "15 m",
+     "10 m",
+     "20 m"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "5 m",
+    "commentaire_fr": "Un dipôle mesure une demi-longueur d'onde et est composé de deux brins de même longueur. C'est à la jonction de ces deux brins que l'antenne est alimentée. Un brin de dipôle mesure donc un quart d'onde. La longueur d'onde étant 20 mètres, le brin mesure 5 mètres (=20 / 4)\n",
+    "stem_zh": "偶极天线单臂的长度"
+   },
+   {
+    "num": "21174",
+    "stem_fr": "IMPEDANCE AU CENTRE D'UN DIPOLE",
+    "options": [
+     "36 Ω",
+     "50 Ω",
+     "52 Ω",
+     "73 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "73 Ω",
+    "commentaire_fr": "Z = 73 Ω quand on a un angle plat entre les brins (les brins sont en prolongement)\n",
+    "stem_zh": "偶极天线中心的阻抗"
+   },
+   {
+    "num": "21170",
+    "stem_fr": "SUR QUELLE FREQUENCE EST TAILLE CE DIPOLE ?",
+    "options": [
+     "18 MHz",
+     "16,66 MHz",
+     "8,33 MHz",
+     "4,16 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "8,33 MHz",
+    "commentaire_fr": "F = 150 / 18 m = 8,33 MHz (valeur arrondie)\n",
+    "stem_zh": "这个偶极子是按哪个频率裁剪的？"
+   },
+   {
+    "num": "21172",
+    "stem_fr": "QUELLE EST LA LONGUEUR TOTALE D'UN DIPOLE FONCTIONNANT SUR 15 MHZ ?",
+    "options": [
+     "20 m",
+     "15 m",
+     "10 m",
+     "5 m"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "10 m",
+    "commentaire_fr": "L(m) = 150 / F(MHz) = 150 / 15 = 10 m\n",
+    "stem_zh": "工作在 15 MHz 的偶极子总长是多少？"
+   },
+   {
+    "num": "21171",
+    "stem_fr": "DANS UN DIPOLE, AUX EXTREMITES, ON A :",
+    "options": [
+     "U max et I max",
+     "U nul et I nul",
+     "U max et I nul",
+     "U nul et I max"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "U max et I nul",
+    "commentaire_fr": "A l’extrémité d’une antenne ouverte (comme le dipôle), on a toujours une intensité nulle et une tension maximum\n",
+    "stem_zh": "在偶极天线的两端："
+   },
+   {
+    "num": "21492",
+    "stem_fr": "AU CENTRE D'UN DIPOLE DEMI-ONDE, ON A :",
+    "options": [
+     "U = 0 et I = 0",
+     "U max et I max",
+     "U max et I = 0",
+     "U = 0 et I max"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "U = 0 et I max",
+    "commentaire_fr": "Au point d’alimentation du dipôle (le centre), on a un maximum d’intensité et un minimum de tension\n",
+    "stem_zh": "在半波偶极天线的中心，有："
+   },
+   {
+    "num": "20447",
+    "stem_fr": "POUR UN DIPOLE TAILLE SUR 14 MHZ, QUELLE EST SA LONGUEUR ?",
+    "options": [
+     "7 mètres",
+     "21,4 mètres",
+     "5,35 mètres",
+     "10,7 mètres"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "10,7 mètres",
+    "commentaire_fr": "Longueur d’onde de 14 MHz = 300 / 14 = 21,43 mètres ; longueur d’un dipôle = une demi-longueur d’onde = 21,43 / 2 = 10,7 mètres (arrondi). Cette longueur est théorique car, dans la pratique, selon le matériau utilisé pour réaliser l’antenne, celle-ci sera un peu plus courte. En règle générale, on prend un coefficient de 0,95. Si bien que la longueur pratique de l’antenne est 10,2 mètres (= 10,7 x 0,95)\n",
+    "stem_zh": "架设于 14 MHz 的偶极天线，其长度是多少？"
+   },
+   {
+    "num": "21305",
+    "stem_fr": "QUELLE EST LA LONGUEUR D'UN BRIN POUR UN DOUBLET DEMI-ONDE TAILLE POUR UNE FREQUENCE DE 50 MHZ ?",
+    "options": [
+     "12 m",
+     "1,5 m",
+     "3 m",
+     "6 m"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1,5 m",
+    "commentaire_fr": "L(m) = 150/F(MHz)/2 = 150/50/2 = 1,5 mètres\nUn doublet est constitué de deux brins quart d'onde. Ne pas confondre longueur du dipôle et longueur d'un brin.\nAttention, on trouve aussi ce genre de questions dans la partie Réglementation de l’examen\n",
+    "stem_zh": "50 MHz 的半波偶极天线，一个臂的长度是多少？"
+   },
+   {
+    "num": "22460",
+    "stem_fr": "POUR QUELLE BANDE DE DIPOLE DEMI-ONDE PRESENTERA-T-IL UNE IMPEDANCE DE 73 OHMS AU POINT D'ALIMENTATION ?",
+    "options": [
+     "80 m",
+     "40 m",
+     "30 m",
+     "20 m"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "40 m",
+    "commentaire_fr": "La longueur totale du dipole est de 20 m.\nIl est spécifié qu'il s'agit d'un dipole demi-onde.\nLa bande de travail sera donc le 40 m (= 2 x 20)\nL'impédance de 73 ohms est atteinte lorsque les brins sont alignés (comme dans le schéma). S'ils forment un angle, l'impédance sera plus faible (52 ohms pour un angle de 120° et 36 ohms pour un angle de 90°)\n",
+    "stem_zh": "对于哪个波段，半波偶极天线在馈电点会呈现 73 欧的阻抗？"
+   }
+  ]
+ }
+]

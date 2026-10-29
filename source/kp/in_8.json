@@ -1,0 +1,1427 @@
+[
+ {
+  "id": "K106",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "anchor": "T044b1",
+  "seclab": "4.4",
+  "n_q": 6,
+  "cours_fr": "4.4b3 ) puisque ces deux circuits ont le même facteur Q. Ces formules montrent que le facteur Q est proportionnel à la fréquence de résonance du circuit. Toutefois, dans les circuits bouchon et série, l’effet de peau mis en évidence par R et qui augmente avec la fréquence atténue les variations du facteur Q en fonction de la fréquence. - La résistance R d’un circuit bouchon ou série n’est pas facilement mesurable mais elle se calcule à partir de la mesure de la bande passante du circuit bouchon ou du facteur Q du circuit série. Pour un circuit série, le facteur Q est le rapport obtenu en divisant la tension mesurée avec un oscilloscope entre L et C à la fréquence de résonance divisée par la tension issue du générateur branché aux bornes du filtre. Pour un circuit bouchon, à l’aide d’un grid-dip ou d’un oscilloscope, le pic de tension à la fréquence de résonance (fo) est mesuré puis on note les fréquences inférieures et supérieures pour lesquelles le signal est atténué de 3 dB (soit 0,707 de la tension à Fo). B étant l’écart entre ces deux fréquences, Q est déduit par le calcul : puisque B = fo / Q, alors Q = fo / B . De plus, pour le circuit bouchon et le circuit série, Q = &#8730; ( L / C) / R, d’où : R bouchon = R série = &#8730;(L / C) / Q formule simplifiée : R bouchon (k&#937;) = R série (k&#937;) = &#8730; [L(µH) / C(pF)] / Q - On sait que Q = Z bouchon / X L donc Z bouchon = Q x X L . En remplaçant X L par sa formule, Z bouchon = &#8730;(L / C) . Q D’autre part, Q parallèle = Z parallèle / X L = R parallèle / X L donc R parallèle = X L x Q donc : R parallèle = &#8730;(L / C) . Q Formules simplifiées : Z bouchon (k&#937;) = R parallèle (k&#937;) = &#8730; [L(µH) / C(pF)] . Q Enfin, la valeur de l’impédance à la résonance des circuits série et parallèle se déduit facilement puisque Z = R à la résonance : Z série = R série = &#8730;(L / C) / Q et Z parallèle = R parallèle = &#8730;(L / C) . Q - A la lecture de ces dernières formules, on remarque que : Z bouchon = R parallèle = R bouchon . Q². Ainsi, dans un circuit bouchon non parfait, la résistance série est transformée en résistance parallèle et vient en dérivation sur la résistance parallèle du circuit, ce qui diminue la résistance parallèle totale et le facteur Q du circuit. Exemples à partir des valeurs du circuit bouchon du §",
+  "samples": [
+   {
+    "num": "20128",
+    "stem_fr": "FACTEUR Q A LA RESONANCE",
+    "options": [
+     "1,58",
+     "2,5",
+     "80",
+     "20"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1,58",
+    "commentaire_fr": "formule simplifiée : Q = √ [L(µH) / C(pF)] / R(kΩ) = √(32000 / 200) / 8 \n= √(160) / 8 = 12,65 / 8 = 1,58\nC’est très mauvais…\n",
+    "stem_zh": "谐振时的品质因数 Q"
+   },
+   {
+    "num": "21302",
+    "stem_fr": "FACTEUR Q A LA RESONANCE",
+    "options": [
+     "1500",
+     "38,7",
+     "6 666",
+     "2 000"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "38,7",
+    "commentaire_fr": "Q = √(L(µH) / C(pF)) / (R(kΩ) = √ (30 / 200) / 0,01\n= √ (0,15) / 0,01 = 0,387 / 0,01\n= 0,387 x 100 = 38,7\n",
+    "stem_zh": "谐振时的品质因数 Q 是多少？"
+   },
+   {
+    "num": "20129",
+    "stem_fr": "FACTEUR DE QUALITE A LA RESONANCE",
+    "options": [
+     "25",
+     "16",
+     "80",
+     "6400"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "80",
+    "commentaire_fr": "formule simplifiée : Q = √ L(µH) / C(pF) / R(kΩ) = √ (20 / 500) / 0,0025 \n= √ (0,04) / 0,0025 = 0,2 / 0025 = 80\n",
+    "stem_zh": "谐振时的品质因数"
+   },
+   {
+    "num": "20424",
+    "stem_fr": "CALCUL DU FACTEUR Q AVEC L C ET R",
+    "options": [
+     "2500",
+     "50",
+     "62,5",
+     "20"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "50",
+    "commentaire_fr": "Q = √ [L(µH) / C(pF)] / R(kΩ) = √(25/400) / 0,005 = √(0,0625) / 0,005 = 0,25 / 0,005 = 50\n",
+    "stem_zh": "用 L、C 和 R 计算品质因数 Q"
+   },
+   {
+    "num": "23740",
+    "stem_fr": "FACTEUR DE QUALITE A LA RESONANCE",
+    "options": [
+     "1000",
+     "5",
+     "100",
+     "Infini"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "100",
+    "commentaire_fr": "formule simplifiée : Q = √ [L(µH) / C(pF)] / R(kΩ) \n= √ (25 / 100) / 0,005 = √ (0,25) / 0,005 \n= 0,5 / 0,005 = 100. \nAttention à la représentation non conventionnelle de la bobine.\n",
+    "stem_zh": "谐振时的品质因数"
+   },
+   {
+    "num": "20663",
+    "stem_fr": "CALCUL DU FACTEUR Q AVEC L = 25 MICROH, C = 400 PF ET R = 5 OHMS, BOBINE REPRESENTEE PAR UN RECTANGLE",
+    "options": [
+     "20",
+     "2500",
+     "62,5",
+     "50"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "50",
+    "commentaire_fr": "Q = √ [L(µH) / C(pF)] / R(kΩ) = √(25/400) / 0,005 = √(0,0625) / 0,005 = 0,25 / 0,005 = 50\n",
+    "stem_zh": "计算品质因数 Q，已知 L = 25 微亨，C = 400 pF，R = 5 欧姆，线圈用矩形表示"
+   }
+  ]
+ },
+ {
+  "id": "K107",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "anchor": "T044c",
+  "seclab": "4.4",
+  "n_q": 6,
+  "cours_fr": "4.4b3 ) puisque ces deux circuits ont le même facteur Q. Ces formules montrent que le facteur Q est proportionnel à la fréquence de résonance du circuit. Toutefois, dans les circuits bouchon et série, l’effet de peau mis en évidence par R et qui augmente avec la fréquence atténue les variations du facteur Q en fonction de la fréquence. - La résistance R d’un circuit bouchon ou série n’est pas facilement mesurable mais elle se calcule à partir de la mesure de la bande passante du circuit bouchon ou du facteur Q du circuit série. Pour un circuit série, le facteur Q est le rapport obtenu en divisant la tension mesurée avec un oscilloscope entre L et C à la fréquence de résonance divisée par la tension issue du générateur branché aux bornes du filtre. Pour un circuit bouchon, à l’aide d’un grid-dip ou d’un oscilloscope, le pic de tension à la fréquence de résonance (fo) est mesuré puis on note les fréquences inférieures et supérieures pour lesquelles le signal est atténué de 3 dB (soit 0,707 de la tension à Fo). B étant l’écart entre ces deux fréquences, Q est déduit par le calcul : puisque B = fo / Q, alors Q = fo / B . De plus, pour le circuit bouchon et le circuit série, Q = &#8730; ( L / C) / R, d’où : R bouchon = R série = &#8730;(L / C) / Q formule simplifiée : R bouchon (k&#937;) = R série (k&#937;) = &#8730; [L(µH) / C(pF)] / Q - On sait que Q = Z bouchon / X L donc Z bouchon = Q x X L . En remplaçant X L par sa formule, Z bouchon = &#8730;(L / C) . Q D’autre part, Q parallèle = Z parallèle / X L = R parallèle / X L donc R parallèle = X L x Q donc : R parallèle = &#8730;(L / C) . Q Formules simplifiées : Z bouchon (k&#937;) = R parallèle (k&#937;) = &#8730; [L(µH) / C(pF)] . Q Enfin, la valeur de l’impédance à la résonance des circuits série et parallèle se déduit facilement puisque Z = R à la résonance : Z série = R série = &#8730;(L / C) / Q et Z parallèle = R parallèle = &#8730;(L / C) . Q - A la lecture de ces dernières formules, on remarque que : Z bouchon = R parallèle = R bouchon . Q². Ainsi, dans un circuit bouchon non parfait, la résistance série est transformée en résistance parallèle et vient en dérivation sur la résistance parallèle du circuit, ce qui diminue la résistance parallèle totale et le facteur Q du circuit. Exemples à partir des valeurs du circuit bouchon du §",
+  "samples": [
+   {
+    "num": "20130",
+    "stem_fr": "ANDE PASSANTE",
+    "options": [
+     "1 kHz ",
+     "1,6 MHz",
+     "107 kHz",
+     "0,1 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "107 kHz",
+    "commentaire_fr": "fréquence de résonance avec la formule simplifiée : F = 159 /  √(L en µH x C en pF) = 159 / √ (100) = 159 / 10 = 16 MHz. ; B = Fc / Q = 16 / 150 = 0,107 MHz = 107 kHz. (retirer la virgule du dernier calcul)\n",
+    "stem_zh": "通带"
+   },
+   {
+    "num": "20349",
+    "stem_fr": "ANDE PASSANTE A -3 DB A LA RESONANCE",
+    "options": [
+     "10 kHz",
+     "15 kHz",
+     "25 kHz",
+     "200 kHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "200 kHz",
+    "commentaire_fr": "1ère étape, calcul de la fréquence de résonance avec la formule simplifiée : \nF = 159 / √ (L en µH x C en pF) \n= 159 / √ (16 x 100) = 159/ √ (1600) = 159/40= 3,975 arrondi à 4 MHz ou 4000 kHz\n2ème étape, calcul du facteur de qualité avec la formule simplifiée : \nQ = √ [L(µH) / C(pF)] / R(kΩ) = √ (16 / 100) / 0,02 = √(0,16) ) 0,02 = 0,4 / 0,02 = 20\n3ème étape, calcul de la bande passante à -3 dB à la résonance : \nB = F/Q = 4000 kHz / 20 = 200 kHz\nCette question nécessite l’utilisation de trois formules et est très longue à calculer. Néanmoins, tout ce qui y est demandé est au programme. Les 3 points que rapporte cette question valent beaucoup plus…\n",
+    "stem_zh": "谐振时 –3 dB 处的带宽"
+   },
+   {
+    "num": "20779",
+    "stem_fr": "FO = 15KHZ ; BANDE PASSANTE = 370 HZ ; QUEL EST LE FACTEUR Q ?",
+    "options": [
+     "40,5",
+     "24,7",
+     "5,5",
+     "7,5"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "40,5",
+    "commentaire_fr": "par définition, B = Fo / Q, donc Q = Fo / B = 15000/370 = 40,5 (arrondi)\n\n",
+    "stem_zh": "FO = 15 kHz ；带宽 = 370 Hz ；品质因数 Q 是多少？"
+   },
+   {
+    "num": "20613",
+    "stem_fr": "FO = 6 MHZ ET BANDE PASSANTE A -3 DB (B) = 50 KHZ, \nVALEUR DE Q ?",
+    "options": [
+     "100",
+     "8,33",
+     "120",
+     "25"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "120",
+    "commentaire_fr": "Par définition, B = Fo / Q, \ndonc Q = Fo / B = 6 MHz / 50 kHz = 6000 kHz / 50 kHz = 120\n",
+    "stem_zh": "FO = 6 MHz，-3 dB 带宽（B）= 50 kHz，\nQ 的值是多少？"
+   },
+   {
+    "num": "20368",
+    "stem_fr": "SCHEMA REPRESENTANT UN CIRCUIT LC BOUCHON, AVEC L = 20 H, C = 20 PF ET Q = 100 ; BANDE PASSANTE ?",
+    "options": [
+     "12 kHz",
+     "16 kHz",
+     "4 kHz",
+     "80 kHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "80 kHz",
+    "commentaire_fr": "F = 159 / √ (L en µH x C en pF) = 159 / √ (20 x 20) = 159 / 20 = 8 MHz \nB = Fc / Q = 8 MHz / 100 = 0,08 MHz = 80 kHz\n",
+    "stem_zh": "表示并联谐振 LC 电路的示意图，其中 L = 20 H，C = 20 pF，Q = 100 ；带宽是多少？"
+   },
+   {
+    "num": "20503",
+    "stem_fr": "CIRCUIT RLC AVEC FREQUENCE DE RESONNANCE \n(15000 HZ) ET BP (370 HZ) DONNEES. CALCULER Q DU CIRCUIT",
+    "options": [
+     "impossible à calculer",
+     "24,7",
+     "5000",
+     "40,5"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "40,5",
+    "commentaire_fr": "BP = F/Q donc Q = F/BP = 15000 / 370 = 40,54 (arrondi à 40,5)\n",
+    "stem_zh": "已知串联 RLC 电路的谐振频率（15000 Hz）和带宽 BP（370 Hz）。计算电路的 Q"
+   }
+  ]
+ },
+ {
+  "id": "K108",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "anchor": "T046b",
+  "seclab": "4.6",
+  "n_q": 6,
+  "cours_fr": "4.6a une variante de la loi de Thomson : X L = X C = &#8730; (L / C) à la résonance. c Le facteur Q d’un circuit détermine sa bande passante à –3 dB (B) à la fréquence de résonance : B = fo / Q . Plus Q est élevé, plus le filtre est étroit et ses flancs sont raides et mieux les fréquences adjacentes seront rejetées. Dans les exemples ci-dessus : B bouchon = B série = B parallèle = 3,18 MHz / 25 = 0,127 MHz = 127 kHz On peut vérifier les courbes caractéristiques d’un filtre grâce à un analyseur de spectre où la fréquence est en abscisse et la puissance du signal, ou sa tension, en ordonnée. La puissance est souvent indiquée en puissance relative (en dBm : décibel par rapport au milliwatt sous une impédance donnée, généralement 50 &#937;). Un contacteur détermine la puissance maximum lue et deux autres contacteurs déterminent la fréquence centrale (ou la fréquence de début) et la largeur de la plage de fréquence à explorer. Un wobulateur est un générateur de fréquence variable couplé à un oscilloscope ce qui permet, en branchant le wobulateur à l’entrée de l’étage ou du filtre à mesurer, de lire la courbe de réponse en fréquence de l’amplificateur ou du filtre. L’ensemble wobulateur+oscilloscope remplace un analyseur de spectre. d Lorsqu’un filtre est constitué de plusieurs cellules LC résonant sur la même fréquence ou dont les fréquences de résonance sont légèrement décalées (comme ci-dessous, l’atténuation des 2 cellules est en pointillé), la courbe de réponse du filtre n’est plus définie par le facteur Q mais par sa largeur de bande passante et son taux de sélectivité (ou facteur de forme). La largeur de la bande passante peut être définie à un autre niveau que –3 dB. Exemple : Quelle est la largeur de la bande passante à – 13 dB du signal visualisé sur l’écran de l’analyseur de spectre ? Réponse : La puissance crête du signale mesure 39 dBm. La bande passante de ce signal à – 13 dB est la largeur du signal dont la puissance est supérieure à 26 dBm (= 39 dBm –13 dB). Les fréquences extrêmes du signal sont 540 et 600. La bande passante à – 13 dB du signal est de 60 (= 600 – 540). Si on n’avait que la graduation en volts, puisque U maxi = 24 V, que –13 dB correspond à un rapport de puissance de 1/20 et que U = &#8730;(P.R), la tension à – 13 dB sera calculée comme suit : 24 V / &#8730;20 = 24 / 4,45 &#8776; 5,4 V. Enfin, sachant que 39 dBm = 8 W, que 26 dBm = 0,4 W et que 13 dBm = 0,02 W, l’impédance du signal mesuré est : Z = U²/P = 24²/8 (= 5,4²/0,4 ou 1,2²/0,02) = 72 &#937; e Le taux de sélectivité (S) qui est le rapport (en %) obtenu en divisant B (la",
+  "samples": [
+   {
+    "num": "20136",
+    "stem_fr": "CALCULER R EN CONNAISANT L C ET Q",
+    "options": [
+     "25 Ω",
+     "50 Ω",
+     "100 Ω",
+     "2 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "2 Ω",
+    "commentaire_fr": "R(kΩ) = √(L(µH) / C(pF)) / Q = √(20 / 500) / 100 =\n√(0,04) / 100 = 0,2 / 100 = 0,002 kΩ = 2 Ω\n",
+    "stem_zh": "已知 L、C 和 Q，求 R"
+   },
+   {
+    "num": "20138",
+    "stem_fr": "CALCULER Z EN CONNAISANT L C ET Q",
+    "options": [
+     "20 Ω",
+     "80 Ω",
+     "64 Ω",
+     "80 kΩ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "64 Ω",
+    "commentaire_fr": "Z(kΩ) = √(L(µH) / C(pF)) x Q = √(0,01 / 10000) x 64 =\n√(1/10^6) x 64 = 1/1000 x 64 = 0,064 kΩ = 64 Ω\n",
+    "stem_zh": "已知 L、C 和 Q，求 Z"
+   },
+   {
+    "num": "20135",
+    "stem_fr": "CALCULER R EN CONNAISANT L C ET Q",
+    "options": [
+     "33 Ω",
+     "100 Ω",
+     "13 Ω",
+     "0,3 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "13 Ω",
+    "commentaire_fr": "R(kΩ) = √(L(µH) / C(pF)) / Q = √(50 / 50) / 75 =\n√(1) / 75 = 1 / 75 = 0,013 kΩ = 13 Ω\n",
+    "stem_zh": "已知 L、C 和 Q，求 R"
+   },
+   {
+    "num": "23821",
+    "stem_fr": "CALCULER Z EN CONNAISANT L C ET Q",
+    "options": [
+     "Infinie\n",
+     "800 kΩ",
+     "5000 Ω",
+     "50 kΩ"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "50 kΩ",
+    "commentaire_fr": "Z(kΩ) = √(L(µH) / C(pF)) x Q = √(25 / 100) x 100 =\n√(0,25) x 100 = 0,5 x 100 = 50 kΩ\n",
+    "stem_zh": "已知 L、C 和 Q，计算 Z。"
+   },
+   {
+    "num": "20137",
+    "stem_fr": "CALCULER Z EN CONNAISANT L C ET Q",
+    "options": [
+     "200 000 Ω",
+     "4,4 kΩ",
+     "Infinie",
+     "10 000 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "200 000 Ω",
+    "commentaire_fr": "Z(kΩ) = √(L(µH) / C(pF)) x Q = √(200 / 50) x 100 =\n√(4) x 100 = 2 x 100 = 200 kΩ = 200 000 Ω\n",
+    "stem_zh": "已知 L、C 和 Q，求 Z"
+   },
+   {
+    "num": "20803",
+    "stem_fr": "SCHEMA AVEC UN CIRCUIT BOUCHON : L = 25 MICROH, C = 400 PICOF, Q = 75, IMPEDANCE A LA RESONANCE ?",
+    "options": [
+     "infinie",
+     "4,7 kΩ",
+     "1200 Ω",
+     "18 750 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "18 750 Ω",
+    "commentaire_fr": "Z = √ (L/C) x Q = 1,875.10^4 = 18 750 Ω\nou Z(kΩ) = √(L(µH) / C(pF)) x Q = √(25 / 400) x 75 = √(0,0625) x 75 \n= 0,25 x 75 = 18,75 kΩ = 18 750 Ω\n",
+    "stem_zh": "陷波（并联谐振）电路示意图：L = 25 µH，C = 400 pF，Q = 75，谐振时的阻抗是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K109",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "anchor": "T082",
+  "seclab": "8.2",
+  "n_q": 6,
+  "cours_fr": "8.2) Le montage fondamental est représenté ci-dessous. Le signal est appliqué à l’entrée inverseuse. Le montage fait appel à une contre-réaction grâce à la résistance R2. La tension au point N est stabilisée par rapport à la tension au point P. L’alimentation du circuit n’est pas représentée, comme c’est souvent le cas dans les schémas. b Lorsque la tension du signal d’entrée U E est positive, la tension U N est aussi positive et est supérieure à U P (= 0 V). U N étant appliqué à l’entrée négative de l’amplificateur opérationnel, la sortie sera reliée au – de l’alimentation. Cette tension négative en S va, par la contre-réaction de R2, diminué la tension en U N et lorsque U N atteindra une valeur inférieure à U P , la sortie basculera vers le + de l’alimentation du circuit, ce qui, par la contre-réaction de R2, fera augmenter U N . Le système se stabilisera autour de la tension U P avec U P = U N = 0 V (masse ou tension de référence). Ce montage ne fonctionne que si l’amplificateur opérationnel est alimenté en + et en – (par exemple en +5 V et en –5 V). En alimentant l’amplificateur opérationnel « classiquement » entre une tension de 12 volts et la masse, la tension de référence (au point P) ne sera plus 0 V mais une tension intermédiaire (5 V par exemple) générée par un pont de résistances. Dans la résistance d’entrée R1, située entre E et N, on a I R1 = U E / R1 puisque U N = 0. L'impédance d'entrée de l’amplificateur opérationnel est infinie (I e- = 0), donc I R1 = I R2 . La sortie S du montage sera à la tension U R2 = U E x (– R2 / R1) = U S . Le gain en tension est donc négatif et est égal à : G = – (R2 / R1) . Il n'y a pas de gain en intensité (I E = I R1 = I R2 = I S ). On pourra aussi utiliser les triangles ci-dessous comme pour la loi d’Ohm. Cependant, il faut faire attention au signe négatif de la résistance R2 (contre-réaction) dans les triangles avec R. Le gain est ici un coefficient multiplicateur avec inversion de phase et ne doit pas être exprimé en dB. Exemples : 1) Quel est le gain de ce montage ? Réponse : gain = – R2 / R1 = – 25k / 5000 = – 25000 / 5000 = – 5 2) Un amplificateur opérationnel est monté en inverseur. Le gain du montage est de –3 avec une résistance à l'entrée (R1) de 10 000 ohms. Quelle est la valeur de la résistance de contre- réaction (R2) ? Réponse : R2 = – (G x R1) = – [( –3) x 10 000] = 3 x 10 000 = 30 k &#937; 3) Quelle est la tension de sortie ? Réponse : gain = – R2 / R1 = – 500 / 100 = – 5 Tension de sortie = tension d’entrée x gain = – 0,5 V x (– 5) = + 2,5 V ou U S = – U E x (R2 / R1) = – [(– 0,5 V) x (500 / 1",
+  "samples": [
+   {
+    "num": "20161",
+    "stem_fr": "GAIN EN TENSION",
+    "options": [
+     "-1,5 ",
+     "25",
+     "2,5",
+     "-15"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "-15",
+    "commentaire_fr": "G = - R2 / R1 = -330 000 / 22 000 = -15\n",
+    "stem_zh": "电压增益是多少？"
+   },
+   {
+    "num": "20162",
+    "stem_fr": "GAIN EN TENSION",
+    "options": [
+     "-1,5 ",
+     "25",
+     "2,5",
+     "-15"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "-15",
+    "commentaire_fr": "G = - R2 / R1 = -33 000 / 2 200 = -15\n",
+    "stem_zh": "电压增益是多少？"
+   },
+   {
+    "num": "20160",
+    "stem_fr": "GAIN EN TENSION",
+    "options": [
+     "-3,3 ",
+     " 33",
+     "-33",
+     "3,3 "
+    ],
+    "ans_idx": 2,
+    "ans_fr": "-33",
+    "commentaire_fr": "G = - R2 / R1 = -33000 / 1000 = -33\n",
+    "stem_zh": "电压增益是多少？"
+   },
+   {
+    "num": "20164",
+    "stem_fr": "TENSION DE SORTIE VS",
+    "options": [
+     "3,3 V ",
+     "- 3,3 V",
+     "33 V",
+     "-33 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "- 3,3 V",
+    "commentaire_fr": "G = -(R2 / R1) ; Vs = Ve x G = 0,1 x –33 = -3,3V\n",
+    "stem_zh": "输出电压 VS 是多少？"
+   },
+   {
+    "num": "20163",
+    "stem_fr": "TENSION DE SORTIE VS",
+    "options": [
+     "9,4 V",
+     "0,94 V",
+     "-9,4 V",
+     "-0,94 V"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "-9,4 V",
+    "commentaire_fr": "G = -(R2 / R1) ; Vs = Ve x G = 0,2 x –47 = -9,4 V\n",
+    "stem_zh": "输出电压 VS 是多少？"
+   },
+   {
+    "num": "20165",
+    "stem_fr": "TENSION DE SORTIE VS",
+    "options": [
+     "-0,05 V ",
+     " -0,5 V",
+     "-1,8 V",
+     "-4,5 V"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "-0,05 V ",
+    "commentaire_fr": "G = -R2/R1 = -0,1666 ; Vs = Ve x G = 0,3 x –0,1666 = -0,05 V\n",
+    "stem_zh": "输出电压 VS 是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K110",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "anchor": "T071a3",
+  "seclab": "7.1",
+  "n_q": 6,
+  "cours_fr": "7.1) Les classes d'amplification (ou de polarisation) : les trois classes de base (A, B et C) diffèrent selon la valeur de la tension de repos en l’absence de signal à l’entrée du circuit (notée V sur les représentations du signal d’entrée ci-contre) par rapport à la plage de fonctionnement optimale de l’amplificateur (sans distortion). a1 - La classe A est le montage le plus courant : le signal à amplifier est centré par rapport à la plage de d’amplification. La tension de repos est centrée sur cette plage et le signal à amplifier ne la dépasse jamais. a2 - La classe B utilise deux transistors qui amplifient chacun une alternance du signal. La tension de repos est fixée à la limite de la plage d’amplification de chacun des transistors. Ce montage, encombrant à cause des transformateurs, est difficile à régler et nécessite des transistors appairés aux caractéristiques identiques. Le montage avec deux transistors complémentaires (PNP et NPN) appairés évite l’emploi de transformateurs. a3 - En classe C , grâce à la résistance de polarisation Rp branchée au – ou à la masse, seule une partie du signal est amplifiée, le reste est restitué par le circuit oscillant de sortie accordé sur la fréquence d’entrée. Cette classe d’amplification est à prohiber dans le cas d’un signal modulé en amplitude (AM, BLU). b La classe D , utilisée en HF de forte puissance (quelques kilowatts et plus) et en audio, a un grand rendement mais repose sur la génération d’impulsions à largeur variable qu’il faut filtrer ( voir principe au §",
+  "samples": [
+   {
+    "num": "21295",
+    "stem_fr": "CLASSE DE L'AMPLIFICATEUR",
+    "options": [
+     "classe A",
+     "classe B",
+     "classe AB",
+     "classe C"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "classe C",
+    "commentaire_fr": "La classe C est remarquable aux circuits RC en entrée et LC en sortie. En théorie, les schémas fonctionnels (comme celui-ci) n'ont pas à être connus pour l'examen.\n",
+    "stem_zh": "放大器的工作类别"
+   },
+   {
+    "num": "20752",
+    "stem_fr": "QUELLE EST LA CLASSE D'EMISSION LA PLUS ECONOMIQUE ?",
+    "options": [
+     "classe C",
+     "classe B",
+     "classe AB",
+     "classe A"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "classe C",
+    "commentaire_fr": "La classe C est la classe d'amplification qui a le meilleur rendement (en dehors de la classe D qui n'est pas citée ici et qui est très peu utilisée dans les applications radio). Pour autant, peut-on dire que c'est la classe la plus \"économique\" ? Si on se réfère à la simplicité du montage (peu de composants pas chers) sans s’occuper du rendement, la classe A pourrait être la bonne réponse... Encore une question tordue (et mal posée ! ! )\n",
+    "stem_zh": "最经济的发射类别是哪一类？"
+   },
+   {
+    "num": "20574",
+    "stem_fr": "QUELLE CLASSE D'AMPLIFICATION N'A PAS DE COURANT DE REPOS ?",
+    "options": [
+     "Classe A",
+     "Classe AB",
+     "Classe AB2",
+     "Classe C"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Classe C",
+    "commentaire_fr": "Pour définir les classes d''amplification, on utilise plutôt une référence à la tension de repos (et non pas au courant).\nLa classe A a une tension de repos au milieu du signal à amplifier. Elle a donc un courant de repos non nul. \nOn distingue deux sous-classes dans la classe AB : la classe AB1 \"qui n'absorbe pas de courant de l'étage qui le précède\" contrairement à la classe AB2. AB2 doit donc être éliminée. De même AB est éliminée car trop imprécise. \nReste la classe C dont la tension de repos est très en dessous de la tension de blocage du transistor. Si bien que le courant de repos est nul en classe C.\n",
+    "stem_zh": "哪一种放大类别没有静态电流？"
+   },
+   {
+    "num": "20149",
+    "stem_fr": "QUEL TYPE DE MODULATION EST ADAPTE A UN AMPLIFICATEUR MONTE EN CLASSE C ?",
+    "options": [
+     "CW et FM ",
+     "AM",
+     "AM et BLU",
+     "BLU"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "CW et FM ",
+    "commentaire_fr": "La classe C ne permet pas d’amplifier un signal modulé en amplitude comme l’AM et la BLU\n",
+    "stem_zh": "哪种调制方式适合丙类（C 类）放大器？"
+   },
+   {
+    "num": "20865",
+    "stem_fr": "QUELLE CLASSE D'AMPLIFICATION A LA TENSION DE REPOS LA PLUS BASSE ?",
+    "options": [
+     "Classe A",
+     "Classe B",
+     "Classe C",
+     "Classe D"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Classe C",
+    "commentaire_fr": "La tension de repos de la classe C est négative puisque ce ne sont que les pointes de la période positive du signal qui sont amplifiées.\n",
+    "stem_zh": "哪一类放大的静态（无信号）电压最低？"
+   },
+   {
+    "num": "20398",
+    "stem_fr": "UN AMPLIFICATEUR CONSTITUE D'UN TRANSISTOR MONTE EN CLASSE C EST DESTINE A EMETTRE",
+    "options": [
+     "en FM ou en CW",
+     "en AM",
+     "en AM ou en BLU",
+     "en BLU"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "en FM ou en CW",
+    "commentaire_fr": "La classe C ne permet pas d’amplifier un signal modulé en amplitude comme l’AM et la BLU. La CW n'est pas à proprement parlé une modulation variable en amplitude : c'est du tout ou rien.\n",
+    "stem_zh": "由一只按 C 类工作的晶体管构成的放大器用于发射"
+   }
+  ]
+ },
+ {
+  "id": "K111",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "anchor": "T054a",
+  "seclab": "5.4",
+  "n_q": 6,
+  "cours_fr": "5.4) Dans une alimentation , les diodes au silicium font chuter la tension d’un peu plus de 0,7 volt à chaque passage, soit un peu plus de 1,4 volt en tout pour un redressement par pont de diodes, comme présenté ci-dessous. Le condensateur de filtrage maintient la valeur de la tension de sortie à sa valeur de crête. b Le courant dans les diodes n’existe que lors du « remplissage » du condensateur de filtrage puis, ensuite, que lors de sa « remise à niveau », c’est-à-dire un temps très court compris entre le moment où la sinusoïde atteint la tension du condensateur qui s’est déchargé et le maximum de la sinusoïde. Le courant instantané passant dans les diodes est donc nettement supérieur au courant moyen délivré par l’alimentation, ce qui nuit au rendement de l’équipement ( voir §",
+  "samples": [
+   {
+    "num": "20307",
+    "stem_fr": "QUELLE EST LA TENSION AUX BORNES DU CONDENSATEUR",
+    "options": [
+     "14,1 V",
+     "7,1 V",
+     "10 V",
+     "20 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "7,1 V",
+    "commentaire_fr": "Tension à la sortie du transfo : Us = Ue x (Ns / Np) = \n10 x (50 / 100) = 5 V. Le condensateur a pour effet de transformer\nla tension efficace en tension maximum : 5 x 1,414 = 7,07 arrondi à 7,1 V sans tenir compte de la chute de tension provoquée par la diode qu’on a ici négligé par simplification. En effet, on n'aura jamais plus que la tension anode moins la tension de seuil sur la cathode de la diode. Au final, la tension Us sera d’environ 6,4 volts si la diode est au silicium.\n",
+    "stem_zh": "电容器两端的电压是多少？"
+   },
+   {
+    "num": "20363",
+    "stem_fr": "QUELLE EST LA TENSION AUX BORNES DU CONDENSATEUR ?",
+    "options": [
+     "25 V",
+     "20 V",
+     "14,14 V",
+     "28,28 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "28,28 V",
+    "commentaire_fr": "Tension à la sortie du transfo : Us = Ue x (Ns / Np) = \n300 x (220 / 3300) = 20 V. Le condensateur a pour effet de transformer\nla tension efficace en tension maximum : 20 x 1,414 = 28,28 V sans tenir compte de la chute de tension provoquée par la diode qu’on a ici négligé par simplification. En effet, on n'aura jamais plus que la tension anode moins la tension de seuil sur la cathode de la diode. Au final, la tension Us sera d’environ 27,6 volts si la diode est au silicium.\n",
+    "stem_zh": "电容器两端的电压是多少？"
+   },
+   {
+    "num": "20879",
+    "stem_fr": "COMPOSANT NE FIGURANT PAS DANS UN BLOC D'ALIMENTATION ?",
+    "options": [
+     "Filtre à condensateur ",
+     "Filtre à inductance",
+     "Une bobine ",
+     "Une diode"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Une bobine ",
+    "commentaire_fr": "Les 4 réponses peuvent se trouver dans un bloc alimentation ! \nMais, puisqu'il y a un choix à faire, je choisirai la bobine (qui, seule, ne peut servir de filtre RL) mais sans grande conviction…\n",
+    "stem_zh": "电源模块中不会出现的元件？"
+   },
+   {
+    "num": "20848",
+    "stem_fr": "QUEL COMPOSANT EST ABSENT DE CETTE ALIMENTATION EN COURANT CONTINU ?",
+    "options": [
+     "filtre à condensateur ",
+     "diode",
+     "filtre à inductance",
+     "filtre bouchon"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "filtre à condensateur ",
+    "commentaire_fr": "Il manque le condensateur monté en parallèle sur la sortie qui filtre l’alternance positive à la sortie de la diode. Les puristes feront remarquer que l’on peut aussi employer un filtre à inductance (en série avec la diode) mais sa valeur risque d’être prohibitive surtout si le circuit débite peu de courant.\n",
+    "stem_zh": "这个直流电源中缺少哪个元件？"
+   },
+   {
+    "num": "20491",
+    "stem_fr": "MONTAGE TRANSFO, 300V AU PRIMAIRE, 2000 SPIRES AU PRIMAIRE, 150 SPIRES AU SECONDAIRE, AVEC UNE DIODE PUIS UN CONDENSATEUR. TENSION AUX BORNES DU CONDENSATEUR ?",
+    "options": [
+     "25 V",
+     "22,5 V",
+     "35 V",
+     "31,8 V"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "31,8 V",
+    "commentaire_fr": "Tension à la sortie du transfo : Us = Ue x (Ns / Np) = \n300 x (150 / 2000) = 22,5 V. Le condensateur a pour effet de transformer la tension efficace en tension maximum : 22,5 x 1,414 = 31,8 V sans tenir compte de la chute de tension provoquée par la diode qu’on a ici négligé par simplification. En effet, on n'aura jamais plus que la tension anode moins la tension de seuil sur la cathode de la diode. Au final, la tension Us sera d’environ 31,1 volts si la diode est au silicium mais cette réponse n’est pas proposée.\n",
+    "stem_zh": "变压器组态：初级 300 V、2000 匝，次级 150 匝，后接一只二极管再串一只电容。电容两端的电压是多少？"
+   },
+   {
+    "num": "20851",
+    "stem_fr": "UN MONTAGE DE TRANSFORMATEUR (AVEC 3000 SPIRES AU PRIMAIRE ET 200 SPIRES AU SECONDAIRE) AVEC COTE SECONDAIRE UNE DIODE SERIE ET UNE CAPACITE EN // AU TRANSFO. IL FAUT DONNER LA TENSION A VIDE DU MONTAGE AU BORNE DU CONDENSATEUR, COTE PRIMAIRE : 300 V",
+    "options": [
+     "28,3 V",
+     "20 V",
+     "14,2 V",
+     "25 V"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "28,3 V",
+    "commentaire_fr": "Tension à la sortie du transfo : Us = Ue x (Ns / Np) = 300 x (200 / 3000) = 20 V. \nLe condensateur a pour effet de transformer la tension efficace en tension maximum : 20 x 1,414 = 28,3 V sans tenir compte de la chute de tension provoquée par la diode qu’on a ici négligé par simplification. \nLa tension à vide est la tension aux bornes du condensateur étant entendu que l’alimentation ne débite pas puisqu’elle n’est pas reliée à une charge.\n",
+    "stem_zh": "变压器电路示意图（一次 3000 匝、二次 200 匝），二次侧串一只二极管、并有电容与变压器并联。求空载时电容两端的电压，一次侧为 300 V。"
+   }
+  ]
+ },
+ {
+  "id": "K112",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T093f",
+  "seclab": "9.3",
+  "n_q": 6,
+  "cours_fr": "9.3) La propagation en ondes réfléchies (ou ondes d’espace) : l’ ionosphère est la zone la plus élevée de l'atmosphère terrestre. Elle se situe entre 50 et 650 km d'altitude. L'ionisation se produit lorsque l'énergie UV du soleil frappe des atomes ou des molécules gazeuses et génère le plasma constitué d’ions positifs et d’électrons libres. La recombinaison ion-électron est un processus plus lent que l'ionisation, si bien que l'ionisation augmente rapidement à l'aube, mais diminue moins rapidement au crépuscule. La densité du plasma augmente avec le rayonnement UV par paliers successifs en fonction de l’altitude, ce qui permet de diviser l’ionosphère en 3 régions (ou couches) : D (50 à 90 km), E (90 à 130 km) et F (130 à 650 km). A l’approche de la magnétosphère, la densité du plasma diminue. A chaque augmentation de densité du plasma et selon l’angle avec lequel l’onde traverse les couches, l’onde est réfractée (l’onde prend une direction plus perpendiculaire à la couche traversée) et peut, selon la densité du plasma et la fréquence, être réfléchie (l’onde retourne vers la terre). b La région D doit être traversée par les ondes pour atteindre les couches E et F et disparaît dès la tombée de la nuit. La région D est constituée de molécules d’oxygène et d’azote (O 2 et N 2 ). La densité du plasma (100 électrons par cm 3 ) est faible et provient de la photo-ionisation due au rayonnement X. Cette couche ne réfléchit pas les ondes mais elle atténue les signaux qui la traversent. Pour minimiser cette atténuation, en particulier sur les bandes basses (40 m et +), on utilise des antennes ayant un angle de radiation faible (on vise l'horizon). c L’ionisation de la région E est faible en milieu de journée et très faible la nuit. Toutefois, dans des conditions particulières liées à la présence d’ions métalliques, cette couche (appelée alors E sporadique) peut être plus fortement ionisée (jusqu'à 100.000 électrons libres par cm 3 ). Dans ce cas, une seule réflexion est possible sauf lorsque cette ionisation est suffisamment répartie, ce qui est rare et impossible à prévoir. d La région la plus haute de la ionosphère, la couche F , possède la densité d'électrons la plus élevée (jusqu’à 1 million d’électrons par cm 3 dans la journée) et est constituée d’oxygène atomique (O) photo-ionisé par les rayonnements UV du soleil. La partie basse de la région F (entre 130 à 200 km d’altitude) est appelée zone F1 tandis que le reste est appelé F2. L’altitude de cette dernière couche est variable (de 300 km en hiver jusqu’à 650 km en été). Des réflexions multiples sur cette couc",
+  "samples": [
+   {
+    "num": "20719",
+    "stem_fr": "POUR CONTACTER L'INDE DE JOUR, IL FAUT :",
+    "options": [
+     "augmenter la puissance",
+     "attendre 12h00 GMT",
+     "que les couches soient ionisées par le soleil se déplaçant ",
+     "attendre que l'antenne se réchauffe"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "que les couches soient ionisées par le soleil se déplaçant ",
+    "commentaire_fr": "La bonne réponse est assez mal libellée mais les autres réponses ne conviennent pas ou sont fantaisistes\n",
+    "stem_zh": "白天要与印度联络，需要："
+   },
+   {
+    "num": "20733",
+    "stem_fr": "ON CONTACTE L'INDE SUR 10 MHZ A 2H DU MATIN, QUE FAIRE POUR GARDER LE CONTACT ?",
+    "options": [
+     "changer de bande ",
+     "passer en AM",
+     "changer la hauteur de l’antenne",
+     "changer la polarisation de l’antenne"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "changer de bande ",
+    "commentaire_fr": "La réponse \"changer de bande\" est la plus plausible. Même si ça ne marche pas à tous les coups !\n",
+    "stem_zh": "凌晨 2 点在 10 MHz 上通联到印度，之后想保持联络应该怎么办？"
+   },
+   {
+    "num": "20648",
+    "stem_fr": "EN HF, VOUS REALISEZ UN CONTACT DE JOUR, QUE DEVEZ-VOUS FAIRE POUR LE CONTINUER LA NUIT ?",
+    "options": [
+     "diminuer la fréquence ",
+     "augmenter la fréquence ",
+     "se fier à l’heure TU",
+     "se fier à l’heure d’été"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "diminuer la fréquence ",
+    "commentaire_fr": "En théorie, pour continuer à garder le contact en HF (ondes décamétriques) une fois le soleil couché, il faut choisir une bande plus basse (diminuer la fréquence) pour bénéficier d'une ionisation adaptée à la bande utilisée. Mais ceci n'est que théorique et ça ne fonctionne pas aussi facilement dans la réalité…\n",
+    "stem_zh": "在 HF 中，你白天建立了联络，要把它维持到夜间应该怎么做？"
+   },
+   {
+    "num": "20185",
+    "stem_fr": "CONTACTE INDE 10 MHZ",
+    "options": [
+     "en montant en fréquence puis en la diminuant ",
+     "en descendant en fréquence puis en l’augmentant",
+     "en augmentant la puissance d’émission",
+     "en réduisant la puissance d’émission"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "en montant en fréquence puis en la diminuant ",
+    "commentaire_fr": "l’indication 2 h du matin est importante car c’est l’heure où le soleil se lève en Inde (quand on se trouve en Europe). Le parcours de l’onde commence à être ionisée par le soleil, ce qui permet d’utiliser des fréquences plus élevées. Une fois le soleil couché, il faut redescendre sur des bandes plus basses. Mais c’est très théorique et ça ne marche pas souvent aussi bien…\n",
+    "stem_zh": "与印度 10 MHz 联络（⚠️待核）"
+   },
+   {
+    "num": "20184",
+    "stem_fr": "VOUS FAITES UN CONTACT AVEC L'INDE LA NUIT. VOUS REFAITES CE CONTACT DE JOUR. QUE DEVEZ-VOUS FAIRE ?",
+    "options": [
+     "j'augmente ma puissance ",
+     "je me décale en descendant légèrement en fréquence",
+     "je réduis ma puissance ",
+     "je me décale en montant légèrement en fréquence "
+    ],
+    "ans_idx": 2,
+    "ans_fr": "je réduis ma puissance ",
+    "commentaire_fr": "en théorie, un contact de jour nécessite moins de puissance puisque l'ionosphère est éclairée sur tout le parcours de l'onde. NB : avec l'Est (L'Inde), ça marche mieux le matin et avec l'Ouest (Canada, USA), ça marche mieux en fin de journée. Ceci n'est valable que pour les ondes décamétriques, évidemment.\n",
+    "stem_zh": "你夜间与印度联络，白天再次进行同样的联络，应该怎么做？"
+   },
+   {
+    "num": "20821",
+    "stem_fr": "POURQUOI EN EMISSION LONGUE DISTANCE DOIT-ON CHANGER DE FREQUENCE EN FONCTION DE L'HEURE DE LA JOURNEE ?",
+    "options": [
+     "c’est une obligation de l’IARU",
+     "le point de réflexion des ondes se déplace au cours de la journée",
+     "les ondes ne se propagent que le jour",
+     "les conditions de propagation changent tout au long de la journée"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "les conditions de propagation changent tout au long de la journée",
+    "commentaire_fr": "Les conditions de propagation changent tout au long de la journée en fonction du rayonnement solaire qui ionise les hautes couches de l'atmosphère où se réfléchissent les ondes décamétriques utilisées pour les émissions longue distance\n",
+    "stem_zh": "为什么远距离发射时要随一天中的时刻改变频率？"
+   }
+  ]
+ },
+ {
+  "id": "K113",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T103b6",
+  "seclab": "10.3",
+  "n_q": 6,
+  "cours_fr": "10.3) Adaptation, désadaptation et ondes stationnaires : Le transfert de puissance entre un générateur de courant alternatif et une charge est maximal lorsque l’impédance du générateur est égale à celle de la charge et est de signe contraire, si il y a une réactance. Les impédances sont alors conjuguées . Dans les exemples ci-dessous, on cherche laquelle des 3 résistances (R1, R2 ou R3) dissipe le plus de puissance. Les résistances R1, R2 et R3 peuvent être considérées comme des résistances de charge alimentées par un générateur de résistance interne (R) de 50&#937;. Par simplification, il n’y a pas de réactance et le courant est continu. En ajoutant des réactances, un générateur de courant alternatif et un câble coaxial (et donc des ondes stationnaires), la démonstration est plus complexe mais aboutit au même résultat ; les puristes nous excuseront pour ces raccourcis. Ainsi, à la fréquence de résonance, par définition, les réactances d’une bobine et d’un condensateur sont conjuguées et l’impédance d’un tel circuit monté en série avec les deux résistances est nulle (filtre passe-bande) donc sans incidence sur la puissance délivrée sur la charge. Lorsque le rapport des résistances est 2/1 (schéma de gauche), la puissance dissipée par R1 est inférieure de 11% à celle dissipée par R2 et lorsque le rapport des résistances est 1,5/1 (schéma de droite), la puissance dissipée est inférieure de 4% : on retrouve les mêmes relations entre le ROS et le taux de puissance réfléchie comme on va le voir plus loin. b La désadaptation des impédances entraîne qu’une partie de l’énergie émise n’est pas transférée et retourne au générateur. Si bien que deux courants de même impédance et de sens inverse se superposent dans la ligne et, à certains endroits, les courants s’additionnent et à d’autres, ils s’annulent. Les endroits où se situent ces maxima (ou ventres) et ces minima (ou nœuds) sont fixes, d’où le nom d’ ondes stationnaires , et dépendent de l’endroit de la mesure sur la ligne et de la fréquence. Les maximas et les minimas sont distants les uns des autres d’un quart d’onde : le phénomène se répète donc toutes les demi-ondes. La désadaptation se mesure par : b1 - le coefficient de réflexion , nommé &#961; (rhô) et égal au rapport obtenu en divisant le courant (tension ou intensité) réfléchi par le courant émis (ou incident), les deux valeurs étant exprimés dans la même unité (V ou A). La seconde formule (avec les valeurs maxi/mini) est utilisée dans la pratique et donne le même résultat. Si les valeurs mesurées sont exprimées en Watts, on prendra la racine carrée ",
+  "samples": [
+   {
+    "num": "20196",
+    "stem_fr": "ROS",
+    "options": [
+     "4",
+     "25",
+     "3",
+     "0,5"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "3",
+    "commentaire_fr": "avec les données, on peut calculer le coefficient de réflexion (k = racine (1/4) = 0,5 = 50%) Or on demande le ROS ce qui signifie qu’il faut faire la conversion TOS>k. ROS = (1 + k) / (1- k) = 1,5 / 0,5 = 3/1\n",
+    "stem_zh": "ROS"
+   },
+   {
+    "num": "20326",
+    "stem_fr": "QUELLE EST LA PUISSANCE REFLECHIE ?",
+    "options": [
+     "2 W",
+     "4,5 W",
+     "3 W",
+     "1 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1 W",
+    "commentaire_fr": "transformation ROS > k : (ROS - 1) / (ROS + 1) = (2 – 1) / (2 + 1) = 1/3 = 0,33\non déduit P réf = P incidente x k² = 9 x 0,33² = 9 x 0,11 = 1 W\n",
+    "stem_zh": "反射功率是多少？"
+   },
+   {
+    "num": "20704",
+    "stem_fr": "CALCUL DU TOS AVEC 9W EMIS ET 1W REFLECHI",
+    "options": [
+     "11%",
+     "33%",
+     "9%",
+     "25%"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "33%",
+    "commentaire_fr": "Rapport de puissance = Puissance réfléchie / Puissance émise = 1 /9 = 0,11 ; TOS = racine (rapport des puissance) = racine (0,11) = 0,33 = 33%\n",
+    "stem_zh": "已知发射 9 W、反射 1 W，计算 TOS"
+   },
+   {
+    "num": "20529",
+    "stem_fr": "ROS AVEC UNE PUISSANCE EMISE DE 9 W ET UNE PUISSANCE REFLECHIE DE 1 W ?",
+    "options": [
+     "3/1",
+     "9/1",
+     "2/1",
+     "infini"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "2/1",
+    "commentaire_fr": "taux de puissance réfléchie = 1/9 donc taux d'ondes stationnaires = racine (1/9) = 0,3333. \nROS = (1 + TOS) / (1-TOS) = 1,333 / 0,6666 = 2/1\n",
+    "stem_zh": "发射功率 9 W、反射功率 1 W 时的 ROS 是多少？"
+   },
+   {
+    "num": "20602",
+    "stem_fr": "SCHEMA AVEC UN RECTANGLE \"EMETTEUR\", UN CABLE ET UNE ANTENNE TYPE YAGI. ROS = 2 ; PE = 9 W ; PR = ?",
+    "options": [
+     "1 W",
+     "4,5 W",
+     "3 W",
+     "2,25 W"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1 W",
+    "commentaire_fr": "Transformation ROS>TOS : TOS = (ROS-1)/(ROS+1) = (2-1)/(2+1) = 1/3 = 0,33\nTaux de puissance réfléchie = TOS² = 0,33² = 0,11 ;\nPuissance réfléchie (Pr) = Puissance émise (Pe) x taux de puissance réfléchie \n= 9 x 0,11 = 1 W\n",
+    "stem_zh": "图中有一个「发射机」矩形、一条电缆和一副八木天线。ROS = 2 ；PE = 9 W ；PR = ？"
+   },
+   {
+    "num": "20198",
+    "stem_fr": "SCHEMA AVEC UN CABLE RELIE A UNE ANTENNE. LES INDICATIONS SUIVANTES ETAIENT NOTEES : \nUN EMETTEUR DE 50 W ET ROS = 2 ; PRF = \n",
+    "options": [
+     "15 W",
+     "25 W",
+     "5,5 W",
+     "2 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "5,5 W",
+    "commentaire_fr": "transformation ROS > k : (ROS - 1) / (ROS + 1) = (2 – 1) / (2 + 1) = 1/3 donc k = 33%), on déduit P réf = P incidente x TOS = 50 x k² = 50 x 0,33² = 50 x 0,11 = 5,5 W\n",
+    "stem_zh": "示意图：一条电缆接到天线上。图上标注如下：\n发射机 50 W 且 ROS = 2 ；PRF = \n"
+   }
+  ]
+ },
+ {
+  "id": "K114",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T102b",
+  "seclab": "10.2",
+  "n_q": 6,
+  "cours_fr": "10.2a . Le vide , avec sa perméabilité µ o (= 1/36&#960;.10 9 H/m = 1,26 µH/m) et sa permittivité &#949; o (= 4&#960;.10 -7 F/m = 8,84 pF/m) a une impédance de 377 &#937; (soit 120&#960;). Les permittivité et perméabilité relatives de l’air sec sont très proches de celles du vide (µ r = 1,00068 et &#949; r = 1,0014) si bien que les impédances de l’air sec et du vide sont égales. a5 En reprenant le calcul des impédances des lignes de &#955;/2 et de &#955;/4, et quelle que soit l’impédance caractéristique de la ligne de transmission, les résultats suivants sont obtenus : Nous venons de voir que le vide a une impédance de 377 &#937;. Il sera donc difficile d’obtenir une impédance infinie sur une ligne ouverte. D’où la préférence pour les lignes fermées dont l’impédance est certaine. Dans une ligne ouverte, l’impédance commence par être capacitive et diminue jusqu’à ce que la ligne atteigne &#955;/4. A cet endroit l’impédance est celle d’un circuit LC série (nulle). Puis l’impédance devient inductive et augmente pour être celle d’un circuit bouchon (infinie) à &#955;/2 puis diminue en redevenant capacitive et devient de nouveau nulle à 3&#955;/4 et ainsi de suite… La ligne fermée (schéma ci- contre) a un comportement décalé de &#955;/4 : son impédance inductive augmente avant &#955;/4, est infinie à cet endroit puis devient capacitive en diminuant. L’impédance de la ligne fermée est nulle à &#955;/2. Ces lignes forment d’excellents filtres peu onéreux. b Une antenne n’est pas toujours symétrique : les deux brins d’un doublet n’ont pas exactement la même longueur ; le sol sous l’antenne n’est pas uniforme ; un obstacle dans l’environnement immédiat d’un des brins modifie son rayonnement. La conséquence de ces problèmes est que les courants mesurés sur chacun des brins ne sont plus conjugués. Une adaptation est alors nécessaire entre la ligne de transmission et l’antenne. C’est le rôle du symétriseur ou balun (de l’anglais BALanced UNbalanced). Selon le montage, le balun symétrise les tensions (comme ci-contre) ou les intensités ( voir choc-balun au §",
+  "samples": [
+   {
+    "num": "20360",
+    "stem_fr": "QUELLE EST L'IMPEDANCE DU CABLE COAXIAL",
+    "options": [
+     "460 Ω",
+     "52 Ω",
+     "41 Ω",
+     "72 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "72 Ω",
+    "commentaire_fr": "Z = 138 log D/d =138 log (10/3) = 138 log (3,3333) = 138 x 0,5229 = 72 Ω (si le diélectrique est de l'air, ce qui n'est pas indiqué dans le schéma)\n",
+    "stem_zh": "同轴电缆的阻抗是多少"
+   },
+   {
+    "num": "20385",
+    "stem_fr": "QUELLE EST L'IMPEDANCE DU CABLE COAXIAL ?\nD = 10 ; D = 2",
+    "options": [
+     "5 Ω",
+     "52 Ω",
+     "96 Ω",
+     "690 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "96 Ω",
+    "commentaire_fr": "Z = 138 log D/d =138 log (10/2) = 138 log (5) = 138 x 0,699 = 96 Ω (si le diélectrique est de l'air)\n",
+    "stem_zh": "同轴电缆的特性阻抗是多少？D = 10，d = 2"
+   },
+   {
+    "num": "20863",
+    "stem_fr": "QUEL TERME DECRIT LA VITESSE DES CHARGE ELECTRIQUES DANS UN CIRCUIT ?",
+    "options": [
+     "vélocité",
+     "tension",
+     "résistance",
+     "puissance"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "vélocité",
+    "commentaire_fr": "La vélocité est le rapport (en %) de la vitesse de déplacement des charges électriques dans un corps ou un environnement par rapport à leur vitesse dans le vide.\n",
+    "stem_zh": "哪个术语描述电路中电荷的速度？"
+   },
+   {
+    "num": "20787",
+    "stem_fr": "QUELLE EST L'IMPEDANCE DU CABLE COAXIAL ?\nD = 10 ; D = 2 ; COEFFICIENT DIELECTRIQUE = 4\n",
+    "options": [
+     "24 Ω",
+     "96 Ω",
+     "690 Ω",
+     "48 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "48 Ω",
+    "commentaire_fr": "Z = (138/√(e)) x log (D/d) = (138/√(4)) x log (10/2) \n= (138/2) log (5) = 69 x 0,699 = 48 Ω\n",
+    "stem_zh": "同轴电缆的阻抗是多少？\nD = 10 ；D = 2 ；介电系数 = 4\n"
+   },
+   {
+    "num": "21189",
+    "stem_fr": "LA VELOCITE DU CABLE",
+    "options": [
+     "est fonction de la perte du câble",
+     "est constante pour toutes les fréquences",
+     "est toujours supérieure à 100 %",
+     "est fonction de la fréquence utilisée"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "est constante pour toutes les fréquences",
+    "commentaire_fr": "La vélocité d’une ligne d’alimentation est constante pour toutes les fréquences et dépend du matériau utilisé comme diélectrique\n",
+    "stem_zh": "电缆的波速"
+   },
+   {
+    "num": "21188",
+    "stem_fr": "L'IMPEDANCE D'UN CABLE COAXIAL EST FONCTION",
+    "options": [
+     "de la fréquence utilisée",
+     "de la longueur du câble",
+     "de la modulation appliquée",
+     "du rapport entre les diamètres de l'âme et de la tresse\n"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "du rapport entre les diamètres de l'âme et de la tresse\n",
+    "commentaire_fr": "L’impédance d’un câble dépend des dimensions des conducteurs (et du matériau utilisé comme diélectrique)\n",
+    "stem_zh": "同轴电缆的阻抗取决于"
+   }
+  ]
+ },
+ {
+  "id": "K115",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T0910h",
+  "seclab": "9.1",
+  "n_q": 6,
+  "cours_fr": "9.1) Relation longueur d'onde/fréquence a La longueur d’onde, d’une manière générale, se définit par les deux relations suivantes : longueur d’onde = &#955;(m) = v (m/s) / f (Hz) et &#955;(m) = v (m/s) . t(s) La longueur d'onde, notée &#955; (lettre grecque lambda minuscule), est la distance (en mètres) entre deux points identiques d'une onde (période) dans son milieu de propagation ; v est la vélocité de l’onde (en m/s), c’est-à-dire la vitesse de propagation de l’onde ; f est la fréquence (en Hz) et t est le temps que dure la période (en s). La longueur d’onde est directement fonction de la vélocité de l’onde dans son milieu de propagation. Les ondes radioélectriques se propagent dans le vide et dans l'air à la vitesse de la lumière (299 792 458 m/s, toujours arrondi à 300 000 km/s), on a la relation : &#955;(m) = 300 000 000 / f(Hz) ou &#955;(m) . f(Hz) = 300 000 000 m/s. Les formules ci-dessous sont le plus souvent utilisées avec le multiple MHz pour la fréquence et le mètre pour la longueur d’onde. Exemples : 1) Quelle est la longueur d'onde d'une fréquence de 14,1 MHz ? Réponse : L(m) = 300 / 14,1 = 21,27 m 2) Quelle est la fréquence dont la longueur d'onde est de 3 cm ? Réponse : 3 cm = 0,03 m ; f(MHz) = 300 / 0,03 = 10 000 MHz = 10 GHz b Lorsque les stations sont en mouvement l’une par rapport à l’autre (trafic via satellite), la vitesse de propagation est modifiée : si les stations se rapprochent très rapidement, la vélocité relative diminue, ce qui augmente artificiellement la fréquence de réception ( effet Doppler ). Et inversement lorsque les stations s’éloignent. Le même phénomène existe en acoustique : le bruit d’un véhicule est plus aigu s’il se rapproche. a",
+  "samples": [
+   {
+    "num": "23746",
+    "stem_fr": "GAIN ANTENNE COUPLEE",
+    "options": [
+     "3 dB ",
+     "12 dB",
+     "9 dB",
+     "6 dB"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "9 dB",
+    "commentaire_fr": "coupler 2 antennes identiques amène un gain de 3 dB : 6 + 3 = 9 dB\n",
+    "stem_zh": "组合天线的增益"
+   },
+   {
+    "num": "23747",
+    "stem_fr": "GAIN ANTENNE COUPLEE",
+    "options": [
+     "10 dB ",
+     "2,5 dB",
+     "5 dB",
+     "8 dB"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "8 dB",
+    "commentaire_fr": "coupler 2 antennes identiques amène un gain de 3 dB : 5 + 3 = 8 dB\n",
+    "stem_zh": "两副天线耦合后的增益是多少？"
+   },
+   {
+    "num": "23749",
+    "stem_fr": "GAIN ANTENNE COUPLEE",
+    "options": [
+     "6,3 dB ",
+     "10 dB",
+     "13,5 dB",
+     "8,8 dB"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "8,8 dB",
+    "commentaire_fr": "coupler 3 antennes identiques amène un gain de 4,77 dB (correspondant à un rapport de 3) : 4 + 4,77 = 8,8 dB (arrondi)\n",
+    "stem_zh": "三副天线耦合后的增益是多少？"
+   },
+   {
+    "num": "23748",
+    "stem_fr": "GAIN ANTENNE COUPLEE",
+    "options": [
+     "10,8 dB ",
+     " 2,7 dB",
+     "15,5 dB",
+     "18,3 dB"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "10,8 dB ",
+    "commentaire_fr": "coupler 3 antennes identiques amène un gain de 4,77 dB (correspondant à un rapport de 3) : 6 + 4,77 = 10,8 dB (arrondi)\n",
+    "stem_zh": "三副天线耦合后的增益是多少？"
+   },
+   {
+    "num": "20389",
+    "stem_fr": "LA POLARISATION D'UNE ANTENNE DEPEND DE :",
+    "options": [
+     "son champ électromagnétique",
+     "son champ magnétique",
+     "son champ électrique",
+     "son gain par rapport à l'antenne isotrope"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "son champ électrique",
+    "commentaire_fr": "Le champ électrique est concentrique (donc parallèle) autour du brin rayonnant de l'antenne et c'est la position de ce brin rayonnant qui détermine la polarisation de l'antenne.)\n",
+    "stem_zh": "天线的极化取决于："
+   },
+   {
+    "num": "20786",
+    "stem_fr": "QUELLE EST LA POLARISATION D'UNE ANTENNE GP ?",
+    "options": [
+     "horizontale",
+     "circulaire",
+     "verticale",
+     "rotative"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "verticale",
+    "commentaire_fr": "",
+    "stem_zh": "GP 天线是什么极化方式？"
+   }
+  ]
+ },
+ {
+  "id": "K116",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "anchor": "T123c",
+  "seclab": "12.3",
+  "n_q": 6,
+  "cours_fr": "12.3) La Modulation d'Amplitude a La modulation d’amplitude (AM) reste la modulation la plus simple à mettre en œuvre tant en émission qu’en réception. C’est par ce type de modulation qu’ont été effectués les premières émissions radiophoniques et les premiers contacts radioamateurs en téléphonie. Mais, compte tenu des piètres performances de cette modulation, elle n’est quasiment plus utilisée par les radioamateurs, sauf en Télévision analogique. b La détection (ou détecteur d'enveloppe) est constituée d'une diode suivie d'un circuit RC passe-bas pour filtrer la H.F. Le niveau B.F. appliqué à l’amplificateur AF est ajusté sur le point variable du potentiomètre R. Le semi-conducteur utilisé pour la diode pourra être du Germanium car sa tension de seuil (0,3 volt) est plus faible que le Silicium : l’enveloppe BF sera ainsi mieux restituée dans les creux. Les diodes de détection se présentent souvent sous la forme de petits tubes en verre avec une pointe métallique à l’intérieur. c Le contrôle automatique de gain (CAG) est un dispositif qui permet d’obtenir le même niveau B.F. quelle que soit la force du signal H.F. à l'entrée du récepteur. Plus précisément, le CAG agit sur le gain des étages RF d’entrée et/ou sur celui des étages FI afin qu’ils ne soient pas saturés en présence d’un signal fort et que le signal à leur sortie soit exploitable (non écrêté). In fine, c’est bien le niveau BF qui est impacté par ce circuit. La tension à l’entrée de l’étage CAG est prélevée sur la détection à travers la résistance R. Le niveau de CAG est réglé par le potentionmètre RF Gain. La tension de sortie ajuste le gain d'un étage FI à transistor FET double porte (ou le gain d’un autre étage RF). C’est cette tension qu’indique le S-mètre du récepteur. d Une onde porteuse en AM peut être modulée de différentes façons : en agissant sur l’alimentation de l'amplificateur final (schéma à gauche) ou en mélangeant HF et BF grâce à un MOS-FET (schéma à droite). e La représentation d’un signal AM en fonction du temps est donnée ci-après. La valeur crête du signal HF, « B », est la puissance de pointe de l’enveloppe (PEP) : l’émetteur ne peut pas fournir une puissance supérieure. C’est cette puissance qui est retenue pour la détermination de la puissance maximum autorisée ( voir §",
+  "samples": [
+   {
+    "num": "20443",
+    "stem_fr": "RECONNAITRE L'ETAGE MANQUANT",
+    "options": [
+     "FI",
+     "OL",
+     "CAG",
+     "BFO"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "CAG",
+    "commentaire_fr": "Le contrôle automatique de gain a son entrée à la sortie du démodulateur (ici, la détection) et réinjecte le signal sur les premiers étages RF ou sur la FI, non représentée ici. L’oscillateur local n'est pas représenté mais se situerait à l'endroit du \"?\" et serait relié au mélangeur : c’est le piège…\n",
+    "stem_zh": "识别出缺少的那一级"
+   },
+   {
+    "num": "20562",
+    "stem_fr": "UN SYNOPTIQUE AVEC UN ETAGE CAG  RELIANT UN ETAGE RF A UN ETAGE MARQUE \"?\"",
+    "options": [
+     "FI",
+     "OL",
+     "Détection",
+     "BFO"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Détection",
+    "commentaire_fr": "Le contrôle automatique de gain a son entrée à la sortie du démodulateur (ici, la détection) et réinjecte le signal sur les premiers étages RF ou sur la FI, non indiquée ici. La place de l’oscillateur local n'est pas représentée dans ce schéma\n",
+    "stem_zh": "一个方框图中 CAG 级把 RF 级与标有「?」的级连接起来"
+   },
+   {
+    "num": "20591",
+    "stem_fr": "SYNOPTIQUE D'UN RECEPTEUR AVEC LE \"?\" QUI ETAIT A LA PLACE DE LA CAG",
+    "options": [
+     "désaccentuateur",
+     "oscillateur",
+     "CAG",
+     "filtre passe-bas"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "CAG",
+    "commentaire_fr": "L’étage désaccentuateur est présent uniquement dans les récepteurs FM. Or l’étage « Dét » (détection) indique un récepteur AM. Ce n’est donc pas un émetteur. D’où l’inutilité d’un filtre passe bas (surtout à cet endroit). Attention à la place des étages du synoptique qui peut quelquefois dérouter...\n",
+    "stem_zh": "接收机方框图，「?」位于 CAG 的位置"
+   },
+   {
+    "num": "20450",
+    "stem_fr": "SCHEMA RECEPTEUR AVEC CAG MAIS PAS DE MELANGEUR, NI D'OSCILLATEUR, RETROUVER L'ETAGE \nMANQUANT",
+    "options": [
+     "modulateur",
+     "filtre FI",
+     "démodulateur",
+     "oscillateur local"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "démodulateur",
+    "commentaire_fr": "Il s’agit d’un récepteur sans conversion muni d’une CAG qui agit sur l'amplificateur radio fréquences\n",
+    "stem_zh": "接收机方框图带有 CAG，但没有混频器，也没有振荡器，请找出缺失的那一级。"
+   },
+   {
+    "num": "20383",
+    "stem_fr": "SCHEMA SYNOPTIQUE D'UN RECEPTEUR AVEC : ANTENNE--- RF---- CAG---- DMOD---AF----HP\nQUE RECOIT CE RECEPTEUR ?",
+    "options": [
+     "de la Télévision",
+     "la TNT",
+     "de l'AM",
+     "de la FM"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "de l'AM",
+    "commentaire_fr": "Ce récepteur est équipé d’un haut-parleur, il ne peut donc s’agir de télévision (TNT ou Télévision analogique). L’AM comme la FM utilise un démodulateur. Mais, seule l’AM utilise un circuit de CAG. En réalité, cet étage est aussi présent dans certains récepteurs FM mais il n’est pas indispensable.\n",
+    "stem_zh": "接收机方框图：天线--- RF ---- CAG ---- 解调器 ---AF---- HP\n这台接收机接收什么？"
+   },
+   {
+    "num": "20608",
+    "stem_fr": "SCHEMA AVEC UN SYNOPTIQUE SUR LEQUEL IL Y A LE CAG QUI VA D'UN COTE SUR LE DETECTEUR ET SUR L'AUTRE \"?\"",
+    "options": [
+     "modulateur",
+     "préaccentuateur",
+     "étage RF ",
+     "oscillateur local"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "étage RF ",
+    "commentaire_fr": "Il s’agit d’un synoptique partiel. \nLe CAG peut agir sur un étage RF comme ici ou sur un étage FI (réponse non proposée).\n",
+    "stem_zh": "方框图中 CAG 一端接到检波器上，另一端接到「?」"
+   }
+  ]
+ },
+ {
+  "id": "K117",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "anchor": "T051a",
+  "seclab": "5.1",
+  "n_q": 6,
+  "cours_fr": "5.1) Les diodes sont des composants qui ne laissent passer le courant que dans un sens qui est indiqué par une flèche sur le schéma. Les diodes sont formées de deux cristaux semi-conducteurs en Silicium (Si) ou en Germanium (Ge) accolés et dopés N ou P. Le courant électrique circule dans le sens P &#8594; N. Lorsque la diode est passante, l'anode est reliée au + et la cathode au –. En sens inverse, la résistance de la diode est très importante (plusieurs centaines de k&#937;). La cathode de la diode est repérée au K (inversé dans notre schéma ci-contre) du dessin et par une bague de couleur sur le composant. Le boîtier métallique des diodes de puissance est relié à la cathode ; un pas de vis permet de fixer la diode sur un radiateur pour dissiper plus de puissance. a",
+  "samples": [
+   {
+    "num": "20691",
+    "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : GRIS, NOIR, VERT, OR",
+    "options": [
+     "805 Ω",
+     "80 MΩ",
+     "8 MΩ",
+     "800 kΩ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "8 MΩ",
+    "commentaire_fr": "Gris = 8 ; Noir = 0 ; Vert = 5 ; donc 80 x 10^5 = 80 00000 = 8 MΩ\n",
+    "stem_zh": "图中电阻有 4 道色环：灰、黑、绿、金，电阻值是多少？"
+   },
+   {
+    "num": "20692",
+    "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : GRIS, BLEU, VERT, OR",
+    "options": [
+     "865 Ω",
+     "8,9 MΩ",
+     "8,6 MΩ",
+     "890 MΩ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "8,6 MΩ",
+    "commentaire_fr": "Gris = 8 ; Bleu = 6 ; Vert = 5 ; donc 86 x 10^5 = 86 00000 = 8,6 MΩ\n",
+    "stem_zh": "图中电阻有 4 道色环：灰、蓝、绿、金，电阻值是多少？"
+   },
+   {
+    "num": "20705",
+    "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 3 BAGUES : BLEU, ROUGE, BLEU. VALEUR DE LA RESISTANCE ?",
+    "options": [
+     "5,2 MΩ",
+     "600 kΩ",
+     "62 MΩ",
+     "500 kΩ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "62 MΩ",
+    "commentaire_fr": "Bleu = 6, Rouge = 2, Bleu = 6 ; donc 62 x 10^6 = 62 x 1.000.000 = 62 MΩ\n",
+    "stem_zh": "一个电阻的示意图上有 3 道色环：蓝、红、蓝。该电阻的阻值是多少？"
+   },
+   {
+    "num": "20678",
+    "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : GRIS, MARRON, VERT, OR\nVALEUR DE LA RESISTANCE ?",
+    "options": [
+     "815 Ω",
+     "8,1 MΩ",
+     "81 MΩ",
+     "810 kΩ"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "8,1 MΩ",
+    "commentaire_fr": "Gris = 8 ; Marron = 1 ; Vert = 5 ; donc 81 x 10^5 = 8100000 = 8,1 MΩ\n",
+    "stem_zh": "图中电阻有 4 道色环：灰、棕、绿、金，电阻值是多少？"
+   },
+   {
+    "num": "20679",
+    "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : ORANGE, BLEU, BLEU, OR\nVALEUR DE LA RESISTANCE ?",
+    "options": [
+     "366 Ω",
+     "36 kΩ",
+     "36 MΩ",
+     "3600 kΩ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "36 MΩ",
+    "commentaire_fr": "Orange = 3 ; Bleu = 6 ; Bleu = 6 ; donc 36 x 10^6 = 36000000 = 36 MΩ\n",
+    "stem_zh": "图中电阻有 4 道色环：橙、蓝、蓝、金，电阻值是多少？"
+   },
+   {
+    "num": "20742",
+    "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : BLEU, JAUNE, GRIS, OR\nVALEUR DE LA RESISTANCE ?",
+    "options": [
+     "648 Ω",
+     "9400 MΩ",
+     "6400 MΩ",
+     "13 MΩ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "6400 MΩ",
+    "commentaire_fr": "Bleu = 6 ; Jaune = 4 ; Gris = 8 ; donc 64 x 10^8 = 6400 MΩ\n",
+    "stem_zh": "一个电阻的示意图上有 4 道色环：蓝、黄、灰、金。该电阻的阻值是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K118",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "anchor": "R53d",
+  "seclab": "R-5.3",
+  "n_q": 6,
+  "cours_fr": "R-5.3) lignes de transmission ..................................................................................................................... 31",
+  "samples": [
+   {
+    "num": "30277",
+    "stem_fr": "* CALCULER L'ADAPTATION ?\n\n50 OHMS ============= 100 OHMS",
+    "options": [
+     "70,7 Ohms",
+     "50 Ohms",
+     "75 Ohms",
+     "5000 Ohms"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "70,7 Ohms",
+    "commentaire_fr": "Zcable = racine (Zentrée x Zsortie) = racine (50 x 100) = racine (5000) = 70,7 ohms \nDifficile de répondre à cette question sans sortir votre calculette !\n",
+    "stem_zh": "* 计算匹配（阻抗）？50 欧 ============= 100 欧"
+   },
+   {
+    "num": "34736",
+    "stem_fr": "UTILITE D'UN BALUN (1/1)",
+    "options": [
+     "symétrie-asymétrie de l’antenne ",
+     "équilibrer les impédances",
+     "augmenter la puissance émise",
+     "diminuer les parasites atmosphériques"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "symétrie-asymétrie de l’antenne ",
+    "commentaire_fr": "Lorsque le balun est de type 1/1, il ne modifie pas les impédances. L'utilité d'un balun est d'appliquer à une antenne symétrique (comme un dipôle) un signal issu d'un câble coaxial qui est, par construction, asymétrique.\n",
+    "stem_zh": "1:1 巴伦的用途"
+   },
+   {
+    "num": "30945",
+    "stem_fr": "CALCULER L'IMPEDANCE D'UN QUART D'ONDE D'ADAPTATION ALIMENTE D'UN COTE EN 25 OHMS ET L'AUTRE A UNE SORTIE DE 100 OHMS\n",
+    "options": [
+     "75 ohms",
+     "25 ohms",
+     "50 ohms",
+     "150 ohms"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "50 ohms",
+    "commentaire_fr": "Calcul : Zc = racine (Ze x Zs) = racine (100 x 25) = racine (2500) = 50)\nAstuce : la bonne réponse est toujours comprise entre les deux impédances d’entrée et de sortie et plus précisément entre la plus petite impédance et l’impédance moyenne (ici 62,5 ohms, soit [100 + 25] /2 ). 50 est compris entre 25 et 62,5\n",
+    "stem_zh": "计算一段匹配用四分之一波长线的阻抗：一端馈入 25 欧，另一端接 100 欧的输出"
+   },
+   {
+    "num": "30946",
+    "stem_fr": "QUELLE EST L'IMPEDANCE CARACTERISTIQUE D'UN CABLE DE LONGUEUR LAMBDA/4 POUR ADAPTER 25 OHMS ET 100 OHMS ?",
+    "options": [
+     "150 ohms",
+     "25 ohms",
+     "75 ohms",
+     "50 ohms"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "50 ohms",
+    "commentaire_fr": "",
+    "stem_zh": "用四分之一波长电缆把 25 Ω 与 100 Ω 匹配时，其特性阻抗应为多少？"
+   },
+   {
+    "num": "30065",
+    "stem_fr": "QUEL EST LE ROLE D'UNE BOITE DE COUPLAGE ?",
+    "options": [
+     "Elle permet d'orienter son antenne",
+     "Elle permet de coupler 2 antennes",
+     "Elle permet d'accorder son antenne",
+     "Elle permet de coupler 2 émetteurs"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Elle permet d'accorder son antenne",
+    "commentaire_fr": "",
+    "stem_zh": "匹配箱（天线调谐器）的作用是什么？"
+   },
+   {
+    "num": "30156",
+    "stem_fr": "QUELLE EST LA FONCTION DE LA BOITE D'ACCORD ?",
+    "options": [
+     "Elle sert  à rejeter la fréquence image ",
+     "Aucune",
+     "Elle sert à adapter l'impédance de l'antenne à l'impédance de sortie de l'émetteur",
+     "Elle sert à raccorder une antenne à un amplificateur"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Elle sert à adapter l'impédance de l'antenne à l'impédance de sortie de l'émetteur",
+    "commentaire_fr": "",
+    "stem_zh": "天线调谐器（天调）的作用是什么？"
+   }
+  ]
+ },
+ {
+  "id": "K119",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "anchor": "R11a",
+  "seclab": "R-1.1",
+  "n_q": 6,
+  "cours_fr": "R-1.1) Environnement réglementaire : trois niveaux réglementaires se superposent et se complètent. a Au niveau international , l’Union Internationale des Télécommunications (UIT), dont le siège est à Genève, est chargée des télécommunications par les Nations Unies (ONU). Au sein de l’UIT, la normalisation des télécommunications est traitée par l’UIT-T, leur développement par l’UIT-D et les radiocommunications par l’UIT-R. L'UIT-R édite le Règlement des Radiocommunications ( RR, Radio Regulations en anglais ), traité international ratifié par la France, qui constitue la base des réglementations nationales et européennes. L’édition 2018 du RR comprend 58 articles (S1 à S59) subdivisés en dispositions, 21 appendices (A1 à A42), les résolutions prises en assemblée plénière et les recommandations qui orientent les travaux des commissions. En complément, l’UIT édite des rapports qui font un état des lieux détaillé d’une technique ou d’un problème. L’article S1 définit la terminologie utilisée dans le RR. La disposition S1-56 définit le service amateur ainsi : « Service de radiocommunication ayant pour objet l'instruction individuelle, l'intercommunication et les études techniques, effectué par des amateurs, c'est-à-dire par des personnes dûment autorisées, s'intéressant à la technique de la radioélectricité à titre uniquement personnel et sans intérêt pécuniaire ». La disposition S1-57 définit le service d'amateur par satellite ainsi : « Service de radiocommunication faisant usage de stations spatiales situées sur des satellites de la Terre pour les mêmes fins que le service d'amateur ». L’article S25 définit les conditions d'exploitation des stations du service amateur . Les dispositions de cet article précisent notamment : l'indicatif d’appel est attribué par l'administration de chaque pays après vérification des aptitudes des opérateurs ; les communications se font en langage clair ; il est interdit de transmettre des communications pour les tiers sauf en cas d’urgence. La Résolution 646 intitulée « Protection du public et secours en cas de catastrophes » (PPDR en anglais) préconise une harmonisation des fréquences par région et reconnnait l’utilité de la Convention de Tampere signée en 1998 sur la mise à disposition de ressources de télécommunication (coopération entre les états). Adoptée en 2003, la résolution 646 remplace les résolutions 640 « relative à l’utilisation internationale, en cas de catastrophe naturelle, des […] bandes […] attribuées au service d’amateur » et 644 qui traitait des « moyens de télécommunications pour l’atténuation des effets de",
+  "samples": [
+   {
+    "num": "34739",
+    "stem_fr": "ASE DE LA REGLEMENTATION RADIOAMATEUR INTERNATIONALE?",
+    "options": [
+     "L 33.3",
+     "S1.56",
+     "T/R 61-02",
+     "TNRBF"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "S1.56",
+    "commentaire_fr": "L'article S1.56 est une disposition du RR (Règlement des Radiocommunications) qui définit le servive d'amateur\n",
+    "stem_zh": "国际业余无线电法规的基础是什么？（题面原文开头被截断）"
+   },
+   {
+    "num": "34709",
+    "stem_fr": "QUEL EST LE BUT DU RADIOAMATEURISME ?",
+    "options": [
+     "instruction individuelle des techniques radioélectriques ",
+     "vendre du matériel d’émission",
+     "émettre sur la bande FM",
+     "contacter des amis"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "instruction individuelle des techniques radioélectriques ",
+    "commentaire_fr": "Rappel de la disposition S1-56 du RR, définition du service d'amateur : \" Service de radiocommunication ayant pour objet l'instruction individuelle, l'intercommunication et les études techniques, effectué par des amateurs, c'est-à-dire par des personnes dûment autorisées, s'intéressant à la technique de la radioélectricité à titre uniquement personnel et sans intérêt pécuniaire \"\n",
+    "stem_zh": "业余无线电的宗旨是什么？"
+   },
+   {
+    "num": "34875",
+    "stem_fr": "L'ARTICLE S25 DU RR :",
+    "options": [
+     "interdit le morse aux radioamateurs",
+     "organise les associations de radioamateurs",
+     "traite de la libre circulation des radioamateurs sans formalité administrative",
+     "autorise le morse aux radioamateurs"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "autorise le morse aux radioamateurs",
+    "commentaire_fr": "Depuis 2003, les radioamateurs peuvent exploiter toutes les fréquences inférieures à 30 MHz dans toutes les classes d’émission (y compris en code Morse) sans avoir à « démontrer qu’ils sont aptes à la transmission et à la réception de textes en signaux du Code Morse ». La libre circulation des radioamateurs est traitée dans la recommandation CEPT T/R 61-01.\n\n",
+    "stem_zh": "《无线电规则》S25 条："
+   },
+   {
+    "num": "30509",
+    "stem_fr": "LES RESOLUTIONS DE L' U.I.T",
+    "options": [
+     "sont des textes qui n'ont aucune incidence sur le droit international",
+     "sont à respecter avec l'autorisation de l'ANFR",
+     "doivent être respectées par tous les Radioamateurs",
+     "n'ont pas à être respectées par les radioamateurs français"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "doivent être respectées par tous les Radioamateurs",
+    "commentaire_fr": "Attention, les résolutions et les recommandations de l'UIT ne sont applicables en France que lorsqu'elles ont été \"transcrites\" en droit français. C'est ce que nous répond l'administration quand on veut faire appliquer une résolution de l’UIT (comme le plan de bande par exemple). Pour autant, le droit français doit \"converger\" vers ces résolutions et recommandations car ce sont les textes fondateurs du droit international.\n",
+    "stem_zh": "国际电信联盟（UIT）的决议"
+   },
+   {
+    "num": "34816",
+    "stem_fr": "DE QUOI TRAITE L'ARTICLE S1-56 DU RR ?",
+    "options": [
+     "conditions d’exploitation des stations du service amateur",
+     "définition du service amateur ",
+     "bandes de fréquences autorisées au service amateur",
+     "programme d’examen harmonisé"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "définition du service amateur ",
+    "commentaire_fr": "",
+    "stem_zh": "《无线电规则》S1-56 条讲的是什么？"
+   },
+   {
+    "num": "30421",
+    "stem_fr": "DANS QUEL CAS UN RADIOAMATEUR A-T-IL LE DROIT D'EMETTRE HORS DU PERIMETRE DE LA DISPOSITION S1-56 DU RR DE L'UIT ?",
+    "options": [
+     "en cas de guerre",
+     "lorsque le téléphone ne fonctionne pas",
+     "en cas de catastrophe ",
+     "lorsqu'il a passé son examen il y a plus de 10 ans et qu'il n'a pas l'objet d'un rappel au règlement"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "en cas de catastrophe ",
+    "commentaire_fr": "",
+    "stem_zh": "在什么情况下，业余无线电爱好者有权在 ITU 无线电规则 S1-56 规定范围之外发射？"
+   }
+  ]
+ },
+ {
+  "id": "K120",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "anchor": "R47a",
+  "seclab": "R-4.7",
+  "n_q": 6,
+  "cours_fr": "R-4.7) Utilisation de l’autorisation d’émettre dans les pays de la CEPT : les radioamateurs originaires des pays appliquant la recommandation T/R 61-01 ou des pays ayant signé un accord d’Etat à Etat avec la France peuvent trafiquer en France pour un séjour de moins de 3 mois sans formalité. L'indicatif utilisé sera formé du préfixe français selon la localisation géographique (F, FY, TK, etc.) suivi d'une barre de fraction, de l’indicatif personnel du pays d’origine et du suffixe /P ou /M (art 7-2 de l’arrêté du 21/09/00 modifié). Exemple : F/I9AAA/P est une station italienne émettant depuis un hôtel à Paris. De même, pour les radioamateurs français titulaires d'une autorisation d’émettre de classe 1 ou 2 se déplaçant pour un séjour de moins de 3 mois dans un pays appliquant la recommandation CEPT T/R 61-01, l'indicatif utilisé sera formé du préfixe du pays visité suivi d'une barre de fraction, de son indicatif d’appel français et du suffixe /P ou /M selon le cas (§",
+  "samples": [
+   {
+    "num": "32551",
+    "stem_fr": "QUEL EST L'INDICATIF QUI N'A PAS D'EQUIVALENT CEPT ?",
+    "options": [
+     "F1XYZ",
+     "F4XYZ",
+     "F0XYZ",
+     "F5XYZ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "F0XYZ",
+    "commentaire_fr": "La classe 3 (F0) n’a pas d’équivalent CEPT\n",
+    "stem_zh": "哪个呼号没有 CEPT 等效资格？"
+   },
+   {
+    "num": "30780",
+    "stem_fr": "3A2/GWP. DE QUEL PAYS EST ORIGINAIRE CET OPERATEUR ?",
+    "options": [
+     "cet indicatif n'existe pas ",
+     "Monaco",
+     "Pays de Galles",
+     "Andorre"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "cet indicatif n'existe pas ",
+    "commentaire_fr": "cet indicatif n'existe pas car tous les indicatifs sont composés à l'aide des 10 chiffres et des 26 lettres romaines non accentuées. Il ne peut y avoir de / au milieu sauf pour séparer un préfixe ou un suffixe. A supposer que 3A2 soit le préfixe (ce qui est faux, le seul préfixe possible est 3A - Monaco), l'indicatif d'appel de l'opérateur ne peut être GWP car un indicatif d'appel doit comporter au moins 1 chiffre (GW9P pourrait être un indicatif d’appel du pays de Galles).\n",
+    "stem_zh": "3A2/GWP。这位操作员来自哪个国家？"
+   },
+   {
+    "num": "34869",
+    "stem_fr": "QUE SIGNIFIE L'INDICATIF O/N-ZZ-F ?",
+    "options": [
+     "Radio amateur français émettant depuis la Belgique",
+     "Cet indicatif n’existe pas",
+     "Radio amateur belge émettant depuis la France",
+     "Radio amateur étranger émettant depuis la France"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Cet indicatif n’existe pas",
+    "commentaire_fr": "Cet indicatif ne peut pas exister car d'une part le suffixe O n'est pas affecté à un pays et d'autre part le tiret (-) n'est pas un caractère permettant de constituer un indicatif d'appel (les seuls caractères utilisables sont les 26 lettres de l'alphabet romain, les 10 chiffres arabes et le signe \"/\" (barre de fraction) pour séparer les préfixes ou les suffixes indiquant des conditions particulières d'exploitation (portable ou mobile)).\n\n",
+    "stem_zh": "呼号 O/N-ZZ-F 表示什么？"
+   },
+   {
+    "num": "30781",
+    "stem_fr": "QUE SIGNIFIE L'INDICATIF 3A2/F9GW",
+    "options": [
+     "Radio amateur français émettant de la principauté de Monaco ",
+     "cet indicatif n'existe pas ",
+     "Radio amateur français émettant de St Martin",
+     "Radio amateur français émettant du Liechtenstein"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "cet indicatif n'existe pas ",
+    "commentaire_fr": "Le préfixe de Monaco est 3A (et non pas 3A2). De plus, la recommandation T/R 61-01 précise que l’indicatif d’appel doit être suivi, selon le cas, du suffixe /P ou /M\n",
+    "stem_zh": "呼号 3A2/F9GW 表示什么"
+   },
+   {
+    "num": "30903",
+    "stem_fr": "QUE SIGNIFIE L'INDICATIF SUIVANT : F/ON1USA",
+    "options": [
+     "c'est un radioamateur Américain qui émet en France",
+     "c'est un radioamateur Autrichien qui émet en France",
+     "c'est un radioamateur Français qui émet en Belgique",
+     "c'est un opérateur membre d'un état de la CEPT pour un court séjour en France"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "c'est un opérateur membre d'un état de la CEPT pour un court séjour en France",
+    "commentaire_fr": "Le préfixe ON est attribué à la Belgique (état membre de la CEPT). Pour être conforme à la recommandation CEPT, l'indicatif devrait être suivi du suffixe /P ou /M\n",
+    "stem_zh": "呼号 F/ON1USA 表示什么？"
+   },
+   {
+    "num": "30778",
+    "stem_fr": "POUR L'AMATEUR FRANCAIS EN VISITE DANS UN PAYS ETRANGER ADHERANT A LA CEPT, LA LICENCE DITE CEPT PERMET SANS FORMALITE",
+    "options": [
+     "L’usage de son indicatif sans modification ",
+     "L’exploitation d’une station portable pendant 6 mois maximum",
+     "L’exploitation d’une station fixe pendant 3 mois maximum",
+     "L’usage de son indicatif précédé du préfixe du pays et suivi de P ou M "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "L’usage de son indicatif précédé du préfixe du pays et suivi de P ou M ",
+    "commentaire_fr": "",
+    "stem_zh": "对到访 CEPT 成员国的法国爱好者来说，所谓 CEPT 执照可在无需办理手续的情况下"
+   }
+  ]
+ }
+]

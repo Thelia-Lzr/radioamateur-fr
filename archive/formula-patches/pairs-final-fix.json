@@ -1,0 +1,17 @@
+{
+ "section": "收尾：§2.3.g2 展示式 + §12.6 表格",
+ "pairs": [
+  {
+   "old": "Q = 2πfL / R = 1 / (2πf·C·R)</div>",
+   "new": "\\[Q = \\dfrac{2\\pi f L}{R} = \\dfrac{1}{2\\pi f C R}\\]</div>",
+   "count": 1,
+   "note": "§2.3.g2 品质因数展示式第二行（漏网）"
+  },
+  {
+   "old": "<td>占用带宽 = \\(2 \\times\\) 频偏（excursion）</td>",
+   "new": "<td>占用带宽 \\(= 2 \\times \\text{频偏}\\)（excursion）</td>",
+   "count": 1,
+   "note": "§12.6 表格里的半转换态"
+  }
+ ]
+}

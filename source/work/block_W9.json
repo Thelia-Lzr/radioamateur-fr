@@ -1,0 +1,329 @@
+{
+ "block": "W9",
+ "lines": [
+  9256,
+  10102
+ ],
+ "units": [
+  {
+   "id": "T085",
+   "ref": "8.5",
+   "nq": 0,
+   "depth": 3,
+   "anchors": [],
+   "title_fr": "Système binaire et",
+   "questions": []
+  },
+  {
+   "id": "T091",
+   "ref": "9.1",
+   "nq": 24,
+   "depth": 1,
+   "anchors": [
+    "T091a",
+    "T091b"
+   ],
+   "title_fr": "9.1)",
+   "questions": [
+    {
+     "num": "20169",
+     "question": "LONGUEUR D'ONDE D'UN SIGNAL DE FREQUENCE16 GHZ",
+     "reponse": "1,875 cm "
+    },
+    {
+     "num": "20174",
+     "question": "FREQUENCE CORRESPONDANT A L = 16,50 M",
+     "reponse": "18,2 MHz"
+    },
+    {
+     "num": "20179",
+     "question": "FREQUENCE D'UN SIGNAL DE LONGUEUR = 2 MM ?",
+     "reponse": "150 GHz"
+    },
+    {
+     "num": "20180",
+     "question": "LORS D'UN CONTACT VIA SATELLITE, LORSQUE CELUI-CI SE RAPPROCHE DE LA STATION,",
+     "reponse": "la fréquence de réception augmente "
+    }
+   ]
+  },
+  {
+   "id": "T092",
+   "ref": "9.2",
+   "nq": 17,
+   "depth": 2,
+   "anchors": [
+    "T092b",
+    "T092c"
+   ],
+   "title_fr": "Propagation : Les",
+   "questions": [
+    {
+     "num": "20181",
+     "question": "ETENDUE DES ONDES DECAMETRIQUES",
+     "reponse": "3 MHz à 30 MHz"
+    },
+    {
+     "num": "20375",
+     "question": "QUEL EST LE MODE DE PROPAGATION DES ONDES DECAMETRIQUES",
+     "reponse": "ondes réfléchies "
+    },
+    {
+     "num": "20485",
+     "question": "QUEL EST LE MODE DE PROPAGATION DES ONDES HECTOMETRIQUES ?",
+     "reponse": "Ondes de sol"
+    },
+    {
+     "num": "20487",
+     "question": "DANS QUELLE GAMME D'ONDE SE SITUE LA FREQUENCE 16 GHZ ?",
+     "reponse": "SHF"
+    }
+   ]
+  },
+  {
+   "id": "T093",
+   "ref": "9.3",
+   "nq": 15,
+   "depth": 2,
+   "anchors": [
+    "T093",
+    "T093b",
+    "T093c",
+    "T093f"
+   ],
+   "title_fr": "La propagation en ondes réfléchies",
+   "questions": [
+    {
+     "num": "20182",
+     "question": "SUR QUELLE COUCHE DE L'ATMOSPHERE SE REFLETENT LES ONDES DECAMETRIQUES ?",
+     "reponse": "la couche F"
+    },
+    {
+     "num": "20184",
+     "question": "VOUS FAITES UN CONTACT AVEC L'INDE LA NUIT. VOUS REFAITES CE CONTACT DE JOUR. QUE DEVEZ-VOUS FAIRE ?",
+     "reponse": "je réduis ma puissance "
+    },
+    {
+     "num": "21605",
+     "question": "QUEL EST L'EFFET D'UNE TRES FORTE IONISATION SUR LA COUCHE D SUR LES COMMUNICATIONS DANS LA BANDE AMATEUR DES 80M ?",
+     "reponse": "Forte diminution jusqu'à disparition des signaux"
+    },
+    {
+     "num": "22461",
+     "question": "LA PROPAGATION DITE \"SPORADIQUE E\" UTILISE QUELLE COUCHE ?",
+     "reponse": "E"
+    }
+   ]
+  },
+  {
+   "id": "T094",
+   "ref": "9.4",
+   "nq": 16,
+   "depth": 2,
+   "anchors": [
+    "T094b",
+    "T094c"
+   ],
+   "title_fr": "Une antenne est un dispositif assurant la liaison",
+   "questions": [
+    {
+     "num": "20183",
+     "question": "UNE ONDE RADIO EST CONSTITUEE DE",
+     "reponse": "un champ magnétique et un champ électrique"
+    },
+    {
+     "num": "20186",
+     "question": "AU CENTRE D'UNE ANTENNE DOUBLET DEMI ONDE, QUELLES SONT LES VALEURS DE U ET I ?",
+     "reponse": "U= 0 et I max"
+    },
+    {
+     "num": "20768",
+     "question": "QUELLES SONT LES VALEURS DE U ET I A L'EXTREMITE D'UNE ANTENNE DEMI-ONDE ?",
+     "reponse": "Umax et I = 0"
+    },
+    {
+     "num": "21170",
+     "question": "SUR QUELLE FREQUENCE EST TAILLE CE DIPOLE ?",
+     "reponse": "8,33 MHz"
+    }
+   ]
+  },
+  {
+   "id": "T095",
+   "ref": "9.5",
+   "nq": 7,
+   "depth": 3,
+   "anchors": [
+    "T095a"
+   ],
+   "title_fr": "L'antenne quart d'onde verticale",
+   "questions": [
+    {
+     "num": "20420",
+     "question": "UNE ANTENNE GROUND PLANE DE 5/8 EST",
+     "reponse": "plus longue qu'un dipôle "
+    },
+    {
+     "num": "20488",
+     "question": "QU'EST CE QU'UNE ANTENNE GROUD PLANE ?",
+     "reponse": "une antenne verticale"
+    },
+    {
+     "num": "21175",
+     "question": "A LA BASE DU BRIN DE CE QUART D'ONDE, ON A",
+     "reponse": "U nul et I max"
+    },
+    {
+     "num": "21176",
+     "question": "QUELLE EST L'IMPEDANCE DE CE QUART D'ONDE ?",
+     "reponse": "36 Ω"
+    },
+    {
+     "num": "21177",
+     "question": "IMPEDANCE D'UN QUART D'ONDE",
+     "reponse": "50 Ω"
+    },
+    {
+     "num": "21179",
+     "question": "FREQUENCE DE RESONANCE D'UN QUART D'ONDE",
+     "reponse": "24,2 MHz"
+    },
+    {
+     "num": "21327",
+     "question": "QUELLE EST LA FREQUENCE DE FONCTIONNEMENT DU QUART D'ONDE",
+     "reponse": "15 MHz"
+    }
+   ]
+  },
+  {
+   "id": "T096",
+   "ref": "9.6",
+   "nq": 4,
+   "depth": 3,
+   "anchors": [
+    "T096"
+   ],
+   "title_fr": "Antenne Yagi ou Beam :",
+   "questions": [
+    {
+     "num": "20760",
+     "question": "QU'EST CE QUI DETERMINE LE GAIN D'UNE ANTENNE YAGI ?",
+     "reponse": "le nombre d'éléments directeurs "
+    },
+    {
+     "num": "21190",
+     "question": "QUELLE EST L'AFFIRMATION FAUSSE ?",
+     "reponse": "dans une antenne Yagi, les éléments directeurs sont plus longs\n"
+    },
+    {
+     "num": "21481",
+     "question": "DANS UNE ANTENNE YAGI :",
+     "reponse": "l’élément réflecteur est le plus long"
+    },
+    {
+     "num": "21601",
+     "question": "SUR CETTE ANTENNE YAGI, LA PARTIE REPEREE PAR A EST ?",
+     "reponse": "L'arrière de l'antenne"
+    }
+   ]
+  },
+  {
+   "id": "T097",
+   "ref": "9.7",
+   "nq": 2,
+   "depth": 3,
+   "anchors": [
+    "T097b"
+   ],
+   "title_fr": "Le gain d'une antenne se mesure dans la direction maximum de",
+   "questions": [
+    {
+     "num": "21196",
+     "question": "LE GAIN D'UNE ANTENNE :",
+     "reponse": "se mesure en dBd par rapport au dipôle"
+    },
+    {
+     "num": "22474",
+     "question": "QUELLE FIGURE CORRESPOND AU DIAGRAMME \nDE RAYONNENNEMENT D'UN DIPOLE DEMI-ONDE EN ESPACE LIBRE ?",
+     "reponse": "2"
+    }
+   ]
+  },
+  {
+   "id": "T098",
+   "ref": "9.8",
+   "nq": 11,
+   "depth": 2,
+   "anchors": [
+    "T098"
+   ],
+   "title_fr": "9.8)",
+   "questions": [
+    {
+     "num": "20188",
+     "question": "SCHEMA REPRESENTANT UNE LIGNE DE TRANSMISSION ALIMENTEE PAR 10 W RELIEE  A UNE ANTENNE AVEC L'INDICATION : 16 DBI\n",
+     "reponse": "400 W"
+    },
+    {
+     "num": "20344",
+     "question": "PAR D'UN AMPLI DELIVRANT 10 W AVEC 3 ANTENNES YAGIS DE 4 DBI ?",
+     "reponse": "46 W"
+    },
+    {
+     "num": "20406",
+     "question": "UNE STATION DONT LA PAR EST DE 6000 W AVEC UN EMETTEUR DELIVRANT UNE PUISSANCE DE 15 W. \nQUEL EST LE GAIN EN DB ?",
+     "reponse": "26 dB"
+    },
+    {
+     "num": "20471",
+     "question": "UNE STATION EMET UNE PAR DE 6000 WATTS AVEC UN EMETTEUR DELIVRANT UNE PUISSANCE DE 15 WATTS. LE CABLE QUI ALIMENTE L'ANTENNE MESURE 30 METRES ET A UNE ATTENUATION DE 0,2 DB/M. \nQUEL EST LE GAIN DE L'ANTENNE EN DB ?",
+     "reponse": "32 dB"
+    }
+   ]
+  },
+  {
+   "id": "T099",
+   "ref": "9.9",
+   "nq": 0,
+   "depth": 3,
+   "anchors": [],
+   "title_fr": "L'angle d'ouverture d'une",
+   "questions": []
+  },
+  {
+   "id": "T0910",
+   "ref": "9.10",
+   "nq": 14,
+   "depth": 2,
+   "anchors": [
+    "T0910e",
+    "T0910g",
+    "T0910h",
+    "T0910j"
+   ],
+   "title_fr": "Compléments",
+   "questions": [
+    {
+     "num": "20389",
+     "question": "LA POLARISATION D'UNE ANTENNE DEPEND DE :",
+     "reponse": "son champ électrique"
+    },
+    {
+     "num": "20427",
+     "question": "ANTENNE A TRAPPE AVEC LES COMPOSANTS SUIVANTS C = 400 PF ET L = 25 NANOH OU IL FALLAIT CALCULER LA FREQUENCE DE RESONANCE",
+     "reponse": "50 MHz"
+    },
+    {
+     "num": "20457",
+     "question": "SI LA FREQUENCE D'EMISSION EST LEGEREMENT SUPERIEURE A LA FREQUENCE DE RESONANCE D'UN DOUBLET DEMI-ONDE, IL AGIT COMME",
+     "reponse": "une résistance en série avec une bobine"
+    },
+    {
+     "num": "20772",
+     "question": "AVANTAGE D'UNE PARABOLE",
+     "reponse": "Toute l'énergie reçue est réfléchie en un seul point au niveau de l'antenne de réception "
+    }
+   ]
+  }
+ ]
+}

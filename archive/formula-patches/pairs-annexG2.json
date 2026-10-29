@@ -1,0 +1,71 @@
+{
+ "section": "附录 G 的 markdown 副本：剩余公式收尾",
+ "pairs": [
+  {
+   "old": "· 题 20360：Z = 138 · log₁₀(10/3) = 138 × 0,5229 ≈ 72 Ω（答案 D）。",
+   "new": "· 题 20360：\\(Z = 138 \\cdot \\log_{10}(10/3) = 138 \\times 0{,}5229 \\approx 72\\) Ω（答案 D）。",
+   "count": 1,
+   "note": "附录G 题20360 特性阻抗算例"
+  },
+  {
+   "old": "· 题 20385：Z = 138 · log₁₀(10/2) = 138 × 0,699 ≈ 96 Ω（答案 C）。",
+   "new": "· 题 20385：\\(Z = 138 \\cdot \\log_{10}(10/2) = 138 \\times 0{,}699 \\approx 96\\) Ω（答案 C）。",
+   "count": 1,
+   "note": "附录G 题20385 特性阻抗算例"
+  },
+  {
+   "old": "带介质的一般式（题库题 20787 给出实例：ε = 4、D/d = 5 ⇒ Z = 48 Ω）：\\(Z(\\Omega) = \\dfrac{138}{\\sqrt{\\varepsilon}} \\cdot \\log_{10}(D/d)\\)，它来自原文 §10.2b 的 \\(\\sqrt{\\mu_0/\\varepsilon_0}/(2\\pi\\sqrt{\\varepsilon})\\cdot\\ln(D/d)\\)，其中 60 · ln(10) = 138,2。",
+   "new": "带介质的一般式（题库题 20787 给出实例：\\(\\varepsilon = 4\\)、\\(D/d = 5 \\implies Z = 48\\) Ω）：\\(Z(\\Omega) = \\dfrac{138}{\\sqrt{\\varepsilon}} \\cdot \\log_{10}(D/d)\\)，它来自原文 §10.2b 的 \\(\\sqrt{\\mu_0/\\varepsilon_0}/(2\\pi\\sqrt{\\varepsilon})\\cdot\\ln(D/d)\\)，其中 \\(60 \\cdot \\ln(10) = 138{,}2\\)。",
+   "count": 1,
+   "note": "附录G 有介质一般式算例"
+  },
+  {
+   "old": "| 低外差 infradyne | FO &lt; HF | FI = HF – FO | \\|2·FO – HF\\| | \\|2·FI – HF\\| |",
+   "new": "| 低外差 infradyne | \\(FO < HF\\) | \\(FI = HF - FO\\) | \\(|2 \\cdot FO - HF|\\) | \\(|2 \\cdot FI - HF|\\) |",
+   "count": 1,
+   "note": "附录G 混频/镜像频率 markdown 表行"
+  },
+  {
+   "old": "| 低外差 infradyne | FO &lt; HF | FI = HF + FO | 2·FO + HF | 2·FI – HF |",
+   "new": "| 低外差 infradyne | \\(FO < HF\\) | \\(FI = HF + FO\\) | \\(2 \\cdot FO + HF\\) | \\(2 \\cdot FI - HF\\) |",
+   "count": 1,
+   "note": "附录G 混频/镜像频率 markdown 表行"
+  },
+  {
+   "old": "| 高外差 supradyne | FO &gt; HF | FI = FO – HF | 2·FO – HF | 2·FI + HF |",
+   "new": "| 高外差 supradyne | \\(FO > HF\\) | \\(FI = FO - HF\\) | \\(2 \\cdot FO - HF\\) | \\(2 \\cdot FI + HF\\) |",
+   "count": 1,
+   "note": "附录G 混频/镜像频率 markdown 表行"
+  },
+  {
+   "old": "| 高外差 supradyne | FO &gt; HF | FI = HF + FO | 2·FO + HF | 2·FI – HF |",
+   "new": "| 高外差 supradyne | \\(FO > HF\\) | \\(FI = HF + FO\\) | \\(2 \\cdot FO + HF\\) | \\(2 \\cdot FI - HF\\) |",
+   "count": 1,
+   "note": "附录G 混频/镜像频率 markdown 表行"
+  },
+  {
+   "old": "HF = 接收频率，FO = 本机振荡频率，FI = 中频，Fim = 镜像频率。<span class=\"src\">（来源：PDF §11.3a–b（p.90）与第 11 章章末小结表（p.99）；可与题库题 20213、20465、20888、21207、22473 的答案逐条对上）</span></li><li><b>§11.5</b>：✅ <b>已核实</b> §11.5 原文确实只写：话筒 → 调制器（必然内含一个 HF 振荡器，并按 BF 的节拍改变 HF 信号）→ 抗谐波低通滤波器（filtre anti-harmonique passe-bas，避免非必要辐射）→ 天线插座（与接收机合成收发信机时共用天线与本机振荡器）→ 收发切换装置（开关、机电继电器或开关二极管）。原文没有出现 étage tampon、excitateur、adaptation d&#x27;antenne 这些名称。",
+   "new": "\\(\\text{HF} =\\) 接收频率，\\(\\text{FO} =\\) 本机振荡频率，\\(\\text{FI} =\\) 中频，\\(\\text{Fim} =\\) 镜像频率。<span class=\"src\">（来源：PDF §11.3a–b（p.90）与第 11 章章末小结表（p.99）；可与题库题 20213、20465、20888、21207、22473 的答案逐条对上）</span></li><li><b>§11.5</b>：✅ <b>已核实</b> §11.5 原文确实只写：话筒 → 调制器（必然内含一个 HF 振荡器，并按 BF 的节拍改变 HF 信号）→ 抗谐波低通滤波器（filtre anti-harmonique passe-bas，避免非必要辐射）→ 天线插座（与接收机合成收发信机时共用天线与本机振荡器）→ 收发切换装置（开关、机电继电器或开关二极管）。原文没有出现 étage tampon、excitateur、adaptation d&#x27;antenne 这些名称。",
+   "count": 1,
+   "note": "附录G 符号对照行"
+  },
+  {
+   "old": "例：BFmaxi = 3 kHz、频偏 (±ΔF) = 1,5 kHz ⇒ m = 0,5 &lt; 1，取 B ≈ 2 × 3 = 6 kHz（若用卡森公式得 9 kHz，属偏大的上限）。",
+   "new": "例：\\(BF_{maxi} = 3\\) kHz、频偏 \\((\\pm \\Delta F) = 1{,}5\\) kHz \\(\\implies m = 0{,}5 < 1\\)，取 \\(B \\approx 2 \\times 3 = 6\\) kHz（若用卡森公式得 9 kHz，属偏大的上限）。",
+   "count": 1,
+   "note": "附录G NBFM 带宽算例"
+  },
+  {
+   "old": "因此小结表可写成：「m ≥ 1 ⇒ B = 2(m + 1) · BFmaxi（卡森规则，含 98% 功率）；m &lt; 1（NBFM）⇒ B ≈ 2 × BFmaxi，即等于 AM 带宽」。<span class=\"src\">（来源：PDF §12.4e（p.95）+ §12.1c/§12.6a；https://en.wikipedia.org/wiki/Frequency_modulation（Modulation index：h ≪ 1 时带宽约 2·fm）；https://en.wikipedia.org/wiki/Carson_bandwidth_rule）</span></li><li><b>§12.6</b>：📌 <b>本节未涉及</b> §12.6 原文确实没有各类发射占用带宽的法定上限——法定上限属法规章 §R-1.3b（原书 p.15，依 décision ARCEP 12-1241 附件 3）。原文照抄：",
+   "new": "因此小结表可写成：「\\(m \\geq 1 \\implies B = 2(m + 1) \\cdot BF_{maxi}\\)（卡森规则，含 98% 功率）；\\(m < 1\\)（NBFM）\\(\\implies B \\approx 2 \\times BF_{maxi}\\)，即等于 AM 带宽」。<span class=\"src\">（来源：PDF §12.4e（p.95）+ §12.1c/§12.6a；https://en.wikipedia.org/wiki/Frequency_modulation（Modulation index：h ≪ 1 时带宽约 2·fm）；https://en.wikipedia.org/wiki/Carson_bandwidth_rule）</span></li><li><b>§12.6</b>：📌 <b>本节未涉及</b> §12.6 原文确实没有各类发射占用带宽的法定上限——法定上限属法规章 §R-1.3b（原书 p.15，依 décision ARCEP 12-1241 附件 3）。原文照抄：",
+   "count": 1,
+   "note": "附录G 卡森规则小结"
+  },
+  {
+   "old": "**③ 该例题的数字本身是自洽的**：图上的纵轴是 dBm 与 V 双刻度——39 dBm = 8 W ↔ U = √(P·R) = 24 V，26 dBm = 0,4 W ↔ 5,4 V，13 dBm = 0,02 W ↔ 1,2 V；且 Z = U²/P = 24²/8 = 72 Ω（= 5,4²/0,4 = 1,2²/0,02）；24/√20 = 5,37 ≈ 5,4 V（−13 dB 即功率比 1/20）。<span class=\"src\">（来源：PDF §4.4d 例题（p.62，已渲染逐字核对）；cours_utf8.html 同一例题；题库中无对应真题）</span></li><li><b>§5.1</b>：✅ <b>已核实</b> 色环表在原文 **§1.5a**（PDF 第 40 页），可直接引用（见 P22 的完整表）。要点：至少 3 环——前两环是两位有效数字，第三环是 0 的个数（倍率），第 4 环是容差；第 1 环不可能是黑色（前两位必须落在 10–99）；金、银作倍率（×0,1、×0,01）的题考试不出现。",
+   "new": "**③ 该例题的数字本身是自洽的**：图上的纵轴是 dBm 与 V 双刻度——\\(39\\ \\text{dBm} = 8\\) W \\(\\leftrightarrow U = \\sqrt{P \\cdot R} = 24\\) V，\\(26\\ \\text{dBm} = 0{,}4\\) W \\(\\leftrightarrow 5{,}4\\) V，\\(13\\ \\text{dBm} = 0{,}02\\) W \\(\\leftrightarrow 1{,}2\\) V；且 \\(Z = U^2/P = 24^2/8 = 72\\) Ω（\\(= 5{,}4^2/0{,}4 = 1{,}2^2/0{,}02\\)）；\\(24/\\sqrt{20} = 5{,}37 \\approx 5{,}4\\) V（−13 dB 即功率比 1/20）。<span class=\"src\">（来源：PDF §4.4d 例题（p.62，已渲染逐字核对）；cours_utf8.html 同一例题；题库中无对应真题）</span></li><li><b>§5.1</b>：✅ <b>已核实</b> 色环表在原文 **§1.5a**（PDF 第 40 页），可直接引用（见 P22 的完整表）。要点：至少 3 环——前两环是两位有效数字，第三环是 0 的个数（倍率），第 4 环是容差；第 1 环不可能是黑色（前两位必须落在 10–99）；金、银作倍率（×0,1、×0,01）的题考试不出现。",
+   "count": 1,
+   "note": "附录G §4.4d dBm↔V 核对"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+  "1": {
+    "topic": "Q 简语完整表 / Liste des abréviations en code Q",
+    "conclusion": "RÉPONSE À L'HYPOTHÈSE : OUI, QTR est bien une abréviation standard du code Q, et c'est même la 22e (dernière) des abréviations à connaître pour l'examen français. Signification officielle : « Quelle est l'heure exacte ? » / réponse « L'heure exacte est … » (ITU-R M.1172 : « What is the correct time? / The correct time is … hours. »). IMPORTANT : QTR appartient à la série QT (tous services), PAS à la série QR ; ce n'est donc pas une « 22e abréviation QR* ». LISTE OFFICIELLE FRANÇAISE — les 22 abréviations Q de l'annexe I de l'arrêté du 21/09/2000, issues de la recommandation CEPT T/R 61-02 (programme HAREC) : QRA, QRG, QRH, QRK, QRL, QRM, QRN, QRO, QRP, QRT, QRU, QRV, QRX, QRZ, QSA, QSB, QSL, QSO, QSP, QSY, QTH, QTR. (Soit 22 : 14 codes QR + QSA/QSB/QSL = 17 en QR/QS, plus QSO/QSP/QSY/QTH/QTR.) SÉRIE QR COMPLÈTE DE L'UIT (bloc QRA–QUZ, tous services) — 26 codes : QRA, QRB, QRC, QRD, QRE, QRF, QRG, QRH, QRI, QRJ, QRK, QRL, QRM, QRN, QRO, QRP, QRQ, QRR, QRS, QRT, QRU, QRV, QRW, QRX, QRY, QRZ. SIGNIFICATIONS DEMANDÉES (UIT / ITU-R M.1172) : • QRB = « À quelle distance approximative vous trouvez-vous de ma station ? » / « La distance approximative entre nos stations est de … milles nautiques (ou km). » • QSA = « Quelle est la force de mes signaux (ou des signaux de …) ? » / « La force de vos signaux est : 1 à 5. » • QSK = « Pouvez-vous m'entendre entre vos signaux ? » / « Je peux vous entendre entre mes signaux. » (capacité « full break-in »). • QRU = « Avez-vous quelque chose pour moi ? » / « Je n'ai rien pour vous. » • QRV = « Êtes-vous prêt ? » / « Je suis prêt. » • QSL = « Pouvez-vous me donner accusé de réception ? » / « Je vous donne accusé de réception. » ATTENTION (piège d'examen) : dans la codification UIT à connaître, QSA = FORCE du signal et QRK = INTELLIGIBILITÉ (1–5). En trafic radioamateur les deux sont souvent intervertis ; c'est la codification UIT qu'il faut retenir pour l'examen.",
+    "confidence": "确定",
+    "sources": [
+      "Cours de préparation à l'examen radioamateur F6KGL/F5KFF, éd. 2025-11, § R-3.1 et R-3.2 (annexe I de l'arrêté du 21/09/2000 / CEPT T/R 61-02 HAREC) (http://f6kgl.f5kff.free.fr/cours_radio.pdf)",
+      "ITU-R Recommendation M.1172, Miscellaneous Abbreviations and Signals (QTR, QRB, QRU, QRV, QSA, QSK, QSL) (https://www.itu.int/dms_pubrec/itu-r/rec/m/R-REC-M.1172-0-199510-I!!PDF-E.pdf)",
+      "Wikipedia — Q code (liste des services, bloc QRA–QUZ) (https://en.wikipedia.org/wiki/Q_code)",
+      "ANFR — Note d'information examen radioamateur (programme : « Extrait du code Q international ») (https://www.anfr.fr/fileadmin/medias/nouvelle-caledonie/Note_d_information_a_l_inscription_d_examen_amateur_NC_-_Septembre_2021.pdf)"
+    ],
+    "note": "La liste des 22 est directement celle du cours officiel français (arrêté du 21/09/2000). Le document de l'élève qui liste « QRB/QRQ/QRS/QRW/QSK/QSM/QSN/QSV/QSX/QTC » mélange la série QR complète de l'UIT et les 22 du programme : pour l'examen, seuls les 22 ci-dessus sont exigibles. QTR est donc le bon « 22e », mais pas un code « QR ». La réponse à QRM/QRN/QSA se note 1–5 (1 = non, 5 = oui)."
+  },
+  "2": {
+    "topic": "Alphabet international d'épellation (OTAN/OACI) et version française",
+    "conclusion": "TABLE OFFICIELLE (OACI/ICAO, appendice 14 du Règlement des radiocommunications UIT) — 26 mots : ALFA, BRAVO, CHARLIE, DELTA, ECHO, FOXTROT, GOLF, HOTEL, INDIA, JULIETT, KILO, LIMA, MIKE, NOVEMBER, OSCAR, PAPA, QUEBEC, ROMEO, SIERRA, TANGO, UNIFORM, VICTOR, WHISKEY, X-RAY, YANKEE, ZULU. CONFIRMATIONS D'ORTHOGRAPHE : • Alfa = officiel, PAS « Alpha » (éviter la prononciation « ph »). • Juliett = officiel, AVEC deux « t » (pour que les francophones prononcent le t final) — pas « Juliet ». • X-ray = graphie OACI/UIT ; l'OTAN écrit « Xray » (un seul mot). • Foxtrot = graphie OACI en un seul mot (pas « Fox-trot »). • Charlie (pas « Charly »), Hotel (sans accent), India, Quebec (sans accent), Romeo. VERSION FRANÇAISE : la France utilise la MÊME table internationale (mêmes mots), avec la prononciation française. Différences de graphie selon les textes officiels français : l'annexe I de l'arrêté du 21/09/2000 (utilisée à l'examen amateur) écrit « FOX-TROT » (trait d'union), « ROMEO » (sans accent) et surtout « ZOULOU » pour le Z (au lieu du Zulu anglais) ; l'ANFR (livret CRR maritime) écrit « Fox trot », « Roméo » et « Zoulou ». Le cours officiel précise : « ce sont l'orthographe et la prononciation anglaise des mots qui sont utilisées ; toutefois le texte français donne, pour la lettre Z, l'orthographe française (Zoulou) ». CONCLUSION POUR L'EXAMEN FRANÇAIS : table internationale + Z = « ZOULOU » ; à l'écrit les variantes FOX-TROT / FOXTROT sont admises.",
+    "confidence": "确定",
+    "sources": [
+      "Cours radioamateur F6KGL/F5KFF § R-3.1, « Table d'épellation international, annexe I de l'arrêté du 21/09/2000 » (http://f6kgl.f5kff.free.fr/cours_radio.pdf)",
+      "ANFR — Livret de préparation CRR, Annexe 1 « Alphabet international » (Fox trot, Roméo, Zoulou) (https://www.anfr.fr/fileadmin/user_upload/Livret_CRR_NC_Version_270318.pdf)",
+      "OACI — Alphabet – Radiotelephony (https://www.icao.int/Pages/AlphabetRadiotelephony.aspx)",
+      "OTAN — NATO phonetic alphabet, codes & signals (graphie Xray) (https://www.nato.int/nato_static_fl2014/assets/pdf/pdf_2018_01/20180111_nato-alphabet-sign-signal.pdf)",
+      "Wikipedia — NATO phonetic alphabet (spellings Alfa / Juliett / Xray) (https://en.wikipedia.org/wiki/NATO_phonetic_alphabet)"
+    ],
+    "note": "« Fox-trot » du document est la graphie de l'arrêté français ; la graphie OACI stricte est « Foxtrot ». Les deux sont acceptables, mais pour l'examen se référer à la table donnée dans le cours/arrêté (FOX-TROT, ZOULOU, X-RAY)."
+  },
+  "3": {
+    "topic": "Bagues de tolérance des résistances (CEI/IEC 60062)",
+    "conclusion": "Tableau 1 de l'IEC 60062:2016 (« Code colour prescriptions ») — pourcentage de tolérance par couleur : pas de bague (absence) = ±20 % ; ARGENT = ±10 % ; OR = ±5 % ; MARRON = ±1 % ; ROUGE = ±2 % ; ORANGE = ±0,05 % ; JAUNE = ±0,02 % ; VERT = ±0,5 % ; BLEU = ±0,25 % ; VIOLET = ±0,1 % ; GRIS = ±0,01 % ; BLANC = (aucune tolérance, sert de multiplicateur ×10⁹). VERDICT SUR LA TABLE DU DOCUMENT : correcte pour OR ±5 %, ARGENT ±10 %, MARRON ±1 %, ROUGE ±2 %, VERT ±0,5 %, BLEU ±0,25 %, VIOLET ±0,1 %, absence ±20 %. ERREUR/NUANCE sur le GRIS : le document indique « gris ±0,05 % ». Cette valeur (±0,05 %) est l'ancienne valeur EIA RS-279 (1963) et celle des tables courantes/databooks ; dans l'IEC 60062:2016, le gris vaut ±0,01 % et c'est l'ORANGE qui vaut ±0,05 % (le jaune ±0,02 %). À retenir selon le référentiel choisi. NOTE PRATIQUE : le cours officiel français indique explicitement que « le code des couleurs des bagues de tolérance (4e bague) n'a pas à être connu pour l'examen » (la bague est souvent dessinée mais sa valeur n'est pas demandée).",
+    "confidence": "确定",
+    "sources": [
+      "IEC 60062:2016, Marking codes for resistors and capacitors, Table 1 – Code colour prescriptions (extrait officiel) (https://cdn.standards.iteh.ai/samples/20940/b5fb592a1a1749c79f33e4d987f7fefb/IEC-60062-2016.pdf)",
+      "IEC Webstore — IEC 60062:2016 (https://webstore.iec.ch/en/publication/25395)",
+      "Cours radioamateur F6KGL/F5KFF § 1.5a, tableau des bagues (1 % / 2 % / 0,5 % / 0,25 % / 0,1 % / 5 % / 10 % / 20 %) (http://f6kgl.f5kff.free.fr/cours_radio.pdf)",
+      "Wikipedia — Electronic color code (variantes IEC 2016 vs EIA RS-279 pour gris) (https://en.wikipedia.org/wiki/Electronic_color_code)"
+    ],
+    "note": "La différence gris ±0,05 % (EIA/cours) vs ±0,01 % (IEC 60062:2016) est réelle et documentée. Le document de l'élève utilise la table « classique » souvent vue dans les cours français (gris ±0,05 %) : à conserver si l'on suit le cours, mais à signaler comme non conforme à l'édition 2016 de l'IEC."
+  },
+  "4": {
+    "topic": "Séries E, bague multiplicateur, codage des résistances CMS",
+    "conclusion": "SÉRIES E (norme CEI/IEC 60063) : séries de valeurs « préférées » (progressions géométriques de raison 10^(1/m)) — E6 = 6 valeurs/décade, tolérance ±20 % (10-15-22-33-47-68) ; E12 = 12 valeurs, ±10 % (ajoute 12-18-27-39-56-82) ; E24 = 24 valeurs, ±5 % (10-11-12-13-15-16-18-20-22-24-27-30-33-36-39-43-47-51-56-62-68-75-82-91) ; E48 = 48 valeurs, ±2 % ; E96 = 96 valeurs, ±1 % ; E192 = 192 valeurs, ±0,5 % (et aussi 0,25 %/0,1 %). Le nombre après « E » = nombre de pas par décade ; la valeur V(n) ≈ 10^(n/m) arrondie à 2 (E6–E24) ou 3 (E48–E192) chiffres significatifs. Même logique pour les condensateurs et selfs. BAGUE MULTIPLICATEUR : elle indique la puissance de 10 (nombre de zéros). Noir ×1, Marron ×10, Rouge ×100, Orange ×10³, Jaune ×10⁴, Vert ×10⁵, Bleu ×10⁶, Violet ×10⁷, Gris ×10⁸, Blanc ×10⁹ ; OR ×0,1, ARGENT ×0,01, ROSE ×0,001 (ajout IEC 60062:2016). Sur une résistance à 4 bagues, la 3e est le multiplicateur ; sur une 5 bagues, c'est la 4e (3 chiffres significatifs). CODAGE CMS / SMD : marquage numérique. • 3 chiffres : les 2 premiers = chiffres significatifs, le 3e = multiplicateur (nombre de zéros) → 682 = 68 × 10² = 6800 Ω = 6,8 kΩ. • 4 chiffres (précision) : 6802 = 680 × 10² = 68 kΩ ; 1000 = 100 × 10⁰ = 100 Ω. • Pour les valeurs < 10 Ω, la lettre R remplace la virgule (codage RKM de l'IEC 60062) → 6R8 = 6,8 Ω, R68 = 0,68 Ω, 0R5 = 0,5 Ω, 4R7 = 4,7 Ω. Autres lettres : K = kΩ (4K7 = 4,7 kΩ), M = MΩ (2M2 = 2,2 MΩ).",
+    "confidence": "确定",
+    "sources": [
+      "Cours radioamateur F6KGL/F5KFF § 1.5b (séries E6/E12/E24/E96) et § 1.5c (CMS : 682 = 68×10², 6R8 = 6,8 Ω) (http://f6kgl.f5kff.free.fr/cours_radio.pdf)",
+      "Wikipedia — E series of preferred numbers (valeurs officielles, tolérances E6→E192) (https://en.wikipedia.org/wiki/E_series_of_preferred_numbers)",
+      "Wikipedia — RKM code (IEC 60062) : notation R/K/M et remplacement du séparateur décimal (https://en.wikipedia.org/wiki/RKM_code)",
+      "IEC 60062:2016 (codage valeur + tolérance, couleur rose ×10⁻³) (https://webstore.iec.ch/en/publication/25395)"
+    ],
+    "note": "Le cours français regroupe les séries E par tolérance : E6 = 20 %, E12 = 10 %, E24 = 5 %, E96 = 1 %. Les séries E48 (2 %) et E192 (0,5 %) ne sont pas citées dans le cours mais existent dans l'IEC 60063."
+  },
+  "5": {
+    "topic": "Gain d'une antenne parabolique",
+    "conclusion": "FORMULE : G = e_A · (π·d/λ)² = (4π·A/λ²) · e_A, avec A = aire de l'ouverture (= π d²/4 pour un disque), d = diamètre du réflecteur, λ = longueur d'onde, e_A = rendement (efficacité) d'ouverture, sans dimension, 0 < e_A < 1. En décibels : G(dBi) = 10·log₁₀[ e_A · (π·d/λ)² ] = 10·log₁₀(e_A) + 20·log₁₀(π·d/λ). RENDEMENT TYPIQUE : e_A ≈ 0,55 à 0,70 pour une antenne parabolique classique. Valeurs plus fines : alimentation primaire (prime focus / front feed) : 0,55–0,60 (l'alimentation et ses supports masquent une partie du faisceau) ; montage Cassegrain : 0,65–0,70 ; montage décalé (offset) : jusqu'à 0,70–0,80. Le gain augmente comme le carré du rapport (diamètre/λ).",
+    "confidence": "确定",
+    "sources": [
+      "Wikipedia — Parabolic antenna, section « Gain » (formule et « aperture efficiency of typical parabolic antennas is 0.55 to 0.70 ») (https://en.wikipedia.org/wiki/Parabolic_antenna)",
+      "ARRL Antenna Book, 19e éd. (cité par l'article ci-dessus) ; Stutzman & Thiele, Antenna Theory and Design, 3e éd., p. 391-392",
+      "Antenna-Theory.com — The Parabolic Reflector Antenna (https://www.antenna-theory.com/antennas/reflectors/dish.php)"
+    ],
+    "note": "Le cours F6KGL ne donne pas la formule mais décrit la parabole (focale F, rapport D/F). La formule et l'efficacité typique viennent de l'ARRL/littérature antennes. Pour l'examen, retenir surtout que le gain varie comme (π d/λ)²."
+  },
+  "6": {
+    "topic": "Constante de temps RC du détecteur d'enveloppe AM",
+    "conclusion": "Le détecteur d'enveloppe AM = diode (redressement) suivie d'un circuit RC passe-bas (R et C en parallèle). La constante de temps τ = R·C doit satisfaire le double critère : 1/f_porteuse ≪ τ ≪ 1/f_max, où f_porteuse = fréquence de la porteuse (HF) et f_max = fréquence BF la plus élevée du signal modulant. Autrement dit la fréquence de coupure du filtre f_c = 1/(2πRC) doit être très inférieure à la fréquence porteuse (pour éliminer la HF) et très supérieure à la fréquence BF maximale (pour suivre l'enveloppe sans écrêtage). EXEMPLE CHIFFRÉ : porteuse f_porteuse = 1 MHz (1/f = 1 µs), modulation BF jusqu'à f_max = 5 kHz (1/f = 200 µs) → 1 µs ≪ τ ≪ 200 µs ; on choisit typiquement τ ≈ 10 à 50 µs, par exemple R = 10 kΩ avec C = 1 à 4,7 nF (τ = 10 à 47 µs). Si τ est trop grand → distorsion par « écrêtage de crête négative » (negative peak clipping, l'enveloppe ne redescend pas assez vite) ; si τ est trop petit → ondulation (ripple) de la HF mal filtrée. Le cours français confirme la structure « diode + circuit RC passe-bas pour filtrer la HF », avec diode au germanium (seuil 0,3 V) préférable pour bien restituer les creux.",
+    "confidence": "确定",
+    "sources": [
+      "Wikipedia — Envelope detector, § AM demodulation (« 1/f_carrier ≪ τ ≪ 1/f_max ») (https://en.wikipedia.org/wiki/Envelope_detector)",
+      "J. Lesurf, « The Envelope Detector » (2000), et J. Gibson, Principles of Digital and Analog Communications (1993), p. 111-112 (sources citées par l'article)",
+      "Cours radioamateur F6KGL/F5KFF § 12 (« diode suivie d'un circuit RC passe-bas pour filtrer la HF ») (http://f6kgl.f5kff.free.fr/cours_radio.pdf)"
+    ],
+    "note": "La forme 1/f_c ≪ RC ≪ 1/f_m est le critère standard des manuels. Aucune valeur « universelle » de R et C : tout dépend de f_porteuse et du spectre BF. Fournir l'inégalité + un exemple chiffré est la bonne pratique pour la carte."
+  },
+  "7": {
+    "topic": "Pertes par désadaptation de polarisation",
+    "conclusion": "CAS LINÉAIRE ↔ LINÉAIRE : le facteur de perte de polarisation est PLF = cos²θ (θ = angle entre les directions de polarisation) ; perte (dB) = −20·log₁₀(cos θ). • θ = 0° (alignées) → 0 dB. • θ = 45° → −3 dB (moitié de puissance). • θ = 90° (polarisations croisées, ex. verticale vs horizontale) → perte THÉORIQUE INFINIE (PLF = 0, aucune puissance transférée), mais en PRATIQUE limitée à ≈ 20 dB (le cours français officiel indique « des atténuations jusqu'à 20 dB » ; en pratique 20 à 30 dB selon la pureté de polarisation des antennes). CAS CIRCULAIRE ↔ LINÉAIRE : perte EXACTEMENT de 3 dB (PLF = 0,5), quel que soit l'angle de rotation de l'antenne linéaire — car une onde circulaire = deux ondes linéaires orthogonales en quadrature, l'antenne linéaire n'en capte qu'une moitié. CAS CIRCULAIRE ↔ CIRCULAIRE : même sens (RHCP↔RHCP) = 0 dB ; sens opposé (RHCP↔LHCP) = perte théorique infinie (facteur de désadaptation m_p = 0), en pratique 20 à 30 dB. En décamétrique (HF), la polarisation n'est pas critique (les ondes réfléchies sur l'ionosphère changent de polarisation) ; la polarisation compte surtout en VHF/UHF et plus haut.",
+    "confidence": "确定",
+    "sources": [
+      "Cours radioamateur F6KGL/F5KFF § R-5.2d / § 9 (« La réception en une autre polarisation que l'onde à recevoir peut conduire à des atténuations jusqu'à 20 dB ») (http://f6kgl.f5kff.free.fr/cours_radio.pdf)",
+      "Antenna Parameters, chap. 2 (PLF = cos²Φ ; perte linéaire/circulaire = 0,5 soit −3 dB) (http://ael.chungbuk.ac.kr/lectures/lecture_notes/antenna/hazlina/LECT_Chap2_AntPar2.pdf)",
+      "L. J. Ippolito, Propagation Effects Handbook for Satellite Systems, chap. 4 (facteur de désadaptation m_p = 0 pour sens circulaire opposé) (https://descanso.jpl.nasa.gov/propagation/1082/1082ch4.pdf)",
+      "OM6AA, Circular Polarization and Polarization Losses (PLF linéaire = cos²θ) (http://om6aa.eu/Circular_Polarization_and_Polarization_Losses.pdf)"
+    ],
+    "note": "L'idée clé à mettre sur la carte : polarisations croisées = perte énorme (théoriquement infinie, ~20 dB en pratique) ; circulaire/linaire = 3 dB exactement ; sens circulaire opposé = ~20-30 dB en pratique. La valeur « 20 dB » du cours français sert de référence d'examen."
+  },
+  "8": {
+    "topic": "ROS entre antennes et câble 50 Ω (calcul)",
+    "conclusion": "FORMULE (cours F6KGL § 10.2c) : pour des impédances purement résistives, ROS = Z_plus_forte / Z_plus_faible (valeur la plus grande au numérateur, pour un ROS ≥ 1). CALCULS (câble coaxial 50 Ω) : • Doublet demi-onde (brins alignés, Z = 73 Ω) : ROS = 73 / 50 = 1,46. • Quart d'onde vertical λ/4 à plan de sol perpendiculaire (Z = 36 Ω) : ROS = 50 / 36 = 1,3888… ≈ 1,39. • Plan de sol à radiants inclinés à 120° (Z = 52 Ω) : ROS = 52 / 50 = 1,04. RÉSULTATS : 1,46 ; 1,39 ; 1,04. (Le doublet replié « trombone » a Z ≈ 300 Ω → ROS = 300/50 = 6,00.)",
+    "confidence": "确定",
+    "sources": [
+      "Cours radioamateur F6KGL/F5KFF § R-5.2c (impédances 73 Ω / 52 Ω à 120° / 36 Ω à 90°) et § R-5.2e (quart d'onde 36 Ω ; 52 Ω si radiants à 120°) (http://f6kgl.f5kff.free.fr/cours_radio.pdf)",
+      "Cours radioamateur F6KGL/F5KFF § 10.2c (formule ROS = Z plus forte / Z plus faible) (http://f6kgl.f5kff.free.fr/cours_radio.pdf)",
+      "Calcul propre (aucune source externe requise pour l'arithmétique)"
+    ],
+    "note": "Calculs vérifiés : 73/50 = 1,46 exactement ; 50/36 = 1,39 (arrondi à 2 décimales de 1,3889) ; 52/50 = 1,04. Le cours appelle « TOS » le taux (en %) et « ROS » le rapport d'ondes stationnaires, avec ROS = (1+ρ)/(1−ρ)."
+  }
+}

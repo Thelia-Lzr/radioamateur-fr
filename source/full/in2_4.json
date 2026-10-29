@@ -1,0 +1,530 @@
+[
+ {
+  "num": "20521",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA FORMULE EXACTE ?",
+  "options": [
+   "P = W / t",
+   "W = R I t ",
+   "I = R / U",
+   "P = R / I²"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "P = W / t",
+  "commentaire_fr": "Les formules exactes sont : W = RI²t ; I = U/R et P = RI²\nAttention au piège : dans la formule P = W / t, W représente le travail (Work en anglais) et non pas la puissance en Watt exprimée par le P\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20522",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "DEUX RESISTANCES EN PARALLELE : 12 KOHMS ET 36 KOHMS\nRESISTANCE EQUIVALENTE ?",
+  "options": [
+   "7 kΩ",
+   "48 kΩ",
+   "9 kΩ",
+   "15 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "9 kΩ",
+  "commentaire_fr": "produit / somme = (12 x 36) / (12 + 36) = 9 kΩ\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20524",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TAUX DE SELECTIVITE AVEC : 1890-1770 ET 1836-1824",
+  "options": [
+   "5%",
+   "10%",
+   "20%",
+   "50%"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10%",
+  "commentaire_fr": "Taux de sélectivité = 10% : (1836-1824)/(1890-1770) = 12 / 120 = 10%\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20528",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "IMPEDANCE D'UNE LIGNE 1/4 D'ONDE AVEC 25 OHMS EN ENTREE ET 100 OHMS EN SORTIE ?",
+  "options": [
+   "50 Ω",
+   "75 Ω",
+   "2500 Ω",
+   "36 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "50 Ω",
+  "commentaire_fr": "Zcâble = racine (Ze x Zs) = racine (25 x 100) = racine (2500) = 50 Ω\n",
+  "anchor": "T104a2"
+ },
+ {
+  "num": "20533",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE D'UN DEMODULATEUR AVEC UN DETECTEUR DE PRODUIT, QUEL TYPE DE MODULATION PEUT-ON RECEVOIR ?",
+  "options": [
+   "Modulation de phase",
+   "F3E",
+   "Modulation à double bande",
+   "BLU"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "BLU",
+  "commentaire_fr": "Détecteur de produit = démodulateur BLU (ou CW mais ne fait pas partie des réponses proposées)\n",
+  "anchor": "T126h"
+ },
+ {
+  "num": "20534",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "SCHEMA D'AMPLIFICATEUR AVEC 40 W EN ENTREE ET 10 W EN SORTIE. QUEL EST LA GAIN (EN DB) ?",
+  "options": [
+   "-4 dB",
+   "6 dB",
+   "4 dB",
+   "-6 dB"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "-6 dB",
+  "commentaire_fr": "rapport de puissance = Ps / Pe = 10 / 40 = 1/4 correspondant à -6 dB. \nAttention au piège avec une puissance de sortie plus faible que la puissance d'entrée (atténuation)\n",
+  "anchor": "T041b"
+ },
+ {
+  "num": "20536",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SCHEMA AVEC UN TRANSISTOR, UNE RESISTANCE DE 1,5 KOHMS SUR LA BASE ET 1 KOHM SUR LE COLLECTEUR. \nINDICATION : IC = 1,5 MA ET BETA = 150, DETERMINER IBASE",
+  "options": [
+   "10 µA",
+   "15 mA",
+   "1,5 mA",
+   "225 mA"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10 µA",
+  "commentaire_fr": "Ib = Ic / beta = 1,5 mA / 150 = 0,01 mA = 10 µA.\nLes valeurs des résistances de collecteur et de base ne servent à rien\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20540",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN CIRCUIT BOUCHON AVEC L = 2 MICROHENRY ET C =50 PICOFARAD\nFREQUENCE A LA RESONANCE ?",
+  "options": [
+   "160 MHz",
+   "160 kHz",
+   "16 MHz",
+   "1,6 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "16 MHz",
+  "commentaire_fr": "Formule simplifiée : F = 159 / racine (L en µH x C en pF) = 159 / racine (100) = 159/10 = 15,9 arrondi à 16 MHz\n",
+  "anchor": "T043a"
+ },
+ {
+  "num": "20541",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "DEUX CONDENSATEURS EN PARALLELE (1 MICROFARAD ET 0,5 MICROFARAD). CAPACITE EQUIVALENTE ?",
+  "options": [
+   "1 µF",
+   "0,33 µF",
+   "150 nF",
+   "1,5 µF"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1,5 µF",
+  "commentaire_fr": "Ceq = C1+C2 = 1 + 0,5 = 1,5\npas besoin de sortir la calculette !\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20542",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CAPACITE EQUIVALENTE DE 2 CONDENSATEURS DE 20 ET 30 PICOFARAD EN //  ET EN SERIE AVEC UN DE 50 PICOFARAD ?",
+  "options": [
+   "25 nF",
+   "50 µF",
+   "50 nF",
+   "25 µF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "25 nF",
+  "commentaire_fr": "condensateurs en parallèle : CT =20 +30 = 50 ; \nCT en série (de valeur identique) : 50 / 2 = 25 nF\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20543",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE EST LA PARTICULARITE DE LA FM PAR RAPPORT A LA BLU ?",
+  "options": [
+   "La puissance de sortie dépend de la fréquence BF",
+   "La puissance de sortie dépend du niveau BF",
+   "La puissance de sortie dépend de la largeur de la bande passante",
+   "La puissance de sortie est constante "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "La puissance de sortie est constante ",
+  "commentaire_fr": "On parle ici des caractéristiques de la FM\n",
+  "anchor": "T121"
+ },
+ {
+  "num": "20546",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE TAUX DE SELECTIVITE AVEC 3550, 3585, 3615 ET 365",
+  "options": [
+   "30%",
+   "35%",
+   "70%",
+   "15%"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "30%",
+  "commentaire_fr": "Taux de sélectivité = bande passante à –3 dB / bande passante à –60 dB x 100 = (3615-3585)/(3650-3550)x100 = 30 / 100 x 100 = 30%\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20547",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "DISTORSION QUADRATIQUE AVEC 2 KHZ ET 100 KHZ ?",
+  "options": [
+   "100 et 200 kHz",
+   "50 et 200 kHz",
+   "2, 4, 98, 100, 102 et 200 kHz",
+   "104 et 202 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2, 4, 98, 100, 102 et 200 kHz",
+  "commentaire_fr": "Une distortion quadratique est un mélange (en sortie) de 2 fréquences présentes à l'entrée d'un amplificateur non linéaire (soit 4 et 200, les harmonqiues 2, et aussi 98 et 102, les mélanges du second ordre). Bien sûr, à la sortie d'un tel amplificateur, on trouve aussi les fréquences présentes à son entrée (ici 2 et 100 kHz)\n",
+  "anchor": "T077c"
+ },
+ {
+  "num": "20549",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "SCHEMA AVEC 3 RESISTANCES EN PARALLELE (10, 5 ET 10 KOHMS) SUIVIES D'UNE RESISTANCE EN SERIE DE 2,5 KOHMS . RESISTANCE EQUIVALENTE ?",
+  "options": [
+   "12,5 kΩ",
+   "27,5 kΩ",
+   "5 kΩ",
+   "2 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "5 kΩ",
+  "commentaire_fr": "résistances en // : 10 et 10 => 5 ; 5 et 5 => 2,5\nen série : 2,5 + 2,5 = 5\nPas besoin de sortir la calculette !\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20550",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "SOIT UN CABLE COAXIAL DE 10 METRES DE LONG ET DE 50 OHMS D'IMPEDANCE SUR LA FREQUENCE 14,100 MHZ. QUELLE EST SON IMPEDANCE POUR UNE LONGUEUR DE 20 METRES ?",
+  "options": [
+   "25 ohms",
+   "100 ohms",
+   "50 ohms",
+   "cela dépend de l'impédance de la charge"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50 ohms",
+  "commentaire_fr": "La longueur du câble ne change pas l’impédance caractéristique du câble.\n",
+  "anchor": "T101a"
+ },
+ {
+  "num": "20552",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE RAPPORT DE PUISSANCE, SCHEMA AVEC UN AMPLIFICATEUR DE 12 DB SUIVI D'UN ELEMENT \" PERTE \" DE 2 D",
+  "options": [
+   "x 100",
+   "x 10",
+   "x 24",
+   "x 4"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "x 10",
+  "commentaire_fr": "gain de l’ensemble = 12 – 2 = 10 dB correspondant à un rapport de 10\n",
+  "anchor": "T041b"
+ },
+ {
+  "num": "20554",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE TRES COMPLEXE : LE SCHEMA PREND TOUTE LA PAGE AVEC ENVIRON 8 ELEMENTS DONT : MULTIPLICATEUR, VCXO, FILTRE PASSE BAS (A LA MANIERE D'UNE BOUCLE PLL ?). PAS D'ANTENNE NI DE HAUT-PARLEUR ! \nQUEL EST L'ELEMENT MANQUANT ?",
+  "options": [
+   "Filtre passe-bas",
+   "Discriminateur",
+   "Oscillateur de battement de fréquence",
+   "Détecteur de produit"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Filtre passe-bas",
+  "commentaire_fr": "le schéma reproduit ici (sans être certain que ce soit le schéma présenté à la candidate) est une partie d'un récepteur FM dont le discriminateur est constitué d'une boucle PLL\n",
+  "anchor": "T124b"
+ },
+ {
+  "num": "20555",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE TRES COMPLEXE : LE SCHEMA PREND TOUTE LA PAGE AVEC ENVIRON 8 ELEMENTS DONT : MULTIPLICATEUR, VCXO, FILTRE PASSE BAS (A LA MANIERE D'UNE BOUCLE PLL ?). PAS D'ANTENNE NI DE HAUT-PARLEUR ! \nQUEL EST L'ELEMENT MANQUANT ?",
+  "options": [
+   "Détecteur de produit",
+   "Discriminateur",
+   "Oscillateur de battement de fréquence",
+   "Multiplieur"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Multiplieur",
+  "commentaire_fr": "le schéma reproduit ici (sans être certain que ce soit le schéma présenté à la candidate) est une partie d'un récepteur FM dont le discriminateur est constitué d'une boucle PLL.\nL'étage \"multiplieur\" est l'autre nom de l'étage \"comparateur\" utilisé dans les boucles PLL\n",
+  "anchor": "T124b"
+ },
+ {
+  "num": "20556",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TRANSFORMATEUR : 220 V EN ENTREE ; 0,8A ; 2000 SPIRES AU PRIMAIRE ; 200 SPIRES AU SECONDAIRE CONNECTE A UNE RESISTANCE DE VALEUR R. \nQUELLE EST LA VALEUR DE I DANS LA RESISTANCE",
+  "options": [
+   "0,8 A",
+   "8 A",
+   "80 A",
+   "0,08 A"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "8 A",
+  "commentaire_fr": "Is = Ip / (Ns / Np) = 0,8 / (200 / 2000) = 0,8 / 0,1 = 8 A en supposant que le transformateur est parfait (rendement = 100%).\nRéponse plus empirique : l'intensité est inversement proportionnelle au nombre de spires : il y a 10 fois moins de spire au secondaire, il y aura donc 10 fois plus d'intensité.\nLa tension au primaire ne sert à rien\n",
+  "anchor": "T031b"
+ },
+ {
+  "num": "20558",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT ? GALVA : 0,4 MA ; RESISTANCE INTERNE 800 OHMS ; INTENSITE = 4 A",
+  "options": [
+   "0,80 Ω",
+   "0,08 Ω",
+   "8 Ω",
+   "8 MΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,08 Ω",
+  "commentaire_fr": "Réponse empirique (sans sortir sa calculette) : L'ampèremètre a un calibre de 4 A alors que le galvanomètre mesure au maximum une intensité de 0,4 mA. Il passera donc dans le shunt 10.000 fois plus d'intensité que dans le galvanomètre. La résistance du shunt devra donc être 10.000 fois moindre que la résistance du galvanomètre : Rshunt = 800 / 10000 = 0,08 ohm\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20567",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FILTRE RC PASSE BAS AVEC R = 16 KOHM ET C = 100 PF\nQUELLE EST LA FREQUENCE DE COUPURE ?",
+  "options": [
+   "10 kHz",
+   "16 kHz",
+   "100 kHz",
+   "160 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "F = 1/(2 x pi x R x C) = 99,5 kHz, arrondi à 100 kHz si on prend 1/(2 x pi) = 0,16\n",
+  "anchor": "T042a"
+ },
+ {
+  "num": "20568",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "PROPRIETE D'UN BALUN ?",
+  "options": [
+   "Atténuateur",
+   "Transformateur asymétrique / symétrique ",
+   "Filtre de bande  ",
+   "Isolateur de ROS"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Transformateur asymétrique / symétrique ",
+  "commentaire_fr": "Le mot «  Balun » vient de « BALanced / UNbalanced » qui, en anglais, signifie « symétrique / asymétrique ».\nMaheureusement, un balun peut aussi apporter des atténuations mais ce n'est pas une de ses propriétés souhaitées !\n",
+  "anchor": "T104b"
+ },
+ {
+  "num": "20569",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE D'UN EMETTEUR AVEC : MICRO  - - -  MODULATEUR EQUILIBRE  -  FILTRE - ?  - ANTENNE",
+  "options": [
+   "Amplificateur RF",
+   "Amplificateur AF ",
+   "Oscillateur local",
+   "Démodulateur"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Amplificateur RF",
+  "commentaire_fr": "Il s’agit d’un synoptique partiel d’un émetteur BLU. Le filtre représenté n’est pas un filtre anti-harmonique mais un filtre à quartz indissociable du modulateur équilibré. L’élément manquant ne peut être que l’ampli RF, les autres étages n’ont pas leur place ici.\n",
+  "anchor": "T115"
+ },
+ {
+  "num": "20570",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE LA RESISTANCE R ? SCHEMA AVEC DEUX RESISTANCES EN SERIE (2,7 KOHMS ET ?), TENSION TOTALE = 6 V, TENSION SUR ? = 3,3 V",
+  "options": [
+   "8,7 k Ω",
+   "33 kΩ",
+   "3300 Ω",
+   "9,3 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "3300 Ω",
+  "commentaire_fr": "U aux bornes de 2,7 kΩ = 6 – 3,3 = 2,7 V ; \nI dans 2,7 kΩ = 1 mA ; R ? = U/I = 3,3/0,001 = 3300 Ω\n",
+  "anchor": "T017a"
+ },
+ {
+  "num": "20571",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "FREQUENCE D'UN SIGNAL ? SCHEMA D'UN ECRAN D'OSCILLOSCOPE AVEC UNE SINUSOIDE (UNE PERIODE COMPLETE OCCUPANT 4 DIVISIONS HORIZONTALES ET VERTICALES). INDICATION : HORIZONTAL : 5MS/DIV ; VERTICAL : 3MV / DIV",
+  "options": [
+   "20 Hz",
+   "200 Hz",
+   "50 Hz",
+   "150 Hz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50 Hz",
+  "commentaire_fr": "durée d'une période = 4 x 5ms = 20 ms ; F = 1/t = 1/0,02 = 50 Hz\n",
+  "anchor": "T022f"
+ },
+ {
+  "num": "20574",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE CLASSE D'AMPLIFICATION N'A PAS DE COURANT DE REPOS ?",
+  "options": [
+   "Classe A",
+   "Classe AB",
+   "Classe AB2",
+   "Classe C"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Classe C",
+  "commentaire_fr": "Pour définir les classes d''amplification, on utilise plutôt une référence à la tension de repos (et non pas au courant).\nLa classe A a une tension de repos au milieu du signal à amplifier. Elle a donc un courant de repos non nul. \nOn distingue deux sous-classes dans la classe AB : la classe AB1 \"qui n'absorbe pas de courant de l'étage qui le précède\" contrairement à la classe AB2. AB2 doit donc être éliminée. De même AB est éliminée car trop imprécise. \nReste la classe C dont la tension de repos est très en dessous de la tension de blocage du transistor. Si bien que le courant de repos est nul en classe C.\n",
+  "anchor": "T071a3"
+ },
+ {
+  "num": "20575",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULES EXACTES ?  \n1) P = RACINE (RU) ; 2) P = U2/R ; 3) IMAX = IEFF X RACINE (2) ; 4) W = RIT2",
+  "options": [
+   "2 et 3",
+   "1, 2 et 3",
+   "3 et 4",
+   "2 et 4"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "2 et 3",
+  "commentaire_fr": "Les formules exactes sont : \nP = UI ou P = RI² (formule 1); \nW = RI²t (formule 4)\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20576",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST L'ETAGE MARQUE \" ? \" AVEC UN SCHEMA REPRESENTANT L'ANTENNE, RF EN DESSOUS, \" ? \" EN DESSOUS, OL EN DESSOUS. A DROITE DE \" ?\", POINTILLES PUIS HP",
+  "options": [
+   "Détecteur de produit",
+   "Ampli BF",
+   "Mélangeur",
+   "Ampli FI"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Mélangeur",
+  "commentaire_fr": "Il s’agit d’un synoptique partiel de récepteur hétérodyne.\n",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20577",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FILTRE RC PASSE HAUT AVEC R = 16 KOHMS ET C = 10 PF\nQUELLE EST LA FREQUENCE DE COUPURE ?",
+  "options": [
+   "1600 kHz",
+   "100 kHz",
+   "160 kHz",
+   "1 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1 MHz",
+  "commentaire_fr": "F = 1/(2 x pi x R x C) = 995 kHz, arrondi à 1 MHz si on prend 1/(2 x pi) = 0,16\n",
+  "anchor": "T042a"
+ },
+ {
+  "num": "20579",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "POUR UN CIRCUIT RLC PARALLELE A LA RESONANCE, QUELLE AFFIRMATION EST VRAIE ?",
+  "options": [
+   "I eff est minimum avec Z au maximum ",
+   "I eff est maximum avec Z au minimum ",
+   "I eff est maximum avec Z au maximum",
+   "I eff est minimum avec Z au minimum"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "I eff est minimum avec Z au maximum ",
+  "commentaire_fr": "Dans un circuit RLC parallèle (ou circuit bouchon), à la résonance, l'impédance (Z) est au maximum et l'intensité parcourant le circuit (I) est au minimum, quel que soit le mode de mesure de l'intensité (efficace ou crête).\n",
+  "anchor": "T044a3"
+ },
+ {
+  "num": "20582",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "VOUS CONTACTEZ DURANT LA NUIT UNE STATION SUR UNE BANDE BASSE. \nQUELLE EST LA CAUSE DE LA DISPARITION DE LA PROPAGATION LE JOUR SUR CETTE MEME BANDE ?",
+  "options": [
+   "augmentation de l’épaisseur des couches F",
+   "scission de la couche F en F1 et F2",
+   "disparition de la couche E sporadique",
+   "absorption par ionisation de la couche D  "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "absorption par ionisation de la couche D  ",
+  "commentaire_fr": "La couche D qui absorbe les ondes est essentiellement responsable de la disparition de la propagation le jour sur les bandes basses (1,8 MHz et en dessous)\n",
+  "anchor": "T093"
+ },
+ {
+  "num": "20583",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "MICRO - - OSC - - SEPARATEUR - - MODULATEUR - - FILTRE (SITUE EN DESSOUS DU MODULATEUR) - - AMPLI RF (A DROITE DU FILTRE) - - ANTENNE\nQUE REPRESENTE CE SYNOPTIQUE ?",
+  "options": [
+   "Récepteur BLU",
+   "récepteur à réaction",
+   "récepteur pour modulation de phase",
+   "Emetteur BLU "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Emetteur BLU ",
+  "commentaire_fr": "Dans le schéma, il y a le schéma d’un micro et un \"modulateur\", il doit donc s'agir d'un émetteur et non pas d’un récepteur. Plus précisément d’un émetteur BLU, puisque le modulateur est suivi d'un filtre (à quartz dans le cas d'un émetteur BLU et le modulateur porte le nom de \"mélangeur équilibré\")\n",
+  "anchor": "T126d"
+ },
+ {
+  "num": "20584",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCUL DISTORSION PAR HARMONIQUE 2     F = 0.5 U =20,     F=1  U = 8,    F= 1.5,    F=  2",
+  "options": [
+   "25%",
+   "10%",
+   "20%",
+   "40%"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "40%",
+  "commentaire_fr": "Réponse : la fréquence de référence est 0,5. \nL’harmonique 2 est donc 1,0. \nTDH = 8 / 20 = 0,4 = 40%\n",
+  "anchor": "T074b2"
+ }
+]

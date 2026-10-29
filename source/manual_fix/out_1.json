@@ -1,0 +1,62 @@
+{
+ "P01": {
+  "verdict": "resolved",
+  "answer": "附录各项与法文原书（2025 年 11 月版）的对应关系：原书第三部分 **ANNEXES 只有两项**——「考试必记的主要公式」（98–99 页）与「参考书目、地址与联系方式」（100 页）。中文版：附录 B「公式与换算速查」对应前者；附录 C「Q 简语速查表」与附录 D「国际字母解释法」对应原书正文 §R-3.2、§R-3.1（出处为 21/09/00 部令附件 I，字母表另见 RR 附录 A14）；附录 A「考试战术」的内容取自原书 Introduction 中「考试的组织、时长与计分」一节（Intro-2 及 §R-3.3）；附录 E「高频词汇表」、附录 F「锚点索引」、附录 G「待核实事项汇总」是中文版编者所增，原书没有对应章节。",
+  "source": "PDF 目录 p.7「a3 Troisième Partie – ANNEXES：principales formules à connaître pour l'examen 98-99 / bibliographie, adresses et coordonnées 100」；PDF §R-3.1、§R-3.2",
+  "note": "目录行本身与实际章节不符：它写的「章节权重」其实是中文版导言第 5 节（不是附录），而真正的附录 F「锚点索引」没被列进去。建议目录改为「考试战术 · 公式与换算速查 · Q 简语速查 · 国际字母解释法 · 高频词汇表 · 锚点索引 · 待核实事项汇总」。"
+ },
+ "P02": {
+  "verdict": "resolved",
+  "answer": "该法令**至今（2026 年 10 月）仍未公布**，原文的判断仍然成立。2018 年 DGE 就「业余业务与互联条件」公开征询的两个文本之一，就是要为 CPCE 增设一个「接入公共网络的业余电台的运营条件」条文，草案条文为：« L'exploitant d'une station radioélectrique des services d'amateur et d'amateur par satellites connectée à un réseau ouvert au public doit prendre toute mesure pour préserver l'intégrité et la sécurité des réseaux ouverts au public »（并规定 ARCEP 可要求中断该连接）；CSNP 于 2019 年 3 月 19 日出具第 2019-01 号意见后无下文。核对现行 CPCE 合订本（最后修改 2026-08-19、2026-09-07 版）未见该条文，ANFR「Radioamateurs — Cadre juridique」现行清单亦未列该法令。",
+  "source": "CPCE 合订本 codes.droit.org（dernière modification 2026-08-19 / édition 2026-09-07，无该条文）；ANFR Radioamateurs–Cadre juridique；CSNP avis n° 2019-01 du 19/03/2019（csnp.fr）；URC « Décret sur les ROP »（草案条文全文）；REF-Info 2018-04-12（DGE 咨询）",
+  "note": "这属于政治/时间性信息。原文写「à la date de publication de ce document, n'est pas encore publié」，建议改为「截至 2026 年 10 月，该法令仍未公布」，并在每次改版时重核。草案拟插入的位置是 D. 99-3 之后（§R-1.1 引述的 ROP 相关义务见 §R-4.2 一带）。"
+ },
+ "P03": {
+  "verdict": "resolved",
+  "answer": "斜体（＝「业余无线电爱好者不使用」）的条目是：**第 1 个字符中的 B、H、K/L/M/P/Q/V、W、N；第 2 个字符中的 0、X；第 3 个字符中的 N、X**。完整表格（斜体条目加 * 标注）：\n\n**第 1 个字符——载波调制方式**\n\n| 码 | 含义（法文原表述） |\n|---|---|\n| A | 调幅（双边带）Amplitude (double bande latérale) |\n| *B* | 调幅（边带相互独立）Amplitude (bandes latérales indépendantes) |\n| C | 调幅（残余边带）Amplitude (bande latérale résiduelle) |\n| D | 幅度与角度调制 Amplitude et angulaire |\n| F | 角度调制——频率 Angulaire – Fréquence |\n| G | 角度调制——相位 Angulaire – Phase |\n| *H* | 调幅-单边带，全载波 Amplitude-BLU porteuse complète |\n| J | 调幅-单边带，抑制载波 Amplitude-BLU porteuse supprimée |\n| R | 调幅-单边带，减弱载波 Amplitude-BLU porteuse réduite |\n| *K, L, M, P, Q et V* | 脉冲序列 Trains d'impulsions |\n| *W* | 上述未涵盖的组合与情形 Combinaisons et cas non couverts ci-dessus |\n| *N* | 未调制载波 Porteuse non modulée |\n\n**第 2 个字符——被调制信号**\n\n| 码 | 含义（法文原表述） |\n|---|---|\n| 1 | 单路，无调制副载波（tout ou rien）Une seule voie sans sous porteuse modulante |\n| 2 | 单路，带调制副载波 Une seule voie avec sous porteuse modulante |\n| 3 | 模拟 Analogique |\n| 7 | 数字（多路）Numérique (plusieurs voies) |\n| 8 | 模拟（多路）Analogique (plusieurs voies) |\n| 9 | 模拟与数字（各有一路或多路） |\n| *0* | 无被调制信号 Pas de signal modulant |\n| *X* | 其他情形 Autres cas |\n\n**第 3 个字符——传送的信息类型**\n\n| 码 | 含义（法文原表述） |\n|---|---|\n| A | 可听电报 Télégraphie auditive |\n| B | 自动电报 Télégraphie automatique |\n| C | 传真／静止图像 Fac-similé (image fixe) |\n| D | 数据传输 Transmission de données |\n| E | 电话 Téléphonie |\n| F | 电视（视频）Télévision (vidéo) |\n| *N* | 无信息 Aucune information |\n| W | 上述类型的组合 Combinaison des cas ci-dessus |\n| *X* | 其他情形 Autres cas |\n\n（1、2、3、7、8、9、A、B、C、D、E、F、W 不是斜体，即业余爱好者可以使用。）",
+  "source": "cours_radio.pdf p.14 的字体信息（pdftohtml：TimesNewRoman,Italic = 斜体，斜体行恰为上列各条）；cours_utf8.html 同一表格用 <i> 标注，两者完全一致",
+  "note": "两点提醒：①原文「表内斜体定义业余爱好者不使用」这句话对 **W** 并不严格——§R-1.2b 又给出 F7W（D-Star：数字电话+数据）作为业余实际使用的例子；N（未调制载波）在 N0N 例中也出现，只是「不传送信息」。②「O、I、E、S、T、U、X、Y、Z 不使用」指这些字母在表中根本没有分配码位，与斜体是两回事。"
+ },
+ "P04": {
+  "verdict": "resolved",
+  "answer": "第 2 个字符里 1 与 2 的差别只有一点：**1 = 单路、不使用调制副载波**（tout ou rien，通断键控）；**2 = 单路、使用调制副载波**。原文「1 : simple et 2 : avancé」（1 简单、2 进阶）只是记忆口诀——两者都属于「一路携带数字或量化信息」，2 之所以叫「进阶」，是因为它在同一条路上多了一个调制副载波（数字模式下用它以不同频率区分先后到达的 0 与 1）。所以「简单／进阶」＝「不带动副载波／带调制副载波」，不是两种不同的信息类型。完整对应：1 = 无副载波、2 = 带副载波、3 = 模拟、4/5/6 不用、7 = 多路数字、8 = 多路模拟、9 = 两者兼有、0 = 无被调制信号。",
+  "source": "cours_pdf_layout.txt §R-1.2a：表内「1 Une seule voie sans sous porteuse modulante (tout ou rien)」「2 Une seule voie avec sous porteuse modulante」；同节「logique du codage : on commence par une seule voie numérique (1 : simple et 2 : avancé)」；cours_utf8.html 同处",
+  "note": "若要引用国际原文，RR 附录 A1 的措辞是「une seule voie contenant de l'information numérique ou quantifiée avec (ou sans) emploi de sous porteuse modulante」。"
+ },
+ "P05": {
+  "verdict": "resolved",
+  "answer": "§R-1.3b 给出了各频段的占用带宽（largeur de bande occupée）上限，来自 décision 12-1241 的附件：\n\n| 频率范围 | 占用带宽上限 |\n|---|---|\n| 低于 28 MHz | **6 kHz** |\n| 28 至 144 MHz（因此涵盖 28 MHz 与 50 MHz 频段） | **12 kHz** |\n| 144 至 225 MHz | **20 kHz** |\n| 高于 225 MHz | 无规定限值 |\n\n两条独立义务：①占用带宽必须整段落在所分配频段之内；②不得超过上表限值。225 MHz 以上虽无限值，但「选择发射类别时必须尽一切努力把占用带宽降到最小」（§3 du préambule，重申 RR 的 S15.9）。",
+  "source": "PDF §R-1.3b（cours_pdf_layout.txt「b La largeur de bande occupée … ne doit pas dépasser : - 6 kHz … - 12 kHz entre 28 et 144 MHz … - 20 kHz entre 144 et 225 MHz … aucune limite au-delà de 225 MHz」）；ARCEP décision n° 2012-1241, annexe, §3 « Conditions communes »（arcep.fr/uploads/tx_gsavis/12-1241.pdf）",
+  "note": "原文 §R-1.3b 明确说这是 « annexe 3 à la décision 12-1241 »。数值与 décision 原文逐字一致，可直接引用。"
+ },
+ "P06": {
+  "verdict": "source_defect",
+  "answer": "毛病在题库的写法（单位/千位分隔被破坏），不在答案：四个选项是**用 kHz 写的 14 000 / 14 340 / 29 500 / 3 750 kHz，即 14 / 14,34 / 29,5 / 3,75 MHz**。题库（以及中文版转写）把原文用空格表示的千位分隔「14 000 kHz」写成了「14.000 kHz」，看上去像 14 kHz，于是整题变得莫名其妙。禁止发射的是 **14 000 kHz（= 14,000 MHz）**：它正是 20 m 频段的下边界（14 000–14 350 kHz），而 A3E 是双边带调幅，占用带宽跨在载波两侧，载波压在边界上就会有一半边带越出所分配频段（BF 带宽 3 kHz 时发射占 13 997–14 003 kHz）。其余三个（14,34 / 29,5 / 3,75 MHz）距各自频段边界都有余量，不构成越界。",
+  "source": "PDF 练习 Série 40 第 3 题（同题，选项写作「14 000 kHz / 14 340 kHz / 29 500 kHz / 3 750 kHz」）及其解答 Réponses Série 40 Q3（réf. R1-3b）；题库 Exam1 题 32561（单位被写成 14.000 kHz）",
+  "note": "答题照题库答案选第 1 项；读题时把「14.000」按 14 000 kHz 理解，不要读成 14 kHz。另外这也说明中文版原来那句「原文没有给出任何『某频率禁止使用 A3E』的条文」不成立：原书练习解答里就写着理由。"
+ },
+ "P07": {
+  "verdict": "source_defect",
+  "answer": "两处说法冲突，根源是「强制设备」与「强制功能」被混为一谈：**自 ARCEP 决定 12-1241（2012 年 10 月）起，唯一强制随台配备的设备是功率指示器（indicateur de puissance，即 wattmètre）；独立的市电滤波器（filtre secteur）、驻波指示器与假负载都不再是强制设备**——原教材这一句是对的。但题库题 30756 的标准答案是 **« Oui »**，其理由写在 commentaire 里：电台必须满足「基本要求」、不得干扰供电网络（由 CISPR 11 / EN 301 783 的限值约束），而滤波通常已内置在 CE 认证的电源里，所以「市电滤波器是强制的」这句话按「滤波功能必须存在」理解成立。考试时应按题库选 **Oui**。原书自己的练习 Série 35 第 8 题（« Il est obligatoire de posséder dans une station : … »）的正确答案是 **功率指示器**，其解答注明「自 décision ARCEP 12-1241 起，功率指示器是唯一强制设备」。",
+  "source": "题库 Exam1 题 30756（答案 Oui + commentaire）；PDF §R-1.3a（« Depuis la décision ARCEP 12-1241, le seul matériel obligatoire reste l'indicateur de puissance »）与练习 Série 35 Q8 + Réponses Série 35 Q8（réf. R1-3a）；URC « Antenne fictive – Erratum »（2024-11-06）",
+  "note": "建议教材并列两句：法定强制设备只有功率指示器（教材口径）；「是否配备市电滤波」按官方题库答 Oui（滤波功能强制，通常已内置于 CE 认证电源；自制或老旧设备才需要外置滤波器）。"
+ },
+ "P08": {
+  "verdict": "source_defect",
+  "answer": "题库把「占用带宽上限」与「频偏（excursion）」混用了，因而两题口径不一。法定限值针对的是**占用带宽**：28,500 MHz 落在 28–144 MHz 档 → 12 kHz；145,500 MHz 落在 144–225 MHz 档 → 20 kHz。若按教材自己的换算（FM 占用带宽 = 2 × 频偏），频偏上限应是 **±6 kHz（28,500 MHz）** 与 **±10 kHz（145,500 MHz）**。题 31006 的答案正是 ±6 kHz（12 kHz 的一半，方法正确）；题 31007 问 145,500 MHz 的频偏，但四个选项（3 / 12,5 / 20 / 6 kHz）里没有正确的 ±10 kHz，只能选 **20 kHz**（整个上限）。同类还有 30160（18,150 MHz 答「6 kHz」，即整个带宽而非 ±3 kHz）与 34812（< 29,7 MHz 答 ±6 kHz，即半带宽）。原书练习 Série 35 第 2 题的解答用的是「半带宽」口径：「占用带宽不得超过 20 kHz，因此 G3E 的 FM 频偏不得超过 ±10 kHz」。",
+  "source": "题库 31006、31007、30160、34812；PDF 练习 Série 35 Q2 及 Réponses Série 35 Q2（réf. R1-3b）；ARCEP décision 2012-1241 annexe §3（占用带宽限值 6/12/20 kHz）",
+  "note": "答题口诀：问「occupée / largeur de bande」答整段值（6、12、20 kHz）；问「excursion」时先看选项里有没有半带宽值（有则选，如 31006 的 ±6 kHz）；没有（如 31007）就按题库选整段值 20 kHz。选项里出现 12,5 kHz 是 FM 信道间隔，属干扰项。"
+ },
+ "P09": {
+  "verdict": "source_defect",
+  "answer": "确系原文（PDF 与 HTML 版都有）的印错：注释 1 写作 « les bandes des **2222**, 630 et 60 mètres »，而紧接着同一句又写 « limitées à 1 watt PIRE sur les bandes des **2200** et 630 mètres et 15 watts PIRE sur la bande des 60 mètres »。正确读法是 **2200 m（135,7–137,8 kHz）／630 m（472–479 kHz）／60 m（5 351,5–5 366,5 kHz）**，功率上限分别为 **1 W / 1 W / 15 W PIRE**（135,7–137,8 kHz 与 5 351,5–5 366,5 kHz 的限值对应 RR 注 5.67A、5.133B）。「2222」是原文错字，不是 PDF 转文本造成的（HTML 版同样写作 2222）。",
+  "source": "PDF §R-2.1d 注释 1（cours_pdf_layout.txt 第 1103 行）；cours_utf8.html 第 4792 行同作 2222；同段后文与 §R-2.2a 脚注写作 2200；ARCEP décision 12-1241 附件（135,7-137,8 kHz 的 PIRE 说明）",
+  "note": "教材按「2200 m」处理，可加一句脚注：原文此处误植为「2222 m」。"
+ },
+ "P10": {
+  "verdict": "resolved",
+  "answer": "答案成立，依据也找得到：**433,750–434,250 MHz 这一子频段在安的列斯与圭亚那（2 区的法属海外省）不允许业余业务使用**，所以题库列的四个候选地中只有留尼汪（1 区）可用。原因在国际频率划分上：RR 注 5.281(NOC) 规定，在**法国 2 区的海外省与海外集体以及印度**，433,75–434,25 MHz 还以**主要业务**地位分配给空间操作业务（Terre vers espace；在法国本土与巴西为次要业务），因此该子频段对业余业务关闭；TNRBF 注 F40(NOC) 把它落到法国国内：「Aux Antilles et en Guyane, ama n'est pas autorisé dans la sous-bande 433,75-434,25 MHz」。留尼汪与马约特属 1 区（§R-2.1a），不受此限。原书正文 §R-2.1d 未提这一子频段，但**原书自己的练习解答里有**：练习 Série 26 第 4 题（réf. R2-1b）的解答写 « La bande 430-434 est en bande partagée à statut secondaire. En Guyane et aux Antilles, l'émission est interdite de 433,75 à 434,25 MHz »。",
+  "source": "TNRBF 2021-05-04 注 F40(NOC) 与 RR 注 5.281(NOC)（anfr.fr TNRBF PDF）；PDF 练习解答 Réponses Série 26 Q4（réf. R2-1b，cours_pdf_layout.txt 第 9021–9022 行）；题库题 30919；PDF §R-2.1a（DROM en Région 2 : Guyane, Martinique, Guadeloupe ; La Réunion et Mayotte en Région 1）",
+  "note": "圣皮埃尔和密克隆虽是法国领土，但属 2 区，同样不能选；选项里「圭亚那／瓜德罗普」正是被 F40 点名禁止的地方。"
+ }
+}

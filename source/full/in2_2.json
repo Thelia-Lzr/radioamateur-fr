@@ -1,0 +1,530 @@
+[
+ {
+  "num": "20390",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "UN EMETTEUR SORT 2 W, CABLE -2DB ET ANTENNE +5 DB. QUELLE EST LA PUISSANCE PAR ?",
+  "options": [
+   "1 W",
+   "14 W",
+   "10 W",
+   "4 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "4 W",
+  "commentaire_fr": "gain de l’ensemble = gain de l’antenne – pertes dans le câble = 5 – 2 = 3 dB correspondant à x 2\nPAR = puissance x rapport = 2 W x 2 = 4 W\n",
+  "anchor": "T098"
+ },
+ {
+  "num": "20393",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "A QUOI SERT UN AMPLIFICATEUR FI ?",
+  "options": [
+   "évite les fréquences images",
+   "améliore la BF\n\n",
+   "améliore la sélectivité et la sensibilité ",
+   "limite les rayonnements non essentiels"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "améliore la sélectivité et la sensibilité ",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20399",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "IMPEDANCE D'UNE BOBINE",
+  "options": [
+   "1,204 kΩ",
+   "12,04 kΩ",
+   "1,44 kΩ",
+   "9,04 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "9,04 kΩ",
+  "commentaire_fr": "Z = 2 x pi x 144 x 10^6 x 10^-5 = 9047,79 ohms. La valeur est arrondie par défaut dans la réponse proposée. En retenant 2 x pi = 6,28, le calcul donne 9043 ohms. C’est donc la formule simplifiée que l’ANFR a retenu ici.\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20401",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUELLE EST LA CARACTERISTIQUE D'UNE EMISSION EN CLASSE F3E",
+  "options": [
+   "La BF varie au rythme de la HF",
+   "La porteuse HF varie en fonction de la BF. \n\n",
+   "La porteuse HF a un niveau constant ",
+   "La BF et la porteuse HF ont le même niveau"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "La porteuse HF a un niveau constant ",
+  "commentaire_fr": "",
+  "anchor": "T121"
+ },
+ {
+  "num": "20402",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "IMPEDANCE D'UNE BOBINE DE 1 MICROF POUR UNE FREQUENCE DE 144 MHZ ?",
+  "options": [
+   "904 Ω",
+   "144 Ω",
+   "9,04 kΩ",
+   "120 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "904 Ω",
+  "commentaire_fr": "Z = 2 x pi x 144 x 10^6 x 10^-6 = 905 ohms\nEn retenant 2 x pi = 6,28 ; Z = 904 ohms. Attention à la représentation non conventionnelle de la bobine\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20403",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "NOM DE L'ETAGE REPERE PAR ?",
+  "options": [
+   "CAG",
+   "Compresseur",
+   "Amplificateur RF",
+   "Détecteur de produit"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Amplificateur RF",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20405",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CALCULER L'INTENSITE DE BASE",
+  "options": [
+   "100 µA",
+   "10 µA",
+   "12,5 µA",
+   "225 µA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10 µA",
+  "commentaire_fr": "Ib = Ic / beta = 1,25 mA / 125 = 0,01 mA = 10 µA\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20406",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "UNE STATION DONT LA PAR EST DE 6000 W AVEC UN EMETTEUR DELIVRANT UNE PUISSANCE DE 15 W. \nQUEL EST LE GAIN EN DB ?",
+  "options": [
+   "16 dB",
+   "400 dB",
+   "15 dB",
+   "26 dB"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "26 dB",
+  "commentaire_fr": "rapport des puissances = 6000 / 15 = 400, correspondant à un gain de 26 dB\n",
+  "anchor": "T098"
+ },
+ {
+  "num": "20408",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "PROPRIETES D'UN BALUN 9/1 ?",
+  "options": [
+   "Filtre\n",
+   "Atténuateur ",
+   "Transformateur d'impédance ",
+   "Isolateur de ROS"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Transformateur d'impédance ",
+  "commentaire_fr": "Le BALUN (symétriseur en français) est constitué d’un transformateur HF et permet aussi de transformer les impédances présentes à ses enroulements.\n",
+  "anchor": "T104b"
+ },
+ {
+  "num": "20409",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT S",
+  "options": [
+   "300 Ω",
+   "150 Ω",
+   "200 Ω",
+   "1800 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "200 Ω",
+  "commentaire_fr": "Réponse empirique (sans sortir sa calculette) : L'ampèremètre a un calibre de 2 mA alors que le galvanomètre mesure au maximum une intensité de 0,5 mA. Il passera donc dans le shunt 1,5 mA, soit 3 fois moins que dans le galvanomètre. La résistance du shunt devra donc être 3 fois moindre que la résistance du galvanomètre : Rshunt = 600 / 3 = 200 ohms\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20412",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE RECEPTEUR BLU A DOUBLE CHANGEMENT DE FREQUENCE",
+  "options": [
+   "Récepteur AM superhétérodyne ",
+   "Récepteur FM à conversion directe",
+   "Récepteur double bande latérale",
+   "Récepteur BLU à double changement de fréquence "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Récepteur BLU à double changement de fréquence ",
+  "commentaire_fr": "",
+  "anchor": "T126h"
+ },
+ {
+  "num": "20413",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SYNOPTIQUE MODULATEUR FM A PLL",
+  "options": [
+   "Emetteur FM  ",
+   "Récepteur FM à super réaction",
+   "Modulateur AM",
+   "Compresseur de modulation "
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Emetteur FM  ",
+  "commentaire_fr": "Le synoptique représente un PLL avec injection d'un signal BF sur le VCO générant un signal FM qui est amplifié avant l’envoi sur l’antenne.\n",
+  "anchor": "T124d"
+ },
+ {
+  "num": "20414",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "MODULATEUR A REACTANCE",
+  "options": [
+   "Modulateur d'amplitude",
+   "Modulateur de fréquence",
+   "Démodulateur d’amplitude",
+   "Démodulateur de fréquence "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Modulateur de fréquence",
+  "commentaire_fr": "",
+  "anchor": "T124d"
+ },
+ {
+  "num": "20419",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "FREQUENCE D'UN SIGNAL AYANT UNE PERIODE DURANT 2 MILLISECONDES ?",
+  "options": [
+   "50 Hz",
+   "500 Hz",
+   "2 kHz",
+   "250 Hz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "500 Hz",
+  "commentaire_fr": "2 ms = 0,002 s ; F = 1/t = 1 / 0,002 = 500 Hz\n",
+  "anchor": "T021b"
+ },
+ {
+  "num": "20423",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA CLASSE D'AMPLIFICATION QUI A LE COURANT MOYEN LE PLUS ELEVE ?",
+  "options": [
+   "Classe A",
+   "Classe B",
+   "Classe C",
+   "Classe D"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Classe A",
+  "commentaire_fr": "La classe A possède la tension de repos la plus élevée et donc le courant moyen le plus élevé. \nLa classe D (PWM) n'a pas de courant de repos.\n",
+  "anchor": "T071a1"
+ },
+ {
+  "num": "20428",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "SCHEMA D'UN TRANSFO AVEC AU PRIMAIRE 3000 SPIRES, 500 V ET AU SECONDAIRE UNE RESISTANCE DE 50 OHMS ET 30 SPIRES. PUISSANCE DISSIPEE DANS R?",
+  "options": [
+   "50 mW",
+   "5000 W",
+   "10 W",
+   "500 mW"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "500 mW",
+  "commentaire_fr": "Le transformateur est supposé parfait, donc Us = Ue x ns / np = 500 x (30 / 3000 ) = 500 / 100 = 5 V; \n\napplication de la loi d’ohm : P = U² / R = 5² / 50 = 25 / 50 = ½ = 0,5 W = 500 mW\n",
+  "anchor": "T031b"
+ },
+ {
+  "num": "20432",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "VALEUR EFFICACE D'UNE TENSION CRETE A CRETE DE 68 V",
+  "options": [
+   "96 V",
+   "48 V",
+   "24 V",
+   "34 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "24 V",
+  "commentaire_fr": "68 Vcàc = 34 Vmax ; 34Vmax x 0,707 = 24 Veff (valeur arrondie)\n",
+  "anchor": "T022b"
+ },
+ {
+  "num": "20433",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ORDRE DE GRANDEUR DE LA LARGEUR D'UN SIGNAL FM AU-DESSUS DE 29,7 MHZ",
+  "options": [
+   "7 à 15 kHz",
+   "3 à 6 kHz",
+   "6 à 20 MHz",
+   "300 à 3000 Hz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "7 à 15 kHz",
+  "commentaire_fr": "La réglementation antérieure à 2012 limitait l’excursion FM au-dessus de 30 MHz à +/- 7,5 kHz, soit une largeur e bande de 15 kHz au maximum. La réglementation actuelle limite la largeur de bande du signal émis à 12 kHz de 28 MHz à 144 MHz et n’impose pas de limite au-dessus de 144 MHz\n",
+  "anchor": "T124"
+ },
+ {
+  "num": "20434",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA PUISSANCE NORMALISEE MINIMUM DE LA RESISTANCE\nR = 400 OHMS, I = 20 MA",
+  "options": [
+   "250 mW",
+   "0,5 W",
+   "2 W",
+   "5 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "250 mW",
+  "commentaire_fr": "P = RI² = 400 x 0,02 x 0,02 = 0,16 W = 160 mW. On retiendra la première puissance supérieure (250 mW) \nLes réponses « 0,5 W » ou plus ne sont pas bonnes car on utilise une résistance dissipant trop de chaleur\n",
+  "anchor": "T015c"
+ },
+ {
+  "num": "20435",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "AVEC QUOI MESURE-T-ON UNE TENSION DE 3 VOLTS AUX BORNES D'UNE RESISTANCE DE 2 MEGOHMS",
+  "options": [
+   "un bolomètre",
+   "un galvanomètre",
+   "un ampèremètre",
+   "un voltmètre "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "un voltmètre ",
+  "commentaire_fr": "Pour ne pas perturber la lecture, il faudrait préciser « voltmètre numérique » car cet instrument possède un facteur de qualité (Ω/V) largement supérieur à un voltmètre analogique.\nPour information, un bolomètre (du grec bolè, « radiation », et metron, « mesure ») est un appareil de mesure de puissance fonctionnant à partir d'un thermomètre.\n",
+  "anchor": "T011c"
+ },
+ {
+  "num": "20436",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST L'ETAGE REPERE PAR ?",
+  "options": [
+   "Ampli BF\n\n",
+   "Amplificateur RF ",
+   "Détection",
+   "Démodulateur"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Amplificateur RF ",
+  "commentaire_fr": "",
+  "anchor": "T115"
+ },
+ {
+  "num": "20437",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SCHEMA D'AMPLIFICATEUR AVEC TENSION DE SORTIE US = 8 V ET GAIN = 12 DB ; UE = ?",
+  "options": [
+   "1,5 V",
+   "4 V",
+   "0,66 V",
+   "2 V"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2 V",
+  "commentaire_fr": "Lorsque les valeurs sont exprimées en volts, le gain est le double de celui calculé lorsque les valeurs sont exprimées en watts. Ainsi, dans cette question, gain en tension = 12 dB divisé par 2 = 6 dB ; \n6 dB correspond à un rapport de 4. Ue = Us / 4 = 8 / 4 = 2\n",
+  "anchor": "T041f"
+ },
+ {
+  "num": "20438",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA FORMULE EXACTE ?",
+  "options": [
+   "P = Wt",
+   "Ieff = Imax x √2",
+   "P = U²/R ",
+   "W = RIt²"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "P = U²/R ",
+  "commentaire_fr": "Les formules exactes sont :\nP = W/t\nIeff = Imax / √2 (ou Ieff = Imax x √2/2)\nW = RI²t\n",
+  "anchor": "T013"
+ },
+ {
+  "num": "20439",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA FORMULE EXACTE ?",
+  "options": [
+   "Q = RI",
+   "W = RI²t ",
+   "I = P / R",
+   "I = RU"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "W = RI²t ",
+  "commentaire_fr": "Les formules exactes sont : \nI = U / R\nI = √ (P x R)\nU = RI\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20441",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE EQUIVALENTE ?\nRESISTANCE DE DE 7,5 KOHMS EN SERIE AVEC 2 RESISTANCES EN PARALLELE (10 KOHMS ET 20 KOHMS)",
+  "options": [
+   "3,7 kΩ",
+   "7,5 kΩ",
+   "37,5 kΩ",
+   "14 kΩ"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "14 kΩ",
+  "commentaire_fr": "produit / somme = (10 x 20) / (10 + 20) = 200 / 30 =  6,7 kΩ\nRT = 6,7 + 7,5 = 14,2 kΩ arrondi à 14. \nPour éviter toute contestation, nous aurions pris pour la première résistance 7,3 kΩ ce qui donne comme résultat 14 kΩ (sans arrondi)\n",
+  "anchor": "T017e"
+ },
+ {
+  "num": "20442",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE VALEUR CORRESPOND A UN CONDENSATEUR DE 100 PF ?",
+  "options": [
+   "0,01 µF",
+   "1000 nF",
+   "0,001 µF",
+   "aucune de ces valeurs"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "aucune de ces valeurs",
+  "commentaire_fr": "la bonne réponse aurait été 0,1 nF ou 0,0001 µF, réponse qui n'est pas proposée ici\n",
+  "anchor": "T002a"
+ },
+ {
+  "num": "20445",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "UN TRANSFORMATEUR FOURNIT 14V SOUS 7A ET CONSOMME 665 MA SOUS 220V. QUEL EST SON RENDEMENT ?",
+  "options": [
+   "67 %",
+   "150 %",
+   " 98 %",
+   "100 %"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "67 %",
+  "commentaire_fr": "puissance au secondaire = 14V x 7A = 98 W ; \npuissance au primaire = 220V x 0,665 A = 146,3 W ; \nrendement = puissance secondaire / puissance primaire = 98 / 146,3 = 0,6698 = 0,67 = 67%\n",
+  "anchor": "T032a"
+ },
+ {
+  "num": "20446",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA FORMULE FAUSSE ?",
+  "options": [
+   "U = √(P x R)",
+   "P = U.I",
+   "Q = C.U",
+   "P = R.I/2"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "P = R.I/2",
+  "commentaire_fr": "La formule exacte est : P = R.I²\n",
+  "anchor": "T012a"
+ },
+ {
+  "num": "20447",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "POUR UN DIPOLE TAILLE SUR 14 MHZ, QUELLE EST SA LONGUEUR ?",
+  "options": [
+   "7 mètres",
+   "21,4 mètres",
+   "5,35 mètres",
+   "10,7 mètres"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10,7 mètres",
+  "commentaire_fr": "Longueur d’onde de 14 MHz = 300 / 14 = 21,43 mètres ; longueur d’un dipôle = une demi-longueur d’onde = 21,43 / 2 = 10,7 mètres (arrondi). Cette longueur est théorique car, dans la pratique, selon le matériau utilisé pour réaliser l’antenne, celle-ci sera un peu plus courte. En règle générale, on prend un coefficient de 0,95. Si bien que la longueur pratique de l’antenne est 10,2 mètres (= 10,7 x 0,95)\n",
+  "anchor": "T094c"
+ },
+ {
+  "num": "20450",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SCHEMA RECEPTEUR AVEC CAG MAIS PAS DE MELANGEUR, NI D'OSCILLATEUR, RETROUVER L'ETAGE \nMANQUANT",
+  "options": [
+   "modulateur",
+   "filtre FI",
+   "démodulateur",
+   "oscillateur local"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "démodulateur",
+  "commentaire_fr": "Il s’agit d’un récepteur sans conversion muni d’une CAG qui agit sur l'amplificateur radio fréquences\n",
+  "anchor": "T123c"
+ },
+ {
+  "num": "20452",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : VIOLET, BLEU, ROUGE, OR",
+  "options": [
+   "762 Ω",
+   "5600 Ω",
+   "7600 Ω",
+   "562 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "7600 Ω",
+  "commentaire_fr": "Violet = 7 ; Bleu = 6 ; Rouge = 2 ; \ndonc 76 x 10^2 = 76 00 = 7600 Ω\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20453",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE ASSOCIATION PERMET D'OBTENIR UNE CAPACITE EQUIVALENTE DE 10 MICROFARAD",
+  "options": [
+   "5 condensateurs de 2 µF en série",
+   "5 condensateurs de 50 nF en parallèle",
+   "2 condensateurs de 5 µF en série",
+   "aucune de ces 3 associations"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "aucune de ces 3 associations",
+  "commentaire_fr": "5 condensateurs de 2 µF en série = 2µF / 5 = 0,4 µF ; \n2 condensateurs de 5 µF en série = 5µF / 2 = 2,5 µF ; \n5 condensateurs de 50 nF en parallèle = 50 nF x 5 = 250 nF. \nIl n’y a donc aucune bonne réponse.\n",
+  "anchor": "T023g2"
+ },
+ {
+  "num": "20454",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "TENSION CRETE A CRETE DE 96 VOLTS. \nTENSION EFFICACE ?",
+  "options": [
+   "68 volts",
+   "48 volts",
+   "34 volts",
+   "136 volts"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "34 volts",
+  "commentaire_fr": "Umax = Ucàc / 2 = 96 / 2 = 48 ; \nUeff = Umax x 0,707 = 48 x 0,707 = 33,9 arrondi à 34 volts\n",
+  "anchor": "T022d"
+ }
+]

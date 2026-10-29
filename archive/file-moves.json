@@ -1,0 +1,252 @@
+[
+  {
+    "from": "无线电词汇.apkg",
+    "to": "decks/无线电词汇.apkg",
+    "sha256": "9b322c12b4efaaced1844e233562c8523f9dca4c29c6b1ced61e57b2da869bb6"
+  },
+  {
+    "from": "无线电词汇（中译例句）.apkg",
+    "to": "decks/无线电词汇（中译例句）.apkg",
+    "sha256": "018807e8a53d9319dcfb21439b42930d6d3014e1436d7c6584ecd7e98eced27d"
+  },
+  {
+    "from": "无线电词汇（中译例句＋原题图）.apkg",
+    "to": "decks/无线电词汇（中译例句＋原题图）.apkg",
+    "sha256": "d40a3deeec6d7facc14914d828f2be4743e93809735eda1c68f6e84268efcf8b"
+  },
+  {
+    "from": "无线电词汇（含真题例句）.apkg",
+    "to": "decks/无线电词汇（含真题例句）.apkg",
+    "sha256": "442a67b477be23f8f2584b042d0e921e9847f56a18c6cea5320bc79ab3690280"
+  },
+  {
+    "from": "知识卡组（法国特色法规）.apkg",
+    "to": "decks/知识卡组（法国特色法规）.apkg",
+    "sha256": "b1d486a77a66fcb6919f5ca0422c134abb73d16e13ba8ad8dc83641080482eb6"
+  },
+  {
+    "from": "考题卡组·技术原理（中译＋讲解）.apkg",
+    "to": "decks/考题卡组·技术原理（中译＋讲解）.apkg",
+    "sha256": "0c97f3584ec08ea18836a57a931d5b946c2e5d19ba06b6fc4d8a4e250688ab6a"
+  },
+  {
+    "from": "考题卡组·法规与制度（中译＋讲解）.apkg",
+    "to": "decks/考题卡组·法规与制度（中译＋讲解）.apkg",
+    "sha256": "9133bda2af0859ef9d4b6d41656fe7c2e6b5c7240cf1a7a5af7cecb5b9dbc811"
+  },
+  {
+    "from": "考题卡组（中译＋讲解）.apkg",
+    "to": "decks/考题卡组（中译＋讲解）.apkg",
+    "sha256": "af9720c400af38a4f4d4a48074eb3b06da4d144749cbea175c4e15ad9e314f10"
+  },
+  {
+    "from": "vocabulaire.csv",
+    "to": "data/vocabulaire.csv",
+    "sha256": "a1cccd326816c47ff19651883f665a3bbce12385c226656d4b4b8147b1100f02"
+  },
+  {
+    "from": "七天冲刺教材.md",
+    "to": "docs/七天冲刺教材.md",
+    "sha256": "3553096ae60b834cc4ad4197ec7d17094730e833bffa7b7bac8fe3577b30985c"
+  },
+  {
+    "from": "SPEC.md",
+    "to": "archive/notes/formula-conversion-spec.md",
+    "sha256": "20bfac7eca8c35694c0c422cdc957b82d8e80ab2c311ce516a0e76d9fbea1747"
+  },
+  {
+    "from": "pairs-012-ohm.json",
+    "to": "archive/formula-patches/pairs-012-ohm.json",
+    "sha256": "d930359d6365a1f73153d3856cb5cff75e54e4e2bc66b6c34cd30304a1e8befe"
+  },
+  {
+    "from": "pairs-012a-012b.json",
+    "to": "archive/formula-patches/pairs-012a-012b.json",
+    "sha256": "3486336507f2f49877249e86bd3cd77a83bb6550b06c0c7282f432158caddd81"
+  },
+  {
+    "from": "pairs-R1R4-section.json",
+    "to": "archive/formula-patches/pairs-R1R4-section.json",
+    "sha256": "376c55f3ca88637608647c6e9e869ebcdb57aec9be49c4f9ad45afac5168ee7e"
+  },
+  {
+    "from": "pairs-R5-section.json",
+    "to": "archive/formula-patches/pairs-R5-section.json",
+    "sha256": "3b3747d57f1523dccbdc75ed4822eea08cfed6a550fc96a5c678eaa780fe7f4d"
+  },
+  {
+    "from": "pairs-T1-section.json",
+    "to": "archive/formula-patches/pairs-T1-section.json",
+    "sha256": "e038b00815a048bf8210ead9b886bdb545657bc0998072490d8aa3013029a012"
+  },
+  {
+    "from": "pairs-T1011-section.json",
+    "to": "archive/formula-patches/pairs-T1011-section.json",
+    "sha256": "0c5b8877055578fd8296d79538661a7ad02c0f56df81d13a45f47105dfab74c8"
+  },
+  {
+    "from": "pairs-T12-annexB.json",
+    "to": "archive/formula-patches/pairs-T12-annexB.json",
+    "sha256": "8d46dc949a5b5148833862938d7183336cfc98558130b19a55a81cbec1803fd8"
+  },
+  {
+    "from": "pairs-T2-section.json",
+    "to": "archive/formula-patches/pairs-T2-section.json",
+    "sha256": "fa379d65a1a455df669244c7dc03853259fa4c9fc8e247656e48e3358b4d3dca"
+  },
+  {
+    "from": "pairs-T34-section.json",
+    "to": "archive/formula-patches/pairs-T34-section.json",
+    "sha256": "457ec3d4fff21681506d9371ec09b7e70c53368e2aa55d90e7739bfad684fda2"
+  },
+  {
+    "from": "pairs-T567-section.json",
+    "to": "archive/formula-patches/pairs-T567-section.json",
+    "sha256": "161d0df3a0bdb05f5f574ef187351d08f526a097e9709e89060bfb7efa7d7bb4"
+  },
+  {
+    "from": "pairs-T8-section.json",
+    "to": "archive/formula-patches/pairs-T8-section.json",
+    "sha256": "96572c4184942979ef6ea170f201a176cd87d7abe8bb4ec736f0d600ffa056f5"
+  },
+  {
+    "from": "pairs-T9-section.json",
+    "to": "archive/formula-patches/pairs-T9-section.json",
+    "sha256": "cbf92e0f0ab27a5300b3ee15017a353ad0b53387f010487e57f57e7d83f18c57"
+  },
+  {
+    "from": "pairs-annexB-tips.json",
+    "to": "archive/formula-patches/pairs-annexB-tips.json",
+    "sha256": "cfc8a28aaeb6cf1d90a9b21537876034ea27737420dab65b76b85ed299d47d89"
+  },
+  {
+    "from": "pairs-annexG.json",
+    "to": "archive/formula-patches/pairs-annexG.json",
+    "sha256": "28c5a9ba3eed3bdbf165829b9cedb11b31055a3fb3b243fca332a2b72c09f2d3"
+  },
+  {
+    "from": "pairs-annexG2.json",
+    "to": "archive/formula-patches/pairs-annexG2.json",
+    "sha256": "6f10726740679ecca2122b620bf4d8fcbe71b29f2f453b9f22db1358fbe013ea"
+  },
+  {
+    "from": "pairs-final-fix.json",
+    "to": "archive/formula-patches/pairs-final-fix.json",
+    "sha256": "1d4279a1228ca0b9acdb8f3bb1db53dbb9eb38ed5d73ac34ba3746093a664e16"
+  },
+  {
+    "from": "pairs-final-fix2.json",
+    "to": "archive/formula-patches/pairs-final-fix2.json",
+    "sha256": "4a4778da41ad98a72bd7d88b3c7c2d677a1b264a0e46b09ba57929707e09f6e7"
+  },
+  {
+    "from": "pairs-notes-section.json",
+    "to": "archive/formula-patches/pairs-notes-section.json",
+    "sha256": "33d4ec8e21d300b231f82eb94c1aa65af570e8f0ca9e3700a9bc76cfa89836d8"
+  },
+  {
+    "from": "pairs-sweep-extra.json",
+    "to": "archive/formula-patches/pairs-sweep-extra.json",
+    "sha256": "cbd4a53acdf86643f5f0d48682f8da53cd7dcab2ce1d03fc9c10a5dd18f8d01d"
+  },
+  {
+    "from": "pairs-sweep-section.json",
+    "to": "archive/formula-patches/pairs-sweep-section.json",
+    "sha256": "77b96cbf3d13db2899b53d8c37907d56a254789e1469d185b29111344302f3a1"
+  },
+  {
+    "from": "structure-baseline-verified.json",
+    "to": "archive/baselines/structure-baseline-verified.json",
+    "sha256": "834a7f5fa48cf84fa8fbafae17e1d50b07e4aae0ba59080b0bea97c743d2f3dc"
+  },
+  {
+    "from": "structure-baseline.json",
+    "to": "archive/baselines/structure-baseline.json",
+    "sha256": "4341790e50625fc8acc23a848f98b22479f84314c99989e95e8c18041f507869"
+  },
+  {
+    "from": "manuel-zh.html.bak",
+    "to": "archive/backups/manuel-zh.html.bak",
+    "sha256": "09976efda84aed4c3bacc89a48f520db3d2c4b7f5cdfce846f90a6657214462e"
+  },
+  {
+    "from": "manuel-zh.html.bak-before-appendix",
+    "to": "archive/backups/manuel-zh.html.bak-before-appendix",
+    "sha256": "3b47e34d7848ed9b968d3d677f29c8327b2c2091f52c32936778af98766572bf"
+  },
+  {
+    "from": "manuel-zh.html.bak-before-verify",
+    "to": "archive/backups/manuel-zh.html.bak-before-verify",
+    "sha256": "3f108e0065e2de19f5ed6dde1e9ac72921809fa52b70249ccf2b4b5d3f8bd5ab"
+  },
+  {
+    "from": "apply_pairs.py",
+    "to": "archive/legacy-tools/apply_pairs.py",
+    "sha256": "34b62d7f6b6bf6c25f04ac9a165ed3c37fc5fab6342bb2a2a5564152b72da495"
+  },
+  {
+    "from": "audit.py",
+    "to": "archive/legacy-tools/audit.py",
+    "sha256": "e7ec15842cca3b3bd111d28d4c58279fd56a7a2f2e3ce14ef77b9d330d544cdf"
+  },
+  {
+    "from": "build-T12-annexB.py",
+    "to": "archive/legacy-tools/build-T12-annexB.py",
+    "sha256": "cbb1c45fa2a6521d5d36339d99264c181edef257bfe1105e2f6ec85abcfac0de"
+  },
+  {
+    "from": "build_o7_5.py",
+    "to": "archive/legacy-tools/build_o7_5.py",
+    "sha256": "a5ae2c8fdbb707f8a2004d320f42911b0a2de6b1491491bb18db4965a87bfdee"
+  },
+  {
+    "from": "check_structure.py",
+    "to": "archive/legacy-tools/check_structure.py",
+    "sha256": "131c4987e0e986df93d085ba9af3a955359c8304bb94baf34033e16094ea8e3e"
+  },
+  {
+    "from": "dump_formulas.py",
+    "to": "archive/legacy-tools/dump_formulas.py",
+    "sha256": "395d35951a74e2be37cc7ee3ff349a27a5bd30523f1f5751c1172ba0891cc21f"
+  },
+  {
+    "from": "gen-T1011.py",
+    "to": "archive/legacy-tools/gen-T1011.py",
+    "sha256": "f5c1d83ddca24edd1fd09ffb0dbb6b628ec77e95dde26ec048b210a8a5da1f68"
+  },
+  {
+    "from": "gen-T34.py",
+    "to": "archive/legacy-tools/gen-T34.py",
+    "sha256": "2fa02b24bcd88a6ebfa2b66f14fcb249551501eadf61c4c52cdd992ac648e06b"
+  },
+  {
+    "from": "gen-notes-pairs.py",
+    "to": "archive/legacy-tools/gen-notes-pairs.py",
+    "sha256": "f639317502dcda8d6402b50cbf7d6545721e1386ac666554bfba0136edc51f3f"
+  },
+  {
+    "from": "mylatex.py",
+    "to": "archive/legacy-tools/mylatex.py",
+    "sha256": "e6e5550fa1ac767a9c94007f798a3d6f4eb5b44c08603f3d350e479dafc55469"
+  },
+  {
+    "from": "apply_pairs.py.v1",
+    "to": "archive/legacy-tools/apply_pairs.py.v1",
+    "sha256": "02ed0c4ba85dcd914d26d48229ea14a036cb479cf7aac05fdf929af24f11aae8"
+  },
+  {
+    "from": "source/_manuel-zh.html",
+    "to": "archive/backups/_manuel-zh.html",
+    "sha256": "993fc4fd65e0e3b13cad8b749b1f029c629dc9fb0b83656092ead5b4b9e3fead"
+  },
+  {
+    "from": "source/gen_readme.py",
+    "to": "archive/legacy-tools/gen_readme.py",
+    "sha256": "6151eb0a175084f765162b2a4fbcad29bd1cbc412ae296203f2f5109a13f9212"
+  },
+  {
+    "from": "source/final_check.py",
+    "to": "archive/legacy-tools/final_check.py",
+    "sha256": "b2046635a1a466a926225c17ee9c114be3161406db8e8772c6d5ef857cfffd17"
+  }
+]

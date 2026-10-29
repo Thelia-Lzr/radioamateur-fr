@@ -1,0 +1,268 @@
+{
+ "block": "W11",
+ "lines": [
+  10700,
+  11436
+ ],
+ "units": [
+  {
+   "id": "T114",
+   "ref": "11.4",
+   "nq": 1,
+   "depth": 3,
+   "anchors": [
+    "T114"
+   ],
+   "title_fr": "La sensibilité d'un récepteur",
+   "questions": [
+    {
+     "num": "21326",
+     "question": "NOM DE L'ETAGE",
+     "reponse": "Filtre anti-harmonique        "
+    }
+   ]
+  },
+  {
+   "id": "T115",
+   "ref": "11.5",
+   "nq": 27,
+   "depth": 1,
+   "anchors": [
+    "T115"
+   ],
+   "title_fr": "11.5)",
+   "questions": [
+    {
+     "num": "20215",
+     "question": "ETAGE REPERE PAR ?",
+     "reponse": "ampli RF "
+    },
+    {
+     "num": "20436",
+     "question": "QUEL EST L'ETAGE REPERE PAR ?",
+     "reponse": "Amplificateur RF "
+    },
+    {
+     "num": "20569",
+     "question": "SYNOPTIQUE D'UN EMETTEUR AVEC : MICRO  - - -  MODULATEUR EQUILIBRE  -  FILTRE - ?  - ANTENNE",
+     "reponse": "Amplificateur RF"
+    },
+    {
+     "num": "20889",
+     "question": "QUEL EST L'ETAGE MANQUANT ?\nMICRO -- ??? - AMPLI RF --- ANTENNE",
+     "reponse": "Oscillateur"
+    }
+   ]
+  },
+  {
+   "id": "T116",
+   "ref": "11.6",
+   "nq": 0,
+   "depth": 3,
+   "anchors": [],
+   "title_fr": "11.6)",
+   "questions": []
+  },
+  {
+   "id": "T117",
+   "ref": "11.7",
+   "nq": 2,
+   "depth": 3,
+   "anchors": [
+    "T117a",
+    "T117e"
+   ],
+   "title_fr": "a 11.7)",
+   "questions": [
+    {
+     "num": "20599",
+     "question": "QUELLE EST L'ORIGINE DE L'INTERMODULATION ?",
+     "reponse": "distorsion d’amplitude "
+    },
+    {
+     "num": "20880",
+     "question": "INTERET D'UN FACTEUR DE BRUIT FAIBLE DANS UN RECEPTEUR ?",
+     "reponse": "augmente la sensibilité "
+    }
+   ]
+  },
+  {
+   "id": "T121",
+   "ref": "12.1",
+   "nq": 19,
+   "depth": 2,
+   "anchors": [
+    "T121",
+    "T121a",
+    "T121b"
+   ],
+   "title_fr": "Schématisation des différents types",
+   "questions": [
+    {
+     "num": "20218",
+     "question": "TYPE DE MODULATION REPRESENTE",
+     "reponse": "CW"
+    },
+    {
+     "num": "20354",
+     "question": "QUELLE EST CETTE MODULATION ?",
+     "reponse": "FM"
+    },
+    {
+     "num": "20854",
+     "question": "APPAREIL UTILISE POUR MESURER LA BANDE OCCUPEE EN EMISSION :",
+     "reponse": "analyseur de spectre"
+    },
+    {
+     "num": "21212",
+     "question": "QUEL EST CE TYPE DE MODULATION ?",
+     "reponse": "FM"
+    }
+   ]
+  },
+  {
+   "id": "T122",
+   "ref": "12.2",
+   "nq": 15,
+   "depth": 2,
+   "anchors": [
+    "T122"
+   ],
+   "title_fr": "12.2)",
+   "questions": [
+    {
+     "num": "20372",
+     "question": "COMMENT S'APPELLE L'ETAGE REPERE PAR  ?",
+     "reponse": "Oscillateur"
+    },
+    {
+     "num": "21216",
+     "question": "CE RECEPTEUR PEUT RECEVOIR :",
+     "reponse": "la FM"
+    },
+    {
+     "num": "21219",
+     "question": "QUELLE CLASSE D'EMISSION PERMET DE GENERER CE MODULATEUR ?",
+     "reponse": "BLU"
+    },
+    {
+     "num": "21420",
+     "question": "NOM DE L'ETAGE",
+     "reponse": "Détecteur de produit      "
+    }
+   ]
+  },
+  {
+   "id": "T123",
+   "ref": "12.3",
+   "nq": 22,
+   "depth": 1,
+   "anchors": [
+    "T123b",
+    "T123c",
+    "T123d",
+    "T123e"
+   ],
+   "title_fr": "La Modulation d'Amplitude",
+   "questions": [
+    {
+     "num": "20221",
+     "question": "SYNOPTIQUE",
+     "reponse": "Un récepteur hétérodyne AM"
+    },
+    {
+     "num": "20229",
+     "question": "TAUX DE MODULATION",
+     "reponse": "33 %"
+    },
+    {
+     "num": "20231",
+     "question": "DANS UN RECEPTEUR HETERODYNE, QUE FAIT LA FONCTION \"CAG\" ?",
+     "reponse": "remplace le contrôle de puissance audio manuel"
+    },
+    {
+     "num": "20332",
+     "question": "QUEL TYPE DE MODULATION GENERE CE CIRCUIT ?",
+     "reponse": "Modulation d'amplitude"
+    }
+   ]
+  },
+  {
+   "id": "T124",
+   "ref": "12.4",
+   "nq": 20,
+   "depth": 1,
+   "anchors": [
+    "T124",
+    "T124b",
+    "T124d"
+   ],
+   "title_fr": "12.4)",
+   "questions": [
+    {
+     "num": "20225",
+     "question": "TYPE DE MODULATION RECEPTEUR",
+     "reponse": "Récepteur FM"
+    },
+    {
+     "num": "20226",
+     "question": "REPRESENTATION SHEMA AMPLI - OSCILLATEUR",
+     "reponse": "modulateur de fréquence "
+    },
+    {
+     "num": "20308",
+     "question": "QUEL EST L'ETAGE MANQUANT ?",
+     "reponse": "Multiplicateur de fréquence"
+    },
+    {
+     "num": "20554",
+     "question": "SYNOPTIQUE TRES COMPLEXE : LE SCHEMA PREND TOUTE LA PAGE AVEC ENVIRON 8 ELEMENTS DONT : MULTIPLICATEUR, VCXO, FILTRE PASSE BAS (A LA MANIERE D'UNE BOUCLE PLL ?). PAS D'ANTENNE NI DE HAUT-PARLEUR ! \nQUEL EST L'ELEMENT MANQUANT ?",
+     "reponse": "Filtre passe-bas"
+    }
+   ]
+  },
+  {
+   "id": "T125",
+   "ref": "12.5",
+   "nq": 0,
+   "depth": 3,
+   "anchors": [],
+   "title_fr": "a 12.5)",
+   "questions": []
+  },
+  {
+   "id": "T126",
+   "ref": "12.6",
+   "nq": 16,
+   "depth": 2,
+   "anchors": [
+    "T126",
+    "T126d",
+    "T126h"
+   ],
+   "title_fr": "12.6)",
+   "questions": [
+    {
+     "num": "20209",
+     "question": "ETAGE REPERE PAR ?",
+     "reponse": "détecteur de produit "
+    },
+    {
+     "num": "20340",
+     "question": "SYNOPTIQUE D'UN RECEPTEUR BLU AVEC BFO EN  ?",
+     "reponse": "BFO"
+    },
+    {
+     "num": "20561",
+     "question": "QUE PERMET DE MODULER UN MONTAGE AVEC UN MELANGEUR EQUILIBRE ?",
+     "reponse": "de la bande latérale unique "
+    },
+    {
+     "num": "20753",
+     "question": "QUELLE EST LA BONNE CORRESPONDANCE ?",
+     "reponse": "BLI = LSB "
+    }
+   ]
+  }
+ ]
+}

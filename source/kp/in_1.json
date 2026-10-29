@@ -1,0 +1,2267 @@
+[
+ {
+  "id": "K001",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "anchor": "R21b",
+  "seclab": "R-2.1",
+  "n_q": 237,
+  "cours_fr": "R-2.1) Fréquences attribuées a Le tableau présenté à la page suivante est une synthèse de différents textes : - décision ARCEP 12-1241 modifiée par les décisions 13-1515 et 19-1412, - arrêté du 02/03/2021 fixant les conditions d’utilisation dans les COM où l’ARCEP n’est pas compétente, - arrêté pris par le Premier Ministre relatif au Tableau National de Répartition des Bandes de Fréquences (TNRBF), document publié par l’ANFR et disponible sur son site Internet. a Le RR (art. S5-2 à S5-9) découpe le globe terrestre en 3 régions : Région 1 = Europe, Afrique, Proche Orient et pays de l’ex-URSS ; Région 2 = Amériques et Pacifique Nord ; Région 3 = Reste du Monde (Asie sauf Proche Orient et ex-URSS, Océanie et Pacifique Sud). L’antarctique et l’arctique sont découpés dans le prolongement des méridiens séparant les zones. Certains territoires français sont en Région 2 ou 3 et les fréquences allouées ne sont pas les mêmes qu'en Métropole située en région 1. Les Départements et Régions d'Outre-Mer (DROM) situés en Région 2 sont la Guyane, la Martinique et la Guadeloupe. La Réunion et Mayotte sont en Région 1, comme la France continentale et la Corse ( voir §",
+  "samples": [
+   {
+    "num": "30442",
+    "stem_fr": "QUELLE BANDE (EN MHZ) N'EST PAS EXCLUSIVE ?",
+    "options": [
+     "21",
+     "18",
+     "14",
+     "10"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "10",
+    "commentaire_fr": "La bande du 10 MHz a un statut secondaire pour les radioamateurs\n",
+    "stem_zh": "哪个频段（以 MHz 计）不是专用的？"
+   },
+   {
+    "num": "34967",
+    "stem_fr": "QUELLE BANDE A UN STATUT C ?",
+    "options": [
+     "60 mètres",
+     "160 mètres",
+     "17 mètres",
+     "12 mètres"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "60 mètres",
+    "commentaire_fr": "statut C = statut secondaire\nlimites de la bande des 60 mètres = 5351,5 à 5366,5 kHz\n",
+    "stem_zh": "哪个频段具有地位 C？"
+   },
+   {
+    "num": "34998",
+    "stem_fr": "SUR QUELLE BANDE PEUT-ON CONTACTER LES SATELLITES ?",
+    "options": [
+     "70 cm",
+     "30 m",
+     "80 m",
+     "160 m"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "70 cm",
+    "commentaire_fr": "En dehors de la bande des 70 cm, le trafic satellite n'est pas autorisé (et aucun satellite n'opère sur les bandes 30, 80 et 160 m).\n",
+    "stem_zh": "用哪个波段可以联络卫星？"
+   },
+   {
+    "num": "30912",
+    "stem_fr": "QUEL RADIOAMATEUR FRANCAIS PEUT EMETTRE SUR 3,950 MHZ ?",
+    "options": [
+     "F0XYZ",
+     "FR5YZ",
+     "FM1YZ",
+     "F5XYZ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "FM1YZ",
+    "commentaire_fr": "La région 2 est autorisée à émettre sur 3,950 MHz.\nLa Guyane, Martinique, Guadeloupe en font partie.\nFM5XYZ est un indicatif d'appel de Martinique\nTrois questions en une seule...\n",
+    "stem_zh": "哪位法国业余爱好者可以在 3.950 MHz 上发射？"
+   },
+   {
+    "num": "30913",
+    "stem_fr": "* QUEL RADIOAMATEUR FRANCAIS PEUT EMETTRE SUR 1,890 MHZ ?",
+    "options": [
+     "FR5YZ",
+     "F4XYZ",
+     "FB4XYZ",
+     "FG5YZ"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "FG5YZ",
+    "commentaire_fr": "La région 2 est autorisée à émettre sur 1,890 MHz.\nLa Guyane, Martinique, Guadeloupe en font partie.\nFG4XYZ est un indicatif d'appel de Guadeloupe.\nTrois questions en une seule...\n",
+    "stem_zh": "* 哪位法国业余爱好者可以在 1.890 MHz 上发射？"
+   },
+   {
+    "num": "30904",
+    "stem_fr": "ANDE EN STATUT NON EXCLUSIF ?",
+    "options": [
+     "47,0-47,2 GHz",
+     "134-136 GHz",
+     "24,05-24,25 GHz",
+     "248-250 GHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "24,05-24,25 GHz",
+    "commentaire_fr": "A partir de 10 GHz, les bandes sont divisées en une ou plusieurs sous-bandes avec des statuts différents\n",
+    "stem_zh": "非专用业务地位的频段？"
+   },
+   {
+    "num": "30117",
+    "stem_fr": "* QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+    "options": [
+     "14,450 MHz",
+     "24,990 MHz",
+     "29,700 kHz",
+     "438 MHz"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "24,990 MHz",
+    "commentaire_fr": "ATTENTION AU PIEGE :\nLa fréquence 29,700 est en KILOHERTZ et non en MEGAHERTZ.\nCette réponse est donc fausse.\nLa bonne réponse est 24,990 MHz.\n\n2 personnes m'ont envoyé un mail en me disant qu'il y avait 2 réponses possibles. CONSEIL : Lisez bien les réponses.\n",
+    "stem_zh": "* 哪个频率是频段的边界？"
+   },
+   {
+    "num": "31205",
+    "stem_fr": "* QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+    "options": [
+     "10,100 MHz",
+     "24,168 MHz",
+     "14,250 MHz",
+     "21,450 kHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "10,100 MHz",
+    "commentaire_fr": "Attention aux unités : la limite de la bande des 21 MHz (15 mètres) est 21,450 MHz (mégahertz) et non 21,450 kHz (kilohertz)\n",
+    "stem_zh": "哪个频率是波段边界？"
+   },
+   {
+    "num": "39105",
+    "stem_fr": "* QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+    "options": [
+     "10,140 MHz",
+     "10,150 kHz",
+     "18,168 MHz",
+     "21,350 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "18,168 MHz",
+    "commentaire_fr": "Attention : 10,150 est le limite de la bande des 30 mètres.\nIci elle est stipulée en Kilohertz et non en Mégahertz.\nAttention au piège.\n",
+    "stem_zh": "哪个频率是频段界限？"
+   },
+   {
+    "num": "34978",
+    "stem_fr": "QUEL EST LE STATUT DE LA FREQUENCE 432 MHZ ?",
+    "options": [
+     "primaire",
+     "à égalité de droits",
+     "dérogatoire",
+     "secondaire  "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "secondaire  ",
+    "commentaire_fr": "La portion 430-434 MHz de la bande des 70 cm est en statut secondaire quelle que soit la région UIT.\n",
+    "stem_zh": "432 MHz 频段的业务地位是什么？"
+   }
+  ]
+ },
+ {
+  "id": "K002",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "anchor": "R32a",
+  "seclab": "R-3.2",
+  "n_q": 125,
+  "cours_fr": "R-3.2) Abréviations en code Q (annexe I de l’arrêté du 21/09/00) a Les 22 abréviations en code Q à connaître sont issues de la recommandation T/R 61-02 ( programme HAREC ). Une abréviation du code Q est formulée comme une question si elle est suivie d'un point d'interrogation. Sinon, il s'agit d'une réponse (ou d’un avis) qui peut être suivie d'une information complémentaire. ABRÉVIATION QUESTION RÉPONSE OU AVIS QRA Quel est le nom de votre station ? Le nom de ma station est ... QRG Voulez-vous m'indiquer ma fréquence exacte (ou la fréquence exacte de ...) Votre fréquence exacte (ou la fréquence exacte de ...) est de ... kHz (ou MHz) QRH Ma fréquence varie -t-elle ? Votre fréquence varie. QRK Quelle est l' intelligibilité de mes signaux (ou des signaux de …) ? L'intelligibilité de vos signaux (ou des signaux de ...) est : 1 : mauvaise ; 2 : médiocre ; 3 : assez bonne ; 4 : bonne ; 5 : excellente QRL Êtes-vous occupé ? Je suis occupé (avec…). Prière de ne pas brouiller QRM Êtes-vous brouillé ? Je suis brouillé : 1 : Je ne suis nullement brouillé ; 2 : faiblement ; 3 : modérément ; 4 : fortement ; 5 : très fortement QRN Êtes-vous troublé par des parasites ? Je suis troublé par des parasites : 1 : Je ne suis nullement troublé par des parasites ; 2 : faiblement ; 3 : modérément ; 4 : fortement ; 5 : très fortement QRO Dois-je augmenter la puissance d'émission ? Augmentez la puissance d'émission. QRP Dois-je diminuer la puissance d'émission ? Diminuez la puissance d'émission. QRT Dois-je cesser la transmission ? Cessez la transmission. QRU Avez-vous quelque chose pour moi ? Je n'ai rien [pas de messages] pour vous. QRV Êtes-vous prêt ? Je suis prêt QRX À quel moment me rappellerez -vous ? Je vous rappellerai à ... h (sur ... kHz [ou MHz]). QRZ Par qui suis-je appelé ? Vous êtes appelé par ... sur ... kHz (ou MHz). QSA Quelle est la force de mes signaux (ou des signaux de ...) ? La force de vos signaux (ou des signaux de ...) est : 1 : à peine perceptible ; 2 : faible ; 3 : assez bonne ; 4 : bonne ; 5 : très bonne QSB La force de mes signaux varie -t-elle ? La force de vos signaux varie. QSL Pouvez-vous me donner accusé de réception ? Je vous donne accusé de réception QSO Pouvez-vous communiquer avec ... directement (ou par relais) ? Je puis communiquer avec ... directement (ou par l'intermédiaire de ...). QSP Voulez-vous retransmettre à ... gratuitement ? Je peux retransmettre à ... gratuitement. QSY Dois-je passer à la transmission sur une autre fréquence ? Passez à la transmission sur une autre fréquence (ou sur ... kHz [ou MHz]). QTH Quelle est votre posit",
+  "samples": [
+   {
+    "num": "31233",
+    "stem_fr": "COMMENT TRADUIT-ON : JE VOUS RAPPELE A 15 HEURES ?",
+    "options": [
+     "QRZ 15",
+     "QSA 15",
+     "QRV 15",
+     "QRX 15"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "QRX 15",
+    "commentaire_fr": "On pourrait dire aussi QRX15H00\n",
+    "stem_zh": "如何翻译：我 15 点再呼你？"
+   },
+   {
+    "num": "70048",
+    "stem_fr": "COMMENT TRADUIT-ON : JE VOUS RAPPELE A 15 HEURES ?",
+    "options": [
+     "QRZ 15",
+     "QSA 15",
+     "QRV 15",
+     "QRX 15"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "QRX 15",
+    "commentaire_fr": "On pourrait dire aussi QRX15H00\n",
+    "stem_zh": "「我 15 点再呼叫你」应译成什么？"
+   },
+   {
+    "num": "70037",
+    "stem_fr": "QUELLE EST L'ABREVIATION DE CE CODE Q ?\n\nQUELLE EST LA FORCE DE MES SIGNAUX (OU DES SIGNAUX DE...)",
+    "options": [
+     "QSB",
+     "QRO",
+     "QRP",
+     "QSA"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "QSA",
+    "commentaire_fr": "Attention à la signification de QSA qui n'est pas celle en usage chez les radioamateurs.\n",
+    "stem_zh": "这个 Q 简语的缩写是什么？ 我的信号（或……的信号）强度如何？"
+   },
+   {
+    "num": "34756",
+    "stem_fr": "QUE SIGNIFIE \"QSP\"",
+    "options": [
+     "je peux communiquer avec ...",
+     "je peux retransmettre à… ",
+     "Diminuez votre puissance",
+     "Augmentez votre puissance"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "je peux retransmettre à… ",
+    "commentaire_fr": "Le code \"officiel\" est \"je peux retransmettre à…  gratuitement\". Bien entendu, cette signification ne se comprend que dans un cadre professionnel où les communications sont facturées au destinataire final du message.\n",
+    "stem_zh": "「QSP」表示什么？"
+   },
+   {
+    "num": "70026",
+    "stem_fr": "QUELLE EST L'ABREVIATION DE CE CODE Q ?\n\nQUELLE EST L'INTELLIGIBILITE DE MES SIGNAUX (OU DES SIGNAUX DE...) ?",
+    "options": [
+     "QRH",
+     "QRN",
+     "QRK",
+     "QSL"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "QRK",
+    "commentaire_fr": "Attention à la signification de QRK qui n'est pas celle en usage chez les radioamateurs.\n",
+    "stem_zh": "这个 Q 简语的缩写是什么？ 我的信号（或……的信号）可辨度如何？"
+   },
+   {
+    "num": "34528",
+    "stem_fr": "* QUEL EST LE CODE POUR : \"QRU\"",
+    "options": [
+     "Je n'ai plus rien pour vous",
+     "Avez-vous quelque chose pour moi ?",
+     "La force de mes signaux varie-t-elle ?",
+     "Dois-je cesser la transmission ?"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Je n'ai plus rien pour vous",
+    "commentaire_fr": "Il n’y a pas de point d’interrogation, c’est donc une réponse ou un avis mais pas une question.\n",
+    "stem_zh": "「QRU」表示什么？"
+   },
+   {
+    "num": "34801",
+    "stem_fr": "SIGNIFICATION DU CODE \" QRX 15 \"",
+    "options": [
+     "je vous rappellerai sur la bande des 15 mètres",
+     "je vous rappellerai le 15 du mois prochain",
+     "je vous rappellerai à 15 heures ",
+     "je vous rappellerai dans 15 jours"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "je vous rappellerai à 15 heures ",
+    "commentaire_fr": "Le texte officiel donne la définition pour la réponse à QRX : \"Je vous rappellerai à … heures \"\n",
+    "stem_zh": "代码「QRX 15」的含义"
+   },
+   {
+    "num": "36444",
+    "stem_fr": "QUEL EST LE CODE POUR : \"QRP\"",
+    "options": [
+     "Dois-je augmenter la puissance d'émission ? ",
+     "La force de mes signaux varie-t-elle",
+     "Diminuez votre puissance d'émission",
+     "Pouvez-vous me donner accusé de réception ?"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Diminuez votre puissance d'émission",
+    "commentaire_fr": "Il n'y a pas de point d'interrogation, ce n'est donc pas une question mais une réponse ou un avis\n",
+    "stem_zh": "「QRP」表示什么？"
+   },
+   {
+    "num": "70015",
+    "stem_fr": "QUEL EST LE CODE POUR QSA.",
+    "options": [
+     "Quelle est la force de mes signaux (ou des signaux de...) ?",
+     "Quel est le nom de votre station ?",
+     "La force de mes signaux varie-t-elle ?",
+     "Pouvez-vous me donner accusé de réception ?"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Quelle est la force de mes signaux (ou des signaux de...) ?",
+    "commentaire_fr": "Attention à la signification de QSA qui n'est pas celle en usage chez les radioamateurs.\n",
+    "stem_zh": "「QSA」表示什么？"
+   },
+   {
+    "num": "70006",
+    "stem_fr": "QUEL EST LE CODE POUR QRK.",
+    "options": [
+     "Dois-je augmenter la puissance d'émission ?",
+     "Quelle est l'intelligibilité de mes signaux (ou des signaux de...) ?",
+     "Dois-je diminuer la puissance d'émission ?",
+     "Dois-je cesser la transmission ?"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Quelle est l'intelligibilité de mes signaux (ou des signaux de...) ?",
+    "commentaire_fr": "Attention à la signification de QRK qui n'est pas celle en usage chez les radioamateurs.\n",
+    "stem_zh": "「QRK」表示什么？"
+   }
+  ]
+ },
+ {
+  "id": "K003",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "anchor": "R47b",
+  "seclab": "R-4.7",
+  "n_q": 117,
+  "cours_fr": "R-4.7) Utilisation de l’autorisation d’émettre dans les pays de la CEPT : les radioamateurs originaires des pays appliquant la recommandation T/R 61-01 ou des pays ayant signé un accord d’Etat à Etat avec la France peuvent trafiquer en France pour un séjour de moins de 3 mois sans formalité. L'indicatif utilisé sera formé du préfixe français selon la localisation géographique (F, FY, TK, etc.) suivi d'une barre de fraction, de l’indicatif personnel du pays d’origine et du suffixe /P ou /M (art 7-2 de l’arrêté du 21/09/00 modifié). Exemple : F/I9AAA/P est une station italienne émettant depuis un hôtel à Paris. De même, pour les radioamateurs français titulaires d'une autorisation d’émettre de classe 1 ou 2 se déplaçant pour un séjour de moins de 3 mois dans un pays appliquant la recommandation CEPT T/R 61-01, l'indicatif utilisé sera formé du préfixe du pays visité suivi d'une barre de fraction, de son indicatif d’appel français et du suffixe /P ou /M selon le cas (§",
+  "samples": [
+   {
+    "num": "30330",
+    "stem_fr": "* QUEL EST L'IDENTIFIANT DE LA SUISSE ?",
+    "options": [
+     "HB9",
+     "HBØ",
+     "SU",
+     "SI"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "HB9",
+    "commentaire_fr": "Attention : HB9 = Suisse et HB0 = Liechtenstein\n",
+    "stem_zh": "* 瑞士的呼号标识是什么？"
+   },
+   {
+    "num": "30331",
+    "stem_fr": "* QUEL PREFIXE NE FAIT PAS PARTIE DE L'UNION EUROPEENNE ?",
+    "options": [
+     "ON",
+     "PA",
+     "HB9",
+     "DO"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "HB9",
+    "commentaire_fr": "ON = Belgique\nPA = Pays Bas\nHB9 = Suisse - rappel : la Suisse ne fait pas partie de l'UE (Union Européenne)\nDO = Allemagne\n",
+    "stem_zh": "* 哪个呼号前缀不属于欧盟？"
+   },
+   {
+    "num": "30782",
+    "stem_fr": "QUEL EST L'ORGANISME QUI UTILISE LE PREFIXE \"4U\"?",
+    "options": [
+     "ANFR",
+     "OMC",
+     "ONU ",
+     "Union Européenne "
+    ],
+    "ans_idx": 2,
+    "ans_fr": "ONU ",
+    "commentaire_fr": "L’ONU n’est pas un pays européen mais une ONG qui bénéficie d’un préfixe spécial. L'UIT, en tant que \"filiale\" de l'ONU, utilise régulièrement ce préfixe. L'UIT a son siège à Genève.\n",
+    "stem_zh": "哪个机构使用前缀「4U」？"
+   },
+   {
+    "num": "36321",
+    "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR UA.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+    "options": [
+     "Russie",
+     "Allemagne",
+     "Uruguay",
+     "Turquie"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Russie",
+    "commentaire_fr": "Le préfixe peut être aussi la lettre R\n",
+    "stem_zh": "您联络到一位呼号前缀以 UA 开头的业余爱好者。他来自哪个国家？"
+   },
+   {
+    "num": "31987",
+    "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR MJ.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+    "options": [
+     "Angleterre",
+     "Jersey",
+     "Moldavie",
+     "Monaco"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Jersey",
+    "commentaire_fr": "Le préfixe peut commencer également par G.\n",
+    "stem_zh": "您联络到一位呼号前缀以 MJ 开头的业余爱好者。他来自哪个国家（地区）？"
+   },
+   {
+    "num": "38300",
+    "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR M.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+    "options": [
+     "Jersey",
+     "Ile de Man",
+     "Angleterre",
+     "Ecosse"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Angleterre",
+    "commentaire_fr": "Pour l'Angleterre, l'OFCOM (équivalent de l'ARCEP) a aussi attribué des indicatifs commençant par G.\n",
+    "stem_zh": "您联络到一位呼号前缀以 M 开头的业余爱好者。他来自哪个国家（地区）？"
+   },
+   {
+    "num": "34001",
+    "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR MM.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+    "options": [
+     "Ile de Man",
+     "Ecosse",
+     "Jersey",
+     "Pays de Galles"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Ecosse",
+    "commentaire_fr": "Le préfixe peut commencer également par G.\n",
+    "stem_zh": "你联系到一位呼号以 MM 开头的爱好者。他是哪国人？"
+   },
+   {
+    "num": "33001",
+    "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR MD.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+    "options": [
+     "Jersey",
+     "Angleterre",
+     "Pays de Galles",
+     "Ile de Man"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Ile de Man",
+    "commentaire_fr": "Le préfixe peut commencer également par G.\n",
+    "stem_zh": "你联系到一位呼号以 MD 开头的爱好者。他是哪国人？"
+   },
+   {
+    "num": "30158",
+    "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR MU.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+    "options": [
+     "Irlande sur Nord",
+     "Guernesey",
+     "Ile de Man",
+     "Pays de Galles"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Guernesey",
+    "commentaire_fr": "Le préfixe peut commencer également par G.\n",
+    "stem_zh": "* 你联络到一位呼号前缀以 MU 开头的业余爱好者。他来自哪个国家？"
+   },
+   {
+    "num": "30323",
+    "stem_fr": "* QUE SIGNIFIE L'INDICATIF SUIVANT : F/ON4AS/P",
+    "options": [
+     "c'est un indicatif du Japon",
+     "c'est un indicatif des Etats-unis",
+     "c'est un indicatif d'un pays de l' UE",
+     "c'est un indicatif qui n'existe pas"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "c'est un indicatif d'un pays de l' UE",
+    "commentaire_fr": "C'est un radioamateur Belge qui émet en France.\nDonc c'est un indicatif de l'UE (Union Européenne)\n",
+    "stem_zh": "* 下面这个呼号表示什么：F/ON4AS/P"
+   }
+  ]
+ },
+ {
+  "id": "K004",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "anchor": "R12a",
+  "seclab": "R-1.2",
+  "n_q": 115,
+  "cours_fr": "R-1.2) Les classes d'émission sont définies dans l’appendice A1 du RR par 3 caractères comme ci-dessous : 1 ère lettre - modulation de la porteuse Chiffre - signal modulant 2 è lettre - information transmise A Amplitude (double bande latérale) B Amplitude (bandes latérales indépendantes) C Amplitude (bande latérale résiduelle) D Amplitude et angulaire F Angulaire – Fréquence G Angulaire – Phase H Amplitude-BLU porteuse complète J Amplitude-BLU porteuse supprimée R Amplitude-BLU porteuse réduite K, L, M, P, Q et V Trains d’impulsions W Combinaisons et cas non couverts ci-dessus N Porteuse non modulée 1 Une seule voie sans sous porteuse modulante (tout ou rien) 2 Une seule voie avec sous porteuse modulante 3 Analogique 7 Numérique (plusieurs voies) 8 Analogique (plusieurs voies) 9 Analogique et numérique (une ou plusieurs voies de chaque) 0 Pas de signal modulant X Autres cas A Télégraphie auditive B Télégraphie automatique C Fac-similé (image fixe) D Transmission de données E Téléphonie F Télévision (vidéo) N Aucune information W Combinaison des cas ci-dessus X Autres cas La définition d’une classe d'émission commence par le type d’information (deuxième lettre, 3 ème caractère), puis la modulation de la porteuse est indiquée (première lettre, 1 er caractère) et enfin la nature du signal modulant est précisée (chiffre, 2 nd caractère) si celui-ci n’est pas « analogique » : la téléphonie ne peut être qu’analogique ; par contre, la télégraphie auditive peut ou non utiliser une sous-porteuse modulante contenant l’information. Les définitions indiquées en italique dans le tableau ci-dessus ne sont pas utilisées par les radioamateurs. Avant mars 2013, la combinaison de différents types de modulation ou d’information transmise n’était pas autorisée. Par exemple, émettre en QAM (modulation d’amplitude en quadrature, code D) ou transmettre des données en même temps que la voix de l’opérateur (code W) nécessitait une autorisation individuelle de l’ARCEP (émissions expérimentales et temporaires). Ci-dessous, quelques précisions sur les classes d’émission : - Le RR a prévu des informations complémentaires mais elles ne sont pas utilisées par les radioamateurs : o la largeur de bande nécessaire est codée par un préfixe composé de 3 chiffres et 1 lettre et commence par un chiffre compris entre 1 et 9. La lettre (G pour GHz, M pour MHz, K pour kHz et H pour Hz) remplace la virgule décimale : 90 Hz = 90H0, 400 Hz = 400H, 2,7 kHz = 2K70 et 6 MHz = 6M00. Le code ayant 4 caractères, les nombres seront arrondis si nécessaire : 15,84 GHz = 15G8 et 15,85 GHz = 15G9 o des détai",
+  "samples": [
+   {
+    "num": "34777",
+    "stem_fr": "SYMBOLE POUR LA TELEVISION ?",
+    "options": [
+     "F",
+     "E",
+     "T",
+     "V"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "F",
+    "commentaire_fr": "Les symboles T et V ne sont pas utilisés. Le symbole E est utilisé pour la téléphonie.\n",
+    "stem_zh": "电视使用哪个符号？"
+   },
+   {
+    "num": "30432",
+    "stem_fr": "QUELLE EST LA CLASSE D'EMISSION EN TELEVISION ?",
+    "options": [
+     "A3E",
+     "J3E",
+     "F3F",
+     "A1A"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "F3F",
+    "commentaire_fr": "Le type d'information transmise est le dernier caractère de la classe d'émission. La télévision est codée F\n",
+    "stem_zh": "电视用的发射类别是什么？"
+   },
+   {
+    "num": "34824",
+    "stem_fr": "QUELLE EST LA CLASSE D'EMISSION EN TELEPHONIE ?",
+    "options": [
+     "A3E",
+     "A3C",
+     "A1A",
+     "F3F"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "A3E",
+    "commentaire_fr": "Pour coder une classe d'émission en téléphonie, on utilise la lettre E en dernière position.\n",
+    "stem_zh": "话务（电话）的发射类别是什么？"
+   },
+   {
+    "num": "30327",
+    "stem_fr": "QUELLE CLASSE D'EMISSION NE PEUT ETRE UTILISEE ?",
+    "options": [
+     "G3A",
+     "F2D",
+     "A1A",
+     "A2A"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "G3A",
+    "commentaire_fr": "Depuis mars 2013, toutes les classes d'émission peuvent être utilisée sauf ... celles qui n'existent pas ! (et sauf pour les opérateurs de classe 3 qui n'ont droit qu'aux 6 classes d'émission définies par la réglementation antérieure à 2012). La classe G3A fait partie de ces classes que l'on ne peut utiliser car il y a incompatibilité entre le code 3 (signal analogique) et le code A (télégraphie manuelle) : avec le code A, on ne peut avoir, en 2ème position tous les codes sauf le 3 et le 8 (signaux analogiques sur 1 ou plusieurs voies)\n",
+    "stem_zh": "哪种发射类别不能使用？"
+   },
+   {
+    "num": "34672",
+    "stem_fr": "QUEL EST LE CODE UTILISE POUR UNE TRANSMISSION DE VIDEO?",
+    "options": [
+     "E",
+     "V",
+     "T",
+     "F"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "F",
+    "commentaire_fr": "Le type d'information transmise est codé par la dernière lettre de la classe d'émission. La transmission de vidéo (télévision) est codée F\n",
+    "stem_zh": "视频传输使用哪个代码？"
+   },
+   {
+    "num": "30426",
+    "stem_fr": "QUEL SYMBOLE DESIGNE UNE EMISSION EN DOUBLE BANDE LATERALE ?",
+    "options": [
+     "D",
+     "3",
+     "E",
+     "A"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "A",
+    "commentaire_fr": "On parle ici d'un type de modulation (1ère lettre de la codification d'une classe d'émission). La double bande latérale est une classe d'émission en modulation d'amplitude et est codée A\n",
+    "stem_zh": "哪个符号表示双边带发射？"
+   },
+   {
+    "num": "34929",
+    "stem_fr": "CODIFICATION DE LA TELEGRAPHIE, MODULATION AMPLITUDE, SANS SOUS PORTEUSE MODULANTE",
+    "options": [
+     "A2A",
+     "A2B",
+     "A1B",
+     "J3E"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "A1B",
+    "commentaire_fr": "Sans complément d'information sur le type de télégraphie (auditive ou automatique ?), seule la réponse « A1B » peut convenir, A2x signifiant « modulation d'amplitude avec sous porteuse modulante »\n",
+    "stem_zh": "电报、调幅、不使用调制副载波的编码"
+   },
+   {
+    "num": "30427",
+    "stem_fr": "QUEL TYPE DE MODULATION EST NOTE A1B ?",
+    "options": [
+     "BLU",
+     "Télégraphie",
+     "Modulation de Fréquence",
+     "Modulation d’amplitude "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Modulation d’amplitude ",
+    "commentaire_fr": "Attention au piège : on ne demande pas le type d'information transmise (télégraphie automatique) mais le type de modulation de l'émission (amplitude).\n",
+    "stem_zh": "A1B 标注的是哪种调制方式？"
+   },
+   {
+    "num": "34881",
+    "stem_fr": "QUELLE EST LA CLASSE D'EMISSION POUR \"MODULATION D'AMPLITUDE A DOUBLE BANDE LATERALE\"?",
+    "options": [
+     "B2F",
+     "A1F",
+     "D3E",
+     "J7B"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "A1F",
+    "commentaire_fr": "Le type de modulation est le premier caractère du code et la lettre A correspond à la définition demandée\n",
+    "stem_zh": "「双边带调幅」的发射类别是什么？"
+   },
+   {
+    "num": "34772",
+    "stem_fr": "QUELLE EST LA LETTRE CORRESPONDANT A DE LA MODULATION D'AMPLITUDE BLU AVEC PORTEUSE SUPPRIMEE ?",
+    "options": [
+     "H",
+     "R",
+     "A",
+     "J"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "J",
+    "commentaire_fr": "Les autres codes proposés sont :\nH = AM, BLU avec porteuse non supprimée\nR = AM, BLU avec porteuse réduite\nA = AM avec double bande latérale\n",
+    "stem_zh": "调幅单边带、载波抑制对应哪个字母？"
+   }
+  ]
+ },
+ {
+  "id": "K005",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "anchor": "R31",
+  "seclab": "R-3.1",
+  "n_q": 101,
+  "cours_fr": "R-3.1) Table d'épellation international : (annexe I de l’arrêté du 21/09/00) La table d’épellation des lettres étant internationale, ce sont l’orthographe et la prononciation anglaise des mots qui sont utilisées. Toutefois, le texte français donne, pour la lettre Z, l’orthographe française (Zoulou) alors que les textes internationaux et européens utilisent l’orthographe anglaise (Zulu). A ALFA D DELTA G GOLF J JULIETT M MIKE P PAPA S SIERRA V VICTOR Y YANKEE B BRAVO E ECHO H HOTEL K KILO N NOVEMBER Q QUEBEC T TANGO W WHISKEY Z ZOULOU (zulu) C CHARLIE F FOX-TROT I INDIA L LIMA O OSCAR R ROMEO U UNIFORM X X-RAY Exemple : Comment épelle-t-on « F5PTC » ? Réponse : Foxtrot 5 Papa Tango Charlie Cette table d’épellation (Appendice A14 du RR) a été adoptée par l’UIT en 1956. Auparavant, les analogies d’épellation des lettres avaient été définies dès 1927 lors de la conférence de Washington. Ces analogies correspondaient à des noms de villes ou de pays : Amsterdam pour A, Baltimore pour B, Canada pour C, etc. Seul le Q de Quebec a été repris dans la nouvelle table d’épellation. Il existe aussi une table d’épellation des chiffres qui n’a pas à être connue pour l’examen et qui est peu utilisée par les radioamateurs.",
+  "samples": [
+   {
+    "num": "30025",
+    "stem_fr": "EN ALPHABET PHONETIQUE, COMMENT EPPELLE-T-ON LA LETTRE R ?",
+    "options": [
+     "Radio",
+     "Romeo",
+     "Richard",
+     "Rome"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Romeo",
+    "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+    "stem_zh": "用字母解释法表，字母 R 怎么读？"
+   },
+   {
+    "num": "30539",
+    "stem_fr": "EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES B ET Y ?",
+    "options": [
+     "Boston, Yankee",
+     "Bravo, Yokohama",
+     "Baltimore, Yokohama",
+     "Bravo, Yankee"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Bravo, Yankee",
+    "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+    "stem_zh": "用国际字母解释法表，字母 B 和 Y 怎么读？"
+   },
+   {
+    "num": "32127",
+    "stem_fr": "EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES E ET V ?",
+    "options": [
+     "Echo et Victor",
+     "Echo et Victoire",
+     "Echo et Victoria",
+     "Emile et Victor"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Echo et Victor",
+    "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+    "stem_zh": "在国际拼读字母表中，字母 E 和 V 怎么拼读？"
+   },
+   {
+    "num": "30111",
+    "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES I ET R ?",
+    "options": [
+     "India et Romeo",
+     "Italie et Romeo",
+     "Italie et Russia",
+     "Italie et Radio"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "India et Romeo",
+    "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+    "stem_zh": "* 用国际字母解释法表，字母 I 和 R 怎么读？"
+   },
+   {
+    "num": "30400",
+    "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES A ET Z ?",
+    "options": [
+     "Amérique, Zoulou",
+     "Alfa, Zoulou",
+     "Amérique, Zanzibar",
+     "América, Zoulou"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Alfa, Zoulou",
+    "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+    "stem_zh": "* 用国际字母解释法表，字母 A 和 Z 怎么读？"
+   },
+   {
+    "num": "30141",
+    "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES L ET O ?",
+    "options": [
+     "Lima et Oscar",
+     "Londres et Oscar",
+     "Londres et Ontario",
+     "Lima et Ontario"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Lima et Oscar",
+    "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+    "stem_zh": "* 用国际字母解释法表，字母 L 和 O 怎么读？"
+   },
+   {
+    "num": "30002",
+    "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES G ET T ?",
+    "options": [
+     "Guatémala et Tango",
+     "Golf et Tokyo",
+     "Galaxy et Tanganika",
+     "Golf et Tango"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Golf et Tango",
+    "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+    "stem_zh": "* 用国际字母解释法表，字母 G 和 T 怎么读？"
+   },
+   {
+    "num": "30348",
+    "stem_fr": "EN ALPHABET PHONETIQUE, COMMENT EPPELLE T'ON LES LETTRES C ET X ?",
+    "options": [
+     "Canada, Xylophone",
+     "Charlie, Xylophone",
+     "Charlie, X-ray",
+     "Charlie, Xavier"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Charlie, X-ray",
+    "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+    "stem_zh": "用国际字母解释法表，字母 C 和 X 怎么读？"
+   },
+   {
+    "num": "30071",
+    "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES D ET W ?",
+    "options": [
+     "Danemark et Whiskey",
+     "Dany et Whiskey",
+     "Delta et Whiskey",
+     "Delta et Wally"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Delta et Whiskey",
+    "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+    "stem_zh": "* 用国际字母解释法表，字母 D 和 W 怎么读？"
+   },
+   {
+    "num": "30121",
+    "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES J ET Q ?",
+    "options": [
+     "Japon et Quebec",
+     "Juliett et Quebec",
+     "Juliett et Quatar",
+     "Japon et Quatar"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Juliett et Quebec",
+    "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+    "stem_zh": "* 用国际字母解释法表，字母 J 和 Q 怎么读？"
+   }
+  ]
+ },
+ {
+  "id": "K006",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "anchor": "R46a",
+  "seclab": "R-4.6",
+  "n_q": 83,
+  "cours_fr": "R-4.6) Formation des indicatifs d’appel : tous les indicatifs d’appel français sont formés selon les règles de la disposition S19-68 du RR et de l’annexe 4 (grille de codification des indicatifs des services d’amateur) de l’arrêté du 21/09/00 modifié. L’ adresse déclarée de la station détermine son préfixe (voir aussi §",
+  "samples": [
+   {
+    "num": "30181",
+    "stem_fr": "* QUEL EST LE SUFFIXE D'UNE BALISE ?",
+    "options": [
+     "Bxx",
+     "Yxx",
+     "Zxx",
+     "Xxx"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Zxx",
+    "commentaire_fr": "Jusqu'en 2009, la série XAA à XZZ était réservée aux balises (les indicatifs d'appel attribués aux balises avant 2009 continuent d'être utilisés). Depuis 2009, cette série est en réserve et peut être attribuée si le besoin est constaté par l'Administration.\n",
+    "stem_zh": "* 信标台的呼号后缀是什么？"
+   },
+   {
+    "num": "30512",
+    "stem_fr": "RETROUVEZ UN INDICATIF DE CLASSE 2",
+    "options": [
+     "F5XYZ",
+     "F1XYZ",
+     "FØXYZ",
+     "F6XYZ"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "F1XYZ",
+    "commentaire_fr": "F0 = classe 3 (depuis 2012 aucun nouvel indicatif d'appel sous cette forme n'a été attribué)\nF5 et F6 = classe 1 (qui, depuis 2012, ont été reclassés en \"classe unique\" avec les opérateurs de classe 2)\n",
+    "stem_zh": "找出一个 2 类呼号"
+   },
+   {
+    "num": "32325",
+    "stem_fr": "LEQUEL DES 4 PREFIXES EST UN PREFIXE FIXE ET TEMPORAIRE A LA FOIS ?",
+    "options": [
+     "TK",
+     "TM",
+     "TO",
+     "FX"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "TK",
+    "commentaire_fr": "Le préfixe TK est utilisé pour les indicatifs d'appel individuel en Corse et pour les stations temporaires (les \"indicatifs spéciaux\") dont l'activité est déclarée en Corse.\n",
+    "stem_zh": "以下 4 个前缀中，哪一个既是固定前缀又是临时前缀？"
+   },
+   {
+    "num": "30650",
+    "stem_fr": "* UN RADIO-CLUB DE GUADELOUPE AURA UN INDICATIF DE TYPE :",
+    "options": [
+     "FGKXY",
+     "FG5XY",
+     "FG5KY",
+     "FG0FXY"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "FG5KY",
+    "commentaire_fr": "Il n’y a que deux lettres au suffixe pour les DOM-TOM et la Corse.\nDe plus, la première lettre du suffixe d’un club est K.\n",
+    "stem_zh": "* 瓜德罗普的一个业余无线电俱乐部将使用什么类型的呼号："
+   },
+   {
+    "num": "30523",
+    "stem_fr": "* DE QUELLE REGION FONT PARTIE LES T.A.A.F ?",
+    "options": [
+     "Région 1",
+     "Région 2",
+     "Région 3",
+     "Régions 1 et 3"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Régions 1 et 3",
+    "commentaire_fr": "Les Terres Australes et Antarctiques Françaises (TAAF) sont situées en région 1 (Crozet et îles Eparses) et en région 3 (Kerguelen, St Paul & Amsterdam, Terre Adélie)\n",
+    "stem_zh": "* 法属南方和南极领地（T.A.A.F.）属于哪些区？"
+   },
+   {
+    "num": "31038",
+    "stem_fr": "RETROUVEZ L'INDICATIF D'UN RADIO-CLUB DE FRANCE METROPOLITAINE ?",
+    "options": [
+     "F6KSO",
+     "FK6KU",
+     "F6WRT",
+     "F5XBU"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "F6KSO",
+    "commentaire_fr": "Le suffixe d'un radio-club commence toujours par un K pour la France continentale et les DROM-COM (ex-DOM/TOM), ce qui exclut deux réponses. \nLa France métropolitaine est constituée de la France Continentale et de la Corse. Le préfixe de la France Continentale est F et celui de la Corse est TK\n",
+    "stem_zh": "找出一个法国本土业余无线电俱乐部的呼号？"
+   },
+   {
+    "num": "32545",
+    "stem_fr": "* QUEL EST L'INDICATIF D'UN RADIOAMATEUR CORSE DE L'EX CLASSE 1 ?",
+    "options": [
+     "FCE6XY",
+     "TK5XY",
+     "TK4XY",
+     "FTK6XY"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "TK5XY",
+    "commentaire_fr": "Corse : TK\nClasse 1 : chiffre 5 en troisième position\n",
+    "stem_zh": "原 1 类的科西嘉业余爱好者的呼号是什么样的？"
+   },
+   {
+    "num": "30773",
+    "stem_fr": "QUEL EST L'INDICATIF D'APPEL D'UN OPERATEUR DE CLASSE \"HAREC\" DANS LES DOM ?",
+    "options": [
+     "Fx0xy",
+     "Fx4xy",
+     "Fx1xy",
+     "Fx7xy"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Fx1xy",
+    "commentaire_fr": "Le chiffre 4 est réservé aux opérateurs de classe HAREC en France Continentale uniquement. Le chiffre 0 était attribué aux opérateurs de classe 3. Le chiifre 7 n'est pas attribué. L'indicatif Fx5xy est aussi une bonne réponse, non proposée ici.\n",
+    "stem_zh": "在海外省（DOM），「HAREC」类操作员的呼号是什么形式？"
+   },
+   {
+    "num": "31232",
+    "stem_fr": "COMMENT EST QUALIFIE UN INDICATIF DE TYPE F4ABC ?",
+    "options": [
+     "Temporaire",
+     "De plein droit",
+     "Personnel",
+     "Indicatif de Radio Club"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Personnel",
+    "commentaire_fr": "Je répondrai \"personnel\" bien que la bonne réponse soit plutôt \"individuel\". Je ne vois pas trop ce qu'entend l'ANFR quand elle écrit \"de plein droit\". En tout cas, ce n'est pas un indicatif temporaire.\n",
+    "stem_zh": "形如 F4ABC 的呼号属于什么性质？"
+   },
+   {
+    "num": "34746",
+    "stem_fr": "PAYS D'UN INDICATIF COMMENCANT PAR FO ?",
+    "options": [
+     "Réunion",
+     "Iles de l’Océan Indien",
+     "Polynésie Française ",
+     "France Continentale"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Polynésie Française ",
+    "commentaire_fr": "Attention à ne pas confondre FO (Polynésie) et F0 (classe 3 attribuée en France Continentale jusqu'en 2012)\n",
+    "stem_zh": "以 FO 开头的呼号属于哪个国家（地区）？"
+   }
+  ]
+ },
+ {
+  "id": "K007",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 72,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "20223",
+    "stem_fr": "TYPE DE MODULATION RECEPTEUR",
+    "options": [
+     "BLU",
+     "FM",
+     "AM",
+     "CW"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "AM",
+    "commentaire_fr": "le détecteur d’enveloppe démodule de l’AM.\n",
+    "stem_zh": "接收机的调制类型"
+   },
+   {
+    "num": "21206",
+    "stem_fr": "FREQUENCE DE L'OL",
+    "options": [
+     "18 MHz",
+     "2 MHz",
+     "5 MHz",
+     "30 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "5 MHz",
+    "commentaire_fr": "fréquence de l'OL = FI - HF = 13-18 = 5 (ou -5 mais une fréquence ne peut pas être négative)\nu HF + FI = 18+13 = 31 (pas dans les réponses proposées)\n",
+    "stem_zh": "本机振荡器（OL）的频率"
+   },
+   {
+    "num": "20228",
+    "stem_fr": "TYPE DE MODULATION RECEPTEUR",
+    "options": [
+     "FM",
+     "AM",
+     "BLU",
+     "modulation de phase"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "BLU",
+    "commentaire_fr": "Mélangeur de produit + BFO = récepteur BLU (ou CW mais ne faisait pas partie des réponses proposées)\n",
+    "stem_zh": "接收机的调制类型是什么？"
+   },
+   {
+    "num": "21207",
+    "stem_fr": "QUELLE SERA LA FREQUENCE IMAGE ?",
+    "options": [
+     "5 MHz",
+     "10 MHz",
+     "15 MHz",
+     "20 MHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "5 MHz",
+    "commentaire_fr": "Il s’agit d’un récepteur infradyne (HF>FI) avec FI>FO, on applique donc la formule Fim = HF – 2.FO\nFim = 15 – (2 x 5) = 15 – 10 = 5 MHz\nOn peut aussi utiliser une méthode « par tâtonnements » avec les 4 réponses proposées : avec la réponse 10 MHz, la FI aura pour valeur 5  et 15 MHz ; la réponse 15 MHz est la valeur de la fréquence à recevoir et ne peut donc pas être la fréquence image ; avec la réponse 20 MHz, la FI aura pour valeur 15 et 25 MHz. Seule la réponse 5 MHz done une solution cohérente avec une FI de 10 MHz. \n",
+    "stem_zh": "镜像频率将是多少？"
+   },
+   {
+    "num": "21208",
+    "stem_fr": "QUELLE PEUT ETRE LA FREQUENCE DE LA FI ?",
+    "options": [
+     "8 MHz",
+     "23 MHz",
+     "15 MHz",
+     "18 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "15 MHz",
+    "commentaire_fr": "FI = HF + VFO ou HF - VFO\n     23 +  8  ou 23 -  8\n         31     ou     15\n",
+    "stem_zh": "中频（FI）可能是多少？"
+   },
+   {
+    "num": "20153",
+    "stem_fr": "FREQUENCE INTERMEDIAIRE EN SORTIE",
+    "options": [
+     "650 kHz ",
+     "450 kHz ",
+     "1 300 kHz",
+     "1 100 MHz"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "450 kHz ",
+    "commentaire_fr": "1,1 MHz = 1 100 kHz ; en sortie, on a 1100 + 650 = 1750 kHz et 1100 – 650 = 450 kHz\n",
+    "stem_zh": "输出端的中频"
+   },
+   {
+    "num": "20154",
+    "stem_fr": "FREQUENCE INTERMEDIAIRE EN SORTIE",
+    "options": [
+     "1 300 kHz ",
+     "650 kHz ",
+     "350 kHz",
+     "1 100 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "350 kHz",
+    "commentaire_fr": "1 MHz = 1 000 kHz ; en sortie, on a 1 000 + 650 = 1 650 kHz et 1 000 – 650 = 350 kHz\n",
+    "stem_zh": "输出端的中频"
+   },
+   {
+    "num": "20227",
+    "stem_fr": "QUE DEMODULE-T-ON AVEC UN DISCRIMATEUR ?",
+    "options": [
+     "de la CW",
+     "de l’AM",
+     "de la BLU",
+     "de la FM"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "de la FM",
+    "commentaire_fr": "on détecte (ou on démodule) de la FM ou de la modulation de phase (PM), les deux étant appelés communément modulation angulaire\n",
+    "stem_zh": "用鉴频器解调什么？"
+   },
+   {
+    "num": "22478",
+    "stem_fr": "SUR QUELLE VUE D'OSCILLOSCOPE EST REPRESENTE UNE TRANSMISSION EN A1A ?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "3",
+    "commentaire_fr": "Il s'agit de la figure N°3.\nLa classe d'émission A1A est la transmission par tout ou rien du code Morse. On note que l'amplitude des signaux représentant les points et les traits est constante.\n",
+    "stem_zh": "哪一个示波器波形显示的是 A1A 方式的发射？"
+   },
+   {
+    "num": "22479",
+    "stem_fr": "SUR QUELLE VUE D'OSCILLOSCOPE EST REPRESENTE UNE TRANSMISSION EN A3E ?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "4",
+    "commentaire_fr": "La classe d'émission A3E corespond à la modulation d'amplitude (AM). Deux représentations voient leurs valeurs crêtes varier : la n° 2 et la n°4. \nOn voit que, sur la représentation n°2, aucun signal n'est relevé par l'oscilloscope entre deux \"enveloppes\" (effet de la suppression de la porteuse). Alors que, sur la représentation n°4, il y a toujours un signal, même s'il reste faible.\nLe schéma n°2 représente la BLU tandis que le schéma n°4 représente l'AM.\n",
+    "stem_zh": "哪一幅示波器图显示的是 A3E 类发射？"
+   }
+  ]
+ },
+ {
+  "id": "K008",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "anchor": "R52b",
+  "seclab": "R-5.2",
+  "n_q": 57,
+  "cours_fr": "R-5.2) type d'antennes et caractéristiques .............................................................................................. 29",
+  "samples": [
+   {
+    "num": "34821",
+    "stem_fr": "A QUELLE GAMME D'ONDE APPARTIENT LA FREQUENCE 3,575 MHZ ?",
+    "options": [
+     "VLF",
+     "HF",
+     "LF",
+     "MF"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "HF",
+    "commentaire_fr": "La gamme HF couvre toutes les fréquences comprises entre 3 et 30 MHz\n",
+    "stem_zh": "3.575 MHz 属于哪个波段？"
+   },
+   {
+    "num": "35300",
+    "stem_fr": "* DANS QUELLE GAMME D'ONDE SE SITUE LA FREQUENCE 1,840 MHZ ?",
+    "options": [
+     "MF",
+     "HF",
+     "LF",
+     "VLF"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "MF",
+    "commentaire_fr": "1,840 MHz correspond à 160 mètres de longueur d'onde.\nLa bande MF (Hectométriques) se situe entre 1000 m et 100 m. \n",
+    "stem_zh": "频率 1.840 MHz 属于哪个波段？"
+   },
+   {
+    "num": "34755",
+    "stem_fr": "DANS QUELLE GAMME D'ONDE CLASSE-T-ON UNE FREQUENCE DE 15 KHZ ?",
+    "options": [
+     "VLF",
+     "LF",
+     "MF",
+     "HF"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "VLF",
+    "commentaire_fr": "Les ondes VLF sont les fréquences inférieures à 30 kHz ou dont la longueur d'onde est supérieure à 10 km. Elles sont aussi nommées ondes myriamétriques. Aucune bande radioamateur n'est attribuée dans cette gamme d'ondes.\n",
+    "stem_zh": "15 kHz 属于哪一类电波？"
+   },
+   {
+    "num": "35801",
+    "stem_fr": "* DANS QUELLE GAMME D'ONDE SE SITUE LA FREQUENCE 50,220 MHZ ?",
+    "options": [
+     "HF",
+     "VHF",
+     "UHF",
+     "SHF"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "VHF",
+    "commentaire_fr": "50,220 MHz correspond à 6 mètres de longueur d'onde.\nLa bande VHF (Métriques) se situe entre 10 m et 1 m. \n",
+    "stem_zh": "频率 50.220 MHz 属于哪个波段？"
+   },
+   {
+    "num": "34793",
+    "stem_fr": "DANS QUELLE GAMME D'ONDE CLASSE-T-ON UNE FREQUENCE DE 3184 KHZ ?",
+    "options": [
+     "HF",
+     "VLF",
+     "LF",
+     "MF"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "HF",
+    "commentaire_fr": "La gamme HF (ondes décamétriques) s'étend de 3 à 30 MHz. \n3184 kHz = 3,184 MHz\n",
+    "stem_zh": "3184 kHz 属于哪个波段？"
+   },
+   {
+    "num": "34814",
+    "stem_fr": "DANS QUELLE GAMME D'ONDE CLASSE-T-ON UNE LONGUEUR D'ONDE DE 3 CM ?",
+    "options": [
+     "HF",
+     "EHF",
+     "UHF",
+     "SHF"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "SHF",
+    "commentaire_fr": "3 cm = ondes centimétriques = SHF\n",
+    "stem_zh": "波长为 3 厘米的电磁波属于哪个波段？"
+   },
+   {
+    "num": "30602",
+    "stem_fr": "* ETENDUE DES ONDES KILOMETRIQUES ?",
+    "options": [
+     "100 m à 10 m",
+     "100 km à 10 km",
+     "10 m à 1 m",
+     "10 km à 1 km"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "10 km à 1 km",
+    "commentaire_fr": "Les ondes kilométriques commencent à 1 km et finissent  à 10 km\n",
+    "stem_zh": "* 千米波（长波）的范围是多少？"
+   },
+   {
+    "num": "30381",
+    "stem_fr": "* COMMENT APPELLE-T-ON LA GAMME DE FREQUENCES COMPRENANT LA FREQUENCE 3620 KHZ ?",
+    "options": [
+     "LF",
+     "HF",
+     "VHF",
+     "MF"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "HF",
+    "commentaire_fr": "Les ondes HF vont de 3 à 30 MHz\n",
+    "stem_zh": "包含 3620 kHz 频率的频段怎么称呼？"
+   },
+   {
+    "num": "30382",
+    "stem_fr": "* COMMENT APPELLE-T-ON LA GAMME DE FREQUENCES COMPRENANT LA FREQUENCE 1860 KHZ ?",
+    "options": [
+     "VLF",
+     "LF",
+     "MF",
+     "HF"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "MF",
+    "commentaire_fr": "Les ondes MF vont de 300 kHz à 3 MHz\n",
+    "stem_zh": "包含 1860 kHz 频率的频段怎么称呼？"
+   },
+   {
+    "num": "30384",
+    "stem_fr": "COMMENT APPELLE-T-ON LA GAMME DE FREQUENCES COMPRENANT LA FREQUENCE 50200 KHZ ?",
+    "options": [
+     "HF",
+     "VHF",
+     "UHF",
+     "SHF"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "VHF",
+    "commentaire_fr": "Les ondes VHF vont de 30 à 300 MHz\n",
+    "stem_zh": "包含 50200 kHz 频率的频段怎么称呼？"
+   }
+  ]
+ },
+ {
+  "id": "K009",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "anchor": "T023g2",
+  "seclab": "2.3",
+  "n_q": 56,
+  "cours_fr": "2.3c6 que ce code couleur est aussi utilisé pour marquer la valeur des condensateurs. a Pour coder une valeur, trois bagues au moins sont nécessaires : les deux premières bagues indiquent les deux premiers chiffres de la valeur, la troisième bague indique le nombre de 0 de la valeur. Pour détromper la lecture, les bagues ne sont pas centrées au milieu de la résistance : selon la représentation, elles doivent se situer à gauche de la résistance pour une lecture de gauche à droite ou en haut pour une lecture de haut en bas. Le code des couleurs des bagues de tolérance (4 ème bague, quelquefois décalée par rapport aux trois premières) n’a pas à être connu pour l’examen. Toutefois, dans les questions d’examen, la bague de tolérance est souvent représentée mais sa signification n’est pas demandée. Mnémotechnique Initiale du mot = Initiale de la couleur Couleur des bagues 1 ère bague 1 er chiffre Dizaine 2 ème bague 2 ème chiffre Unité 3 ème bague multiplicateur Nombre de 0 4 ème bague tolérance +/– Ne Mangez Rien Ou Je Vous Battrai VIOlemment, Grand BOA Noir Marron Rouge Orange Jaune Vert Bleu VIOlet Gris Blanc Or Argent 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 x 1 x 10 x 100 x 1000 x 10 000 x 100 000 x 1 000 000 x10 000 000 (x 100 000 000) (x1 000 000 000) x 0,1 x 0,01 sans bague: 20% 1 % 2 % 0,5 % 0,25 % 0,1 % 5 % 10 % Il existe une expression mnémotechnique pour se souvenir du code des couleurs : Ne Mangez Rien Ou Je Vous Battrai Violemment, Grand BOA. L’initiale de chaque mot de la phrase correspond à l’initiale de la couleur. Attention : la série commence par 0 et ne pas confondre les deux V (vert et violet) et les deux B (bleu et blanc) : Violemment correspond à Violet et le Blanc (valeur 9) est à la fin puisque le Noir (valeur 0) est au début. Remarquez la logique de l’ordre des couleurs. On commence par des couleurs sombres (noir puis marron), les couleurs centrales (de rouge à violet) sont celles de l’arc-en-ciel et des couleurs claires (gris puis blanc) terminent la série. Les deux premières bagues donneront un nombre toujours compris entre 10 et 99. Ainsi, la première bague ne pourra pas être noire (=0) et pour coder 0,1 &#937;, on utilisera : Marron, Noir, Argent (10 x 0,01 = 0,1). A l’examen, on ne recense aucune question avec les multiplicateurs x 0,1 ou x 0,01 (bague Or ou Argent). Exemple : Quelle est la valeur de cette résistance ? Réponse : BLEU &#8594; 6 ROUGE &#8594; 2 R = 62 x 10 1 &#937; = 620 &#937; MARRON &#8594; 1 b Les résistances du commerce ont des valeurs « normées ». La série des valeurs des résistances à 20% de tolérance (sans 4 èm",
+  "samples": [
+   {
+    "num": "20084",
+    "stem_fr": "Z= ?",
+    "options": [
+     "227 Ω",
+     "0,000 227 Ω",
+     "22 mΩ",
+     "0,000 440 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "0,000 227 Ω",
+    "commentaire_fr": "Z = 1 / (2 x π x F x C) ou Z en ohms = 159 / F(MHz) / C(nF)  = 159 / 7 / 100 000 = 0,000 227\n",
+    "stem_zh": "Z = ？（阻抗是多少？）（⚠️待核）"
+   },
+   {
+    "num": "20074",
+    "stem_fr": "CAPACITE EQUIVALENTE",
+    "options": [
+     "15 µF ",
+     "68 µF",
+     "10 µF",
+     "8 µF"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "10 µF",
+    "commentaire_fr": "CT = (12 x 56) / (12 + 56) = 672 / 68 = 9,88 arrondi à 10\n",
+    "stem_zh": "等效电容"
+   },
+   {
+    "num": "20080",
+    "stem_fr": "CAPACITE EQUIVALENTE",
+    "options": [
+     "7 pF ",
+     "2,6 pF",
+     "21 pF",
+     "4 pF"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "2,6 pF",
+    "commentaire_fr": "Condensateurs en // : 6 + 12 = 18 ; avec 3 pF en série : (3 x 18) / (3 + 18) = 2,57 pF, arrondi à 2,6 pF\n",
+    "stem_zh": "等效电容"
+   },
+   {
+    "num": "20077",
+    "stem_fr": "CAPACITE EQUIVALENTE",
+    "options": [
+     "45 µF ",
+     "8,8 µF",
+     "88 µF",
+     "45 mF"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "45 µF ",
+    "commentaire_fr": "Ceq = C1+C2 = 12 + 33 = 45\n",
+    "stem_zh": "等效容量是多少？"
+   },
+   {
+    "num": "21240",
+    "stem_fr": "CAPACITE EQUIVALENTE",
+    "options": [
+     "3,33 nF",
+     "15 nF",
+     "2 nF",
+     "0,3 nF"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "3,33 nF",
+    "commentaire_fr": "CT = (C1 x C2) / (C1 + C2) = (10 x 5)/(10 + 5) = 50/15 = 3,33 nF\n\nOu : CT = 1 / (1 / 10 + 1 / 5) = 3,33\n",
+    "stem_zh": "等效电容是多少？"
+   },
+   {
+    "num": "20076",
+    "stem_fr": "CAPACITE EQUIVALENTE",
+    "options": [
+     "5,5 nF ",
+     "198 nF",
+     "33 nF",
+     "550 µF"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "5,5 nF ",
+    "commentaire_fr": "33 / 6 = 5,5.\n",
+    "stem_zh": "等效容量是多少？"
+   },
+   {
+    "num": "20079",
+    "stem_fr": "CAPACITE EQUIVALENTE",
+    "options": [
+     "2 nF ",
+     " 0,5 nF",
+     "1250 pF",
+     "50 pF"
+    ],
+    "ans_idx": 1,
+    "ans_fr": " 0,5 nF",
+    "commentaire_fr": "C en // : 2 x 500 pF = 1 nF ; en série avec le condensateur de 1 nF : 1 nF / 2 = 0,5 nF\n",
+    "stem_zh": "等效容量是多少？"
+   },
+   {
+    "num": "21426",
+    "stem_fr": "CAPACITE EQUIVALENTE ?",
+    "options": [
+     "50 pF",
+     "200 pF",
+     "111 pF",
+     "50 nF"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "50 pF",
+    "commentaire_fr": "0,1 nF = 100 pF\ndeux condensateurs 100 pF en série ==> 100 pF / 2 = 50 pF\n",
+    "stem_zh": "等效电容是多少？"
+   },
+   {
+    "num": "21495",
+    "stem_fr": "CAPACITE EQUIVALENTE",
+    "options": [
+     "2,2 µF",
+     "545 nF",
+     "545 µF",
+     "2,2 nF"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "545 nF",
+    "commentaire_fr": "CT = (C1 x C2)/(C1 + C2) = (1 x 1,2)/(1 + 1,2) = 1,2/2,2 = 0,545 µF = 545 nF\n",
+    "stem_zh": "等效电容是多少？"
+   },
+   {
+    "num": "20075",
+    "stem_fr": "CAPACITE EQUIVALENTE",
+    "options": [
+     "400 µF ",
+     "4,8 mF",
+     "480 µF",
+     "300 µF"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "300 µF",
+    "commentaire_fr": "1200 / 4 = 300\n",
+    "stem_zh": "等效容量是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K010",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "anchor": "R22a",
+  "seclab": "R-2.2",
+  "n_q": 54,
+  "cours_fr": "R-2.2) Puissances et classes d’émission autorisées (annexes 1 et 3 de la décision 12-1241 modifiée) : Certificat Bandes de fréquences Puissance maximum Classes d'émission autorisées Classe unique (ex 1 et 2) Toutes les bandes des services d'amateur et d'amateur par satellite 28 MHz : 500 W (*) 28 à 30 MHz : 250 W 30 MHz : 120 W Toutes classes ( voir définition au §",
+  "samples": [
+   {
+    "num": "34919",
+    "stem_fr": "PUISSANCE MAXIMUM SUR 18,060 MHZ ?",
+    "options": [
+     "0 W",
+     "120 W",
+     "250 W",
+     "500 W"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "0 W",
+    "commentaire_fr": "La fréquence 18,060 MHz n'est pas autorisée (limite de bande = 18,068 à 18,168 MHz)\n",
+    "stem_zh": "18.060 MHz 上的最大功率是多少？"
+   },
+   {
+    "num": "30022",
+    "stem_fr": "TYPE DE MODULATION INTERDITE A LA CLASSE 3 ?",
+    "options": [
+     "A3E",
+     "F3C",
+     "J3E",
+     "A1A"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "F3C",
+    "commentaire_fr": "Les 6 classes autorisées pour l'ex classe 3 sont : A3E, J3E, G3E, F3E, A1A, A2A\n",
+    "stem_zh": "第 3 类禁止使用的调制类型是哪一个？"
+   },
+   {
+    "num": "30456",
+    "stem_fr": "PUISSANCE AUTORISEE EN TELEVISION SUR 438 MHZ ?",
+    "options": [
+     "250 W",
+     "500 W",
+     "120 W",
+     "0 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "120 W",
+    "commentaire_fr": "L’ARCEP n’impose pas de fréquences pour les différentes classes d’émission du moment que la largeur de la bande passante de l'émission est conforme aux conditions techniques imposées par la décision ARCEP. Au delà de 225 MHz, il n'y a plus de limite de bande passante. Sur 438 MHz, on peut donc émettre en télévision malgré que cela nécessite une bande passante très importante.\n",
+    "stem_zh": "在 438 MHz 上以电视方式发射的允许功率是多少？"
+   },
+   {
+    "num": "31029",
+    "stem_fr": "QUELLE EST LA PUISSANCE MAXIMALE ENTRE 135,7 ET 137,5 KHZ ?",
+    "options": [
+     "10 W",
+     "120 W",
+     "250 W",
+     "500 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "500 W",
+    "commentaire_fr": "Mais la puissance PIRE est limitée à 1 watt. Ce qui, compte tenu du rendement des antenne sur cette bande, est une puissance assez difficile à obtenir avec 500 watts en sortie de l'émetteur.\n",
+    "stem_zh": "135.7 至 137.5 kHz 之间的最大功率是多少？"
+   },
+   {
+    "num": "34667",
+    "stem_fr": "PUISSANCE DISSIPEE MAXIMUM EN DESSOUS DE 28 MHZ ?",
+    "options": [
+     "500 W  PAR",
+     "500 W",
+     "500 W PIRE",
+     "120 W"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "500 W",
+    "commentaire_fr": "La puissance en sortie d’émetteur (puissance dissipée) est limitée mais pas le gain des antennes (la PIRE et la PAR ne sont donc pas limitées)\n",
+    "stem_zh": "28 MHz 以下的最大耗散功率是多少？"
+   },
+   {
+    "num": "34658",
+    "stem_fr": "PUISSANCE MAXIMUM EN CRETE DANS LA BANDE 18,068-18,168 MHZ ?",
+    "options": [
+     "500 W  PIRE",
+     "500 W PAR",
+     "500 W",
+     "120 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "500 W",
+    "commentaire_fr": "La puissance en sortie d’émetteur est limitée mais pas le gain des antennes (la PIRE et la PAR ne sont donc pas limitées)\n",
+    "stem_zh": "18.068–18.168 MHz 波段的最大峰值功率是多少？"
+   },
+   {
+    "num": "31036",
+    "stem_fr": "QUELLE EST LA PUISSANCE MAXIMALE DE L'ETAGE FINAL POUR LES OPERATEURS \"HAREC\" ?",
+    "options": [
+     "100 W",
+     "1000 W",
+     "500 W",
+     "10 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "500 W",
+    "commentaire_fr": "500 W pour les fréquences inférieures à 28 MHz. De toutes façons, la réponse 120 W (pour les fréquences suopérieures à 29,7 MHz) ou 250 W (pour la bande des 10 mètres) n'étaient pas proposées.\n",
+    "stem_zh": "「HAREC」操作员末级的最大功率是多少？"
+   },
+   {
+    "num": "32501",
+    "stem_fr": "QUELLE EST LA PUISSANCE MAXI QUE PEUT UTILISER UN RADIOAMATEUR ?",
+    "options": [
+     "120 Watts",
+     "250 Watts",
+     "500 Watts",
+     "Illimitée"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "500 Watts",
+    "commentaire_fr": "En HF, la puissance maxi est de 500 Watts sauf sur 28 MHz où la puissance est limitée à 250 Watts.\n",
+    "stem_zh": "业余无线电爱好者可使用的最大功率是多少？"
+   },
+   {
+    "num": "30449",
+    "stem_fr": "POUR UN OPERATEUR DE CLASSE 2, QUELLE EST LA PUISSANCE MAXIMUM AUTORISEE EN CLASSE R3E",
+    "options": [
+     "10 W",
+     "120 W",
+     "500 W",
+     "0 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "500 W",
+    "commentaire_fr": "La puissance de 500 watts est autorisée sur les bandes inférieures à 28 MHz\n",
+    "stem_zh": "2 类操作员在 R3E 发射类别下允许的最大功率是多少？"
+   },
+   {
+    "num": "30458",
+    "stem_fr": "QUELLE(S) CLASSE(S) D'OPERATEUR A-T-IL(ONT-ILS) LE DROIT D'EMETTRE SUR LA BANDE DES 10 METRES",
+    "options": [
+     "2",
+     "1",
+     "1 et 2",
+     "1, 2 et 3"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1 et 2",
+    "commentaire_fr": "Les classes 1 et 2 sont devenues la \"classe unique\" ou \"classe HAREC\"\n",
+    "stem_zh": "哪些类别的操作员有权在 10 米波段发射"
+   }
+  ]
+ },
+ {
+  "id": "K011",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 54,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "34738",
+    "stem_fr": "ASE DE LA REGLEMENTATION RADIOAMATEUR NATIONALE ?",
+    "options": [
+     "L 33.3",
+     "RR",
+     "S1.56",
+     "T/R 61-02"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "L 33.3",
+    "commentaire_fr": "Le L33.3 est un article du Code des Postes et Communications Électroniques qui ne s'adresse pas qu'aux radioamateurs même s'il est le fondement de notre activité (stations n'utilisant pas des fréquences spécifiquement assignées à leur utilisateur).\n",
+    "stem_zh": "法国国内业余无线电法规的基础是什么？（题面原文开头被截断）"
+   },
+   {
+    "num": "34908",
+    "stem_fr": "PUISSANCE D'EMISSION DES RAYONNEMENTS NON ESSENTIELS MAXIMUM POUR 28,5 MHZ ?",
+    "options": [
+     "2,5 mW",
+     "50 µW",
+     "250 W",
+     "1 mW"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "2,5 mW",
+    "commentaire_fr": "Telle qu'elle est posée ici, cette question traite de la puissance des rayonnements non essentiels et non pas de leur niveau par rapport à l'émission fondamentale. La réponse attendue n'est donc pas en dBc (décibel par rapport à l'émission fondamentale) mais en watts. Sur les fréquences inférieures à 30 MHz, le niveau de puissance des rayonnements non essentiels doit être inférieur à -50 dBc, soit 1/100.000 de la puissance d’émission qui peut être au maximum de 250 W sur la bande de 10 mètres, soit 2,5 mW\n50 µW est la puissance maximum des rayonnements non essentiels sur les fréquences supérieures à 30 MHz.\n",
+    "stem_zh": "28.5 MHz 上非必要辐射的最大发射功率是多少？"
+   },
+   {
+    "num": "30702",
+    "stem_fr": "QUELLE EST LA PUISSANCE MOYENNE DE SORTIE AUTORISEE AU RADIOAMATEUR DE CLASSE 3 LORSQU'IL EMET EN BELGIQUE ?",
+    "options": [
+     "0 W",
+     "5 W",
+     "10 W",
+     "25 W"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "0 W",
+    "commentaire_fr": "Le Radioamateur de classe 3 n'a pas d'équivalence CEPT. Il ne peut plus émettre lorsqu'il quitte la France.\n",
+    "stem_zh": "3 类业余爱好者在比利时发射时，允许的平均输出功率是多少？"
+   },
+   {
+    "num": "34901",
+    "stem_fr": "QUI DEFINIT LES CONDITIONS D'EXPLOITATION DES FREQUENCES EN FRANCE ?",
+    "options": [
+     "l'ARCEP",
+     "l'ANFR",
+     "l'UIT",
+     "le ministre chargé des communications électroniques"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "l'ARCEP",
+    "commentaire_fr": "Les conditions d'exploitation des stations d'amateur sont définis par une décision de l'ARCEP\n",
+    "stem_zh": "在法国，谁规定频率的使用条件？"
+   },
+   {
+    "num": "34948",
+    "stem_fr": "A-T-ON LE DROIT DE CONSTRUIRE SON PROPRE EMETTEUR ?",
+    "options": [
+     "non",
+     "oui",
+     "oui sous la surveillance d’un responsable de radio-club",
+     "oui avec l’accord de l’ANFR"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "oui",
+    "commentaire_fr": "La bonne réponse est OUI sans condition ! Et c'est d'ailleurs l'essence même de notre hobby (reprendre la définition de l'UIT du service amateur) et ce pourquoi il y a un examen où les conditions techniques d'émission doivent être connues.\n",
+    "stem_zh": "有权自己制作发射机吗？"
+   },
+   {
+    "num": "34957",
+    "stem_fr": "QUI FAIT INTERVENIR L'ANFR EN CAS DE BROUILLAGE ?",
+    "options": [
+     "une association de radioamateurs",
+     "le préfet",
+     "l’utilisateur victime du brouillage ",
+     "la gendarmerie"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "l’utilisateur victime du brouillage ",
+    "commentaire_fr": "Les utilisateurs, quels qu’ils soient, peuvent faire directement leur demande d’intervention à l’ANFR sur son site Internet ou par courrier adressé au BCN (Bureau Centralisateur National) de l'ANFR\n",
+    "stem_zh": "发生干扰时，由谁请求 ANFR 介入？"
+   },
+   {
+    "num": "34776",
+    "stem_fr": "QUE DOIT-ON POSSEDER POUR EMETTRE ?",
+    "options": [
+     "l’autorisation du président du club",
+     "un BEP d’électronique",
+     "l’autorisation de l’ARCEP",
+     "un certificat d’opérateur"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "un certificat d’opérateur",
+    "commentaire_fr": "Plus précisément, il faut avoir la notification de l’indicatif d’appel (qui est adressée par l'ANFR après le certificat d'opérateur)\n",
+    "stem_zh": "要发射，必须拥有什么？"
+   },
+   {
+    "num": "34834",
+    "stem_fr": "QUI PERCOIT LA TAXE RADIOAMATEUR ?",
+    "options": [
+     "Personne",
+     "L’ARCEP",
+     "La région où est domicilié le radioamateur",
+     "Le ministère chargé des communications électroniques"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Personne",
+    "commentaire_fr": "C'était le Trésor Public qui encaissait la Taxe annuelle radioamateur (comme toutes les taxes en France) mais les produits de cette taxe étaient affectés au budget de l'ANFR (réponse non proposée). La Loi de Finances pour 2019 a supprimé la \"taxe sur les radioamateurs\". Personne ne perçoit donc cette taxe depuis le 1/1/19.\n",
+    "stem_zh": "谁征收业余无线电税？"
+   },
+   {
+    "num": "30235",
+    "stem_fr": "* POUR NE PAS ETRE DECLAREE CONFORMEMENT AU CODE DE L'URBANISME, LA DIMENSION D'UNE ANTENNE NE DOIT PAS EXCEDER ?",
+    "options": [
+     "4 mètres",
+     "5 mètres",
+     "Il n'y a pas de limite",
+     "6 mètres"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Il n'y a pas de limite",
+    "commentaire_fr": "Depuis octobre 2007, seule la hauteur des pylônes et des installations qu'ils supportent est réglementée.\n",
+    "stem_zh": "为不被要求按城市规划法规申报，天线的尺寸不得超过多少？"
+   },
+   {
+    "num": "34956",
+    "stem_fr": "UNE STATION RADIOELECTRIQUE DU SERVICE AMATEUR PEUT ETRE CONNECTEE",
+    "options": [
+     "à Internet ",
+     "à une autre station du service Amateur ",
+     "au réseau de Police",
+     "à un réseau ouvert public"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "à une autre station du service Amateur ",
+    "commentaire_fr": "On peut \"connecter\" deux stations amateur entre elles (si ça ne passe pas par un réseau ouvert au public (Internet) mais que c'est une connexion radio de bout en bout). Cette question semble signifier qu'on n'est pas prêt de voir la publication du décret autorisant les stations à se connecter entre elles via un ROP (réseau ouvert au public tel qu'Internet). Et si ce décret est publié, l'ANFR devra modifier les réponses ou la question…\n",
+    "stem_zh": "业余业务的无线电台可以连接到"
+   }
+  ]
+ },
+ {
+  "id": "K012",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 54,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "30060",
+    "stem_fr": "QUEL ORGANISME EN FRANCE GERE LES FREQUENCES ?",
+    "options": [
+     "ARCEP",
+     "CEPT",
+     "CNCL",
+     "ANFR"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "ANFR",
+    "commentaire_fr": "L’ANFR a pour mission d’assurer la gestion et le contrôle d’utilisation des fréquences radioélectriques. La CNCL n’existe plus et a été remplacée par le CSA (La CNCL puis le CSA ont été de 1986 à 1990 les administrations de tutelle des radioamateurs). L’ARCEP gère une partie des utilisateurs du spectre radioélectrique (dont le service d'amateur) et définit leur condition d’exploitation en leur attribuant des fréquences. La CEPT rassemble les autorités réglementaires des pays européens\n",
+    "stem_zh": "在法国，哪个机构负责管理频率？"
+   },
+   {
+    "num": "30655",
+    "stem_fr": "QUI DELIVRE LES INDICATIFS SUR L'ILE DE MAYOTTE ?",
+    "options": [
+     "La gendarmerie",
+     "L'ANFR",
+     "La police",
+     "Le maire"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "L'ANFR",
+    "commentaire_fr": "Depuis décembre 2014, c'est l'ANFR qui délivre les certificats d'opérateur dans toiute la France y compris en outre mer (avant 2014 : le préfet à Mayotte)\n",
+    "stem_zh": "在马约特岛，谁指配呼号？"
+   },
+   {
+    "num": "31150",
+    "stem_fr": "* QUELLE EST LA PUISSANCE D'UNE STATION REPETITRICE EN REGION 1 DE L'U.I.T.\nSUR LA BANDE 50 MHZ ?",
+    "options": [
+     "500 W",
+     "120 W",
+     "0 W",
+     "250 W"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "120 W",
+    "commentaire_fr": "Depuis la décision 12-1241, les relais sont autorisés sur la bande des 50 MHz\n",
+    "stem_zh": "* 在 U.I.T. 第 1 区，50 MHz 频段上中继台的功率是多少？"
+   },
+   {
+    "num": "33100",
+    "stem_fr": "A VOTRE AVIS, QUELLE EST LA CLASSE D'EMISSION QUI RISQUE DE MOINS BROUILLER LE POSTE DE TELEVISION DE VOTRE VOISIN",
+    "options": [
+     "A1A",
+     "J7B",
+     "F3E",
+     "A1D"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "F3E",
+    "commentaire_fr": "F3E - FM en téléphonie.\n",
+    "stem_zh": "你认为哪种发射类别最不容易干扰邻居的电视机？"
+   },
+   {
+    "num": "31101",
+    "stem_fr": "POUR EVITER LES PARASITES, UN RADIOAMATEUR DOIT ?",
+    "options": [
+     "Etre opérateur de classe \"HAREC\"",
+     "Utiliser un amplificateur de 500 W",
+     "Emettre en CW",
+     "Emettre en F3E"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Emettre en F3E",
+    "commentaire_fr": "F3E (FM) est le mode qui perturbe le moins. Bien évidemment, il faudra éventuellement réduire la puissance (ne pas utiliser d'amplificateur)\n",
+    "stem_zh": "为避免造成干扰，业余爱好者应当？"
+   },
+   {
+    "num": "34700",
+    "stem_fr": "UN RADIOAMATEUR A-T-IL LE DROIT D'IMPLANTER UNE BALISE ?",
+    "options": [
+     "oui",
+     "non",
+     "oui si la puissance est inférieure à 5 W PAR",
+     "oui si c’est un opérateur de classe 3"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "oui",
+    "commentaire_fr": "Le responsable de la balise ne peut pas être un radioamateur de classe 3\n",
+    "stem_zh": "业余无线电爱好者是否有权设置信标？"
+   },
+   {
+    "num": "39950",
+    "stem_fr": "* A WALLIS & FUTUNA, QUI DELIVRE LES CERTIFICATS D'OPERATEURS ?",
+    "options": [
+     "Le haut commissaire de la République",
+     "L'ANFR",
+     "Le commissaire de police\n",
+     "La gendarmerie\n"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "L'ANFR",
+    "commentaire_fr": "Depuis décembre 2014, c'est l'ANFR qui délivre les certificats d'opérateur dans toiute la France y compris en outre mer (avant 2014 : l'administrateur supérieur qui représente l'Etat français dans ces îles)\n",
+    "stem_zh": "在瓦利斯和富图纳，谁签发操作员证书？"
+   },
+   {
+    "num": "30690",
+    "stem_fr": "IL EST OBLIGATOIRE DE POSSEDER DANS UNE STATION D'AMATEUR ?",
+    "options": [
+     "un indicateur de tension relative",
+     "un ampèremètre",
+     "un filtre passe-haut",
+     "un indicateur de puissance"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "un indicateur de puissance",
+    "commentaire_fr": "L’indicateur de puissance (« wattmètre ») est le seul instrument obligatoire dans une station amateur.\n",
+    "stem_zh": "业余电台中必须配备的是什么？"
+   },
+   {
+    "num": "31007",
+    "stem_fr": "* BANDE DE FREQUENCE OCCUPEE\nL'EXCURSION DE FREQUENCE SUR LA FREQUENCE 145,500 DOIT ETRE DE ?",
+    "options": [
+     "3 kHz au maximum",
+     "12,5 kHz au maximum",
+     "20 kHz au maximum",
+     "6 kHz au maximum"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "20 kHz au maximum",
+    "commentaire_fr": "La largeur de bande occupée pour toutes les classes d'émission ne doit pas dépasser la bande attribuée aux radioamateurs et ne doit pas dépasser :\n6 kHz en dessous de 28 MHz\n12 kHz de 28 à 144 MHz\n20 kHz de 144 à 225 MHz\n",
+    "stem_zh": "* 占用带宽 | 在 145.500 频率上，频率偏移应为多少？"
+   },
+   {
+    "num": "34760",
+    "stem_fr": "A QUI DOIT-ON DEMANDER L'AUTORISATION POUR L'INSTALLATION D'UNE ANTENNE EN CORSE ?",
+    "options": [
+     "à la Préfecture",
+     "à la Gendarmerie",
+     "à la Mairie ",
+     "il n’y a pas d’autorisation à obtenir"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "à la Mairie ",
+    "commentaire_fr": "Comme partout en France, le dossier doit être déposé au service de l'urbanisme de la Mairie où est installée l'antenne (obligatoire dans le cas où l'ensemble pylône + antenne dépasse 12 mètres)\n",
+    "stem_zh": "在科西嘉安装天线应向谁申请许可？"
+   }
+  ]
+ },
+ {
+  "id": "K013",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "anchor": "T015a",
+  "seclab": "1.5",
+  "n_q": 51,
+  "cours_fr": "1.5a ). Les couleurs se lisent du haut vers le bas (les pattes) et sont souvent au nombre de 5 : 1er chiffre, 2ème chiffre, Multiplicateur (comme pour les résistances). L'unité de base est le picofarad. Les deux dernières couleurs indiquent la tolérance (blanc : 10%, noir : 20%) et la tension à ne pas dépasser (rouge : 2 50 V, jaune : 4 00 V). Selon les fabricants, il existe d'autres présentations. Enfin, la valeur des très anciens condensateurs peut être indiquée en cm avec 1 cm &#8776; 1,1 pF. c7 Certains condensateurs sont variables : les lames fixes sont montées dans une cage isolée des lames mobiles qui tournent sur un axe. La valeur du condensateur est fonction de la surface des lames en vis-à-vis, leur espacement étant fixe. D’autres condensateurs, dont le diélectrique est chimique, sont polarisés : si la tension à leurs bornes est inversée ou supérieure à leur tension d’utilisation, ils chauffent et peuvent même exploser. c8 Un condensateur d’un farad peut, par définition, contenir dans ses armatures une réserve d’électricité égale à un coulomb en présence d’une tension de un volt à ses bornes : Q(C) = C(F) . U(V) . Plus la tension aux bornes du condensateur est élevée, plus la quantité d’électricité emmagasinée dans le condensateur est importante. De plus, la quantité d’énergie emmagasinée dans un condensateur est : E(J) = ½.Q(C) . U(V) . En remplaçant Q ou U par sa valeur tirée de Q = C . U, on a : E(J) = ½ . C(F) . U²(V) et encore : E(J) = Q²(C) / 2.C(F). d1 La bobine (notée L en hommage au physicien allemand Heinrich Lenz) fonctionne grâce à ses propriétés électromagnétiques . Le courant qui parcourt la bobine génère un champ magnétique autour et à l’intérieur des spires. Ce champ magnétique constitue la réserve d’énergie de la bobine (loi de Laplace). La valeur d’une bobine, appelé inductance , dépend de la forme de la bobine, de sa section (donc du carré de son diamètre) et du carré du nombre de ses spires . Une bobine se mesure en Henry (noté H) avec les sous multiples millihenry (10 -3 , filtres BF), microhenry (10 -6 , le plus courant) et nanohenry (10 -9 , utilisé pour de très faibles valeurs). Attention : éviter d’utiliser le terme « self » pour désigner un enroulement électrique. Utiliser le mot bobine (ou bobinage). Le terme « self » est un anglicisme mal utilisé : il y a confusion entre un phénomène physique (self-induction) et l’élément matériel qui le produit (bobine). De même, préférer l’adjectif « réactif » à « selfique ». d2 Les grandeurs électromagnétiques sont : - H (à ne pas confondre avec le H de l’unité des bobines, le Hen",
+  "samples": [
+   {
+    "num": "21421",
+    "stem_fr": "VALEUR DE LA RESISTANCE",
+    "options": [
+     "35 Ω",
+     "5 kΩ",
+     "50 kΩ",
+     "350 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "35 Ω",
+    "commentaire_fr": "il faut lire les couleurs à l'envers (de bas en haut) car les bagues doivent être lues à partit de celle qui est le plus à gauche\nOrange : 3\nVert   : 5   ===> 35 x 10^0 = 35 x 1 = 35 Ω\nNoir   : 0\n",
+    "stem_zh": "电阻的阻值是多少？"
+   },
+   {
+    "num": "23760",
+    "stem_fr": "VALEUR DE LA RESISTANCE",
+    "options": [
+     "330 Ω",
+     "22 Ω",
+     "220 Ω",
+     "33 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "33 Ω",
+    "commentaire_fr": "Orange = 3 ; Orange = 3 ; Noir = 0 ; donc 33 x 100 = 33 Ω (exposant 0 pour la puissance de 10)\n",
+    "stem_zh": "这个电阻的阻值是多少？"
+   },
+   {
+    "num": "20467",
+    "stem_fr": "VALEUR DE LA RESISTANCE ?",
+    "options": [
+     "1 kΩ",
+     "10 kΩ",
+     "103 Ω",
+     "13 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "10 kΩ",
+    "commentaire_fr": "Marron = 1 ; \nNoir = 0 ; \nOrange = 3 ; \ndonc 10 x 10^3 = 10 000 Ω = 10 kΩ\n",
+    "stem_zh": "该电阻的阻值是多少？"
+   },
+   {
+    "num": "21258",
+    "stem_fr": "VALEUR DE LA RESISTANCE ?",
+    "options": [
+     "350 Ω",
+     "370 Ω",
+     "37 Ω",
+     "35 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "37 Ω",
+    "commentaire_fr": "Orange : 3 )\nViolet : 7    )  37 Ω \nNoir   : 0    )\n\nAttention : Noir en multiplicateur = pas de 0 = > pas de multiplicateur\n",
+    "stem_zh": "电阻的阻值是多少？"
+   },
+   {
+    "num": "23758",
+    "stem_fr": "VALEUR DE LA RESISTANCE",
+    "options": [
+     "82 kΩ",
+     "68 Ω",
+     "82,3 Ω",
+     "6,8 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "82 kΩ",
+    "commentaire_fr": "Gris = 8 ; Rouge = 2 ; Orange = 3 ; donc 82 x 103 = 39000 = 82 kΩ (exposant 3 pour la puissance de 10)\n",
+    "stem_zh": "这个电阻的阻值是多少？"
+   },
+   {
+    "num": "23808",
+    "stem_fr": "VALEUR DE LA RESISTANCE",
+    "options": [
+     "110 Ω",
+     " 100 Ω",
+     "150 Ω",
+     "10 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "10 Ω",
+    "commentaire_fr": "Marron = 1 ; Noir = 0 ; Noir = 0 ; donc 10 x 100 = 10 Ω (exposant 0 pour la puissance de 10)\n",
+    "stem_zh": "该电阻的阻值是多少？"
+   },
+   {
+    "num": "23810",
+    "stem_fr": "VALEUR DE LA RESISTANCE",
+    "options": [
+     "150 Ω",
+     "18,1 Ω",
+     "180 Ω",
+     "18 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "180 Ω",
+    "commentaire_fr": "Marron = 1 ; Gris = 8 ; Marron = 1 ; donc 18 x 101 = 180 Ω (exposant 1 pour la puissance de 10)\n",
+    "stem_zh": "该电阻的阻值是多少？"
+   },
+   {
+    "num": "21464",
+    "stem_fr": "VALEUR DE LA RESISTANCE",
+    "options": [
+     "81 kΩ",
+     "8,1 kΩ",
+     "812 Ω",
+     "9100 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "8,1 kΩ",
+    "commentaire_fr": "   Gris       8\n   Marron  1   => 81 00 = 8100 Ω = 8,1 kΩ\n   Rouge   2\nAttention au piège : les bagues se lisent de gauche à droite en commençant par celle qui est le plus proche du bout (celle du bas)\n",
+    "stem_zh": "这只电阻的阻值是多少？"
+   },
+   {
+    "num": "23754",
+    "stem_fr": "VALEUR DE LA RESISTANCE",
+    "options": [
+     "3,9 kΩ",
+     "39 kΩ",
+     "36 kΩ",
+     "3,6 kΩ"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "39 kΩ",
+    "commentaire_fr": "Orange = 3 ; Blanc = 9 ; Orange = 3 ; donc 39 x 103 = 39000 = 39 kΩ (exposant 3 pour la puissance de 10)\n",
+    "stem_zh": "这个电阻的阻值是多少？"
+   },
+   {
+    "num": "23811",
+    "stem_fr": "VALEUR DE LA RESISTANCE",
+    "options": [
+     "1,2 MΩ",
+     "15 MΩ",
+     "12 MΩ",
+     "1,5 MΩ"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "12 MΩ",
+    "commentaire_fr": "Marron = 1 ; Rouge = 2 ; Bleu = 6 ; donc 12 x 106 = 12 000 000 = 12 MΩ (exposant 6 pour la puissance de 10)\n",
+    "stem_zh": "该电阻的阻值是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K014",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 46,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "20166",
+    "stem_fr": "GAIN EN TENSION",
+    "options": [
+     "0,5 ",
+     "1,6",
+     "2,5",
+     "0,3"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "2,5",
+    "commentaire_fr": "G = (R2/R1) + 1 = (33/22) + 1 = 1,5 + 1 = 2,5; question hors programme, seul le montage inverseur est au programme.\n",
+    "stem_zh": "电压增益是多少？"
+   },
+   {
+    "num": "20458",
+    "stem_fr": "TAUX DE L'HARMONIQUE 3",
+    "options": [
+     "40%",
+     "2",
+     "20%",
+     "4"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "20%",
+    "commentaire_fr": "TDH de l’harmonique 3 : on compare donc les tensions de\nF1 (1,0)  et F3 (3,0)\nTDH = 2 / 10 x 100 = 20%\n",
+    "stem_zh": "3 次谐波的比率"
+   },
+   {
+    "num": "20167",
+    "stem_fr": "GAIN EN TENSION",
+    "options": [
+     "16 ",
+     "15",
+     "15000",
+     "0,0667"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "16 ",
+    "commentaire_fr": "G = (R2 / R1) + 1 = (33000 / 2200) + 1 = 15 + 1 = 16 ; question hors programme, seul le montage inverseur est au programme.\n",
+    "stem_zh": "电压增益是多少？"
+   },
+   {
+    "num": "21169",
+    "stem_fr": "FACTEUR Q LA RESONANCE",
+    "options": [
+     "1 000",
+     "31",
+     "225",
+     "1 500"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "31",
+    "commentaire_fr": "Q = racine(L(µH)/C(pF)) / (R(kΩ) \n= racine(15/150) / 0,01 \n= racine (0,1) / 0,01 = 0,31 x 100 = 31 (arrondi)\n",
+    "stem_zh": "谐振时的品质因数 Q"
+   },
+   {
+    "num": "21436",
+    "stem_fr": "TENSION AU SECONDAIRE",
+    "options": [
+     "200 V",
+     "50 V",
+     "0 V",
+     "100 V"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "0 V",
+    "commentaire_fr": "Attention au piège : le transformateur ne transforme que des courants alternatifs, la pile génère du courant continu, il n'y a donc pas de tension au secondaire.\n",
+    "stem_zh": "次级电压"
+   },
+   {
+    "num": "20127",
+    "stem_fr": "IMPEDANCE A LA RESONANCE",
+    "options": [
+     "8 Ω",
+     "31 Ω",
+     "Infinie",
+     "5 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "8 Ω",
+    "commentaire_fr": "Dans un circuit RLC série, à la résonance, on a Z = R\n",
+    "stem_zh": "谐振时的阻抗"
+   },
+   {
+    "num": "21160",
+    "stem_fr": "ANDE PASSANTE A -3 D",
+    "options": [
+     "5 kHz",
+     "800 Hz",
+     "200 kHz",
+     "2 kHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "200 kHz",
+    "commentaire_fr": "Q à la résonance = racine(L(µH)/C(pF)) / (R(kΩ)= racine(16 / 100) / 0,02 \n= racine (0,16) / 0,02 = 0,4 / 0,02 = 20 \n\nFréquence de résonance du circuit : Fo(MHz) = 159 / (√(L(µH).C(pF)) \n= 159 / √(16 x 100) = 159 / 40 = 3,975 MHz\n\nBande passante à –3 dB = Fo / Q = 3,975 MHz / 20 \n= 3.975.000 / 20 = 200 kHz (arrondi)\n",
+    "stem_zh": "-3 dB 带宽"
+   },
+   {
+    "num": "21167",
+    "stem_fr": "QUEL CIRCUIT LOGIQUE ?",
+    "options": [
+     "OU",
+     "ET",
+     "NON ET",
+     "OU EXCLUSIF"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "ET",
+    "commentaire_fr": "Logique de la porte ET : si toutes les entrées sont à 1, la sortie est à 1.\n",
+    "stem_zh": "这是哪种逻辑电路？"
+   },
+   {
+    "num": "23745",
+    "stem_fr": "IMPEDANCE DE LA RESONANCE",
+    "options": [
+     "7 Ω",
+     "1000 Ω",
+     "5 Ω",
+     "infinie"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "5 Ω",
+    "commentaire_fr": "Z = R\n",
+    "stem_zh": "谐振时的阻抗是多少？"
+   },
+   {
+    "num": "21137",
+    "stem_fr": "ATTENUATION DE CE FILTRE ?",
+    "options": [
+     "1,5 dB",
+     "12 dB",
+     "6 dB",
+     "8 dB"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "12 dB",
+    "commentaire_fr": "28 MHz est l'harmonique 2 du 14 MHz, c'est donc l'octave supérieure.\nIl s’agit d’un filtre passe bas et atténue les fréquences supérieures à la fréquence de coupure. Le filtre possède une seule cellule LC. L'atténuation est de 12 dB par cellule LC et par octave supérieure. L’atténuation de ce filtre à 28 MHz est donc de 12 dB.\n",
+    "stem_zh": "这个滤波器的衰减是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K015",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "anchor": "(综合)",
+  "seclab": "",
+  "n_q": 43,
+  "cours_fr": "",
+  "samples": [
+   {
+    "num": "21115",
+    "stem_fr": "CAPACITE DE LA PILE",
+    "options": [
+     "0,03 C",
+     "0,3 Ah",
+     "108 C",
+     "120 C"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "108 C",
+    "commentaire_fr": "I = U / R = 1,5 / 50 = 0,03 A, soit 0,03 Ah (mais pas de réponse)\n1 heure = 3600 secondes\nQ = I x t = 0,03 x 3600 = 108 C\n",
+    "stem_zh": "电池的容量是多少？"
+   },
+   {
+    "num": "21437",
+    "stem_fr": "CAPACITE DE LA PILE",
+    "options": [
+     "5 Ah",
+     "500 Ah",
+     "3600 C",
+     "1800 C"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1800 C",
+    "commentaire_fr": "100 mA pendant 5 heures => 500 mAh = 0,5 Ah x 3600 = 1.800 C\n",
+    "stem_zh": "若电池工作 5 小时，这组电池的容量（电量）是多少？"
+   },
+   {
+    "num": "20021",
+    "stem_fr": "QUELLE EST LA PUISSANCE MINI",
+    "options": [
+     "2 W",
+     "5 W",
+     "10 W",
+     "20 W"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "10 W",
+    "commentaire_fr": "P = U² / R = 90 x 90 / 1000 = 8,1 W. La résistance devra au moins dissipé 8 W. En répondant « 20 W », on utilise une résistance trop grosse.\n",
+    "stem_zh": "最小功率是多少"
+   },
+   {
+    "num": "20673",
+    "stem_fr": "10 PUISSANCE -5 = ?",
+    "options": [
+     "0,0001",
+     "1/100 000",
+     "100 000",
+     "5"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1/100 000",
+    "commentaire_fr": "10^-5 = 1/10^5 = 1/100 000\n",
+    "stem_zh": "10 的 -5 次方等于多少？"
+   },
+   {
+    "num": "21116",
+    "stem_fr": "CAPACITE DE LA PILE",
+    "options": [
+     "0,08 Ah",
+     "2880 C",
+     "0,8 Ah",
+     "800 C"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "0,08 Ah",
+    "commentaire_fr": "Q = I x t = 0,01 A x 8 heures = 0,08 Ah\n",
+    "stem_zh": "电池的容量是多少？"
+   },
+   {
+    "num": "21273",
+    "stem_fr": "CAPACITE DE LA PILE",
+    "options": [
+     "48.600 C",
+     "3 Ah",
+     "9 Ah",
+     "97.200 C"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "3 Ah",
+    "commentaire_fr": "Q = I x t = 0,5 A x 6 heures = 3 Ah\nLa mention \"9V\" ne sert à rien dans ce problème\n",
+    "stem_zh": "电池的容量是多少？"
+   },
+   {
+    "num": "21310",
+    "stem_fr": "INTENSITE EFFICACE",
+    "options": [
+     "6,06 mA",
+     "8,6 mA",
+     "12,1 mA",
+     "21 mA"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "6,06 mA",
+    "commentaire_fr": "Umax = 18 V => Ueff = 18 x 0,707 = 12,726 V\nI = U/R = 12,726 / 2100 = 0,00606 = 6,06 mAeff\n",
+    "stem_zh": "有效值电流是多少？"
+   },
+   {
+    "num": "20006",
+    "stem_fr": "QUE MESURE T-ON ?",
+    "options": [
+     "tension",
+     "intensité",
+     "énergie",
+     "courant"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "tension",
+    "commentaire_fr": "en connaissant R, on peut aussi mesurer une puissance.\nMais ce n’est pas une des réponses proposées…\n",
+    "stem_zh": "测量的是什么？"
+   },
+   {
+    "num": "20315",
+    "stem_fr": "PUISSANCE MINIMUM DE LA RESISTANCE ?",
+    "options": [
+     "1 W",
+     "2 W",
+     "10 W",
+     "5 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "5 W",
+    "commentaire_fr": "P = U² / R = 12 x 12 / 33 = 4,36 W. On retiendra la première puissance supérieure (5 watts). En répondant « 10 W », on utilise une résistance trop grosse.\n",
+    "stem_zh": "电阻的最小功率？"
+   },
+   {
+    "num": "21600",
+    "stem_fr": "QUELLE EST LA FONCTION REALISEE ?",
+    "options": [
+     "Inverseur",
+     "Non et",
+     "Ou",
+     "Et"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Inverseur",
+    "commentaire_fr": "Il s'agit de la fonction inverseur.\nQuand on applique sur l'entrée un \"1\", la sortie passe à \"0\" et réciproquement.\n",
+    "stem_zh": "实现的是什么功能？"
+   }
+  ]
+ }
+]

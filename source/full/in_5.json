@@ -1,0 +1,626 @@
+[
+ {
+  "num": "20169",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "LONGUEUR D'ONDE D'UN SIGNAL DE FREQUENCE16 GHZ",
+  "options": [
+   "1,875 cm ",
+   "1,875 m",
+   "0,01875 cm",
+   "18,75 m"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1,875 cm ",
+  "commentaire_fr": "L = 300 / 16000 = 0,01875 m = 1,875 cm\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20170",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "LONGUEUR D'ONDE D'UN SIGNAL DE FREQUENCE 7,5 MHZ",
+  "options": [
+   "400 m ",
+   "40 m",
+   "4 cm",
+   "40 cm"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "40 m",
+  "commentaire_fr": "L = 300 / 7,5 = 40\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20172",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA LONGUEUR D'ONDE D'UNE FREQUENCE DE 16,5 MHZ ?",
+  "options": [
+   "18,2 m ",
+   "182 cm",
+   "0,55 m",
+   "5,5 m"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "18,2 m ",
+  "commentaire_fr": "L= 300/16,5 = 18,2\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20173",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA LONGUEUR D'ONDE D'UNE FREQUENCE DE 20,98 MHZ",
+  "options": [
+   "70 m ",
+   "7 m",
+   "143 cm",
+   "14,3 m"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "14,3 m",
+  "commentaire_fr": "L= 300 / 20,98 = 14,3\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20175",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA FREQUENCE D'UN SIGNAL DE LONGUEUR D'ONDE = 20,98 METRES ?",
+  "options": [
+   "143 MHz ",
+   "14,3 MHz",
+   "18,068 MHz",
+   "10,1 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "14,3 MHz",
+  "commentaire_fr": "F= 300 / 20,98 = 14,299 arrondi à 14,3\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20176",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "QUELLE EST LA FREQUENCE D'UN SIGNAL DE LONGUEUR D'ONDE = 12,5 CM ?",
+  "options": [
+   "24 GHz ",
+   "24 MHz",
+   "2,4 GHz",
+   "240 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2,4 GHz",
+  "commentaire_fr": "12,5 cm = 0,125 m ; F = 300 / 0,125 = 2400 MHz = 2,4 GHz\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20177",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "FREQUENCE D'UN SIGNAL DE LONGUEUR = 7,5 CM ?",
+  "options": [
+   "40 GHz ",
+   "40 MHz",
+   "4 GHz",
+   "400 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "4 GHz",
+  "commentaire_fr": "7,5 cm = 0,075 m ; 300 / 0,075 = 4000 MHz = 4 GHz\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20178",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "FREQUENCE D'UN SIGNAL DE LONGUEUR = 3 CM",
+  "options": [
+   "1 GHz ",
+   "100 MHz",
+   "100 GHz",
+   "10 GHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10 GHz",
+  "commentaire_fr": "3 cm = 0,03 m ; 300 / 0,03 = 10000 MHz = 10 GHz\n",
+  "anchor": "T091a"
+ },
+ {
+  "num": "20183",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "UNE ONDE RADIO EST CONSTITUEE DE",
+  "options": [
+   "un champ magnétique et un champ électronique",
+   "un champ électrique",
+   "un champ magnétique",
+   "un champ magnétique et un champ électrique"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "un champ magnétique et un champ électrique",
+  "commentaire_fr": "",
+  "anchor": "T094b"
+ },
+ {
+  "num": "20184",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "VOUS FAITES UN CONTACT AVEC L'INDE LA NUIT. VOUS REFAITES CE CONTACT DE JOUR. QUE DEVEZ-VOUS FAIRE ?",
+  "options": [
+   "j'augmente ma puissance ",
+   "je me décale en descendant légèrement en fréquence",
+   "je réduis ma puissance ",
+   "je me décale en montant légèrement en fréquence "
+  ],
+  "ans_idx": 2,
+  "ans_fr": "je réduis ma puissance ",
+  "commentaire_fr": "en théorie, un contact de jour nécessite moins de puissance puisque l'ionosphère est éclairée sur tout le parcours de l'onde. NB : avec l'Est (L'Inde), ça marche mieux le matin et avec l'Ouest (Canada, USA), ça marche mieux en fin de journée. Ceci n'est valable que pour les ondes décamétriques, évidemment.\n",
+  "anchor": "T093f"
+ },
+ {
+  "num": "20185",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "CONTACTE INDE 10 MHZ",
+  "options": [
+   "en montant en fréquence puis en la diminuant ",
+   "en descendant en fréquence puis en l’augmentant",
+   "en augmentant la puissance d’émission",
+   "en réduisant la puissance d’émission"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "en montant en fréquence puis en la diminuant ",
+  "commentaire_fr": "l’indication 2 h du matin est importante car c’est l’heure où le soleil se lève en Inde (quand on se trouve en Europe). Le parcours de l’onde commence à être ionisée par le soleil, ce qui permet d’utiliser des fréquences plus élevées. Une fois le soleil couché, il faut redescendre sur des bandes plus basses. Mais c’est très théorique et ça ne marche pas souvent aussi bien…\n",
+  "anchor": "T093f"
+ },
+ {
+  "num": "20190",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "CARACTERISTIQUE D'UN CABLE COAXIAL ?",
+  "options": [
+   "faible perte ",
+   "haute impédance",
+   "asymétrique",
+   "composé de deux fils parallèles faiblement écartés"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "asymétrique",
+  "commentaire_fr": "",
+  "anchor": "T101a"
+ },
+ {
+  "num": "20192",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "AFFAIBLISSEMENT LINEIQUE",
+  "options": [
+   "0,2 dB/m ",
+   "0,1 dB/m",
+   "0,6 dB/m",
+   "0,4 dB/m"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,1 dB/m",
+  "commentaire_fr": "affaiblissement = 3 dB, affaiblissement linéique = 3/30 = 0,1 dB/m. Ce type de question est également posé à l’épreuve de réglementation\n",
+  "anchor": "T101a"
+ },
+ {
+  "num": "20193",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "天线、耦合、传播、传输线",
+  "stem_fr": "AFFAIBLISSEMENT LINEIQUE",
+  "options": [
+   "0,09 dB/m ",
+   "3,03 dB/m",
+   "0,19 dB/m",
+   "1,51 dB/m"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "0,09 dB/m ",
+  "commentaire_fr": "puissance divisée par deux = -3 dB ; 3 dB / 33 m = 0,0909 dB/m arrondi à 0,09. Ce type de question est également posé à l’épreuve de réglementation\n",
+  "anchor": "T101a"
+ },
+ {
+  "num": "20200",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "COMMENT MESURE-T-ON UN COURANT HF ?",
+  "options": [
+   "avec un ampèremètre thermique ",
+   "avec un ampèremètre à feuilles",
+   "avec un voltmètre à galvanomètre",
+   "avec un wobulateur"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "avec un ampèremètre thermique ",
+  "commentaire_fr": "Les propositions fausses sont fantaisistes (ampèremètrre à feuilles) ou non adaptées (voltmètre, wobulateur)\n",
+  "anchor": "T11"
+ },
+ {
+  "num": "20201",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "RELEVER L'AFFIRMATION VRAIE",
+  "options": [
+   "le taux de réjection de la fréquence image dépend de la sélectivité de l'ampli RF ",
+   "un bon rapport signal à bruit implique automatiquement une bonne fidélité dans le récepteur",
+   "une bonne stabilité n'est possible que dans le cas d'un signal modulé utilisant une large bande passante",
+   "une mauvaise sensibilité implique automatiquement une mauvaise sélectivité"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "le taux de réjection de la fréquence image dépend de la sélectivité de l'ampli RF ",
+  "commentaire_fr": "",
+  "anchor": "T11"
+ },
+ {
+  "num": "20203",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ETAGE MANQUANT",
+  "options": [
+   "oscillateur",
+   "filtre FI ",
+   "modulateur ",
+   "détecteur"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "détecteur",
+  "commentaire_fr": "",
+  "anchor": "T111"
+ },
+ {
+  "num": "20206",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "ETAGE REPERE PAR ?",
+  "options": [
+   "Ampli MF",
+   "Ampli BF",
+   "Ampli RF",
+   "Ampli FI"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Ampli RF",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20209",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ETAGE REPERE PAR ?",
+  "options": [
+   "CAG",
+   "détecteur de produit ",
+   "BFO",
+   "détecteur d’enveloppe "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "détecteur de produit ",
+  "commentaire_fr": "le détecteur de produit est toujours associé à un BFO (nommé ici OL)\n",
+  "anchor": "T126h"
+ },
+ {
+  "num": "20210",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST L'AVANTAGE D'UN RECEPTEUR HETERODYNE PAR RAPPORT A UN RECEPTEUR DIRECT ?",
+  "options": [
+   "L'élimination des fréquences indésirables  ",
+   "La démodulation qui se fait sur des basses fréquences.",
+   "L'ampli FI qui améliore très fortement la sensibilité du récepteur ",
+   "La double sélectivité des amplificateurs"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "L'ampli FI qui améliore très fortement la sensibilité du récepteur ",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20211",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ROLE D'UN AMPLI F.I. ?",
+  "options": [
+   "élimine toute trace de modulation d’amplitude dans un récepteur FM",
+   "Transforme les fréquences à recevoir",
+   "sélectionne la fréquence d’émission",
+   "améliore la sélectivité et la sensibilité "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "améliore la sélectivité et la sensibilité ",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20212",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUELLE EST L'AFFIRMATION VRAIE ?",
+  "options": [
+   "utiliser une FI permet d'améliorer la sélectivité ",
+   "utiliser une FI permet de réduire la fréquence image",
+   "augmenter la sensibilité permet d'augmenter la sélectivité.",
+   "utiliser une deuxième FI supprime l’effet d’intermodulation"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "utiliser une FI permet d'améliorer la sélectivité ",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20216",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ETAGE REPERE PAR ?",
+  "options": [
+   "Amplificateur audio fréquences ",
+   "amplificateur radiofréquences",
+   "détection",
+   "filtre passe bas "
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Amplificateur audio fréquences ",
+  "commentaire_fr": "le filtre passe-bas qui est obligatoire après l’ampli HF est manquent dans le schéma\n",
+  "anchor": "T115"
+ },
+ {
+  "num": "20217",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "ETAGE REPERE PAR ?",
+  "options": [
+   "détection",
+   "Amplificateur audio fréquences ",
+   "amplificateur radiofréquences",
+   "filtre anti-harmonique"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "filtre anti-harmonique",
+  "commentaire_fr": "",
+  "anchor": "T115"
+ },
+ {
+  "num": "20219",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "MODULATION PORTEUSE",
+  "options": [
+   "en phase ",
+   "en fréquence",
+   "en amplitude",
+   "en tout ou rien"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "en amplitude",
+  "commentaire_fr": "",
+  "anchor": "T121"
+ },
+ {
+  "num": "20222",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "TYPE DE MODULATION RECEPTEUR",
+  "options": [
+   "modulation de fréquence",
+   "modulation d'amplitude ",
+   "bande latérale unique",
+   "télégraphie."
+  ],
+  "ans_idx": 1,
+  "ans_fr": "modulation d'amplitude ",
+  "commentaire_fr": "détecteur d’enveloppe = récepteur AM\n",
+  "anchor": "T123b"
+ },
+ {
+  "num": "20224",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "A QUOI SERT UN DETECTEUR D'ENVELOPPE ?",
+  "options": [
+   "à démoduler de la BLU",
+   "à moduler de l’AM",
+   "à démoduler de l'AM",
+   "à générer de la double bande latérale (DSB)"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "à démoduler de l'AM",
+  "commentaire_fr": "",
+  "anchor": "T123b"
+ },
+ {
+  "num": "20225",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "TYPE DE MODULATION RECEPTEUR",
+  "options": [
+   "récepteur  CW",
+   "récepteur AM à double changement de fréquence",
+   "récepteur BLU",
+   "Récepteur FM"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Récepteur FM",
+  "commentaire_fr": "discriminateur = démodulateur FM\n",
+  "anchor": "T124"
+ },
+ {
+  "num": "20226",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "REPRESENTATION SHEMA AMPLI - OSCILLATEUR",
+  "options": [
+   "modulateur de fréquence ",
+   "Filtre sélectif",
+   "Modulateur équilibré",
+   "Modulateur d’amplitude"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "modulateur de fréquence ",
+  "commentaire_fr": "",
+  "anchor": "T124d"
+ },
+ {
+  "num": "20227",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUE DEMODULE-T-ON AVEC UN DISCRIMATEUR ?",
+  "options": [
+   "de la CW",
+   "de l’AM",
+   "de la BLU",
+   "de la FM"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "de la FM",
+  "commentaire_fr": "on détecte (ou on démodule) de la FM ou de la modulation de phase (PM), les deux étant appelés communément modulation angulaire\n",
+  "anchor": "T124"
+ },
+ {
+  "num": "20228",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "TYPE DE MODULATION RECEPTEUR",
+  "options": [
+   "FM",
+   "AM",
+   "BLU",
+   "modulation de phase"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "BLU",
+  "commentaire_fr": "Mélangeur de produit + BFO = récepteur BLU (ou CW mais ne faisait pas partie des réponses proposées)\n",
+  "anchor": "T126h"
+ },
+ {
+  "num": "20300",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "CODE DES COULEURS : RESISTANCE ROUGE ROUGE BLEU",
+  "options": [
+   "2,2 MΩ",
+   "11 MΩ",
+   "22 MΩ",
+   "1,1 MΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "22 MΩ",
+  "commentaire_fr": "Rouge = 2 ; Rouge = 2 ; Bleu = 6 ; donc 22 x 10 6 = 22 000 000 = 22 MΩ\n",
+  "anchor": "T015a"
+ },
+ {
+  "num": "20303",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA FREQUENCE ISSUE D'UN MELANGE DU 3EME ORDRE AVEC \nF1 = 149 MHZ ET F2 = 150 MHZ",
+  "options": [
+   "299 MHz",
+   "1 MHz",
+   "148 MHz",
+   "300 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "148 MHz",
+  "commentaire_fr": "Un produit du 3ème ordre est un mélange du type (2 x A) + B ou (2 x A) - B. Le premier mélange nous amène à plus de 400 MHz (aucune réponse). Nous procéderons par élimination avec le second mélange : (2 x 149) - 150 = 298 - 150 = 148. Les fréquences 299 et 1 MHz sont des mélanges « classiques » du second ordre et 300 est aussi un mélange du second ordre (harmonique 2)\n",
+  "anchor": "T077c"
+ },
+ {
+  "num": "20304",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST LE NOM DE L'ELEMENT MARQUE  ? \nANTENNE --- RF----ML-----FI----DETECTION--- ?-----HAUT PARLEUR",
+  "options": [
+   "Amplificateur MF",
+   "BFO",
+   "Amplificateur AF",
+   "CAG"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Amplificateur AF",
+  "commentaire_fr": "",
+  "anchor": "T112a"
+ },
+ {
+  "num": "20305",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUE REPRESENTE LE SCHEMA",
+  "options": [
+   "Modulateur équilibré",
+   "Filtre sélectif",
+   "Modulateur de fréquence ",
+   "Modulateur d’amplitude"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Modulateur de fréquence ",
+  "commentaire_fr": "oscillateur à réactance variable, c'est-à-dire modulateur FM\n",
+  "anchor": "T124d"
+ },
+ {
+  "num": "20306",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'UNE BOBINE DE 25 MILLIHENRYS A 1000 HERTZ ?",
+  "options": [
+   "6280 Ω",
+   "25 Ω",
+   "6,36 Ω",
+   "157 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "157 Ω",
+  "commentaire_fr": "Z = 6,28 x F x L = 6,28 x 0,025 x 1000 = 157 Ω\n",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "20307",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA TENSION AUX BORNES DU CONDENSATEUR",
+  "options": [
+   "14,1 V",
+   "7,1 V",
+   "10 V",
+   "20 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "7,1 V",
+  "commentaire_fr": "Tension à la sortie du transfo : Us = Ue x (Ns / Np) = \n10 x (50 / 100) = 5 V. Le condensateur a pour effet de transformer\nla tension efficace en tension maximum : 5 x 1,414 = 7,07 arrondi à 7,1 V sans tenir compte de la chute de tension provoquée par la diode qu’on a ici négligé par simplification. En effet, on n'aura jamais plus que la tension anode moins la tension de seuil sur la cathode de la diode. Au final, la tension Us sera d’environ 6,4 volts si la diode est au silicium.\n",
+  "anchor": "T054a"
+ },
+ {
+  "num": "20317",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA PUISSANCE MINIMUM DE LA RESISTANCE",
+  "options": [
+   "250 mW",
+   "0,5 W",
+   "1 W",
+   "2 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "250 mW",
+  "commentaire_fr": "P = U² / R = 6 x 6 / 220 = 0,1636 W = 164 mW. On retiendra la première puissance supérieure (250 mW). \nEn répondant « 0,5 W » et plus, on utilise une résistance trop grosse.\n",
+  "anchor": "T015c"
+ },
+ {
+  "num": "20319",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'UNE BOBINE DE 50 MICROHENRYS A 50 HERTZ",
+  "options": [
+   "2,5 mΩ",
+   "15,7 mΩ",
+   "0,157 Ω",
+   "0,25 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "15,7 mΩ",
+  "commentaire_fr": "ZL = 6,28 x F x L = 6,28 x 0,000 05 x 50 = 0,0157 Ω = 15,7 mΩ\n",
+  "anchor": "T023f1"
+ }
+]

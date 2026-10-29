@@ -1,0 +1,257 @@
+{
+ "section": "T12 §12.1–§12.6 调制方式与占用带宽 + 附录 B 公式速查",
+ "pairs": [
+  {
+   "old": "<td>占用带宽 = 2 × 频偏（excursion）</td>",
+   "new": "<td>占用带宽 = \\(2 \\times\\) 频偏（excursion）</td>",
+   "count": 1,
+   "note": "§12.1 表格：占用带宽 = 2 × 频偏"
+  },
+  {
+   "old": "可以取 2 个状态（0 与 π，即 2-PSK）、4 个状态（0、π/2、π、3π/2，即 4-PSK）",
+   "new": "可以取 2 个状态（\\(0\\) 与 \\(\\pi\\)，即 2-PSK）、4 个状态（\\(0\\)、\\(\\pi/2\\)、\\(\\pi\\)、\\(3\\pi/2\\)，即 4-PSK）",
+   "count": 1,
+   "note": "§12.1 PSK 相位状态中的 π"
+  },
+  {
+   "old": "最多可有 256 个状态（即 16²）",
+   "new": "最多可有 256 个状态（即 \\(16^2\\)）",
+   "count": 1,
+   "note": "§12.1 QAM 状态数 16²"
+  },
+  {
+   "old": "比特率（bps）= 每秒状态变化数（以 Baud 计，决定占用带宽）× 信号可取的状态数",
+   "new": "比特率（bps）\\(=\\) 每秒状态变化数（以 Baud 计，决定占用带宽）\\(\\times\\) 信号可取的状态数",
+   "count": 1,
+   "note": "§12.1 比特率 = 状态变化率 × 状态数"
+  },
+  {
+   "old": "没有 BF 时，高频信号的幅度应为 B/2；",
+   "new": "没有 BF 时，高频信号的幅度应为 \\(B/2\\)；",
+   "count": 1,
+   "note": "§12.3 无调制时幅度 B/2"
+  },
+  {
+   "old": "高频信号在 B/2 上下摆动",
+   "new": "高频信号在 \\(B/2\\) 上下摆动",
+   "count": 1,
+   "note": "§12.3 包络在 B/2 上下摆动"
+  },
+  {
+   "old": "在第 2 区测得 A = 4,2 V、a = 1,8 V，求调制深度。",
+   "new": "在第 2 区测得 \\(A = 4{,}2\\) V、\\(a = 1{,}8\\) V，求调制深度。",
+   "count": 1,
+   "note": "§12.3 原文例题的测量值"
+  },
+  {
+   "old": "<div class=\"formula\">b = A – a　　B = A + a</div>",
+   "new": "<div class=\"formula\">\\[ b = A - a \\]　　\\[ B = A + a \\]</div>",
+   "count": 1,
+   "note": "§12.3 b = A - a、B = A + a（展示式）"
+  },
+  {
+   "old": "<div class=\"formula\">K(%) = (A – a) / (A + a) = b / B</div>",
+   "new": "<div class=\"formula\">\\[ K\\,(\\%) = \\dfrac{A - a}{A + a} = \\dfrac{b}{B} \\]</div>",
+   "count": 1,
+   "note": "§12.3 调制深度 K（展示式）"
+  },
+  {
+   "old": "<div class=\"formula\">K = (A – a)/(A + a) = (4,2 – 1,8)/(4,2 + 1,8) = 2,4/6 = 0,4 = 40%（2,4 V 与 6 V 即 b 与 B）</div>",
+   "new": "<div class=\"formula\">\\(K = \\dfrac{A - a}{A + a} = (4{,}2 - 1{,}8)/(4{,}2 + 1{,}8) = 2{,}4/6 = 0{,}4 = 40\\%\\)（\\(2{,}4\\) V 与 \\(6\\) V 即 \\(b\\) 与 \\(B\\)）</div>",
+   "count": 1,
+   "note": "§12.3 原文算例 K = 40%"
+  },
+  {
+   "old": "因此当最高调制频率为 fm 时，AM 占用带宽等于 <b>2 × fm</b>",
+   "new": "因此当最高调制频率为 \\(f_m\\) 时，AM 占用带宽等于 <b>\\(2 \\times f_m\\)</b>",
+   "count": 1,
+   "note": "§12.3 AM 占用带宽 2 × fm"
+  },
+  {
+   "old": "<div class=\"formula\">m = 频偏 (Hz) / BF maxi (Hz)</div>",
+   "new": "<div class=\"formula\">\\(m = \\dfrac{\\text{频偏 (Hz)}}{\\text{BF maxi (Hz)}}\\)</div>",
+   "count": 1,
+   "note": "§12.4 调制指数 m = 频偏 / BF maxi"
+  },
+  {
+   "old": "<div class=\"formula\">B = 2 (m + 1) · BF maxi</div>",
+   "new": "<div class=\"formula\">\\[ B = 2\\,(m + 1) \\cdot BF_{maxi} \\]</div>",
+   "count": 1,
+   "note": "§12.4 卡森规则（展示式）"
+  },
+  {
+   "old": "<div class=\"formula\">m = 频偏 / BF maxi = 7,5 kHz / 3000 Hz = 7,5 / 3 = 2,5</div>",
+   "new": "<div class=\"formula\">\\(m = \\dfrac{\\text{频偏}}{\\text{BF maxi}} = 7{,}5\\ \\text{kHz} / 3000\\ \\text{Hz} = 7{,}5/3 = 2{,}5\\)</div>",
+   "count": 1,
+   "note": "§12.4 原文算例 m = 2,5"
+  },
+  {
+   "old": "当待解调频率接近 FI – δF 时",
+   "new": "当待解调频率接近 \\(FI - \\delta F\\) 时",
+   "count": 1,
+   "note": "§12.4 鉴频器 FI - δF"
+  },
+  {
+   "old": "K = 100%",
+   "new": "\\(K = 100\\%\\)",
+   "count": 2,
+   "note": "§12.6 功率关系：K = 100%（出现两次）"
+  },
+  {
+   "old": "载波占发射功率的 <b>2/3</b>",
+   "new": "载波占发射功率的 <b>\\(2/3\\)</b>",
+   "count": 1,
+   "note": "§12.6 载波占发射功率的 2/3"
+  },
+  {
+   "old": "输出只有 f1 + f2 与 f1 – f2，",
+   "new": "输出只有 \\(f_1 + f_2\\) 与 \\(f_1 - f_2\\)，",
+   "count": 1,
+   "note": "§12.6 环形混频器输出 f1 ± f2"
+  },
+  {
+   "old": "<td>B = 2(m + 1) · BF maxi（卡森规则，含 98% 功率）；频偏低时约等于 2 × 频偏</td>",
+   "new": "<td>\\(B = 2\\,(m + 1) \\cdot BF_{maxi}\\)（卡森规则，含 98% 功率）；频偏低时约等于 \\(2 \\times\\) 频偏</td>",
+   "count": 1,
+   "note": "§12.6 各类发射占用带宽小结表 FM 行"
+  },
+  {
+   "old": "<tr><td>欧姆定律</td><td><code>U = R · I　（即 I = U/R，R = U/I）</code></td><td class=\"small\">§1.2</td></tr>",
+   "new": "<tr><td>欧姆定律</td><td><code>\\[ U = R \\cdot I \\]　（即 \\[ I = \\dfrac{U}{R} \\]，\\[ R = \\dfrac{U}{I} \\]）</code></td><td class=\"small\">§1.2</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 1 行：欧姆定律</td><td><code"
+  },
+  {
+   "old": "<tr><td>电功率</td><td><code>P = U · I = R · I² = U² / R</code></td><td class=\"small\">§1.2</td></tr>",
+   "new": "<tr><td>电功率</td><td><code>\\[ P = U \\cdot I = R \\cdot I^2 = \\dfrac{U^2}{R} \\]</code></td><td class=\"small\">§1.2</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 2 行：电功率</td><td><code>"
+  },
+  {
+   "old": "<tr><td>电阻串联</td><td><code>Rt = R1 + R2 + …</code></td><td class=\"small\">§1.7</td></tr>",
+   "new": "<tr><td>电阻串联</td><td><code>\\[ R_t = R_1 + R_2 + \\dots \\]</code></td><td class=\"small\">§1.7</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 3 行：电阻串联</td><td><code"
+  },
+  {
+   "old": "<tr><td>电阻并联</td><td><code>1/Rt = 1/R1 + 1/R2 + …；两电阻时 Rt = R1·R2 / (R1+R2)</code></td><td class=\"small\">§1.7</td></tr>",
+   "new": "<tr><td>电阻并联</td><td><code>\\[ \\dfrac{1}{R_t} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2} + \\dots \\]；两电阻时 \\[ R_t = \\dfrac{R_1 \\cdot R_2}{R_1 + R_2} \\]</code></td><td class=\"small\">§1.7</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 4 行：电阻并联</td><td><code"
+  },
+  {
+   "old": "<tr><td>电容并联 / 串联</td><td><code>并联相加 Ct = C1 + C2；串联按倒数相加（与电阻相反）</code></td><td class=\"small\">§2.3</td></tr>",
+   "new": "<tr><td>电容并联 / 串联</td><td><code>并联相加 \\[ C_t = C_1 + C_2 \\]；串联按倒数相加（与电阻相反）</code></td><td class=\"small\">§2.3</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 5 行：电容并联 / 串联</td><td>"
+  },
+  {
+   "old": "<tr><td>容抗</td><td><code>Z<sub>C</sub> = X<sub>C</sub> = 1 / (2πfC)</code></td><td class=\"small\">§2.3f1</td></tr>",
+   "new": "<tr><td>容抗</td><td><code>\\[ Z_C = X_C = \\dfrac{1}{2\\pi f C} \\]</code></td><td class=\"small\">§2.3f1</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 7 行：容抗</td><td><code>Z"
+  },
+  {
+   "old": "<tr><td>感抗</td><td><code>Z<sub>L</sub> = X<sub>L</sub> = 2πfL</code></td><td class=\"small\">§2.3f1</td></tr>",
+   "new": "<tr><td>感抗</td><td><code>\\[ Z_L = X_L = 2\\pi f L \\]</code></td><td class=\"small\">§2.3f1</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 8 行：感抗</td><td><code>Z"
+  },
+  {
+   "old": "<tr><td>阻抗（RLC 串联）</td><td><code>Z = √(R² + (X<sub>L</sub> − X<sub>C</sub>)²)</code></td><td class=\"small\">§2.5</td></tr>",
+   "new": "<tr><td>阻抗（RLC 串联）</td><td><code>\\[ Z = \\sqrt{R^2 + (X_L - X_C)^2} \\]</code></td><td class=\"small\">§2.5</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 9 行：阻抗（RLC 串联）</td><td"
+  },
+  {
+   "old": "<tr><td>谐振条件 / 谐振频率</td><td><code>X<sub>L</sub> = X<sub>C</sub> 即 ωL = 1/(ωC)；f = 1 / (2π√(LC))（汤姆孙公式）</code></td><td class=\"small\">§4.3 / §4.6</td></tr>",
+   "new": "<tr><td>谐振条件 / 谐振频率</td><td><code>\\[ X_L = X_C \\] 即 \\[ \\omega L = \\dfrac{1}{\\omega C} \\]；\\[ f = \\dfrac{1}{2\\pi\\sqrt{LC}} \\]（汤姆孙公式）</code></td><td class=\"small\">§4.3 / §4.6</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 10 行：谐振条件 / 谐振频率</td><t"
+  },
+  {
+   "old": "<tr><td>谐振回路简化式</td><td><code>C(pF) = 25 330 / f²(MHz)；L(µH) = 25 330 / f²(MHz)</code></td><td class=\"small\">§4.6</td></tr>",
+   "new": "<tr><td>谐振回路简化式</td><td><code>\\[ C\\,(\\text{pF}) = \\dfrac{25\\,330}{f^2\\,(\\text{MHz})} \\]；\\[ L\\,(\\mu\\text{H}) = \\dfrac{25\\,330}{f^2\\,(\\text{MHz})} \\]</code></td><td class=\"small\">§4.6</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 11 行：谐振回路简化式</td><td><c"
+  },
+  {
+   "old": "<tr><td>品质因数 Q</td><td><code>Q = Z / R = 1 / cos φ；对线圈 Q = 2πfL / R；对电容 Q = 1 / (2πfCR)</code></td><td class=\"small\">§2.3e</td></tr>",
+   "new": "<tr><td>品质因数 Q</td><td><code>\\[ Q = \\dfrac{Z}{R} = \\dfrac{1}{\\cos\\varphi} \\]；对线圈 \\[ Q = \\dfrac{2\\pi f L}{R} \\]；对电容 \\[ Q = \\dfrac{1}{2\\pi f C R} \\]</code></td><td class=\"small\">§2.3e</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 12 行：品质因数 Q</td><td><co"
+  },
+  {
+   "old": "<tr><td>交流电与周期</td><td><code>f = 1 / T；周期 T = 1 / f</code></td><td class=\"small\">§2.1</td></tr>",
+   "new": "<tr><td>交流电与周期</td><td><code>\\[ f = \\dfrac{1}{T} \\]；周期 \\[ T = \\dfrac{1}{f} \\]</code></td><td class=\"small\">§2.1</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 13 行：交流电与周期</td><td><co"
+  },
+  {
+   "old": "<tr><td>分贝（功率比）</td><td><code>G(dB) = 10 log(Ps / Pe)；Ps = Pe × 10^(dB/10)</code></td><td class=\"small\">§4.1</td></tr>",
+   "new": "<tr><td>分贝（功率比）</td><td><code>\\[ G\\,(\\text{dB}) = 10\\log\\left(\\dfrac{P_s}{P_e}\\right) \\]；\\[ P_s = P_e \\times 10^{\\text{dB}/10} \\]</code></td><td class=\"small\">§4.1</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 14 行：分贝（功率比）</td><td><c"
+  },
+  {
+   "old": "<tr><td>常用 dB 值</td><td><code>0 dB = ×1；3 dB ≈ ×2；6 dB ≈ ×4；7 dB ≈ ×5；9 dB ≈ ×8；10 dB = ×10</code></td><td class=\"small\">§4.1</td></tr>",
+   "new": "<tr><td>常用 dB 值</td><td><code>\\[ 0\\ \\text{dB} = \\times 1 \\]；\\[ 3\\ \\text{dB} \\approx \\times 2 \\]；\\[ 6\\ \\text{dB} \\approx \\times 4 \\]；\\[ 7\\ \\text{dB} \\approx \\times 5 \\]；\\[ 9\\ \\text{dB} \\approx \\times 8 \\]；\\[ 10\\ \\text{dB} = \\times 10 \\]</code></td><td class=\"small\">§4.1</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 15 行：常用 dB 值</td><td><c"
+  },
+  {
+   "old": "<tr><td>变压器变比</td><td><code>N = ns / np（N>1 升压）；Us/Up = ns/np；Is/Ip = np/ns</code></td><td class=\"small\">§3.1</td></tr>",
+   "new": "<tr><td>变压器变比</td><td><code>\\[ N = \\dfrac{n_s}{n_p} \\]（\\[ N > 1 \\] 升压）；\\[ \\dfrac{U_s}{U_p} = \\dfrac{n_s}{n_p} \\]；\\[ \\dfrac{I_s}{I_p} = \\dfrac{n_p}{n_s} \\]</code></td><td class=\"small\">§3.1</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 16 行：变压器变比</td><td><cod"
+  },
+  {
+   "old": "<tr><td>波长与频率</td><td><code>λ(m) = 300 / f(MHz)；λ(m) · f(Hz) = 300 000 000 m/s</code></td><td class=\"small\">§9.1</td></tr>",
+   "new": "<tr><td>波长与频率</td><td><code>\\[ \\lambda\\,(\\text{m}) = \\dfrac{300}{f\\,(\\text{MHz})} \\]；\\[ \\lambda\\,(\\text{m}) \\cdot f\\,(\\text{Hz}) = 300\\,000\\,000\\ \\text{m/s} \\]</code></td><td class=\"small\">§9.1</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 17 行：波长与频率</td><td><cod"
+  },
+  {
+   "old": "<tr><td>半波振子（偶极）总长</td><td><code>L(m) = 150 / f(MHz)　（实际再缩短约 5%）</code></td><td class=\"small\">§9.4</td></tr>",
+   "new": "<tr><td>半波振子（偶极）总长</td><td><code>\\[ L\\,(\\text{m}) = \\dfrac{150}{f\\,(\\text{MHz})} \\]　（实际再缩短约 5%）</code></td><td class=\"small\">§9.4</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 18 行：半波振子（偶极）总长</td><td"
+  },
+  {
+   "old": "<tr><td>四分之一波长垂直天线</td><td><code>L(m) = 75 / f(MHz)　（实际再缩短约 5%）</code></td><td class=\"small\">§9.5</td></tr>",
+   "new": "<tr><td>四分之一波长垂直天线</td><td><code>\\[ L\\,(\\text{m}) = \\dfrac{75}{f\\,(\\text{MHz})} \\]　（实际再缩短约 5%）</code></td><td class=\"small\">§9.5</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 19 行：四分之一波长垂直天线</td><td"
+  },
+  {
+   "old": "<tr><td>反射系数</td><td><code>ρ = Ur/Ue = (Umax − Umin)/(Umax + Umin) = √(Pr/Pe)</code></td><td class=\"small\">§10.3</td></tr>",
+   "new": "<tr><td>反射系数</td><td><code>\\[ \\rho = \\dfrac{U_r}{U_e} = \\dfrac{U_{max} - U_{min}}{U_{max} + U_{min}} = \\sqrt{\\dfrac{P_r}{P_e}} \\]</code></td><td class=\"small\">§10.3</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 20 行：反射系数</td><td><code"
+  },
+  {
+   "old": "<tr><td>驻波比 / 百分比</td><td><code>ROS = (1 + ρ)/(1 − ρ)；反算 ρ = (ROS − 1)/(ROS + 1)；TOS(%) = 100·ρ</code></td><td class=\"small\">§10.3</td></tr>",
+   "new": "<tr><td>驻波比 / 百分比</td><td><code>\\[ ROS = \\dfrac{1 + \\rho}{1 - \\rho} \\]；反算 \\[ \\rho = \\dfrac{ROS - 1}{ROS + 1} \\]；\\[ TOS\\,(\\%) = 100 \\cdot \\rho \\]</code></td><td class=\"small\">§10.3</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 21 行：驻波比 / 百分比</td><td>"
+  },
+  {
+   "old": "<tr><td>反射功率</td><td><code>P réfléchie = P émise · ρ²</code></td><td class=\"small\">§10.3</td></tr>",
+   "new": "<tr><td>反射功率</td><td><code>\\[ P_{\\text{réfléchie}} = P_{\\text{émise}} \\cdot \\rho^2 \\]</code></td><td class=\"small\">§10.3</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 22 行：反射功率</td><td><code"
+  },
+  {
+   "old": "<tr><td>AM 占用带宽</td><td><code>带宽 = 2 × 最高调制频率（如话音 300–3000 Hz → 6 kHz）</code></td><td class=\"small\">§12.3</td></tr>",
+   "new": "<tr><td>AM 占用带宽</td><td><code>\\[ \\text{带宽} = 2 \\times \\text{最高调制频率} \\]（如话音 300–3000 Hz → 6 kHz）</code></td><td class=\"small\">§12.3</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 23 行：AM 占用带宽</td><td><c"
+  },
+  {
+   "old": "<tr><td>AM 功率分配（100% 调制）</td><td><code>载波占 2/3，两个边带各占 1/6（边带比载波低 6 dB）</code></td><td class=\"small\">§12.3</td></tr>",
+   "new": "<tr><td>AM 功率分配（100% 调制）</td><td><code>载波占 \\[ 2/3 \\]，两个边带各占 \\[ 1/6 \\]（边带比载波低 6 dB）</code></td><td class=\"small\">§12.3</td></tr>",
+   "count": 1,
+   "note": "附录 B 第 24 行：AM 功率分配（100% 调制）</"
+  }
+ ]
+}

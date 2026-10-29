@@ -1,0 +1,1917 @@
+[
+ {
+  "id": "K076",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "anchor": "T074b2",
+  "seclab": "7.4",
+  "n_q": 9,
+  "cours_fr": "7.4b4 ). A défaut d’analyseur de spectre, le signal émis pourra être vérifié par un logiciel d’analyse spectral de son en branchant la sortie BF d’un récepteur sur la carte son d’un ordinateur. Toutefois, si un étage du récepteur manque de linéarité, le défaut apparaitra dans l’analyse… g La modulation par déphasage des signaux HF et BF est peu répandue. Les déphaseurs utilisés sont difficiles à régler. La démonstration mathématique de cette technique dépasse largement le programme de l’examen. h Le système qui permet de démoduler la CW et la BLU se nomme un BFO ( Oscillateur de Battement de Fréquence ). Le BFO est un oscillateur fixe qui génère une fréquence proche de la fréquence à démoduler. Il rétablit la porteuse supprimée à l'émission pour générer de l'AM ou pour générer une note audible en CW. Le mélangeur du BFO est suivi d'une détection AM qui forme un ensemble appelé détecteur de produit . En CW, l’écart entre la fréquence issue de la FI et celle du BFO donne en les mélangeant une fréquence audible (800 Hz environ). En BLU, la fréquence du BFO correspond à la fréquence théorique de la porteuse supprimée à l'émission. Si la porteuse n’est pas rétablie sur la bonne fréquence, la voix de votre correspondant sera sensiblement modifiée mais restera compréhensible. En BLU comme en CW, la fréquence affichée par le transceiver est la fréquence de la porteuse. Dans nos exemples : 7,030 MHz en CW et 7,200 MHz, fréquence de la porteuse supprimée en BLI. Ce qui signifie qu’en BLU, il n’y a aucune émission sur la fréquence affichée par l’émetteur (puisque la porteuse est supprimée) alors qu’en CW, l’émission se fait sur la fréquence affichée. i Dans un récepteur à conversion directe , la fréquence de l’oscillateur local est proche de la fréquence à recevoir. Le filtre de bande (étage RF) est suivi d’un mélangeur avec en sortie un signal issu des bandes latérales, qui est le signal modulant lui-même. Le démodulateur et les étages FI ont disparu ainsi que les problèmes liés à la Fréquence Intermédiaire (notamment la fréquence image). Ce récepteur simple à construire nécessite un amplificateur AF à grand gain (au moins 100 dB) et ne démodule que des signaux modulés en amplitude (AM, BLU). Pour les modulations angulaires (FM, PM), le signal AF sera traité numériquement (démodulateur I-Q et traitement du signal en bande de base via la carte son d’un ordinateur) avant d’être appliqué au haut-parleur.",
+  "samples": [
+   {
+    "num": "21153",
+    "stem_fr": "TAUX DE DISTORTION HARMONIQUE ?",
+    "options": [
+     "5 %",
+     "70 %",
+     "15 %",
+     "50 %"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "50 %",
+    "commentaire_fr": "Harmonique 2 de 7 MHz = 14 MHz ; Taux de distorsion harmonique \n= (Tension harmonique / Tension désirée) x 100 = (5 / 10) x 100 = 50%\n",
+    "stem_zh": "谐波失真率是多少？"
+   },
+   {
+    "num": "20316",
+    "stem_fr": "TAUX DE DISTORSION DE L'HARMONIQUE 3",
+    "options": [
+     "25 %",
+     "20 %",
+     "15 %",
+     "35 %"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "15 %",
+    "commentaire_fr": "TDH de l’harmonique 3 : on compare donc les tensions de F (fondamentale) et de 3xF (harmonique 3)\nTDH = (1,5 / 10) x 100 = 15 %\nLa tension 2xF (harmonique 2) est ici inutile (sauf pour embrouiller les candidats)\n",
+    "stem_zh": "3 次谐波的失真率"
+   },
+   {
+    "num": "20150",
+    "stem_fr": "TAUX DE DISTORSION DE L'HARMONIQUE 3",
+    "options": [
+     "45 % ",
+     "40 %",
+     "20 %",
+     "60 %"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "20 %",
+    "commentaire_fr": "TDH de l’harmonique 3 : on compare donc les tensions de F1 (0,5)  et F3 (1,5) ; TDH = 2 / 10 x 100 = 20%\n",
+    "stem_zh": "3 次谐波的失真率"
+   },
+   {
+    "num": "20151",
+    "stem_fr": "QUEL EST LE TAUX DE DISTORSION HARMONIQUE TOTALE",
+    "options": [
+     "70 %",
+     "40 %",
+     "30 %",
+     "50 %"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "50 %",
+    "commentaire_fr": "TDH pour 10 MHz : TDH1 = 4/10 = 0,4 = 40% ; \nTDH pour 15 MHz : TDH2 = 3 / 10 = 0,3 = 30% ; \nTDH total = √ (TDH1² + TDH2²) = 50%. \nCommentaires : question qui, à mon opinion, est hors programme. Seul le TDH est au programme (calcul de TDH1 et TDH2) bien qu’il ne soit pas cité dans le texte (on parle seulement de non linéarité et d’harmoniques)\n",
+    "stem_zh": "总谐波失真率是多少"
+   },
+   {
+    "num": "20644",
+    "stem_fr": "TAUX DE DISTORSION HARMONIQUE A CALCULER A PARTIR D'UN SPECTRE DE 4 RAIES",
+    "options": [
+     "2",
+     "40%",
+     "4",
+     "20%"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "20%",
+    "commentaire_fr": "TDH de l’harmonique 3 : on compare donc les tensions de la fréquence amplifiée, F1 (1,5), et de son harmonique 3, F3 (4,5) ; \nTDH = 2 / 10 x 100 = 20%\n",
+    "stem_zh": "需要根据有 4 条谱线的频谱计算总谐波失真率"
+   },
+   {
+    "num": "21493",
+    "stem_fr": "DISTORSION ?",
+    "options": [
+     "Distorsion harmonique      ",
+     "Distorsion d’amplitude",
+     "Distorsion de fréquence   ",
+     "Pas de distorsion"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Distorsion de fréquence   ",
+    "commentaire_fr": "L’amplificateur RF n’amplifie pas les différentes fréquences présentes à l’entrée linéairement : les fréquences plus élevées sont moins amplifiées.\n",
+    "stem_zh": "输出信号受到了哪种失真？"
+   },
+   {
+    "num": "20369",
+    "stem_fr": "SCHEMA AVEC FREQUENCE  FONDAMENTALE F = 10 V PUIS 2F = 4 V, PUIS 3F = 3 V \nTAUX DE DISTORSION MAXIMAL ?",
+    "options": [
+     "20 %",
+     "40 %",
+     "30 %",
+     "35 %"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "40 %",
+    "commentaire_fr": "Généralement, on parle du Taux de Distorsion Harmonique (TDH) pour une fréquence (2F ou 3F). Mais dans cette question il est demandé le taux de distorsion maximal. Or, dans le schéma, l’harmonique 2 (2F) a une valeur plus importante que l’harmonique 3 (3F) et génère donc le plus de distorsion. C’est donc sur l’harmonique 2 que porteront les calculs du TDH : TDH = (4V / 10V) x 100 = 40 %\n",
+    "stem_zh": "图中基波 F = 10 V，二次谐波 2F = 4 V，三次谐波 3F = 3 V，最大失真率是多少？"
+   },
+   {
+    "num": "20545",
+    "stem_fr": "CALCULEZ LE TAUX DE DISTORSION HARMONIQUE DE LA FREQUENCE 2\nUN TABLEAU ETAIT FOURNI : \nU=F(F)\n20=F(0,5)\n8=F(1)\n4=F(1,5)\n2=F(2)",
+    "options": [
+     "80%",
+     "40%",
+     "8%",
+     "10%"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "10%",
+    "commentaire_fr": "TDH = 2/20 = 0,1 = 10%\nLa question portait sur la fréquence 2 et non pas sur l'harmonique 2 (soit 1 dans cet exemple puisque la fréquence de référence est 0,5)\n",
+    "stem_zh": "计算频率 2 的谐波失真率\n表格给出：\nU=F(F)\n20=F(0.5)\n8=F(1)\n4=F(1.5)\n2=F(2)"
+   },
+   {
+    "num": "20348",
+    "stem_fr": "FREQUENCE 1 = 0,5 POUR 10 V, \nPUIS FREQUENCE 2 = 1,0 AVEC 4 V, \nPUIS FREQUENCE 3 = 1,5 AVEC 2 V \nTAUX DE DISTORSION  L'HARMONIQUE 2 ?",
+    "options": [
+     "45%",
+     "20%",
+     "40%",
+     "60%"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "40%",
+    "commentaire_fr": "TDH de l’harmonique 2 : on compare donc les tensions de F1 (0,5)  et F2 (1,0) ; \nTDH = 4 / 10 x 100 = 40%. \nLe seul couple de fréquence étant en harmonique 2 sont 0,5 et 1,0.\n",
+    "stem_zh": "频率 1 = 0.5 时电压 10 V，频率 2 = 1.0 时电压 4 V，频率 3 = 1.5 时电压 2 V，二次谐波失真率是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K077",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "anchor": "T061a",
+  "seclab": "6.1",
+  "n_q": 9,
+  "cours_fr": "6.1) Un transistor est composé de deux diodes montées tête-bêche, c’est pour cela qu’on le nomme aussi transistor bipolaire (ou jonction). Un transistor peut donc être NPN ou PNP mais les NPN sont les plus courants. Les transistors sont différenciés par le sens de leur flèche représentant la jonction base-émetteur. Quand la flèche PéNètre, il s'agit d'un PNP; quand elle Ne PéNètre pas, il s'agit d'un NPN. Comme pour les diodes, le sens de la flèche indique le sens du courant dans le transistor. Un transistor est composé d'un émetteur repéré par la flèche, d'une base représentée par un trait vertical qui est une fine couche de matière dopée en polarité inverse de celle de l’émetteur et d'un collecteur (sans repère) dopé comme l’émetteur. La première lettre du type du transistor donne la polarité où doit être branché l'émetteur du transistor (NPN = émetteur au – ; PNP = émetteur au +). Le collecteur est branché à la polarité inverse de l'émetteur. La base est reliée à une polarité intermédiaire. b Le transistor est monté dans un boîtier et, selon le boîtier, le brochage diffère (ci- contre : boîtier TO18 avec l’ergot repérant l’émetteur). Le collecteur est connecté au boîtier s’il est métallique. Le fonctionnement interne du transistor n’est pas au programme. La jonction base-émetteur est en sens passant. Toutefois la recombinaison électron-trou fonctionne mal car l’émetteur est fortement dopé et la base, très mince, est faiblement dopée. Quelques charges se recombinent mais la plupart se dirigent vers la jonction base-collecteur polarisée en inverse. Le collecteur étant peu dopé, la jonction base-collecteur est peu active et les charges, attirées par la tension du collecteur, y sont propulsées . La recombinaison trou-électron génère du bruit (qui s’ajoute au signal amplifié). L es transistors jonction au Germanium génèrent moins de bruit que ceux au Silicium.",
+  "samples": [
+   {
+    "num": "21143",
+    "stem_fr": "QUEL EST LE TRANSISTOR ALIMENTE CORRECTEMENT",
+    "options": [
+     "Schéma 1",
+     "Schéma 2",
+     "Schéma 3",
+     "Schéma 4"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Schéma 3",
+    "commentaire_fr": "La flèche de l’émetteur indique le - ; seuls les schémas 1 et 3 correspondent à cette condition. Le collecteur est relié à la tension inverse de l’émetteur et la base à une tension intermédiaire ; des deux réponses encore possible, seul le schéma 3 correspond à cette condition\n",
+    "stem_zh": "哪个晶体管的供电接法是正确的"
+   },
+   {
+    "num": "20320",
+    "stem_fr": "UN TRANSISTOR BIPOLAIRE EST COMPOSE DE  :",
+    "options": [
+     "3, 4 et 5",
+     "1, 2 et 3",
+     "1, 2 et 7",
+     "6, 7 et 8"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "3, 4 et 5",
+    "commentaire_fr": "Nom de l'électrode => Nom du composant\nDrain                             FET, MOS FET\nSource                          FET, MOS FET\nGâchette                       Thyristor, Triac\nPorte                             FET, MOS FET\nAnode                            Thyristor, Diode, Tube thermoïonique\n\nLe transistor bipolaire est l'autre nom du transistor jonction classique (NPN ou PNP)\n",
+    "stem_zh": "双极型晶体管由哪些部分组成："
+   },
+   {
+    "num": "21148",
+    "stem_fr": "QUELLE EST L'AFFIRMATION FAUSSE ?",
+    "options": [
+     "Ic est directement fonction de Ib",
+     "L'émetteur d'un PNP est relié au -",
+     "La flèche du transistor est dirigée vers le -",
+     "un transistor est composé de deux diodes montées tête bêche\n"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "L'émetteur d'un PNP est relié au -",
+    "commentaire_fr": "L’émetteur d’un transistor PNP doit être relié au + (mnémotechnique : initiale P comme +)\n",
+    "stem_zh": "哪个说法是错误的？"
+   },
+   {
+    "num": "20797",
+    "stem_fr": "POUR UN TRANSISTOR BIPOLAIRE, QUELLE EST LA PROPOSITION FAUSSE ?",
+    "options": [
+     "un transistor bipolaire est constitué de deux diodes montées tête bêche",
+     "l’émetteur d’un PNP est alimenté par une tension négative ",
+     "le rapport Ic/Ib est appelé ϐ",
+     "la flèche du transistor permet de repérer l’émetteur"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "l’émetteur d’un PNP est alimenté par une tension négative ",
+    "commentaire_fr": "l’émetteur d’un PNP est alimenté par une tension positive (mnémotechnique : première lettre du transistor = tension d'émetteur. Donc PNP = positive et NPN = négative)\n",
+    "stem_zh": "对双极型晶体管来说，下面哪个说法是错的？"
+   },
+   {
+    "num": "20645",
+    "stem_fr": "NOMMER LES 3 PATTES D'UN TRANSISTOR BIPOLAIRE",
+    "options": [
+     "émetteur, base, collecteur ",
+     "patte a, patte b, patte c",
+     "entrée, commun, sortie",
+     "cathode, anode, gâchette"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "émetteur, base, collecteur ",
+    "commentaire_fr": "",
+    "stem_zh": "说出双极型晶体管三个引脚的名称"
+   },
+   {
+    "num": "20708",
+    "stem_fr": "UN TRANSISTOR BIPOLAIRE EST COMPOSE DE :",
+    "options": [
+     "deux diodes montées en série",
+     "deux diodes montées tête bêche ",
+     "deux diodes montées en parallèle",
+     "deux diodes montées en anneau"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "deux diodes montées tête bêche ",
+    "commentaire_fr": "",
+    "stem_zh": "双极型晶体管由哪些部分构成："
+   },
+   {
+    "num": "20359",
+    "stem_fr": "UN TRANSISTOR BIPOLAIRE EST COMPOSE DE :",
+    "options": [
+     "1 émetteur, 1 base et 1 collecteur ",
+     "1 source, 1 drain et 1 porte",
+     "1 cathode, 1 anode et 1 grille",
+     "1 cathode, 1 anode et 1 gâchette"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1 émetteur, 1 base et 1 collecteur ",
+    "commentaire_fr": "",
+    "stem_zh": "双极型晶体管由哪些部分组成："
+   },
+   {
+    "num": "20463",
+    "stem_fr": "DANS LE CAS D'UN AMPLIFICATEUR LINEAIRE, QUELLE EST L'AFFIRMATION FAUSSE ?",
+    "options": [
+     "l’émetteur d’un transistor PNP est connectée au –  ",
+     "la flèche du transistor est toujours dirigée vers le – ",
+     "un transistor est constitué de 2 diodes tête-bêche",
+     "l’intensité dans le collecteur est directement fonction de l’intensité dans la base"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "l’émetteur d’un transistor PNP est connectée au –  ",
+    "commentaire_fr": "",
+    "stem_zh": "在一个线性放大器中，下面哪一句说法是错的？"
+   },
+   {
+    "num": "20817",
+    "stem_fr": "TROUVER LA PROPOSITION FAUSSE",
+    "options": [
+     "un transistor bipolaire est constitué de deux diodes montées tête bêche ",
+     "la tension d’alimentation de l’émetteur d’un transistor PNP est plus positive que sa tension de collecteur",
+     "la flèche du transistor permet de repérer l’émetteur",
+     "le collecteur d’un transistor NPN doit être relié à une tension négative "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "le collecteur d’un transistor NPN doit être relié à une tension négative ",
+    "commentaire_fr": "",
+    "stem_zh": "找出错误的说法。"
+   }
+  ]
+ },
+ {
+  "id": "K078",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "anchor": "T121a",
+  "seclab": "12.1",
+  "n_q": 9,
+  "cours_fr": "12.1) Schématisation des différents types de modulation : a La tension instantanée en fonction du temps d’un signal sinusoïdal peut se caractériser par trois grandeurs : l’amplitude, la fréquence et la phase . Si on désire transporter une information (voix, image, données informatiques, …) grâce à ce signal, il faut le moduler en fonction de cette information. Moduler ce signal consiste à modifier une de ses trois grandeurs au rythme de l’information que l’on désire transporter. b Un oscillogramme représente la modulation en fonction du temps qu’afficherait un oscilloscope. Un spectrogramme représente la modulation en fonction de la fréquence qu’afficherait un analyseur de spectre. c Si on modifie l’amplitude, on parle de modulation d’amplitude (AM) : le niveau de H.F. est modulée par le niveau de B.F. ; la B.F. produit une enveloppe (marquée en pointillé dans le schéma ci-dessus) autour de la H.F. En représentant l'AM en fonction de la fréquence, on retrouve la porteuse au centre et deux bandes latérales (une de chaque côté de la porteuse) transportant le message B.F. car moduler la HF (porteuse) par la BF revient à les mélanger ( voir §",
+  "samples": [
+   {
+    "num": "21213",
+    "stem_fr": "QUEL EST CE TYPE DE MODULATION ?",
+    "options": [
+     "BLS",
+     "BLI",
+     "CW",
+     "AM"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "BLS",
+    "commentaire_fr": "La partie grisée représente la HF : elle est à droite de la porteuse (en pointillé) et elle a donc une fréquence supérieure : c'est la bande latérale supérieure (BLS)\n",
+    "stem_zh": "这是哪种调制方式？"
+   },
+   {
+    "num": "20580",
+    "stem_fr": "UN SIGNAL SINUS DONT L'AMPLITUDE VARIE. QUELLE EST LA CLASSE D'EMISSION ?",
+    "options": [
+     "A1A",
+     "A3E",
+     "G3E",
+     "F3E"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "A3E",
+    "commentaire_fr": "Si l'amplitude varie, ce ne peut être F3E ou G3E (FM ou modulation de phase). \nA1A, c'est du tout ou rien (j'émets ou je n'émets pas) et ça ne correspond pas au schéma. \nReste donc A3E (AM) mais ce pourrait être aussi de la BLU (J3E), non proposée ici\n",
+    "stem_zh": "一个幅度变化的正弦信号。其发射类别是什么？"
+   },
+   {
+    "num": "21325",
+    "stem_fr": "TYPE DE MODULATION",
+    "options": [
+     "Modulation d'amplitude",
+     "Modulation de phase",
+     "Bande Latérale Unique, porteuse supprimée",
+     "Bande Latérale Unique, porteuse réduite"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Modulation de phase",
+    "commentaire_fr": "La modulation de phase et la modulation de fréquence (qui sont des modulations \"angulaires\") se représentent de la même manière.\nLe signal FM peut aussi être représenté par un large rectangle grisé (comme de l’AM sans signal modulant, représentation que nous avions l'habitude de voir dans les examens sur Minitel)\n",
+    "stem_zh": "这是哪种调制？"
+   },
+   {
+    "num": "21502",
+    "stem_fr": "TYPE DE MODULATION",
+    "options": [
+     "AM",
+     "FM",
+     "CW",
+     "BLU"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "FM",
+    "commentaire_fr": "",
+    "stem_zh": "图中所示是哪种调制方式？"
+   },
+   {
+    "num": "20354",
+    "stem_fr": "QUELLE EST CETTE MODULATION ?",
+    "options": [
+     "CW",
+     "AM",
+     "BLU",
+     "FM"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "FM",
+    "commentaire_fr": "",
+    "stem_zh": "这是哪一种调制方式？（⚠️待核）"
+   },
+   {
+    "num": "21211",
+    "stem_fr": "QUEL EST CE TYPE DE MODULATION ?",
+    "options": [
+     "AM",
+     "FM",
+     "BLU",
+     "CW"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "CW",
+    "commentaire_fr": "",
+    "stem_zh": "这是哪种调制方式？"
+   },
+   {
+    "num": "21212",
+    "stem_fr": "QUEL EST CE TYPE DE MODULATION ?",
+    "options": [
+     "AM",
+     "FM",
+     "BLU",
+     "CW"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "FM",
+    "commentaire_fr": "",
+    "stem_zh": "这是哪种调制方式？"
+   },
+   {
+    "num": "21214",
+    "stem_fr": "QUEL EST LE TYPE DE MODULATION ?",
+    "options": [
+     "CW",
+     "FM",
+     "AM",
+     "BLU"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "AM",
+    "commentaire_fr": "",
+    "stem_zh": "这是哪种调制方式？"
+   },
+   {
+    "num": "21324",
+    "stem_fr": "TYPE DE MODULATION ?",
+    "options": [
+     "Modulation d'amplitude",
+     "Bande Latérale Unique",
+     "Modulation de fréquence      ",
+     "Modulation de phase"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Bande Latérale Unique",
+    "commentaire_fr": "",
+    "stem_zh": "这是哪种调制？"
+   }
+  ]
+ },
+ {
+  "id": "K079",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "anchor": "R42e",
+  "seclab": "R-4.2",
+  "n_q": 9,
+  "cours_fr": "R-4.2) L’exploitation d’une station se différencie par le suffixe utilisé après l’indicatif d’appel de l’opérateur - en station fixe , l’opérateur émet avec son indicatif d’appel sans suffixe depuis l’ adresse déclarée à l’ANFR qui doit être informée de tout changement dans les 2 mois (article 7 de l’arrêté du 21/09/00 modifié). Depuis 2021, deux adresses peuvent être communiquées à l’ANFR : celle du domicile de l’opérateur et celle de la station (la résidence secondaire de l’opérateur par exemple ou toute autre adresse). Pour une utilisation portable, mobile ou maritime, l’indicatif d’appel personnel devra être complété de la lette /P, /M ou /MM ( dernier alinéa de l’article 7 de l’arrêté du 21/09/00 modifié ) dans les cas suivants : - une station transportable est une station construite de manière à être déplacée mais ne peut pas fonctionner pendant son transport. L’indicatif d’appel est suivi du suffixe « /P » en CW ou « Portable » en téléphonie. - une station mobile est « destinée à être utilisée lorsqu'elle est en mouvement, ou pendant des haltes en des points non déterminés » (S1.67 du RR) . L’indicatif d’appel est suivi du suffixe « /M » en CW ou « Mobile ». - une station installée à bord d’un navire situé dans les eaux internationales (à plus de 12 milles nautiques des côtes) utilisera le suffixe « /MM » ou « Maritime Mobile ». La station est alors assimilée à une station de navire (art. S1.77 du RR) et relève de l'autorité du capitaine (art D406-12 du CPCE) . Une station située dans un navire dans les eaux territoriales, sur un fleuve ou à quai dans un port est assimilée à une station mobile (/M). Exemples : un radioamateur émettant en CW depuis la station d’un autre radioamateur utilisera un indicatif d’appel sous la forme « F5ABC/P » ; le même opérateur émettant en téléphonie depuis un véhicule ou en se promenant à pied ou en vélo s’identifiera ainsi : « Foxtrot Cinq Alfa Bravo Charlie Mobile ». b Les textes en vigueur ne règlent pas le cas du radioamateur français qui n’émet pas depuis le territoire pour lequel son indicatif d’appel lui a été attribué. L’usage veut que, dans ce cas, l’indicatif d’appel est précédé du préfixe de localisation du lieu d’émission ( voir §",
+  "samples": [
+   {
+    "num": "34827",
+    "stem_fr": "QUE DOIT-ON DECLARER A L'ANFR ?",
+    "options": [
+     "la hauteur des antennes",
+     "le type d'antenne",
+     "les caractéristiques des antennes",
+     "la PAR maximum"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "la PAR maximum",
+    "commentaire_fr": "La puissance PAR maximum utilisée par bandes doit être déclarée à l’ANFR dans les 2 mois suivant la mise en place ou la modification d’une installation si elle excède 5 watts PAR.\n",
+    "stem_zh": "应向 ANFR 申报什么？"
+   },
+   {
+    "num": "30309",
+    "stem_fr": "AVANT D'EMETTRE, UN RADIOAMATEUR NE DOIT PAS DECLARER ?",
+    "options": [
+     "la PAR",
+     "la localisation de la station",
+     "les fréquences utilisées",
+     "le type d'antennes utilisées"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "le type d'antennes utilisées",
+    "commentaire_fr": "Dans la déclaration PAR, on donne la PAR par gamme d'ondes et la localisation de la station. Le type d'antenne n'est pas demandé. En revanche, pour calculer la PAR, on doit connaitre le gain des antennes et la puissance de l'émetteur. \n",
+    "stem_zh": "发射之前，业余爱好者不必申报什么？"
+   },
+   {
+    "num": "30311",
+    "stem_fr": "* A PARTIR DE QUELLE PUISSANCE (PAR) DOIT-ON DECLARER SA STATION FIXE A L'ADMINISTRATION ?",
+    "options": [
+     "Vous devez obligatoirement la déclarer",
+     "1 Watt",
+     "5 Watts",
+     "100 Watts"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "5 Watts",
+    "commentaire_fr": "http://www.anfr.fr/fr/autorisations-certificats/radioamateurs/declaration-de-station.html\n",
+    "stem_zh": "* 从多大的（PAR）功率起，必须向主管部门申报自己的固定电台？"
+   },
+   {
+    "num": "34743",
+    "stem_fr": "VOUS CHANGEZ LA PUISSANCE DE VOTRE EMETTEUR, A QUI DEVEZ-VOUS FAIRE LA DECLARATION ?",
+    "options": [
+     "l'ANFR",
+     "la Préfecture",
+     "la Mairie du domicile",
+     "aucune déclaration n’est prévue"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "l'ANFR",
+    "commentaire_fr": "La puissance PAR maximum utilisée par bandes doit être déclarée à l’ANFR dans les 2 mois suivant la mise en place ou la modification d’une installation si elle excède 5 watts PAR.\n",
+    "stem_zh": "您更改了发射机的功率，应向谁申报？"
+   },
+   {
+    "num": "30310",
+    "stem_fr": "*  QUE DOIT DECLARER UN RADIOAMATEUR POUR FAIRE DE L'EMISSION ?",
+    "options": [
+     "le nombre d'émetteurs en sa possession",
+     "la puissance utilisée",
+     "le nombre d'antennes",
+     "la hauteur de son pylone"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "la puissance utilisée",
+    "commentaire_fr": "http://www.anfr.fr/fr/autorisations-certificats/radioamateurs/declaration-de-station.html\nLa \"déclaration PAR\" doit être établie en mentionnant la PAR par gammes d'ondes. La PAR est calculée à partir de la puissance de l'émetteur et du gain des antennes.\n",
+    "stem_zh": "业余无线电爱好者为发射需要申报什么？"
+   },
+   {
+    "num": "34659",
+    "stem_fr": "COMMENT DOIT-ON DECLARER LES CONDITIONS PARTICULIERES LIEES A LA PUISSANCE DE LA STATION ?",
+    "options": [
+     "par une déclaration à la Mairie du domicile",
+     "par une déclaration à la Préfecture",
+     "par une déclaration auprès de l’ANFR ",
+     "aucune déclaration n’est prévue"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "par une déclaration auprès de l’ANFR ",
+    "commentaire_fr": "La puissance PAR maximum utilisée par bandes doit être déclarée à l’ANFR dans les 2 mois suivant la mise en place d’une nouvelle installation si elle excède 5 watts PAR\n",
+    "stem_zh": "应如何申报与电台功率有关的特殊条件？"
+   },
+   {
+    "num": "34922",
+    "stem_fr": "A PARTIR DE QUELLE PUISSANCE FAUT-IL DECLARER UNE STATION FIXE A L'ADMINISTRATION ?",
+    "options": [
+     "1 W",
+     "5 W",
+     "10 W",
+     "pas de minimum"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "5 W",
+    "commentaire_fr": "",
+    "stem_zh": "固定台从多大功率起必须向管理部门申报？"
+   },
+   {
+    "num": "30312",
+    "stem_fr": "* VOUS POSSEDEZ UNE STATION FIXE AVEC UNE PUISSANCE (PAR) DE 100 WATTS\nCOMBIEN AVEZ-VOUS DE TEMPS POUR LA DECLARER A L'ADMINISTRATION ?",
+    "options": [
+     "Ce n'est pas obligatoire",
+     "1 mois",
+     "2 mois",
+     "3 mois"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "2 mois",
+    "commentaire_fr": "",
+    "stem_zh": "你有一台 PAR 为 100 W 的固定电台，需要在多长时间内向主管部门申报？"
+   },
+   {
+    "num": "34893",
+    "stem_fr": "EN VERTU DE L'ARRETE DU 17/12/07 MODIFIE, QUE FAUT-IL DECLARER A L'ANFR ?",
+    "options": [
+     "le modèle de l’émetteur utilisé ",
+     "le gain de son antenne",
+     "le ROS mesuré sur chaque bande",
+     "PAR maximum utilisée sur chaque gamme d’ondes "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "PAR maximum utilisée sur chaque gamme d’ondes ",
+    "commentaire_fr": "",
+    "stem_zh": "根据经修订的 2007 年 12 月 17 日部令，应向 ANFR 申报什么？"
+   }
+  ]
+ },
+ {
+  "id": "K080",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "anchor": "R13",
+  "seclab": "R-1.3",
+  "n_q": 9,
+  "cours_fr": "R-1.3) Conditions techniques . Avant la décision 12-1241, les matériels suivants étaient obligatoires : indicateur de puissance, indicateur du rapport d’onde stationnaire, charge non rayonnante, filtre d’alimentation. La puissance des émetteurs BLU devait se mesurer avec un générateur 2 tons. La précision du repérage de la fréquence émise était définie (+/-1 kHz jusqu’à 30 MHz ou +/-",
+  "samples": [
+   {
+    "num": "34766",
+    "stem_fr": "PRECISION DE L'AFFICHAGE DE LA FREQUENCE SUR 50 MHZ ?",
+    "options": [
+     "1.10-4 ",
+     "1.10-3",
+     "1.10-5",
+     "1.10-6"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1.10-4 ",
+    "commentaire_fr": "Plus précisément, la bonne réponse était : +/- 1.10^-4 pour les fréquences supérieures à 30 MHz\nEn effet, depuis la nouvelle réglementation 2012 et la suppression de cette disposition, il ne devrait plus y avoir de question sur ce sujet...\n",
+    "stem_zh": "50 MHz 上频率显示的精度是多少？"
+   },
+   {
+    "num": "34716",
+    "stem_fr": "PRECISION FREQUENCE D'EMISSION AU-DESSUS DE 29,7 MHZ ?",
+    "options": [
+     "1.10-4 ",
+     "1.10-2",
+     "5.10-4",
+     "5.10-2"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1.10-4 ",
+    "commentaire_fr": "Nouvelle réglementation 2012 : suppression de cette disposition. Toutefois, quelques questions continuent d’être posées sur ce sujet (commentaires de décembre 2014)\n",
+    "stem_zh": "29.7 MHz 以上发射频率的精度是多少？"
+   },
+   {
+    "num": "34714",
+    "stem_fr": "PRECISION DES EMETTEURS EN DESSOUS DE 29,7 MHZ ?",
+    "options": [
+     "+/- 1 kHz",
+     "+/-7,5 kHz ",
+     "5.10^-5 ",
+     "+/-3 kHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "+/- 1 kHz",
+    "commentaire_fr": "Nouvelle réglementation 2012 : suppression de cette disposition. Toutefois, quelques questions continuent d’être posées sur ce sujet (commentaires de décembre 2014)\n",
+    "stem_zh": "29.7 MHz 以下发射机的频率精度是多少？"
+   },
+   {
+    "num": "34715",
+    "stem_fr": "PRECISION DE L'AFFICHAGE SUR LA BANDE DES 20 METRES ?",
+    "options": [
+     "+/- 1 kHz",
+     "+/- 3 kHz",
+     "+/- 7,5 kHz",
+     "+/- 1,4 kHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "+/- 1 kHz",
+    "commentaire_fr": "Nouvelle réglementation 2012 : suppression de cette disposition. Toutefois, quelques questions continuent d’être posées sur ce sujet (commentaires de décembre 2014)\n",
+    "stem_zh": "20 米波段上显示的精度是多少？"
+   },
+   {
+    "num": "34718",
+    "stem_fr": "CONNAISSANCE DE LA FREQUENCE D'EMISSION AU-DESSUS DE 29,7 MHZ ?",
+    "options": [
+     "+/- 10^-4 ",
+     "+/- 10^-5 ",
+     "+/- 5.10^-5 ",
+     "+/- 10^-3 "
+    ],
+    "ans_idx": 0,
+    "ans_fr": "+/- 10^-4 ",
+    "commentaire_fr": "Nouvelle réglementation 2012 : suppression de cette disposition. Toutefois, quelques questions continuent d’être posées sur ce sujet (commentaires de décembre 2014)\n",
+    "stem_zh": "29.7 MHz 以上发射频率的准确度是多少？"
+   },
+   {
+    "num": "34717",
+    "stem_fr": "PRECISION DE L'AFFICHAGE POUR UNE FREQUENCE SUPERIEURE A 29,7 MHZ ?",
+    "options": [
+     "+/- 1.10-4 ",
+     "+/- 7,5 kHz",
+     "+/- 1 kHz",
+     "+/- 5.10-4"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "+/- 1.10-4 ",
+    "commentaire_fr": "Nouvelle réglementation 2012 : suppression de cette disposition. Toutefois, quelques questions continuent d’être posées sur ce sujet (commentaires de décembre 2014)\n",
+    "stem_zh": "29.7 MHz 以上频率显示的精度是多少？"
+   },
+   {
+    "num": "34966",
+    "stem_fr": "QUELLE LARGEUR DE BANDE QU'OCCUPE  LE SIGNAL. SCHEMA : FONDAMENTALE A 780 ET RAIE DE \nPART ET D'AUTRE A 740 ET 820 (KHZ ?)",
+    "options": [
+     "780",
+     "740",
+     "40",
+     "80"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "80",
+    "commentaire_fr": "Largeur de bande occupée = 820 - 740 = 80\n",
+    "stem_zh": "该信号占用的带宽是多少？图示：基波位于 780，两侧谱线位于 740 和 820（kHz？）"
+   },
+   {
+    "num": "32561",
+    "stem_fr": "* EN MODE A3E, POUR UN RADIOAMATEUR AYANT UNE AUTORISATION D'EMETTRE DE L'EX CLASSE 1, IL EST INTERDIT D'EMETTRE SUR :",
+    "options": [
+     "14.000 kHz",
+     "14.340 kHz",
+     "29.500 kHz",
+     "3.750 kHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "14.000 kHz",
+    "commentaire_fr": "Il est interdit d’émettre en A3E sur 14.000 kHz car la bande passante utilisée en AM (=A3E) fait qu’une partie de l’émission serait hors bande (émission de 13.997 à 14.003 si la bande passante BF est de 3kHz). \n",
+    "stem_zh": "对于持有原 1 类发射许可的业余爱好者，在 A3E 模式下禁止在下列哪个频率发射："
+   },
+   {
+    "num": "34713",
+    "stem_fr": "PRECISION AVEC LAQUELLE ON DOIT REPERER LA FREQUENCE D'EMISSION EN DESSOUS DE 30 MHZ ?",
+    "options": [
+     "+/- 1 kHz",
+     "1/10.000 de la fréquence d'émission",
+     "+/- 3 kHz",
+     "1/20.000 de la fréquence d'émission"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "+/- 1 kHz",
+    "commentaire_fr": "Nouvelle réglementation 2012 : suppression de cette disposition. Toutefois, quelques questions continuent d’être posées sur ce sujet (commentaires de décembre 2014)\n",
+    "stem_zh": "在 30 MHz 以下，发射频率应精确到什么程度？"
+   }
+  ]
+ },
+ {
+  "id": "K081",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "anchor": "R52f",
+  "seclab": "R-5.2",
+  "n_q": 9,
+  "cours_fr": "R-5.2) type d'antennes et caractéristiques .............................................................................................. 29",
+  "samples": [
+   {
+    "num": "30322",
+    "stem_fr": "TYPE D'ANTENNE APPROPRIE POUR LE 3 CM ?",
+    "options": [
+     "Parabole",
+     "Yagi",
+     "GP",
+     "Filaire"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Parabole",
+    "commentaire_fr": "La parabole n’est pas une antenne mais un réflecteur ayant en son foyer une antenne (généralement un doublet). Elle est utilisée dans les fréquences très élevées à la place des antennes Yagi\n",
+    "stem_zh": "适合 3 厘米（波段）的天线类型？"
+   },
+   {
+    "num": "30034",
+    "stem_fr": "* QUE REPRESENTE CE SHEMA D'ANTENNE",
+    "options": [
+     "Une antenne YAGI",
+     "Une antenne GP",
+     "Un doublet demi-onde",
+     "Une antenne parabolique"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Une antenne YAGI",
+    "commentaire_fr": "L'antenne YAGI peut avoir 2, 3 jusqu'à 11 éléments, voire plus.\nLes antennes Yagi pour les bandes HF peuvent émettre sur plusieurs bandes, en général 20, 15 et 10 mètres et parfois d'autres bandes.\nDans le schéma, les longueurs des brins parasites ne sont pas respectées. Les directeurs sont un peu plus courts et les réflecteurs un peu plus longs mais il n'y a pas de rapport de 1 à 3 comme dans le schéma de la question.\n",
+    "stem_zh": "该天线示意图所示的是什么天线？"
+   },
+   {
+    "num": "34848",
+    "stem_fr": "QUEL EFFET ONT LES BRINS REFLECTEURS DANS UNE ANTENNE YAGI ?",
+    "options": [
+     "ils diminuent le gain",
+     "ils diminuent l’impédance ",
+     "ils ne changent rien aux caractéristiques de l’antenne",
+     "ils génèrent du QRN"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "ils diminuent l’impédance ",
+    "commentaire_fr": "Les brins parasites (comme les réflecteurs) augmentent le gain de l'antenne s'ils sont bien positionnés. Ils changent donc pas les caractéristiques de l'antenne. Etant des élements passifs, ils ne génèrent pas de bruit (QRN)\n",
+    "stem_zh": "八木天线中的反射振子有什么作用？"
+   },
+   {
+    "num": "30480",
+    "stem_fr": "QUE SE PASSE-T-IL  SI ON AJOUTE DES ELEMENTS PARASITES DE CHAQUE COTE D'UN DOUBLET DEMI-ONDE ?",
+    "options": [
+     "Il ne se passe rien",
+     "Le doublet demi-onde ne fonctionne plus",
+     "On crée de la directivité",
+     "Le double demi-onde devient une antenne verticale"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "On crée de la directivité",
+    "commentaire_fr": "On crée de la directivité et le doublet devient une antenne Yagi\n",
+    "stem_zh": "如果在半波偶极天线的每一侧都加上寄生单元，会发生什么？"
+   },
+   {
+    "num": "32531",
+    "stem_fr": "DANS UNE ANTENNE YAGI :\n\nA : LE BRIN REFLECTEUR EST PLUS COURT QUE LES AUTRES\nB : LE BRIN DIRECTEUR EST AUSSI LONG QUE LE REFLECTEUR\nC : ON DIMINUE L'IMPEDANCE EN AUGMENTANT LE NOMBRE D'ELEMENTS\nD : LA DIRECTION DU RAYONNEMENT MAXIMUM EST PARALLELE AU BRIN RAYONNANT",
+    "options": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "C",
+    "commentaire_fr": "Dans une antenne Yagi, les brins les plus courts sont directeurs, les brins les plus longs sont réflecteurs, le maximum de rayonnement est perpendiculaire à tous les brins (rayonnant ou parasites)\n\nAttention à ce genre de questions qui peuvent être « hors programme ». Dans cet exemple, les affirmations sont bien au programme de l’examen de réglementation mais des questions qui porteraient, par exemple, sur le couplage des antennes Yagi nous sembleraient « hors programme ».\n",
+    "stem_zh": "在 Yagi 天线中：A：反射器振子比其他振子短；B：引向器与反射器一样长；C：增加单元数量会降低阻抗；D：最大辐射方向与辐射振子平行"
+   },
+   {
+    "num": "30178",
+    "stem_fr": "* LE FAIT DE RAJOUTER DES ELEMENTS DIRECTEURS A UNE ANTENNE YAGI",
+    "options": [
+     "diminue sa directivité",
+     "ne change rien",
+     "augmente sa directivité",
+     "l'antennene ne fonctionnera plus"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "augmente sa directivité",
+    "commentaire_fr": "",
+    "stem_zh": "给八木天线增加引向器单元会怎样？"
+   },
+   {
+    "num": "30793",
+    "stem_fr": "LE FAIT D'AJOUTER DES ELEMENTS PARASITES A UNE ANTENNE YAGI",
+    "options": [
+     "augmente son impédance ",
+     "diminue son impédance",
+     "divise l’impédance par 2",
+     "ne change pas l’impédance de l’antenne"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "diminue son impédance",
+    "commentaire_fr": "",
+    "stem_zh": "给八木天线加装寄生单元会"
+   },
+   {
+    "num": "35065",
+    "stem_fr": "QU'EST CE QUI APPORTE DU GAIN A UNE ANTENNE YAGI ?",
+    "options": [
+     "le manque d’éléments réflecteurs",
+     "le diamètre des tubes",
+     "le matériau utilisé pour le brin rayonnant",
+     "le nombre d’éléments directeurs "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "le nombre d’éléments directeurs ",
+    "commentaire_fr": "",
+    "stem_zh": "什么给八木天线带来增益？"
+   },
+   {
+    "num": "30264",
+    "stem_fr": "* DIRECTION DU MAXIMUM DE CHAMP RAYONNE PAR UNE ANTENNE YAGI ?",
+    "options": [
+     "Dans le prolongement des éléments parasites les plus courts",
+     "Dans le prolongement des éléments parasites les plus longs",
+     "Parallèlement au brin rayonnant",
+     "Pas de directivite marquée"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Dans le prolongement des éléments parasites les plus courts",
+    "commentaire_fr": "",
+    "stem_zh": "* 八木天线辐射场最强的方向是？"
+   }
+  ]
+ },
+ {
+  "id": "K082",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "anchor": "R21c",
+  "seclab": "R-2.1",
+  "n_q": 8,
+  "cours_fr": "R-2.1) Fréquences attribuées a Le tableau présenté à la page suivante est une synthèse de différents textes : - décision ARCEP 12-1241 modifiée par les décisions 13-1515 et 19-1412, - arrêté du 02/03/2021 fixant les conditions d’utilisation dans les COM où l’ARCEP n’est pas compétente, - arrêté pris par le Premier Ministre relatif au Tableau National de Répartition des Bandes de Fréquences (TNRBF), document publié par l’ANFR et disponible sur son site Internet. a Le RR (art. S5-2 à S5-9) découpe le globe terrestre en 3 régions : Région 1 = Europe, Afrique, Proche Orient et pays de l’ex-URSS ; Région 2 = Amériques et Pacifique Nord ; Région 3 = Reste du Monde (Asie sauf Proche Orient et ex-URSS, Océanie et Pacifique Sud). L’antarctique et l’arctique sont découpés dans le prolongement des méridiens séparant les zones. Certains territoires français sont en Région 2 ou 3 et les fréquences allouées ne sont pas les mêmes qu'en Métropole située en région 1. Les Départements et Régions d'Outre-Mer (DROM) situés en Région 2 sont la Guyane, la Martinique et la Guadeloupe. La Réunion et Mayotte sont en Région 1, comme la France continentale et la Corse ( voir §",
+  "samples": [
+   {
+    "num": "35058",
+    "stem_fr": "DOIT-ON CHANGER DE FREQUENCE A LA DEMANDE D'UNE AUTORITE ?",
+    "options": [
+     "uniquement sur les bandes supérieures à 30 MHz",
+     "oui",
+     "non, j’attends un courrier de notification",
+     "non si l’opérateur a un certificat HAREC"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "oui",
+    "commentaire_fr": "Cas assez improbable mais les autres réponses que \"oui\" sont tellement inapropriées qu'on ne peut les sélectionner...\n",
+    "stem_zh": "主管机关要求时，是否必须改变频率？"
+   },
+   {
+    "num": "34939",
+    "stem_fr": "SI UNE STATION PRIMAIRE VOUS DEMANDE DE CESSER LES EMISSIONS, QUE FAIRE ?",
+    "options": [
+     "je cesse toutes mes émissions sur cette bande ",
+     "je reste sur cette fréquence",
+     "cela ne peut pas arriver",
+     "j’attends la confirmation par courrier"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "je cesse toutes mes émissions sur cette bande ",
+    "commentaire_fr": "la proposition « je cesse mes émissions sur cette bande » est la plus logique...\n",
+    "stem_zh": "如果某个主要业务电台要求您停止发射，该怎么办？"
+   },
+   {
+    "num": "34762",
+    "stem_fr": "QUELLE ATTITUDE DOIT-ON AVOIR EN CAS D'APPEL D'UNE STATION PRIMAIRE SUR LA BANDE DES 2,4 GHZ ?",
+    "options": [
+     "je cesse toutes mes émissions sur cette bande ",
+     "je reste sur cette fréquence",
+     "cela ne peut pas arriver",
+     "j’attends la confirmation par courrier"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "je cesse toutes mes émissions sur cette bande ",
+    "commentaire_fr": "Puisque la bande est en statut secondaire pour le service d'amateur, la proposition « je cesse mes émissions sur cette bande » est la plus logique, même s'il y a peu de chances qu'une station primaire lance un appel !\n",
+    "stem_zh": "在 2.4 GHz 波段上收到主要业务台站呼叫时应当怎么做？"
+   },
+   {
+    "num": "30511",
+    "stem_fr": "QUELLE ATTITUDE DEVEZ-VOUS ADOPTER SUR LA PORTION DE BANDE 1240 A 1260 MHZ SI UN UTILISATEUR PRIMAIRE VOUS DEMANDE DE CESSEZ VOS EMISSIONS ?",
+    "options": [
+     "vous ignorez cette demande",
+     "vous cessez vos émissions sur ordre de l' ANFR",
+     "vous cessez vos émissions sur ordre de l' ARCEP",
+     "vous cessez vos émissions sans délai"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "vous cessez vos émissions sans délai",
+    "commentaire_fr": "La bande 1240 – 1260 MHz a un statut secondaire. On s’arrête de trafiquer, bien entendu. Mais nous n'avons jamais entendu dire que quelqu’un avait été dans ce cas qui reste très théorique.\n",
+    "stem_zh": "在 1240 至 1260 MHz 这一小段上，若主要业务的用户要求你停止发射，你应采取什么态度？"
+   },
+   {
+    "num": "40031",
+    "stem_fr": "EN FRANCE METROPOLITAINE, QUE SIGNIFIE UNE BANDE PRIMAIRE ?\n\n1-CETTE BANDE EST UNIQUEMENT RESERVEE AUX RADIOAMATEURS\n2-CETTE BANDE PEUT ETRE UTILISEE PAR D'AUTRES SERVICES\n3-CETTE BANDE PEUT ETRE UTILISEE PAR TOUTES LES CLASSES D'OPERATEUR\n4-CETTE BANDE PEUT ETRE UTILISEE PAR LA MARINE",
+    "options": [
+     "2",
+     "1 et 3",
+     "2 et 3",
+     "4"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "2",
+    "commentaire_fr": "Le statut définit la protection en cas de brouillage. Une bande primaire signifie que les radioamateurs sont prioritaires et que les services secondaires ne doivent pas brouiller les radioamateurs. La réglementation ne précise plus si la bande est exclusive (attribuée uniquement aux radioamateurs) ou primaire (service prioritaire par rapport aux services \"secondaires\")\n",
+    "stem_zh": "在法国本土，一个「主要波段」意味着什么？1-该频段只保留给业余无线电；2-该频段可被其他业务使用；3-该频段可被所有等级的操作者使用；4-该频段可被海军使用"
+   },
+   {
+    "num": "34958",
+    "stem_fr": "QUE SIGNIFIE \" LE SERVICE D'AMATEUR EST SECONDAIRE SUR CETTE BANDE \"  ?",
+    "options": [
+     "on peut utiliser la bande sous réserve de ne pas brouiller une émission en cours ",
+     "on peut utiliser une antenne non accordée",
+     "on peut émettre en même temps sur deux fréquences différentes",
+     "on ne peut que répondre à un appel d'un autre radioamateur"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "on peut utiliser la bande sous réserve de ne pas brouiller une émission en cours ",
+    "commentaire_fr": "Plus précisément, un service secondaire n'a pas droit à la protection contre les brouillages (et ne doit pas brouiller).\n",
+    "stem_zh": "「业余业务在该波段为次要业务」是什么意思？"
+   },
+   {
+    "num": "34890",
+    "stem_fr": "SUR LES BANDES A STATUT SECONDAIRE",
+    "options": [
+     "il faut augmenter la puissance pour être moins brouillé",
+     "il faut veiller à ne pas brouiller la station primaire ",
+     "il faut attendre l’autorisation du service primaire pour pouvoir émettre",
+     "il est interdit d’émettre"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "il faut veiller à ne pas brouiller la station primaire ",
+    "commentaire_fr": "",
+    "stem_zh": "在具有次要地位的波段上"
+   },
+   {
+    "num": "34943",
+    "stem_fr": "SI UN RADIOAMATEUR EMET SUR UNE BANDE PARTAGEE, QUELLE PRECAUTION DOIT-IL PRENDRE ?",
+    "options": [
+     "que les émissions d’un utilisateur primaire ne soient pas brouillées",
+     "que l’antenne est bien accordée",
+     "que la puissance de l’émetteur est bien au maximum",
+     "que la météo n’annonce pas d’orages "
+    ],
+    "ans_idx": 0,
+    "ans_fr": "que les émissions d’un utilisateur primaire ne soient pas brouillées",
+    "commentaire_fr": "",
+    "stem_zh": "如果业余爱好者在一个共享频段上发射，应当注意什么？"
+   }
+  ]
+ },
+ {
+  "id": "K083",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "anchor": "T013",
+  "seclab": "1.3",
+  "n_q": 8,
+  "cours_fr": "1.3a ). On sait que, par la définition du condensateur, Q(C) = C(F).U(V) et que, dans la résistance, I = U/R. Par substitution (t = C.U/[U/R]), on en déduit la constante de temps , T (s) = R(&#937;) . C(F) . Mais, à mesure que le condensateur se charge, la tension à ses bornes augmente et, conséquemment, la tension aux bornes de R diminue. La loi d’Ohm implique que le courant remplissant le condensateur diminue. Si bien qu’au bout du temps T , le condensateur n’est chargé qu’au deux tiers environ de la tension présente à ses bornes ( 63,21% exactement, soit 1–[1/e] avec e (nombre d’Euler) = 2,718 = [1 + (1 / n)] n , n étant très grand ). Au bout de 1 T , on a U C = (2/3).E. Au bout de 2 T , la tension sera (8/9).E (ou E – [1/3]².E). A 3 T , on aura (26/27).E (ou E – [1/3] 3 .E), etc. Au bout de 4,605 T , le condensateur est chargé à 99% (1 – e -4,605 = 0,99) . Au bout de 5 T , le condensateur est considéré comme complètement chargé. Le raisonnement est inverse pour la décharge : à chaque constante de temps, le condensateur se vide du tiers de la tension restant à ses bornes. Au bout de 1 T , il reste (1/3).E ; au bout de 2 T , il reste (1/9).E (ou (1/3) 2 .E), etc. Au bout de 5 T , la tension résiduelle est inférieure à 1% de la tension d’origine : le condensateur s’est vidé. En théorie, le condensateur n’est jamais ni complètement chargé ni complètement vide (attention aux doigts !). Exemple : un condensateur de 100 µF se vide par l’intermédiaire d’une résistance de 8 k&#937;. En combien de temps le condensateur se videra-t-il (moins de 1% de sa tension d’origine) ? Réponse : le condensateur sera vide au bout de 5 T : T (s) = R(&#937;) . C(F) =",
+  "samples": [
+   {
+    "num": "23801",
+    "stem_fr": "FORMULES EXACTES\n",
+    "options": [
+     "2, 3",
+     "1, 2",
+     "1, 3, 4",
+     "4"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "4",
+    "commentaire_fr": "Les formules exactes sont : P = RI² (ou P = U²/R) ; W = U² x t / R ; W = RI²t\n",
+    "stem_zh": "正确公式"
+   },
+   {
+    "num": "23800",
+    "stem_fr": "FORMULES FAUSSES",
+    "options": [
+     "2, 4",
+     "1, 3",
+     "1, 3, 4",
+     "2, 3, 4"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "2, 4",
+    "commentaire_fr": "Les formules exactes sont : I = U/R ; Q = t x I ; la formule 3 devrait s’écrire P = U²/R\n",
+    "stem_zh": "错误公式"
+   },
+   {
+    "num": "23802",
+    "stem_fr": "FORMULES EXACTES\n",
+    "options": [
+     "1, 2",
+     "1, 2, 3",
+     "2, 3, 4",
+     "3, 4"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1, 2, 3",
+    "commentaire_fr": "La seule formule fausse est la n°4\nLa formule vraie : W = RI²t (proposée dans la formule 2)\n",
+    "stem_zh": "正确的公式"
+   },
+   {
+    "num": "20438",
+    "stem_fr": "QUELLE EST LA FORMULE EXACTE ?",
+    "options": [
+     "P = Wt",
+     "Ieff = Imax x √2",
+     "P = U²/R ",
+     "W = RIt²"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "P = U²/R ",
+    "commentaire_fr": "Les formules exactes sont :\nP = W/t\nIeff = Imax / √2 (ou Ieff = Imax x √2/2)\nW = RI²t\n",
+    "stem_zh": "下列哪个公式是正确的？"
+   },
+   {
+    "num": "20638",
+    "stem_fr": "QUELLE EST LA FORMULE EXACTE ?",
+    "options": [
+     "U = R + I ",
+     "U² = √ (P/R)",
+     "W = I x t",
+     "Q = C x U"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Q = C x U",
+    "commentaire_fr": "Les formules exactes sont : \nU = R x I\nU = √ (P/R)\nQ = I x t\n",
+    "stem_zh": "哪一条公式是正确的？"
+   },
+   {
+    "num": "23663",
+    "stem_fr": "FORMULES EXACTES ?\n1) Q=C*U\n2) I = R*U\n3) P = V2/R\n4) Q = T/I",
+    "options": [
+     "1, 3  ",
+     " 2, 4",
+     "1, 3, 4",
+     "2, 3, 4"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1, 3  ",
+    "commentaire_fr": "Les formules exactes sont : I = U/R (et non pas I=RU) ; Q = t x I (et non pas Q = t/I); la formule 3 devrait s’écrire P = U²/R\n",
+    "stem_zh": "哪些公式是正确的？\n1) Q = C × U\n2) I = R × U\n3) P = V²/R\n4) Q = T/I"
+   },
+   {
+    "num": "20850",
+    "stem_fr": "FORMULES EXACTES ?  \n   1) P = U X I\n   2) P = W X T\n   3) W = R X I X T2 \n   4) Q = C X U \n",
+    "options": [
+     "1 et 2",
+     "2 et 3",
+     "1 et 3",
+     "1 et 4"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1 et 4",
+    "commentaire_fr": "Les autres formules exactes sont : P = W/t et W = RI²t\n",
+    "stem_zh": "哪些公式是正确无误的？1) P = U x I  2) P = W x T  3) W = R x I x T2  4) Q = C x U"
+   },
+   {
+    "num": "20517",
+    "stem_fr": "QUELLES SONT LES FORMULES EXACTES ? \n     FORMULE 1 : U^2 = P X R\n     FORMULE 2 : Q = I / T\n     FORMULE 3 : P = U^2 / R\n     FORMULE 4 : R = P X I^2",
+    "options": [
+     "1 et 3",
+     "1, 2 et 3",
+     "3 et 4",
+     "1 et 4"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1 et 3",
+    "commentaire_fr": "Les formules exactes sont : \nformule 2 : Q = I x t\nformule 4 : R = P / I²\n",
+    "stem_zh": "哪些公式是正确的？\n公式 1：U² = P × R\n公式 2：Q = I / T\n公式 3：P = U² / R\n公式 4：R = P × I²"
+   }
+  ]
+ },
+ {
+  "id": "K084",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "anchor": "T022d",
+  "seclab": "2.2",
+  "n_q": 8,
+  "cours_fr": "2.2) Valeur maximum, efficace, moyenne, crête à crête. Ces notions ne s’appliquent qu’aux courants, c’est-à-dire à la tension et à l’intensité (qui varient dans le temps dans le cas d’un signal alternatif) mais pas à la puissance (issue du produit de la tension par l’intensité) ni à la résistance (qui reste, par nature, constante). a La valeur maximale (Umax ou Imax) d’un signal alternatif est la valeur la plus grande que prend le signal au cours d’une période. Elle est appelée aussi valeur crête (Ucrête ou Icrête). b La valeur efficace (Ueff ou Ieff) d’un signal alternatif est la valeur pour laquelle les lois d'Ohm et de Joule peuvent être appliquées. La formule ci-dessous est utilisée si et seulement si le signal est sinusoïdal. Des formules existent pour transformer les valeurs maximales d’autres signaux alternatifs (carrés, triangle, etc.) en valeurs efficaces mais sortent du programme de l’examen. On rappelle que le sinus de 45° est égal à 1/&#8730;2, soit 0,707. Umax = &#8730;2.Ueff = 1,414 x Ueff ou Ueff = Umax/&#8730;2 = 0,707 x Umax . c La valeur moyenne (Umoy ou Imoy) d’un signal alternatif est la moyenne algébrique du courant ou de la tension et est la valeur lue par un galvanomètre, voir §",
+  "samples": [
+   {
+    "num": "21233",
+    "stem_fr": "TENSION CRETE A CRETE",
+    "options": [
+     "30 V càc",
+     "34 V càc",
+     "17 V càc",
+     "24 V càc"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "34 V càc",
+    "commentaire_fr": "Ueff = 12V; Umax = 12 x 1,414 = 17; Ucàc = Umax x 2 = 17 x 2 \n= 34 V càc (valeur arrondie)\n",
+    "stem_zh": "峰峰值电压"
+   },
+   {
+    "num": "21091",
+    "stem_fr": "COMMENT SE NOMME LA TENSION 75 V ?",
+    "options": [
+     "Ueff",
+     "Umax",
+     "Ucrête",
+     "Ucrête à crête"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Ucrête à crête",
+    "commentaire_fr": "il ne s’agit pas de Umax (ou Ucrête) car la tension de référence (0 V) n’est pas située au milieu de la sinusoïde.\n",
+    "stem_zh": "75 伏这个电压叫什么？"
+   },
+   {
+    "num": "20342",
+    "stem_fr": "75 V CRETE A CRETE EN SINUS : QUELLE EST LA TENSION EFF ?",
+    "options": [
+     "50 V",
+     "37,5 V",
+     "26,5 V",
+     "106 V"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "26,5 V",
+    "commentaire_fr": "Vmax = Vcàc / 2 = 75 / 2 = 37,5 V ; \nVeff = Vmax x 0,707 = 37,5 x 0,707 = 26,5 V\n",
+    "stem_zh": "正弦波的峰峰值是 75 V，其有效值是多少？"
+   },
+   {
+    "num": "20454",
+    "stem_fr": "TENSION CRETE A CRETE DE 96 VOLTS. \nTENSION EFFICACE ?",
+    "options": [
+     "68 volts",
+     "48 volts",
+     "34 volts",
+     "136 volts"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "34 volts",
+    "commentaire_fr": "Umax = Ucàc / 2 = 96 / 2 = 48 ; \nUeff = Umax x 0,707 = 48 x 0,707 = 33,9 arrondi à 34 volts\n",
+    "stem_zh": "峰峰值为 96 V 的电压，其有效值是多少？"
+   },
+   {
+    "num": "20321",
+    "stem_fr": "TENSION CRETE A CRETE D'UNE TENSION DE 12 VOLTS EFFICACES",
+    "options": [
+     "24 volts",
+     "17 volts",
+     "34 volts",
+     "8,5 volts"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "34 volts",
+    "commentaire_fr": "Umax = 12 V x 1,414 = 17 V (arrondi) ; Ucàc = Umax x 2 = 17 x 2 = 34 volts\n",
+    "stem_zh": "有效值为 12 V 的交流电压，其峰峰值是多少？"
+   },
+   {
+    "num": "21496",
+    "stem_fr": "POUR UN COURANT SINUSOIDAL DE 10 VOLTS EFFICACES, QUELLE EST LA TENSION CRETE A CRETE ?",
+    "options": [
+     "14,1 V",
+     "28,3 V",
+     "20 V",
+     "30 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "28,3 V",
+    "commentaire_fr": "10 Veff => 14,14 Vmax => 28,3 Vcàc\n",
+    "stem_zh": "对于有效值为 10 伏的正弦电流，峰峰值电压是多少？"
+   },
+   {
+    "num": "20877",
+    "stem_fr": "QUE REPRESENTE LA VALEUR 3V ? (SCHEMA AVEC OSCILLOGRAMME : UNE SINUSOIDE ENTRE 0 ET 3 V)",
+    "options": [
+     "crête à crête ",
+     "crête",
+     "maximum",
+     "efficace"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "crête à crête ",
+    "commentaire_fr": "La sinisoïde est comprise entre les valeurs 0 V et 3 V. 3 volts est donc la tension crête à crête (écart entre les valeurs mini et maxi du signal représenté)\n",
+    "stem_zh": "数值 3 V 表示什么？（示波器示意图：正弦波在 0 与 3 V 之间）"
+   },
+   {
+    "num": "20726",
+    "stem_fr": "UN SIGNAL SINUSOIDAL SUR UN GRAPHE AVEC 0V SUR L'AXE DES ABSCISSES ET 72 VOLTS SUR L'AXE DES ORDONNEES. COMMENT SE NOMME LA TENSION 72 VOLTS ?",
+    "options": [
+     "crête",
+     "crête à crête",
+     "maximum",
+     "efficace"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "crête à crête",
+    "commentaire_fr": "La tension 72 volts est mesurée entre les deux extrêmes. Il s'agit donc de la tension crête à crête. La tension crête ou maximum est la moitié (36 volts). La tension efficace (pour laquelle s'applique la loi d'ohm) est égale à 36 x 0,707 = 25,5 Volts\n",
+    "stem_zh": "一张图上的正弦信号，横轴为 0 V，纵轴为 72 伏。72 伏这个电压叫什么？"
+   }
+  ]
+ },
+ {
+  "id": "K085",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "anchor": "T071a1",
+  "seclab": "7.1",
+  "n_q": 8,
+  "cours_fr": "7.1) Les classes d'amplification (ou de polarisation) : les trois classes de base (A, B et C) diffèrent selon la valeur de la tension de repos en l’absence de signal à l’entrée du circuit (notée V sur les représentations du signal d’entrée ci-contre) par rapport à la plage de fonctionnement optimale de l’amplificateur (sans distortion). a1 - La classe A est le montage le plus courant : le signal à amplifier est centré par rapport à la plage de d’amplification. La tension de repos est centrée sur cette plage et le signal à amplifier ne la dépasse jamais. a2 - La classe B utilise deux transistors qui amplifient chacun une alternance du signal. La tension de repos est fixée à la limite de la plage d’amplification de chacun des transistors. Ce montage, encombrant à cause des transformateurs, est difficile à régler et nécessite des transistors appairés aux caractéristiques identiques. Le montage avec deux transistors complémentaires (PNP et NPN) appairés évite l’emploi de transformateurs. a3 - En classe C , grâce à la résistance de polarisation Rp branchée au – ou à la masse, seule une partie du signal est amplifiée, le reste est restitué par le circuit oscillant de sortie accordé sur la fréquence d’entrée. Cette classe d’amplification est à prohiber dans le cas d’un signal modulé en amplitude (AM, BLU). b La classe D , utilisée en HF de forte puissance (quelques kilowatts et plus) et en audio, a un grand rendement mais repose sur la génération d’impulsions à largeur variable qu’il faut filtrer ( voir principe au §",
+  "samples": [
+   {
+    "num": "20725",
+    "stem_fr": "RENDEMENT THEORIQUE MAXIMUM D'UN TRANSISTOR MONTE EN CLASSE A ?",
+    "options": [
+     "50%",
+     "30%",
+     "80%",
+     "100%"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "50%",
+    "commentaire_fr": "Le rendement théorique maximum de la classe A est 50 %. \nMais, pour que le montage soit linéaire, le rendement est limité à 30%, voire moins (mais ce n'est pas la question posée, n'en déplaise aux techniciens et bricoleurs...)\n",
+    "stem_zh": "按 A 类工作的晶体管的理论最大效率？"
+   },
+   {
+    "num": "21294",
+    "stem_fr": "LE RENDEMENT D'UN AMPLIFICATEUR MONTE EN CLASSE A EST AU MAXIMUM DE :",
+    "options": [
+     "20 %",
+     "50 %",
+     "70 %",
+     "120 %"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "50 %",
+    "commentaire_fr": "Le rendement de la classe A est au maximum de 50% (mais un rendement de 30 %, voire moins, est fréquent)\n",
+    "stem_zh": "A 类放大器的效率最高为："
+   },
+   {
+    "num": "20147",
+    "stem_fr": "RENDEMENT D'UN TRANSISTOR MONTE EN CLASSE A",
+    "options": [
+     "plus de 50 % ",
+     "de 50 à 80%",
+     "plus de 80 %",
+     "moins de 100%"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "moins de 100%",
+    "commentaire_fr": "Dans un amplificateur de classe A, le composant actif est toujours en conduction. Cet amplificateur amplifie tout le signal d’entrée, limitant ainsi les distorsions sur le signal de sortie. Il n’a pas un bon rendement : il dissipe une puissance constante quelle que soit l'amplitude du signal d'entrée. Ainsi, cet amplificateur atteint son rendement maximum lorsque l'amplitude du signal de sortie est aux limites de ce que peut fournir l'amplificateur. Le rendement maximum d'un amplificateur de classe A dépend de la topologie du montage utilisé : le rendement maximum théorique de ces amplificateurs est de 50 % dans le cas d'une liaison par transformateur, de 25 % dans le cas d'une liaison directe et entre 6 % et 25 % pour une liaison capacitive\n",
+    "stem_zh": "甲类（A 类）工作的晶体管效率是多少？"
+   },
+   {
+    "num": "20423",
+    "stem_fr": "QUELLE EST LA CLASSE D'AMPLIFICATION QUI A LE COURANT MOYEN LE PLUS ELEVE ?",
+    "options": [
+     "Classe A",
+     "Classe B",
+     "Classe C",
+     "Classe D"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Classe A",
+    "commentaire_fr": "La classe A possède la tension de repos la plus élevée et donc le courant moyen le plus élevé. \nLa classe D (PWM) n'a pas de courant de repos.\n",
+    "stem_zh": "哪种放大类别的平均电流最大？"
+   },
+   {
+    "num": "20820",
+    "stem_fr": "UN TRANSISTOR MONTE EN CLASSE A",
+    "options": [
+     "est utilisé pour les mélangeurs",
+     "a une amplification non linéaire",
+     "a une amplification linéaire ",
+     "est utilisé pour les étages multiplicateurs de fréquence"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "a une amplification linéaire ",
+    "commentaire_fr": "La classe A est la plus linéaire et génère donc peu de distorsions. En conséquence, elle n’est pas adaptée pour les mélangeurs ou les multiplicateurs de fréquence qui sont, par nature, des étages non linéaires\n",
+    "stem_zh": "工作在 A 类的晶体管……"
+   },
+   {
+    "num": "20755",
+    "stem_fr": "QUELLE EST LA PROPRIETE ESSENTIELLE D'UN AMPLIFICATEUR EN CLASSE A ?",
+    "options": [
+     "elle est utilisée pour des puissances élevées en sortie",
+     "elle possède une grande linéarité ",
+     "elle est utilisée pour les mélangeurs",
+     "elle est utilisée pour les étages multiplicateurs de fréquence"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "elle possède une grande linéarité ",
+    "commentaire_fr": "La classe A est la plus linéaire et génère donc peu de distorsions, d'où l'impossibilité de l'utiliser dans des mélangeurs ou des multiplicateurs de fréquence puisque ces étages sont, par nature, non linéaire. En revanche, la classe A ne sera pas utilisée pour des puissances élevées à cause de son faible rendement\n",
+    "stem_zh": "A 类放大器的本质特性是什么？"
+   },
+   {
+    "num": "20873",
+    "stem_fr": "QUELLE CLASSE D'AMPLIFICATION A LA TENSION DE REPOS LA PLUS ELEVEE ?",
+    "options": [
+     "Classe AB",
+     "Classe B",
+     "Classe A",
+     "Classe C"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Classe A",
+    "commentaire_fr": "",
+    "stem_zh": "哪一类放大器具有最高的静态电压（静态工作点）？"
+   },
+   {
+    "num": "20790",
+    "stem_fr": "QUELLE CLASSE D'AMPLIFICATEUR GENERE-T-IL DES SIGNAUX LES PLUS LINEAIRES ET MOINS DISTORDUS ?",
+    "options": [
+     "Classe C",
+     "Classe B",
+     "Classe A",
+     "Classe D"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Classe A",
+    "commentaire_fr": "",
+    "stem_zh": "哪一类放大器产生的信号最线性、失真最小？"
+   }
+  ]
+ },
+ {
+  "id": "K086",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "anchor": "T077c",
+  "seclab": "7.7",
+  "n_q": 8,
+  "cours_fr": "7.7a ) ; la résultante de ce mélange donne les fréquences HF + BF, HF – BF et HF. d La BLU ( Bande Latérale Unique ), SSB (Single Side Band) en anglais, est créée à partir de l'AM dont on supprime la porteuse et une bande latérale afin d'optimiser la puissance émise : la porteuse ne transporte aucun message, les deux bandes latérales transportent le même message. Le spectre BF est représenté par un rectangle barré ce qui permet de différencier le bas et le haut du spectre BF (le côté bas de la barre indique la fréquence BF la plus basse). En BLU, le signal BF est simplement translaté (déplacé) vers une fréquence plus élevée. En BLS, le spectre BF émis s’étend de 200 Hz (à gauche du rectangle) à 3 kHz (à droite ). En BLI, le spectre BF est inversé : il devra être « retourné » lors de la démodulation, sinon le signal restera incompréhensible. La modulation d’amplitude avec bandes latérales indépendantes (à ne pas confondre avec la BLI, bande latérale inférieure) permet de transmettre deux signaux indépendants dans chacune des bands latérales. La mise au point de cette modulation, pas encore utilisée pas les radioamateurs, est délicate. e La CW (de l’anglais Continuous Waves, ondes entretenues) est simplement de la H.F. modulée en tout ou rien. La CW est une modulation d’amplitude réduite à sa plus simple expression. f La modulation de phase et la modulation de fréquence (FM) sont des modulations « angulaires ». En FM, la fréquence de la porteuse est modulée au rythme de la BF. Lorsque la BF est au maximum, la fréquence est maximum, et vice versa. L'excursion en fréquence (ou swing) est l'écart entre la fréquence centrale et une des deux fréquences extrêmes. La bande passante (ou occupée) est le double de l'excursion et est l'écart entre les deux fréquences extrêmes. Si l’on modifie la phase, on parle de modulation de phase . La représentation temporelle de ce signal ressemble alors à celle d’un signal modulé en fréquence et les propriétés d’un signal modulé en phase sont très proches de celles d’un signal modulé en fréquence. D’ailleurs, l’oreille humaine ne fait pas la distinction ; en revanche, l’ordinateur (et le traitement numérique de sa carte son) la fait. g Les modes digitaux (appelés aussi MGM : Modulation Générée par une Machine) n’échappent pas à cette classification : la CW est une modulation d’amplitude numérique à 2 états (tout ou rien). Avec le FSK (Frequency Shift Keying), la fréquence est modulée par une sous-porteuse contenant l’information numérique. Le PSK (Phase Shift Keying) module la phase qui prend 2 états (0 et &#960; donnant du 2-P",
+  "samples": [
+   {
+    "num": "20158",
+    "stem_fr": "FREQUENCE ISSUE D'UN MELANGE",
+    "options": [
+     "160 MHz ",
+     " 290 MHz",
+     "300 MHz",
+     "140 MHz "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "140 MHz ",
+    "commentaire_fr": "un produit du 3ème ordre est un mélange du type (2 x A) + B ou (2 x A) - B. Le premier mélange nous amène à plus de 400 MHz (aucune réponse). Nous procéderons par élimination avec le second mélange : (2 x 150) - 145 = 300 - 145 = 155 et (2 x 145) - 150 = 290 - 150 = 140. Les fréquences 290 et 300 MHz sont des mélanges du second ordre (harmoniques 2).\n",
+    "stem_zh": "混频产生的频率"
+   },
+   {
+    "num": "20309",
+    "stem_fr": "FREQUENCE ISSUE D'UN MELANGE DU 3EME ORDRE",
+    "options": [
+     "300 MHz",
+     "290 MHz",
+     "155 MHz",
+     "160 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "155 MHz",
+    "commentaire_fr": "Un produit du 3ème ordre est un mélange du type (2 x A) + B ou (2 x A) - B. \nLe premier mélange nous amène à plus de 400 MHz (aucune réponse). \nAvec le second mélange, une seule réponse possible : 155 MHz soit (150 x 2) – 145\n",
+    "stem_zh": "三阶混频产生的频率"
+   },
+   {
+    "num": "20157",
+    "stem_fr": "FREQUENCES RESULTANTES",
+    "options": [
+     "105, 5, 100, 110, 50, 55 ",
+     "45 50 55 105",
+     "50 55 ",
+     "45 105"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "105, 5, 100, 110, 50, 55 ",
+    "commentaire_fr": "avec une distorsion quadratique, les réponses possibles sont : F1+F2 ; F1-F2 ; 2xF1 : 2xF2 ; F1 ; F2\n",
+    "stem_zh": "产生的频率"
+   },
+   {
+    "num": "20156",
+    "stem_fr": "AMPLIFICATEUR ET 2 FREQUENCES",
+    "options": [
+     "4 et 10.000 Hz",
+     "4, 96, 100 et 104 Hz",
+     "100 et 200 Hz",
+     "2, 98, 100 et 102 H"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "2, 98, 100 et 102 H",
+    "commentaire_fr": "on devrait aussi avoir les harmoniques 2 des fréquences d’entrée, soit 4 et 200 Hz\n",
+    "stem_zh": "放大器输入两个频率时，输出会出现哪些频率？"
+   },
+   {
+    "num": "20547",
+    "stem_fr": "DISTORSION QUADRATIQUE AVEC 2 KHZ ET 100 KHZ ?",
+    "options": [
+     "100 et 200 kHz",
+     "50 et 200 kHz",
+     "2, 4, 98, 100, 102 et 200 kHz",
+     "104 et 202 kHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "2, 4, 98, 100, 102 et 200 kHz",
+    "commentaire_fr": "Une distortion quadratique est un mélange (en sortie) de 2 fréquences présentes à l'entrée d'un amplificateur non linéaire (soit 4 et 200, les harmonqiues 2, et aussi 98 et 102, les mélanges du second ordre). Bien sûr, à la sortie d'un tel amplificateur, on trouve aussi les fréquences présentes à son entrée (ici 2 et 100 kHz)\n",
+    "stem_zh": "2 kHz 与 100 kHz 产生二次失真时，会出现哪些频率？"
+   },
+   {
+    "num": "20303",
+    "stem_fr": "QUELLE EST LA FREQUENCE ISSUE D'UN MELANGE DU 3EME ORDRE AVEC \nF1 = 149 MHZ ET F2 = 150 MHZ",
+    "options": [
+     "299 MHz",
+     "1 MHz",
+     "148 MHz",
+     "300 MHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "148 MHz",
+    "commentaire_fr": "Un produit du 3ème ordre est un mélange du type (2 x A) + B ou (2 x A) - B. Le premier mélange nous amène à plus de 400 MHz (aucune réponse). Nous procéderons par élimination avec le second mélange : (2 x 149) - 150 = 298 - 150 = 148. Les fréquences 299 et 1 MHz sont des mélanges « classiques » du second ordre et 300 est aussi un mélange du second ordre (harmonique 2)\n",
+    "stem_zh": "当 F1 = 149 MHz、F2 = 150 MHz 时，三阶混频产生的频率是多少？"
+   },
+   {
+    "num": "20155",
+    "stem_fr": "AMPLIFICATEUR RF - FREQUENCE EN SORTIE",
+    "options": [
+     "5, 145, 150 et 295 MHz",
+     "5, 145 , 150 , 290, 295 et 300 MHz ",
+     "145 et 150 MHz",
+     "290 et 300 MHz"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "5, 145 , 150 , 290, 295 et 300 MHz ",
+    "commentaire_fr": "avec une distorsion quadratique, les réponses possibles sont : F1+F2 ; F1-F2 ; 2xF1 : 2xF2 ; F1 ; F2 soit les valeurs suivantes : 145+150=295 ; 150-145=5 ; 2x145=290 ; 2x150=300 ; 145 ; 150\n",
+    "stem_zh": "射频放大器 —— 输出端的频率"
+   },
+   {
+    "num": "23823",
+    "stem_fr": "UN AMPLIFICATEUR NON LINEAIRE A DISTORSION QUADRATIQUE RECOIT DEUX SIGNAUX DE FREQUENCE 1 KHZ ET 100 KHZ. \nQUELLES SONT LES FREQUENCES DU SIGNAL DE SORTIE ?",
+    "options": [
+     "1, 2, 99, 100, 101 et 200 kHz  ",
+     "1 kHz, 2 kHz, 100 kHz et 200 kHz",
+     "1 kHz, 100 kHz et 200 kHz",
+     "1 kHz et 100 kHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1, 2, 99, 100, 101 et 200 kHz  ",
+    "commentaire_fr": "Ce type d’amplificateur amplifie les fréquences présentes à son entrée et génère aussi les mélanges « classiques » mais aussi les harmoniques 2 des signaux présents à son entrée.\n",
+    "stem_zh": "一个具有二次失真的非线性放大器接收两个频率分别为 1 kHz 和 100 kHz 的信号。输出信号的频率有哪些？"
+   }
+  ]
+ },
+ {
+  "id": "K087",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T103b2",
+  "seclab": "10.3",
+  "n_q": 8,
+  "cours_fr": "10.3) Adaptation, désadaptation et ondes stationnaires : Le transfert de puissance entre un générateur de courant alternatif et une charge est maximal lorsque l’impédance du générateur est égale à celle de la charge et est de signe contraire, si il y a une réactance. Les impédances sont alors conjuguées . Dans les exemples ci-dessous, on cherche laquelle des 3 résistances (R1, R2 ou R3) dissipe le plus de puissance. Les résistances R1, R2 et R3 peuvent être considérées comme des résistances de charge alimentées par un générateur de résistance interne (R) de 50&#937;. Par simplification, il n’y a pas de réactance et le courant est continu. En ajoutant des réactances, un générateur de courant alternatif et un câble coaxial (et donc des ondes stationnaires), la démonstration est plus complexe mais aboutit au même résultat ; les puristes nous excuseront pour ces raccourcis. Ainsi, à la fréquence de résonance, par définition, les réactances d’une bobine et d’un condensateur sont conjuguées et l’impédance d’un tel circuit monté en série avec les deux résistances est nulle (filtre passe-bande) donc sans incidence sur la puissance délivrée sur la charge. Lorsque le rapport des résistances est 2/1 (schéma de gauche), la puissance dissipée par R1 est inférieure de 11% à celle dissipée par R2 et lorsque le rapport des résistances est 1,5/1 (schéma de droite), la puissance dissipée est inférieure de 4% : on retrouve les mêmes relations entre le ROS et le taux de puissance réfléchie comme on va le voir plus loin. b La désadaptation des impédances entraîne qu’une partie de l’énergie émise n’est pas transférée et retourne au générateur. Si bien que deux courants de même impédance et de sens inverse se superposent dans la ligne et, à certains endroits, les courants s’additionnent et à d’autres, ils s’annulent. Les endroits où se situent ces maxima (ou ventres) et ces minima (ou nœuds) sont fixes, d’où le nom d’ ondes stationnaires , et dépendent de l’endroit de la mesure sur la ligne et de la fréquence. Les maximas et les minimas sont distants les uns des autres d’un quart d’onde : le phénomène se répète donc toutes les demi-ondes. La désadaptation se mesure par : b1 - le coefficient de réflexion , nommé &#961; (rhô) et égal au rapport obtenu en divisant le courant (tension ou intensité) réfléchi par le courant émis (ou incident), les deux valeurs étant exprimés dans la même unité (V ou A). La seconde formule (avec les valeurs maxi/mini) est utilisée dans la pratique et donne le même résultat. Si les valeurs mesurées sont exprimées en Watts, on prendra la racine carrée ",
+  "samples": [
+   {
+    "num": "20197",
+    "stem_fr": "ROS",
+    "options": [
+     "3",
+     " 11 %",
+     "0,66",
+     "1,5"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1,5",
+    "commentaire_fr": "ROS = Zplus forte / Z plus faible = 75 / 50 = 1,5)\n",
+    "stem_zh": "ROS"
+   },
+   {
+    "num": "21192",
+    "stem_fr": "ROS = ?",
+    "options": [
+     "2,5/1",
+     "2/1",
+     "1,46/1",
+     "1/1"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1,46/1",
+    "commentaire_fr": "Zdipôle = 73 Ω pour un angle plat,\nROS = Z plus forte / Z plus faible = 73 / 50 = 1,46\n",
+    "stem_zh": "驻波比 ROS = ?"
+   },
+   {
+    "num": "21195",
+    "stem_fr": "QUEL EST LE ROS",
+    "options": [
+     "16,66",
+     "6",
+     "1/3",
+     "3/1"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "3/1",
+    "commentaire_fr": "ROS = Z plus forte / Z plus faible = 150/50 = 3/1\n",
+    "stem_zh": "驻波比是多少？"
+   },
+   {
+    "num": "21191",
+    "stem_fr": "QUEL EST LE ROS A L'ENTREE DU CABLE",
+    "options": [
+     "1/1",
+     "1,5/1",
+     "2/1",
+     "2,5/1"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1,5/1",
+    "commentaire_fr": "ROS = Z plus forte / Z plus faible = 50 / 33 = 1,515 = 1,5/1\n",
+    "stem_zh": "电缆输入端的驻波比（ROS）是多少"
+   },
+   {
+    "num": "20840",
+    "stem_fr": "ZE = 50 OHMS ; ZS = 100 OHMS. QUEL EST LE ROS ?",
+    "options": [
+     "2/1",
+     "1/2",
+     "50%",
+     "200%"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "2/1",
+    "commentaire_fr": "ROS = Z plus forte / Z plus faible = 100 / 50 = 2/1\n",
+    "stem_zh": "ZE = 50 欧姆 ；ZS = 100 欧姆。ROS 是多少？"
+   },
+   {
+    "num": "20731",
+    "stem_fr": "SCHEMA AVEC UN CABLE ET UNE ANTENNE,  PE = 9 W, PR = 1 W, VALEUR DU ROS ?",
+    "options": [
+     "9",
+     "4:1",
+     "2:1",
+     "0,11"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "2:1",
+    "commentaire_fr": "ROS = (1+racine(1/9)) / (1-racine(1/9)) \n= (1+1/3) / (1-(1/3)) = 1,333 / 0,667 = 2\nAttention : la réponse 0,11 est le TOS mais ce n’est pas ce qui est demandé…\n",
+    "stem_zh": "示意图中含一段电缆和一副天线，PE = 9 W，PR = 1 W，求驻波比 ROS 是多少？"
+   },
+   {
+    "num": "20816",
+    "stem_fr": "SCHEMA AVEC UN EMETTEUR, UN CABLE ET UNE ANTENNE,  PE = 4 W, PR = 1 W, VALEUR DU ROS ?\n",
+    "options": [
+     "9",
+     "4:1",
+     "3:1",
+     "0,11"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "3:1",
+    "commentaire_fr": "TOS = racine (Préfléchie / Pémise) = racine (1/4) = 50%. \nROS = 100+TOS / 100-TOS = 150 / 50 = 3/1\n",
+    "stem_zh": "示意图中有发射机、电缆和天线，PE = 4 W，PR = 1 W，驻波比 ROS 是多少？"
+   },
+   {
+    "num": "20374",
+    "stem_fr": "SCHEMA AVEC UN CABLE RELIE  UNE ANTENNE. LES INDICATIONS SUIVANTES ETAIENT NOTEES : A COTE DE L'ANTENNE ZA = 33 OHMS ; A GAUCHE : ZE = 50 OHMS. QUEL EST LE ROS ?",
+    "options": [
+     "1,5 / 1",
+     "3 / 1",
+     "0,666 / 1",
+     "2 / 1"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1,5 / 1",
+    "commentaire_fr": "ROS = Zplus forte / Z plus faible = 50 / 33 = 1,5 / 1\n",
+    "stem_zh": "示意图：一条电缆接到天线上。图上标注如下：天线一侧 Za = 33 欧姆 ；左侧：Ze = 50 欧姆。ROS 是多少？\n"
+   }
+  ]
+ },
+ {
+  "id": "K088",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "anchor": "R11a",
+  "seclab": "R-1.1",
+  "n_q": 8,
+  "cours_fr": "R-1.1) Environnement réglementaire : trois niveaux réglementaires se superposent et se complètent. a Au niveau international , l’Union Internationale des Télécommunications (UIT), dont le siège est à Genève, est chargée des télécommunications par les Nations Unies (ONU). Au sein de l’UIT, la normalisation des télécommunications est traitée par l’UIT-T, leur développement par l’UIT-D et les radiocommunications par l’UIT-R. L'UIT-R édite le Règlement des Radiocommunications ( RR, Radio Regulations en anglais ), traité international ratifié par la France, qui constitue la base des réglementations nationales et européennes. L’édition 2018 du RR comprend 58 articles (S1 à S59) subdivisés en dispositions, 21 appendices (A1 à A42), les résolutions prises en assemblée plénière et les recommandations qui orientent les travaux des commissions. En complément, l’UIT édite des rapports qui font un état des lieux détaillé d’une technique ou d’un problème. L’article S1 définit la terminologie utilisée dans le RR. La disposition S1-56 définit le service amateur ainsi : « Service de radiocommunication ayant pour objet l'instruction individuelle, l'intercommunication et les études techniques, effectué par des amateurs, c'est-à-dire par des personnes dûment autorisées, s'intéressant à la technique de la radioélectricité à titre uniquement personnel et sans intérêt pécuniaire ». La disposition S1-57 définit le service d'amateur par satellite ainsi : « Service de radiocommunication faisant usage de stations spatiales situées sur des satellites de la Terre pour les mêmes fins que le service d'amateur ». L’article S25 définit les conditions d'exploitation des stations du service amateur . Les dispositions de cet article précisent notamment : l'indicatif d’appel est attribué par l'administration de chaque pays après vérification des aptitudes des opérateurs ; les communications se font en langage clair ; il est interdit de transmettre des communications pour les tiers sauf en cas d’urgence. La Résolution 646 intitulée « Protection du public et secours en cas de catastrophes » (PPDR en anglais) préconise une harmonisation des fréquences par région et reconnnait l’utilité de la Convention de Tampere signée en 1998 sur la mise à disposition de ressources de télécommunication (coopération entre les états). Adoptée en 2003, la résolution 646 remplace les résolutions 640 « relative à l’utilisation internationale, en cas de catastrophe naturelle, des […] bandes […] attribuées au service d’amateur » et 644 qui traitait des « moyens de télécommunications pour l’atténuation des effets de",
+  "samples": [
+   {
+    "num": "30292",
+    "stem_fr": "QUE SIGNIFIE LES LETTRES : R.R",
+    "options": [
+     "Radio Régionale",
+     "Réglementation des Radiocommunications",
+     "Réglement des Radiocommunications",
+     "Réglement des Radioamateurs"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Réglement des Radiocommunications",
+    "commentaire_fr": "ou, en anglais : Radio Regulations.\n",
+    "stem_zh": "字母 R.R 代表什么？"
+   },
+   {
+    "num": "30710",
+    "stem_fr": "* L'ARTICLE S1-56 DU RR :",
+    "options": [
+     "définit le service amateur",
+     "indique que l'indicatif est attribué par l'administration de chaque pays membre de l'UIT",
+     "définit dans quelles mesures les radioamateurs peuvent aider les administrations en cas de catastrophes.",
+     "préconise un programme pour les examens"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "définit le service amateur",
+    "commentaire_fr": "L'indicatif est attribué par l'administration de chaque pays membre de l'UIT : c’est dans l’article S25 et non pas dans le S1-56.\nLa résolution 644 définit dans quelles mesures les radioamateurs peuvent aider les administrations en cas de catastrophes.\nLa TR 61/02 de la CEPT (recommandation HAREC) préconise un programme pour les examens\n",
+    "stem_zh": "无线电规则第 S1-56 条"
+   },
+   {
+    "num": "30518",
+    "stem_fr": "* QUI PUBLIE LE R.R. ? (REGLEMENT DES RADIOCOMMUNICATIONS)",
+    "options": [
+     "le CSA",
+     "l' ARCEP",
+     "l'UIT",
+     "l' ANFR"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "l'UIT",
+    "commentaire_fr": "",
+    "stem_zh": "* 谁发布 R.R.（《无线电规则》）？"
+   },
+   {
+    "num": "30286",
+    "stem_fr": "* QUE SIGNIFIE LES LETTRES: I.A.R.U.",
+    "options": [
+     "International Administration Radioamateur Union",
+     "International Amateur Radio University",
+     "Intercontinent Amateur Radio Union",
+     "International Amateur Radio Union"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "International Amateur Radio Union",
+    "commentaire_fr": "",
+    "stem_zh": "I.A.R.U. 这几个字母是什么意思？"
+   },
+   {
+    "num": "30063",
+    "stem_fr": "QUE SIGNIFIE LES LETTRES :\nU . I . T",
+    "options": [
+     "Université Internationale des Transmissions",
+     "Union Internationale des Transmissions",
+     "Union Internationale des Télécommunications",
+     "Unité Internationale des Télécommunications"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Union Internationale des Télécommunications",
+    "commentaire_fr": "",
+    "stem_zh": "字母 U . I . T 代表什么？"
+   },
+   {
+    "num": "30255",
+    "stem_fr": "DE QUOI TRAITE LA SECTION S.25 DU RR ?",
+    "options": [
+     "Le réglement des Radioamateurs",
+     "Les conditions d'exploitation des stations du service amateur",
+     "La libre circulation des Radioamateurs dans les pays CEPT",
+     "Le RR 25 n'existe pas"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Les conditions d'exploitation des stations du service amateur",
+    "commentaire_fr": "",
+    "stem_zh": "《无线电规则》(RR) 第 S.25 节讲的是什么？"
+   },
+   {
+    "num": "30419",
+    "stem_fr": "A QUI S'APPLIQUENT-ILS LES DISPOSITIONS DU RR EN FRANCE ?",
+    "options": [
+     "les opérateurs de classe 3 ne sont pas concernés ",
+     "aux radioamateurs autorisés seulement",
+     "à tous les utilisateurs du spectre radioélectrique ",
+     "les opérateurs ayant leur licence depuis plus de 10 ans ne sont pas concernés"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "à tous les utilisateurs du spectre radioélectrique ",
+    "commentaire_fr": "",
+    "stem_zh": "无线电规则（RR）的规定在法国适用于谁？"
+   },
+   {
+    "num": "30276",
+    "stem_fr": "DE QUOI TRAITE LA RESOLUTION 644 ?",
+    "options": [
+     "Des moyens de télécommunications pour l'atténuation des effets des catastrophes",
+     "De la suppression de l'obligation de connaître le code morse",
+     "De la réquisition des bandes radioamateurs par les administrations",
+     "Du plan de bandes des fréquences radioamateur"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Des moyens de télécommunications pour l'atténuation des effets des catastrophes",
+    "commentaire_fr": "",
+    "stem_zh": "第 644 号决议涉及什么内容？"
+   }
+  ]
+ },
+ {
+  "id": "K089",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "anchor": "R45",
+  "seclab": "R-4.5",
+  "n_q": 8,
+  "cours_fr": "R-4.5) Les modalités de l’examen sont fixées par l’article 2 de l’arrêté du 21/09/00 modifié. Quelques questions portent sur le déroulement des épreuves. Depuis 2021, il n’y a plus de frais d’examen (auparavant 30 €) . Pour passer l’examen, il n’y a plus d’âge minimum depuis l’arrêté du 21/09/00. Après avoir réussi l’examen, l’ANFR vous envoie spontanément votre certificat d’opérateur (document avec trame de sécurité) mais, pour pouvoir émettre, il vous faut attendre de recevoir la notification de l’indicatif d’appel. En cas d'échec à l'une des épreuves, le candidat doit attendre deux mois avant de repasser l'épreuve. Le candidat conserve pendant un an le bénéfice de l'épreuve dans laquelle il a obtenu la moyenne. Les opérateurs de l’ex-classe 3 (F0) n’ont à passer que l’épreuve de Technique pour obtenir un certificat d’opérateur « HAREC », quelque soit la date à laquelle ils ont réussi l’examen de Réglementation. Si le candidat a un taux d’incapacité physique permanente (IPP) supérieur ou égal à 70%, les épreuves sont adaptées à son handicap, le temps de l’examen est triplé et l’épreuve peut se dérouler au domicile du candidat.",
+  "samples": [
+   {
+    "num": "30216",
+    "stem_fr": "AU BOUT DE COMBIEN DE TEMPS PEUT ON SE REPRESENTER A L'EXAMEN RADIOAMATEUR APRES UN ECHEC ?",
+    "options": [
+     "2 mois",
+     "15 jours",
+     "1 mois",
+     "1 semaine"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "2 mois",
+    "commentaire_fr": "Un candidat qui a échoué ne peut se représenter aux épreuves qu'à l'issue d'un délai de deux mois. Un petit coup de pression de l'ANFR ? ! ? \n",
+    "stem_zh": "业余无线电考试不及格后，过多久可以再次报考？"
+   },
+   {
+    "num": "32562",
+    "stem_fr": "* SI LE CANDIDAT A UN TAUX D'INCAPACITE PERMANENTE DE PLUS DE 70%, LE TEMPS DE L'EXAMEN :",
+    "options": [
+     "reste le même",
+     "est allongé de 50%",
+     "est doublé",
+     "est triplé"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "est triplé",
+    "commentaire_fr": "Si le candidat a un taux d’incapacité permanente (IPP) est 70% et plus, la durée de l’examen est multipliée par 3 et l’examen est adapté au handicap. Le candidat peut passer l’examen à son domicile.\n",
+    "stem_zh": "如果考生的永久性无能力率达到 70% 以上，考试时间："
+   },
+   {
+    "num": "34757",
+    "stem_fr": "DE COMBIEN DE TEMPS DE PLUS DISPOSE UN HANDICAPE POUR PASSER L'EXAMEN ?",
+    "options": [
+     "3 fois plus de temps en technique uniquement",
+     "3 fois plus de temps en technique et 2 fois plus de temps en réglementation",
+     "3 fois plus de temps ",
+     "2 fois plus de temps"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "3 fois plus de temps ",
+    "commentaire_fr": "Les candidats ayant une IPP (Incapacité Physqiue Permanente) supérieure ou égale à 70% bénéficient d'un temps triplé pour passer les deux épreuves. Les épreuves peuvent être adaptées au handicap du candidat.\n",
+    "stem_zh": "残疾考生参加考试可多获得多少时间？"
+   },
+   {
+    "num": "31016",
+    "stem_fr": "QUEL EST L'AGE MAXIMUM POUR PASSER L'EXAMEN RADIOAMATEUR ?",
+    "options": [
+     "60 ans",
+     "75 ans",
+     "80 ans",
+     "Il n'y a pas d'age limite"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Il n'y a pas d'age limite",
+    "commentaire_fr": "",
+    "stem_zh": "参加业余无线电考试的最大年龄是多少？"
+   },
+   {
+    "num": "30236",
+    "stem_fr": "QUEL EST L'AGE LIMITE POUR PASSER LES EXAMENS POUR DEVENIR RADIOAMATEUR ?",
+    "options": [
+     "Il n'y a pas d'âge limite",
+     "60 Ans",
+     "70 Ans",
+     "75 Ans"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Il n'y a pas d'âge limite",
+    "commentaire_fr": "",
+    "stem_zh": "参加业余无线电操作员考试的年龄上限是多少？"
+   },
+   {
+    "num": "30260",
+    "stem_fr": "COMBIEN DE TEMPS EST DONNE POUR L'EXAMEN A UNE PERSONNE HANDICAPEE A 70% ?",
+    "options": [
+     "15 minutes",
+     "le double de temps",
+     "le triple de temps",
+     "1 heure"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "le triple de temps",
+    "commentaire_fr": "",
+    "stem_zh": "对 70% 残疾人士，考试给予多少时间？"
+   },
+   {
+    "num": "30527",
+    "stem_fr": "* EN CAS D'ECHEC, PENDANT COMBIEN DE TEMPS LE CANDIDAT CONSERVE LE BENEFICE DE L'EPREUVE POUR LAQUELLE IL A OBTENU UNE NOTE AU MOINS EGALE A 10 SUR 20 ?",
+    "options": [
+     "6 mois",
+     "1 an",
+     "2 ans",
+     "à vie"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1 an",
+    "commentaire_fr": "",
+    "stem_zh": "* 若考试未通过，考生对其中得分至少达到 10/20 的科目可保留成绩多长时间？"
+   },
+   {
+    "num": "30163",
+    "stem_fr": "* QUELLE INSTALLATION DE RADIOCOMMUNICATION DEMANDE UNE COMPETENCE\nPARTICULIERE ?\n1 - UN SYSTEME DE RADIOCOMMUNICATION PROFESSIONNEL\n2 - UNE INSTALLATION DE RADIOCOMMUNICATION DE LOISIRS\n3 - UNE INSTALLATION DE RADIOAMATEUR\n4 - UN SYSTEME DE RADIOCOMMUNICATION DESTINE AU PUBLIC",
+    "options": [
+     "3-4",
+     "1-4",
+     "1-3-4",
+     "1-2"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1-3-4",
+    "commentaire_fr": "",
+    "stem_zh": "哪些无线电通信设施需要具备专门资格？1 - 专业无线电通信系统 2 - 业余休闲无线电通信设施 3 - 业余无线电台 4 - 面向公众的无线电通信系统"
+   }
+  ]
+ },
+ {
+  "id": "K090",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "anchor": "T013a",
+  "seclab": "1.3",
+  "n_q": 7,
+  "cours_fr": "1.3a ). On sait que, par la définition du condensateur, Q(C) = C(F).U(V) et que, dans la résistance, I = U/R. Par substitution (t = C.U/[U/R]), on en déduit la constante de temps , T (s) = R(&#937;) . C(F) . Mais, à mesure que le condensateur se charge, la tension à ses bornes augmente et, conséquemment, la tension aux bornes de R diminue. La loi d’Ohm implique que le courant remplissant le condensateur diminue. Si bien qu’au bout du temps T , le condensateur n’est chargé qu’au deux tiers environ de la tension présente à ses bornes ( 63,21% exactement, soit 1–[1/e] avec e (nombre d’Euler) = 2,718 = [1 + (1 / n)] n , n étant très grand ). Au bout de 1 T , on a U C = (2/3).E. Au bout de 2 T , la tension sera (8/9).E (ou E – [1/3]².E). A 3 T , on aura (26/27).E (ou E – [1/3] 3 .E), etc. Au bout de 4,605 T , le condensateur est chargé à 99% (1 – e -4,605 = 0,99) . Au bout de 5 T , le condensateur est considéré comme complètement chargé. Le raisonnement est inverse pour la décharge : à chaque constante de temps, le condensateur se vide du tiers de la tension restant à ses bornes. Au bout de 1 T , il reste (1/3).E ; au bout de 2 T , il reste (1/9).E (ou (1/3) 2 .E), etc. Au bout de 5 T , la tension résiduelle est inférieure à 1% de la tension d’origine : le condensateur s’est vidé. En théorie, le condensateur n’est jamais ni complètement chargé ni complètement vide (attention aux doigts !). Exemple : un condensateur de 100 µF se vide par l’intermédiaire d’une résistance de 8 k&#937;. En combien de temps le condensateur se videra-t-il (moins de 1% de sa tension d’origine) ? Réponse : le condensateur sera vide au bout de 5 T : T (s) = R(&#937;) . C(F) =",
+  "samples": [
+   {
+    "num": "20022",
+    "stem_fr": "PUISSANCE MINIMUM RESISTANCE",
+    "options": [
+     "250 mW",
+     "2 W",
+     "500 mW",
+     "1 W"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1 W",
+    "commentaire_fr": "P = U² / R = 5 x 5 / 33 = 0,76 W. On retiendra la première puissance supérieure (1 watt) En répondant « 2 W », on utilise une résistance trop grosse.\n",
+    "stem_zh": "电阻的最小功率"
+   },
+   {
+    "num": "20020",
+    "stem_fr": "QUELLE EST LA QUANTITE D'ELECTRICITE",
+    "options": [
+     "150 C ",
+     "250 C",
+     "30 C",
+     "417 C"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "30 C",
+    "commentaire_fr": "Q = I x t = 0,6 A x 50 s = 30 C. La résistance ne sert à rien ni la tension aux bornes de la résistance.\n",
+    "stem_zh": "电量是多少？"
+   },
+   {
+    "num": "21079",
+    "stem_fr": "QUELLE EST LA QUANTITE D'ELECTRICITE ?",
+    "options": [
+     "36 C",
+     "540 C",
+     "150 C",
+     "54 C"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "36 C",
+    "commentaire_fr": "10 mA pendant 1 heure = 10 mA x 3600 s = 36 C. \nLa valeur de la résistance ne sert à rien.\n",
+    "stem_zh": "电量是多少？"
+   },
+   {
+    "num": "20855",
+    "stem_fr": "CALCUL QC = I(AMP) X TEMPS 5 MA ET 1 HEURE",
+    "options": [
+     "18 C",
+     "1 C",
+     "90 C",
+     "1000 C"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "18 C",
+    "commentaire_fr": "Q = I x t = 0,005 A x 3600 s = 18 C. \nLa valeur de la tension aux bornes de la résistance ne sert à rien.\n",
+    "stem_zh": "计算 Q，Q = I（安培）x 时间，5 mA 和 1 小时"
+   },
+   {
+    "num": "20019",
+    "stem_fr": "QUELLE EST LA QUANTITE D'ELECTRICITE",
+    "options": [
+     " 1,4  Ah",
+     "1125 C",
+     "675 C",
+     "250 C"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "1125 C",
+    "commentaire_fr": "Q = 7,5A x 150 s = 1125 C. La valeur de R n'a pas à être connue et la fém de la pile ne sert à rien.\n",
+    "stem_zh": "通过的电量（电荷量）是多少？"
+   },
+   {
+    "num": "23705",
+    "stem_fr": "QUANTITE D'ELECTRICITE FOURNIE AU GENERATEUR PENDANT 45 S",
+    "options": [
+     "225 mC ",
+     "540 C",
+     "3,75C",
+     "9000 C"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "225 mC ",
+    "commentaire_fr": "Q = I x t = 0,005 x 45 = 0,225 = 225 mC\n",
+    "stem_zh": "在 45 s 内提供给电源的电量是多少？"
+   },
+   {
+    "num": "20715",
+    "stem_fr": "CALCULER LA QUANTITE DE COURANT TRAVERSANT UNE RESISTANCE PENDANT 50 SECONDES (I=500MA ET R=100 OHMS)?",
+    "options": [
+     "2500 C",
+     "5000 C",
+     "25 C",
+     "50 C"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "25 C",
+    "commentaire_fr": "Q = I x t = 0,5 x 50 = 25 C. \nLa valeur de R ne sert à rien (juste à perturber les candidats).\n",
+    "stem_zh": "计算 50 秒内通过一个电阻的电荷量（I = 500 mA，R = 100 Ω）。"
+   }
+  ]
+ }
+]

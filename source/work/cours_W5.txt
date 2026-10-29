@@ -1,0 +1,311 @@
+### a 0.1) Transformation d'équation : une équation est une expression
+mathématique qui indique que les deux termes de chaque côté du signe = sont de même valeur. Chacun des deux termes est composé de données (notées A, B, C ou D dans les exemples ci-dessous) et d'une inconnue (notée X). La transformation d'équation permet de calculer l’inconnue à partir des données. La transformation des équations s'effectue différemment selon l'opération et est récapitulée dans le tableau ci-dessous:
+Le résultat de l’addition des termes est une somme; le résultat d’une soustraction est une différence; le résultat d’une multiplication est un produit; le résultat d’une division (ou fraction) est un quotient. Dans une fraction, le terme du haut (ou placé avant le /) est appelé numérateur et celui du bas (après le /) est appelé dénominateur.
+Dans une fraction, les deux termes sont l’un au dessus de l’autre séparés d’un trait ou sur la même ligne séparés par le signe / (barre de fraction). Dans une multiplication, le signe de multiplication (x) placé entre les deux termes peut être remplacé par un point (exemple: A. B = A x B) ou par rien (exemple: AB = A x B). Le signe ² (carré) placé après un nombre signifie que ce nombre est multiplié par lui-même (exemple: A² = A x A). Le signe √ (racine carrée) placé devant un nombre signifie que le résultat de l’opération multiplié par lui-même donne le nombre (exemple: √A x √A = A).
+b Les opérations combinées (mélange d’additions et de multiplications par exemple) doivent être traitées dans un ordre précis: puissance (ou racine), puis multiplication (ou division), et enfin addition (ou soustraction). La place des parenthèses remet en cause cet ordre: il faut calculer ce qu'il y a à l’intérieur des parenthèses avant de continuer: la parenthèse est prioritaire. Exemple: dans l'équation A = B x C + D², on calcule D², puis B x C et on additionne le tout. Dans l'équation A = B x (C + D)², on calcule C + D que l'on met au carré et ce résultat est multiplié par B. Mais attention: √AB = √(A x B), par contre (√A) x B s'écrira B√A pour éviter toute confusion. Pour des raisons de lisibilité, les crochets [ et ] sont utilisés: ils ont la même valeur que les parenthèses.
+Les expressions algébriques se simplifient en supprimant les valeurs de signes opposés dans une addition ou les valeurs communes au numérateur et au dénominateur des fractions: A + B + C – B = A + C puisque B – B = 0 et (A x B) / (B x C) = A / C puisque B / B = 1.
+Soustraire un nombre négatif revient à l’additionner: A – (–B) = A + B
+Une division par une fraction se transforme en une multiplication par l’inverse de cette fraction:
+c Lorsqu’on a des rapports proportionnels (par exemple: A / B = C / D), le théorème de Thalès nous rappelle que l’on a aussi l’équation suivante: A / C = B / D. Dans ce cas, l’inconnue (D par exemple) est déterminée par le produit en croix qui est égal au produit des valeurs de la deuxième diagonale (B multiplié par C dans notre exemple) divisé par la valeur opposée (A dans notre exemple), d’où: D = B x C / A. Ou, si C est l’inconnue: C = A x D / B. L’utilisation de parenthèses est ici inutile.
+d La distributivité de la multiplication et de la division par rapport à l’addition et à la soustraction implique que: (A x B) + (C x B) = (A + C) x B mais aussi que: (A / B) – (C / B) = (A – C) / B
+En radioélectricité, les opérations avec additions et soustractions sont peu utilisées, excepté dans le calcul des circuits équivalents. Par contre, la combinaison multiplication – division – puissance – racine est fréquente.
+Exemple d’application de transformation d’équations: loi de Thomson:
+### a 0.2) Puissances de 10, multiples et
+sous-multiples: compte tenu des unités utilisées, il arrive souvent que nous devions utiliser des 0 avant la virgule (farad par exemple) ou après la virgule (hertz par exemple). Pour faciliter la lecture des nombres, les multiples et sous-multiples sont utilisés. Ils sont basés sur des puissances de 10 qui vont de 3 en 3 (3, 6, 9 et -3, -6,... pour les sous-multiples). Le tableau ci-dessous indique les multiples et sous-multiples utilisés le plus couramment dans les applications radioamateur et à l’examen.
+D’autres multiples et sous-multiples existent mais ne sont pas utilisés dans ce cours. Les plus connus sont: hecto (symbole h, 10 2 ), déca (da, 10 1 ), déci (d, 10 -1 ), centi (c, 10 -2 ). Il existe aussi le myria (ma, 10 4 ), utilisé dans les longueurs. Les symboles des multiples, à partir du méga, sont en majuscule alors que ceux des sous-multiples sont en minuscule. De plus, le système international définit les multiples et les sous-multiples de 10 30 à 10 -30. Au-delà du Giga se trouvent: Téra (T, 10 12 ), Péta (P, 10 15 ), Exa (E, 10 18 ), Zetta (Z, 10 21 ), Yotta (Y, 10 24 ), Ronna (R, 10 27 ), Quetta (W, 10 30 ) et en deçà du pico: femto (f, 10 -15 ), atto (a, 10 -18 ), zepto (z, 10 -21 ), yocto (y, 10 -24 ), ronto (r, 10 -27 ), quecto (q, 10 -30 ). Ces multiples sont des extrêmes: la tension générée par un électron est d’environ 160 zV (zeptovolt), la bande de fréquence des ultraviolets est centrée aux alentours de 1,2 PHz (pétahertz).
+b Pour passer d'un multiple à l'autre, déplacer la virgule de trois chiffres à chaque multiple. En utilisant la table de conversion ci-dessus, positionner les chiffres dans chaque case en plaçant la virgule sous le grand trait du multiple utilisé. Lorsque le nombre est défini par une puissance de 10 (voir exemple n°4), la virgule décimale est placée sous le trait de la puissance de 10. Les cases vides à droite et à gauche du nombre seront remplies avec des 0. Pour passer au multiple ou sous-multiple supérieur, la virgule sera déplacée de trois crans vers la gauche (sous le premier grand trait de gauche). Pour passer au multiple ou au sous-multiple inférieur, la virgule sera déplacée de trois crans vers la droite (sous le premier grand trait de droite). Une fois la conversion faite et la virgule positionnée, retirer les 0 inutiles à gauche de la partie entière et à droite de la partie décimale.
+Exemples: 1) conversion k → M: 25 kΩ =,. 25 MΩ = 0,025 M Ω. La case vide entre la virgule et la valeur 2 (représentée ici par un point) et la case vide à droite de la virgule sont comblées par des 0.
+2) conversion µ → m: 1500 µA = 1,5 00 mA = 1,5 mA. Les 0 inutiles à droite de la partie décimale (partie du nombre après la virgule) sont supprimés.
+3) conversion UNITE → m: 0,45 V = 0,450 V = 0 450 mV = 450 mV. Le 0 inutile à gauche de la partie entière (partie du nombre avant la virgule) est supprimé.
+Il est rarement utilisé, dans les applications courantes, plus de 4 multiples pour une même grandeur. Rappelez-vous des multiples des grandeurs qui vous sont plus familières: kilomètre, mètre, millimètre, micron (="micromètre") ou encore tonne (="mégagramme"), kilogramme, gramme, milligramme. Les candidats mal à l’aise avec l’algèbre et les multiples prépareront sur leur feuille de brouillon avant de commencer l’épreuve une table de conversion avec au dessus de chaque grand trait le symbole des multiples et des sous-multiples.
+c Dans les opérations d’addition et de soustraction, il faut impérativement utiliser les valeurs avec les mêmes multiples ou sous-multiples. Lors des opérations de multiplications, les puissances de 10 s'additionnent; elles se soustraient pour les divisions: 10 9 x 10 6 / 10 3 = 10 (9+6-3) = 10 12. La puissance change de signe lorsqu'elle passe en dessous ou au dessus du trait de fraction: 1 / 10 3 = 10 -3 et 1 / 10 -6 = 10 6. On rappelle que 10 0 = 1.
+d Le signe « ^ », qui signifie « puissance », permet de remplacer la police de caractère « puissance » (petits caractères surélevés) quand elle n’est pas disponible. Ainsi 10 -6 s’écrira 10^-6 et 10 12 s’écrira 10^12.
+Les puissances de 10 sont multipliées par 2 lors de l'élévation au carré: (10 -3 ) 2 = 10 (-3x2) = 10 -6. Avec la racine carrée, seules les puissances de 10 sont utilisables car elles sont divisées par 2: √(10 6 ) = 10 (6/2) = 10 3
+Exemple n°4: Calculer P pour U = 20 mV et R = 5 kΩ avec la formule P = U² / R.
+Réponse: P = U² / R =(20 x 10 -3 ) 2 / (5 x 10 3 )= 400 x 10 -(3x2) / 5 x 10 3 = 400/5 x 10 (-6-(+3)) = 4/5 x 10 (-9+2) = 0,8 x 10 -7 = 80 nW (voir conversion ci-dessus: la virgule a été placée sous le trait de 10 -7, au 7 ème trait à droite de l’unité)
+Exemple n°5: Calculer R (en Ohms) pour U = 20 mV et P = 80 nW avec la formule R = U² / P.
+Réponse: R = U² / P = (20 x 10 -3 ) 2 / (80 x 10 -9 ) = (400 / 80) x 10 (-(3x2)- -9) = 5 x 10 3 = 5000 Ω
+### 0.3)
+Utilisation d’une calculette: la calculette utilisée sera du type « Collège ». Si les touches des 4 opérations classiques (+, −, x, ÷), des 10 chiffres et de la virgule se repèrent facilement, les autres fonctions nécessitent quelquefois d’utiliser une fonction « seconde ». Ces fonctions sont souvent indiquées au dessus ou en dessous de la touche (et non sur la touche) et l’appui préalable sur la touche « fonction seconde » permet d’y accéder.
+a On cherchera pour chaque calculette les 12 fonctions ou opérateurs utilisés dans les formules de ce cours:
+- Exposant de 10 (touche marquée.10 x ou Exp ou E )
+- Inversion de signe (touche marquée +/-, servant souvent à entrer des puissances de 10 négatives). De nombreuses calculettes « Collège » acceptent le – de la soustraction pour signer négativement les puissances de 10 et n’ont donc pas cette fonction. Vérifiez le fonctionnement de la calculette.
+- Racine carrée (symbole √). Dans certains modèles de calculettes, une parenthèse s’ouvre automatiquement. Il faudra penser à la refermer au bon endroit pour éviter une erreur de syntaxe ou de formule.
+- Mise au carré (touche marquée x² ) que nous noterons [x²]. En l’absence de cette touche, la fonction Puissance (marquée [^]) sera suivie du chiffre de la puissance, comme dans l’exemple ci-dessous.
+- Logarithme décimal (touche marquée LOG ) que nous noterons [LOG]
+- Puissance de 10 ou Antilog (touche marquée 10 x, à ne pas confondre avec l’exposant de 10), notée [10 x ]. Si la calculette n’a pas cette fonction, la fonction Puissance (marquée [^]) sera utilisée en tapant 10^ x
+- Inverse (touche marquée 1/x, x -1 ou Inv) que nous noterons [1/x]. Si la calculette n’a pas cette fonction, la fonction Division ( [÷]) sera utilisée en tapant [1][÷]( x ) où x est le diviseur. Dans ce cas, n’oubliez pas les parenthèses autour du dénominateur.
+- Touche donnant la valeur π (3,14159…) que nous noterons [π]
+- Vérifiez la procédure d’effacement complet des mémoires ( certains modèles ont une touche « reset » située au dos des calculettes: enfoncez la pointe de votre stylo pour la réinitialisation des mémoires )
+- Vérifiez le fonctionnement des parenthèses. Dans le doute sur l’utilisation des parenthèses dans une formule, vous pouvez en ajouter: la plupart des calculettes accepte au moins 6 niveaux d’imbrication de parenthèses. La seule contrainte sera de bien « refermer » les parenthèses: il faut, dans une formule, autant de « ( » que de « ) » sinon votre calculette vous affichera un message d’erreur.
+- Vérifiez enfin le fonctionnement des touches d’effacement (touche souvent marquée C ou AC pour l’effacement total et CE pour l’effacement partiel) et les touches de déplacement (quand elles existent) très utiles pour modifier une valeur dans une formule sans avoir à la ressaisir en entier.
+L’affichage des résultats est paramétrable (il faut le sélectionner à nouveau après un « reset »):
+- L’affichage en virgule flottante (fonction souvent marquée FLO ) est l’affichage standard par défaut.
+- En affichage Scientifique (fonction souvent marquée SCI ), les nombres sont affichés avec une partie entière toujours comprise entre 1 et 9, une partie décimale (à droite de la virgule comportant un nombre de chiffres paramétrable) et une puissance de 10 sous la forme d’un nombre entier positif ou négatif.
+- Le mode d’affichage Ingénieur (fonction souvent marquée ENG ) est comparable à l’affichage Scientifique mais, dans ce cas, la puissance de 10 est toujours multiple de 3 et la partie entière est comprise entre 1 et 999. Malheureusement, la plupart des calculettes « Collège » ne dispose pas de cet affichage qui permet de visualiser le résultat avec les multiples ou sous-multiples présentés au paragraphe précédent.
+b Les données seront saisies en utilisant ou pas les multiples mais l’affichage indiquera toujours un résultat avec puissances de 10 lorsque l’affichage en mode Ingénieur ou Scientifique est sélectionné.
+Soit une valeur de 2,5 k à entrer, on saisira 2500 ou 2,5.10 3 en appuyant sur les touches [2][,][5][Exp][3]. En affichage à virgule flottante, ce nombre s’écrira 2500. En mode Scientifique ou Ingénieur, il s’affichera sous la forme 2,5.10 3 ou le plus souvent 2,5 +03 (la puissance de 10 est indiquée: le signe (+ ou –) suivi de deux chiffres).
+250000 s’affichera 2,5 +05 en mode Scientifique et 250 +03 en mode Ingénieur (soit 250 k car 10 3 correspond au multiple kilo, symbole k). Notez que 10 0 correspond à l’unité: 2,5 sera écrit 2,5 +00 en affichage Scientifique et Ingénieur. De même, 25 sera écrit 2,5 +01 en affichage Scientifique et 25 +00 en affichage Ingénieur. Enfin 0,25 s’affichera 2,5 -01 en mode Scientifique et 250 -03 en mode Ingénieur (correspondant à 250 milli). Pour entrer cette valeur avec le sous-multiple milli, on saisira 250.10 -3 en appuyant sur les touches [2][5][0][Exp][+/-][3].
+c Dans le cours, les réponses avec calculs sont repérées par la mention « Sur une calculette » et sont données:
+- en écriture naturelle (ou écriture intuitive; toutes les calculettes « Collège » récentes acceptent ce format). La formule est saisie avec les parenthèses notées [(] ou [)] puis on appuie sur [=] pour afficher le résultat.
+- avec la formule simplifiée, ce qui nécessite l’utilisation des multiples ou sous-multiples indiqués.
+Une fois la formule saisie, appuyez sur [=] (ou [EXE]) pour afficher le résultat.
+Exemple n°4: Calculer P pour U = 20 mV et R = 5 kΩ. (formule à utiliser: P = U² / R, soit: U [x²] ÷ R ou U [^] [2] ÷ R)
+Sur une calculette, en écriture naturelle: (20.10 -3 ) 2 ÷(5.10 3 )
+soit la séquence des touches suivantes: [(] [2] [0] [Exp] [+/-] [3] [)] [^] [2] [÷] [(] [5] [Exp] [3] [)] [=]
+Résultat affiché avec virgule flottante: 0,00000008
+Résultat affiché en notation Scientifique: 8 -08, soit 8 x 10 -8 ( utiliser la table de conversion du §0.2a )
+Résultat affiché en notation Ingénieur: 80 -09, soit 80 x 10 -9 = 80 nW
+Exemple n°5: Calculer R (en Ohms) pour U = 20 mV et P = 80 nW (formule à utiliser: R = U² / P)
+Sur une calculette, en écriture naturelle: (20.10 -3 ) 2 ÷(80.10 -9 ) = 5.10 3 = 5 kΩ = 5000 Ω
+d Le paramétrage et les fonctions de la calculette Casio FX-92 Collège (modèle Classwiz):
+- Au démarrage ( ou par la suite à l’aide de la touche « ACCUEIL » ), sélectionner le mode « Calcul »
+- Pour réinitialiser le paramétrage d’origine (et/ou vider la mémoire): appuyez sur « CONFIG » puis « Réinitialiser », « OK », « Tout » ( ou « Mém. variables » ), « OK », « Oui ». Méthode alternative: enfoncez la pointe d’un stylo dans le trou au milieu du dos de la calculette
+- Pour définir l’affichage en mode « Scientifique »: appuyer sur « CONFIG » puis « Paramètre Calcul », « OK », « Arrondi », « OK », « Sci », « OK », sélectuionner « Sci4 » (= 4 chiffres significatifs ), « OK »
+- Pour définir l’affichage à l’écran,: appuyer sur « CONFIG » puis « Paramètre Calcul », « OK », « Saisie/Résultat», « OK », « Sligne/Rdéc » (4 ème option), « OK ». « AC » pour sortir du menu.
+Avec ce paramétrage, en saisissant la formule « √(2) ÷ 2 » puis « EXE », l’écran affichera 7,071 x 10 -1 ( et non pas √(2) ÷ 2 ). Au besoin, la touche « FORMAT » permet de définir un autre mode d’affichage du résultat ( choisir « Notation Scient. » ou le format souhaité ).
+Lien pour l’émulation d’une calculette Casio FX-92 Collège Classwiz en ligne: https://classwiz-emulator.casio.com/WebApp/cw/index.html?model=EY006
+Attention, il existe de nombreuses versions de la FX-92. Les modèles changent légèrement tous les ans pour que les parents ne puissent pas réutiliser pour les cadets la calculette des aînés! Ainsi, les fonctions peuvent être déplacées et les touches peuvent changer de nom.
+D’autre part, la FX-92 n’accepte pas la notation Ingénieur mais permet la saisie en écriture naturelle.
+Section A: Bases d’électricité et composants passifs
+1) LOIS d’OHM et de JOULE
+### a 1.1)
+Les bases de l'électricité reposent sur quatre grandeurs: l'Intensité notée I (le débit) et mesurée en ampère (A) qui correspond au passage d’une quantité d’électricité par seconde; la Tension ou différence de potentiel (ddp) notée U qui est mesurée en volt (V); la Résistance notée R et mesurée en ohm (Ω, lettre grecque oméga majuscule) et la Puissance dégagée (en chaleur dans le cas d’une résistance), notée P et mesurée en watt (W).
+b La résistance désigne à la fois le phénomène physique (résistance au passage du courant) et le composant ( voir description au §1.5c ). Les anglophones utilisent deux mots différents: resistance (phénomène physique) et resistor (composant). Le composant résistance se schématise par un rectangle (ou, dans les anciens schémas, par une « dent de scie »). Dans les schémas, la valeur du composant est notée à l'intérieur du rectangle. La mention Ω n'est pas obligatoire. Une valeur de 2200 Ω pourra être notée 2200 mais aussi 2,2 k ou encore 2k2.
+c La tension se mesure entre deux points du circuit et se schématise par une flèche entre ces deux points. U AB est la tension entre les points A et B. La tension de référence est prise en B par le fil « Com » du voltmètre; l’autre fil du voltmètre est à brancher au point A indiqué par la flèche de tension. Ainsi, si U AB est positif, la flèche indique le sens des potentiels (ou tensions) croissants. La tension en un point du circuit (par exemple U A ) indique la tension par rapport à la masse (0 V) qui sert alors de tension de référence. Ainsi, dans le schéma ci-dessous, U AB = U A – U B. La tension générée par une source est appelée force électromotrice (notée E). La chute de tension aux bornes d’une résistance ou d’une charge est appelée différence de potentiel (Potenzieller Unterschied en allemand, la langue de G. Ohm, d’où le U qui désigne la tension).
+d L' intensité est une « agitation ordonnée d’électrons ». Elle se mesure en un point et se schématise par une flèche en ce point sur le circuit. Le sens de la flèche indique le sens du courant (du + vers le –). L’intensité en un point B du circuit sera notée I B. Les flèches de tension et d'intensité sont en sens opposé si les valeurs de tension et d’intensité sont positives. Pour mesurer une intensité à l’aide d’un ampèremètre, il faudra couper le circuit et insérer l’instrument de mesure en branchant le fil « Com » de l’ampèremètre sur le fil relié au – du circuit.
+e Le calcul de la puissance dissipée est utile pour optimiser le dimensionnement des composants. Si la puissance dissipée par les composants est rarement indiquée sur les schémas, elle est toujours donnée dans la nomenclature des composants d’un circuit (en particulier pour les résistances).
+f En prenant des références hydrauliques, la tension est comparable à une différence de pression dans un tuyau et se mesure donc entre deux points d’un circuit. L’intensité est un débit et se mesure en insérant l’instrument de mesure en un point du circuit, comme un compteur d’eau. La résistance est comparable à un rétrécissement du tuyau. La chaleur dégagée par la résistance provient des frottements lors du passage des électrons.
+### a 1.2) Lois d'Ohm (U = R . I) et
+de Joule (P = U. I). Ces deux lois sont fondamentales car elles expriment les relations entre les quatre grandeurs de base de l’électricité. En développant les deux lois, on trouve les douze équations du tableau ci-dessous: P = U. I et on sait que U = R. I; en remplaçant U par R. I dans la première équation, on trouve: P = (R. I). I = RI². De même, on sait que I = U / R, donc P = U. I devient P = U x (U / R) donc P = U² / R. Ainsi, deux données (intensité et résistance, par exemple), permettent de calculer les deux inconnues correspondantes (dans notre exemple: puissance P = RI² et tension U = RI).
+b Les quatre équations éditées en gras ci-dessus servent de base aux quatre triangles de calcul simplifié:
+Choisissez le triangle contenant vos deux données et votre inconnue puis cachez du doigt l'inconnue: vous obtenez la formule à appliquer. Lorsque les données sont en bas (l’inconnue est en haut du triangle), les données sont multipliées pour obtenir l’inconnue. Lorsque l’inconnue est en bas, les données sont divisées (celle du haut par celle du bas). Lorsque l’inconnue cachée est au carré, le résultat est une racine carrée (exemple: U² = PR donc U = √(PR)). Le jour de l’examen, si vous n’êtes pas à l’aise en algèbre, commencez par écrire ces quatre formules sur votre feuille de brouillon à côté de la table de conversion: elles seront ainsi toujours sous vos yeux.
+Exemples: 1) Soit une résistance de 1500 Ω parcourue par un courant 0,1 A. Quelle est la tension à ses bornes? Quelle est la puissance dissipée?
+U = R. I = 1500 x 0,1 = 150 V
+P = U. I = 150 x 0,1 = 15 W ou P = R. I² =1.500 x 0,1 x 0,1 = 15 W
+ou encore P = U² / R = (150 x 150) / 1500
+= 22 500 / 1500 = 15 W
+2 ) quelle est la puissance P dissipée et la résistance R?
+P = U. I = 2 x 0,05 = 0,1 W
+R = U / I = 2 / 0,05 = 40 Ω
+ou R = P / I² = 0,1 / (0,05 x 0,05) = 0,1 / 0,0025 = 40 Ω
+ou encore R = U² / P = 2² / 0,1 = 4 / 0,1 = 40 Ω
+### 1.3)
+Autres unités:
+a Le coulomb (noté C) est une quantité d’électricité que l’on note Q. L’intensité est un débit et correspond au passage d’un nombre d’électrons (précisément: 6,25.10 18, soit un peu plus de 6 milliards de milliards) par unité de temps (l’unité de temps est la seconde). En reprenant les références hydrauliques du §1.1f, le coulomb est assimilable à un volume d’eau. En comparaison, un millilitre d’eau (1 cm 3 ) contient 3,34.10 22 molécules d’eau. Un ampère est égal à un coulomb par seconde:
+Q(C) = I(A). t(s) ou encore I(A) = Q(C) / t(s)
+b De même, il existe une unité d'énergie: le joule (noté J). Un watt est un joule par seconde. L’énergie est aussi exprimée en wattheures (Wh), avec la relation suivante: 1 Wh = 3600 J. La quantité d’ énergie disponible est notée E (c’est le même E que l’on retrouve dans la formule E = MC², à ne pas confondre avec le E (en volts) de la force électromotrice de la pile que nous étudierons plus tard). La quantité d’ énergie consommée est appelée travail et est notée W (à ne pas confondre avec le W des watts car le travail se mesure en joules). Le travail en joules peut exprimer une énergie thermique (la chaleur), une énergie chimique (sous l’effet de l’électrolyse, l’eau se décompose en oxygène et hydrogène), une énergie mécanique (énergie déployée pour déplacer un poids) ou une énergie électromagnétique. La notion de travail ne donne pas d’indication sur la durée: pour déplacer 10 tonnes de sable, on utilisera une brouette et le travail se fera en une journée ou on emploiera une pelleteuse et le travail sera fait en un quart d’heure: le travail est identique, seule la puissance utilisée change.
+E ou W(J) = P(W). t(s) ou encore P(W) = E ou W(J) / t(s)
+Exemples: Calculer Q en Coulombs et W en Joules
+Réponses:
+Q(C) = I. t = (U / R). t = (10 / 5). 30 = 2 x 30 = 60 C
+W(J) = P. t = (U² / R). t = (10 x 10 / 5) x 30 = 20 x 30 = 600 J
+ou, puisque P = U.I, alors P.t = U.I.t, donc: W(J) = U(V). Q(C) = 10 x 60 = 600 J
+### a 1.4)
+La résistivité est un nombre qui caractérise le pouvoir d’un matériau à résister au passage du courant électrique continu. La résistivité est notée ρ (lettre grecque minuscule rhô) et se définit en Ωm (ohm-mètre). La résistance d'un corps dépend de sa résistivité, donc de sa nature, mais aussi de ses dimensions. Pour une même résistivité, la résistance d’un corps est proportionnelle à sa longueur et inversement proportionnelle à sa section:
+R(Ω) = ρ(Ωm). L(m) / s(m²)
+avec R= résistance; ρ = résistivité du matériau; L = longueur du fil; s = section du fil
+Les conducteurs ont une faible résistivité (jusqu'à 0,01 Ωm); les isolants en ont une très élevée (plus de 1 MΩm). Entre ces deux extrêmes se trouvent les semi-conducteurs. La résistivité est toujours donnée pour une température du matériau de 20°C. D'une façon générale, la résistivité d'un conducteur augmente avec sa température. Dans ce cas, le coefficient de température est positif. Par contre, la résistivité des isolants, en règle générale, diminue lorsque leur température augmente: leur coefficient de température est négatif. Attention à ne pas confondre diamètre (distance en m) et section (surface en m²): lorsqu’un diamètre est doublé, la section est quadruplée. On a: S = π x D² / 4 = 0,785 D². Ainsi un fil de 2,5 mm² de section aura un diamètre de 1,78 mm
+Exemple: un fil métallique a une longueur de 1 mètre, une section de 2 mm² et une résistance de 6 Ω. Quelle résistance aura ce même fil si sa longueur est de 2 mètres et sa section de 6 mm²?
+Réponse: La longueur est multipliée par 2 et la section par 3 donc: R = ρ. L / S = 6 Ω x (2 / 3) = 4 Ω
+b Résistivité (ρ) de quelques matériaux à 20°C:
+Matériau et ρ(Ωm): l e s conducteurs (moins de 10 -6 Ωm) sont édités en bleu et les isolants (plus de 10 6 Ωm) sont édités en rouge.
+Argent
+1,6.10 -8
+Cuivre écroui
+1,8.10 -8
+Or
+2,2.10 -8
+Aluminium
+3.10 -8
+Laiton
+6.10 -8
+Fer
+1.10 -7
+Constantan
+4,9.10 -7
+Nichrome
+1,1.10 -6
+Eau de mer
+0,3
+Germanium
+0,46
+Silicium
+640
+Eau pure
+2.10 5
+Air sec
+1,13.10 9
+Porcelaine
+10 11
+Polyéthylène
+10 15
+Papier
+10 15
+Bakélite
+10 16
+Plexiglas
+10 17
+Quartz
+7.10 17
+Polystyrène
+10 20
+c La conductivité est utilisée pour caractériser les conducteurs. Elle est donnée en m/Ωm² ou en S/m (avec S = Siemens = 1/Ω; exemple: conductivité de l’argent = 6,3.10 7 S/m). La conductance étant l’inverse de la résistance, elle était donnée en mho (jeu de mots avec ohm à l’envers) avant que le Siemens soit utilisé.
+d Dans un conducteur, la densité de courant (en A/mm²) est égale au débit (en ampères) divisé par la section du conducteur (en mm²). La densité de courant dans un fil de cuivre ne doit pas dépasser 5 A/mm².
+e L’effet de peau, surtout sensible en HF (haute fréquence, au-delà de 20 kHz), fait que le courant ne se déplace qu'à la superficie des conducteurs. L’épaisseur de la peau d’un fil de cuivre (en µm, microns) dans laquelle passera le courant est estimée par la formule suivante: e(µm) = 66 / √ f(MHz). Ainsi, l’épaisseur de la peau sera de 9,4 mm à 50 Hz, 0,5 mm à 20 kHz, 66 µm à 1 MHz, 12 µm à 30 MHz, 5 µm à 150 MHz et 2 µm à 1 GHz. Un câble composé de plusieurs fils de petit diamètre sera utilisé de préférence à un câble monobrin car ceci augmente la section dans laquelle peut se déplacer le courant HF et donc diminue la résistance du fil. On utilisera aussi du fil recouvert d’un matériau très conducteur (cuivre argenté) ou traité en surface de manière à ce qu’il ne s’oxyde pas (cuivre émaillé ou verni) car l’oxydation rend souvent un métal isolant.
+### 1.5)
+Le Code des couleurs. La valeur des résistances traditionnelles (à fils) est rarement indiquée en chiffres: un code de couleurs défini dans le tableau ci-dessous est utilisé. Nous verrons au §2.3c6 que ce code couleur est aussi utilisé pour marquer la valeur des condensateurs.
+a Pour coder une valeur, trois bagues au moins sont nécessaires: les deux premières bagues indiquent les deux premiers chiffres de la valeur, la troisième bague indique le nombre de 0 de la valeur. Pour détromper la lecture, les bagues ne sont pas centrées au milieu de la résistance: selon la représentation, elles doivent se situer à gauche de la résistance pour une lecture de gauche à droite ou en haut pour une lecture de haut en bas.
+Le code des couleurs des bagues de tolérance (4 ème bague, quelquefois décalée par rapport aux trois premières) n’a pas à être connu pour l’examen. Toutefois, dans les questions d’examen, la bague de tolérance est souvent représentée mais sa signification n’est pas demandée.
+Mnémotechnique Initiale du mot = Initiale de la couleur
+Couleur des bagues
+1 ère bague 1 er chiffre Dizaine
+2 ème bague 2 ème chiffre Unité
+3 ème bague multiplicateur Nombre de 0
+4 ème bague tolérance +/–
+Ne Mangez Rien Ou Je Vous Battrai VIOlemment, Grand BOA
+Noir Marron Rouge Orange Jaune Vert Bleu VIOlet Gris Blanc Or Argent
+1 2 3 4 5 6 7 8 9
+0 1 2 3 4 5 6 7 8 9
+x 1 x 10 x 100 x 1000 x 10 000 x 100 000 x 1 000 000 x10 000 000 (x 100 000 000) (x1 000 000 000) x 0,1 x 0,01
+sans bague: 20% 1 % 2 %
+0,5 % 0,25 % 0,1 %
+5 % 10 %
+Il existe une expression mnémotechnique pour se souvenir du code des couleurs: Ne Mangez Rien Ou Je Vous Battrai Violemment, Grand BOA. L’initiale de chaque mot de la phrase correspond à l’initiale de la couleur. Attention: la série commence par 0 et ne pas confondre les deux V (vert et violet) et les deux B (bleu et blanc): Violemment correspond à Violet et le Blanc (valeur 9) est à la fin puisque le Noir (valeur 0) est au début.
+Remarquez la logique de l’ordre des couleurs. On commence par des couleurs sombres (noir puis marron), les couleurs centrales (de rouge à violet) sont celles de l’arc-en-ciel et des couleurs claires (gris puis blanc) terminent la série. Les deux premières bagues donneront un nombre toujours compris entre 10 et 99. Ainsi, la première bague ne pourra pas être noire (=0) et pour coder 0,1 Ω, on utilisera: Marron, Noir, Argent (10 x 0,01 = 0,1). A l’examen, on ne recense aucune question avec les multiplicateurs x 0,1 ou x 0,01 (bague Or ou Argent).
+Exemple: Quelle est la valeur de cette résistance? Réponse:
+BLEU → 6
+ROUGE → 2 R = 62 x 10 1 Ω = 620 Ω
+MARRON → 1
+b Les résistances du commerce ont des valeurs « normées ». La série des valeurs des résistances à 20% de tolérance (sans 4 ème bague) est: 10 – 15 – 22 – 33 – 47 – 68. Cette série est nommée E6 car elle comporte 6 valeurs. L’écart entre chaque valeur de résistance a toujours le même rapport qui est fonction de la tolérance (1,47 pour la série E6). Ainsi, il existe des résistances de 150 Ω à 20% de tolérance mais pas de résistance de 200 Ω. Dans la pratique, la valeur la plus proche sera utilisée, soit 220 Ω, dont la valeur est comprise entre 176 Ω et 264 Ω (± 20%). Il existe une série E12 pour les résistances à 10% de tolérance (4 ème bague de couleur Argent) dont les valeurs s’insèrent entre chaque valeur de la série E6. De même, il existe aussi une série E24 pour les résistances à 5% de tolérance (4 ème bague de couleur Or). Au-delà de la série E24, pour des tolérances de 2% ou moins, les résistances sont codées avec 5 bagues: 3 bagues de chiffres significatifs suivies de la bague du multiplicateur et de la bague de tolérance. Ces dernières résistances sont rares et chères. Enfin, pour les résistances de précision (à partir de la série E96 avec 1% de tolérance et moins), une 6 ème bague indique le coefficient de température (variation maximum de la valeur en fonction de la température du composant).
+c Les résistances existent sous deux présentations: en composant à fils (traditionnels) et en composant monté en surface ( CMS ): utilisés de plus en plus souvent avec la miniaturisation des circuits, les CMS sont de petits parallélépipèdes dont les embouts sont directement soudés sur le circuit imprimé. Le code des couleurs n’est pas utilisé mais les chiffres marqués ont la même signification: 682 désigne une valeur de 68 x 10 2, soit 6800 Ω. Pour les valeurs inférieures à 10 Ω, la lettre R remplace la virgule: 6R8 désigne une valeur de 6,8 Ω.
+Quatre sortes de résistances avec des méthodes de fabrication différentes sont disponibles dans le commerce:
+- les résistances agglomérées sont les plus anciennes et sont fabriquées à partir de poudre de carbone mélangée à un isolant et à un liant. Il devient difficile de les trouver dans le commerce.
+- les résistances à couche de carbone: une très fine couche de carbone est déposée sur de petits barreaux isolants en céramique. Des bagues de connexion sont fixées aux extrémités et la valeur est ajustée en creusant en forme de spirale la couche de carbone. Ce sont les plus courantes et les moins chères.
+- les résistances à couche métallique sont de qualité supérieure et sont obtenues en déposant une fine couche d’un alliage résistant sur un barreau isolant en céramique (comme les résistances à couche de carbone).
+- les résistances bobinées sont utilisées pour de faibles valeurs et sont constituées d’un fil résistant (en nickel ou cupronickel) bobiné sur un isolant. Leur utilisation en HF est une source de problèmes.
+Les résistances sont disponibles sous diverses puissances de dissipation maximum. Cette puissance est directement fonction de la dimension du composant. Les valeurs normalisées des résistances sont: 1/16 W et 1/10 W (CMS uniquement), 1/8 W, 1/4 W, 1/2 W, 1 W et 2 W (à fils uniquement). D’autres modèles sont montés dans un boîtier spécifique qui peut être fixé sur un radiateur pour dissiper plus de puissance.
+Exemple: quelle est la puissance minimum de la résistance R?
+Réponse: P = U² / R = 6² / 220 = 164 mW. La première puissance supérieure proposée sera retenue (exemple: 250 mW ). Une puissance de 1/8 W, soit 125 mW, aurait été insuffisante.
+d Il existe des composants dont la résistance est variable (ou ajustable lorsque la valeur est définie une fois pour toutes). Ces résistances sont montées sur un axe ou sur un curseur et peuvent être déportées pour les réglages. Ces composants nommés aussi potentiomètres sont montés en résistances variables (comme dans le montage 1) ou en pont diviseur (comme dans le montage 2).
+### a 1.6) Loi des nœuds et des mailles : la somme algébrique des courants
+passant en un nœud est nulle. Dans un nœud (point d’un circuit où sont connectés plusieurs conducteurs), il y a autant de courant qui y entre que de courant qui en sort. La somme algébrique des tensions en une maille est nulle. Quand on fait le tour de la maille (réseau de composants en circuit fermé), la tension du générateur est absorbée par les charges. Ci-dessous, la chute de tension générée par le moteur et R2 est égale à la chute de tension aux bornes de R1 et à la tension générée par la pile. Prenez garde au sens des flèches qui indiquent les tensions et les intensités…
+b Le pont de Wheatstone est une application de la loi des mailles: observez l’enchaînement des tensions entre les points du circuit: en suivant les flèches grisées, on trouve successivement + 4 – 1 + 7 = 10 V.
+c La loi des nœuds et des mailles (appelée aussi lois de Kirchhoff), dont nous n’avons abordé ici que les prémices, est très complexe. Elle n’est pas au programme de l’examen mais doit être connue dans ses grands principes pour comprendre le fonctionnement des circuits électriques et les groupements.
+### a 1.7)
+Groupements Série et Parallèle (ou Dérivation): les résistances peuvent être groupées en série (les unes derrière les autres) ou en parallèle (le terme « dérivation » est aussi employé). En appliquant les lois d’Ohm et de Joule ainsi que la loi des nœuds et des mailles, on déduit, pour chacun des montages:
+- la résistance équivalente de l’ensemble (ou résistances totales notées R t; R t se prononce « R indice t » ou plus couramment « R de t »),
+- la répartition de la tension totale (notée U t ) entre les différentes résistances (U R1 est la tension aux bornes de la résistance R1; U R1 se prononce « U indice R1 » ou plus couramment « U de R1 »),
+- la répartition de l’intensité totale parcourue dans le circuit (notée I t ) entre chacune des résistances (I R1 est l’intensité parcourue dans R1),
+- la répartition de la puissance dissipée totale (notée P t ) entre chacune des résistances du groupement (P R1 est la puissance dégagée par R1);
+- enfin, nous étudierons le cas où les résistances du groupement ont des valeurs identiques.
+Groupement
+Série
+Parallèle (ou Dérivation)
+Schéma
+Résistance équivalente
+R t = R1 + R2 +...
+R t = R1 x R2 (Produit sur Somme) R1 + R2 (= les Pieds sur le Sol) ou R t = 1/(1/R1 + 1/R2 +...)
+Tension
+Proportionnelle aux résistances U R1 = U t. (R1 / R t ) U t = U R1 + U R2 +...
+Constante U t = U R1 = U R2 =...
+Intensité
+Constante I t = I R1 = I R2 =...
+Inversement proportionnelle aux résistances I R1 = I t. (R t / R1) I t = I R1 + I R2 +...
+Puissance dissipée
+P t = U t. I t = P R1 + P R2 + … P R1 = U R1. I t = P t. (R1 / (R t ) Proportionnelle aux résistances
+P t = U t. I t = P R1 + P R2 + … P R1 = U t. I R1 = P t. (R t / R1) Inversement proportionnelle aux résistances
+Groupements de n résistances de valeur identique (R)
+R t = R. n I R = It U R = U t / n P R = P t / n
+R t = R / n I R = I t / n U R = U t P R = P t / n
+b Dans un groupement série, la résistance équivalente du groupement de résistances est toujours supérieure à la valeur de la plus grande résistance du groupement. De plus, la tension aux bornes de la résistance la plus grande est la plus importante, de même que la puissance dissipée par cette même résistance (répartition de la tension et de la puissance de l’ensemble au prorata de la valeur des résistances ) tandis que l’intensité est constante.
+Quand le groupement en série est constitué de n résistances de valeur identique R, la résistance équivalente est: R t = R x n. Dans ce cas, les tensions aux bornes de chacune des résistances et leurs puissances dissipées sont identiques (U R = U t / n et P R = P t / n).
+c Un groupement en dérivation se nomme aussi groupement en parallèle. Dans un tel montage, la résistance équivalente du groupement de résistance est toujours inférieure à la plus petite des résistances constituant le groupement. La plus faible résistance du groupement voit passer la plus forte intensité et dissipe le plus de puissance (répartition de la tension et de la puissance dissipée de l’ensemble inversement proportionnelle à la valeur des résistances ) tandis que la tension est constante. Notez que dans les deux prorata (tension dans un groupement série et intensité dans un groupement parallèle), le numérateur est toujours inférieur au dénominateur. La formule de la résistance équivalente d’un groupement en dérivation, R t = (R1 x R2) / (R1 + R2), peut se retenir avec l’expression mnémotechnique « les Pieds sur le Sol » correspondant aux initiales de « Produit des résistances sur (= divisé par) Somme des résistances ». Cette formule simplifiée ne fonctionne qu’avec deux résistances. En présence de trois résistances en parallèle, il faut déjà calculer la résistance équivalente d’un groupement constitué de deux résistances puis calculer la résistance équivalente de ce premier groupe avec la troisième résistance. Dans ce cas, la deuxième formule, R t = 1/[(1/R1) + (1/R2) + (1/R3)], est plus rapide à appliquer. Sur une calculette, on posera l’inverse de la somme des inverses des résistances, soit: R t = 1 ÷(1÷R1 + 1÷R2 + 1÷R3).
+Dans un groupement de résistances en parallèle, on a I t = I R1 + I R2 + … En remplaçant I par U / R (loi d’ohm), on obtient: U/R t = U/R1 + U/R2 + …. U étant en facteur commun (la tension est constante), on peut le remplacer par 1, d’où: 1/R t = 1/R1 + 1/R2 + …. On reconnaît la formule de base. Avec deux résistances et après la transformation du deuxième membre de l’équation par la mise sous un dénominateur commun, on a: 1/R t = [R2 / (R1 x R2)] + [R1 / (R1 x R2)], d’où: 1/Rt = (R1 + R2) / (R1 x R2), d’où, après inversion, la formule simplifiée pour deux résistances: R t = (R1 x R2) / (R1 + R2).
+Autre raisonnement: la conductance étant l’inverse de la résistance ( voir § 1.4c ), la formule « 1/R t = 1/R1 + 1/R2 + … » revient à dire que la conductance équivalente est égale à la somme des conductances en parallèle.
+Quand le groupement en dérivation est constitué de n résistances de valeur identique R, la résistance équivalente est: R t = R / n. Dans ce cas, les intensités parcourues et les puissances dissipées dans chacune des résistances sont identiques (I R = I t / n et P R = P t / n).
+d Exemples:
+Groupement Série
+Groupement Parallèle
+1) Calcul de la résistance équivalente du groupement:
+R t = R1 + R2 = 80 + 20 = 100 Ω
+R t =Produit/Somme=(80x20)/(80+20)=1600/100= 16Ω ou, en écriture naturelle: R t = 1÷(1÷80 + 1÷20) = 16 Ω
+2) Calcul de la tension aux bornes de la résistance R1:
+U R1 = U t x (R1 / R t ) = 10 x (80/100) = 8 V
+U R1 = U t = 10 V
+3) Calcul de la tension aux bornes de la résistance R2:
+U R2 = U t x (R2 / R t ) = 10 x (20/100) = 2 V ou par différence: U R1 + U R2 = U t d’où: U R2 = U t – U R1 = 10 – 8 = 2 V
+U R2 = U t = 10 V
+4) Calcul de l’intensité parcourue dans le groupement:
+I t = U t / R t = 10 / 100 = 0,1 A = 100 mA
+I t = U t / R t = 10 / 16 = 0,625 A = 625 mA
+5) Calcul de l’intensité parcourue dans R1:
+I R1 = I t = 100 mA
+I R1 = U t / R1 = 10 / 80 = 0,125 A = 125 mA ou, si U t est inconnue: I R1 = I t x (R t / R1) = 0,625 x (16 / 80) = 0,125 A= 125 mA
+6) Calcul de l’intensité parcourue dans R2:
+I R2 = I t = 100 mA
+I R2 = U t / R2 = 10 / 20 = 0,5 A = 500 mA ou, si U t est inconnue: I R2 = I t x (R t / R2) = 0,625 x (16 / 20) = 0,5 A = 500 mA ou par différence: I R2 = I t – I R1 = 625 – 125 = 500 mA
+7) Calcul de la puissance dissipée par le groupement:
+P t = U t x I t = 10 x 0,1 = 1 W ou P t = R t x I t ² = 100 x 0,1² = 100 x 0,01 = 1 W ou P t =U t ² / R t = 10² / 100 = 100 / 100 = 1 W
+P t = U t x I t = 10 x 0,625 = 6,25 W ou P t = R t x I t ² = 16 x 0,625² = 16 x 0,390625= 6,25 W ou P t = U t ² / R t = 100 / 16 = 6,25 W
+8) Calcul de la puissance dissipée par la résistance R1:
+P R1 = P t x (R1 / R t ) = 1 x (80 / 100) = 0,8 W ou P R1 = U R1 x I R1 = 8 x 0,1 = 0,8 W
+P R1 = P t x (R t / R1) = 6,25 x (16 / 80) = 1,25 W ou P R1 = U R1 x I R1 = 10 x 0,125 = 1,25 W
+9) Calcul de la puissance dissipée par la résistance R2:
+P R2 = P t x (R2 / R t ) = 1 x (20 / 100) = 0,2 W ou P R2 = U R2 x I R2 = 2 x 0,1 = 0,2 W ou P R2 = U R2 ² / R2 = 2² / 20 = 4 / 20= 0,2 W ou par différence: P R2 = P t -P R1 = 1-0,8= 0,2 W
+P R2 = P t x (R t / R2) = 6,25 x (16 / 20) = 5 W ou P R2 = U R2 x I R2 = 10 x 0,5 = 5 W ou P R2 = U R2 ² / R2 = 10² x 20 = 100 / 20 = 5 W ou par différence: P R2 = P t -P R1 = 6,25 – 1,25 = 5 W
+La connaissance de toutes les fonctions d’une calculatrice est indispensable pour effectuer les opérations le plus simplement possible et sans risque d’erreurs. Notez sur votre feuille de brouillon les résultats intermédiaires. Au besoin, redessinez le schéma pour le rendre plus compréhensible.
+Quand les lois d’Ohm et de Joule sont maîtrisées, peu de calculs sont nécessaires. Par exemple: calcul de U R1 dans le groupement série: R1 est 4 fois plus importante que R2; la répartition de la tension totale (10 V) sera donc 4/5 sur R1 et 1/5 sur R2, donc U R1 = 10 x 4 / 5 = 8 volts (le calcul de R t n’est plus indispensable).
+e Pour calculer la résistance équivalente d'un réseau complexe (enchevêtrement de résistances montées en série et en parallèle), la résistance équivalente de l'ensemble le plus élémentaire sera d’abord calculée. Puis la résistance équivalente de cet ensemble et d’une autre résistance du réseau sera calculée en associant les résistances dans des ensembles de plus en plus complexes.
+Exemple 1: Quelle est la résistance équivalente de cet ensemble?
+Sur une calculette, il faudrait entrer les données suivantes:
+Calcul de R AB: R AB = 1 ÷ ( 1 ÷ 100 (R A ) + 1 ÷ 150 (R B ) ) = 60.10 0
+Calcul de R ABC: 6.10 1 (R AB ) + 40 (R C ) = 100.10 0 soit 100
+Exemple 2: Quelle est la résistance équivalente de cet ensemble?
+Réponse: les 5 résistances de gauche sont montées en dérivation et les 2 résistances de droite sont montées en série.
+Premier groupement: R G1 = R / n = 10 / 5 = 2
+Second groupement: R G2 = R x n = 10 x 2 = 20
+Ensemble: R T = R G1 + R G2 = 2 + 20 = 22
+### 1.8)
+Autres exemples d’application avec des résistances
+a Exemple n°1: dans le circuit ci-contre, quelle est la valeur de R2?
+Réponses: 1 ère solution (méthode empirique): le schéma représente un pont de Wheatstone que nous avons déjà évoqué au § 1.6b. Le pont est dit « équilibré » lorsque les tensions dans les deux branches sont identiques. Dans ce cas, si les deux branches sont reliées (comme ici), aucun courant ne circule et la valeur des résistances de chacune des branches (80 Ω et R2 d’un côté et 20 Ω et 4 Ω de l’autre côté) sont proportionnelles entre elles. Ainsi, on a la relation suivante: 80 / R2 = 20 / 4. Pour déterminer R2, il faut calculer le « produit en croix » ( voir §0.1c ), c’est à dire que l’on prend le produit de la deuxième diagonale divisé par la valeur opposée. Dans notre exemple, ce sera:
+R2 = 80 x 4 (produit de la deuxième diagonale) / 20 (valeur opposée) = 16.
+2 ème solution (en utilisant seulement la loi d’Ohm). En posant R1 = résistance de 80 Ω, R3 = résistance de 20 Ω, R4 = résistance de 4 Ω et U T = tension d'alimentation du circuit (non précisée), le raisonnement est le suivant:
+Détermination de U R4: U R4 = U T x [R4 / (R3 + R4)] = U T x (4 / 24) = U T / 6
+Si I = 0, alors U R4 = U R2 = U T / 6. D’autre part, I R1 = I R2 = U T / (80 + R2)
+R2 = U R2 / I R2 = (U T / 6) / [U T / (80 + R2)] = (U T / 6) x [(80 + R2) / U T ] = (80 + R2) / 6
+Il faut maintenant résoudre l’équation: R2 = (80 + R2) / 6 donc 6 x R2 = 80 + R2 donc 6 x R2 – R2 = 80
+donc: 5 x R2 = 80 donc R2 = 80 / 5 et donc R2 = 16 Ω
+Remarquez qu’il ne nous a pas été utile de connaître la tension d’alimentation du circuit, U T. Toutefois, ce circuit doit être obligatoirement alimenté par une tension (positive ou négative voire alternative) sinon la valeur de R2 sera quelconque puisque, quelle que soit sa valeur, il n’y aura nulle part de courant dans le circuit.
+La seconde solution est beaucoup plus longue et dépasse largement les connaissances demandées pour l’examen. La première solution, plus empirique, est plus facile à comprendre et à appliquer.
+b Exemple n°2
+Réponse: selon la loi de Kirchhoff, l’intensité parcourue dans la résistance du haut est égale à celle parcourue dans le groupement du bas. Ensuite, dans le groupement du bas, l’intensité est répartie au prorata inverse des résistances.
+Le problème se résout par les étapes suivantes:
+1) Calcul de l’intensité parcourant l’ensemble du bas (RT) (on appellera R1 la résistance de 2 kΩ):
+I RT = I R1 = U R1 / R1 = 24 / 2000 = 0,012 A
+2) Calcul de la résistance équivalente de l’ensemble du bas (RT):
+RT = (3 x 5) / (3 + 5) = 15 / 8 = 1,875 kΩ = 1875 Ω
+3) calcul de l’intensité parcourant la résistance de 5 kΩ (IR):
+IR = I RT x RT / R = 0,012 x 1875 / 5000 = 0,0045 A = 4,5 mA
+c Exemple n°3: Quelle est la valeur du courant dans R1 (en mA) et quelle est la valeur de R1 (en kΩ)?
+Réponses: les étapes du raisonnement sont les suivantes:
+1) calcul de l’intensité parcourant la résistance de 100 Ω (R2):
+I R2 = U R2 / R2 = 12 / 100 = 0,12 A = 120 mA
+2) On sait que l’intensité totale parcourant le circuit est de 300 mA et que cette intensité sera répartie entre R1 et R2 puisque I R = I R1 + I R2, donc:
+I R1 = I R – I R2 = 300 mA – 120 mA = 180 mA
+3) R1 = U / I = U R2 / I R1 = 12 / 180 mA = 12 / 0,18 = 66,7 Ω = 0,0667 k Ω
+Dans cet exemple, la valeur de R pourra être quelconque: elle n’intervient pas dans nos calculs.
+d Exemple n°4: Quelle est la résistance équivalente (R t )?
+Réponse:
+enchevêtrement complexe: on va du plus simple au plus complexe:
+ensemble du haut 150-250 = (150x250)/(150+250)= 93,75
+associé à la résistance de 75 Ω: 93,75 + 75 = 168,75
+ensemble du bas 30-80 en série: 30 + 80 = 110
+ensemble 168,75-110: (168,75x110)/(168,75+110)=66,59
+associé à la résistance de 100 Ω: 66,59 + 100 = 167
+Sur une calculette:
+ensemble 150-250: 1 ÷ (1 ÷ 150 + 1 ÷ 250) = 93,75 associé à la résistance de 75 Ω: 93,75 + 75 = 168,75
+ensemble du bas 30-80: 30 + 80 = 110; deux ensembles en parallèle: 1 ÷ (1 ÷ 168,75 + 1 ÷ 110) = 66,59
+associé à la résistance de 100 Ω en série: 100 + 66,59 = 166,59 = 167 (arrondi)
+2) COURANTS ALTERNATIFS, BOBINES et CONDENSATEURS

@@ -1,0 +1,1595 @@
+[
+ {
+  "id": "K091",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "anchor": "T033d",
+  "seclab": "3.3",
+  "n_q": 7,
+  "cours_fr": "3.3) Les piles et les accumulateurs sont des réserves de courant continu : ils accumulent l'électricité grâce une réaction chimique. Seuls les accumulateurs sont rechargeables. Une pile est une source ; un accumulateur est une source ou une charge selon qu’on le fait débiter ou qu’on le recharge. Une pile (ou un accumulateur) possède des caractéristiques propres : sa force électromotrice, sa résistance interne et sa capacité. b La force électromotrice ou fém (notée E), en volts, est la tension aux bornes de la pile lorsqu’elle ne débite pas (sans charge). La fém dépend de la constitution chimique de la pile : deux électrodes, constituées de deux matériaux différents et baignant dans un électrolyte, forment un couple électrolytique. L’ électrode positive, représentée par le trait le plus long sur les schémas, est reliée au + ; l’électrode négative, formant la carcasse des piles et représentée par le trait gras et court, est reliée au – ( Attention : dans la représentation schématique des condensateurs électrochimiques, la carcasse est représentée par le grand trait en forme de U et est reliée au –, voir §",
+  "samples": [
+   {
+    "num": "21114",
+    "stem_fr": "TENSION DE LA PILE",
+    "options": [
+     "0,15 V",
+     "0,6 V",
+     "6 V",
+     "9 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "0,6 V",
+    "commentaire_fr": "La pile et sa résistance interne ne servent à rien dans ce problème\nU = R x I = 40 x 0,015 = 0,6 V\n",
+    "stem_zh": "电池电压"
+   },
+   {
+    "num": "21111",
+    "stem_fr": "QUELLE EST LA F.E.M DE LA PILE",
+    "options": [
+     "10 V",
+     "9 V",
+     "8 V",
+     "4 V"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "8 V",
+    "commentaire_fr": "E = R x I = (R + r) x I = (190 +10) x 0,04 = 200 x 0,04 = 8 V\n",
+    "stem_zh": "电池的电动势（F.E.M）是多少？"
+   },
+   {
+    "num": "21112",
+    "stem_fr": "RESISTANCE INTERNE DE LA PILE",
+    "options": [
+     "10 Ω",
+     "15 Ω",
+     "25 Ω",
+     "60 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "10 Ω",
+    "commentaire_fr": "r = Rtotale - R = (E/I) - R = (1,5 / 0,025) - 50 = 60 - 50 = 10 Ω\n",
+    "stem_zh": "电池的内阻"
+   },
+   {
+    "num": "21113",
+    "stem_fr": "RESISTANCE INTERNE DE LA PILE",
+    "options": [
+     "1 Ω",
+     "10 Ω",
+     "50 Ω",
+     "100 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "100 Ω",
+    "commentaire_fr": "r = Ur / I = (E - U) / I = (9 - 8) / 0,01 = 1 / 0,01 = 100 Ω \n",
+    "stem_zh": "电池的内阻"
+   },
+   {
+    "num": "21491",
+    "stem_fr": "RESISTANCE INTERNE DE LA PILE",
+    "options": [
+     "10 Ω",
+     "800 Ω",
+     "100 Ω",
+     "80 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "100 Ω",
+    "commentaire_fr": "Ur = 9V - 8V = 1V\nIr = 10 mA\nr = U/I = 1 V/10 mA = 1/0,01 = 100 Ω\n",
+    "stem_zh": "电池的内阻是多少？"
+   },
+   {
+    "num": "21287",
+    "stem_fr": "RESISTANCE INTERNE DE LA PILE",
+    "options": [
+     "1 kΩ",
+     "100 Ω",
+     "800 Ω",
+     "900 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "100 Ω",
+    "commentaire_fr": "r = (E - U)/I = (9 - 8)/0,01 = 1/0,01 = 100 Ω\n",
+    "stem_zh": "电池的内阻是多少？"
+   },
+   {
+    "num": "21453",
+    "stem_fr": "RESISTANCE INTERNE DE LA PILE",
+    "options": [
+     "100 Ω",
+     "1 kΩ",
+     "80 Ω",
+     "1,125 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "100 Ω",
+    "commentaire_fr": "R=U/I => Ri = (E-U)/I = (9-8)/0,01 = 1/0,01 = 100 Ω\n",
+    "stem_zh": "电池的内阻 Ri 是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K092",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "anchor": "T023f2",
+  "seclab": "2.3",
+  "n_q": 7,
+  "cours_fr": "2.3c6 que ce code couleur est aussi utilisé pour marquer la valeur des condensateurs. a Pour coder une valeur, trois bagues au moins sont nécessaires : les deux premières bagues indiquent les deux premiers chiffres de la valeur, la troisième bague indique le nombre de 0 de la valeur. Pour détromper la lecture, les bagues ne sont pas centrées au milieu de la résistance : selon la représentation, elles doivent se situer à gauche de la résistance pour une lecture de gauche à droite ou en haut pour une lecture de haut en bas. Le code des couleurs des bagues de tolérance (4 ème bague, quelquefois décalée par rapport aux trois premières) n’a pas à être connu pour l’examen. Toutefois, dans les questions d’examen, la bague de tolérance est souvent représentée mais sa signification n’est pas demandée. Mnémotechnique Initiale du mot = Initiale de la couleur Couleur des bagues 1 ère bague 1 er chiffre Dizaine 2 ème bague 2 ème chiffre Unité 3 ème bague multiplicateur Nombre de 0 4 ème bague tolérance +/– Ne Mangez Rien Ou Je Vous Battrai VIOlemment, Grand BOA Noir Marron Rouge Orange Jaune Vert Bleu VIOlet Gris Blanc Or Argent 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 x 1 x 10 x 100 x 1000 x 10 000 x 100 000 x 1 000 000 x10 000 000 (x 100 000 000) (x1 000 000 000) x 0,1 x 0,01 sans bague: 20% 1 % 2 % 0,5 % 0,25 % 0,1 % 5 % 10 % Il existe une expression mnémotechnique pour se souvenir du code des couleurs : Ne Mangez Rien Ou Je Vous Battrai Violemment, Grand BOA. L’initiale de chaque mot de la phrase correspond à l’initiale de la couleur. Attention : la série commence par 0 et ne pas confondre les deux V (vert et violet) et les deux B (bleu et blanc) : Violemment correspond à Violet et le Blanc (valeur 9) est à la fin puisque le Noir (valeur 0) est au début. Remarquez la logique de l’ordre des couleurs. On commence par des couleurs sombres (noir puis marron), les couleurs centrales (de rouge à violet) sont celles de l’arc-en-ciel et des couleurs claires (gris puis blanc) terminent la série. Les deux premières bagues donneront un nombre toujours compris entre 10 et 99. Ainsi, la première bague ne pourra pas être noire (=0) et pour coder 0,1 &#937;, on utilisera : Marron, Noir, Argent (10 x 0,01 = 0,1). A l’examen, on ne recense aucune question avec les multiplicateurs x 0,1 ou x 0,01 (bague Or ou Argent). Exemple : Quelle est la valeur de cette résistance ? Réponse : BLEU &#8594; 6 ROUGE &#8594; 2 R = 62 x 10 1 &#937; = 620 &#937; MARRON &#8594; 1 b Les résistances du commerce ont des valeurs « normées ». La série des valeurs des résistances à 20% de tolérance (sans 4 èm",
+  "samples": [
+   {
+    "num": "21088",
+    "stem_fr": "IMPEDANCE DU CONDENSATEUR ?",
+    "options": [
+     "150 Ω",
+     "24 Ω",
+     "6,6 Ω",
+     "41,7 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "6,6 Ω",
+    "commentaire_fr": "Z(Ω) = 159/(F(MHz) x C(nF)) = 159 / (12 x 2) = 159/24 = 6,625 arrondi à 6,6 Ω\n",
+    "stem_zh": "电容器的阻抗？"
+   },
+   {
+    "num": "21441",
+    "stem_fr": "IMPEDANCE DU CONDENSATEUR",
+    "options": [
+     "10,6 Ω",
+     "94,2 Ω",
+     "15 Ω",
+     "2,4 kΩ"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "10,6 Ω",
+    "commentaire_fr": "Z = 159/(F(MHz)xC(nF)) = 159/(15 x 1) = 159/15 = 10,6 Ω\n\nEn écriture naturelle : \n1 / (2x [pi] x 15.10^6 (F) x 1.10^-9 (C)) = 10,610.10^0 soit 10,6 Ω\n",
+    "stem_zh": "电容器的阻抗"
+   },
+   {
+    "num": "20322",
+    "stem_fr": "IMPEDANCE D'UN CONDENSATEUR DE 2 NF A 5 MHZ",
+    "options": [
+     "10 Ω",
+     "1,6 Ω",
+     "16 Ω",
+     "628 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "16 Ω",
+    "commentaire_fr": "Z = 1 / (2πFC) \nou, formule simplifiée : Z = 159 / F(MHz) / C(nF) = 159 / 2 / 5 \n= 159 / 10 = 15,9 (arrondi à 16) \n",
+    "stem_zh": "2 nF 电容器在 5 MHz 时的阻抗"
+   },
+   {
+    "num": "20698",
+    "stem_fr": "IMPEDANCE D'UN CONDENSATEUR DE 20 PF A 144 MHZ",
+    "options": [
+     "5,5 Ω",
+     "347 Ω",
+     "34,7 Ω",
+     "55 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "55 Ω",
+    "commentaire_fr": "Z = 1 / (2πFC) = 1 /( 6,28 x 144 x10^6 x 20 x 10^-12 )  = 55 ohms\n",
+    "stem_zh": "20 pF 电容器在 144 MHz 时的阻抗"
+   },
+   {
+    "num": "21234",
+    "stem_fr": "IMPEDANCE D'UN CONDENSATEUR DE 5 NF A 2 MHZ",
+    "options": [
+     "62,8 Ω",
+     "1,59 kΩ",
+     "10 Ω",
+     "15,9 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "15,9 Ω",
+    "commentaire_fr": "Z = 159/(F(MHz) x C(nF)) = 159/ (2 x 5) = 159/10 = 15,9 Ω\nEn écriture naturelle : 1 / (2 x π x 2.10^6 (F) x 5.10^-9 (C)) \n= 15,91.10^0 converti en 15,91 arrondi à 15,9 Ω \n",
+    "stem_zh": "5 nF 的电容器在 2 MHz 时的阻抗"
+   },
+   {
+    "num": "20085",
+    "stem_fr": "IMPEDANCE D'UN CONDENSATEUR DE 50 PF A 432 MHZ ?",
+    "options": [
+     "7,4 Ω",
+     "135,6 Ω",
+     "21,6 Ω",
+     "10,8 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "7,4 Ω",
+    "commentaire_fr": "formule simplifiée : Z = 159 / F(MHz) / C(nF) = 159 / 432 / 0,05 = 7,36 ohms\n",
+    "stem_zh": "50 pF 电容器在 432 MHz 时的阻抗？"
+   },
+   {
+    "num": "20339",
+    "stem_fr": "CONDENSATEUR 100 F ET UNE FREQUENCE DE 10 MHZ IMPEDANCE A LA FREQUENCE ?",
+    "options": [
+     "16 Ω",
+     "160 mΩ",
+     "160 µΩ",
+     "1,6 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "160 µΩ",
+    "commentaire_fr": "Z en ohms = 159 / F(MHz) / C(nF)  = 159 / 10 / 100 000 = 0,000 159 \n= 160 µΩ (arrondi)\n",
+    "stem_zh": "一个 100 F 的电容在 10 MHz 频率下的阻抗是多少？（⚠️待核）"
+   }
+  ]
+ },
+ {
+  "id": "K093",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "anchor": "T077a",
+  "seclab": "7.7",
+  "n_q": 7,
+  "cours_fr": "7.7a ) ; la résultante de ce mélange donne les fréquences HF + BF, HF – BF et HF. d La BLU ( Bande Latérale Unique ), SSB (Single Side Band) en anglais, est créée à partir de l'AM dont on supprime la porteuse et une bande latérale afin d'optimiser la puissance émise : la porteuse ne transporte aucun message, les deux bandes latérales transportent le même message. Le spectre BF est représenté par un rectangle barré ce qui permet de différencier le bas et le haut du spectre BF (le côté bas de la barre indique la fréquence BF la plus basse). En BLU, le signal BF est simplement translaté (déplacé) vers une fréquence plus élevée. En BLS, le spectre BF émis s’étend de 200 Hz (à gauche du rectangle) à 3 kHz (à droite ). En BLI, le spectre BF est inversé : il devra être « retourné » lors de la démodulation, sinon le signal restera incompréhensible. La modulation d’amplitude avec bandes latérales indépendantes (à ne pas confondre avec la BLI, bande latérale inférieure) permet de transmettre deux signaux indépendants dans chacune des bands latérales. La mise au point de cette modulation, pas encore utilisée pas les radioamateurs, est délicate. e La CW (de l’anglais Continuous Waves, ondes entretenues) est simplement de la H.F. modulée en tout ou rien. La CW est une modulation d’amplitude réduite à sa plus simple expression. f La modulation de phase et la modulation de fréquence (FM) sont des modulations « angulaires ». En FM, la fréquence de la porteuse est modulée au rythme de la BF. Lorsque la BF est au maximum, la fréquence est maximum, et vice versa. L'excursion en fréquence (ou swing) est l'écart entre la fréquence centrale et une des deux fréquences extrêmes. La bande passante (ou occupée) est le double de l'excursion et est l'écart entre les deux fréquences extrêmes. Si l’on modifie la phase, on parle de modulation de phase . La représentation temporelle de ce signal ressemble alors à celle d’un signal modulé en fréquence et les propriétés d’un signal modulé en phase sont très proches de celles d’un signal modulé en fréquence. D’ailleurs, l’oreille humaine ne fait pas la distinction ; en revanche, l’ordinateur (et le traitement numérique de sa carte son) la fait. g Les modes digitaux (appelés aussi MGM : Modulation Générée par une Machine) n’échappent pas à cette classification : la CW est une modulation d’amplitude numérique à 2 états (tout ou rien). Avec le FSK (Frequency Shift Keying), la fréquence est modulée par une sous-porteuse contenant l’information numérique. Le PSK (Phase Shift Keying) module la phase qui prend 2 états (0 et &#960; donnant du 2-P",
+  "samples": [
+   {
+    "num": "20836",
+    "stem_fr": "IL EST FAUX DE DIRE QU'UN MELANGEUR NE PRODUIT PAS",
+    "options": [
+     "F1 + F2",
+     "F1 x F2",
+     "F1 / F2",
+     "aucune de ces combinaisons"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "F1 + F2",
+    "commentaire_fr": "attention à la tournure de la phrase qui revient à demander ce que l’on trouve à la sortie d’un mélangeur…\n",
+    "stem_zh": "下列说法是错误的：混频器不产生"
+   },
+   {
+    "num": "20789",
+    "stem_fr": "UN MELANGEUR GENERE-T-IL DES HARMONIQUES ?",
+    "options": [
+     "non",
+     "oui",
+     "non, seulement au-dessus de 29,7 MHz",
+     "oui mais seulement au-dessus de 29,7 MHz"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "oui",
+    "commentaire_fr": "un mélangeur est par nature non linéaire (il multiplie les tensions présentes à son entrée alors qu'un amplificateur linéaire les additionnerait). Mais le problème survient quand le mélangeur ne multiplie pas exactement les tensions : il a seulement une \"fonction de transfert\" assez proche pour faire le job (mélangeur) et c'est ce \"pas exactement\" qui génère en plus des harmoniques (et des mélanges du 3ème ordre)\n",
+    "stem_zh": "混频器会产生谐波吗？"
+   },
+   {
+    "num": "20494",
+    "stem_fr": "UN MELANGEUR",
+    "options": [
+     "additionne et soustrait les fréquences ",
+     "est un amplificateur linéaire",
+     "multiplie les fréquences",
+     "additionne les tensions présentes à son entrée"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "additionne et soustrait les fréquences ",
+    "commentaire_fr": "Un mélangeur est, par nature, un étage non linéaire qui additionne et soustrait des fréquences par battement, il peut sortir des harmoniques de Fourrier quelquefois (2 et 3)\n",
+    "stem_zh": "混频器"
+   },
+   {
+    "num": "20667",
+    "stem_fr": "UN MELANGEUR EST :",
+    "options": [
+     "un oscillateur de fréquences",
+     "un limiteur d’amplitude de signal",
+     "un additionneur / soustracteur de fréquences ",
+     "un modulateur de fréquence"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "un additionneur / soustracteur de fréquences ",
+    "commentaire_fr": "Le mélange s’effectue par une multiplication des tensions des fréquences à mélanger.\n",
+    "stem_zh": "混频器（mélangeur）是："
+   },
+   {
+    "num": "21150",
+    "stem_fr": "A LA SORTIE D'UN MELANGEUR, ON TROUVE 2 FREQUENCES : 10 ET 18 MHZ\nQUELLES SONT LES FREQUENCES D'ENTREE ?",
+    "options": [
+     "8 et 28 MHz            ",
+     "4 et 14 MHz            ",
+     "8 et 10 MHz",
+     "2 et 20 MHz"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "4 et 14 MHz            ",
+    "commentaire_fr": "Appelons Fmax = 18 MHz et Fmin = 10 MHz\nF1 = (Fmax – Fmin) / 2 = (18 – 10) / 2 = 8 / 2 = 4 MHz\nF2 = Fmax – F1 = 18 – 4 = 14 MHz\nAutre méthode : par tâtonnement et élimination : on détermine les fréquences de sortie correspondant aux réponses proposées. Seul un couple de fréquences correspond aux fréquences de sortie proposées (méthode plus empirique mais plus rapide)\n",
+    "stem_zh": "混频器输出端得到两个频率：10 与 18 MHz。\n输入频率是多少？"
+   },
+   {
+    "num": "21158",
+    "stem_fr": "UN MELANGEUR :",
+    "options": [
+     "additionne les tensions présentes à ses entrées",
+     "multiplie les tensions présentes sur ses entrées",
+     "est un amplificateur linéaire",
+     "est monté autour d'un FET à une porte"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "multiplie les tensions présentes sur ses entrées",
+    "commentaire_fr": "Un mélangeur multiplie les tensions d’entrée (il doit avoir plusieurs entrées et n’est pas linéaire puisqu’il multiplie) et additionne (et soustraie) les fréquences présentes à ses entrées.\n",
+    "stem_zh": "混频器："
+   },
+   {
+    "num": "21159",
+    "stem_fr": "A L'ENTREE D'UN MELANGEUR , ON TROUVE DEUX FREQUENCES  : 8 ET 12 MHZ,\nQUELLES FREQUENCES TROUVE-T-ON A LA SORTIE ?",
+    "options": [
+     "8 et 20 MHz           ",
+     "12 et 20 MHz          ",
+     "4 et 20 MHz",
+     "20 MHz seulement"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "4 et 20 MHz",
+    "commentaire_fr": "8 et 12 MHz => 8 + 12 = 20 MHz et 8 - 12 (ou 12 - 8) = 4 MHz\n",
+    "stem_zh": "混频器输入端有两个频率：8 和 12 MHz，输出端会出现哪些频率？"
+   }
+  ]
+ },
+ {
+  "id": "K094",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "anchor": "T076",
+  "seclab": "7.6",
+  "n_q": 7,
+  "cours_fr": "7.6) Un multiplicateur de fréquence est un circuit amplificateur RF monté en classe C (générateur de très fortes distorsions harmoniques à cause de sa non-linéarité intrinsèque) dont le filtre de sortie est accordé sur un des harmoniques de la fréquence d'entrée (x2, x3 ou x5 maximum). Si la fréquence doit être multipliée par 9, deux multiplicateurs par 3 seront montés à la suite l’un de l’autre. On ne peut que multiplier par un nombre entier. Réponse : l’oscillateur génère du 3,5 MHz et la fréquence de sortie est 21 MHz. La fréquence de l’oscillateur est donc multipliée par 6 (21 / 3,5 = 6). Un multiplicateur par 2 est déjà représenté. L’étage marqué « ? » est donc un étage multiplicateur par 3 . Il faut noter que le spectre d'un signal passant par un multiplicateur est modifié. Par exemple, un signal FM d'excursion de 3 kHz passant dans un doubleur de fréquence aura une excursion de 6 kHz (3 x 2) à la sortie du circuit. Ce signal FM restera exploitable. En revanche, un signal AM ou BLU passant par un multiplicateur de fréquences devient inexploitable car le montage en classe C utilisé n’amplifie que les crêtes du signal. a",
+  "samples": [
+   {
+    "num": "20592",
+    "stem_fr": "EXCURSION SIGNAL FM DE 3 KHZ QUI EST DOUBLE EN FREQUENCE ?",
+    "options": [
+     "9 kHz",
+     "3 kHz",
+     "1,5 kHz",
+     "6 kHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "6 kHz",
+    "commentaire_fr": "L’excursion d’un signal FM est doublée à la sortie d’un doubleur de fréquence\n",
+    "stem_zh": "3 kHz 频偏的 FM 信号被倍频为两倍后？"
+   },
+   {
+    "num": "20532",
+    "stem_fr": "UN SIGNAL FM AVEC 4 KHZ DE BANDE PASSANTE PASSE DANS UN MULTIPLICATEUR PAR 2, \nQUELLE LARGEUR AURA LE SIGNAL EN SORTIE DU MULTIPLICATEUR ?",
+    "options": [
+     "8 kHz",
+     "4 kHz",
+     "2 kHz",
+     "40 kHz"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "8 kHz",
+    "commentaire_fr": "Un multiplicateur applique une fonction linéaire sur le signal d'entrée. La bande passante est donc multipliée comme la fréquence d'entrée (par 2 dans cette question)\n",
+    "stem_zh": "带宽为 4 kHz 的 FM 信号经过一个 2 倍倍频器，\n倍频器输出端信号的带宽是多少？"
+   },
+   {
+    "num": "20828",
+    "stem_fr": "QUELLE EST L'EXCURSION D'UN SIGNAL FM DONT ON DOUBLE LA FREQUENCE ?",
+    "options": [
+     "l’excursion reste identique ",
+     "l’excursion est divisée par deux",
+     "l’excursion double aussi ",
+     "l’excursion dépend de la fréquence du signal modulant"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "l’excursion double aussi ",
+    "commentaire_fr": "L'excursion (écart entre la fréquence centrale et une des fréquences extrêmes) est doublée. De même,  l'indice de modulation (rapport entre l'excursion et la fréquence BF maximum) est doublé.\n",
+    "stem_zh": "对频率加倍的 FM 信号，其频偏如何？"
+   },
+   {
+    "num": "20827",
+    "stem_fr": "UN CIRCUIT DONT LES COMPOSANTS SONT ACCORDES POUR RESONNER SUR UNE FREQUENCE PLUS ELEVEE QUE LA FREQUENCE APPLIQUEE EST VRAISEMBLABLEMENT",
+    "options": [
+     "Amplificateur linéaire",
+     "Multiplicateur fréquence ",
+     "Amplificateur VHF/UHF",
+     "Diviseur de fréquence"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Multiplicateur fréquence ",
+    "commentaire_fr": "C'est le principe même du multiplicateur de fréquence : on trouvera en sortie un circuit accordé sur une fréquence multiple (x2, x3, x5) de la fréquence d'entrée.\n",
+    "stem_zh": "一个电路的元件调谐在比所加频率更高的频率上，它最可能是……"
+   },
+   {
+    "num": "21501",
+    "stem_fr": "QUELLE EST L'AFFIRMATION VRAIE ?",
+    "options": [
+     "un multiplicateur RF est souvent monté en classe C",
+     "le spectre d’un signal passant par un multiplicateur n’est modifié que si le multiplicateur n’est pas linéaire\n",
+     "Pour multiplier une fréquence par 5, on peut utiliser un multiplicateur par 2 suivi d’un multiplicateur par 2,5\n",
+     "Pour multiplier une fréquence par 5, on peut utiliser un multiplicateur par 2 suivi d’un multiplicateur par 3\n"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "un multiplicateur RF est souvent monté en classe C",
+    "commentaire_fr": "Les multiplicateurs ne peuvent multiplier que par des nombres entiers. Un multiplicateur par 2 suivi d’un multiplicateur par 3 donne une fréquence multipliée par 6 (2x3). Par principe, un multiplicateur est un amplificateur non linéaire car monté en classe C.\n",
+    "stem_zh": "哪个说法是正确的？"
+   },
+   {
+    "num": "23710",
+    "stem_fr": "SIGNAL FM TRIPLEUR",
+    "options": [
+     "9 Δ",
+     "Δ ",
+     "3 Δ",
+     "Δ / 9"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "3 Δ",
+    "commentaire_fr": "",
+    "stem_zh": "一个频偏为 Δ 的 FM 信号经过三倍频器，新的频偏是多少？"
+   },
+   {
+    "num": "23709",
+    "stem_fr": "SIGNAL FM DOUBLEUR DE FREQUENCE",
+    "options": [
+     "2 Δ",
+     "Δ ",
+     "4 Δ",
+     "Δ / 2"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "2 Δ",
+    "commentaire_fr": "",
+    "stem_zh": "一个频偏为 Δ 的 FM 信号经过二倍频器，新的频偏是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K095",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T093",
+  "seclab": "9.3",
+  "n_q": 7,
+  "cours_fr": "9.3) La propagation en ondes réfléchies (ou ondes d’espace) : l’ ionosphère est la zone la plus élevée de l'atmosphère terrestre. Elle se situe entre 50 et 650 km d'altitude. L'ionisation se produit lorsque l'énergie UV du soleil frappe des atomes ou des molécules gazeuses et génère le plasma constitué d’ions positifs et d’électrons libres. La recombinaison ion-électron est un processus plus lent que l'ionisation, si bien que l'ionisation augmente rapidement à l'aube, mais diminue moins rapidement au crépuscule. La densité du plasma augmente avec le rayonnement UV par paliers successifs en fonction de l’altitude, ce qui permet de diviser l’ionosphère en 3 régions (ou couches) : D (50 à 90 km), E (90 à 130 km) et F (130 à 650 km). A l’approche de la magnétosphère, la densité du plasma diminue. A chaque augmentation de densité du plasma et selon l’angle avec lequel l’onde traverse les couches, l’onde est réfractée (l’onde prend une direction plus perpendiculaire à la couche traversée) et peut, selon la densité du plasma et la fréquence, être réfléchie (l’onde retourne vers la terre). b La région D doit être traversée par les ondes pour atteindre les couches E et F et disparaît dès la tombée de la nuit. La région D est constituée de molécules d’oxygène et d’azote (O 2 et N 2 ). La densité du plasma (100 électrons par cm 3 ) est faible et provient de la photo-ionisation due au rayonnement X. Cette couche ne réfléchit pas les ondes mais elle atténue les signaux qui la traversent. Pour minimiser cette atténuation, en particulier sur les bandes basses (40 m et +), on utilise des antennes ayant un angle de radiation faible (on vise l'horizon). c L’ionisation de la région E est faible en milieu de journée et très faible la nuit. Toutefois, dans des conditions particulières liées à la présence d’ions métalliques, cette couche (appelée alors E sporadique) peut être plus fortement ionisée (jusqu'à 100.000 électrons libres par cm 3 ). Dans ce cas, une seule réflexion est possible sauf lorsque cette ionisation est suffisamment répartie, ce qui est rare et impossible à prévoir. d La région la plus haute de la ionosphère, la couche F , possède la densité d'électrons la plus élevée (jusqu’à 1 million d’électrons par cm 3 dans la journée) et est constituée d’oxygène atomique (O) photo-ionisé par les rayonnements UV du soleil. La partie basse de la région F (entre 130 à 200 km d’altitude) est appelée zone F1 tandis que le reste est appelé F2. L’altitude de cette dernière couche est variable (de 300 km en hiver jusqu’à 650 km en été). Des réflexions multiples sur cette couc",
+  "samples": [
+   {
+    "num": "20606",
+    "stem_fr": "SUR QUELLES COUCHES SE REFLETENT LES ONDES ELECTROMAGNETIQUES ?",
+    "options": [
+     "E, F",
+     "D, E",
+     "D, F",
+     "C, D"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "E, F",
+    "commentaire_fr": "La couche F de la ionosphère se décompose en  F1 et F2 dans la journée et est responsable de la réflexion des ondes décamétrique. La réflexion sur la couche E ne concerne que les VHF. Quant à la couche D, elle ne réfléchit pas mais elle atténue les ondes la traversant. Les couches A, B et C de l’atmosphère n’ont aucune incidence sur la propagation des ondes.\n",
+    "stem_zh": "电磁波在哪些层上被反射？"
+   },
+   {
+    "num": "20182",
+    "stem_fr": "SUR QUELLE COUCHE DE L'ATMOSPHERE SE REFLETENT LES ONDES DECAMETRIQUES ?",
+    "options": [
+     "la couche D ",
+     "la couche E",
+     "la couche F",
+     "la couche C"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "la couche F",
+    "commentaire_fr": "la couche F de la ionosphère se décompose en  F1 et F2 dans la journée. La réflexion sur la couche E ne concerne que les VHF. Quant à la couche D, elle ne réfléchit pas mais elle atténue les ondes la traversant.\n",
+    "stem_zh": "十米波在大气的哪一层上被反射？"
+   },
+   {
+    "num": "20860",
+    "stem_fr": "COMMENT SE COMPORTENT LES ONDES SUR LA BANDE DES 80 METRES ?",
+    "options": [
+     "ondes de sol",
+     "ondes réfléchies ",
+     "ondes directes",
+     "ondes stationnaires"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "ondes réfléchies ",
+    "commentaire_fr": "La propagation en ondes réfléchies est le mode de propagation privilégié. Bien entendu, à courte distance, les ondes de sol et les ondes directes fonctionnent aussi.\n",
+    "stem_zh": "在 80 米波段上电波如何传播？"
+   },
+   {
+    "num": "20551",
+    "stem_fr": "SUR QUELLES COUCHES DE L'ATMOSPHERE SE REFLETENT LES ONDES DECAMETRIQUES ?",
+    "options": [
+     "les couches F1 et F2 ",
+     "les couches E et F",
+     "les couches D et F2",
+     "les couches D et E"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "les couches F1 et F2 ",
+    "commentaire_fr": "la couche F de la ionosphère se décompose en  F1 et F2 dans la journée. La réflexion sur la couche E ne concerne que les VHF. Quant à la couche D, elle ne réfléchit pas mais elle atténue les ondes qui la traversent.\n",
+    "stem_zh": "十米波在大气的哪些层上被反射？"
+   },
+   {
+    "num": "20426",
+    "stem_fr": "SUR QUELLES COUCHES DE L'ATMOSPHERE SE REFLETENT LES ONDES ELECTROMAGNETIQUES ?",
+    "options": [
+     "les couches E et F",
+     "les couches A et B",
+     "les couches D et E",
+     "les couches D et F1"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "les couches E et F",
+    "commentaire_fr": "La couche F de la ionosphère se décompose en  F1 et F2 dans la journée. La réflexion sur la couche E ne concerne que les VHF. Quant à la couche D, elle ne réfléchit pas mais elle atténue les ondes la traversant. Les couches A, B et C de l’atmosphère n’ont aucune incidence sur la propagation des ondes.\n",
+    "stem_zh": "电磁波在大气的哪些层上被反射？"
+   },
+   {
+    "num": "20582",
+    "stem_fr": "VOUS CONTACTEZ DURANT LA NUIT UNE STATION SUR UNE BANDE BASSE. \nQUELLE EST LA CAUSE DE LA DISPARITION DE LA PROPAGATION LE JOUR SUR CETTE MEME BANDE ?",
+    "options": [
+     "augmentation de l’épaisseur des couches F",
+     "scission de la couche F en F1 et F2",
+     "disparition de la couche E sporadique",
+     "absorption par ionisation de la couche D  "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "absorption par ionisation de la couche D  ",
+    "commentaire_fr": "La couche D qui absorbe les ondes est essentiellement responsable de la disparition de la propagation le jour sur les bandes basses (1,8 MHz et en dessous)\n",
+    "stem_zh": "夜间你在一个低波段上与一个台完成通联。同一个波段白天传播消失的原因是什么？"
+   },
+   {
+    "num": "20758",
+    "stem_fr": "A UN MOMENT DE LA JOURNEE, VOUS POUVEZ CONTACTER AISEMENT L'EUROPE ENTIERE PUIS, A PARTIR D'UNE CERTAINE HEURE, LA PROPAGATION NE VOUS PERMET PLUS QUE DE CONTACTER LA FRANCE. QUELLE EST LA CAUSE DE CETTE DISPARITION ?",
+    "options": [
+     "le rebond ne se fait pas sur les mêmes couches selon l'heure de la journée ",
+     "le niveau des parasites varie tout au long de la journée",
+     "il y a plus de radioamateurs à l’écoute,. De ce fait, la puissance émise est répartie sur plus d’écouteurs",
+     "la variation de la propagation est liée à la température de l’air ambiant"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "le rebond ne se fait pas sur les mêmes couches selon l'heure de la journée ",
+    "commentaire_fr": "Question assez tordue mais deux réponses ne semblent pas trop loufoques. On choisira la plus vraisemblable (même si le niveau des parasites (réponse fausse) varie tout au long de la journée)\n",
+    "stem_zh": "一天中某段时间你能轻松联络全欧洲，过了某个时刻传播条件却只允许联络法国本土。这种消失的原因是什么？"
+   }
+  ]
+ },
+ {
+  "id": "K096",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T104a2",
+  "seclab": "10.4",
+  "n_q": 7,
+  "cours_fr": "10.4a4 que l’impédance du vide est égale à 120&#960; (377 &#937;). Puisque U=&#8730;(P.R), E = &#8730;(120&#960; . Pd) = &#8730;(120&#960; . PIRE/4&#960;d²), donc : E(V/m)=&#8730;[30 . PIRE (W)] / d (m) . ou, en puissance PAR : E (V/m) = &#8730;[30 . 1,64 x PAR] / d = &#8730;[49,2 x PAR] / d &#8776; 7 x &#8730;[PAR (W)] / d (m). Exemple : soit une puissance de 120 W PIRE émise par une antenne, quel est le champ électrique à 100 mètres ? Réponse : E (V/m) = [30 x PIRE (W)] / d (m) = &#8730; [30 x 120] / 100 = 60/100 = 0,6 V/m (dans la direction du rayonnement maximum de l’antenne et sans obstacle). Pour une distance de 10 km entre l’antenne d’émission et le point de mesure, la valeur du champ électrique sera 100 fois moindre, soit 6 mV/m. La formule de Friis détermine la puissance reçue (Pr) qui est fonction de la densité de puissance reçue et de la surface effective (S) de l’antenne (G en rapport iso et &#955; en mètres) : S(m²) = G x (&#955;² / 4&#960;) et Pr = Pd . S Exemple : soit 120 W PIRE sur 144 MHz, quelle est la puissance reçue à 10 km aux bornes d’une antenne de 6 dB i ? Réponse : Pd (W/m²) = PIRE/4&#960;d² = 120 / [4&#960; x (10 4 )²] = 9,55 x 10 -8 = 95 nW ; S = G x (&#955;² / 4&#960;) = 4 x (2,08² / 4&#960;) = 1,38 (6 dB i correspond à un rapport iso de 4 et &#955; = 2,08) ; Pr = Pd . S = 95 nW x 1,38 = 132 nW (sans obstacle sur le parcours). Aux bornes d’une antenne de 50 &#937;, la tension sera : &#8730;[132 nW x 50 &#937;) = 2,57 mV b Position des ventres de tension et d'intensité : un ventre est l'endroit de l'antenne où la mesure (tension ou intensité) est maximum ; un nœud est l'endroit de l'antenne où la mesure est la plus faible, voire nulle. A chaque extrémité d'une antenne ouverte (dipôle par exemple), il y a un nœud d'intensité (I = 0) car il ne peut y avoir de courant dans un fil qui se termine par un isolant (air ou vide). Plus exactement, à l'extrémité du brin, le courant fait demi-tour ; ainsi, il y a autant d'intensité dans un sens que dans l'autre, on a donc l'illusion qu'il n'y a pas de courant. Par contre la tension est maximum en ce point (ventre de tension) car en faisant demi-tour, la valeur de la tension ne change pas, les tensions s'additionnent donc. La vitesse de propagation des ondes fait changer les valeurs tous les quarts d'onde. Ainsi en mesurant un quart d'onde électrique (en prenant en compte le coefficient de raccourcissement évoqué au §",
+  "samples": [
+   {
+    "num": "20199",
+    "stem_fr": "IMPEDANCE LIGNE 1/4 D'ONDE",
+    "options": [
+     "6 Ω",
+     "150 Ω",
+     "122 Ω",
+     "350 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "122 Ω",
+    "commentaire_fr": "Zc = √ (Ze x Za) = √ (300 x 50) = 122 \navec : Zc = impédance du câble de transmission, \nZe = Z entrée, Za = impédance de l’antenne. \n",
+    "stem_zh": "1/4 波长线的阻抗"
+   },
+   {
+    "num": "21193",
+    "stem_fr": "IMPEDANCE DE LA LIGNE QUART D'ONDE",
+    "options": [
+     "162,5 Ω",
+     "75 Ω",
+     "62,5 Ω",
+     "81,25 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "75 Ω",
+    "commentaire_fr": "Dans une ligne quart d’onde, on a Zc = √ (Ze x Zs) = √ (50 x 112,5) \n= √5625 = 75 Ω\n",
+    "stem_zh": "四分之一波长线的阻抗"
+   },
+   {
+    "num": "20866",
+    "stem_fr": "IMPEDANCE D'UN 1/4 D'ONDE POUR ADAPTER 100 OHMS ET 30 OHMS ?",
+    "options": [
+     "70 Ω",
+     "65 Ω",
+     "33 Ω",
+     "55 Ω"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "55 Ω",
+    "commentaire_fr": "Zcâble = racine (Ze x Zs) = racine (100 x 30) = racine (3000) = 54,77 arrondi à 55  Ω. Ce câble n'est pas facile à trouver dans le commerce !\n",
+    "stem_zh": "用于把 100 欧姆与 30 欧姆匹配的四分之一波长线的阻抗是多少？"
+   },
+   {
+    "num": "20528",
+    "stem_fr": "IMPEDANCE D'UNE LIGNE 1/4 D'ONDE AVEC 25 OHMS EN ENTREE ET 100 OHMS EN SORTIE ?",
+    "options": [
+     "50 Ω",
+     "75 Ω",
+     "2500 Ω",
+     "36 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "50 Ω",
+    "commentaire_fr": "Zcâble = racine (Ze x Zs) = racine (25 x 100) = racine (2500) = 50 Ω\n",
+    "stem_zh": "一段 1/4 波长传输线，输入端为 25 Ω、输出端为 100 Ω，它的阻抗是多少？"
+   },
+   {
+    "num": "20440",
+    "stem_fr": "QUELLE EST LA LONGUEUR DU CABLE COAXIAL UTILISE EN LIGNE QUART D'ONDE D'ADAPTATION",
+    "options": [
+     "12,40 m",
+     "5,40 m",
+     "3,50 m",
+     "14,14 m"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "3,50 m",
+    "commentaire_fr": "Longueur d’onde de la fréquence 14 MHz = 300/14 = 21,42 m ; \nlongueur d’un quart d’onde = 21,42/4 = 5,38 m ; \nlongueur du câble = 5,38 x 0,66 = 3,53 arrondi à 3,50 mètres\n",
+    "stem_zh": "用于四分之一波长匹配线的同轴电缆长度是多少"
+   },
+   {
+    "num": "21603",
+    "stem_fr": "IMPEDANCE CARACTERISTIQUE DU QUART D'ONDE POUR ADAPTER UNE ANTENNE D'IMPEDANCE 113 OHMS, ALIMENTEE PAR UN CABLE COAXIAL D'IMPEDANCE CARACTERISTIQUE 113 OHMS, A UN EMETTEUR D'IMPEDANCE 50 OHMS ?",
+    "options": [
+     "50 Ω",
+     "75 Ω",
+     "100 Ω",
+     "113 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "75 Ω",
+    "commentaire_fr": "L'impédance caractéristique du 1/4 d'onde vaut :\n\nZc = Racine carrée de Z1.Z2\n\nAvec Z1 et Z2 les impédances vues par la ligne 1/4 d'onde\n\nZc = Racine carrée 113 x 50\n\nZc = 75 Ω\n",
+    "stem_zh": "用四分之一波长线段把阻抗 113 Ω 的天线（经特性阻抗 113 Ω 的同轴电缆馈电）适配到阻抗 50 Ω 的发射机，该四分之一波长线的特性阻抗是多少？"
+   },
+   {
+    "num": "20883",
+    "stem_fr": "QUELLE EST LA LONGUEUR DU CABLE COAXIAL UTILISE EN LIGNE QUART D'ONDE D'ADAPTATION AVEC LES CARACTERISTIQUES SUIVANTES : \n- FREQUENCE DU SIGNAL A ADAPTER = 21,1 MHZ, \n- IMPEDANCE CARACTERISTIQUE DU CABLE = 50 OHMS, \n- COEFFICIENT DE VELOCITE = 0,66",
+    "options": [
+     "2,35 m",
+     "3,55 m",
+     "14,2 m",
+     "13,9 m"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "2,35 m",
+    "commentaire_fr": "longueur d’onde de la fréquence 21,1 MHz = 300/21,1 = 14,22 m ; \nlongueur d’un quart d’onde = 14,22/4 = 3,55 m ; \nlongueur du câble = 3,55 x 0,66 = 2,35 mètres\nL'impédance caractéristique du câble ne sert à rien pour calculer la longueur de câble à utiliser.\n",
+    "stem_zh": "用作四分之一波长匹配线的同轴电缆长度是多少？已知：待匹配信号频率 21.1 MHz，电缆特性阻抗 50 Ω，速度系数 0.66。"
+   }
+  ]
+ },
+ {
+  "id": "K097",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "anchor": "T095a",
+  "seclab": "9.5",
+  "n_q": 7,
+  "cours_fr": "9.5) L'antenne quart d'onde verticale : L'antenne verticale (appelée aussi Ground Plane, GP) nécessite une terre ou une masse (piquet planté dans un sol conducteur ou carrosserie d’un véhicule) afin de reconstituer électriquement le deuxième brin de l'antenne. Le plan de sol remplace la masse et est constitué de radiants disposés à la base de l’antenne. La longueur des radiants est souvent de &#955;/4, leur nombre est d’au moins 3 pour reconstituer efficacement la terre. Si le plan de sol ou la masse est perpendiculaire au quart d’onde, formant ainsi un angle de 90°, l’impédance de l’antenne est de 36 &#937; (voir ci- dessus l’impédance du doublet). Si les radiants forment un angle de 120° par rapport au fouet (le quart d’onde), l’impédance au point d’alimentation devient 52 &#937;. La longueur théorique du brin quart d'onde est : L(m) = &#955;(m) / 4 = 300 / [4.f(MHz)] = 75 / f(MHz) Exemple : quelle est la longueur d'un quart d'onde accordé sur 21,2 MHz ? Réponse : L(m) = 75 / 21,2 = 3,538 m b En pratique, comme pour le doublet, le brin aura une longueur 5% plus courte que la dimension théorique. Un brin beaucoup plus court que le quart d'onde peut être utilisé, il faut dans ce cas rallonger artificiellement l'antenne grâce à un bobinage positionné habituellement à la base du brin rayonnant ou au milieu de celui-ci. Un conducteur fixé au sommet (capacité terminale) peut aussi être utilisé. Le quart d'onde ainsi raccourci aura une impédance plus faible à sa résonance ( voir diagramme de Smith au §",
+  "samples": [
+   {
+    "num": "21177",
+    "stem_fr": "IMPEDANCE D'UN QUART D'ONDE",
+    "options": [
+     "36 Ω",
+     "50 Ω",
+     "120 Ω",
+     "73 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "50 Ω",
+    "commentaire_fr": "Z = 52 Ω quand on a un angle de 120° entre les radiants et le brin rayonnant\n",
+    "stem_zh": "四分之一波长天线的阻抗"
+   },
+   {
+    "num": "21176",
+    "stem_fr": "QUELLE EST L'IMPEDANCE DE CE QUART D'ONDE ?",
+    "options": [
+     "36 Ω",
+     "50 Ω",
+     "52 Ω",
+     "73 Ω"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "36 Ω",
+    "commentaire_fr": "Z = 36 Ω quand on a un angle de 90° par rapport à la masse\n",
+    "stem_zh": "这个四分之一波长天线的阻抗是多少？"
+   },
+   {
+    "num": "21179",
+    "stem_fr": "FREQUENCE DE RESONANCE D'UN QUART D'ONDE",
+    "options": [
+     "48 MHz",
+     "24,2 MHz",
+     "12,1 MHz",
+     "6,1 MHz"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "24,2 MHz",
+    "commentaire_fr": "F = 75 / 3,1 m = 24,2 MHz (valeur arrondie)\n",
+    "stem_zh": "四分之一波长天线的谐振频率"
+   },
+   {
+    "num": "21327",
+    "stem_fr": "QUELLE EST LA FREQUENCE DE FONCTIONNEMENT DU QUART D'ONDE",
+    "options": [
+     "57 MHz",
+     "35 MHz",
+     "30 MHz",
+     "15 MHz"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "15 MHz",
+    "commentaire_fr": "L(m) = 150/2/F(MHz) => F(MHz) = 75/5/L(m) = 15 MHz\nAttention, cette question peut aussi être posée à l’examen de réglementation\n",
+    "stem_zh": "该四分之一波长天线的工作频率是多少？"
+   },
+   {
+    "num": "21175",
+    "stem_fr": "A LA BASE DU BRIN DE CE QUART D'ONDE, ON A",
+    "options": [
+     "U max et I nul",
+     "U max et I max",
+     "U nul et I max",
+     "U nul et I nul"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "U nul et I max",
+    "commentaire_fr": "A la base d’un quart d’onde (à son point d'alimentation), on a une tension nulle et une intensité maximum, comme au point d’alimentation d’un dipôle.\n",
+    "stem_zh": "在四分之一波长振子的底部："
+   },
+   {
+    "num": "20488",
+    "stem_fr": "QU'EST CE QU'UNE ANTENNE GROUD PLANE ?",
+    "options": [
+     "une antenne qui possède un grand gain ",
+     "une antenne verticale",
+     "une antenne de forte impédance",
+     "un doublet demi-onde"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "une antenne verticale",
+    "commentaire_fr": "L’antenne GP (ou ground plane) est une antenne verticale quart d’onde dont le plan de sol est reconstitué par des radiants disposés à sa base. Si les radiants sont disposés à angle droit par rapport au brin rayonnant, l'impédance est de 36 Ω.\n",
+    "stem_zh": "什么是 ground plane（GP，地网）天线？"
+   },
+   {
+    "num": "20420",
+    "stem_fr": "UNE ANTENNE GROUND PLANE DE 5/8 EST",
+    "options": [
+     "plus longue qu'un dipôle ",
+     "plus longue qu'une quart d'onde mais moins longue qu'un dipôle",
+     "plus courte qu'un dipôle mais plus longue qu'un quart d'onde",
+     "a une longueur identique à une antenne GP classique"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "plus longue qu'un dipôle ",
+    "commentaire_fr": "Une antenne GP 5/8  mesure 5/8 de longueur d'onde, soit un peu plus qu'une 1/2 onde (longueur du dipôle). On ne peut pas réellement la classer avec les GP 1/4 d'onde car son mode d'alimentation est particulier.\n",
+    "stem_zh": "一副 5/8 的 ground plane（GP）天线"
+   }
+  ]
+ },
+ {
+  "id": "K098",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "anchor": "T126h",
+  "seclab": "12.6",
+  "n_q": 7,
+  "cours_fr": "12.6) La Bande Latérale Unique (BLU) a Modulation BLU : la BLU est une forme de modulation d'amplitude. Quand un signal AM est représenté en fonction de la fréquence, la porteuse ne transmet aucun signal BF et les signaux BF se situent au dessus et au dessous de la fréquence de la porteuse : les fréquences BF et porteuse sont mélangées, donnant la résultante porteuse + BF et porteuse – BF. La BF est donc présente deux fois dans les deux bandes latérales. Pour réduire le spectre d'occupation et les puissances mises en jeu, seule la bande latérale inférieure ou supérieure est conservée. Attention : les deux bandes latérales ne sont pas les enveloppes BF situées en haut et en bas de la représentation de l’AM en fonction du temps. Le côté inférieur de la barre des rectangles indique le 0 Hz BF. b La tension du signal AM en fonction du temps, S(t), s'écrit (avec K = taux de modulation, P = tension crête de la porteuse sans modulation (= B / 2), F = fréquence de la porteuse et f = fréquence de la BF modulante) : c Si le taux de modulation, K, est égal à 100% (dans le meilleur des cas), la tension de la porteuse est le double de celle des deux bandes latérales (voir schéma ci-dessus). En termes de puissance, la porteuse contient les deux tiers de la puissance émise et les deux bandes latérales contiennent le reste. Sur 150 W émis et avec K = 100%, la porteuse contient 100 W et chaque bande latérale contient 25 W. La puissance des bandes latérales est donc au mieux 6 dB en dessous de la puissance de la porteuse (4 fois moindre). d Pour générer de la BLU , un mélangeur équilibré est utilisé. Il génère de la double bande latérale (DBL = BLI + BLS) puis la bande latérale désirée est filtrée grâce à un filtre à quartz. Lorsqu'il n'y a pas de signal B.F., le transformateur de sortie est équilibré. Il n'y a donc pas de H.F. Par contre, en présence d'un signal B.F., l'ensemble est déséquilibré et la H.F. (DBL) passe. La modulation d’amplitude avec bandes latérales indépendantes ( code B, voir §",
+  "samples": [
+   {
+    "num": "20796",
+    "stem_fr": "QUELLE MODULATION NECESSITE UN DETECTEUR DE PRODUIT ?",
+    "options": [
+     "BLU",
+     "FM",
+     "AM",
+     "PM"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "BLU",
+    "commentaire_fr": "Le détecteur de produit est associé à un oscillateur de battement de fréquence (BFO en anglais) pour démoduler la BLU ou la CW.\n",
+    "stem_zh": "哪种调制需要乘积检波器？"
+   },
+   {
+    "num": "20209",
+    "stem_fr": "ETAGE REPERE PAR ?",
+    "options": [
+     "CAG",
+     "détecteur de produit ",
+     "BFO",
+     "détecteur d’enveloppe "
+    ],
+    "ans_idx": 1,
+    "ans_fr": "détecteur de produit ",
+    "commentaire_fr": "le détecteur de produit est toujours associé à un BFO (nommé ici OL)\n",
+    "stem_zh": "图中标记的级是什么？"
+   },
+   {
+    "num": "20340",
+    "stem_fr": "SYNOPTIQUE D'UN RECEPTEUR BLU AVEC BFO EN  ?",
+    "options": [
+     "CAG",
+     "Discriminateur",
+     "Mélangeur équilibré",
+     "BFO"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "BFO",
+    "commentaire_fr": "Le mélangeur de produit est toujours associé au BFO.\n",
+    "stem_zh": "带 BFO 的单边带接收机方框图，标注 ? 处是"
+   },
+   {
+    "num": "20533",
+    "stem_fr": "SYNOPTIQUE D'UN DEMODULATEUR AVEC UN DETECTEUR DE PRODUIT, QUEL TYPE DE MODULATION PEUT-ON RECEVOIR ?",
+    "options": [
+     "Modulation de phase",
+     "F3E",
+     "Modulation à double bande",
+     "BLU"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "BLU",
+    "commentaire_fr": "Détecteur de produit = démodulateur BLU (ou CW mais ne fait pas partie des réponses proposées)\n",
+    "stem_zh": "某解调器方框图使用乘积检波器，可以接收哪种调制方式的信号？"
+   },
+   {
+    "num": "20825",
+    "stem_fr": "DANS UNE MODULATION DONT LA PORTEUSE EST SUPPRIMEE, QUE SIGNIFIE LA FREQUENCE D'EMISSION INDIQUEE PAR L'EMETTEUR ?",
+    "options": [
+     "la fréquence centrale de l’émission",
+     "la fréquence d’émission la plus élevée",
+     "la fréquence d’émission la plus basse",
+     "la fréquence de la porteuse supprimée "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "la fréquence de la porteuse supprimée ",
+    "commentaire_fr": "En BLU (seule modulation où la porteuse a été supprimée), la fréquence qu’indique l’émetteur est celle de la porteuse supprimée.\n",
+    "stem_zh": "在载波被抑制的调制方式中，发射机显示的发射频率指的是什么？"
+   },
+   {
+    "num": "20412",
+    "stem_fr": "SYNOPTIQUE RECEPTEUR BLU A DOUBLE CHANGEMENT DE FREQUENCE",
+    "options": [
+     "Récepteur AM superhétérodyne ",
+     "Récepteur FM à conversion directe",
+     "Récepteur double bande latérale",
+     "Récepteur BLU à double changement de fréquence "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Récepteur BLU à double changement de fréquence ",
+    "commentaire_fr": "",
+    "stem_zh": "该方框图表示哪一类接收机？"
+   },
+   {
+    "num": "20778",
+    "stem_fr": "QUE FAIT UN DETECTEUR DE PRODUIT ?",
+    "options": [
+     "permet de générer de la double bande latérale ",
+     "c’est le circuit de commande de la CAG (contrôle automatique de gain)",
+     "permet de démoduler de la modulation de phase",
+     "associé à un BFO, il permet de démoduler de la BLU ou de la CW"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "associé à un BFO, il permet de démoduler de la BLU ou de la CW",
+    "commentaire_fr": "",
+    "stem_zh": "乘积检波器（product detector）起什么作用？"
+   }
+  ]
+ },
+ {
+  "id": "K099",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "anchor": "R22c",
+  "seclab": "R-2.2",
+  "n_q": 7,
+  "cours_fr": "R-2.2) Puissances et classes d’émission autorisées (annexes 1 et 3 de la décision 12-1241 modifiée) : Certificat Bandes de fréquences Puissance maximum Classes d'émission autorisées Classe unique (ex 1 et 2) Toutes les bandes des services d'amateur et d'amateur par satellite 28 MHz : 500 W (*) 28 à 30 MHz : 250 W 30 MHz : 120 W Toutes classes ( voir définition au §",
+  "samples": [
+   {
+    "num": "35068",
+    "stem_fr": "A PARTIR DE QUELLE HAUTEUR UN PYLONE DOIT-IL ETRE DECLARE ?",
+    "options": [
+     "5 mètres",
+     "10 mètres",
+     "12 mètres",
+     "15 mètres"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "12 mètres",
+    "commentaire_fr": "Attention, on doit prendre en compte aussi l'antenne verticale installée au-dessus du pylône pour déterminer si le pylône doit faire l'objet d'une déclaration préalable conformément au code de l'urbanisme\n",
+    "stem_zh": "塔架高度超过多少就必须申报？"
+   },
+   {
+    "num": "30045",
+    "stem_fr": "QUELLE EST LA DISTANCE A RESPECTER ENTRE VOTRE STATION ET DES INSTALLATIONS\nDE RADIO-COMMUNICATIONS APPARTENANT A L'ADMINISTRATION ?",
+    "options": [
+     "1 kilomètre",
+     "2 kilomètres",
+     "3 kilomètres",
+     "5 kilomètres"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "1 kilomètre",
+    "commentaire_fr": "Dans des conditions bien particulières annexées au Plan Local d’Urbanisme consultable en Mairie (centre de réception de 1ère catégorie)\n",
+    "stem_zh": "你的电台与属于行政机关的无线电通信设施之间应保持多大距离？"
+   },
+   {
+    "num": "34976",
+    "stem_fr": "A QUI DOIT-ON DEMANDER L'AUTORISATION POUR L'INSTALLATION D'UN PYLONE DE 12 METRES ?",
+    "options": [
+     "il n’y a pas d’autorisation à demander",
+     "à la Mairie ",
+     "à l’ANFR",
+     "la déclaration est obligatoire en Corse uniquement"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "à la Mairie ",
+    "commentaire_fr": "Si le pylône (et les antennes qu’il supporte) mesure moins de 12 mètres au-dessus du sol naturel, la déclaration de travaux (à déposer au service de l'urbanisme de la Mairie) n’est pas obligatoire (et ce n’est pas à proprement parler d’une demande d’autorisation…)\n",
+    "stem_zh": "安装 12 米高的铁塔应向谁申请许可？"
+   },
+   {
+    "num": "30466",
+    "stem_fr": "QUELLE EST LA HAUTEUR MAXIMALE D'UN PYLONE, AUTORISEE POUR LAQUELLE IL N'EST PAS NECESSAIRE DE DEMANDER UNE AUTORISATION",
+    "options": [
+     "20 mètres",
+     "10 mètres",
+     "12 mètres",
+     "aucune demande n'est nécessaire quelle que soit la hauteur"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "12 mètres",
+    "commentaire_fr": "Depuis 2007, la demande d'autorisation est nommée \"déclaration préalable\" dans le code de l'urbanisme.\n",
+    "stem_zh": "不需申请许可即可建的最大塔桅高度是多少？"
+   },
+   {
+    "num": "34698",
+    "stem_fr": "LA REGLEMENTATION POUR LA POSE D'UNE ANTENNE EN CORSE REQUIERT ELLE UNE PARTICULARITE ADMINISTRATIVE ?",
+    "options": [
+     "oui si l’antenne est installée à moins de 100 mètres de la côte",
+     "oui si le pylône mesure plus de 10 mètres",
+     "non",
+     "oui si on n’est pas propriétaire du terrain où est érigée l’antenne"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "non",
+    "commentaire_fr": "Le code de l'urbanisme s'applique en Corse comme partout en France sans règle particulière\n",
+    "stem_zh": "在科西嘉架设天线，法规上是否有行政方面的特殊要求？"
+   },
+   {
+    "num": "34678",
+    "stem_fr": "POUR UNE ANTENNE DIRECTIVE, Y A-T-IL UNE REGLEMENTATION SPECIALE?",
+    "options": [
+     "Oui si le gain est supérieur à 20 dB",
+     "Oui si la puissance est supérieure à 10 W",
+     "Non",
+     "Oui mais uniquement pour les opérateurs de classe 3"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Non",
+    "commentaire_fr": "",
+    "stem_zh": "定向天线有专门规定吗？"
+   },
+   {
+    "num": "34800",
+    "stem_fr": "QUELLE EST LA DISTANCE MINIMALE ENTRE UNE ANTENNE DE RADIOAMATEUR ET UNE ANTENNE DE RECEPTION TV ?",
+    "options": [
+     "12 mètres ",
+     "pas de distance minimale ",
+     "12 mètres uniquement dans le cas d’un HLM",
+     "une longueur d’onde de la fréquence la plus basse utilisée"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "pas de distance minimale ",
+    "commentaire_fr": "",
+    "stem_zh": "业余无线电天线与电视接收天线之间的最小距离是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K100",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "anchor": "R11b",
+  "seclab": "R-1.1",
+  "n_q": 7,
+  "cours_fr": "R-1.1) Environnement réglementaire : trois niveaux réglementaires se superposent et se complètent. a Au niveau international , l’Union Internationale des Télécommunications (UIT), dont le siège est à Genève, est chargée des télécommunications par les Nations Unies (ONU). Au sein de l’UIT, la normalisation des télécommunications est traitée par l’UIT-T, leur développement par l’UIT-D et les radiocommunications par l’UIT-R. L'UIT-R édite le Règlement des Radiocommunications ( RR, Radio Regulations en anglais ), traité international ratifié par la France, qui constitue la base des réglementations nationales et européennes. L’édition 2018 du RR comprend 58 articles (S1 à S59) subdivisés en dispositions, 21 appendices (A1 à A42), les résolutions prises en assemblée plénière et les recommandations qui orientent les travaux des commissions. En complément, l’UIT édite des rapports qui font un état des lieux détaillé d’une technique ou d’un problème. L’article S1 définit la terminologie utilisée dans le RR. La disposition S1-56 définit le service amateur ainsi : « Service de radiocommunication ayant pour objet l'instruction individuelle, l'intercommunication et les études techniques, effectué par des amateurs, c'est-à-dire par des personnes dûment autorisées, s'intéressant à la technique de la radioélectricité à titre uniquement personnel et sans intérêt pécuniaire ». La disposition S1-57 définit le service d'amateur par satellite ainsi : « Service de radiocommunication faisant usage de stations spatiales situées sur des satellites de la Terre pour les mêmes fins que le service d'amateur ». L’article S25 définit les conditions d'exploitation des stations du service amateur . Les dispositions de cet article précisent notamment : l'indicatif d’appel est attribué par l'administration de chaque pays après vérification des aptitudes des opérateurs ; les communications se font en langage clair ; il est interdit de transmettre des communications pour les tiers sauf en cas d’urgence. La Résolution 646 intitulée « Protection du public et secours en cas de catastrophes » (PPDR en anglais) préconise une harmonisation des fréquences par région et reconnnait l’utilité de la Convention de Tampere signée en 1998 sur la mise à disposition de ressources de télécommunication (coopération entre les états). Adoptée en 2003, la résolution 646 remplace les résolutions 640 « relative à l’utilisation internationale, en cas de catastrophe naturelle, des […] bandes […] attribuées au service d’amateur » et 644 qui traitait des « moyens de télécommunications pour l’atténuation des effets de",
+  "samples": [
+   {
+    "num": "34954",
+    "stem_fr": "AU BOUT DE COMBIEN DE MOIS A L'ETRANGER DOIS-JE DEMANDER UN AUTRE INDICATIF ?",
+    "options": [
+     "1",
+     "6",
+     "12",
+     "3"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "3",
+    "commentaire_fr": "La recommandation T/R 61-01 définit la libre circulation des radioamateurs au sein de la CEPT sans formalité administrative pour des séjours de moins de 3 mois.\n",
+    "stem_zh": "在国外停留几个月之后我必须申请另一个呼号？"
+   },
+   {
+    "num": "34836",
+    "stem_fr": "LA RECOMMANDATION T/R 61-02 DEFINIT COMBIEN DE NOMBRE DE CLASSES HAREC ?",
+    "options": [
+     "2",
+     "3",
+     "1",
+     "elle ne traite pas de ce sujet"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1",
+    "commentaire_fr": "Avant la révision de Vilnius (en 2004), la recommandation T/R 61-02 distinguait les certificats d'opérateurs avec compétence de Morse et ceux sans cette compétence (CEPT A avec Morse et CEPT B sans Morse). Depuis cette révision (qui fait suite à la décision de l'UIT de ne plus exiger la connaissance du Morse pour émettre sur les bandes inférieures à 30 MHz, décision prise lors lors la CMR 2003), il n'y a plus qu'une seule classe CEPT \"HAREC\".\n",
+    "stem_zh": "T/R 61-02 建议书规定了多少个 HAREC 等级？"
+   },
+   {
+    "num": "34797",
+    "stem_fr": "LA RECOMMANDATION T/R 61-02 DE LA CEPT :",
+    "options": [
+     "définit les 3 classes du service amateur",
+     "définit la classe 1 et la classe 2",
+     "ne traite pas des classes du service amateur",
+     "définit la classe 3"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "ne traite pas des classes du service amateur",
+    "commentaire_fr": "Cette recommandation régit les programmes des épreuves (HAREC).mais ne traite pas des classes d'opérateur (qui restent une définition française)\n",
+    "stem_zh": "CEPT 的 T/R 61-02 建议书："
+   },
+   {
+    "num": "31037",
+    "stem_fr": "LA RECOMMANDATION T/R 61-02 DE LA CEPT ?",
+    "options": [
+     "Facilite les échanges entre les radioamateurs des pays qui l'appliquent",
+     "Donne un certificat européen équivalent",
+     "Permet aux opérateurs de classe 3 d'émettre dans les pays étrangers",
+     "Permet l'utilisation des satellites"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "Donne un certificat européen équivalent",
+    "commentaire_fr": "La recommandation T/R 61-02 définit le programme de la licence CEPT de radioamateur et permet aux radioamateurs issus des pays appliquant cette recommandation d'obtenir un certificat européen équivalent.\nLa recommandation T/R 61-01 fixe les modalités d'utilisation de son indicatif d'appel individuel pour de courts séjours à l'étranger (moins de 3 mois)\n",
+    "stem_zh": "CEPT 的 T/R 61-02 建议书是什么？"
+   },
+   {
+    "num": "30423",
+    "stem_fr": "LA FRANCE APPLIQUE-T-ELLE LA RECOMMANDATION T/R 61-02 DE LA CEPT",
+    "options": [
+     "Partiellement",
+     "Non",
+     "Oui",
+     "en France métropolitaine uniquement"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Oui",
+    "commentaire_fr": "",
+    "stem_zh": "法国是否执行 CEPT 的 T/R 61-02 建议？"
+   },
+   {
+    "num": "34892",
+    "stem_fr": "LA FRANCE APPLIQUE-T-ELLE LA RECOMMANDATION T/R 61-01 DE LA CEPT ?",
+    "options": [
+     "uniquement sur les fréquences supérieures à 29,7MHz",
+     "uniquement sur les fréquences inférieures à 29,7MHz",
+     "Non",
+     "Oui"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "Oui",
+    "commentaire_fr": "",
+    "stem_zh": "法国是否执行 CEPT 的 T/R 61-01 建议书？"
+   },
+   {
+    "num": "30422",
+    "stem_fr": "DE QUOI TRAITE LA RECOMMANDATION T/R 61-01 ?",
+    "options": [
+     "d'une norme que doivent respecter tous les matériels mis sur le marché",
+     "d'un programme d'examen harmonisé",
+     "de la libre circulation des radioamateurs au sein de la CEPT ",
+     "de l'autorisation d'émettre sur les bandes inférieurs à 30 MHz sans contrôle de la connaissance du Code Morse"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "de la libre circulation des radioamateurs au sein de la CEPT ",
+    "commentaire_fr": "",
+    "stem_zh": "CEPT 的 T/R 61-01 建议涉及什么内容？"
+   }
+  ]
+ },
+ {
+  "id": "K101",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "anchor": "R52k",
+  "seclab": "R-5.2",
+  "n_q": 7,
+  "cours_fr": "R-5.2) type d'antennes et caractéristiques .............................................................................................. 29",
+  "samples": [
+   {
+    "num": "34805",
+    "stem_fr": "AU CENTRE D'UN DOUBLET DEMI-ONDE, QUELLES SONT LES VALEURS I ET U ?",
+    "options": [
+     "I = 0, U max",
+     "I et U max",
+     "I max, U = 0 ",
+     "I = 0, U = 0"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "I max, U = 0 ",
+    "commentaire_fr": "Rappel : la répartition tension/intensité le long d'un brin rayonnant (et par conséquence au centre d'un doublet demi-onde) est clairement cité dans le programme technqiue de l'examen mais pas dans la partie technqiue de l'éreuve de réglementation. Cette question est donc hors programme !\nMais, depuis 2012, avec la mise en place de la classe unique, les candidats doivent passer les deux épreuves et sont donc sensés avoir vu ce point lors de leur préparation à l'épreuve de technique...\n",
+    "stem_zh": "在半波偶极天线的中心，电流 I 和电压 U 的值是多少？"
+   },
+   {
+    "num": "30795",
+    "stem_fr": "AU CENTRE D'UN DOUBLET DEMI-ONDE, LES VALEURS U ET I SONT",
+    "options": [
+     "U mini et I maxi ",
+     "U = 0 et I maxi ",
+     "U maxi et I mini",
+     "U maxi et I = 0"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "U mini et I maxi ",
+    "commentaire_fr": "U maxi et I = 0 sont les valeurs de U et de I aux extrémités du doublet demi-onde. D'autre part, au centre du doublet, la tension n'est pas nulle mais c'est l'endroit où elle est la plus faible\n",
+    "stem_zh": "半波偶极天线的中心，U 和 I 的值是"
+   },
+   {
+    "num": "30794",
+    "stem_fr": "REPRESENTATION D'UN SCHEMA D'UNE ANTENNE 1/2 ONDE AVEC 4 GRAPHIQUES REPRESENTANT LES TENSIONS ET LES COURANTS DANS L'ANTENNE: INDIQUER CELLE QUI REPRESENTE UNE DEMI-ONDE ?",
+    "options": [
+     "Schéma 1",
+     "Schéma 2",
+     "Schéma 3",
+     "Schéma 4"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "Schéma 1",
+    "commentaire_fr": "Aux extémités d'un doublet, il n'y a pas de courant (I=0) et une tension maximum (U=max)\n",
+    "stem_zh": "半波天线的示意图配有 4 幅表示天线中电压和电流的图：指出哪一幅表示半波天线？"
+   },
+   {
+    "num": "34749",
+    "stem_fr": "QUEL EST LE GAIN D'UNE ANTENNE 5/8 ?",
+    "options": [
+     "inférieur au gain de l’antenne quart d’onde vertical",
+     "supérieur au gain de l’antenne GP ",
+     "identique au gain d’un quart d’onde vertical dont les radiants sont à 120 °",
+     "cette antenne n’existe pas"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "supérieur au gain de l’antenne GP ",
+    "commentaire_fr": "L'antenne verticale 5/8 n'est pas au programme de l’épreuve de réglementation.\nLe gain théorique de cette antenne verticale est de 4,6 dBi, soit un peu plus de 2 dB par rapport à un quart d’onde vertical classique (ou antenne GP).\n",
+    "stem_zh": "5/8 天线的增益如何？"
+   },
+   {
+    "num": "34763",
+    "stem_fr": "QUELLE EST LA LONGUEUR DE L'ANTENNE 5/8 PAR RAPPORT A UN QUART D'ONDE ?",
+    "options": [
+     "l’antenne 5/8 est plus courte que le quart d’onde",
+     "l’antenne 5/8 est plus longue que le quart d’onde ",
+     "l’antenne 5/8 est de la même longueur que le quart d’onde",
+     "l’antenne 5/8 n’existe pas"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "l’antenne 5/8 est plus longue que le quart d’onde ",
+    "commentaire_fr": "L’antenne 5/8  est plus longue d'un quart d'onde et même légèrement plus grande qu'une demi-onde : c'est écrit dans son nom\n",
+    "stem_zh": "5/8 天线相对于四分之一波长天线的长度如何？"
+   },
+   {
+    "num": "30796",
+    "stem_fr": "VALEUR DE L'INTENSITE A LA BASE D'UNE ANTENNE QUART D'ONDE ?",
+    "options": [
+     "nulle",
+     "minimum",
+     "maximum",
+     "égale à la tension"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "maximum",
+    "commentaire_fr": "",
+    "stem_zh": "四分之一波长天线底部的电流值是多少？"
+   },
+   {
+    "num": "34788",
+    "stem_fr": "QUELLE EST LA VALEUR DE U ET DE I AUX EXTREMITES D'UNE ANTENNE DEMI-ONDE ?",
+    "options": [
+     "U maxi et I maxi",
+     "U nulle et I maxi ",
+     "U nulle et I nulle",
+     "U maxi et I nulle "
+    ],
+    "ans_idx": 3,
+    "ans_fr": "U maxi et I nulle ",
+    "commentaire_fr": "",
+    "stem_zh": "半波天线两端的 U 与 I 各是多少？"
+   }
+  ]
+ },
+ {
+  "id": "K102",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "anchor": "R22a",
+  "seclab": "R-2.2",
+  "n_q": 7,
+  "cours_fr": "R-2.2) Puissances et classes d’émission autorisées (annexes 1 et 3 de la décision 12-1241 modifiée) : Certificat Bandes de fréquences Puissance maximum Classes d'émission autorisées Classe unique (ex 1 et 2) Toutes les bandes des services d'amateur et d'amateur par satellite 28 MHz : 500 W (*) 28 à 30 MHz : 250 W 30 MHz : 120 W Toutes classes ( voir définition au §",
+  "samples": [
+   {
+    "num": "30461",
+    "stem_fr": "QUELLE(S) CLASSE(S) PEUT UTILISER LES CLASSES D'EMISSION R3E ET J3E?",
+    "options": [
+     "1, 2 et 3",
+     "2 et 3",
+     "1 et 2",
+     "1"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "1 et 2",
+    "commentaire_fr": "La classe R3E est interdite aux opérateurs de classe 3\n",
+    "stem_zh": "哪些类别可以使用 R3E 和 J3E 发射类别？"
+   },
+   {
+    "num": "35062",
+    "stem_fr": "QUELLE EST LA PUISSANCE MAXIMUM AUTORISEE EN CLASSE D'EMISSION F7W ET G2D SUR 144 MHZ EN REGION 1 ?",
+    "options": [
+     "120 W",
+     "100 W",
+     "10 W",
+     "0 W"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "120 W",
+    "commentaire_fr": "Il faut entendre ici « sur la bande des 144 MHz ». Sinon, une partie de l’émission serait hors bande radioamateur puisque, en classe Fxx ou Gxx, la fréquence indiquée étant le centre de l’émission, la partie basse de l’excursion serait émise en dehors de la bande autorisée.\n",
+    "stem_zh": "在区域 1，发射类别 F7W 和 G2D 在 144 MHz 上允许的最大功率是多少？"
+   },
+   {
+    "num": "30754",
+    "stem_fr": "* POUR UN RADIOAMATEUR EX CLASSE 2 (F1 ET F4) QUELLES SONT LES CLASSES D'EMISSIONS AUTORISEES ?",
+    "options": [
+     "Les classes A1A et A2A sont interdites",
+     "La classe A3E est interdite",
+     "Toutes les classes d'émission sont autorisées",
+     "Les classes se terminant par W sont interdites"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "Toutes les classes d'émission sont autorisées",
+    "commentaire_fr": "Depuis mars 2013, les opérateurs de classe 2 (F1 et F4) sont également autorisés à émettre en modes A1A et A2A en télégraphie comme les opérateurs de classe 1.\nLes radioamateurs de l'ex classe 1 et ex classe 2 sont autorisés à émettre dans toutes les classes d'émission.\n",
+    "stem_zh": "对于原 2 类（F1 和 F4）业余无线电爱好者，允许使用哪些发射类别？"
+   },
+   {
+    "num": "30462",
+    "stem_fr": "UN RADIOAMATEUR DE CLASSE 3 PEUT EMETTRE EN",
+    "options": [
+     "A2B",
+     "J7B",
+     "A1A",
+     "F3C"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "A1A",
+    "commentaire_fr": "",
+    "stem_zh": "3 类业余无线电爱好者可以用哪个发射类别发射？"
+   },
+   {
+    "num": "30463",
+    "stem_fr": "UN RADIOAMATEUR DE CLASSE 3 PEUT EMETTRE EN CLASSE D'EMISSION",
+    "options": [
+     "F3E et J3E",
+     "G3E et G3C",
+     "F2B et G3A",
+     "R3E et A2D"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "F3E et J3E",
+    "commentaire_fr": "",
+    "stem_zh": "3 类业余无线电爱好者可以使用的发射类别是"
+   },
+   {
+    "num": "30464",
+    "stem_fr": "UN RADIOAMATEUR DE CLASSE 3 PEUT EMETTRE SUR LA FREQUENCE 145,400 MHZ EN CLASSE D'EMISSION",
+    "options": [
+     "R3E",
+     "F3E",
+     "A3F",
+     "G2D"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "F3E",
+    "commentaire_fr": "",
+    "stem_zh": "3 类业余无线电爱好者可以在 145.400 MHz 上使用哪个发射类别发射？"
+   },
+   {
+    "num": "30460",
+    "stem_fr": "QUI A LE DROIT D'UTILISER LA CLASSE D'EMISSION A1A ?",
+    "options": [
+     "toutes les classes d'opérateurs",
+     "opérateurs de classes 1 et 2",
+     "opérateurs de classe 1",
+     "opérateurs de classe 3"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "toutes les classes d'opérateurs",
+    "commentaire_fr": "",
+    "stem_zh": "谁有权使用 A1A 发射类别？"
+   }
+  ]
+ },
+ {
+  "id": "K103",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "anchor": "T022f",
+  "seclab": "2.2",
+  "n_q": 6,
+  "cours_fr": "2.2) Valeur maximum, efficace, moyenne, crête à crête. Ces notions ne s’appliquent qu’aux courants, c’est-à-dire à la tension et à l’intensité (qui varient dans le temps dans le cas d’un signal alternatif) mais pas à la puissance (issue du produit de la tension par l’intensité) ni à la résistance (qui reste, par nature, constante). a La valeur maximale (Umax ou Imax) d’un signal alternatif est la valeur la plus grande que prend le signal au cours d’une période. Elle est appelée aussi valeur crête (Ucrête ou Icrête). b La valeur efficace (Ueff ou Ieff) d’un signal alternatif est la valeur pour laquelle les lois d'Ohm et de Joule peuvent être appliquées. La formule ci-dessous est utilisée si et seulement si le signal est sinusoïdal. Des formules existent pour transformer les valeurs maximales d’autres signaux alternatifs (carrés, triangle, etc.) en valeurs efficaces mais sortent du programme de l’examen. On rappelle que le sinus de 45° est égal à 1/&#8730;2, soit 0,707. Umax = &#8730;2.Ueff = 1,414 x Ueff ou Ueff = Umax/&#8730;2 = 0,707 x Umax . c La valeur moyenne (Umoy ou Imoy) d’un signal alternatif est la moyenne algébrique du courant ou de la tension et est la valeur lue par un galvanomètre, voir §",
+  "samples": [
+   {
+    "num": "20054",
+    "stem_fr": "FREQUENCE DU SIGNAL 5MS / DIVISION",
+    "options": [
+     "100 Hz ",
+     "25 Hz",
+     "50 Hz",
+     "200 Hz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "50 Hz",
+    "commentaire_fr": "La période d’observation durait : 8 x 5 ms = 40 ms, il y avait 2 périodes, d’où 20 ms par période, d’où une fréquence de 50 Hz ( = 1 / 0,02)\n",
+    "stem_zh": "信号的频率是多少（5 ms/格）？"
+   },
+   {
+    "num": "20728",
+    "stem_fr": "SINUSOIDE AVEC 2 PERIODES ET FREQUENCE INDIQUEE : 2 KHZ. DUREE DU SIGNAL ?",
+    "options": [
+     "100 µs",
+     "500 µs",
+     "250 µs",
+     "1000 µs"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1000 µs",
+    "commentaire_fr": "La période d’un signal de 2 kHz dure 500 µs (T = 1 / F = 1 / 2000 = 0,0005 = 500 µs). La période d’observation dure 2 périodes. L’observation dure donc 500 µs x 2 = 1000 µs (ou 1 ms)\n",
+    "stem_zh": "正弦波显示 2 个周期，标注频率为 2 kHz。信号的时长是多少？"
+   },
+   {
+    "num": "20538",
+    "stem_fr": "OSCILLOGRAMME D'UN SIGNAL SINUS DE 15 KHZ REPRESENTANT 2 PERIODES ET DEMI\nDETERMINER LA DUREE A L'ECRAN",
+    "options": [
+     "6 ms",
+     "66,6 µs",
+     "200 µs",
+     "0,166 ms"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "0,166 ms",
+    "commentaire_fr": "La période d’un signal de 15 kHz dure 66,6 µs ou 0,066 ms (T = 1 / F = 1 / 15000 = 0,000 066 = 0,066 ms). \nLa période d’observation dure 2,5 périodes. \nL’observation dure donc 0,066 ms x 2,5 = 0,166 ms\n",
+    "stem_zh": "15 kHz 正弦信号的示波器图形显示了两个半周期\n求屏幕上的时长"
+   },
+   {
+    "num": "20537",
+    "stem_fr": "OSCILLOGRAMME REPRESENTANT 2 PERIODES D'UN SIGNAL SINUS AVEC UN QUADRILLAGE DE 50 MICROSECONDES PAR ALTERNANCE\nDETERMINER LA FREQUENCE DU SIGNAL",
+    "options": [
+     "5 kHz",
+     "20 kHz",
+     "10 kHz",
+     "4 kHz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "10 kHz",
+    "commentaire_fr": "il y a une alternance toutes les 50 µs. Donc une période toutes les 100 µs. \nF = 1 / T = 1 / 0,000 1 = 10 000 Hz = 10 kHz\n",
+    "stem_zh": "示波器图形表示正弦信号的 2 个周期，网格为每半周 50 微秒\n求该信号的频率"
+   },
+   {
+    "num": "20597",
+    "stem_fr": "FREQUENCE D'UNE SINUSOIDE REPRESENTEE SUR 1 PERIODE ET DEMIE... IL Y A UN QUADRILLAGE ET IL EST PRECISE A DROITE QUE 1 DIVISION EST EGALE A 1MS EN HORIZONTALE ET UNE VALEUR AFFICHEE POUR L'AXE VERTICAL",
+    "options": [
+     "167 Hz",
+     "250 Hz",
+     "500 Hz",
+     "100 Hz"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "250 Hz",
+    "commentaire_fr": "durée d'une période = 4 x 1 ms = 4 ms ; F = 1/t = 1/0,004 = 250 Hz\n",
+    "stem_zh": "正弦波显示为一个半周期……图中有网格，右侧注明水平方向 1 格等于 1 ms，纵轴也有一个给定值"
+   },
+   {
+    "num": "20571",
+    "stem_fr": "FREQUENCE D'UN SIGNAL ? SCHEMA D'UN ECRAN D'OSCILLOSCOPE AVEC UNE SINUSOIDE (UNE PERIODE COMPLETE OCCUPANT 4 DIVISIONS HORIZONTALES ET VERTICALES). INDICATION : HORIZONTAL : 5MS/DIV ; VERTICAL : 3MV / DIV",
+    "options": [
+     "20 Hz",
+     "200 Hz",
+     "50 Hz",
+     "150 Hz"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "50 Hz",
+    "commentaire_fr": "durée d'une période = 4 x 5ms = 20 ms ; F = 1/t = 1/0,02 = 50 Hz\n",
+    "stem_zh": "信号频率是多少？示波器屏幕上的正弦波示意图（一个完整周期占 4 个水平格，垂直方向也占 4 格）。指示：水平 5 ms/格；垂直 3 mV/格"
+   }
+  ]
+ },
+ {
+  "id": "K104",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "anchor": "T023c8",
+  "seclab": "2.3",
+  "n_q": 6,
+  "cours_fr": "2.3c6 que ce code couleur est aussi utilisé pour marquer la valeur des condensateurs. a Pour coder une valeur, trois bagues au moins sont nécessaires : les deux premières bagues indiquent les deux premiers chiffres de la valeur, la troisième bague indique le nombre de 0 de la valeur. Pour détromper la lecture, les bagues ne sont pas centrées au milieu de la résistance : selon la représentation, elles doivent se situer à gauche de la résistance pour une lecture de gauche à droite ou en haut pour une lecture de haut en bas. Le code des couleurs des bagues de tolérance (4 ème bague, quelquefois décalée par rapport aux trois premières) n’a pas à être connu pour l’examen. Toutefois, dans les questions d’examen, la bague de tolérance est souvent représentée mais sa signification n’est pas demandée. Mnémotechnique Initiale du mot = Initiale de la couleur Couleur des bagues 1 ère bague 1 er chiffre Dizaine 2 ème bague 2 ème chiffre Unité 3 ème bague multiplicateur Nombre de 0 4 ème bague tolérance +/– Ne Mangez Rien Ou Je Vous Battrai VIOlemment, Grand BOA Noir Marron Rouge Orange Jaune Vert Bleu VIOlet Gris Blanc Or Argent 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 x 1 x 10 x 100 x 1000 x 10 000 x 100 000 x 1 000 000 x10 000 000 (x 100 000 000) (x1 000 000 000) x 0,1 x 0,01 sans bague: 20% 1 % 2 % 0,5 % 0,25 % 0,1 % 5 % 10 % Il existe une expression mnémotechnique pour se souvenir du code des couleurs : Ne Mangez Rien Ou Je Vous Battrai Violemment, Grand BOA. L’initiale de chaque mot de la phrase correspond à l’initiale de la couleur. Attention : la série commence par 0 et ne pas confondre les deux V (vert et violet) et les deux B (bleu et blanc) : Violemment correspond à Violet et le Blanc (valeur 9) est à la fin puisque le Noir (valeur 0) est au début. Remarquez la logique de l’ordre des couleurs. On commence par des couleurs sombres (noir puis marron), les couleurs centrales (de rouge à violet) sont celles de l’arc-en-ciel et des couleurs claires (gris puis blanc) terminent la série. Les deux premières bagues donneront un nombre toujours compris entre 10 et 99. Ainsi, la première bague ne pourra pas être noire (=0) et pour coder 0,1 &#937;, on utilisera : Marron, Noir, Argent (10 x 0,01 = 0,1). A l’examen, on ne recense aucune question avec les multiplicateurs x 0,1 ou x 0,01 (bague Or ou Argent). Exemple : Quelle est la valeur de cette résistance ? Réponse : BLEU &#8594; 6 ROUGE &#8594; 2 R = 62 x 10 1 &#937; = 620 &#937; MARRON &#8594; 1 b Les résistances du commerce ont des valeurs « normées ». La série des valeurs des résistances à 20% de tolérance (sans 4 èm",
+  "samples": [
+   {
+    "num": "20073",
+    "stem_fr": "QUANTITE ELECTRICITE",
+    "options": [
+     "16 C ",
+     "34 C",
+     "6500 C",
+     "0,016 C"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "0,016 C",
+    "commentaire_fr": "Q = C x U = 0,000 022 x 750 = 0,0165 arrondi à 0,016\n",
+    "stem_zh": "电量"
+   },
+   {
+    "num": "21479",
+    "stem_fr": "QUANTITE D'ELECTRICITE DANS C",
+    "options": [
+     "10 µC",
+     "10 A",
+     "10 µA",
+     "0,1 C"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "10 µC",
+    "commentaire_fr": "Q = C x U = 1 µF x 10 V = 10 µC\n",
+    "stem_zh": "电量（以 C 计）"
+   },
+   {
+    "num": "20072",
+    "stem_fr": "APTITUDE D'UN CONDENSATEUR EMMAGASINER ENERGIE",
+    "options": [
+     "3 et 4 ",
+     "1, 2, 3 et 4",
+     "1 et 2",
+     "1, 2 et 4"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "1, 2 et 4",
+    "commentaire_fr": "La formule qui définit l'énergie enmmagasinée dans un condensateur est : W = ½ x C x U². \nLa valeur du consensateur intervient (surface et écartement des armatures) ainsi que la tension à ses bornes.\n",
+    "stem_zh": "电容器储存能量的能力"
+   },
+   {
+    "num": "21489",
+    "stem_fr": "QUANTITE D'ELECTRICITE DANS LE CONDENSATEUR",
+    "options": [
+     "100 µC",
+     "0,0001 A",
+     "0,01 mC",
+     "aucune car le condensateur explose"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "100 µC",
+    "commentaire_fr": "Q = C x U = 1 µF x 100 V = 100 µC\nLe condensateur est correctement branché et n'explosera pas (à moins que la tension soit trop forte...)\n",
+    "stem_zh": "电容器中储存的电量是多少？"
+   },
+   {
+    "num": "22469",
+    "stem_fr": "POUR CHARGER UN CONDENSATEUR DE 10 MICROFARAD A UNE CHARGE DE 0,05 COULOMB,\nQUELLE TENSION DOIT-ON APPLIQUER ?",
+    "options": [
+     "5 000 V",
+     "500 V",
+     "15 000 V",
+     "800 V"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "5 000 V",
+    "commentaire_fr": "La charge d'une capacité est donnée par la relation :\nQ = C x U avec Q en coulomb, C en Farad et U en Volt.\n\nLa tension de charge est donc : U = Q/C\n\nU = 0,05 / 10.10^-6\nU = 5.10^-2 x 10^6 / 10\nU = 5.10^(-2+6-1)\nU = 5.10^3\nU = 5 000 V\n",
+    "stem_zh": "要使一个 10 微法的电容器带上 0.05 库仑的电荷，应施加多大电压？"
+   },
+   {
+    "num": "20841",
+    "stem_fr": "SCHEMA AVEC Q = 0,03C, C= 100 MICROFARADS QUELLE TENSION AUX BORNES DU CONDENSATEUR POUR OBTENIR LA QUANTITE D'ELECTRICITE EMMAGASINEE ?",
+    "options": [
+     "33,3 V",
+     "300 V",
+     "3 V",
+     "30 V"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "300 V",
+    "commentaire_fr": "Par définition, Q = CU  donc U = Q/C = 0,03/0,000 1 = 300 V\n",
+    "stem_zh": "示意图中 Q = 0.03 C，C = 100 µF，要使电容器储存这么多电量，其端电压应为多少？"
+   }
+  ]
+ },
+ {
+  "id": "K105",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "anchor": "T044a3",
+  "seclab": "4.4",
+  "n_q": 6,
+  "cours_fr": "4.4b3 ) puisque ces deux circuits ont le même facteur Q. Ces formules montrent que le facteur Q est proportionnel à la fréquence de résonance du circuit. Toutefois, dans les circuits bouchon et série, l’effet de peau mis en évidence par R et qui augmente avec la fréquence atténue les variations du facteur Q en fonction de la fréquence. - La résistance R d’un circuit bouchon ou série n’est pas facilement mesurable mais elle se calcule à partir de la mesure de la bande passante du circuit bouchon ou du facteur Q du circuit série. Pour un circuit série, le facteur Q est le rapport obtenu en divisant la tension mesurée avec un oscilloscope entre L et C à la fréquence de résonance divisée par la tension issue du générateur branché aux bornes du filtre. Pour un circuit bouchon, à l’aide d’un grid-dip ou d’un oscilloscope, le pic de tension à la fréquence de résonance (fo) est mesuré puis on note les fréquences inférieures et supérieures pour lesquelles le signal est atténué de 3 dB (soit 0,707 de la tension à Fo). B étant l’écart entre ces deux fréquences, Q est déduit par le calcul : puisque B = fo / Q, alors Q = fo / B . De plus, pour le circuit bouchon et le circuit série, Q = &#8730; ( L / C) / R, d’où : R bouchon = R série = &#8730;(L / C) / Q formule simplifiée : R bouchon (k&#937;) = R série (k&#937;) = &#8730; [L(µH) / C(pF)] / Q - On sait que Q = Z bouchon / X L donc Z bouchon = Q x X L . En remplaçant X L par sa formule, Z bouchon = &#8730;(L / C) . Q D’autre part, Q parallèle = Z parallèle / X L = R parallèle / X L donc R parallèle = X L x Q donc : R parallèle = &#8730;(L / C) . Q Formules simplifiées : Z bouchon (k&#937;) = R parallèle (k&#937;) = &#8730; [L(µH) / C(pF)] . Q Enfin, la valeur de l’impédance à la résonance des circuits série et parallèle se déduit facilement puisque Z = R à la résonance : Z série = R série = &#8730;(L / C) / Q et Z parallèle = R parallèle = &#8730;(L / C) . Q - A la lecture de ces dernières formules, on remarque que : Z bouchon = R parallèle = R bouchon . Q². Ainsi, dans un circuit bouchon non parfait, la résistance série est transformée en résistance parallèle et vient en dérivation sur la résistance parallèle du circuit, ce qui diminue la résistance parallèle totale et le facteur Q du circuit. Exemples à partir des valeurs du circuit bouchon du §",
+  "samples": [
+   {
+    "num": "20126",
+    "stem_fr": "IMPEDANCE DE LA RESONANCE",
+    "options": [
+     "5 kΩ",
+     "50 kΩ",
+     "infini",
+     "4 Ω"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "50 kΩ",
+    "commentaire_fr": "formule simplifiée : Z en kΩ = L en µH / C en pF / R en kΩ = 20 / 100 / 0,004 = 50 kΩ\n",
+    "stem_zh": "谐振阻抗是多少？"
+   },
+   {
+    "num": "21168",
+    "stem_fr": "IMPEDANCE A LA RESONANCE ?",
+    "options": [
+     "30 Ω",
+     "8 kΩ",
+     "80 kΩ",
+     "infinie"
+    ],
+    "ans_idx": 1,
+    "ans_fr": "8 kΩ",
+    "commentaire_fr": "formule simplifiée : Z(kΩ) = L(µH)/(R(kΩ).C(pF)) = 16 / (0,02 x 100) = 16 / 2 = 8 kΩ\n",
+    "stem_zh": "谐振时的阻抗是多少？"
+   },
+   {
+    "num": "20334",
+    "stem_fr": "IMPEDANCE A LA RESONANCE DU CIRCUIT BOUCHON",
+    "options": [
+     "infini",
+     "320 Ω",
+     "12,5 kΩ",
+     "16 Ω"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "12,5 kΩ",
+    "commentaire_fr": "formule simplifiée : Z en kΩ = L en µH / C en pF / R en kΩ \n= 20 / 100 / 0,016 = 12,5 kΩ\n",
+    "stem_zh": "并联谐振（陷波）电路谐振时的阻抗"
+   },
+   {
+    "num": "20761",
+    "stem_fr": "IMPEDANCE A LA RESONANCE D'UN CIRCUIT BOUCHON - \nBOBINE = 20 MICROHENRY - RESISTANCE = 2 OHMS - CAPACITE = 50 PF",
+    "options": [
+     "320 Ω",
+     "16 Ω",
+     "200 kΩ",
+     "infini"
+    ],
+    "ans_idx": 2,
+    "ans_fr": "200 kΩ",
+    "commentaire_fr": "Réponse : formule simplifiée : Z en kΩ = L en µH / C en pF / R en kΩ = 20 / 50 / 0,002 = 200 kΩ, \nou formule développée : Z = L / (C x R) = 20.10^-6 / (50.10^-12 x 2) = 200.10^3\n\n",
+    "stem_zh": "并联谐振（陷波）电路在谐振时的阻抗是多少？线圈 = 20 µH，电阻 = 2 Ω，电容 = 50 pF。"
+   },
+   {
+    "num": "20891",
+    "stem_fr": "SCHEMA AVEC UN CIRCUIT BOUCHON REPRESENTE VERTICALEMENT  : IMPEDANCE A LA RESONANCE D'UN CIRCUIT BOUCHON ? - BOBINE = 20 MICROH - RESISTANCE = 4 OHMS - CAPACITE = 100 PF",
+    "options": [
+     "infini",
+     "5 kΩ",
+     "4 Ω",
+     "50 kΩ"
+    ],
+    "ans_idx": 3,
+    "ans_fr": "50 kΩ",
+    "commentaire_fr": "formule simplifiée : Z en kΩ = L en µH / C en pF / R en kΩ \n= 20 / 100 / 0,004 = 50 kΩ\nFormule générale : Z(Ω) = L(H) / [C(F) x R(Ω)]\n",
+    "stem_zh": "陷波（并联谐振）电路示意图（竖直画出）：谐振时阻抗是多少？线圈 = 20 µH，电阻 = 4 Ω，电容 = 100 pF。"
+   },
+   {
+    "num": "20579",
+    "stem_fr": "POUR UN CIRCUIT RLC PARALLELE A LA RESONANCE, QUELLE AFFIRMATION EST VRAIE ?",
+    "options": [
+     "I eff est minimum avec Z au maximum ",
+     "I eff est maximum avec Z au minimum ",
+     "I eff est maximum avec Z au maximum",
+     "I eff est minimum avec Z au minimum"
+    ],
+    "ans_idx": 0,
+    "ans_fr": "I eff est minimum avec Z au maximum ",
+    "commentaire_fr": "Dans un circuit RLC parallèle (ou circuit bouchon), à la résonance, l'impédance (Z) est au maximum et l'intensité parcourant le circuit (I) est au minimum, quel que soit le mode de mesure de l'intensité (efficace ou crête).\n",
+    "stem_zh": "对于谐振状态下的并联 RLC 回路，哪种说法正确？"
+   }
+  ]
+ }
+]

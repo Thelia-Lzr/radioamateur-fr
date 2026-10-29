@@ -1,0 +1,4315 @@
+[
+ {
+  "num": "21219",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUELLE CLASSE D'EMISSION PERMET DE GENERER CE MODULATEUR ?",
+  "options": [
+   "AM",
+   "FM",
+   "BLU",
+   "CW"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "BLU",
+  "commentaire_fr": "L’ensemble OL + Mélangeur équilibré + filtre à Quartz permet de moduler de la BLU\n",
+  "stem_zh": "这个调制器可以产生哪种发射类别？",
+  "ans_zh": "BLU",
+  "com_zh": "本振（OL）+ 平衡混频器 + 石英滤波器这一组合可以产生 BLU 调制。",
+  "anchor": "T122"
+ },
+ {
+  "num": "21227",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "TENSION DANS UN PONT DIVISEUR",
+  "options": [
+   "30 V",
+   "7,5 V",
+   "10 V",
+   "5 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 V",
+  "commentaire_fr": "U = (UT x R) / RT= (15V x 150V) / (150 Ω + 75 Ω) = 2250 / 225 = 10 V\nou, plus empirique : la tension est répartie proportionnellement aux résistances (soit une répartition 1/3 et 2/3) \ndonc 15 x 2/3 = 10 V\n",
+  "stem_zh": "分压电路中的电压",
+  "ans_zh": "10 V",
+  "com_zh": "U = (UT × R) / RT = (15 V × 150 Ω) / (150 Ω + 75 Ω) = 2250 / 225 = 10 V\n（原文此处写作 150V，应为 150 Ω）\n或者更经验的做法：电压按电阻大小成比例分配（即 1/3 与 2/3 的分配），因此 15 × 2/3 = 10 V",
+  "anchor": "T017a"
+ },
+ {
+  "num": "21228",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR D'UNE RESISTANCE SUR DEUX RESISTANCES EN PARALLELE",
+  "options": [
+   "5 Ω",
+   "10 Ω",
+   "20 Ω",
+   "30 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "5 Ω",
+  "commentaire_fr": "R1 = résistance de 10 Ω ; R2 = résistance à calculer    \nIR1 = UR1 / R1 = UT / R1 = 10 V / 10 Ω = 1 A\nIR2 = IT – IR1 = 3 – 1 = 2 A\nR2 = UR2 / IR2 = UT / IR2 = 10 / 2 = 5 Ω \n",
+  "stem_zh": "两个并联电阻中一个电阻的阻值",
+  "ans_zh": "5 Ω",
+  "com_zh": "R1 = 10 Ω 的电阻；R2 = 待求电阻\nIR1 = UR1 / R1 = UT / R1 = 10 V / 10 Ω = 1 A\nIR2 = IT - IR1 = 3 - 1 = 2 A\nR2 = UR2 / IR2 = UT / IR2 = 10 / 2 = 5 Ω",
+  "anchor": "T017a"
+ },
+ {
+  "num": "21234",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "IMPEDANCE D'UN CONDENSATEUR DE 5 NF A 2 MHZ",
+  "options": [
+   "62,8 Ω",
+   "1,59 kΩ",
+   "10 Ω",
+   "15,9 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "15,9 Ω",
+  "commentaire_fr": "Z = 159/(F(MHz) x C(nF)) = 159/ (2 x 5) = 159/10 = 15,9 Ω\nEn écriture naturelle : 1 / (2 x π x 2.10^6 (F) x 5.10^-9 (C)) \n= 15,91.10^0 converti en 15,91 arrondi à 15,9 Ω \n",
+  "stem_zh": "5 nF 的电容器在 2 MHz 时的阻抗",
+  "ans_zh": "15.9 Ω",
+  "com_zh": "Z = 159/(F(MHz) × C(nF)) = 159/ (2 × 5) = 159/10 = 15.9 Ω\n用自然书写：1 / (2 × π × 2.10^6 (F) × 5.10^-9 (C))\n= 15.91.10^0 换算为 15.91，取整到 15.9 Ω",
+  "anchor": "T023f2"
+ },
+ {
+  "num": "21235",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "UNE BOBINE A UNE VALEUR DE 50 MICROHENRYS. SI ON DIMINUE DE MOITIE LE NOMBRE DE SES SPIRES, LA VALEUR DE LA BOBINE DEVIENT :",
+  "options": [
+   "6,25 µH",
+   "12,5 µH",
+   "50 µH",
+   "100 µH"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "12,5 µH",
+  "commentaire_fr": " = F x N² x D²; si N / 2 alors L / 4 (soit L/2²) ; L = 50 µH / 4 = 12,5 µH\n",
+  "stem_zh": "一个线圈的电感为 50 微亨。如果把它的匝数减少一半，线圈的值变为：",
+  "ans_zh": "12.5 µH",
+  "com_zh": "= F × N² × D²；若 N / 2，则 L / 4（即 L/2²）；L = 50 µH / 4 = 12.5 µH",
+  "anchor": "T023d4"
+ },
+ {
+  "num": "21237",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "CODE COULEUR D'UNE RESISTANCE",
+  "options": [
+   "760 Ω",
+   "950 Ω",
+   "86 Ω",
+   "860 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "860 Ω",
+  "commentaire_fr": "Attention à l'ordre des couleurs (le sens de lecture des bagues comence toujours par la bague la plus proche de l'extrémité)\nGris = 8 ; Bleu = 6 ; Marron = 1 ; 860 Ω\n",
+  "stem_zh": "电阻的色环码",
+  "ans_zh": "860 Ω",
+  "com_zh": "注意颜色的顺序（读色环的方向总是从最靠近端头的那一环开始）\n灰 = 8 ；蓝 = 6 ；棕 = 1 ；860 Ω",
+  "anchor": "T015a"
+ },
+ {
+  "num": "21239",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "TENSION DANS UN PONT DIVISEUR",
+  "options": [
+   "20 V",
+   "10 V",
+   "5 V",
+   "22 V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "20 V",
+  "commentaire_fr": "RT = 75+300 = 375\nUR1 = (UT x R1) / RT = (25 x 300) / 375 = 20 V\nOu, plus empirique : les tensions étant proportionnelles aux résistances, la tension sera 4 fois supérieure, la répartition des tensions sera donc 1/5 et 4/5. La tension totale étant de 25, on aura : 25 x 4/5 = 20V\n",
+  "stem_zh": "分压电路中的电压",
+  "ans_zh": "20 V",
+  "com_zh": "R总 = 75+300 = 375\nUR1 = (UT × R1) / R总 = (25 × 300) / 375 = 20 V\n或者更直观地：电压与电阻成正比，该电压将是 4 倍，因此电压分配为 1/5 和 4/5。总电压为 25，故有：25 × 4/5 = 20V",
+  "anchor": "T017a"
+ },
+ {
+  "num": "21246",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "TENSION DANS UN PONT DIVISEUR",
+  "options": [
+   "2 V",
+   "10 V",
+   "20 V",
+   "4 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "20 V",
+  "commentaire_fr": "RT = R1 + R2 = 2 + 10 = 12\nU1 = (UT x R1) / RT = (24 x 10) / 12 = 240 / 12 = 20 V\n",
+  "stem_zh": "分压电路中的电压",
+  "ans_zh": "20 V",
+  "com_zh": "R总 = R1 + R2 = 2 + 10 = 12\nU1 = (UT × R1) / R总 = (24 × 10) / 12 = 240 / 12 = 20 V",
+  "anchor": "T017a"
+ },
+ {
+  "num": "21248",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "RESISTANCE ?",
+  "options": [
+   "20 Ω",
+   "30 Ω",
+   "40 Ω",
+   "50 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "30 Ω",
+  "commentaire_fr": "IR1 = 5 A – 3 A = 2 A\nUR1 = UR2 = 20 Ω x 3A = 60 V => R1 = UR1/IR1 = 60V/2A = 30 Ω\n",
+  "stem_zh": "电阻值？",
+  "ans_zh": "30 Ω",
+  "com_zh": "IR1 = 5 A - 3 A = 2 A\nUR1 = UR2 = 20 Ω × 3A = 60 V => R1 = UR1/IR1 = 60V/2A = 30 Ω",
+  "anchor": "T017a"
+ },
+ {
+  "num": "21249",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "IMPEDANCE DE LA BOBINE",
+  "options": [
+   "75 Ω",
+   "12 Ω",
+   "50 Ω",
+   "13 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "75 Ω",
+  "commentaire_fr": "Z = 6,28 x F(MHz) x L(µH) = 6,28 x 4 x 3 = 75,36 Ω arrondi à 75 Ω\nEn écriture naturelle : Z = 2 x π x 4.10^6 x 3.10^-6 = 75 (arrondi)\n",
+  "stem_zh": "线圈的阻抗",
+  "ans_zh": "75 Ω",
+  "com_zh": "Z = 6.28 × F(MHz) × L(µH) = 6.28 × 4 × 3 = 75.36 Ω，取整为 75 Ω\n用自然书写：Z = 2 × π × 4.10^6 × 3.10^-6 = 75（取整）",
+  "anchor": "T023g1"
+ },
+ {
+  "num": "21250",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "SOIT UN FIL DE 1 METRE DE LONG ET DE 1 MM2 DE SECTION. QUELLE SERA LA RESISTANCE DU FIL SI ON DOUBLE SA SECTION ?",
+  "options": [
+   "x 2",
+   "x 4",
+   "/ 2",
+   "/ 4"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "/ 2",
+  "commentaire_fr": "R = r x L / s\nsi s x 2, alors R / 2\n",
+  "stem_zh": "设一根导线长 1 米、截面积 1 mm²。如果把它的截面积加倍，该导线的电阻将变为？",
+  "ans_zh": "除以 2",
+  "com_zh": "R = ρ × L / s\n若 s × 2，则 R / 2",
+  "anchor": "T014a"
+ },
+ {
+  "num": "21251",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FREQUENCE DE COUPURE",
+  "options": [
+   "159 Hz",
+   "1 kHz",
+   "1590 Hz",
+   "100 Hz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1590 Hz",
+  "commentaire_fr": "F(Hz) = 159/(R(kΩ)xC(µF)) = 159/(10 x 0,01) = 159/0,1 = 1590 Hz\nEn écriture naturelle : 1 / (2 x π x 10.10^3 x 10.10^-9) \n= 1,591.10^3 converti en 1,591 k soit 1591 arrondi à 1590 Hz\n",
+  "stem_zh": "截止频率",
+  "ans_zh": "1590 Hz",
+  "com_zh": "F(Hz) = 159/(R(kΩ)×C(µF)) = 159/(10 × 0.01) = 159/0.1 = 1590 Hz\n用自然书写：1 / (2 × π × 10.10^3 × 10.10^-9)\n= 1.591.10^3 换算为 1.591 k，即 1591，取整为 1590 Hz",
+  "anchor": "T042a"
+ },
+ {
+  "num": "21252",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "RAPPORT DE PUISSANCE DE L'AMPLI",
+  "options": [
+   " x 16",
+   "x 40",
+   "x 20",
+   "x 60.000"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "x 40",
+  "commentaire_fr": "  16 dB\n          4     ) 40\n          x10 )\n\nEn écriture naturelle : 10 ^ (16 / 10) = 39,81 arrondi à 40\n",
+  "stem_zh": "放大器的功率比",
+  "ans_zh": "× 40",
+  "com_zh": "  16 dB\n        4     ） 40\n        ×10 ）\n用自然书写：10 ^ (16 / 10) = 39.81，取整为 40",
+  "anchor": "T041b"
+ },
+ {
+  "num": "21255",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "COMMENT APPELE-T-ON CE FILTRE ?",
+  "options": [
+   "Bouchon",
+   "Passe Bas",
+   "Passe Bande",
+   "Passe Haut"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Passe Haut",
+  "commentaire_fr": "Passe Haut : le condensateur est en haut\n",
+  "stem_zh": "这个滤波器叫什么？",
+  "ans_zh": "高通（滤波器）",
+  "com_zh": "高通（Passe Haut）：电容器位于上方。",
+  "anchor": "T043b"
+ },
+ {
+  "num": "21259",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE ?",
+  "options": [
+   "6 W",
+   "24 W",
+   "42 mW",
+   "288 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "6 W",
+  "commentaire_fr": "500 mA = 0,5 A\nP = U x I = 12 x 0,5 = 6 W\n",
+  "stem_zh": "耗散功率是多少？",
+  "ans_zh": "6 W",
+  "com_zh": "500 mA = 0.5 A\nP = U × I = 12 × 0.5 = 6 W",
+  "anchor": "T012b"
+ },
+ {
+  "num": "21271",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TENSION AU SECONDAIRE ?",
+  "options": [
+   "45 V",
+   "5 V",
+   "25 V",
+   "30 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "5 V",
+  "commentaire_fr": "N = ns/np = 25/75 = 1/3\nUS = UP x N= 15 x 1/3 = 15/3 = 5 V\n Plus empirique : la tension est proportionnelle aux nombres de spires. Donc trois fois moins de spires au secondaire => trois fois mois de tension.\n",
+  "stem_zh": "次级电压是多少？",
+  "ans_zh": "5 V",
+  "com_zh": "N = ns/np = 25/75 = 1/3\nUS = UP × N = 15 × 1/3 = 15/3 = 5 V\n更直观地：电压与匝数成正比。次级匝数少三倍 => 电压也小 3 倍。",
+  "anchor": "T031b"
+ },
+ {
+  "num": "21277",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "REACTANCE DE LA BOBINE",
+  "options": [
+   "628 Ω",
+   "100 Ω",
+   "1,6 mΩ",
+   "62,5 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "628 Ω",
+  "commentaire_fr": "ZL(Ω) = 6,28 x F(MHz) x L(µH) = 6,28 x 4 x 25 = 628 Ω\n\nOu en écriture naturelle : Z = 2 x π x 4.10^-6 x 25.10^6 = 628\n",
+  "stem_zh": "线圈的电抗",
+  "ans_zh": "628 Ω",
+  "com_zh": "ZL(Ω) = 6.28 × F(MHz) × L(µH) = 6.28 × 4 × 25 = 628 Ω\n\n或用自然书写：Z = 2 × π × 4.10^-6 × 25.10^6 = 628",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "21278",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "TENSION DE LA PILE",
+  "options": [
+   "2,5 V",
+   "60 V",
+   "9 V",
+   "0,9 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "9 V",
+  "commentaire_fr": "60 mA = 0,06 A ; U = R x I = 150 Ω x 0,06 A = 9 V\n",
+  "stem_zh": "电池电压",
+  "ans_zh": "9 V",
+  "com_zh": "60 mA = 0.06 A ；U = R × I = 150 Ω × 0.06 A = 9 V",
+  "anchor": "T012b"
+ },
+ {
+  "num": "21289",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "PULSATION D'UNE FREQUENCE DE 200 KHZ ?",
+  "options": [
+   "1.121 rad/s",
+   "200.000 rad/s",
+   "1.256.000 rad/s",
+   "79.500 rad/s"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1.256.000 rad/s",
+  "commentaire_fr": "pulsation(rad/s) = 2 x π x F(Hz) = 6,28 x 200.000 = 1.256.000 rad/s\n",
+  "stem_zh": "200 kHz 的角频率是多少？",
+  "ans_zh": "1.256.000 rad/s",
+  "com_zh": "角频率(rad/s) = 2 × π × F(Hz) = 6.28 × 200.000 = 1.256.000 rad/s",
+  "anchor": "T021b"
+ },
+ {
+  "num": "21291",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "COURANT COLLECTEUR",
+  "options": [
+   "125 µA",
+   "100 mA",
+   "80 mA",
+   "0,8 mA"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "0,8 mA",
+  "commentaire_fr": "Ic = ß x Ib = 80 x 10 µA = 800 µA = 0,8 mA\n",
+  "stem_zh": "集电极电流",
+  "ans_zh": "0.8 mA",
+  "com_zh": "Ic = β × Ib = 80 × 10 µA = 800 µA = 0.8 mA",
+  "anchor": "T062"
+ },
+ {
+  "num": "21292",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "GAIN DU TRANSISTOR",
+  "options": [
+   "ß = 99",
+   "ß = 101",
+   "ß = 100",
+   "ß = 1,01"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "ß = 100",
+  "commentaire_fr": "Ie = Ic + Ib, donc Ib = Ie - Ic = 101 mA - 100 mA = 1 mA\nIc = ß x Ib, donc ß = Ic/Ib = 100/1 = 100\n",
+  "stem_zh": "晶体管的增益",
+  "ans_zh": "β = 100",
+  "com_zh": "Ie = Ic + Ib，所以 Ib = Ie - Ic = 101 mA - 100 mA = 1 mA\nIc = β × Ib，所以 β = Ic/Ib = 100/1 = 100",
+  "anchor": "T062"
+ },
+ {
+  "num": "21293",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "A LA SORTIE DU MELANGEUR, ON AURA",
+  "options": [
+   "10 et 2 MHz                      ",
+   "2 et 24 MHz",
+   "10 et 6 MHz                      ",
+   "4 et 10 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10 et 2 MHz                      ",
+  "commentaire_fr": "4 + 6 et 4 - 6 (ou 6 - 4) = 10 MHz et 2 MHz\n",
+  "stem_zh": "混频器的输出端将有",
+  "ans_zh": "10 和 2 MHz",
+  "com_zh": "4 + 6 和 4 - 6（或 6 - 4）= 10 MHz 和 2 MHz",
+  "anchor": "T077b"
+ },
+ {
+  "num": "21294",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "LE RENDEMENT D'UN AMPLIFICATEUR MONTE EN CLASSE A EST AU MAXIMUM DE :",
+  "options": [
+   "20 %",
+   "50 %",
+   "70 %",
+   "120 %"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50 %",
+  "commentaire_fr": "Le rendement de la classe A est au maximum de 50% (mais un rendement de 30 %, voire moins, est fréquent)\n",
+  "stem_zh": "A 类放大器的效率最高为：",
+  "ans_zh": "50%",
+  "com_zh": "A 类的效率最高为 50%（但实际常见的是 30% 甚至更低）。",
+  "anchor": "T071a1"
+ },
+ {
+  "num": "21295",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CLASSE DE L'AMPLIFICATEUR",
+  "options": [
+   "classe A",
+   "classe B",
+   "classe AB",
+   "classe C"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "classe C",
+  "commentaire_fr": "La classe C est remarquable aux circuits RC en entrée et LC en sortie. En théorie, les schémas fonctionnels (comme celui-ci) n'ont pas à être connus pour l'examen.\n",
+  "stem_zh": "放大器的工作类别",
+  "ans_zh": "C 类",
+  "com_zh": "C 类的特征在于输入端接 RC 电路、输出端接 LC 电路。理论上，这类功能框图（如此图）考试中不必掌握。",
+  "anchor": "T071a3"
+ },
+ {
+  "num": "21296",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "INTENSITE DANS LE GALVANOMETRE",
+  "options": [
+   "2 mA",
+   "20 µA",
+   "5 mA",
+   "2,5 µA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "20 µA",
+  "commentaire_fr": "Ig = IR = UR/R ; UR = Ucalibre = 2 V (à la tension aux bornes du galvanomètre près)\nI = 2 V/100 kΩ = 0,000 02 A = 20 µA\n",
+  "stem_zh": "检流计中的电流",
+  "ans_zh": "20 µA",
+  "com_zh": "Ig = IR = UR/R ；UR = U量程 = 2 V（近似等于检流计两端的电压）\nI = 2 V/100 kΩ = 0.000 02 A = 20 µA",
+  "anchor": "T034b"
+ },
+ {
+  "num": "21301",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN DU CIRCUIT",
+  "options": [
+   "-0,2",
+   "5",
+   "-5",
+   "0,2"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "-5",
+  "commentaire_fr": "G = -R2/R1 = -75/15 = -5\n",
+  "stem_zh": "电路的增益",
+  "ans_zh": "-5",
+  "com_zh": "G = -R2/R1 = -75/15 = -5",
+  "anchor": "T082b"
+ },
+ {
+  "num": "21306",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'ENTREE D'UN AMPLIFICATEUR EN BASE COMMUNE ?",
+  "options": [
+   "basse",
+   "moyenne",
+   "élevée",
+   "infinie"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "basse",
+  "commentaire_fr": "Z entrée pour les 3 montages :\nEmetteur commun : moyenne\nCollecteur commun : élevée\nBase commune : basse\n",
+  "stem_zh": "共基极放大器的输入阻抗是多少？",
+  "ans_zh": "低",
+  "com_zh": "三种接法的输入阻抗 Z：\n共射极：中等\n共集电极：高\n共基极：低",
+  "anchor": "T063a3"
+ },
+ {
+  "num": "21320",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "IMPEDANCE DE LA BOBINE",
+  "options": [
+   "795 Ω",
+   "250 Ω",
+   "1570 Ω",
+   "1,57 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1,57 Ω",
+  "commentaire_fr": "Z = 6,28 x F x L = 6,28 x 250000 x 0,000 001 = 6,28 x 0,25 = 1,57 Ω\n\nOu en écriture naturelle : Z = 2 x π x 250.10^3 x 1.10^-6 = 1,57 (arrondi)\n",
+  "stem_zh": "线圈的阻抗",
+  "ans_zh": "1.57 Ω",
+  "com_zh": "Z = 6.28 × F × L = 6.28 × 250000 × 0.000 001 = 6.28 × 0.25 = 1.57 Ω\n\n或用自然书写：Z = 2 × π × 250.10^3 × 1.10^-6 = 1.57（取整）",
+  "anchor": "T023f1"
+ },
+ {
+  "num": "21326",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "NOM DE L'ETAGE",
+  "options": [
+   "Filtre anti-harmonique        ",
+   "Mélangeur Équilibré",
+   "Filtre à Quartz               ",
+   "Oscillateur local"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Filtre anti-harmonique        ",
+  "commentaire_fr": "Filtre anti-harmonique ou filtre en PI\n",
+  "stem_zh": "该级的名称",
+  "ans_zh": "抗谐波滤波器",
+  "com_zh": "抗谐波滤波器，或称 π 型滤波器。",
+  "anchor": "T114"
+ },
+ {
+  "num": "21327",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUELLE EST LA FREQUENCE DE FONCTIONNEMENT DU QUART D'ONDE",
+  "options": [
+   "57 MHz",
+   "35 MHz",
+   "30 MHz",
+   "15 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "15 MHz",
+  "commentaire_fr": "L(m) = 150/2/F(MHz) => F(MHz) = 75/5/L(m) = 15 MHz\nAttention, cette question peut aussi être posée à l’examen de réglementation\n",
+  "stem_zh": "该四分之一波长天线的工作频率是多少？",
+  "ans_zh": "15 MHz",
+  "com_zh": "L(m) = 150/2/F(MHz) => F(MHz) = 75/5/L(m) = 15 MHz\n注意：这道题也可能出现在法规科目考试中。",
+  "anchor": "T095a"
+ },
+ {
+  "num": "21329",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "PUISSANCE EN SORTIE",
+  "options": [
+   "2,5 W",
+   "1 W",
+   "24 W",
+   "4 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1 W",
+  "commentaire_fr": "16 dB => 4 x 10 = 40\n\nOu, en écriture naturelle : 10 ^ (16 / 10) = 39,81 arrondi à 40\n\nPs = Pe / 40 = 40 / 40 = 1 W\n",
+  "stem_zh": "输出功率",
+  "ans_zh": "1 W",
+  "com_zh": "16 dB => 4 × 10 = 40\n\n或，用自然书写：10 ^ (16 / 10) = 39.81，取整为 40\n\nPs = Pe / 40 = 40 / 40 = 1 W",
+  "anchor": "T041b"
+ },
+ {
+  "num": "21424",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE R ?",
+  "options": [
+   "500 Ω",
+   "2 kΩ",
+   "3 kΩ",
+   "666 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "500 Ω",
+  "commentaire_fr": "Soit R1, résistance du haut et R2 résistance du bas (à calculer)\nTension aux bornes de R1 = Tension aux bornes de R2 = R x I1 = 1000 x 1 = 1000 V\nR2 = U / I2 = 1000/2 = 500 Ω\nou, plus empirique : il passe deux fois plus de courant dans R2 que dans R1, R2 aura donc une valeur deux fois plus faible : 1000  Ω / 2 = 500 Ω\n",
+  "stem_zh": "R 的阻值是多少？",
+  "ans_zh": "500 Ω",
+  "com_zh": "设 R1 为上方的电阻，R2 为下方的电阻（待求）\nR1 两端的电压 = R2 两端的电压 = R × I1 = 1000 × 1 = 1000 V\nR2 = U / I2 = 1000/2 = 500 Ω\n或者更直观地：流过 R2 的电流是流过 R1 的两倍，因此 R2 的阻值小一半：1000 Ω / 2 = 500 Ω",
+  "anchor": "T017a"
+ },
+ {
+  "num": "21425",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "VALEUR MAXIMUM ?",
+  "options": [
+   "18,4 V",
+   "36,8 V",
+   "9,2 V",
+   "23,5 V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "18,4 V",
+  "commentaire_fr": "Umax = Ueff x 1,414 = 13 x 1,414 = 18,4 V\n",
+  "stem_zh": "最大值是多少？",
+  "ans_zh": "18.4 V",
+  "com_zh": "Umax = Ueff × 1.414 = 13 × 1.414 = 18.4 V",
+  "anchor": "T022b"
+ },
+ {
+  "num": "21436",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TENSION AU SECONDAIRE",
+  "options": [
+   "200 V",
+   "50 V",
+   "0 V",
+   "100 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "0 V",
+  "commentaire_fr": "Attention au piège : le transformateur ne transforme que des courants alternatifs, la pile génère du courant continu, il n'y a donc pas de tension au secondaire.\n",
+  "stem_zh": "次级电压",
+  "ans_zh": "0 V",
+  "com_zh": "注意陷阱：变压器只能变换交流电，而电池产生的是直流电，因此次级没有电压。",
+  "anchor": "T031a"
+ },
+ {
+  "num": "21441",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "IMPEDANCE DU CONDENSATEUR",
+  "options": [
+   "10,6 Ω",
+   "94,2 Ω",
+   "15 Ω",
+   "2,4 kΩ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10,6 Ω",
+  "commentaire_fr": "Z = 159/(F(MHz)xC(nF)) = 159/(15 x 1) = 159/15 = 10,6 Ω\n\nEn écriture naturelle : \n1 / (2x [pi] x 15.10^6 (F) x 1.10^-9 (C)) = 10,610.10^0 soit 10,6 Ω\n",
+  "stem_zh": "电容器的阻抗",
+  "ans_zh": "10.6 Ω",
+  "com_zh": "Z = 159/(F(MHz)×C(nF)) = 159/(15 × 1) = 159/15 = 10.6 Ω\n\n用自然书写：\n1 / (2 × π × 15.10^6 (F) × 1.10^-9 (C)) = 10.610.10^0 即 10.6 Ω",
+  "anchor": "T023f2"
+ },
+ {
+  "num": "21447",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "VALEUR DE R",
+  "options": [
+   "30 kΩ",
+   "20 kΩ",
+   "10 kΩ",
+   "5 kΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "20 kΩ",
+  "commentaire_fr": "I = 5 V / 10 kΩ = 0,0005 A\nR = U/I = (15 - 5)/0,0005 = 10/0,0005 = 20.000 = 20 kΩ\nOu, plus empirique : la tension aux bornes de R est le double de celle aux bornes de la résistance de 10 kΩ (15 V-5 V = 10 V). La valeur de R sera donc le double de 10 kΩ, soit 20 kΩ.\n",
+  "stem_zh": "R 的阻值",
+  "ans_zh": "20 kΩ",
+  "com_zh": "I = 5 V / 10 kΩ = 0.0005 A\nR = U/I = (15 - 5)/0.0005 = 10/0.0005 = 20.000 = 20 kΩ\n或者更直观地：R 两端的电压是 10 kΩ 电阻两端电压的两倍（15 V - 5 V = 10 V）。因此 R 的阻值应为 10 kΩ 的两倍，即 20 kΩ。",
+  "anchor": "T017a"
+ },
+ {
+  "num": "21452",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "COMMENT S'APPELLE UN ETAGE DEMODULATEUR DE CLASSE G3E ?",
+  "options": [
+   "Détection ",
+   "Détecteur de produit",
+   "Discriminateur",
+   "Mélangeur"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Discriminateur",
+  "commentaire_fr": "Question \"tordue\" car il faut se souvenir de ces classes d'émission (épreuve de réglementation). G3E = Téléphonie, modulation de phase.\n",
+  "stem_zh": "G3E 类的解调级叫什么？",
+  "ans_zh": "鉴频器",
+  "com_zh": "这是一道「绕弯」的题，因为必须记住这些发射类别（法规科目内容）。G3E = 话务、相位调制。",
+  "anchor": "T124b"
+ },
+ {
+  "num": "21455",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FACTEUR DE SELECTIVITE",
+  "options": [
+   "5",
+   "10",
+   "20",
+   "100"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "5",
+  "commentaire_fr": "Le facteur de sélectivité (ou facteur de forme) est la rapport de la bande passante du filtre à –60 dB par la bande passante à –3 dB. Dans le cas présent, la bande passante à –60 dB est de 100 (= 3750 – 3650) et la bande passante à –3 dB est de 20 (= 3710 – 3690). La facteur de sélectivité est donc de 5 (= 100 / 20). Ne pas confondre avec le taux de sélectivité (en %) qui est l’inverse, soit 20 % dans cet exemple.\n",
+  "stem_zh": "选择性因数",
+  "ans_zh": "5",
+  "com_zh": "选择性因数（或称波形因数）是滤波器 -60 dB 带宽与 -3 dB 带宽之比。在此例中，-60 dB 带宽为 100（= 3750 - 3650），-3 dB 带宽为 20（= 3710 - 3690）。因此选择性因数为 5（= 100 / 20）。不要与以 % 表示的选择性比率混淆，后者是其倒数，在此例中为 20%。",
+  "anchor": "T044e"
+ },
+ {
+  "num": "21456",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "GAIN",
+  "options": [
+   "60 dB",
+   "26 dB",
+   "20 dB",
+   "10 dB"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "20 dB",
+  "commentaire_fr": "Rapport = 400/4 = 100\n      => 20 dB\n\t\nEn écriture naturelle : 10 [LOG] (400) / 4 ) = 20\nRappel : 20 dB est un des 9 gains à connaître pour l'épreuve de réglementation\n",
+  "stem_zh": "增益",
+  "ans_zh": "20 dB",
+  "com_zh": "比值 = 400/4 = 100\n      => 20 dB\n\n用自然书写：10 [LOG] (400 / 4) = 20\n提醒：20 dB 是法规科目考试需要记住的 9 个增益之一",
+  "anchor": "T041b"
+ },
+ {
+  "num": "21457",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "CALIBRE DU VOLTMETRE",
+  "options": [
+   "1 V",
+   "100 V",
+   "1000 V",
+   "100 mV"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "100 V",
+  "commentaire_fr": "U = R x I = (99.000 + 1.000) x 1 mA\n               = 100.000 x 0,001 = 100 V\n",
+  "stem_zh": "电压表的量程",
+  "ans_zh": "100 V",
+  "com_zh": "U = R × I = (99.000 + 1.000) × 1 mA\n              = 100.000 × 0.001 = 100 V",
+  "anchor": "T034b"
+ },
+ {
+  "num": "21458",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "DUREE DE FONCTIONNEMENT",
+  "options": [
+   "6 heures",
+   "600 heures",
+   "0,1 heure",
+   "0,06 heure"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "600 heures",
+  "commentaire_fr": "I = U / R = 10/1000 = 0,01 A\ntemps = 6 Ah / 0,01 A = 600 heures\n",
+  "stem_zh": "工作时长",
+  "ans_zh": "600 小时",
+  "com_zh": "I = U / R = 10/1000 = 0.01 A\n时间 = 6 Ah / 0.01 A = 600 小时",
+  "anchor": "T033e"
+ },
+ {
+  "num": "21459",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "A L'EXTREMITE DU BRIN D'UNE ANTENNE QUART D'ONDE, ON A :",
+  "options": [
+   "U maximum et I minimum",
+   "U = 0 et I = 0",
+   "I maximum et U = O",
+   "U et I maximum"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "U maximum et I minimum",
+  "commentaire_fr": "A l’extrémité du brin rayonnant d’une antenne ouverte (comme le quart d’onde), on a une intensité nulle et une tension maximum\n",
+  "stem_zh": "在四分之一波长天线振子的末端，有：",
+  "ans_zh": "U 最大，I 最小",
+  "com_zh": "在开路天线（如四分之一波长天线）辐射振子的末端，电流为零、电压最大。",
+  "anchor": "T094c"
+ },
+ {
+  "num": "21462",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "PUISSANCE DU TRANSFORMATEUR",
+  "options": [
+   "50 VA",
+   "400 VA",
+   "100 VA",
+   "25 VA"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100 VA",
+  "commentaire_fr": "Pp = Ps = Us x Is = 50V x 2 A = 100 VA\n",
+  "stem_zh": "变压器的功率",
+  "ans_zh": "100 VA",
+  "com_zh": "Pp = Ps = Us × Is = 50V × 2 A = 100 VA",
+  "anchor": "T031b"
+ },
+ {
+  "num": "21468",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "VALEUR EFFICACE",
+  "options": [
+   "36 V",
+   "12,7 V",
+   "25,5 V",
+   "18 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "12,7 V",
+  "commentaire_fr": "Umax = 18 V => Ueff = Umax x 0,707 = 18 V x 0,707 = 12,7 V\n",
+  "stem_zh": "有效值",
+  "ans_zh": "12.7 V",
+  "com_zh": "Umax = 18 V => Ueff = Umax × 0.707 = 18 V × 0.707 = 12.7 V",
+  "anchor": "T022b"
+ },
+ {
+  "num": "21470",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "FREQUENCE DU SIGNAL",
+  "options": [
+   "1 MHz",
+   "500 kHz",
+   "200 kHz",
+   "5 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "500 kHz",
+  "commentaire_fr": "5 alternances en 5 µsecondes (ou 5 périodes en 10µs) => 1 période en 2 µs \nF = 1/t = 1/2µs = 1/0,000002 = 500.000 = 500 kHz\n\nEn écriture naturelle : 1 / 2.10^-6 = 500.10^3 soit 500 kHz\n",
+  "stem_zh": "信号频率",
+  "ans_zh": "500 kHz",
+  "com_zh": "5 微秒内有 5 个半周（或 10 µs 内有 5 个周期）=> 1 个周期为 2 µs\nF = 1/t = 1/2µs = 1/0.000002 = 500.000 = 500 kHz\n\n用自然书写：1 / 2.10^-6 = 500.10^3 即 500 kHz",
+  "anchor": "T021b"
+ },
+ {
+  "num": "21471",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "PUISSANCE DE SORTIE",
+  "options": [
+   "20 W",
+   "100 W",
+   "21 W",
+   "16 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "100 W",
+  "commentaire_fr": "    20\n        1              ) 1 x 100 = 100 ; 100 x 1 W = 100 W\n  x 10² = x 100 )\nEn écriture naturelle : 10 ^ (20 / 10) = 100\nSans calcul, on rappelle que le rapport 20 dB est à connaître pour l’examen de réglementation\n",
+  "stem_zh": "输出功率",
+  "ans_zh": "100 W",
+  "com_zh": "    20\n        1              ） 1 × 100 = 100 ；100 × 1 W = 100 W\n  × 10² = × 100 ）\n用自然书写：10 ^ (20 / 10) = 100\n不用计算：要提醒的是，20 dB 这个比值是法规科目考试需要记住的",
+  "anchor": "T041b"
+ },
+ {
+  "num": "21478",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "INTENSITE",
+  "options": [
+   "1 A",
+   "5 A",
+   "10 A",
+   "4 A"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "5 A",
+  "commentaire_fr": "I = It x Rt / R = 6A x ((10 x 50)/(10 + 50))/10 = (6 x 10 x 50)/(60 x 10) = 5 A\nSur une calculette : calcul de RT : 1 / (1 / 10  + 1 / 50 ) = 8,33\n\nOu, plus empirique : R2 = résistance de 50 ohoms et R1 = résistance de 10 ohms. \nIl passera 5 fois plus de courant dans R1 car R1 est cinq fois plus faible que R2. \nLa répartition du courant sera donc : 1/6 dans R2 et 5/6 dans R1. \nIR1 = 6 x 5/6 = 5\n",
+  "stem_zh": "电流强度",
+  "ans_zh": "5 A",
+  "com_zh": "I = It × Rt / R = 6A × ((10 × 50)/(10 + 50))/10 = (6 × 10 × 50)/(60 × 10) = 5 A\n用计算器：计算 R总：1 / (1 / 10 + 1 / 50) = 8.33\n\n或者更直观地：R2 = 50 欧的电阻，R1 = 10 欧的电阻。\n流过 R1 的电流将是 R2 的 5 倍，因为 R1 比 R2 小五倍。\n因此电流分配为：R2 中 1/6，R1 中 5/6。\nIR1 = 6 × 5/6 = 5",
+  "anchor": "T017a"
+ },
+ {
+  "num": "21479",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUANTITE D'ELECTRICITE DANS C",
+  "options": [
+   "10 µC",
+   "10 A",
+   "10 µA",
+   "0,1 C"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10 µC",
+  "commentaire_fr": "Q = C x U = 1 µF x 10 V = 10 µC\n",
+  "stem_zh": "电量（以 C 计）",
+  "ans_zh": "10 µC",
+  "com_zh": "Q = C × U = 1 µF × 10 V = 10 µC",
+  "anchor": "T023c8"
+ },
+ {
+  "num": "21484",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "GAIN",
+  "options": [
+   "4 dB",
+   "12 dB",
+   "6 dB",
+   "3 dB"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "6 dB",
+  "commentaire_fr": "Rapport = 16/4 = 4 ; 4 => 6 dB\n\nEn écriture naturelle : 10 [LOG] (16 / 4 ) = 6,02 arrondi à 6\n",
+  "stem_zh": "增益",
+  "ans_zh": "6 dB",
+  "com_zh": "比值 = 16/4 = 4 ；4 => 6 dB\n\n用自然书写：10 [LOG] (16 / 4) = 6.02，取整为 6",
+  "anchor": "T041b"
+ },
+ {
+  "num": "21485",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "UN FIL DE CUIVRE A UNE RESISTANCE CONNUE. QUELLE EST LA RESISTANCE DU MEME FIL QUI A UNE LONGUEUR DOUBLE ?",
+  "options": [
+   "x 2",
+   "x 4",
+   "/ 2",
+   "/ 4"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "x 2",
+  "commentaire_fr": "R = r x L / s ; si L x 2, alors R x 2\n",
+  "stem_zh": "一根铜导线有已知的电阻。同一根导线若长度加倍，其电阻将是多少？",
+  "ans_zh": "× 2",
+  "com_zh": "R = ρ × L / s ；若 L × 2，则 R × 2",
+  "anchor": "T014a"
+ },
+ {
+  "num": "21490",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUE DEMODULE CE RECEPTEUR ?",
+  "options": [
+   "AM",
+   "CW",
+   "FM",
+   "BLU"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "AM",
+  "commentaire_fr": "Détection => AM. \n\nAttention aux représentations des synoptiques qui, comme dans cet exemple, ne sont pas très conventionnelles. La CAG peut aussi agir sur l’amplificateur FI et, dans ce cas, la flèche ne va pas vers l’ampli RF mais vers l’ampli FI.\n",
+  "stem_zh": "这台接收机解调什么？",
+  "ans_zh": "AM",
+  "com_zh": "检波 => AM。\n\n注意方框图的画法：像本例这样，画得并不太规范。CAG（自动增益控制）也可能作用在 FI 放大器上，此时箭头不是指向 RF 放大器，而是指向 FI 放大器。",
+  "anchor": "T122"
+ },
+ {
+  "num": "21492",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "AU CENTRE D'UN DIPOLE DEMI-ONDE, ON A :",
+  "options": [
+   "U = 0 et I = 0",
+   "U max et I max",
+   "U max et I = 0",
+   "U = 0 et I max"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "U = 0 et I max",
+  "commentaire_fr": "Au point d’alimentation du dipôle (le centre), on a un maximum d’intensité et un minimum de tension\n",
+  "stem_zh": "在半波偶极天线的中心，有：",
+  "ans_zh": "U = 0，I 最大",
+  "com_zh": "在偶极天线的馈电点（中心），电流最大、电压最小。",
+  "anchor": "T094c"
+ },
+ {
+  "num": "21496",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "POUR UN COURANT SINUSOIDAL DE 10 VOLTS EFFICACES, QUELLE EST LA TENSION CRETE A CRETE ?",
+  "options": [
+   "14,1 V",
+   "28,3 V",
+   "20 V",
+   "30 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "28,3 V",
+  "commentaire_fr": "10 Veff => 14,14 Vmax => 28,3 Vcàc\n",
+  "stem_zh": "对于有效值为 10 伏的正弦电流，峰峰值电压是多少？",
+  "ans_zh": "28.3 V",
+  "com_zh": "10 Veff => 14.14 Vmax => 28.3 Vcàc（峰-峰值）",
+  "anchor": "T022d"
+ },
+ {
+  "num": "21499",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "ON UTILISE UN MICROPHONE A CAPACITE VARIABLE MONTE SUR UN OSCILLATEUR POUR GENERER DE :",
+  "options": [
+   "l'AM",
+   "la CW",
+   "la FM",
+   "la BLU"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "la FM",
+  "commentaire_fr": "",
+  "stem_zh": "把可变电容话筒接在一个振荡器上，是为了产生：",
+  "ans_zh": "FM（调频）",
+  "com_zh": "",
+  "anchor": "T124d"
+ },
+ {
+  "num": "21500",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "TENSION MOYENNE",
+  "options": [
+   "25,5 V",
+   "12,7 V",
+   "0 V",
+   "36 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "0 V",
+  "commentaire_fr": "Le signal est réparti également de chaque côté du 0V. La surface du signal au dessus de 0V est égale à la surface au dessous de 0V. Ceci est un cas particulier où il y a un nombre entier de période. C’est aussi le cas lorsque la durée du signal est beaucoup plus longue que la durée d’une seule période.\n",
+  "stem_zh": "平均电压",
+  "ans_zh": "0 V",
+  "com_zh": "该信号在 0V 两侧均匀分布。信号在 0V 以上的面积等于 0V 以下的面积。这是周期数为整数时的一个特例。当信号的持续时间远长于单个周期时，情况也是如此。",
+  "anchor": "T022c"
+ },
+ {
+  "num": "21505",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "VALEUR D'ENTREES DE LA PORTE LOGIQUE",
+  "options": [
+   "E1 = 1 et E2 = 1                     ",
+   "E1 = 1 et E2 = 0                     ",
+   "E1 = 0 et E2 = 1",
+   "E1 = 0 et E2 = 0"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "E1 = 1 et E2 = 1                     ",
+  "commentaire_fr": "La logique de cette porte est : « la sortie est à 0 si et seulement si toutes les entrées sont à 1 » (logique de sortie inversée par rapport à une porte « ET »)\n",
+  "stem_zh": "该逻辑门的输入值",
+  "ans_zh": "E1 = 1 且 E2 = 1",
+  "com_zh": "该门的逻辑是：「当且仅当所有输入都为 1 时，输出为 0」（与「与门」的输出逻辑相反）",
+  "anchor": "T084a"
+ },
+ {
+  "num": "21507",
+  "theme_fr": "Groupements de résistances",
+  "theme_zh": "电阻组合",
+  "stem_fr": "INTENSITE",
+  "options": [
+   "2 A",
+   "1,5 A",
+   "3 A",
+   "1 A"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "3 A",
+  "commentaire_fr": "Soit R1 la résistance du bas et R2, celle du haut du schéma\nUR = R2 x IR2 = 100 x 1 = 100 V\nIR1 = UR / R1 = 100 / 50 = 2 A\nIT = IR1 + IR2 = 2 A + 1 A = 3 A\nOu, plus empirique : il passe dans R1 deux fois plus de courant que dans R2 car elle est deux fois plus faible, donc IR1 = 2A donc IT = 1+2 = 3 A.\n",
+  "stem_zh": "电流强度",
+  "ans_zh": "3 A",
+  "com_zh": "设 R1 为图中下方的电阻，R2 为上方的电阻\nUR = R2 × IR2 = 100 × 1 = 100 V\nIR1 = UR / R1 = 100 / 50 = 2 A\nIT = IR1 + IR2 = 2 A + 1 A = 3 A\n或者更直观地：流过 R1 的电流是流过 R2 的两倍，因为它的阻值小一半，所以 IR1 = 2A，故 IT = 1+2 = 3 A。",
+  "anchor": "T017a"
+ },
+ {
+  "num": "21600",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA FONCTION REALISEE ?",
+  "options": [
+   "Inverseur",
+   "Non et",
+   "Ou",
+   "Et"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Inverseur",
+  "commentaire_fr": "Il s'agit de la fonction inverseur.\nQuand on applique sur l'entrée un \"1\", la sortie passe à \"0\" et réciproquement.\n",
+  "stem_zh": "实现的是什么功能？",
+  "ans_zh": "反相器",
+  "com_zh": "这是反相器功能。\n当输入端加「1」时，输出变为「0」，反之亦然。",
+  "anchor": "T084a4"
+ },
+ {
+  "num": "21601",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "SUR CETTE ANTENNE YAGI, LA PARTIE REPEREE PAR A EST ?",
+  "options": [
+   "L'avant de l'antenne",
+   "Le côté de l'antenne",
+   "L'arrière de l'antenne",
+   "Rien du tout"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "L'arrière de l'antenne",
+  "commentaire_fr": "Il s'agit de l'arrière de l'antenne.\n",
+  "stem_zh": "在这副八木天线上，标为 A 的部分是？",
+  "ans_zh": "天线的后方",
+  "com_zh": "这是天线的后方。",
+  "anchor": "T096"
+ },
+ {
+  "num": "21605",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUEL EST L'EFFET D'UNE TRES FORTE IONISATION SUR LA COUCHE D SUR LES COMMUNICATIONS DANS LA BANDE AMATEUR DES 80M ?",
+  "options": [
+   "Forte augmentation des signaux reçus",
+   "Très légère diminution des signaux reçus",
+   "Forte diminution jusqu'à disparition des signaux",
+   "Aucun changement"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Forte diminution jusqu'à disparition des signaux",
+  "commentaire_fr": "On assistera à une forte diminution des signaux, voire une disparition totale.\n",
+  "stem_zh": "D 层受到极强的电离，会对 80 米业余频段的通信产生什么影响？",
+  "ans_zh": "信号大幅减弱，直至消失",
+  "com_zh": "会出现信号大幅减弱，甚至完全消失。",
+  "anchor": "T093b"
+ },
+ {
+  "num": "21606",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "NOMBRE DE SPIRES DE L'ENROULEMENT PRIMAIRE ?",
+  "options": [
+   "16",
+   "18",
+   "26",
+   "32"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "26",
+  "commentaire_fr": "Le rapport des impédances est égal au carré du rapport de nombre de spires.\n\nZ2 / Z1 = (n2 / n1)² donc n1² = n2² / (Z2 / Z1) donc n1 = n2 / racine(Z2 / Z1)\nn1 = 200 / √(600 / 10) = 200 / 7,75 = 25,82 arrondi à 26\n",
+  "stem_zh": "初级绕组的匝数是多少？",
+  "ans_zh": "26",
+  "com_zh": "阻抗比等于匝数比的平方。\n\nZ2 / Z1 = (n2 / n1)²，所以 n1² = n2² / (Z2 / Z1)，即 n1 = n2 / √(Z2 / Z1)\nn1 = 200 / √(600 / 10) = 200 / 7.75 = 25.82，取整为 26",
+  "anchor": "T031b"
+ },
+ {
+  "num": "21607",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "SUR CE CIRCUIT, AUGMENTER LA VALEUR DE L PROVOQUE ?",
+  "options": [
+   "Une augmentation de courant",
+   "Une diminution de la fréquence de résonance",
+   "Une diminution de capacité",
+   "Une augmentation de la fréquence de résonance"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Une diminution de la fréquence de résonance",
+  "commentaire_fr": "Le fait d'augmenter la valeur de L provoque une diminution de la fréquence de résonance. Ceci est matérialisé par la formule de Thomson qui donne la fréquence de résonance (f) d'un circuit en fonction des paramètres L et C\n\nf = 1/[2 x pi x Racine carrée (LC)]\n\nToute augmentation de L ou C qui se trouvent au dénominateur, provoque une diminution de f. Inversement, toute diminution de la valeur de l'un de ces composants provoque une augmentation de f.\n",
+  "stem_zh": "在这个电路中，增大 L 的值会导致？",
+  "ans_zh": "谐振频率降低",
+  "com_zh": "增大 L 的值会使谐振频率降低。这一点由汤姆逊公式体现，该公式给出电路谐振频率 (f) 与参数 L、C 的关系。\n\nf = 1/[2 × π × √(LC)]\n\n位于分母上的 L 或 C 只要增大，都会使 f 降低。反之，减小这两个元件中任一个的值，都会使 f 升高。",
+  "anchor": "T043e"
+ },
+ {
+  "num": "21610",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA BONNE REPONSE ?",
+  "options": [
+   "1=tétrode, 2=triode, 3=pentode",
+   "1=triode, 2=pentode, 3=tétrode",
+   "1=pentode, 2=triode, 3=tétrode",
+   "1=triode, 2=tétrode, 3=pentode"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1=triode, 2=pentode, 3=tétrode",
+  "commentaire_fr": "Les tubes à vide sont caractérisés, entre autres, par leurs nombres d'électrodes.\n- La triode comporte 2 électrodes qui sont la cathode, la grille de commande, l'anode (ou plaque).\n\n- La tétrode comporte une électrode supplémentaire appelée \"grille écran\" dont le rôle est de réduire la capacité entre grille et plaque du tube.\n\n- La pentode est constituée de 5 électrodes. Une grille dite \"suppresseuse\" a été rajoutée à la tétrode entre l'écran et la plaque de manière à éliminer le phénomène d'émission secondaire.\n",
+  "stem_zh": "正确答案是哪个？",
+  "ans_zh": "1=三极管, 2=五极管, 3=四极管",
+  "com_zh": "真空电子管的特点之一是电极数目。\n- 三极管有 2 个电极（原文如此，实为 3 个），即阴极、控制栅极、阳极（或称板极）。\n\n- 四极管多了一个电极，称为「帘栅极」，其作用是减小管内栅极与板极之间的电容。\n\n- 五极管由 5 个电极构成。在四极管的帘栅极与板极之间又加了一个所谓「抑制栅极」，以消除二次发射现象。",
+  "anchor": "T066"
+ },
+ {
+  "num": "22460",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "POUR QUELLE BANDE DE DIPOLE DEMI-ONDE PRESENTERA-T-IL UNE IMPEDANCE DE 73 OHMS AU POINT D'ALIMENTATION ?",
+  "options": [
+   "80 m",
+   "40 m",
+   "30 m",
+   "20 m"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "40 m",
+  "commentaire_fr": "La longueur totale du dipole est de 20 m.\nIl est spécifié qu'il s'agit d'un dipole demi-onde.\nLa bande de travail sera donc le 40 m (= 2 x 20)\nL'impédance de 73 ohms est atteinte lorsque les brins sont alignés (comme dans le schéma). S'ils forment un angle, l'impédance sera plus faible (52 ohms pour un angle de 120° et 36 ohms pour un angle de 90°)\n",
+  "stem_zh": "对于哪个波段，半波偶极天线在馈电点会呈现 73 欧的阻抗？",
+  "ans_zh": "40 m",
+  "com_zh": "偶极天线的总长为 20 m。\n题目说明这是半波偶极天线。\n因此工作波段为 40 m（= 2 × 20）。\n当两臂成一条直线时（如图中所示），阻抗为 73 欧。若两臂成一定角度，阻抗会更低（120° 角时为 52 欧，90° 角时为 36 欧）。",
+  "anchor": "T094c"
+ },
+ {
+  "num": "22461",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "LA PROPAGATION DITE \"SPORADIQUE E\" UTILISE QUELLE COUCHE ?",
+  "options": [
+   "F1",
+   "F2",
+   "E",
+   "D"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "E",
+  "commentaire_fr": "Comme son nom l'indique, la sporadique E est liée à la couche E de la ionosphère.\n",
+  "stem_zh": "所谓「E 层突发」（sporadique E）传播利用的是哪一层？",
+  "ans_zh": "E",
+  "com_zh": "顾名思义，E 层突发与电离层的 E 层有关。",
+  "anchor": "T093c"
+ },
+ {
+  "num": "22462",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "QUEL EST LE NOM REPERE PAR UN POINT D'INTERROGATION DANS CETTE BOUCLE A VERROUILLAGE DE PHASE ?",
+  "options": [
+   "Comparateur de phase",
+   "Oscillateur",
+   "Comparateur de tension",
+   "Pré-diviseur"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Comparateur de phase",
+  "commentaire_fr": "Il s'agit du comparateur de phase.\nCet élément compare le signal issu du VCO (puis divisé par un disieur logique) à une fréquence fixe de référence.\nIl produit à sa sortie un signal proportionnel à l'écart de phase entre ces deux signaux.\nLe signal de sortie est ensuite filtré dans le filtre de boucle et envoyé au VCO (Oscillateur contrôlé en tension).\n",
+  "stem_zh": "在这个锁相环中，用问号标出的部分叫什么名字？",
+  "ans_zh": "鉴相器",
+  "com_zh": "这是鉴相器。\n它把来自 VCO 的信号（先经逻辑分频器分频）与一个固定的基准频率进行比较。\n其输出端产生一个与这两个信号之间相位差成正比的信号。\n该输出信号随后在环路滤波器中滤波，再送到 VCO（压控振荡器）。",
+  "anchor": "T075d"
+ },
+ {
+  "num": "22463",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "ON REALISE LE MONTAGE 1, LE VOLTMETRE INDIQUE UNE CERTAINE VALEUR.",
+  "options": [
+   "Supérieure",
+   "Impossible à calculer",
+   "Egale",
+   "Inférieure"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Supérieure",
+  "commentaire_fr": "On peut répondre à cette question par deux méthodes :\n1 - sans calcul, on voit qu'ajouter une résistance de 8 kΩ en parallèle sur 8 kΩ va donner une résistance équivalente de 4 kΩ.\nLe rapport du pont diviseur va donc changer en faisant croître la proportion de la tension sur la résistance du bas. La  tension va donc être plus importante sur la résistance de 6 kΩ.\n2 - par le calcul U1, tension aux bornes de la résistance de 6 kΩ.\nU1 = (Ux6) / (6+8)\nU1 = (10x6) / (6+8) = 4,28 V\nDans le second montage, la valeur U2 se calculera non plus avec 8 kΩ mais avec 4 kΩ (=8 / 2) car les résistances sont en parallèle\nU2 = (Ux6) / (6+4)\nU2 = 10x6) / (6+4) = 6 V\n",
+  "stem_zh": "做第 1 种接法时，电压表指示某个数值。",
+  "ans_zh": "更高",
+  "com_zh": "可以用两种方法回答此题：\n1 - 不算数值：可以看到，在 8 kΩ 上并联一个 8 kΩ 电阻，等效电阻为 4 kΩ。\n分压比因此改变，下方电阻上分得的电压比例增大。所以 6 kΩ 电阻上的电压会更大。\n2 - 通过计算 U1，即 6 kΩ 电阻两端的电压。\nU1 = (U×6) / (6+8)\nU1 = (10×6) / (6+8) = 4.28 V\n在第二种接法中，计算 U2 时不再是 8 kΩ，而是 4 kΩ（= 8 / 2），因为两电阻并联\nU2 = (U×6) / (6+4)\nU2 = (10×6) / (6+4) = 6 V",
+  "anchor": "T017a"
+ },
+ {
+  "num": "22465",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "ON DISPOSE DE 4 LONGUEURS DE CABLE COAXIAL.",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "4",
+  "commentaire_fr": "Calculons la longueur d'onde pour 28 MHz\nλ = 300/f soit 300/28 = 10,70 m\nLe quart d'onde vaut λ/4 = 10,70/4 = 2,67 m\n\nLe coefficient de velocité du câble est de 0,66.\nLe quart d'onde formé par un tronçon de câble coaxial sur 28 MHz vaudra :\nλ / 4 x coefficient de velocité\n2,67 x 0,66 = 1,77 m\n",
+  "stem_zh": "现有 4 段不同长度的同轴电缆。",
+  "ans_zh": "4",
+  "com_zh": "计算 28 MHz 的波长\nλ = 300/f 即 300/28 = 10.70 m\n四分之一波长为 λ/4 = 10.70/4 = 2.67 m\n\n电缆的速度系数为 0.66。\n28 MHz 时，由一段同轴电缆构成的四分之一波长将为：\nλ / 4 × 速度系数\n2.67 × 0.66 = 1.77 m",
+  "anchor": "T104a3"
+ },
+ {
+  "num": "22468",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "LEQUEL DE CES COMPOSANTS PEUT ASSURER UNE FONCTION D'AMPLIFICATION ?",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "3",
+  "commentaire_fr": "Il s'agit du transistor référencé 3. Les autres composants sont :\n\n1-diode\n2-pont de diodes\n4-quartz\n",
+  "stem_zh": "这些元件中哪个能实现放大功能？",
+  "ans_zh": "3",
+  "com_zh": "是标号为 3 的晶体管。其他元件是：\n\n1-二极管\n2-二极管电桥\n4-石英",
+  "anchor": "T061"
+ },
+ {
+  "num": "22469",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "POUR CHARGER UN CONDENSATEUR DE 10 MICROFARAD A UNE CHARGE DE 0,05 COULOMB,\nQUELLE TENSION DOIT-ON APPLIQUER ?",
+  "options": [
+   "5 000 V",
+   "500 V",
+   "15 000 V",
+   "800 V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "5 000 V",
+  "commentaire_fr": "La charge d'une capacité est donnée par la relation :\nQ = C x U avec Q en coulomb, C en Farad et U en Volt.\n\nLa tension de charge est donc : U = Q/C\n\nU = 0,05 / 10.10^-6\nU = 5.10^-2 x 10^6 / 10\nU = 5.10^(-2+6-1)\nU = 5.10^3\nU = 5 000 V\n",
+  "stem_zh": "要使一个 10 微法的电容器带上 0.05 库仑的电荷，应施加多大电压？",
+  "ans_zh": "5 000 V",
+  "com_zh": "电容的电荷由下式给出：\nQ = C × U，其中 Q 单位为库仑，C 单位为法拉，U 单位为伏特。\n\n充电电压因此为：U = Q/C\n\nU = 0.05 / 10.10^-6\nU = 5.10^-2 × 10^6 / 10\nU = 5.10^(-2+6-1)\nU = 5.10^3\nU = 5 000 V",
+  "anchor": "T023c8"
+ },
+ {
+  "num": "22470",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST APPROXIMATIVEMENT LA TENSION MESUREE AUX BORNES D'UNE DIODE GERMANIUM PASSANTE ?",
+  "options": [
+   "0 V",
+   "0,3 V",
+   "0,7 V",
+   "1,4 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,3 V",
+  "commentaire_fr": "La chute de tension aux bornes d'une diode au germanium dans le sens passant est approximativement de 0,3 V.\nPour les diodes au silicium (les plus courantes), la tension de seuil est comprise entre 0,6 et 0,7 volt et la chute de tension peut atteindre 1 volt lorsque le courant dans la diode atteint son maximum admissible par le composant.\n",
+  "stem_zh": "一个正向导通的锗二极管两端电压大约是多少？",
+  "ans_zh": "0.3 V",
+  "com_zh": "锗二极管正向导通时两端的压降约为 0.3 V。\n对于硅二极管（最常见），阈值电压在 0.6 至 0.7 伏之间；当二极管中的电流达到元件允许的最大值时，压降可达 1 伏。",
+  "anchor": "T052a"
+ },
+ {
+  "num": "22471",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "CONSTANTE DE TEMPS DE CE CIRCUIT ?",
+  "options": [
+   "0,94 s",
+   "0,094s",
+   "0,0094s",
+   "9,4 s"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "0,94 s",
+  "commentaire_fr": "La constante de temps est donnée par la relation :\nt = R x C avec t en secondes , R en Ω et C en F\n\nt = 20.10^3 x 47.10^-6 \nt = 940.10^(+3-6)\nt = 940.10^-3\nt = 940 ms ou t = 0,94 s\n",
+  "stem_zh": "这个电路的时间常数是多少？",
+  "ans_zh": "0.94 s",
+  "com_zh": "时间常数由下式给出：\nt = R × C，其中 t 单位为秒，R 单位为 Ω，C 单位为 F\n\nt = 20.10^3 × 47.10^-6\nt = 940.10^(+3-6)\nt = 940.10^-3\nt = 940 ms 或 t = 0.94 s",
+  "anchor": "T024a"
+ },
+ {
+  "num": "22472",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "IDEALEMENT, LA RESISTANCE INTERNE D'UN AMPEREMETRE DOIT-ETRE ?",
+  "options": [
+   "Nulle",
+   "Infinie",
+   "50 Ω",
+   "75 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Nulle",
+  "commentaire_fr": "L'ampèremètre se place toujours en série dans le circuit, donc pour éviter de perturber celui-ci et d'absorber de la puissance, sa résistance interne doit être aussi faible que possible.\n\nOn parle ici de la résistance interne de l'ampèremètre et non pas de celle du galvanomètre qui est un élément de l'instrument de mesure.\n",
+  "stem_zh": "理想情况下，电流表的内阻应当是？",
+  "ans_zh": "零",
+  "com_zh": "电流表总是串联在电路中，因此为避免干扰电路并消耗功率，其内阻应尽可能小。\n\n这里说的是电流表的内阻，而不是作为测量仪器组成部件之一的检流计的内阻。",
+  "anchor": "T034b"
+ },
+ {
+  "num": "22474",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "QUELLE FIGURE CORRESPOND AU DIAGRAMME \nDE RAYONNENNEMENT D'UN DIPOLE DEMI-ONDE EN ESPACE LIBRE ?",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2",
+  "commentaire_fr": "Il s'agit de la figue N°2 .\nOn identifie facilement ce diagramme par ses deux lobes en forme de 8.\n",
+  "stem_zh": "哪张图对应自由空间中半波偶极天线的辐射方向图？",
+  "ans_zh": "2",
+  "com_zh": "是第 2 号图。\n很容易通过它形如「8」字的两个波瓣认出这个方向图。",
+  "anchor": "T097b"
+ },
+ {
+  "num": "22476",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUEL EST LE MODE DE TRANSMISSION QUI EST DEMODULE PAR UN DETECTEUR D'ENVELOPPE ?",
+  "options": [
+   "FM",
+   "AM",
+   "SSB",
+   "LSB"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "AM",
+  "commentaire_fr": "La CW et la SSB/LSB sont démodulées par un détecteur de produit.\nLa FM nécessite un discriminateur.\nl'AM nécessite un détecteur d'enveloppe.\n",
+  "stem_zh": "哪种传输模式由包络检波器解调？",
+  "ans_zh": "AM",
+  "com_zh": "CW 和 SSB/LSB 由乘积检波器解调。\nFM 需要鉴频器。\nAM 需要包络检波器。",
+  "anchor": "T122"
+ },
+ {
+  "num": "22477",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "QUEL EST LE MODE DE TRANSMISSION QUI EST DEMODULE PAR UN DISCRIMINATEUR ?",
+  "options": [
+   "AM",
+   "BLU",
+   "FM",
+   "CW"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "FM",
+  "commentaire_fr": "La CW et la SSB/LSB sont démodulées par un détecteur de produit.\nLa FM nécessite un discriminateur.\nl'AM nécessite un détecteur d'enveloppe.\n",
+  "stem_zh": "哪种传输模式由鉴频器解调？",
+  "ans_zh": "FM",
+  "com_zh": "CW 和 SSB/LSB 由乘积检波器解调。\nFM 需要鉴频器。\nAM 需要包络检波器。",
+  "anchor": "T122"
+ },
+ {
+  "num": "22479",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "SUR QUELLE VUE D'OSCILLOSCOPE EST REPRESENTE UNE TRANSMISSION EN A3E ?",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "4",
+  "commentaire_fr": "La classe d'émission A3E corespond à la modulation d'amplitude (AM). Deux représentations voient leurs valeurs crêtes varier : la n° 2 et la n°4. \nOn voit que, sur la représentation n°2, aucun signal n'est relevé par l'oscilloscope entre deux \"enveloppes\" (effet de la suppression de la porteuse). Alors que, sur la représentation n°4, il y a toujours un signal, même s'il reste faible.\nLe schéma n°2 représente la BLU tandis que le schéma n°4 représente l'AM.\n",
+  "stem_zh": "哪一幅示波器图显示的是 A3E 类发射？",
+  "ans_zh": "4",
+  "com_zh": "发射类别 A3E 对应调幅（AM）。有两幅图可以看出其峰值在变化：第 2 号和第 4 号。\n可以看到，在第 2 号图上，示波器在两个「包络」之间测不到任何信号（抑制载波的效果）。而在第 4 号图上始终有信号，尽管很微弱。\n第 2 号图表示 BLU，第 4 号图表示 AM。",
+  "anchor": "T121a"
+ },
+ {
+  "num": "22480",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "SUR QUELLE VUE D'OSCILLOSCOPE EST REPRESENTE UNE TRANSMISSION EN F3E ?",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1",
+  "commentaire_fr": "La classe d'émission F3E corespond à la modulation de fréquence (FM). La représentation d'une telle modulation devrait montrer une amplitude quasi constante. C'est la cas du schéma n°1.\n",
+  "stem_zh": "哪一幅示波器图显示的是 F3E 类发射？",
+  "ans_zh": "1",
+  "com_zh": "发射类别 F3E 对应调频（FM）。这种调制的图形应当显示出几乎恒定的幅度。第 1 号图就是这种情况。",
+  "anchor": "T121a"
+ },
+ {
+  "num": "22481",
+  "theme_fr": "Synoptiques d'émetteurs et de récepteurs",
+  "theme_zh": "收发信机方框图",
+  "stem_fr": "SUR CE SYNOPTIQUE PARTIEL, QUELLE SERA LA COUVERTURE DE FREQUENCE DU BLOC NOTE VFO DE MANIERE A CE QUE CE RECEPTEUR RECOIVE EN 3 ET 30 MHZ ?",
+  "options": [
+   "3 à 30 MHz",
+   "25 à 45 MHz",
+   "5 à 5,5 MHz",
+   "73 à 100 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "73 à 100 MHz",
+  "commentaire_fr": "Par élimination, seule la valeur 73 à 100 MHz fonctionne.\nPour un signal incident de 3 MHz, le VFO aura une fréquence de 73 MHz.\nLa soustraction dans le mélangeur 73-3 produita un signal FI de 70 MHz.\n\nA l'autre extrémité, pour un signal incident de 30 MHz, le VFO aura pour fréquence 100 MHz ce qui, par différence , produira un signal FI de 70 MHz.\n",
+  "stem_zh": "在这个局部方框图中，标为 VFO 的那一方框的频率覆盖范围应是多少，才能使该接收机接收 3 和 30 MHz？",
+  "ans_zh": "73 至 100 MHz",
+  "com_zh": "用排除法，只有 73 至 100 MHz 这个值可行。\n对于 3 MHz 的输入信号，VFO 的频率为 73 MHz。\n在混频器中相减 73-3 将产生 70 MHz 的中频信号。\n\n在另一端，对于 30 MHz 的输入信号，VFO 的频率为 100 MHz，相减后同样产生 70 MHz 的中频信号。",
+  "anchor": "T112b"
+ },
+ {
+  "num": "22482",
+  "theme_fr": "Condensateurs et bobines (séparés)",
+  "theme_zh": "电容与线圈（单独）",
+  "stem_fr": "QUEL TERME DECRIT LE TEMPS QUE PREND UN CONDENSATEUR POUR SE CHARGER A 63,2% DE LA TENSION FOURNIE PAR LE GENERATEUR ?",
+  "options": [
+   "Le taux croissant",
+   "La constante de temps",
+   "Le facteur de temps",
+   "Une période"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "La constante de temps",
+  "commentaire_fr": "Il s'agit de la constante de temps. Le taux de charge est souvent arrondi à 2/3 (soit 0,66) mais 63,2% est le taux réeel issu de la formule 1 - (1 / e) avec e = 2,718\n",
+  "stem_zh": "哪个术语描述电容器充电到电源电压 63.2% 所需的时间？",
+  "ans_zh": "时间常数",
+  "com_zh": "这是时间常数。充电率常被取整为 2/3（即 0.66），但 63.2% 才是由公式 1 - (1 / e)（e = 2.718）得出的真实比率。",
+  "anchor": "T024a"
+ },
+ {
+  "num": "22483",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE FACTEUR DE QUALITE \"Q\" D'UN CIRCUIT RLC PARALLELE A LA RESONANCE ?",
+  "options": [
+   "39",
+   "0,0256",
+   "11",
+   "25"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "39",
+  "commentaire_fr": "Q pour un circuit parallèle = R / (racine [L / C])\nAvec cette formule, nous avons besoin des valeurs de R, L et C. Or nous n'avons pas la valeur de C dans le schéma. Il faut donc commencer par calculer C à partir de la formule issue de la loi de Thomson, F=1/[2 x pi x racine(L x C)] :\nC = 1 / (4 x pi² x F² x L) = 1 / [39,49 x (7,125.10^6)² x 12,6.10^-6] \nC = 1 / 2,53.10^-10 = 3,96.10^-11 \nC = 39,6 pF\nNous avons à présent R, L et C et nous pouvons utiliser notre formule :\nQ = R / racine ([L / C]) = 22.10^2 / racine [12,6.10^-6 / 39,6.10^-12)]\nQ = 22000 / racine (3,18.10^5) = 22000 / 564 = 39\nCette question (qui n'a jamais été posée lors d'une épreuve) dépasse largement  les connaissances à maîtriser pour l'examen (elle nécessite un temps très long pour y répondre) mais toutes les formules mentionnées ci-dessus et leurs variantes sont au programme.\n",
+  "stem_zh": "并联 RLC 电路在谐振时的品质因数 Q 是多少？",
+  "ans_zh": "39",
+  "com_zh": "并联电路的 Q = R / √[L / C]\n\n用这个公式需要 R、L 和 C 的值。但图中没有给出 C 的值。因此必须先由汤姆逊定律的公式 F = 1/[2 × π × √(L × C)] 算出 C：\n\nC = 1 / (4 × π² × F² × L) = 1 / [39.49 × (7.125.10^6)² × 12.6.10^-6]\nC = 1 / 2.53.10^-10 = 3.96.10^-11\nC = 39.6 pF\n\n现在我们有了 R、L 和 C，就可以用我们的公式：\nQ = R / √[L / C] = 22.10^2 / √[12.6.10^-6 / 39.6.10^-12]\nQ = 22000 / √(3.18.10^5) = 22000 / 564 = 39\n\n这道题（从未在任何一次考试中出现过）远远超出考试需要掌握的知识范围（答这道题需要很长时间），但上面提到的所有公式及其变形都在大纲之内。",
+  "anchor": "T044b3"
+ },
+ {
+  "num": "23723",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "IMPEDANCE A L'ENTREE DE CE TRANSFORMATEUR PARFAIT",
+  "options": [
+   "3,3 Ω",
+   "0,1 Ω",
+   "2700 Ω",
+   "90 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2700 Ω",
+  "commentaire_fr": "N = rapport de transfo = 100 / 3000 = 1/30 ; Zs = Ze / N² = 3  x 30 x 30 = 2700\n",
+  "stem_zh": "这个理想变压器输入端的阻抗",
+  "ans_zh": "2700 Ω",
+  "com_zh": "N = 变压比 = 100 / 3000 = 1/30 ；Zs = Ze / N² = 3 × 30 × 30 = 2700",
+  "anchor": "T031b"
+ },
+ {
+  "num": "23727",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE DANS LA CHARGE",
+  "options": [
+   "50 W ",
+   "500 W",
+   "25 W",
+   "250 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "250 W",
+  "commentaire_fr": "P = RI² = 1000 x 0,5 x 0,5 = 250 W\n",
+  "stem_zh": "负载中耗散的功率",
+  "ans_zh": "250 W",
+  "com_zh": "P = RI² = 1000 × 0.5 × 0.5 = 250 W",
+  "anchor": "T012a"
+ },
+ {
+  "num": "23740",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FACTEUR DE QUALITE A LA RESONANCE",
+  "options": [
+   "1000",
+   "5",
+   "100",
+   "Infini"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100",
+  "commentaire_fr": "formule simplifiée : Q = √ [L(µH) / C(pF)] / R(kΩ) \n= √ (25 / 100) / 0,005 = √ (0,25) / 0,005 \n= 0,5 / 0,005 = 100. \nAttention à la représentation non conventionnelle de la bobine.\n",
+  "stem_zh": "谐振时的品质因数",
+  "ans_zh": "100",
+  "com_zh": "简化公式：Q = √[L(µH) / C(pF)] / R(kΩ)\n= √(25 / 100) / 0.005 = √(0.25) / 0.005\n= 0.5 / 0.005 = 100.\n注意线圈的画法不规范。",
+  "anchor": "T044b1"
+ },
+ {
+  "num": "23744",
+  "theme_fr": "Rôle des différents étages RF, haut-parleur, micro",
+  "theme_zh": "各级射频电路的作用、扬声器、话筒",
+  "stem_fr": "ROLE DE L'ETAGE REPRESENTE PAR \" ? \"",
+  "options": [
+   "Oscillateur",
+   "Filtre passe bas",
+   "Démodulateur AM",
+   "Détecteur"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Oscillateur",
+  "commentaire_fr": "L’étage lié au modulateur AM peut être un oscillateur ou l’entrée du signal modulant. Ce dernier étage est déjà représenté (présence du micro et d'un ampli audio), il ne reste donc plus que l’oscillateur.\n",
+  "stem_zh": "用「?」表示的那一级有什么作用",
+  "ans_zh": "振荡器",
+  "com_zh": "与 AM 调制器相连的那一级可以是振荡器，也可以是调制信号的输入端。后一级已经画出（有话筒和音频放大器），因此只剩下振荡器。",
+  "anchor": "T123d"
+ },
+ {
+  "num": "23746",
+  "theme_fr": "Antennes, couplage, propagation, ligne de transmis",
+  "theme_zh": "Antennes, couplage, propagation, ligne de transmis",
+  "stem_fr": "GAIN ANTENNE COUPLEE",
+  "options": [
+   "3 dB ",
+   "12 dB",
+   "9 dB",
+   "6 dB"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "9 dB",
+  "commentaire_fr": "coupler 2 antennes identiques amène un gain de 3 dB : 6 + 3 = 9 dB\n",
+  "stem_zh": "组合天线的增益",
+  "ans_zh": "9 dB",
+  "com_zh": "把两副相同的天线组合起来可带来 3 dB 的增益：6 + 3 = 9 dB",
+  "anchor": "T0910h"
+ },
+ {
+  "num": "23753",
+  "theme_fr": "Code des couleurs des résistances",
+  "theme_zh": "电阻色环码",
+  "stem_fr": "DESSIN D'UNE RESISTANCE AVEC 4 BAGUES : VERT, BLEU, MARRON, OR",
+  "options": [
+   "680 Ω",
+   "560 Ω",
+   "56 Ω",
+   "68 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "560 Ω",
+  "commentaire_fr": "Vert = 5 ; Bleu = 6 ; Marron = 1 ; donc 56 x 10^1 = 56 x 10 = 560 Ω\n",
+  "stem_zh": "一个四色环电阻的画法：绿、蓝、棕、金",
+  "ans_zh": "560 Ω",
+  "com_zh": "绿 = 5 ；蓝 = 6 ；棕 = 1 ；所以 56 × 10^1 = 56 × 10 = 560 Ω",
+  "anchor": "T015a"
+ },
+ {
+  "num": "23800",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULES FAUSSES",
+  "options": [
+   "2, 4",
+   "1, 3",
+   "1, 3, 4",
+   "2, 3, 4"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "2, 4",
+  "commentaire_fr": "Les formules exactes sont : I = U/R ; Q = t x I ; la formule 3 devrait s’écrire P = U²/R\n",
+  "stem_zh": "错误公式",
+  "ans_zh": "2, 4",
+  "com_zh": "正确的公式是：I = U/R ；Q = t × I ；公式 3 应写成 P = U²/R",
+  "anchor": "T013"
+ },
+ {
+  "num": "23801",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULES EXACTES\n",
+  "options": [
+   "2, 3",
+   "1, 2",
+   "1, 3, 4",
+   "4"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "4",
+  "commentaire_fr": "Les formules exactes sont : P = RI² (ou P = U²/R) ; W = U² x t / R ; W = RI²t\n",
+  "stem_zh": "正确公式",
+  "ans_zh": "4",
+  "com_zh": "正确的公式是：P = RI²（或 P = U²/R）；W = U² × t / R ；W = RI²t",
+  "anchor": "T013"
+ },
+ {
+  "num": "23802",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "FORMULES EXACTES\n",
+  "options": [
+   "1, 2",
+   "1, 2, 3",
+   "2, 3, 4",
+   "3, 4"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1, 2, 3",
+  "commentaire_fr": "La seule formule fausse est la n°4\nLa formule vraie : W = RI²t (proposée dans la formule 2)\n",
+  "stem_zh": "正确的公式",
+  "ans_zh": "1、2、3",
+  "com_zh": "唯一错误的是第 4 个公式。正确的公式：W = RI²t（出现在第 2 个选项中）。",
+  "anchor": "T013"
+ },
+ {
+  "num": "23803",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "TENSION DU GENERATEUR",
+  "options": [
+   "825 V ",
+   " 0,15 V",
+   "165 V",
+   "6,6 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "165 V",
+  "commentaire_fr": "U = R x I = 33 x 5 = 165 V\n",
+  "stem_zh": "电源电压",
+  "ans_zh": "165 V",
+  "com_zh": "U = R × I = 33 × 5 = 165 V",
+  "anchor": "T012a"
+ },
+ {
+  "num": "23804",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "TENSION DU GENERATEUR",
+  "options": [
+   "9 V ",
+   " 90 V",
+   "5,4 V",
+   "540 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": " 90 V",
+  "commentaire_fr": "U = R x I = 1500 x 0,06 = 90 V\n",
+  "stem_zh": "电源电压",
+  "ans_zh": "90 V",
+  "com_zh": "U = R × I = 1500 × 0.06 = 90 V",
+  "anchor": "T012a"
+ },
+ {
+  "num": "23806",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "PUISSANCE DISSIPEE DANS LA CHARGE",
+  "options": [
+   "825 W ",
+   "16,5 mW",
+   "82,5 W",
+   "165 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "82,5 W",
+  "commentaire_fr": "P = RI² =330 x 0,5 x 0,5 = 82,5 W\n",
+  "stem_zh": "负载中耗散的功率",
+  "ans_zh": "82.5 W",
+  "com_zh": "P = RI² = 330 × 0.5 × 0.5 = 82.5 W",
+  "anchor": "T012a"
+ },
+ {
+  "num": "23817",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TENSION AUX BORNES DE R",
+  "options": [
+   "500 V ",
+   "55 V",
+   "10,6 V",
+   "800 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "55 V",
+  "commentaire_fr": "Us = Ue x (Ns / Ne) = 220 x (250 / 1000) = 220 / 4 = 55. L’intensité au primaire ne sert à rien.\n",
+  "stem_zh": "R 两端的电压",
+  "ans_zh": "55 V",
+  "com_zh": "Us = Ue × (Ns / Ne) = 220 × (250 / 1000) = 220 / 4 = 55。初级电流在此没有用。",
+  "anchor": "T031b"
+ },
+ {
+  "num": "30002",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES G ET T ?",
+  "options": [
+   "Guatémala et Tango",
+   "Golf et Tokyo",
+   "Galaxy et Tanganika",
+   "Golf et Tango"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Golf et Tango",
+  "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+  "stem_zh": "* 用国际字母解释法表，字母 G 和 T 怎么读？",
+  "ans_zh": "Golf 和 Tango",
+  "com_zh": "字母解释法表是最先要记住的东西。",
+  "anchor": "R31"
+ },
+ {
+  "num": "30005",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA BANDE PARTAGEE A STATUT SECONDAIRE ?",
+  "options": [
+   "430 à 434 MHz",
+   "434 à 440 MHz",
+   "7,000 à 7,200 MHz",
+   "14,000 à 14,250 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "430 à 434 MHz",
+  "commentaire_fr": "Pour vous rappeler de cette question, mémorisez que c'est la première partie de la bande qui est secondaire (statut C). La seconde partie de la bande est à égalité de droits (statut B)\n",
+  "stem_zh": "哪个是共享的、具有次要业务地位的频段？",
+  "ans_zh": "430 至 434 MHz",
+  "com_zh": "为了记住这道题，请记住：该频段的前一半是次要的（C 类地位）。频段的后一半是平等使用权（B 类地位）。",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30007",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "* UN COAXIAL D'UNE LONGUEUR DE 100 METRES A UNE PERTE DE 0,03 DB PAR METRE.\nLA PUISSANCE DE SORTIE SERA DIVISEE PAR COMBIEN ?",
+  "options": [
+   "2",
+   "3",
+   "20",
+   "30"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "2",
+  "commentaire_fr": "Perte du coaxial : 0,03 x 100 = 3 dB ; -3 dB correspond à une puissance réduite de moitié (divisée par 2)\n",
+  "stem_zh": "* 一根长 100 米的同轴电缆，每米损耗 0.03 dB。输出功率将被除以多少？",
+  "ans_zh": "2",
+  "com_zh": "同轴电缆的损耗：0.03 × 100 = 3 dB ；-3 dB 相当于功率减少一半（除以 2）",
+  "anchor": "R53a"
+ },
+ {
+  "num": "30023",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "DANS QUELLE BANDE LE SERVICE D'AMATEUR PAR SATELLITE (A.M.S.) EST-IL\nAUTORISE ?",
+  "options": [
+   "3,500 à 3,800 MHz",
+   "10,100 à 10,150 MHz",
+   "21,000 à 21,450 MHz",
+   "50,200 à 51,200 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "21,000 à 21,450 MHz",
+  "commentaire_fr": "",
+  "stem_zh": "业余卫星业务（A.M.S.）被允许在哪个频段使用？",
+  "ans_zh": "21.000 至 21.450 MHz",
+  "com_zh": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30025",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EN ALPHABET PHONETIQUE, COMMENT EPPELLE-T-ON LA LETTRE R ?",
+  "options": [
+   "Radio",
+   "Romeo",
+   "Richard",
+   "Rome"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Romeo",
+  "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+  "stem_zh": "用字母解释法表，字母 R 怎么读？",
+  "ans_zh": "Romeo",
+  "com_zh": "字母解释法表是最先要记住的东西。",
+  "anchor": "R31"
+ },
+ {
+  "num": "30028",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUEL EST LE STATUT DE LA BANDE SUIVANTE ?\n18,068 A 18,168 MHZ ?",
+  "options": [
+   "Exclusif",
+   "Secondaire",
+   "A égalité de droit",
+   "Précaire et révocable"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Exclusif",
+  "commentaire_fr": "Une bande exclusive a un statut primaire (statut A)\n",
+  "stem_zh": "* 下面这个频段的业务地位是什么？18.068 至 18.168 MHz？",
+  "ans_zh": "专用",
+  "com_zh": "专用频段具有主要业务地位（A 类地位）。",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30031",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "DE QUOI DOIT S'ASSURER UN AMATEUR AVANT D'EMETTRE ?",
+  "options": [
+   "Que la puissance d'émission est à son maximum",
+   "Qu'il ne brouille pas une émission en cours",
+   "Que son antenne est correctement orientée",
+   "Que son indicateur de R.O.S est en fonction"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Qu'il ne brouille pas une émission en cours",
+  "commentaire_fr": "",
+  "stem_zh": "业余无线电爱好者在发射之前必须确认什么？",
+  "ans_zh": "确认自己不会干扰正在进行的发射",
+  "com_zh": "",
+  "anchor": "R33a"
+ },
+ {
+  "num": "30039",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* EXCURSION DE FREQUENCE MAXIMALE A NE PAS DEPASSER DANS LES BANDES VHF ?",
+  "options": [
+   "20 kHz",
+   "6 kHz",
+   "15 kHz",
+   "3 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "20 kHz",
+  "commentaire_fr": "Depuis la décision 12-1241, la largeur de la bande passante ne peut dépasser :\n6 kHz jusqu'à 28 MHz\n12 kHz de 28 à 144 MHz\n20 kHz de 144 à 225 MHz\npas de milite au delà de 225 MHz\nLes VHF couvrent toutes les fréquences de 30 à 300 MHz. Donc la largeur de bande sur 50 MHz est 12 kHz et 20 kHz sur 144 MHz. Sur 225 MHz (bande ouverte au trafic en région 2), la largeur de bande n'a pas de limite (cette réponse n'est pas proposée ici).\n",
+  "stem_zh": "* 在 VHF 频段中不得超过的最大频率偏移是多少？",
+  "ans_zh": "20 kHz",
+  "com_zh": "自 12-1241 号决定以来，占用带宽不得超过：\n28 MHz 以下为 6 kHz\n28 至 144 MHz 为 12 kHz\n144 至 225 MHz 为 20 kHz\n225 MHz 以上没有限制\nVHF 覆盖 30 至 300 MHz 的所有频率。因此 50 MHz 上的带宽为 12 kHz，144 MHz 上为 20 kHz。在 225 MHz 上（第 2 区开放使用的频段），带宽没有限制（本题未给出该选项）。",
+  "anchor": "R13b"
+ },
+ {
+  "num": "30045",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUELLE EST LA DISTANCE A RESPECTER ENTRE VOTRE STATION ET DES INSTALLATIONS\nDE RADIO-COMMUNICATIONS APPARTENANT A L'ADMINISTRATION ?",
+  "options": [
+   "1 kilomètre",
+   "2 kilomètres",
+   "3 kilomètres",
+   "5 kilomètres"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1 kilomètre",
+  "commentaire_fr": "Dans des conditions bien particulières annexées au Plan Local d’Urbanisme consultable en Mairie (centre de réception de 1ère catégorie)\n",
+  "stem_zh": "你的电台与属于行政机关的无线电通信设施之间应保持多大距离？",
+  "ans_zh": "1 千米",
+  "com_zh": "在《地方城市规划》（可在市政厅查阅）所附的特定条件下（第一类接收中心）",
+  "anchor": "R22c"
+ },
+ {
+  "num": "30046",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "JE SUIS A BICYCLETTE ET JE TRAFIQUE AVEC UN PORTABLE VHF.\nQUE DOIS-JE ANNONCER A LA FIN DE MON INDICATIF ?",
+  "options": [
+   "F1XYZ/PM",
+   "F1XYZ/P",
+   "F1XYZ/B",
+   "F1XYZ/M"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "F1XYZ/M",
+  "commentaire_fr": "Attention, un appareil portatif (appelé portable en français) n'est pas transportable (suffixe P) mais est mobile (suffixe M). Les termes utilisés (mobile et portable) doivent prendre le sens des mots anglais (rappelons que les anglais nomment leur téléphone GSM \"mobile phone\")\n",
+  "stem_zh": "我骑自行车，用一台 VHF 手持台通联。我应在呼号末尾加上什么？",
+  "ans_zh": "F1XYZ/M",
+  "com_zh": "注意：一台 portatif（法语中称 portable）设备不属于「可搬运的」（后缀 P），而属于「移动的」（后缀 M）。这里使用的术语（mobile 与 portable）必须按英语词义理解（提醒一下：英国人把他们的 GSM 电话称为 mobile phone）。",
+  "anchor": "R42a"
+ },
+ {
+  "num": "30047",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* DANS QUELLE BANDE LE TRAFIC RADIOAMATEUR PAR SATELLITE (AMS) EST-IL AUTORISE ?\n1) 21,000 - 21,450 MHZ\n2) 24,890 - 24,990 MHZ\n3) 28,000 - 29,700 MHZ\n4) 144 - 146 MHZ",
+  "options": [
+   "1",
+   "1-2",
+   "1-2-3-4",
+   "3-4"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1-2-3-4",
+  "commentaire_fr": "",
+  "stem_zh": "* 业余卫星通信（AMS）被允许在哪些频段进行？1) 21.000 - 21.450 MHz 2) 24.890 - 24.990 MHz 3) 28.000 - 29.700 MHz 4) 144 - 146 MHz",
+  "ans_zh": "1-2-3-4",
+  "com_zh": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30053",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SIGNIFICATION DE F2A ?",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2",
+  "commentaire_fr": "",
+  "stem_zh": "* F2A 的含义是什么？",
+  "ans_zh": "2",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30054",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* PUISSANCE DE SORTIE AUTORISEE POUR LA CLASSE 3 DANS UN PAYS LIMITROPHE A\nLA FRANCE ?",
+  "options": [
+   "0 W",
+   "2 W",
+   "5 W",
+   "10 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "0 W",
+  "commentaire_fr": "Les opérateurs de classe 3 (qui ont donc obtenu leur certificat d'opérateur avant 2012) ne peuvent pas émettre hors de France car leur certificat d'opérateur n'a pas d'équivalence CEPT.\n",
+  "stem_zh": "* 在法国的邻国，3 类操作员被允许的输出功率是多少？",
+  "ans_zh": "0 W",
+  "com_zh": "3 类操作员（即在 2012 年之前取得操作员证书者）不能在法国以外发射，因为他们的操作员证书不具备 CEPT 等效性。",
+  "anchor": "R46e"
+ },
+ {
+  "num": "30055",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* VOUS EMETTEZ A BORD D'UNE PENICHE.\nCOMMENT DEVEZ-VOUS FORMULER VOTRE INDICATIF ?",
+  "options": [
+   "F1XYZ",
+   "F1XYZ/P",
+   "F1XYZ/MM",
+   "F1XYZ/M"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "F1XYZ/M",
+  "commentaire_fr": "L'émission à bord d'une péniche est considérée comme une émission mobile,  il faut donc faire suivre son indicatif par la lettre M. Le suffixe MM est réservé aux stations installée sur un navire émettant en dehors des eaux territoriales (à plus de 12 milles nautiques des côtes)\n",
+  "stem_zh": "* 你在一条驳船上发射。你的呼号应如何构成？",
+  "ans_zh": "F1XYZ/M",
+  "com_zh": "在驳船上发射被视为移动发射，因此须在呼号后加上字母 M。后缀 MM 保留给安装在船舶上、在领水之外（距海岸 12 海里以上）发射的电台。",
+  "anchor": "R42a"
+ },
+ {
+  "num": "30060",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "QUEL ORGANISME EN FRANCE GERE LES FREQUENCES ?",
+  "options": [
+   "ARCEP",
+   "CEPT",
+   "CNCL",
+   "ANFR"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "ANFR",
+  "commentaire_fr": "L’ANFR a pour mission d’assurer la gestion et le contrôle d’utilisation des fréquences radioélectriques. La CNCL n’existe plus et a été remplacée par le CSA (La CNCL puis le CSA ont été de 1986 à 1990 les administrations de tutelle des radioamateurs). L’ARCEP gère une partie des utilisateurs du spectre radioélectrique (dont le service d'amateur) et définit leur condition d’exploitation en leur attribuant des fréquences. La CEPT rassemble les autorités réglementaires des pays européens\n",
+  "stem_zh": "在法国，哪个机构负责管理频率？",
+  "ans_zh": "ANFR",
+  "com_zh": "ANFR 的任务是确保无线电频率的管理与使用监管。CNCL 已不复存在，被 CSA 取代（1986 至 1990 年间，CNCL 与后来的 CSA 是业余无线电爱好者的主管机构）。ARCEP 管理无线电频谱的一部分使用者（其中包括业余业务），并通过为其指配频率来确定其使用条件。CEPT 汇集了欧洲各国的主管机构。",
+  "anchor": "R11c"
+ },
+ {
+  "num": "30062",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "* UN EMETTEUR A UNE PUISSANCE DE 5 WATTS.\nON PORTE SA PUISSANCE A 10 WATTS.\nQUEL EN SERA LE GAIN EN PUISSANCE ?",
+  "options": [
+   "3 dB",
+   "2 dB",
+   "5 dB",
+   "6 dB"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "3 dB",
+  "commentaire_fr": "Un rapport de puissance de 2 correspond à un gain de 3 dB.\n",
+  "stem_zh": "* 一台发射机的功率为 5 瓦。把它的功率提高到 10 瓦。功率增益将是多少？",
+  "ans_zh": "3 dB",
+  "com_zh": "功率比为 2 对应 3 dB 的增益。",
+  "anchor": "R51a"
+ },
+ {
+  "num": "30063",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "QUE SIGNIFIE LES LETTRES :\nU . I . T",
+  "options": [
+   "Université Internationale des Transmissions",
+   "Union Internationale des Transmissions",
+   "Union Internationale des Télécommunications",
+   "Unité Internationale des Télécommunications"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Union Internationale des Télécommunications",
+  "commentaire_fr": "",
+  "stem_zh": "字母 U . I . T 代表什么？",
+  "ans_zh": "国际电信联盟（Union Internationale des Télécommunications）",
+  "com_zh": "",
+  "anchor": "R11a"
+ },
+ {
+  "num": "30064",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "LE CONTROLE DE VOTRE STATION D'AMATEUR PEUT AVOIR LIEU ?",
+  "options": [
+   "Uniquement le Week-End",
+   "Après avoir pris rendez-vous avec l'ANFR",
+   "Entre 8 et 20 heures",
+   "Uniquement du lundi au vendredi"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Entre 8 et 20 heures",
+  "commentaire_fr": "Le contrôle ne peut avoir lieu qu’avec une commission rogatoire délivré par un juge et sera effectué par les agents de l’ANFR\n",
+  "stem_zh": "对你的业余电台的检查可能在什么时候进行？",
+  "ans_zh": "8 点至 20 点之间",
+  "com_zh": "检查只能在持有法官签发的委托查证令的情况下进行，并由 ANFR 的工作人员执行。",
+  "anchor": "R44b"
+ },
+ {
+  "num": "30065",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "QUEL EST LE ROLE D'UNE BOITE DE COUPLAGE ?",
+  "options": [
+   "Elle permet d'orienter son antenne",
+   "Elle permet de coupler 2 antennes",
+   "Elle permet d'accorder son antenne",
+   "Elle permet de coupler 2 émetteurs"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Elle permet d'accorder son antenne",
+  "commentaire_fr": "",
+  "stem_zh": "匹配箱（天线调谐器）的作用是什么？",
+  "ans_zh": "可以用它来调谐自己的天线",
+  "com_zh": "",
+  "anchor": "R53d"
+ },
+ {
+  "num": "30068",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "VOUS ETES TITULAIRE D'UN INDICATIF DE CLASSE 3, POUVEZ VOUS EMETTRE EN\nMODE A2A ?",
+  "options": [
+   "Oui, dans tous les cas",
+   "Oui, mais uniquement de 144,000 MHz à 144,300 MHz",
+   "Non",
+   "Oui, mais uniquement de 144,000 MHz à 144,050 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Oui, dans tous les cas",
+  "commentaire_fr": "",
+  "stem_zh": "你持有 3 类呼号的执照，你能用 A2A 模式发射吗？",
+  "ans_zh": "可以，在任何情况下都可以",
+  "com_zh": "",
+  "anchor": "R47e"
+ },
+ {
+  "num": "30071",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES D ET W ?",
+  "options": [
+   "Danemark et Whiskey",
+   "Dany et Whiskey",
+   "Delta et Whiskey",
+   "Delta et Wally"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Delta et Whiskey",
+  "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+  "stem_zh": "* 用国际字母解释法表，字母 D 和 W 怎么读？",
+  "ans_zh": "Delta 和 Whiskey",
+  "com_zh": "字母解释法表是最先要记住的东西。",
+  "anchor": "R31"
+ },
+ {
+  "num": "30073",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA BANDE PARTAGEE A EGALITE DE DROIT EN REGION 1 ?",
+  "options": [
+   "14,000 à 14,350 MHz",
+   "3,500 à 3,800 MHz",
+   "10,100 à 10,150 MHz",
+   "18,068 à 18,168 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "3,500 à 3,800 MHz",
+  "commentaire_fr": "",
+  "stem_zh": "1 区中平等共享的频段是哪一个？",
+  "ans_zh": "3.500 至 3.800 MHz",
+  "com_zh": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30074",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "ETENDUE DES ONDES DECIMETRIQUES ?",
+  "options": [
+   "0,3 à 3 GHz",
+   "3 à 30 GHz",
+   "3 à 30 kHz",
+   "3 à 30 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "0,3 à 3 GHz",
+  "commentaire_fr": "",
+  "stem_zh": "分米波的范围是多少？",
+  "ans_zh": "0.3 至 3 GHz",
+  "com_zh": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "30078",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUEL EST LE SUJET DE CONVERSATIONS AUTORISEES LORS DE LIAISONS RADIO ?",
+  "options": [
+   "Adresse des amateurs de la région",
+   "Réglementation radioamateur",
+   "Editeurs de livres techniques",
+   "Médecine naturelle"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Réglementation radioamateur",
+  "commentaire_fr": "",
+  "stem_zh": "在无线电联络中，允许谈论的话题是什么？",
+  "ans_zh": "业余无线电法规",
+  "com_zh": "",
+  "anchor": "R34a"
+ },
+ {
+  "num": "30079",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUEL EST LE RENSEIGNEMENT QUI N'EST PAS OBLIGATOIRE DANS LE JOURNAL DE BORD ?",
+  "options": [
+   "Localisation du relais",
+   "Heure de début de la communication",
+   "Fréquence utilisée",
+   "Heure de fin de la communication"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Localisation du relais",
+  "commentaire_fr": "Le carnet de trafic est maintenant appelé \"journal de bord\"\n",
+  "stem_zh": "哪项信息在电台日志中不是必须填写的？",
+  "ans_zh": "中继台的位置",
+  "com_zh": "通联记录簿现在称为「journal de bord」（电台日志）。",
+  "anchor": "R41"
+ },
+ {
+  "num": "30083",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* QUEL EST LE CODE POUR :\n\"QRA\"",
+  "options": [
+   "Je n'ai rien pour vous",
+   "Le nom de ma station est...",
+   "Votre fréquence varie",
+   "Je vous donne accusé de réception"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Le nom de ma station est...",
+  "commentaire_fr": "",
+  "stem_zh": "* 下面这个简语代表什么：QRA",
+  "ans_zh": "我电台的名称是……",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "30084",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "LA COMPATIBILITE ELECTROMAGNETIQUE EST LA FACULTE ?",
+  "options": [
+   "à émettre et à recevoir une fréquence",
+   "d'un récepteur à recevoir plusieurs bandes",
+   "d'un émetteur à ne pas perturber son environnement",
+   "d'un récepteur à ne pas attirer la foudre"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "d'un émetteur à ne pas perturber son environnement",
+  "commentaire_fr": "",
+  "stem_zh": "电磁兼容性是指……的能力？",
+  "ans_zh": "发射机不干扰其周围环境的能力",
+  "com_zh": "",
+  "anchor": "R54a"
+ },
+ {
+  "num": "30085",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "SI ON ALIMENTE UNE ANTENNE QUI A UN GAIN DE 10 DB AVEC 10 WATTS, LA P.A.R.\nSERA DE ?",
+  "options": [
+   "10 W",
+   "90 W",
+   "100 W",
+   "1000 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "100 W",
+  "commentaire_fr": "Un gain de 10 dB correspond à un rapport de puissance de 10.\n10 W x 10 = 100 W PAR\n",
+  "stem_zh": "如果用 10 瓦馈入一副增益为 10 dB 的天线，有效辐射功率（PAR）将为？",
+  "ans_zh": "100 W",
+  "com_zh": "10 dB 的增益对应功率比 10。\n10 W × 10 = 100 W PAR",
+  "anchor": "R52h"
+ },
+ {
+  "num": "30091",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUAND DEVEZ-VOUS TRANSMETTRE VOTRE INDICATIF ?",
+  "options": [
+   "A chaque fois que le correspondant le demande",
+   "Au moins au début et à la fin de chaque transmission",
+   "Une fois au cours de chaque transmission",
+   "Une fois au cours d'une liaison avec un même correspondant"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Au moins au début et à la fin de chaque transmission",
+  "commentaire_fr": "et au moins une fois toutes les 15 minutes si la durée d'émission dépasse 15 minutes\n",
+  "stem_zh": "你应在什么时候报出自己的呼号？",
+  "ans_zh": "至少在每次发射的开始和结束时",
+  "com_zh": "若发射持续时间超过 15 分钟，还应至少每 15 分钟报一次",
+  "anchor": "R33a"
+ },
+ {
+  "num": "30097",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'UN DOUBLET DEMI-ONDE POUR EMETTRE SUR 10 MHZ ?",
+  "options": [
+   "36 Ohms",
+   "50 Ohms",
+   "73 Ohms",
+   "300 Ohms"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "73 Ohms",
+  "commentaire_fr": "Un doublet demi-onde a toujours une impédance de 73 ohms (sauf si ses brins ne sont pas alignés).\n",
+  "stem_zh": "在 10 MHz 上发射时，半波偶极天线的阻抗是多少？",
+  "ans_zh": "73 欧",
+  "com_zh": "半波偶极天线的阻抗总是 73 欧（除非其两臂不在一条直线上）。",
+  "anchor": "R52c"
+ },
+ {
+  "num": "30098",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION CORRECTE DE L'INDICATIF\nF C 8 X N S",
+  "options": [
+   "Fox-Trot Charlie 8 X-ray November Sierra",
+   "Fox-Trot Charlie X-ray Sierra",
+   "France Charlie 8 X-ray November Sierra",
+   "Fox-Trot Charlie 8 X-ray Nancy Sugar"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Fox-Trot Charlie 8 X-ray November Sierra",
+  "commentaire_fr": "",
+  "stem_zh": "呼号 F C 8 X N S 的正确拼读",
+  "ans_zh": "Fox-Trot Charlie 8 X-ray November Sierra",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "30110",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* EN NOUVELLE-CALEDONIE, QUI DELIVRE LES CERTIFICATS D'OPERATEURS ?",
+  "options": [
+   "Le commissaire de police\n",
+   "La gendarmerie\n",
+   "L'ANFR\n",
+   "L'administrateur supérieur\n"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "L'ANFR\n",
+  "commentaire_fr": "Depuis décembre 2014, c'est l'ANFR qui délivre les certificats d'opérateur y compris en outre mer (avant 2014 : haut commissaire de la République qui représente l'Etat français en Nouvelle Calédonie)\n",
+  "stem_zh": "* 在新喀里多尼亚，谁签发操作员证书？",
+  "ans_zh": "ANFR",
+  "com_zh": "自 2014 年 12 月起，由 ANFR 签发操作员证书，海外领地亦然（2014 年之前为共和国高级专员，即代表法国国家驻新喀里多尼亚的官员）。",
+  "anchor": "R42a"
+ },
+ {
+  "num": "30111",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES I ET R ?",
+  "options": [
+   "India et Romeo",
+   "Italie et Romeo",
+   "Italie et Russia",
+   "Italie et Radio"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "India et Romeo",
+  "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+  "stem_zh": "* 用国际字母解释法表，字母 I 和 R 怎么读？",
+  "ans_zh": "India 和 Romeo",
+  "com_zh": "字母解释法表是最先要记住的东西。",
+  "anchor": "R31"
+ },
+ {
+  "num": "30113",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* QUEL EST LE CODE POUR :\n\"QTR\"",
+  "options": [
+   "Par qui suis-je appelé ?",
+   "Quelle est la force de mes signaux ?",
+   "Quelle est l'heure exacte ?",
+   "Etes-vous brouillé ?"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Quelle est l'heure exacte ?",
+  "commentaire_fr": "",
+  "stem_zh": "* 下面这个简语代表什么：QTR",
+  "ans_zh": "准确时间是多少？",
+  "com_zh": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "30117",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+  "options": [
+   "14,450 MHz",
+   "24,990 MHz",
+   "29,700 kHz",
+   "438 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "24,990 MHz",
+  "commentaire_fr": "ATTENTION AU PIEGE :\nLa fréquence 29,700 est en KILOHERTZ et non en MEGAHERTZ.\nCette réponse est donc fausse.\nLa bonne réponse est 24,990 MHz.\n\n2 personnes m'ont envoyé un mail en me disant qu'il y avait 2 réponses possibles. CONSEIL : Lisez bien les réponses.\n",
+  "stem_zh": "* 哪个频率是频段的边界？",
+  "ans_zh": "24.990 MHz",
+  "com_zh": "当心陷阱：\n29,700 这个频率的单位是千赫（KILOHERTZ）而不是兆赫。\n所以该答案不对。\n正确答案是 24.990 MHz。\n\n有两个人给我发邮件说有两个可能答案。建议：把答案看清楚。",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30121",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES J ET Q ?",
+  "options": [
+   "Japon et Quebec",
+   "Juliett et Quebec",
+   "Juliett et Quatar",
+   "Japon et Quatar"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Juliett et Quebec",
+  "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+  "stem_zh": "* 用国际字母解释法表，字母 J 和 Q 怎么读？",
+  "ans_zh": "Juliett 和 Quebec",
+  "com_zh": "字母解释法表是最先要记住的东西。",
+  "anchor": "R31"
+ },
+ {
+  "num": "30124",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA PUISSANCE MAXIMUM CRETE 2 SIGNAUX DE L'ETAGE FINAL SUR\n28,500 MHZ POUR UN AMATEUR DE CLASSE 2 ?",
+  "options": [
+   "100 W",
+   "120 W",
+   "250 W",
+   "500 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "250 W",
+  "commentaire_fr": "Aucune bande n’étant précisée, on retiendra la puissance maximum autorisée en dessous de 28 MHz aux opérateurs de classe 2\n",
+  "stem_zh": "* 2 类业余爱好者在 28.500 MHz 上，末级的双音峰值功率最大是多少？",
+  "ans_zh": "250 W",
+  "com_zh": "由于题中未指明具体频段，故取 28 MHz 以下对 2 类操作员允许的最大功率。",
+  "anchor": "R22a"
+ },
+ {
+  "num": "30131",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES K ET P ?",
+  "options": [
+   "Kilowatt et Papa",
+   "Kilo et Portugal",
+   "Kilowatt et Portugal",
+   "Kilo et Papa"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Kilo et Papa",
+  "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+  "stem_zh": "* 用国际字母解释法表，字母 K 和 P 怎么读？",
+  "ans_zh": "Kilo 和 Papa",
+  "com_zh": "字母解释法表是最先要记住的东西。",
+  "anchor": "R31"
+ },
+ {
+  "num": "30132",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "EN CAS DE MANQUEMENT, NOTAMMENT A LA REGLEMENTATION APPLICABLE AUX STATIONS RADIOELECTRIQUES DES SERVICES D'AMATEUR, L'INDICATIF ATTRIBUE PAR L'ADMINISTRATION PEUT ETRE SUSPENDU POUR UNE DUREE DE ?",
+  "options": [
+   "3 ans",
+   "1 mois",
+   "1 an",
+   "2 ans"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "3 ans",
+  "commentaire_fr": "Art. 7-3 de l'arrêté du 21/09/00 modifié :\nEn cas de manquement, notamment à la réglementation applicable aux stations radioélectriques des Services d’amateur, l’indicatif attribué par l’administration peut être suspendu pour une durée maximum de trois ans ou révoqué.\n",
+  "stem_zh": "在对业余业务的无线电台适用法规出现违犯等情况下，主管部门指配的呼号可被暂停，期限为？",
+  "ans_zh": "3 年",
+  "com_zh": "2000 年 9 月 21 日部令（修改版）第 7-3 条：\n在对业余业务的无线电台适用法规出现违犯等情况下，主管部门指配的呼号可被暂停，最长三年，或被撤销。",
+  "anchor": "R44a"
+ },
+ {
+  "num": "30138",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* QUE SIGNIFIE UN INDICATIF COMMENCANT PAR F5VXY ?",
+  "options": [
+   "Cet indicatif n'existe pas",
+   "C'est un radioamateur étranger qui réside en france",
+   "C'est un radioamateur du vatican qui se trouve en france",
+   "C'est un indicatif de relais français"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "C'est un radioamateur étranger qui réside en france",
+  "commentaire_fr": "Plus précisément, ce radioamateur étranger vient d'un pays membre de l'Union Européenne.\n",
+  "stem_zh": "* 以 F5VXY 开头的呼号表示什么？",
+  "ans_zh": "这表示一位居住在法国的外国业余无线电爱好者",
+  "com_zh": "更准确地说，这位外国业余爱好者来自欧盟成员国。",
+  "anchor": "R46a"
+ },
+ {
+  "num": "30141",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES L ET O ?",
+  "options": [
+   "Lima et Oscar",
+   "Londres et Oscar",
+   "Londres et Ontario",
+   "Lima et Ontario"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Lima et Oscar",
+  "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+  "stem_zh": "* 用国际字母解释法表，字母 L 和 O 怎么读？",
+  "ans_zh": "Lima 和 Oscar",
+  "com_zh": "字母解释法表是最先要记住的东西。",
+  "anchor": "R31"
+ },
+ {
+  "num": "30151",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES M ET N ?",
+  "options": [
+   "Mexico et November",
+   "Mike et Novembre",
+   "Mexico et Naples",
+   "Mike et November"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Mike et November",
+  "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+  "stem_zh": "用国际字母解释法表，字母 M 和 N 怎么读？",
+  "ans_zh": "Mike 和 November",
+  "com_zh": "字母解释法表是最先要记住的东西。",
+  "anchor": "R31"
+ },
+ {
+  "num": "30153",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "QUELLE EST LA TENSION DE CONTACT MAXIMALE AUTORISE ?",
+  "options": [
+   "30 V",
+   "50 V",
+   "20 V",
+   "100 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50 V",
+  "commentaire_fr": "Les normes en vigueur considèrent qu’une tension maximum de 50 V n’est pas dangereuse pour le corps humain s’il est en milieu sec. En milieu humide ou à l’extérieur, cette tension est ramenée à 25 V.\n",
+  "stem_zh": "允许的最大接触电压是多少？",
+  "ans_zh": "50 V",
+  "com_zh": "现行标准认为，在干燥环境中，最高 50 V 的电压对人体不危险。在潮湿环境或室外，这一电压降至 25 V。",
+  "anchor": "R55b"
+ },
+ {
+  "num": "30158",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR MU.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Irlande sur Nord",
+   "Guernesey",
+   "Ile de Man",
+   "Pays de Galles"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Guernesey",
+  "commentaire_fr": "Le préfixe peut commencer également par G.\n",
+  "stem_zh": "* 你联络到一位呼号前缀以 MU 开头的业余爱好者。他来自哪个国家？",
+  "ans_zh": "根西（Guernesey）",
+  "com_zh": "该前缀也可以 G 开头。",
+  "anchor": "R47b"
+ },
+ {
+  "num": "30160",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* BANDE DE FREQUENCE OCCUPEE.\nL'EXCURSION DE FREQUENCE SUR LA FREQUENCE 18,150 MHZ DOIT ETRE DE ?",
+  "options": [
+   "6 kHz",
+   "20 kHz",
+   "12 kHz",
+   "Pas de limite"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "6 kHz",
+  "commentaire_fr": "Depuis la décision 12-1241, la bande passante ne peut dépasser :\n6 kHz jusqu'à 28 MHz\n12 kHz de 28 à 144 MHz\n20 kHz de 144 à 225 MHz\npas de limite au dessus de 225 MHz\n",
+  "stem_zh": "* 占用带宽。在 18.150 MHz 频率上，频率偏移应为多少？",
+  "ans_zh": "6 kHz",
+  "com_zh": "自 12-1241 号决定以来，带宽不得超过：\n28 MHz 以下为 6 kHz\n28 至 144 MHz 为 12 kHz\n144 至 225 MHz 为 20 kHz\n225 MHz 以上没有限制",
+  "anchor": "R13b"
+ },
+ {
+  "num": "30167",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "UN EMETTEUR SORT 10 W DANS UN CABLE A PERTES DE 0,03 DB PAR METRE.\nQUELLE EST LA PUISSANCE QUI SORT DE CE CABLE LONG DE 200 M ?",
+  "options": [
+   "1,8 W",
+   "2,5 W",
+   "5 W",
+   "40 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2,5 W",
+  "commentaire_fr": "Perte dans le câble = 0,03 dB/m x 200 m = 6 dB ;. 6 dB correspond à un rapport de puissance de 4. Puissance de sortie = puissance de l’émetteur / rapport de puissance = 10 W / 4 = 2,5 W\n",
+  "stem_zh": "一台发射机向一根每米损耗 0.03 dB 的电缆输出 10 W。这根 200 米长的电缆输出端的功率是多少？",
+  "ans_zh": "2.5 W",
+  "com_zh": "电缆中的损耗 = 0.03 dB/m × 200 m = 6 dB；6 dB 对应功率比 4。输出功率 = 发射机功率 / 功率比 = 10 W / 4 = 2.5 W",
+  "anchor": "R53a"
+ },
+ {
+  "num": "30175",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* LE SERVICE D'AMATEUR PAR SATELLITE (AMS) EST AUTORISE DANS LA BANDE\n5830 A 5850 MHZ. DANS QUEL SENS EST-IL AUTORISE ?",
+  "options": [
+   "Terre vers espace",
+   "Espace vers terre",
+   "Dans n'importe quel sens",
+   "Espace vers espace"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Espace vers terre",
+  "commentaire_fr": "",
+  "stem_zh": "* 业余卫星业务（AMS）被允许在 5830 至 5850 MHz 频段使用。允许的方向是哪个？",
+  "ans_zh": "从太空到地球",
+  "com_zh": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30179",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "* LA LONGUEUR THEORIQUE D'UNE ANTENNE DOUBLET EST ?",
+  "options": [
+   "le quart d'onde",
+   "la demi-onde",
+   "l'onde entière",
+   "il n'y a pas de longueur théorique"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "la demi-onde",
+  "commentaire_fr": "",
+  "stem_zh": "* 偶极天线的理论长度是多少？",
+  "ans_zh": "半波长",
+  "com_zh": "",
+  "anchor": "R52c"
+ },
+ {
+  "num": "30181",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* QUEL EST LE SUFFIXE D'UNE BALISE ?",
+  "options": [
+   "Bxx",
+   "Yxx",
+   "Zxx",
+   "Xxx"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Zxx",
+  "commentaire_fr": "Jusqu'en 2009, la série XAA à XZZ était réservée aux balises (les indicatifs d'appel attribués aux balises avant 2009 continuent d'être utilisés). Depuis 2009, cette série est en réserve et peut être attribuée si le besoin est constaté par l'Administration.\n",
+  "stem_zh": "* 信标台的呼号后缀是什么？",
+  "ans_zh": "Zxx",
+  "com_zh": "直到 2009 年，XAA 至 XZZ 这一系列保留给信标台（2009 年之前指配给信标台的呼号仍继续使用）。自 2009 年起，该系列转为保留，经主管部门认定有需要时可以指配。",
+  "anchor": "R46a"
+ },
+ {
+  "num": "30182",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "L'ANTENNE AYANT CE DIAGRAMME DE RAYONNEMENT A UNE LONGUEUR EGALE A ?\nO\n--\nO",
+  "options": [
+   "un quart d'onde",
+   "une onde entière",
+   "trois quarts d'onde",
+   "une demi-onde"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "une demi-onde",
+  "commentaire_fr": "",
+  "stem_zh": "具有这种辐射方向图的天线，其长度等于？O -- O",
+  "ans_zh": "半波长",
+  "com_zh": "",
+  "anchor": "R52g"
+ },
+ {
+  "num": "30188",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "QUEL APPAREIL UTILISE-T-ON POUR MESURER LES HARMONIQUES ?",
+  "options": [
+   "Un rosmètre",
+   "Un analyseur de spectre",
+   "Un analyseur d'antenne",
+   "Une boîte de couplage"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Un analyseur de spectre",
+  "commentaire_fr": "",
+  "stem_zh": "测量谐波用什么仪器？",
+  "ans_zh": "频谱分析仪",
+  "com_zh": "",
+  "anchor": "R54"
+ },
+ {
+  "num": "30190",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "DANS QUELLE BANDE LE SERVICE D'AMATEUR PAR SATELLITE EN MODE A.M.T.\n(TERRE VERS ESPACE) EST-IL AUTORISE EN REGION 1 ?",
+  "options": [
+   "21,000 à 21,450 MHz",
+   "1240 à 1300 MHz",
+   "10,100 à 10,150 MHz",
+   "3500 à 3800 kHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1240 à 1300 MHz",
+  "commentaire_fr": "",
+  "stem_zh": "在第 1 区，业余卫星业务以 A.M.T. 模式（地对空）被允许在哪个频段使用？",
+  "ans_zh": "1240 至 1300 MHz",
+  "com_zh": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30192",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "* COMMENT S'APPELLE L'UNITE DE RAPPORT AVANT/ARRIERE D'UNE ANTENNE ?",
+  "options": [
+   "Le volt",
+   "Le watt",
+   "L'ohm",
+   "Le décibel"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Le décibel",
+  "commentaire_fr": "",
+  "stem_zh": "* 天线前后比所用的单位叫什么？",
+  "ans_zh": "分贝",
+  "com_zh": "",
+  "anchor": "R52i"
+ },
+ {
+  "num": "30195",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "* UN EMETTEUR A UNE PUISSANCE DE 5 WATTS.\nON PORTE SA PUISSANCE A 10 WATTS.\nQUEL EN SERA LE GAIN EN PUISSANCE ?",
+  "options": [
+   "3 dB",
+   "2 dB",
+   "5 dB",
+   "6 dB"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "3 dB",
+  "commentaire_fr": "Le rapport de puissance est de 2 (= 10 / 5), soit un gain de 3 dB\n",
+  "stem_zh": "* 一台发射机的功率为 5 瓦。把它的功率提高到 10 瓦。功率增益将是多少？",
+  "ans_zh": "3 dB",
+  "com_zh": "功率比为 2（= 10 / 5），即 3 dB 的增益",
+  "anchor": "R51a"
+ },
+ {
+  "num": "30198",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUEL(S) CERTIFICAT(S) DE RADIOAMATEUR PERMET(TENT) L'UTILISATION DE TOUTES LES BANDES PREVUES POUR LE SERVICE DE RADIOAMATEUR ?",
+  "options": [
+   "Le certificat \"HAREC\"",
+   "Uniquement le certificat de classe 1",
+   "Tous les certificats",
+   "Le certificat de classe 3"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Le certificat \"HAREC\"",
+  "commentaire_fr": "Depuis mai 2012, il n'y a plus que deux certificats d'opérateur : le certificat \"HAREC\" et l'ex-certificat de classe 3 (que l'on ne peut plus passer). Pour ceux qui ont obtenu leur certifiact d'opérateur avant mai 2012, il n'y a plus de distinction entre les opérateurs de classe 1 et ceux de classe 2.\n",
+  "stem_zh": "哪种业余无线电证书允许使用业余业务规划的全部频段？",
+  "ans_zh": "「HAREC」证书",
+  "com_zh": "自 2012 年 5 月起，操作员证书只剩下两种：「HAREC」证书和原 3 类证书（已不能再考取）。对于在 2012 年 5 月之前取得操作员证书的人，1 类与 2 类操作员之间不再有区别。",
+  "anchor": "R22a"
+ },
+ {
+  "num": "30201",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* A QUEL SYMBOLE LE TYPE D'INFORMATION A TRANSMETTRE EST-IL DESIGNE LORS DE LA TRANSMISSION DE DONNEES, TELEMESURE, TELECOMMANDE ?",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "D",
+  "commentaire_fr": "",
+  "stem_zh": "* 在传输数据、遥测、遥控时，要传送的信息类型用哪个符号表示？",
+  "ans_zh": "D",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30202",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "A QUELLE VITESSE LES ONDES ELECTROMAGNETIQUES SE DEPLACENT-ELLES DANS UN CABLE ?",
+  "options": [
+   "A la vitesse de la lumière",
+   "A une vitesse inférieure à celle de la lumière",
+   "A une vitesse supérieure à celle de la lumière",
+   "A une vitesse deux fois supérieure à celle de la lumière"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "A une vitesse inférieure à celle de la lumière",
+  "commentaire_fr": "Les ondes se déplacent moins vite que dans le vide ou l'air où elles se déplacent à la vitesse de la lumière.\n",
+  "stem_zh": "电磁波在电缆中以多大速度传播？",
+  "ans_zh": "低于光速的速度",
+  "com_zh": "波在电缆中传播得比在真空或空气中慢，在真空或空气中它们以光速传播。",
+  "anchor": "R53a"
+ },
+ {
+  "num": "30205",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "QUELLE EST LA COULEUR D'UN CONDUCTEUR PROTECTION D'UN CABLE SECTEUR A 3 CONDUCTEURS ?",
+  "options": [
+   "Marron",
+   "Rouge",
+   "Jaune-vert",
+   "Bleu"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Jaune-vert",
+  "commentaire_fr": "Dans un câble secteur à 3 conducteurs, le fil de couleur Jaune et Vert doit être relié à la terre de l'installation électrique\n",
+  "stem_zh": "三芯电源线中保护导线的颜色是什么？",
+  "ans_zh": "黄绿色",
+  "com_zh": "在三芯电源线中，黄绿两色的导线必须连接到电气设施的地线上。",
+  "anchor": "R55b"
+ },
+ {
+  "num": "30206",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* QUEL PAYS NON C.E.P.T. APPLIQUE LA RECOMMANDATION T/R 61-01 ?",
+  "options": [
+   "Brésil",
+   "Côte d'ivoire",
+   "Turquie",
+   "Pérou"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Pérou",
+  "commentaire_fr": "",
+  "stem_zh": "* 哪个非 C.E.P.T. 国家执行 T/R 61-01 建议书？",
+  "ans_zh": "秘鲁",
+  "com_zh": "",
+  "anchor": "R47c"
+ },
+ {
+  "num": "30207",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "DANS QUEL DELAI DOIT-ON INFORMER L'ADMINISTRATION DE SON CHANGEMENT D'ADRESSE ?",
+  "options": [
+   "15 jours",
+   "1 mois",
+   "2 mois",
+   "3 mois"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2 mois",
+  "commentaire_fr": "Depuis la décision 08-0841, le délai est de 2 mois (trois mois auparavant).\n",
+  "stem_zh": "应在多长时间内将地址变更告知主管部门？",
+  "ans_zh": "2 个月",
+  "com_zh": "自 08-0841 号决定起，期限为 2 个月（此前为 3 个月）。",
+  "anchor": "R42a"
+ },
+ {
+  "num": "30215",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, BANDE LATERALE UNIQUE,\nPORTEUSE REDUITE, \nSIGNAL ANALOGIQUE, TRANSMISSIONS DE DONNEES ?",
+  "options": [
+   "J3D",
+   "R3E",
+   "R3D",
+   "A3D"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "R3D",
+  "commentaire_fr": "",
+  "stem_zh": "* 调幅、单边带、降低载波、模拟信号、数据传输的符号是什么？",
+  "ans_zh": "R3D",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30216",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "AU BOUT DE COMBIEN DE TEMPS PEUT ON SE REPRESENTER A L'EXAMEN RADIOAMATEUR APRES UN ECHEC ?",
+  "options": [
+   "2 mois",
+   "15 jours",
+   "1 mois",
+   "1 semaine"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "2 mois",
+  "commentaire_fr": "Un candidat qui a échoué ne peut se représenter aux épreuves qu'à l'issue d'un délai de deux mois. Un petit coup de pression de l'ANFR ? ! ? \n",
+  "stem_zh": "业余无线电考试不及格后，过多久可以再次报考？",
+  "ans_zh": "2 个月",
+  "com_zh": "未通过的考生须在两个月期限届满后方可再次参加考试。这是 ANFR 给的一点压力？！",
+  "anchor": "R45"
+ },
+ {
+  "num": "30218",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION F2D, QUE SIGNIFIE LE CHIFFRE 2 ?",
+  "options": [
+   "Signal digital sans emploi d'une sous porteuse modulante",
+   "Signal analogique",
+   "Plusieurs voies contenant de l'information numérique",
+   "Signal digital avec emploi d'une sous porteuse modulante"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Signal digital avec emploi d'une sous porteuse modulante",
+  "commentaire_fr": "",
+  "stem_zh": "* 在 F2D 发射类别中，数字 2 表示什么？",
+  "ans_zh": "使用调制副载波的数字信号",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30225",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* EN CAS DE PERTURBATION RADIOELECTRIQUE, LES PUISSANCES D'EMISSION AUTORISEES PEUVENT ETRE REDUITES PAR ?",
+  "options": [
+   "La C.E.P.T.",
+   "L' A.R.C.E.P",
+   "Le REF-UNION",
+   "L'A.N.F.R."
+  ],
+  "ans_idx": 1,
+  "ans_fr": "L' A.R.C.E.P",
+  "commentaire_fr": "",
+  "stem_zh": "* 在发生无线电干扰时，获准的发射功率可以由谁降低？",
+  "ans_zh": "A.R.C.E.P（电子通信与邮政管理局）",
+  "com_zh": "",
+  "anchor": "R22b"
+ },
+ {
+  "num": "30229",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "* QUELLE EST L'IMPEDANCE D'UNE ANTENNE 1/4 D'ONDE DONT LES RADIANTS FORMENT UN ANGLE DROIT AVEC LE BRIN RAYONNANT ?",
+  "options": [
+   "36 Ohms",
+   "50 Ohms",
+   "100 Ohms",
+   "300 Ohms"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "36 Ohms",
+  "commentaire_fr": "",
+  "stem_zh": "* 辐射体与辐射振子成直角的四分之一波长天线，其阻抗是多少？",
+  "ans_zh": "36 欧",
+  "com_zh": "",
+  "anchor": "R52e"
+ },
+ {
+  "num": "30230",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "SI ON ALIMENTE UNE ANTENNE QUI A UN GAIN DE 3 DB AVEC 12 WATTS, LA P.A.R.\nSERA DE ?",
+  "options": [
+   "15 W",
+   "9 W",
+   "36 W",
+   "24 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "24 W",
+  "commentaire_fr": "Un gain de 3 dB correspond à un rapport de puissance de 2. \n12 W x 2 = 24 W\n",
+  "stem_zh": "如果用 12 瓦馈入一副增益为 3 dB 的天线，有效辐射功率（PAR）将为？",
+  "ans_zh": "24 W",
+  "com_zh": "3 dB 的增益对应功率比 2。\n12 W × 2 = 24 W",
+  "anchor": "R52h"
+ },
+ {
+  "num": "30238",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "* PARMI LES APPAREILS SUIVANTS, LEQUEL N'EST PAS OBLIGATOIRE DANS UNE STATION\nD'AMATEUR ?\n1 - LA CHARGE RAYONNANTE\n2 - LE FILTRE PASSE-BAS\n3 - LE FILTRE PASSE-HAUT\n4 - LA BOITE D'ACCORD",
+  "options": [
+   "2 et 3",
+   "1",
+   "1, 2, 3 et 4",
+   "4"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1, 2, 3 et 4",
+  "commentaire_fr": "Depuis la décision 12-1241, seul l'indicateur de puissance est obligatoire. Il n'est pas cité dans les propositions de cette question.\n",
+  "stem_zh": "* 在下列设备中，哪一项不是业余电台必须配备的？1 - 辐射负载（天线） 2 - 低通滤波器 3 - 高通滤波器 4 - 匹配箱（天线调谐器）",
+  "ans_zh": "1、2、3 和 4",
+  "com_zh": "自 12-1241 号决定起，只有功率指示器是必须的。本题的选项中并没有列出它。",
+  "anchor": "R13a"
+ },
+ {
+  "num": "30240",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION DE FREQUENCE, \nAVEC EMPLOI D'UNE SOUS PORTEUSE MODULANTE,\nTELEGRAPHIE POUR RECEPTION AUTOMATIQUE ?",
+  "options": [
+   "F1B",
+   "G1D",
+   "G2D",
+   "F2B"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "F2B",
+  "commentaire_fr": "",
+  "stem_zh": "* 调频、使用调制副载波、供自动接收的电报（的符号是什么）？",
+  "ans_zh": "F2B",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30241",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "* VALEUR DE LA P.I.R.E. ?\nLONGUEUR DU COAXIAL=10 M AVEC PERTE DE 0,4 DB PAR METRE\nPUISSANCE = 15W\nGAIN ISOTROPE DE L'ANTENNE = 10D",
+  "options": [
+   "25 W",
+   "35 W",
+   "60 W",
+   "75 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "60 W",
+  "commentaire_fr": "Perte dans le câble = 0,4 dB/m x 10 m = 4 dB ; \nGain de l’ensemble = gain de l’antenne – perte dans le câble = 10 – 4 = 6 dB.\n6 dB correspond à un rapport de puissance de 4. \nPIRE = puissance de l’émetteur x rapport de puissance = 15 W x 4 = 60 W. \nLe gain de l’antenne est donné en dBiso, donc la puissance équivalente est la PIRE (puissance isotrope équivalente rayonnée).\n",
+  "stem_zh": "* PIRE（等效全向辐射功率）的值是多少？同轴电缆长度 = 10 m，每米损耗 0.4 dB；功率 = 15W；天线的全向增益 = 10D",
+  "ans_zh": "60 W",
+  "com_zh": "电缆中的损耗 = 0.4 dB/m × 10 m = 4 dB ；\n整个系统的增益 = 天线增益 - 电缆损耗 = 10 - 4 = 6 dB。\n6 dB 对应功率比 4。\nPIRE = 发射机功率 × 功率比 = 15 W × 4 = 60 W。\n天线增益是按 dBiso（相对各向同性天线）给出的，所以等效功率就是 PIRE（等效全向辐射功率）。",
+  "anchor": "R52h"
+ },
+ {
+  "num": "30242",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "UNE ANTENNE GP ?",
+  "options": [
+   "a du gain",
+   "a de la directivité",
+   "a du gain et de la directivité",
+   "n'a ni gain ni directivité"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "n'a ni gain ni directivité",
+  "commentaire_fr": "L’antenne GP (quart d’onde vertical) n’a pas de directivité (antenne omnidirectionnelle) mais un gain peu important par rapport à l’antenne isotrope (et une légère perte par rapport au doublet demi-onde). De plus, gain et directivité vont de pair : le gain est la conséquence de la directivité\n",
+  "stem_zh": "GP 天线（地网天线）？",
+  "ans_zh": "既没有增益也没有方向性",
+  "com_zh": "GP 天线（四分之一波长垂直天线）没有方向性（全向天线），但相对于各向同性天线有一点不大的增益（相对于半波偶极天线则略有损失）。此外，增益与方向性相伴而行：增益是方向性的结果。",
+  "anchor": "R52e"
+ },
+ {
+  "num": "30245",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "DANS LE CADRE DE LA RECOMMANDATION T/R 61-01, QUELLE EST LA DUREE MAXIMUM D'UTILISATION DE L'INDICATIF D'ORIGINE SANS QUE L'ON AIT A DEMANDER UN INDICATIF D'APPEL DANS LE PAYS CONCERNE ?",
+  "options": [
+   "1 Mois",
+   "3 Mois",
+   "6 Mois",
+   "1 An"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "3 Mois",
+  "commentaire_fr": "",
+  "stem_zh": "在 T/R 61-01 建议书的框架内，无须在有关国家申请呼号即可使用原籍呼号的最长期限是多少？",
+  "ans_zh": "3 个月",
+  "com_zh": "",
+  "anchor": "R11b"
+ },
+ {
+  "num": "30248",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "ANDE NON EXCLUSIVE ?",
+  "options": [
+   "7,000 à 7,200 MHz",
+   "10,100 à 10,150 MHz",
+   "18,068 à 18,168 MHz",
+   "24,890 à 24,990 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10,100 à 10,150 MHz",
+  "commentaire_fr": "",
+  "stem_zh": "非专用（频段）？",
+  "ans_zh": "10.100 至 10.150 MHz",
+  "com_zh": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30252",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "MENTION NON OBLIGATOIRES DANS LE JOURNAL DE BORD ?\n1 - LA DATE\n2 - L'INDICATIF\n3 - LA FREQUENCE\n4 - PUISSANCE DU CORRESPONDANT",
+  "options": [
+   "4",
+   "1, 2",
+   "1, 2, 3",
+   "2, 3"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "4",
+  "commentaire_fr": "Depuis la décision 12-1241, le carnet de trafic se nomme \"journal de bord\"\n",
+  "stem_zh": "电台日志中不是必须填写的内容？1 - 日期 2 - 呼号 3 - 频率 4 - 对方的功率",
+  "ans_zh": "4",
+  "com_zh": "自 12-1241 号决定起，通联记录簿改称「journal de bord」（电台日志）。",
+  "anchor": "R41"
+ },
+ {
+  "num": "30255",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "DE QUOI TRAITE LA SECTION S.25 DU RR ?",
+  "options": [
+   "Le réglement des Radioamateurs",
+   "Les conditions d'exploitation des stations du service amateur",
+   "La libre circulation des Radioamateurs dans les pays CEPT",
+   "Le RR 25 n'existe pas"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Les conditions d'exploitation des stations du service amateur",
+  "commentaire_fr": "",
+  "stem_zh": "《无线电规则》(RR) 第 S.25 节讲的是什么？",
+  "ans_zh": "业余业务电台的操作条件",
+  "com_zh": "",
+  "anchor": "R11a"
+ },
+ {
+  "num": "30256",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "A QUEL TYPE DE MODULATION CORRESPOND LE SCHEMA CI-DESSOUS ?",
+  "options": [
+   "AM",
+   "FM",
+   "Tout ou rien",
+   "RTTY"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Tout ou rien",
+  "commentaire_fr": "",
+  "stem_zh": "下面的图对应哪种调制方式？",
+  "ans_zh": "通断键控（tout ou rien）",
+  "com_zh": "",
+  "anchor": "R12b"
+ },
+ {
+  "num": "30258",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "QUELLE EST L'IMPEDANCE CARACTERISTIQUE D'UN CABLE DE LONGUEUR LAMBDA/4 POUR ADAPTER 300 ET 75 OHMS ?",
+  "options": [
+   "4 ohms",
+   "100 ohms",
+   "150 ohms",
+   "187 ohms"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "150 ohms",
+  "commentaire_fr": "Zcable = racine (Zentrée x Zsortie) = racine (300 x 75) = racine (22500) = 150 ohms \nDifficile de répondre à cette questions sans utiliser de calculette !\n",
+  "stem_zh": "为匹配 300 欧与 75 欧，长度为 λ/4 的电缆的特性阻抗是多少？",
+  "ans_zh": "150 欧",
+  "com_zh": "Z电缆 = √(Z输入 × Z输出) = √(300 × 75) = √(22500) = 150 欧\n不用计算器很难回答这道题！",
+  "anchor": "R53d"
+ },
+ {
+  "num": "30259",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "* EPELLATION DE L'INDICATIF : FD1ZWG ?",
+  "options": [
+   "France Delta 1 Zoulou Whiskey Golf",
+   "Foxtrot Delta 1 Zoulou Whiskey Golf",
+   "Foxtrot Delta 1 Zoulou Whiskey Guatemala",
+   "Foxtrot Delta 1 Zanzibar Whiskey Golf"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Foxtrot Delta 1 Zoulou Whiskey Golf",
+  "commentaire_fr": "",
+  "stem_zh": "* 呼号 FD1ZWG 的拼读？",
+  "ans_zh": "Foxtrot Delta 1 Zoulou Whiskey Golf",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "30261",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "SYMBOLE DE LA MODULATION DE FREQUENCE, \nSIGNAL ANALOGIQUE, FAC SIMILE ?",
+  "options": [
+   "F3C",
+   "G3C",
+   "F3E",
+   "F3F"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "F3C",
+  "commentaire_fr": "",
+  "stem_zh": "调频、模拟信号、传真的符号是什么？",
+  "ans_zh": "F3C",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30264",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "* DIRECTION DU MAXIMUM DE CHAMP RAYONNE PAR UNE ANTENNE YAGI ?",
+  "options": [
+   "Dans le prolongement des éléments parasites les plus courts",
+   "Dans le prolongement des éléments parasites les plus longs",
+   "Parallèlement au brin rayonnant",
+   "Pas de directivite marquée"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Dans le prolongement des éléments parasites les plus courts",
+  "commentaire_fr": "",
+  "stem_zh": "* 八木天线辐射场最强的方向是？",
+  "ans_zh": "沿着最短寄生单元（引向器）的延长方向",
+  "com_zh": "",
+  "anchor": "R52f"
+ },
+ {
+  "num": "30266",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "UN RADIOAMATEUR A-T-IL LE DROIT D'EMETTRE SUR LA BANDE DES\n10 METRES EN MODE A1B ?",
+  "options": [
+   "Oui, si son indicatif a plus de 10 ans",
+   "Non",
+   "Oui",
+   "Oui, s'il utilise la station d'un F5"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Oui",
+  "commentaire_fr": "Depuis la décision 12-1241, toutes les classes d'émission sont autorisées aux anciens opérateurs de classe 1  et 2, regroupés maintenant dans la classe unique \"HAREC\"\n",
+  "stem_zh": "业余爱好者有权在 10 米波段以 A1B 模式发射吗？",
+  "ans_zh": "有",
+  "com_zh": "自 12-1241 号决定起，原 1 类和 2 类操作员（现合并为统一的「HAREC」类）可使用所有发射类别。",
+  "anchor": "R22a"
+ },
+ {
+  "num": "30270",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA PUISSANCE D'ALIMENTATION AUTORISE A UN AMATEUR DANS LES BANDES HF INFERIEURES A 28 MHZ ?",
+  "options": [
+   "100 W",
+   "200 W",
+   "250 W",
+   "500 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "500 W",
+  "commentaire_fr": "",
+  "stem_zh": "业余爱好者在低于 28 MHz 的 HF 频段中，允许的馈电功率是多少？",
+  "ans_zh": "500 W",
+  "com_zh": "",
+  "anchor": "R22a"
+ },
+ {
+  "num": "30273",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* UNE STATION MOBILE ?",
+  "options": [
+   "est installée obligatoirement  à bord d'une automobile",
+   "peut être montée dans un avion",
+   "peut être manoeuvrée avec autorisation préalable de l'administration",
+   "peut fonctionner pendant son transport"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "peut fonctionner pendant son transport",
+  "commentaire_fr": "",
+  "stem_zh": "* 移动电台？",
+  "ans_zh": "可以在运输途中工作",
+  "com_zh": "",
+  "anchor": "R42a"
+ },
+ {
+  "num": "30277",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "* CALCULER L'ADAPTATION ?\n\n50 OHMS ============= 100 OHMS",
+  "options": [
+   "70,7 Ohms",
+   "50 Ohms",
+   "75 Ohms",
+   "5000 Ohms"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "70,7 Ohms",
+  "commentaire_fr": "Zcable = racine (Zentrée x Zsortie) = racine (50 x 100) = racine (5000) = 70,7 ohms \nDifficile de répondre à cette question sans sortir votre calculette !\n",
+  "stem_zh": "* 计算匹配（阻抗）？50 欧 ============= 100 欧",
+  "ans_zh": "70.7 欧",
+  "com_zh": "Z电缆 = √(Z输入 × Z输出) = √(50 × 100) = √(5000) = 70.7 欧\n不拿出计算器很难回答这道题！",
+  "anchor": "R53d"
+ },
+ {
+  "num": "30283",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA PUISSANCE DE SORTIE CRETE 2 SIGNAUX DANS LES BANDES SUPERIEURES A 440 MHZ EN CLASSE J3E ET R3E ?",
+  "options": [
+   "500 W",
+   "250 W",
+   "100 W",
+   "120 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "120 W",
+  "commentaire_fr": "",
+  "stem_zh": "* 在 440 MHz 以上的频段中，J3E 和 R3E 类别的双音峰值输出功率是多少？",
+  "ans_zh": "120 W",
+  "com_zh": "",
+  "anchor": "R22a"
+ },
+ {
+  "num": "30287",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* QUE SIGNIFIE 'MM' A LA FIN D'UN INDICATIF ?",
+  "options": [
+   "Une station maritime mobile",
+   "Une station maritime sur la Meuse",
+   "Une station mobile",
+   "Une station portable sur un lac"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Une station maritime mobile",
+  "commentaire_fr": "",
+  "stem_zh": "* 呼号末尾的「MM」表示什么？",
+  "ans_zh": "海上移动电台",
+  "com_zh": "",
+  "anchor": "R42a"
+ },
+ {
+  "num": "30292",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "QUE SIGNIFIE LES LETTRES : R.R",
+  "options": [
+   "Radio Régionale",
+   "Réglementation des Radiocommunications",
+   "Réglement des Radiocommunications",
+   "Réglement des Radioamateurs"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Réglement des Radiocommunications",
+  "commentaire_fr": "ou, en anglais : Radio Regulations.\n",
+  "stem_zh": "字母 R.R 代表什么？",
+  "ans_zh": "《无线电规则》（Réglement des Radiocommunications）",
+  "com_zh": "或，英文为：Radio Regulations。",
+  "anchor": "R11a"
+ },
+ {
+  "num": "30297",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* L'UTILISATEUR D'UNE STATION D'AMATEUR N'EST SOUMIS A AUCUNE TAXE ?",
+  "options": [
+   "Vrai",
+   "Faux, il doit payer uniquement la première année",
+   "Faux, il doit payer une redevance tous les ans",
+   "Faux, il doit payer une redevance tous les 5 ans"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Vrai",
+  "commentaire_fr": "La Loi de Finances pour 2019 a supprimé la \"taxe sur les radioamateurs\" (46 euros par an) et la taxe d'examen (30 euros) a été supprimée en 2021.\n",
+  "stem_zh": "* 业余电台的使用者无须缴纳任何税费？",
+  "ans_zh": "正确",
+  "com_zh": "2019 年财政法取消了「业余无线电爱好者税」（每年 46 欧元），考试费（30 欧元）也于 2021 年取消。",
+  "anchor": "R46b"
+ },
+ {
+  "num": "30300",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* UN INDICATIF DE TYPE 'TM' EST VALABLE POUR UNE DUREE DE ?",
+  "options": [
+   "15 jours",
+   "20 jours",
+   "1 mois",
+   "3 mois"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "15 jours",
+  "commentaire_fr": "Les indicatifs spéciaux (comme TM) peuvent être utilisés pendant 15 jours non consécutifs sur une période de 6 mois.\n",
+  "stem_zh": "* 类型为「TM」的呼号有效期为多久？",
+  "ans_zh": "15 天",
+  "com_zh": "特别呼号（如 TM）可在 6 个月期间内、以不连续的 15 天使用。",
+  "anchor": "R46c"
+ },
+ {
+  "num": "30309",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "AVANT D'EMETTRE, UN RADIOAMATEUR NE DOIT PAS DECLARER ?",
+  "options": [
+   "la PAR",
+   "la localisation de la station",
+   "les fréquences utilisées",
+   "le type d'antennes utilisées"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "le type d'antennes utilisées",
+  "commentaire_fr": "Dans la déclaration PAR, on donne la PAR par gamme d'ondes et la localisation de la station. Le type d'antenne n'est pas demandé. En revanche, pour calculer la PAR, on doit connaitre le gain des antennes et la puissance de l'émetteur. \n",
+  "stem_zh": "发射之前，业余爱好者不必申报什么？",
+  "ans_zh": "所使用的天线类型",
+  "com_zh": "在 PAR 申报中，要按波段给出有效辐射功率以及电台的位置。并不要求说明天线类型。不过，为了计算 PAR，必须知道天线增益和发射机功率。",
+  "anchor": "R42e"
+ },
+ {
+  "num": "30311",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "* A PARTIR DE QUELLE PUISSANCE (PAR) DOIT-ON DECLARER SA STATION FIXE A L'ADMINISTRATION ?",
+  "options": [
+   "Vous devez obligatoirement la déclarer",
+   "1 Watt",
+   "5 Watts",
+   "100 Watts"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "5 Watts",
+  "commentaire_fr": "http://www.anfr.fr/fr/autorisations-certificats/radioamateurs/declaration-de-station.html\n",
+  "stem_zh": "* 从多大的（PAR）功率起，必须向主管部门申报自己的固定电台？",
+  "ans_zh": "5 瓦",
+  "com_zh": "http://www.anfr.fr/fr/autorisations-certificats/radioamateurs/declaration-de-station.html",
+  "anchor": "R42e"
+ },
+ {
+  "num": "30313",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* VOUS POSSEDEZ UNE STATION QUE VOUS UTILISEZ UNIQUEMENT DANS VOTRE RESIDENCE SECONDAIRE.\nDEVEZ-VOUS LA DECLARER A L'ADMINISTRATION ?",
+  "options": [
+   "Non",
+   "Oui",
+   "Oui, si l'émetteur a une puissance de 100 Watts",
+   "Oui, si vous l'utilisez plus de 5 fois par an"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Non",
+  "commentaire_fr": "On déclare uniquement sa station fixe.\n",
+  "stem_zh": "* 你有一台只在第二住所使用的电台。你必须向主管部门申报吗？",
+  "ans_zh": "不必",
+  "com_zh": "只需申报自己的固定电台。",
+  "anchor": "R42e"
+ },
+ {
+  "num": "30322",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "TYPE D'ANTENNE APPROPRIE POUR LE 3 CM ?",
+  "options": [
+   "Parabole",
+   "Yagi",
+   "GP",
+   "Filaire"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Parabole",
+  "commentaire_fr": "La parabole n’est pas une antenne mais un réflecteur ayant en son foyer une antenne (généralement un doublet). Elle est utilisée dans les fréquences très élevées à la place des antennes Yagi\n",
+  "stem_zh": "适合 3 厘米（波段）的天线类型？",
+  "ans_zh": "抛物面天线",
+  "com_zh": "抛物面天线不是天线，而是一个反射器，其焦点处放置一副天线（通常是偶极天线）。在很高的频率上用它代替八木天线。",
+  "anchor": "R52f"
+ },
+ {
+  "num": "30323",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* QUE SIGNIFIE L'INDICATIF SUIVANT : F/ON4AS/P",
+  "options": [
+   "c'est un indicatif du Japon",
+   "c'est un indicatif des Etats-unis",
+   "c'est un indicatif d'un pays de l' UE",
+   "c'est un indicatif qui n'existe pas"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "c'est un indicatif d'un pays de l' UE",
+  "commentaire_fr": "C'est un radioamateur Belge qui émet en France.\nDonc c'est un indicatif de l'UE (Union Européenne)\n",
+  "stem_zh": "* 下面这个呼号表示什么：F/ON4AS/P",
+  "ans_zh": "这是欧盟某国的呼号",
+  "com_zh": "这是一位在法国发射的比利时业余爱好者。\n因此这是欧盟（Union Européenne）的呼号。",
+  "anchor": "R47b"
+ },
+ {
+  "num": "30325",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "POUR OBTENIR UN INDICATIF SPECIAL D'EMISSION, ON DOIT FAIRE LE DEMANDE ?",
+  "options": [
+   "15 jours avant",
+   "20 jours ouvrés avant",
+   "2 mois avant",
+   "1 mois avant"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "20 jours ouvrés avant",
+  "commentaire_fr": "Les jours ouvrés sont tous les jours de la semaine sauf les samedis, dimanches et jours fériés. 20 jours ouvrés correspondent à peu près à 1 mois (4 semaines s'il n'y a pas de jours fériés)\n",
+  "stem_zh": "要获得特别发射呼号，申请应在什么时候提出？",
+  "ans_zh": "提前 20 个工作日",
+  "com_zh": "工作日指一周中除星期六、星期日和法定节假日以外的所有日子。20 个工作日大致相当于 1 个月（若无节假日则为 4 周）。",
+  "anchor": "R46c"
+ },
+ {
+  "num": "30326",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "QUEL EST L'IDENTIFIANT DE LA SLOVENIE ?",
+  "options": [
+   "SL",
+   "PL",
+   "S5",
+   "5S"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "S5",
+  "commentaire_fr": "",
+  "stem_zh": "斯洛文尼亚的呼号标识是什么？",
+  "ans_zh": "S5",
+  "com_zh": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "30327",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUELLE CLASSE D'EMISSION NE PEUT ETRE UTILISEE ?",
+  "options": [
+   "G3A",
+   "F2D",
+   "A1A",
+   "A2A"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "G3A",
+  "commentaire_fr": "Depuis mars 2013, toutes les classes d'émission peuvent être utilisée sauf ... celles qui n'existent pas ! (et sauf pour les opérateurs de classe 3 qui n'ont droit qu'aux 6 classes d'émission définies par la réglementation antérieure à 2012). La classe G3A fait partie de ces classes que l'on ne peut utiliser car il y a incompatibilité entre le code 3 (signal analogique) et le code A (télégraphie manuelle) : avec le code A, on ne peut avoir, en 2ème position tous les codes sauf le 3 et le 8 (signaux analogiques sur 1 ou plusieurs voies)\n",
+  "stem_zh": "哪种发射类别不能使用？",
+  "ans_zh": "G3A",
+  "com_zh": "自 2013 年 3 月起，所有发射类别都可以使用，除了……那些根本不存在的类别！（此外，3 类操作员只有权使用 2012 年以前法规所定义的 6 种发射类别。）G3A 就属于不能使用的类别，因为代码 3（模拟信号）与代码 A（人工电报）不兼容：使用代码 A 时，第 2 位可以是除 3 和 8（第 1 路或多路上的模拟信号）以外的所有代码。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30330",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* QUEL EST L'IDENTIFIANT DE LA SUISSE ?",
+  "options": [
+   "HB9",
+   "HBØ",
+   "SU",
+   "SI"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "HB9",
+  "commentaire_fr": "Attention : HB9 = Suisse et HB0 = Liechtenstein\n",
+  "stem_zh": "* 瑞士的呼号标识是什么？",
+  "ans_zh": "HB9",
+  "com_zh": "注意：HB9 = 瑞士，HB0 = 列支敦士登",
+  "anchor": "R47b"
+ },
+ {
+  "num": "30331",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* QUEL PREFIXE NE FAIT PAS PARTIE DE L'UNION EUROPEENNE ?",
+  "options": [
+   "ON",
+   "PA",
+   "HB9",
+   "DO"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "HB9",
+  "commentaire_fr": "ON = Belgique\nPA = Pays Bas\nHB9 = Suisse - rappel : la Suisse ne fait pas partie de l'UE (Union Européenne)\nDO = Allemagne\n",
+  "stem_zh": "* 哪个呼号前缀不属于欧盟？",
+  "ans_zh": "HB9",
+  "com_zh": "ON = 比利时 | PA = 荷兰 | HB9 = 瑞士 —— 提醒：瑞士不属于欧盟（Union Européenne） | DO = 德国",
+  "anchor": "R47b"
+ },
+ {
+  "num": "30348",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EN ALPHABET PHONETIQUE, COMMENT EPPELLE T'ON LES LETTRES C ET X ?",
+  "options": [
+   "Canada, Xylophone",
+   "Charlie, Xylophone",
+   "Charlie, X-ray",
+   "Charlie, Xavier"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Charlie, X-ray",
+  "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+  "stem_zh": "用国际字母解释法表，字母 C 和 X 怎么读？",
+  "ans_zh": "Charlie, X-ray",
+  "com_zh": "字母解释法表是最先要记住的东西。",
+  "anchor": "R31"
+ },
+ {
+  "num": "30380",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* UN RADIOAMATEUR DE CLASSE 3 PEUT UTILISER UN SATELLITE EN MONTEE SUR 144 MHZ ET EN DESCENTE SUR 29 MHZ ?",
+  "options": [
+   "Faux",
+   "Vrai",
+   "Vrai mais uniquement en station portable",
+   "Vrai mais avec une puissance de 0,5 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Vrai",
+  "commentaire_fr": "Ce qui importe, c’est la fréquence d’émission de l’installation de l’opérateur (ainsi que la puissance et la classe d’émission). Si l’opérateur trafique via relais ou satellite, son message sera relayé avec une puissance ou sur une bande qui ne lui est pas attribuée mais ce ne sera plus à partir de son installation\n",
+  "stem_zh": "* 3 类业余爱好者能否使用上行 144 MHz、下行 29 MHz 的卫星？",
+  "ans_zh": "正确",
+  "com_zh": "重要的是操作员设备本身的发射频率（以及功率和发射类别）。如果操作员通过中继台或卫星通联，他的信息将以不属于他的功率或频段被转发，但这已不是从他的设备发出。",
+  "anchor": "R33a"
+ },
+ {
+  "num": "30400",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "* EN ALPHABET PHONETIQUE, COMMENT EPELLE-T-ON LES LETTRES A ET Z ?",
+  "options": [
+   "Amérique, Zoulou",
+   "Alfa, Zoulou",
+   "Amérique, Zanzibar",
+   "América, Zoulou"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Alfa, Zoulou",
+  "commentaire_fr": "L'alphabet phonétique est la première chose à apprendre.\n",
+  "stem_zh": "* 用国际字母解释法表，字母 A 和 Z 怎么读？",
+  "ans_zh": "Alfa, Zoulou",
+  "com_zh": "字母解释法表是最先要记住的东西。",
+  "anchor": "R31"
+ },
+ {
+  "num": "30401",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "LES ONDES DECAMETRIQUES SONT COMPRISES ENTRE ?",
+  "options": [
+   "10 cm et 1 m",
+   "100 m et 10 m",
+   "1 m et 10 cm",
+   "1000 m et 100 m"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "100 m et 10 m",
+  "commentaire_fr": "Les ondes décamétriques commencent à 1 décamètre (soit 10 m) et finissent à 10 décamètre (soit 100 mètres)\n",
+  "stem_zh": "十米波的波长范围是多少？",
+  "ans_zh": "100 m 至 10 m",
+  "com_zh": "十米波从 1 个十米（即 10 m）开始，到 10 个十米（即 100 米）结束。",
+  "anchor": "R52b"
+ },
+ {
+  "num": "30415",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 6 METRES ?",
+  "options": [
+   "Exclusif",
+   "Partagée statut précaire et révocable",
+   "Partagée statut secondaire",
+   "Partagée à égalité de droit"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Partagée statut secondaire",
+  "commentaire_fr": "Depuis la décision 12-1241, le statut de la bande est \"secondaire\"\n",
+  "stem_zh": "* 在法国本土，所谓 6 米波段的业务地位是什么？",
+  "ans_zh": "共享，次要业务地位",
+  "com_zh": "自 12-1241 号决定起，该频段的地位为「次要」。",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30425",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "LE SPECTRE RADIOELECTRIQUE EST LA PROPRIETE DE :",
+  "options": [
+   "L'UIT",
+   "l'Europe",
+   "des associations de radioamateurs",
+   "l'Etat"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "l'Etat",
+  "commentaire_fr": "Selon l’article L41-1 du code des Postes et Communications Electroniques, l’ensemble du spectre des fréquences radioélectriques fait partie du domaine public de l’Etat\n",
+  "stem_zh": "无线电频谱属于谁所有？",
+  "ans_zh": "国家（l'État）",
+  "com_zh": "根据《邮政与电子通信法典》第 L41-1 条，无线电频率的整个频谱属于国家的公产（domaine public）。",
+  "anchor": "R11c"
+ },
+ {
+  "num": "30426",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUEL SYMBOLE DESIGNE UNE EMISSION EN DOUBLE BANDE LATERALE ?",
+  "options": [
+   "D",
+   "3",
+   "E",
+   "A"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "A",
+  "commentaire_fr": "On parle ici d'un type de modulation (1ère lettre de la codification d'une classe d'émission). La double bande latérale est une classe d'émission en modulation d'amplitude et est codée A\n",
+  "stem_zh": "哪个符号表示双边带发射？",
+  "ans_zh": "A",
+  "com_zh": "这里说的是调制类型（发射类别编码的第 1 个字母）。双边带属于调幅发射类别，编码为 A。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30427",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUEL TYPE DE MODULATION EST NOTE A1B ?",
+  "options": [
+   "BLU",
+   "Télégraphie",
+   "Modulation de Fréquence",
+   "Modulation d’amplitude "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Modulation d’amplitude ",
+  "commentaire_fr": "Attention au piège : on ne demande pas le type d'information transmise (télégraphie automatique) mais le type de modulation de l'émission (amplitude).\n",
+  "stem_zh": "A1B 标注的是哪种调制方式？",
+  "ans_zh": "调幅",
+  "com_zh": "当心陷阱：题目问的不是所传输的信息类型（自动电报），而是发射的调制方式（调幅）。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30431",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "DANS G3E, QUE SIGNIFIE LE E ?",
+  "options": [
+   "télévision",
+   "téléphonie",
+   "transmissions de données",
+   "télégraphie auditive"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "téléphonie",
+  "commentaire_fr": "",
+  "stem_zh": "在 G3E 中，字母 E 表示什么？",
+  "ans_zh": "话务（电话）",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30432",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUELLE EST LA CLASSE D'EMISSION EN TELEVISION ?",
+  "options": [
+   "A3E",
+   "J3E",
+   "F3F",
+   "A1A"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "F3F",
+  "commentaire_fr": "Le type d'information transmise est le dernier caractère de la classe d'émission. La télévision est codée F\n",
+  "stem_zh": "电视用的发射类别是什么？",
+  "ans_zh": "F3F",
+  "com_zh": "所传输的信息类型是发射类别的最后一个字符。电视编码为 F。",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30433",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "CLASSE D'EMISSION POUR \nTELEGRAPHIE AUTOMATIQUE EN AM SANS SOUS PORTEUSE MODULANTE",
+  "options": [
+   "A1A",
+   "A2A",
+   "A2B",
+   "A1B"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "A1B",
+  "commentaire_fr": "",
+  "stem_zh": "AM、无调制副载波的自动电报的发射类别",
+  "ans_zh": "A1B",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30436",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "DEFINITION DE LA CLASSE D'EMISSION F3E ?",
+  "options": [
+   "téléphonie, modulation d'amplitude",
+   "téléphonie, modulation de phase",
+   "téléphonie, modulation de fréquence ",
+   "télévision, modulation de fréquence "
+  ],
+  "ans_idx": 2,
+  "ans_fr": "téléphonie, modulation de fréquence ",
+  "commentaire_fr": "",
+  "stem_zh": "发射类别 F3E 的定义是什么？",
+  "ans_zh": "话务（电话），调频",
+  "com_zh": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "30438",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUE REPRESENTE CE TYPE DE MODULATION ? (ENVELOPPE AVEC GRISE A L'INTERIEUR)",
+  "options": [
+   "AM",
+   "FM",
+   "CW",
+   "USB"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "AM",
+  "commentaire_fr": "La réponse \"USB\" USB pourrait convenir si « AM » n’avait pas été proposé. La BLS (ou USB en anglais) se représente rarement sous forme d’oscillogramme mais la BLU est une forme de modulation d’amplitude\n",
+  "stem_zh": "这种调制类型表示什么？（内部带阴影的包络）",
+  "ans_zh": "AM",
+  "com_zh": "如果题目没有给出「AM」这个选项，答「USB」也说得通。BLS（英语中为 USB）很少用示波图表示，但 BLU 是调幅的一种形式。",
+  "anchor": "R12b"
+ },
+ {
+  "num": "30442",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE BANDE (EN MHZ) N'EST PAS EXCLUSIVE ?",
+  "options": [
+   "21",
+   "18",
+   "14",
+   "10"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10",
+  "commentaire_fr": "La bande du 10 MHz a un statut secondaire pour les radioamateurs\n",
+  "stem_zh": "哪个频段（以 MHz 计）不是专用的？",
+  "ans_zh": "10",
+  "com_zh": "10 MHz 频段对业余无线电爱好者而言是次要业务。",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30444",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE BANDE EST ATTRIBUEE EN EXCLUSIVITE AU SERVICE D'AMATEUR ?",
+  "options": [
+   "14,250 – 14,350 MHz ",
+   "3,500 – 3,800 MHz",
+   "18,068 – 18,168 MHz",
+   "1240 - 1300 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "18,068 – 18,168 MHz",
+  "commentaire_fr": "",
+  "stem_zh": "哪个频段专用于业余业务？",
+  "ans_zh": "18.068 – 18.168 MHz",
+  "com_zh": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30445",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "RETROUVER DES BANDES D'EMISSION AUTORISEES PAR SATELLITE EN REGION 1",
+  "options": [
+   "14,000 – 14,250 MHz ",
+   "5650 - 5850 MHz",
+   "14,000 – 14,350 MHz ",
+   "430 - 440 MHz "
+  ],
+  "ans_idx": 0,
+  "ans_fr": "14,000 – 14,250 MHz ",
+  "commentaire_fr": "Les bandes 430 - 440 MHz et  5650 - 5850 MHz ne sont pas entièrement autorisées au trafic satellite (autorisé de 435 à 438 MHz en région 1 et interdit de 5725 à 5830 MHz)\n",
+  "stem_zh": "找出第 1 区允许用于卫星发射的频段",
+  "ans_zh": "14.000 – 14.250 MHz",
+  "com_zh": "430 - 440 MHz 与 5650 - 5850 MHz 频段并非全部允许卫星通信（第 1 区允许 435 至 438 MHz，5725 至 5830 MHz 段禁止）",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30454",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "PUISSANCE MAXIMUM AUTORISEE POUR UN OPERATEUR DE LA CLASSE UNIQUE SUR 430 MHZ ?",
+  "options": [
+   "500 W",
+   "250 W",
+   "120 W",
+   "10 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "120 W",
+  "commentaire_fr": "",
+  "stem_zh": "统一类别（classe unique）操作员在 430 MHz 上允许的最大功率是多少？",
+  "ans_zh": "120 W",
+  "com_zh": "",
+  "anchor": "R22a"
+ },
+ {
+  "num": "30455",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA PUISSANCE D'EMISSION MAXIMUM AUTORISEE A UN RADIOAMATEUR DE L'EX-CLASSE 1 DANS LA BANDE 1240 - 1300 MHZ ?",
+  "options": [
+   "120 W",
+   "500 W",
+   "250 W",
+   "10 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "120 W",
+  "commentaire_fr": "",
+  "stem_zh": "原 1 类业余爱好者在 1240 - 1300 MHz 频段中允许的最大发射功率是多少？",
+  "ans_zh": "120 W",
+  "com_zh": "",
+  "anchor": "R22a"
+ },
+ {
+  "num": "30456",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "PUISSANCE AUTORISEE EN TELEVISION SUR 438 MHZ ?",
+  "options": [
+   "250 W",
+   "500 W",
+   "120 W",
+   "0 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "120 W",
+  "commentaire_fr": "L’ARCEP n’impose pas de fréquences pour les différentes classes d’émission du moment que la largeur de la bande passante de l'émission est conforme aux conditions techniques imposées par la décision ARCEP. Au delà de 225 MHz, il n'y a plus de limite de bande passante. Sur 438 MHz, on peut donc émettre en télévision malgré que cela nécessite une bande passante très importante.\n",
+  "stem_zh": "在 438 MHz 上以电视方式发射的允许功率是多少？",
+  "ans_zh": "120 W",
+  "com_zh": "只要发射的带宽符合 ARCEP 决定规定的技术条件，ARCEP 就不对各发射类别强制指定频率。超过 225 MHz 后，带宽不再有限制。因此在 438 MHz 上可以以电视方式发射，尽管这需要很大的带宽。",
+  "anchor": "R22a"
+ },
+ {
+  "num": "30458",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE(S) CLASSE(S) D'OPERATEUR A-T-IL(ONT-ILS) LE DROIT D'EMETTRE SUR LA BANDE DES 10 METRES",
+  "options": [
+   "2",
+   "1",
+   "1 et 2",
+   "1, 2 et 3"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1 et 2",
+  "commentaire_fr": "Les classes 1 et 2 sont devenues la \"classe unique\" ou \"classe HAREC\"\n",
+  "stem_zh": "哪些类别的操作员有权在 10 米波段发射",
+  "ans_zh": "1 和 2",
+  "com_zh": "1 类和 2 类已变成「统一类别」或称「HAREC 类」。",
+  "anchor": "R22a"
+ },
+ {
+  "num": "30461",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUELLE(S) CLASSE(S) PEUT UTILISER LES CLASSES D'EMISSION R3E ET J3E?",
+  "options": [
+   "1, 2 et 3",
+   "2 et 3",
+   "1 et 2",
+   "1"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1 et 2",
+  "commentaire_fr": "La classe R3E est interdite aux opérateurs de classe 3\n",
+  "stem_zh": "哪些类别可以使用 R3E 和 J3E 发射类别？",
+  "ans_zh": "1 和 2",
+  "com_zh": "R3E 类禁止 3 类操作员使用。",
+  "anchor": "R22a"
+ },
+ {
+  "num": "30465",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "EXISTE-T-IL UNE LOI CONCERNANT LA PROTECTION DES PERSONNES LORS D'EMISSIONS RADIOELECTRIQUES ?",
+  "options": [
+   "non, aucune",
+   "oui, dans les bandes radioamateurs uniquement",
+   "uniquement si la puissance d'émission dépasse 5 W",
+   "oui, dans toutes les bandes radioélectriques"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "oui, dans toutes les bandes radioélectriques",
+  "commentaire_fr": "",
+  "stem_zh": "是否存在关于无线电发射时人员防护的法律？",
+  "ans_zh": "存在，适用于所有无线电频段",
+  "com_zh": "",
+  "anchor": "R22b"
+ },
+ {
+  "num": "30466",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUELLE EST LA HAUTEUR MAXIMALE D'UN PYLONE, AUTORISEE POUR LAQUELLE IL N'EST PAS NECESSAIRE DE DEMANDER UNE AUTORISATION",
+  "options": [
+   "20 mètres",
+   "10 mètres",
+   "12 mètres",
+   "aucune demande n'est nécessaire quelle que soit la hauteur"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "12 mètres",
+  "commentaire_fr": "Depuis 2007, la demande d'autorisation est nommée \"déclaration préalable\" dans le code de l'urbanisme.\n",
+  "stem_zh": "不需申请许可即可建的最大塔桅高度是多少？",
+  "ans_zh": "12 米",
+  "com_zh": "自 2007 年起，在城市规划法典中，这种许可申请被称为「事先申报」（déclaration préalable）。",
+  "anchor": "R22c"
+ },
+ {
+  "num": "30470",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION DE L'INDICATIF : FC5BWA",
+  "options": [
+   "Foxtrot Charlie 5 Bravo Whiskey America",
+   "France Charlie 5 Baltimore Whiskey Alfa ",
+   "Foxtrot Canada 5 Bravo Whiskey Alfa ",
+   "Foxtrot Charlie 5 Bravo Whiskey Alfa "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Foxtrot Charlie 5 Bravo Whiskey Alfa ",
+  "commentaire_fr": "",
+  "stem_zh": "呼号 FC5BWA 的拼读",
+  "ans_zh": "Foxtrot Charlie 5 Bravo Whiskey Alfa",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "30473",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "SELON LA TABLE INTERNATIONALE D'EPELLATION PHONETIQUE, COMMENT EPELLE-T-ON  FD6JZK",
+  "options": [
+   "Foxtrot Delta six Juliett Zoulou Kilo ",
+   "France Delta six Juliett Zoulou Kilo ",
+   "Foxtrot Delta six Juliett Zanzibar Kilo ",
+   "Foxtrot Delta six Juliett Zoulou Kilowatt"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Foxtrot Delta six Juliett Zoulou Kilo ",
+  "commentaire_fr": "",
+  "stem_zh": "根据国际字母解释法表，FD6JZK 怎么读？",
+  "ans_zh": "Foxtrot Delta six Juliett Zoulou Kilo",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "30476",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "SELON LA TABLE INTERNATIONALE D'EPELLATION PHONETIQUE, COMMENT EPELLE-T-ON F0GJ",
+  "options": [
+   "Foxtrot 0 Golf Japon",
+   "France 0 Golf Juliett ",
+   "Foxtrot 0 Guatemala Juliett ",
+   "Foxtrot 0 Golf Juliett "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Foxtrot 0 Golf Juliett ",
+  "commentaire_fr": "",
+  "stem_zh": "根据国际字母解释法表，F0GJ 怎么读？",
+  "ans_zh": "Foxtrot 0 Golf Juliett",
+  "com_zh": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "30480",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "QUE SE PASSE-T-IL  SI ON AJOUTE DES ELEMENTS PARASITES DE CHAQUE COTE D'UN DOUBLET DEMI-ONDE ?",
+  "options": [
+   "Il ne se passe rien",
+   "Le doublet demi-onde ne fonctionne plus",
+   "On crée de la directivité",
+   "Le double demi-onde devient une antenne verticale"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "On crée de la directivité",
+  "commentaire_fr": "On crée de la directivité et le doublet devient une antenne Yagi\n",
+  "stem_zh": "如果在半波偶极天线的每一侧都加上寄生单元，会发生什么？",
+  "ans_zh": "就产生了方向性",
+  "com_zh": "就产生了方向性，偶极天线变成了八木天线。",
+  "anchor": "R52f"
+ },
+ {
+  "num": "30503",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* UN RADIOAMATEUR \"HAREC\" PEUT FAIRE DE L'EMISSION EN TELEPHONIE\nSUR LA BANDE DES ?\n1 - 6 METRES\n2 - 10 METRES\n3 - 12 METRES\n4 - 80 METRES",
+  "options": [
+   "1",
+   "4",
+   "1,2,3,4",
+   "1,2,3"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1,2,3,4",
+  "commentaire_fr": "Les opérateurs \"HAREC\" sont les anciens opérateurs de classe 1 et 2\n",
+  "stem_zh": "* 「HAREC」业余爱好者可以在哪个频段上以话务方式发射？1 - 6 米 2 - 10 米 3 - 12 米 4 - 80 米",
+  "ans_zh": "1、2、3、4",
+  "com_zh": "「HAREC」操作员即原 1 类和 2 类操作员。",
+  "anchor": "R22a"
+ },
+ {
+  "num": "30506",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "QUELLE EST L'IMPEDANCE D'UN 1/4 D'ONDE SUR UN PLAN DE 90 DEGRES",
+  "options": [
+   "73 Ω",
+   "90 Ω",
+   "36 Ω",
+   "300 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "36 Ω",
+  "commentaire_fr": "Si le plan de sol placé à la base de l'antenne quart d'onde est incliné à 120°, l'impédance de l'antenne devient 52 ohms\n",
+  "stem_zh": "地网平面为 90 度的四分之一波长天线的阻抗是多少？",
+  "ans_zh": "36 Ω",
+  "com_zh": "如果置于四分之一波长天线底部的地网平面倾斜成 120°，天线阻抗变为 52 欧。",
+  "anchor": "R52e"
+ },
+ {
+  "num": "30508",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "LA BANDE 7,000 A 7,200 MHZ EST UNE BANDE ?",
+  "options": [
+   "Sans aucune restriction",
+   "Non attribuée aux Radioamateurs",
+   "Où la puissance est limitée à 250 watts",
+   "Autorisée à la classe novice"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Sans aucune restriction",
+  "commentaire_fr": "La bande est attibuée en statut primaire, donc sans aucune resrtriction.\n",
+  "stem_zh": "7.000 至 7.200 MHz 频段是一个怎样的频段？",
+  "ans_zh": "没有任何限制",
+  "com_zh": "该频段被指配为主要业务地位，因此没有任何限制。",
+  "anchor": "R21b"
+ },
+ {
+  "num": "30509",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "LES RESOLUTIONS DE L' U.I.T",
+  "options": [
+   "sont des textes qui n'ont aucune incidence sur le droit international",
+   "sont à respecter avec l'autorisation de l'ANFR",
+   "doivent être respectées par tous les Radioamateurs",
+   "n'ont pas à être respectées par les radioamateurs français"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "doivent être respectées par tous les Radioamateurs",
+  "commentaire_fr": "Attention, les résolutions et les recommandations de l'UIT ne sont applicables en France que lorsqu'elles ont été \"transcrites\" en droit français. C'est ce que nous répond l'administration quand on veut faire appliquer une résolution de l’UIT (comme le plan de bande par exemple). Pour autant, le droit français doit \"converger\" vers ces résolutions et recommandations car ce sont les textes fondateurs du droit international.\n",
+  "stem_zh": "国际电信联盟（UIT）的决议",
+  "ans_zh": "所有业余无线电爱好者都必须遵守",
+  "com_zh": "注意：UIT 的决议和建议只有在「转化」为法国法律后才在法国适用。当我们想要求执行某项 UIT 决议（例如波段规划）时，主管部门就是这样答复的。不过，法国法律应当向这些决议和建议「趋同」，因为它们是国际法的奠基文件。",
+  "anchor": "R11a"
+ },
+ {
+  "num": "30512",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "RETROUVEZ UN INDICATIF DE CLASSE 2",
+  "options": [
+   "F5XYZ",
+   "F1XYZ",
+   "FØXYZ",
+   "F6XYZ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "F1XYZ",
+  "commentaire_fr": "F0 = classe 3 (depuis 2012 aucun nouvel indicatif d'appel sous cette forme n'a été attribué)\nF5 et F6 = classe 1 (qui, depuis 2012, ont été reclassés en \"classe unique\" avec les opérateurs de classe 2)\n",
+  "stem_zh": "找出一个 2 类呼号",
+  "ans_zh": "F1XYZ",
+  "com_zh": "F0 = 3 类（自 2012 年起，未再指配过这种形式的新呼号）| F5 和 F6 = 1 类（自 2012 年起，它们与 2 类操作员一并被重定为「统一类别」）",
+  "anchor": "R46a"
+ },
+ {
+  "num": "30513",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "UN BON TOS EST PROCHE DE ?",
+  "options": [
+   "1",
+   "0,5",
+   "Zéro",
+   "2"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Zéro",
+  "commentaire_fr": "",
+  "stem_zh": "良好的 TOS（驻波百分比）接近于？",
+  "ans_zh": "零",
+  "com_zh": "",
+  "anchor": "R53b"
+ },
+ {
+  "num": "30516",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* L'UTILISATION D'ECHOLINK EN EXPERIMENTATION EST-ELLE AUTORISEE EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "Oui",
+   "Non",
+   "Oui mais avec une puissance de 1 Watt",
+   "Oui mais avec une puissance de 5 Watts"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Non",
+  "commentaire_fr": "On parle ici d'Echolink en tant que passerelle radio entre un émetteur et un répeteur connecté à Echolink via Internet. Le trafic à partir d'un PC connecté à Echolink via Internet est bien entendu autorisé car ce n'est pas de la radio...\n",
+  "stem_zh": "* 在法国本土是否允许实验性地使用 Echolink？",
+  "ans_zh": "不允许",
+  "com_zh": "这里说的 Echolink 是指把发射机与通过互联网接入 Echolink 的中继台之间的无线电网关。从通过互联网连接到 Echolink 的电脑发起的通联当然是被允许的，因为那不属于无线电……",
+  "anchor": "R42f"
+ },
+ {
+  "num": "30518",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* QUI PUBLIE LE R.R. ? (REGLEMENT DES RADIOCOMMUNICATIONS)",
+  "options": [
+   "le CSA",
+   "l' ARCEP",
+   "l'UIT",
+   "l' ANFR"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "l'UIT",
+  "commentaire_fr": "",
+  "stem_zh": "* 谁发布 R.R.（《无线电规则》）？",
+  "ans_zh": "UIT（国际电信联盟）",
+  "com_zh": "",
+  "anchor": "R11a"
+ }
+]

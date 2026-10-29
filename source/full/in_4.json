@@ -1,0 +1,626 @@
+[
+ {
+  "num": "20105",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT",
+  "options": [
+   "204 Ω",
+   "20,4 Ω",
+   "2 Ω",
+   "0,2 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "20,4 Ω",
+  "commentaire_fr": "Ishunt = 50 mA – 1 mA = 49 mA ; U shunt = U galva = 1000 x 0,001 = 1 V ; Rshunt = U / I = 1 V / 0,049 = 20,408 arrondi à 20,4\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20106",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT",
+  "options": [
+   "15 Ω",
+   "1,5 Ω",
+   "3 Ω",
+   "0,02 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1,5 Ω",
+  "commentaire_fr": "Ushunt = U galva = 600 x 0,0005 = 0,3 V ; Ishunt = 0,2 – 0,0005 = 0,1995 A ; Rshunt = U / I = 0,3 / 0,1995 = 1,5037 arrondi à 1,5 ohms)\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20107",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT",
+  "options": [
+   "0,002 kΩ",
+   "2 Ω",
+   "0,002040 MΩ",
+   "2,04 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2,04 Ω",
+  "commentaire_fr": "Ushunt = Ugalva = 100 x 0,001 = 0,1 V ; Ishunt = 50 mA – Igalva = 0,049 A ; R = U / I = 0,1/0,049 = 2,0408 arrondi à 2,04 Ω. Attention, les réponses 2 Ω et 0,002 kΩ (qui sont la même chose) ne sont pas assez précises : l’arrondi a été fait trop tôt.\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20108",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "VALEUR DU SHUNT",
+  "options": [
+   "111 Ω",
+   "100 Ω",
+   "1 kΩ",
+   "1,11 kΩ"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "111 Ω",
+  "commentaire_fr": "Ug = Ri x Ig = 0,1 V ; S = Ug / (I – Ig) = 0,1 / (0,001 – 0,000 1) = 0,1 / 0,0009 = 111\n",
+  "anchor": "T034b"
+ },
+ {
+  "num": "20109",
+  "theme_fr": "Électricité de base",
+  "theme_zh": "电学基础",
+  "stem_fr": "QUELLE EST LA VALEUR R A METTRE EN SERIE AVEC UN VOLTMETRE",
+  "options": [
+   "8 MΩ",
+   "0,8 MΩ",
+   "400 kΩ",
+   "10 kΩ"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "0,8 MΩ",
+  "commentaire_fr": "UR = 500 – Uvoltmètre = 500 – 100 = 400 V ; IR = Ig = 1/2000 = 0,0005 A ; R = U / I = 400/0,0005 = 800.000 Ω = 0,8 MΩ. \nAutre méthode : tension à chuter = 500 – 100 = 400 V ; 400 V x 2000 Ω/V = 800 000 Ω\nS'il y a quelques dizaines d'années on parlait de résistance caractéristique des voltmètres à aiguille en ohm/v, pour la plupart des voltmètres électroniques actuels et de par leur construction, la résistance de ces appareils est constante quelque soit le calibre et a souvent pour valeur 100 Mohms et non 100 Mohms/volt\n",
+  "anchor": "T035a"
+ },
+ {
+  "num": "20112",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUELLE EST LA FREQUENCE DE COUPURE",
+  "options": [
+   "10 MHz ",
+   "160 kHz",
+   "1,6 MHz ",
+   "1 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1,6 MHz ",
+  "commentaire_fr": "F = 1 / (2 x pi x R x C) = 1,59 MHz arrondi à 1,6 MHz\n",
+  "anchor": "T042a"
+ },
+ {
+  "num": "20113",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUELLE EST LA TENSION VS",
+  "options": [
+   "2 V ",
+   "2,8 V",
+   "8 V",
+   "4 V "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2,8 V",
+  "commentaire_fr": "D’abord, calculer la fréquence de résonance du circuit : F = 1 / (2 x p x R x C) = 99 kHz (arrondi à 100 kHz dans ce cas). On est donc à la fréquence de coupure où le signal est atténué de 3 dB en sortie. Attention, le piège est que la puissance est divisée par 2 tandis que la tension n’est diminuée que de sa racine carrée (2 x √ 2 = 2,83 V) car P = U² / R (effet du carré). \n",
+  "anchor": "T042a"
+ },
+ {
+  "num": "20114",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA FREQUENCE SUPERIEURE DE 1 OCTAVE A 2000 HZ ?",
+  "options": [
+   " 1 000 Hz ",
+   "20 000 Hz",
+   "4 000 Hz",
+   "200 Hz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "4 000 Hz",
+  "commentaire_fr": "2000 x 2 = 4000 Hz (ou 4 kHz)\n",
+  "anchor": "T042c"
+ },
+ {
+  "num": "20118",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "F = 500 HZ\nFREQUENCE SUPERIEURE DE 2 DECADES ?",
+  "options": [
+   "5 kHz ",
+   "50 kHz",
+   "1000 Hz",
+   "2000 Hz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50 kHz",
+  "commentaire_fr": "500 x 10 x 10 = 50.000 Hz = 50 kHz\n",
+  "anchor": "T042c"
+ },
+ {
+  "num": "20120",
+  "theme_fr": "Courants alternatifs",
+  "theme_zh": "交流电",
+  "stem_fr": "QUELLE EST LA FREQUENCE SUPERIEURE D'UNE DECADE A 2000 HZ",
+  "options": [
+   "20 kHz ",
+   "4 kHz",
+   "1000 Hz",
+   "200 000 Hz "
+  ],
+  "ans_idx": 0,
+  "ans_fr": "20 kHz ",
+  "commentaire_fr": "2000 Hz x 10 = 20000 Hz = 20 kHz\n",
+  "anchor": "T042c"
+ },
+ {
+  "num": "20122",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE TYPE DE FILTRE",
+  "options": [
+   "passe bas à -6 dB/octave ",
+   "réjecteur ",
+   "coupe bande ",
+   "passe haut à -6 dB/octave"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "passe haut à -6 dB/octave",
+  "commentaire_fr": "inverse du filtre RC : \"dans un filtre passe haut, la bobine est en bas\"\n",
+  "anchor": "T042e"
+ },
+ {
+  "num": "20123",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "QUEL EST LE TYPE DE FILTRE",
+  "options": [
+   "filtre en pi",
+   "filtre passe-bas à -6 dB/octave ",
+   "circuit coupe bande",
+   "circuit bouchon"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "filtre passe-bas à -6 dB/octave ",
+  "commentaire_fr": "inverse du filtre RC.\n",
+  "anchor": "T042e"
+ },
+ {
+  "num": "20124",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FREQUENCE DE RESONANCE",
+  "options": [
+   "22 MHz ",
+   "7,3 MHz",
+   "11 MHz",
+   "34 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "34 MHz",
+  "commentaire_fr": "Formule simplifiée : F = 159 / √ (L en µH x C en pF) = 159 / √ (0,022 x 1000) = 159/ √ (22) = 159/4,7 = 33,8 arrondi à 34 MHz\n",
+  "anchor": "T043a"
+ },
+ {
+  "num": "20125",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "FREQUENCE DE RESONANCE",
+  "options": [
+   "1,6 MHz ",
+   "100 kHz",
+   "4 MHz",
+   "1 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "4 MHz",
+  "commentaire_fr": "Formule simplifiée : F = 159 / √ (L en µH x C en pF) = 159 / √ (8 x 200) = 159/ √ (1600) = 159/40= 3,975 arrondi à 4 MHz\n",
+  "anchor": "T043a"
+ },
+ {
+  "num": "20126",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "IMPEDANCE DE LA RESONANCE",
+  "options": [
+   "5 kΩ",
+   "50 kΩ",
+   "infini",
+   "4 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50 kΩ",
+  "commentaire_fr": "formule simplifiée : Z en kΩ = L en µH / C en pF / R en kΩ = 20 / 100 / 0,004 = 50 kΩ\n",
+  "anchor": "T044a3"
+ },
+ {
+  "num": "20131",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TAUX DE SELECTIVITE",
+  "options": [
+   "50 %",
+   "14 %",
+   "7 %",
+   "1,4 %"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "14 %",
+  "commentaire_fr": "(3657-3643)/(3700-3600) x  100 = 14%\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20132",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TAUX DE SELECTIVITE",
+  "options": [
+   "70 %",
+   "10 %",
+   "7 %",
+   "14 %"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "14 %",
+  "commentaire_fr": "taux de sélectivité = bande passante à –3 dB / bande passante à –60 dB x 100 =  (3607-3593) / (3650-3550) x 100 = 14 / 100 x 100 =14\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20133",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TAUX DE SELECTIVITE",
+  "options": [
+   "5 %",
+   "10 %",
+   "20 %",
+   "14 %"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "20 %",
+  "commentaire_fr": "(taux de sélectivité = bande passante à –3 dB / bande passante à –60 dB x 100 = (3610-3590)/(3650-3550)x100 = 20 / 100 x 100 = 20)\n",
+  "anchor": "T044e"
+ },
+ {
+  "num": "20135",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCULER R EN CONNAISANT L C ET Q",
+  "options": [
+   "33 Ω",
+   "100 Ω",
+   "13 Ω",
+   "0,3 Ω"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "13 Ω",
+  "commentaire_fr": "R(kΩ) = √(L(µH) / C(pF)) / Q = √(50 / 50) / 75 =\n√(1) / 75 = 1 / 75 = 0,013 kΩ = 13 Ω\n",
+  "anchor": "T046b"
+ },
+ {
+  "num": "20136",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCULER R EN CONNAISANT L C ET Q",
+  "options": [
+   "25 Ω",
+   "50 Ω",
+   "100 Ω",
+   "2 Ω"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2 Ω",
+  "commentaire_fr": "R(kΩ) = √(L(µH) / C(pF)) / Q = √(20 / 500) / 100 =\n√(0,04) / 100 = 0,2 / 100 = 0,002 kΩ = 2 Ω\n",
+  "anchor": "T046b"
+ },
+ {
+  "num": "20137",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCULER Z EN CONNAISANT L C ET Q",
+  "options": [
+   "200 000 Ω",
+   "4,4 kΩ",
+   "Infinie",
+   "10 000 Ω"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "200 000 Ω",
+  "commentaire_fr": "Z(kΩ) = √(L(µH) / C(pF)) x Q = √(200 / 50) x 100 =\n√(4) x 100 = 2 x 100 = 200 kΩ = 200 000 Ω\n",
+  "anchor": "T046b"
+ },
+ {
+  "num": "20138",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "CALCULER Z EN CONNAISANT L C ET Q",
+  "options": [
+   "20 Ω",
+   "80 Ω",
+   "64 Ω",
+   "80 kΩ"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "64 Ω",
+  "commentaire_fr": "Z(kΩ) = √(L(µH) / C(pF)) x Q = √(0,01 / 10000) x 64 =\n√(1/10^6) x 64 = 1/1000 x 64 = 0,064 kΩ = 64 Ω\n",
+  "anchor": "T046b"
+ },
+ {
+  "num": "20141",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE EST LA TENSION US AUX BORNES DU CONDENSATEUR",
+  "options": [
+   "3,2 V ",
+   " 7,1 V",
+   "4,3 V",
+   "5 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": " 7,1 V",
+  "commentaire_fr": "à la sortie du transfo, Us = Ue (même nombre de spires) ; \nle condensateur transforme U eff en U max (5 V x 1,414 = 7,07, arrondi à 7,1 V). \nPar simplification, on a ici négligé la tension de seuil de la diode. \nEn effet, on n'aura jamais plus que la tension anode moins la tension de seuil sur la cathode de la diode. Au final, la tension Us sera d’environ 6,4 volts si la diode est au silicium\n",
+  "anchor": "T054"
+ },
+ {
+  "num": "20142",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL EST LE COURANT IC",
+  "options": [
+   "1,8 A ",
+   "1,8m A",
+   "6,66 mA",
+   "12 mA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1,8m A",
+  "commentaire_fr": "Ic = Ib x b = 150 x 12 µA = 1,8 x 10-3 = 1,8 mA. La valeur de la résistance de collecteur ne sert à rien.\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20143",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CALCULER LE COURANT DE BASE I",
+  "options": [
+   "10 µA ",
+   "10 mA ",
+   "15 mA",
+   "225 mA"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10 µA ",
+  "commentaire_fr": "Ib = Ic / ϐ = 1,5 mA / 150 = 0,01 mA = 10 µA\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20144",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CALCULER IC",
+  "options": [
+   "330 µA ",
+   "950 µA",
+   "0,095 A",
+   "1,8 A"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "950 µA",
+  "commentaire_fr": "Ic = Ib x b = 9,5 µA x 100 = 950 µA\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20145",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "CALCULER IC",
+  "options": [
+   "18000 µA ",
+   "18,12 mA ",
+   " 18,1 µA",
+   "0,18 A"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "18000 µA ",
+  "commentaire_fr": "Ic = Ib x b = 120 µA x 150 = 18000 µA. La réponse 18,12 mA est un piège : c’est la valeur du courant passant dans l’émetteur (= courant de base + courant collecteur)\n",
+  "anchor": "T062"
+ },
+ {
+  "num": "20147",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "RENDEMENT D'UN TRANSISTOR MONTE EN CLASSE A",
+  "options": [
+   "plus de 50 % ",
+   "de 50 à 80%",
+   "plus de 80 %",
+   "moins de 100%"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "moins de 100%",
+  "commentaire_fr": "Dans un amplificateur de classe A, le composant actif est toujours en conduction. Cet amplificateur amplifie tout le signal d’entrée, limitant ainsi les distorsions sur le signal de sortie. Il n’a pas un bon rendement : il dissipe une puissance constante quelle que soit l'amplitude du signal d'entrée. Ainsi, cet amplificateur atteint son rendement maximum lorsque l'amplitude du signal de sortie est aux limites de ce que peut fournir l'amplificateur. Le rendement maximum d'un amplificateur de classe A dépend de la topologie du montage utilisé : le rendement maximum théorique de ces amplificateurs est de 50 % dans le cas d'une liaison par transformateur, de 25 % dans le cas d'une liaison directe et entre 6 % et 25 % pour une liaison capacitive\n",
+  "anchor": "T071a1"
+ },
+ {
+  "num": "20148",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUELLE CLASSE D'AMPLIFICATION A UNE TENSION DE REPOS DE 0 VOLT ?",
+  "options": [
+   "Classe AB ",
+   "Classe A",
+   "Classe B",
+   "Classe C"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Classe B",
+  "commentaire_fr": "la classe B utilise deux amplificateurs pour amplifier les deux alternances d’un signal\n",
+  "anchor": "T071a2"
+ },
+ {
+  "num": "20149",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "QUEL TYPE DE MODULATION EST ADAPTE A UN AMPLIFICATEUR MONTE EN CLASSE C ?",
+  "options": [
+   "CW et FM ",
+   "AM",
+   "AM et BLU",
+   "BLU"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "CW et FM ",
+  "commentaire_fr": "La classe C ne permet pas d’amplifier un signal modulé en amplitude comme l’AM et la BLU\n",
+  "anchor": "T071a3"
+ },
+ {
+  "num": "20156",
+  "theme_fr": "Diodes et transistors, classes d'amplification",
+  "theme_zh": "二极管、晶体管、放大类别",
+  "stem_fr": "AMPLIFICATEUR ET 2 FREQUENCES",
+  "options": [
+   "4 et 10.000 Hz",
+   "4, 96, 100 et 104 Hz",
+   "100 et 200 Hz",
+   "2, 98, 100 et 102 H"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "2, 98, 100 et 102 H",
+  "commentaire_fr": "on devrait aussi avoir les harmoniques 2 des fréquences d’entrée, soit 4 et 200 Hz\n",
+  "anchor": "T077c"
+ },
+ {
+  "num": "20160",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN EN TENSION",
+  "options": [
+   "-3,3 ",
+   " 33",
+   "-33",
+   "3,3 "
+  ],
+  "ans_idx": 2,
+  "ans_fr": "-33",
+  "commentaire_fr": "G = - R2 / R1 = -33000 / 1000 = -33\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20161",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN EN TENSION",
+  "options": [
+   "-1,5 ",
+   "25",
+   "2,5",
+   "-15"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "-15",
+  "commentaire_fr": "G = - R2 / R1 = -330 000 / 22 000 = -15\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20162",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN EN TENSION",
+  "options": [
+   "-1,5 ",
+   "25",
+   "2,5",
+   "-15"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "-15",
+  "commentaire_fr": "G = - R2 / R1 = -33 000 / 2 200 = -15\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20163",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TENSION DE SORTIE VS",
+  "options": [
+   "9,4 V",
+   "0,94 V",
+   "-9,4 V",
+   "-0,94 V"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "-9,4 V",
+  "commentaire_fr": "G = -(R2 / R1) ; Vs = Ve x G = 0,2 x –47 = -9,4 V\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20164",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TENSION DE SORTIE VS",
+  "options": [
+   "3,3 V ",
+   "- 3,3 V",
+   "33 V",
+   "-33 V"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "- 3,3 V",
+  "commentaire_fr": "G = -(R2 / R1) ; Vs = Ve x G = 0,1 x –33 = -3,3V\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20165",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "TENSION DE SORTIE VS",
+  "options": [
+   "-0,05 V ",
+   " -0,5 V",
+   "-1,8 V",
+   "-4,5 V"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "-0,05 V ",
+  "commentaire_fr": "G = -R2/R1 = -0,1666 ; Vs = Ve x G = 0,3 x –0,1666 = -0,05 V\n",
+  "anchor": "T082"
+ },
+ {
+  "num": "20166",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN EN TENSION",
+  "options": [
+   "0,5 ",
+   "1,6",
+   "2,5",
+   "0,3"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "2,5",
+  "commentaire_fr": "G = (R2/R1) + 1 = (33/22) + 1 = 1,5 + 1 = 2,5; question hors programme, seul le montage inverseur est au programme.\n",
+  "anchor": "T083"
+ },
+ {
+  "num": "20167",
+  "theme_fr": "Transformateurs, ampli op, filtres RC LC RLC",
+  "theme_zh": "变压器、运算放大器、RC/LC/RLC 滤波器",
+  "stem_fr": "GAIN EN TENSION",
+  "options": [
+   "16 ",
+   "15",
+   "15000",
+   "0,0667"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "16 ",
+  "commentaire_fr": "G = (R2 / R1) + 1 = (33000 / 2200) + 1 = 15 + 1 = 16 ; question hors programme, seul le montage inverseur est au programme.\n",
+  "anchor": "T083"
+ }
+]

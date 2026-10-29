@@ -1,0 +1,305 @@
+{
+ "section": "T5 §5.1–§5.4 + T6 §6.1–§6.6 + T7 §7.1–§7.7（二极管/晶体管/放大器）",
+ "pairs": [
+  {
+   "old": "（硅的 ρ = 640 Ωm）",
+   "new": "（硅的 \\(\\rho = 640\\ \\Omega\\text{m}\\)）",
+   "count": 1,
+   "note": "§5.2 硅电阻率"
+  },
+  {
+   "old": "掺入极微量（10⁻⁸）的杂质",
+   "new": "掺入极微量（\\(10^{-8}\\)）的杂质",
+   "count": 1,
+   "note": "§5.2 杂质浓度比"
+  },
+  {
+   "old": "则次级有效值 U₂ = U₁ × N₂/N₁，滤波电容两端电压等于其峰值：",
+   "new": "则次级有效值 \\(U_2 = U_1 \\times \\dfrac{N_2}{N_1}\\)，滤波电容两端电压等于其峰值：",
+   "count": 1,
+   "note": "§5.4 变压器变比"
+  },
+  {
+   "old": "<div class=\"formula\">U₂(eff) = U₁ × N₂ / N₁",
+   "new": "<div class=\"formula\">\\[U_2\\,(\\text{eff}) = U_1 \\times \\frac{N_2}{N_1}\\]",
+   "count": 1,
+   "note": "§5.4 formula 第一行"
+  },
+  {
+   "old": "U_capacité = U₂(eff) × 1,414（= U₂ × √2）      ← 不计二极管压降</div>",
+   "new": "\\(U_{\\text{capacité}} = U_2\\,(\\text{eff}) \\times 1{,}414\\)（\\(= U_2 \\times \\sqrt{2}\\)）      ← 不计二极管压降</div>",
+   "count": 1,
+   "note": "§5.4 formula 第二行"
+  },
+  {
+   "old": "U₂ = 300 × 150/2000 = 22,5 V，电容上 22,5 × 1,414 ≈ <b>31,8 V</b>；",
+   "new": "\\(U_2 = 300 \\times 150/2000 = 22{,}5\\) V，电容上 \\(22{,}5 \\times 1{,}414 \\approx\\) <b>31,8 V</b>；",
+   "count": 1,
+   "note": "§5.4 真题示例一"
+  },
+  {
+   "old": "U₂ = 300 × 200/3000 = 20 V，电容上 20 × 1,414 = <b>28,28 V</b>",
+   "new": "\\(U_2 = 300 \\times 200/3000 = 20\\) V，电容上 \\(20 \\times 1{,}414 =\\) <b>28,28 V</b>",
+   "count": 1,
+   "note": "§5.4 真题示例二"
+  },
+  {
+   "old": "晶体管的增益：电流放大系数 β（hFE）",
+   "new": "晶体管的增益：电流放大系数 \\(\\beta\\)（hFE）",
+   "count": 2,
+   "note": "§6.2 目录条目 + 章节标题"
+  },
+  {
+   "old": "<div class=\"formula\">Ic = Ib . β        Ib = Ic / β        β = Ic / Ib</div>",
+   "new": "<div class=\"formula\">\\[I_c = I_b \\cdot \\beta \\qquad I_b = \\frac{I_c}{\\beta} \\qquad \\beta = \\frac{I_c}{I_b}\\]</div>",
+   "count": 1,
+   "note": "§6.2 增益三式"
+  },
+  {
+   "old": "某晶体管 β = 80，基极加 500 µA，集电极电流是多少？答：Ic = Ib . β = 500 µA × 80 = 40 000 µA = 40 mA。",
+   "new": "某晶体管 \\(\\beta = 80\\)，基极加 500 µA，集电极电流是多少？答：\\(I_c = I_b \\cdot \\beta = 500\\ \\mu\\text{A} \\times 80 = 40\\,000\\ \\mu\\text{A} = 40\\ \\text{mA}\\)。",
+   "count": 1,
+   "note": "§6.2 教材例题"
+  },
+  {
+   "old": "例如 Ic = 1,5 mA、β = 150，则 Ib = 10 µA",
+   "new": "例如 \\(I_c = 1{,}5\\ \\text{mA}\\)、\\(\\beta = 150\\)，则 \\(I_b = 10\\ \\mu\\text{A}\\)",
+   "count": 1,
+   "note": "§6.2 考试三类算式"
+  },
+  {
+   "old": "用节点电流关系 Ic = Ie – Ib",
+   "new": "用节点电流关系 \\(I_c = I_e - I_b\\)",
+   "count": 1,
+   "note": "§6.2 节点电流关系"
+  },
+  {
+   "old": "已知晶体管增益 β = 150、基极电流 Ib 为 10 µA",
+   "new": "已知晶体管增益 \\(\\beta = 150\\)、基极电流 Ib 为 10 µA",
+   "count": 1,
+   "note": "§6.2 真题中文题干"
+  },
+  {
+   "old": "另已知 Ic = 1,5 mA、β = 150，求基极电流 Ib。",
+   "new": "另已知 \\(I_c = 1{,}5\\ \\text{mA}\\)、\\(\\beta = 150\\)，求基极电流 Ib。",
+   "count": 1,
+   "note": "§6.2 真题中文题干二"
+  },
+  {
+   "old": "（β+1）",
+   "new": "（\\(\\beta + 1\\)）",
+   "count": 1,
+   "note": "§6.3 表格：共集电极电流增益"
+  },
+  {
+   "old": "约为 β+1，",
+   "new": "约为 \\(\\beta + 1\\)，",
+   "count": 1,
+   "note": "§6.3 答案说明"
+  },
+  {
+   "old": "<code>pente = Id / Vg</code>",
+   "new": "<code>\\(\\text{pente} = \\dfrac{I_d}{V_g}\\)</code>",
+   "count": 1,
+   "note": "§6.4 J-FET 跨导"
+  },
+  {
+   "old": "（pente = Ip / Vg）",
+   "new": "（\\(\\text{pente} = \\dfrac{I_p}{V_g}\\)）",
+   "count": 1,
+   "note": "§6.6 电子管跨导"
+  },
+  {
+   "old": "负载电阻（Rc）与静态工作点",
+   "new": "负载电阻（\\(R_c\\)）与静态工作点",
+   "count": 2,
+   "note": "§7.2 目录条目 + 章节标题"
+  },
+  {
+   "old": "<code>Ic = β . Ib</code>",
+   "new": "<code>\\(I_c = \\beta \\cdot I_b\\)</code>",
+   "count": 1,
+   "note": "§7.2 正文 code 算式"
+  },
+  {
+   "old": "<code>U = R . I</code>",
+   "new": "<code>\\(U = R \\cdot I\\)</code>",
+   "count": 1,
+   "note": "§7.2 正文 code 算式"
+  },
+  {
+   "old": "<div class=\"formula\">Ic(max) = U(+) / Rc</div>",
+   "new": "<div class=\"formula\">\\[I_c\\,(\\text{max}) = \\frac{U(+)}{R_c}\\]</div>",
+   "count": 1,
+   "note": "§7.2 最大集电极电流"
+  },
+  {
+   "old": "若 Vbe = 1 V，则 Ib = 30 µA、Ic = 3 mA（因 β = 100）；",
+   "new": "若 \\(V_{be} = 1\\) V，则 \\(I_b = 30\\ \\mu\\text{A}\\)、\\(I_c = 3\\ \\text{mA}\\)（因 \\(\\beta = 100\\)）；",
+   "count": 1,
+   "note": "§7.2 教材例子"
+  },
+  {
+   "old": "这时的 Vce = 5 V。",
+   "new": "这时的 \\(V_{ce} = 5\\) V。",
+   "count": 1,
+   "note": "§7.2 教材例子"
+  },
+  {
+   "old": "若电源 U(+) = 12 V，则 Rc = (12 V – 5 V) / 3 mA = 2333 Ω",
+   "new": "若电源 \\(U(+) = 12\\) V，则 \\(R_c = (12\\ \\text{V} - 5\\ \\text{V})/3\\ \\text{mA} = 2333\\ \\Omega\\)",
+   "count": 1,
+   "note": "§7.2 教材例子"
+  },
+  {
+   "old": "此时输入阻抗为 1 V / 30 µA = 33 kΩ，输出阻抗为 5 V / 3 mA = 1666 Ω。",
+   "new": "此时输入阻抗为 \\(1\\ \\text{V}/30\\ \\mu\\text{A} = 33\\ \\text{k}\\Omega\\)，输出阻抗为 \\(5\\ \\text{V}/3\\ \\text{mA} = 1666\\ \\Omega\\)。",
+   "count": 1,
+   "note": "§7.2 教材例子"
+  },
+  {
+   "old": "<div class=\"formula\">TDH(nF) = V(nF) / V(F) × 100 %</div>",
+   "new": "<div class=\"formula\">\\[\\text{TDH}\\,(\\text{nF}) = \\frac{V\\,(\\text{nF})}{V\\,(\\text{F})} \\times 100\\,\\%\\]</div>",
+   "count": 1,
+   "note": "§7.4 谐波失真率"
+  },
+  {
+   "old": "<div class=\"formula\">VP = √( V2F² + V3F² + … )</div>",
+   "new": "<div class=\"formula\">\\[V_P = \\sqrt{V_{2F}^2 + V_{3F}^2 + \\cdots}\\]</div>",
+   "count": 1,
+   "note": "§7.4 寄生信号总电压"
+  },
+  {
+   "old": "2×f1 和 2×f2",
+   "new": "\\(2 \\times f_1\\) 和 \\(2 \\times f_2\\)",
+   "count": 1,
+   "note": "§7.4b3 二阶产物"
+  },
+  {
+   "old": "混频产物 f1 + f2 和 f1 – f2（或 f2 – f1）",
+   "new": "混频产物 \\(f_1 + f_2\\) 和 \\(f_1 - f_2\\)（或 \\(f_2 - f_1\\)）",
+   "count": 1,
+   "note": "§7.4b3 混频产物"
+  },
+  {
+   "old": "3f1、3f2、2f1+f2、2f2+f1、2f1–f2 和 2f2–f1",
+   "new": "\\(3f_1\\)、\\(3f_2\\)、\\(2f_1 + f_2\\)、\\(2f_2 + f_1\\)、\\(2f_1 - f_2\\) 和 \\(2f_2 - f_1\\)",
+   "count": 1,
+   "note": "§7.4b4 三阶组合"
+  },
+  {
+   "old": "98（2f1–f2）、99（f1）、100（f2）、101（2f2–f1）、297（3f1）、298（2f1+f2）、299（2f2+f1）和 300（3f2）kHz。",
+   "new": "98（\\(2f_1 - f_2\\)）、99（f1）、100（f2）、101（\\(2f_2 - f_1\\)）、297（\\(3f_1\\)）、298（\\(2f_1 + f_2\\)）、299（\\(2f_2 + f_1\\)）和 300（\\(3f_2\\)）kHz。",
+   "count": 1,
+   "note": "§7.4b4 算例"
+  },
+  {
+   "old": "<div class=\"formula\">f(MHz) = 5,7 / [ 2 . e(mm) ]        e = 石英片厚度</div>",
+   "new": "<div class=\"formula\">\\(f\\,(\\text{MHz}) = \\dfrac{5{,}7}{2 \\cdot e\\,(\\text{mm})}\\)        \\(e =\\) 石英片厚度</div>",
+   "count": 1,
+   "note": "§7.5 石英频率公式"
+  },
+  {
+   "old": "半波谐振：f = 5,7 / (2 × 0,3) = 9,5 MHz。",
+   "new": "半波谐振：\\(f = 5{,}7/(2 \\times 0{,}3) = 9{,}5\\) MHz。",
+   "count": 1,
+   "note": "§7.5 石英算例"
+  },
+  {
+   "old": "即 F1 + F2 和 F1 – F2。",
+   "new": "即 \\(F_1 + F_2\\) 和 \\(F_1 - F_2\\)。",
+   "count": 1,
+   "note": "§7.7 和频差频"
+  },
+  {
+   "old": "Osc + HF",
+   "new": "\\(\\text{Osc} + \\text{HF}\\)",
+   "count": 2,
+   "note": "§7.7 混频输出（两处）"
+  },
+  {
+   "old": "Osc – HF",
+   "new": "\\(\\text{Osc} - \\text{HF}\\)",
+   "count": 2,
+   "note": "§7.7 混频输出（两处）"
+  },
+  {
+   "old": "fmax = f1 + f2",
+   "new": "\\[f_{\\text{max}} = f_1 + f_2\\]",
+   "count": 1,
+   "note": "§7.7 formula 第一行"
+  },
+  {
+   "old": "fmin = f1 – f2 （或 f2 – f1）",
+   "new": "\\(f_{\\text{min}} = f_1 - f_2\\)（或 \\(f_2 - f_1\\)）",
+   "count": 1,
+   "note": "§7.7 formula 第二行"
+  },
+  {
+   "old": "f1 = ( fmax – fmin ) / 2",
+   "new": "\\[f_1 = (f_{\\text{max}} - f_{\\text{min}})/2\\]",
+   "count": 1,
+   "note": "§7.7 formula 第三行"
+  },
+  {
+   "old": "f2 = fmax – f1</div>",
+   "new": "\\[f_2 = f_{\\text{max}} - f_1\\]</div>",
+   "count": 1,
+   "note": "§7.7 formula 第四行"
+  },
+  {
+   "old": "答：5 + 8 = 13 MHz，以及 8 – 5 = 3 MHz。",
+   "new": "答：\\(5 + 8 = 13\\) MHz，以及 \\(8 - 5 = 3\\) MHz。",
+   "count": 1,
+   "note": "§7.7 例 1"
+  },
+  {
+   "old": "答：f1 = (22 – 2) / 2 = 10 MHz；f2 = 22 – 10 = 12 MHz。",
+   "new": "答：\\(f_1 = (22 - 2)/2 = 10\\) MHz；\\(f_2 = 22 - 10 = 12\\) MHz。",
+   "count": 1,
+   "note": "§7.7 例 2"
+  },
+  {
+   "old": "<div class=\"formula\">sin(A) . sin(B) = ½ . [ sin(A + B) + sin(A – B) ]</div>",
+   "new": "<div class=\"formula\">\\[\\sin(A) \\cdot \\sin(B) = \\frac{1}{2} \\cdot [\\sin(A + B) + \\sin(A - B)]\\]</div>",
+   "count": 1,
+   "note": "§7.7 混频三角恒等式"
+  },
+  {
+   "old": "除了「经典」的 f1 + f2 与 f1 – f2（",
+   "new": "除了「经典」的 \\(f_1 + f_2\\) 与 \\(f_1 - f_2\\)（",
+   "count": 1,
+   "note": "§7.7 经典混频产物"
+  },
+  {
+   "old": "以及 [(2 × f1) + f2]、[(2 × f1) – f2] 之类的组合",
+   "new": "以及 \\([(2 \\times f_1) + f_2]\\)、\\([(2 \\times f_1) - f_2]\\) 之类的组合",
+   "count": 1,
+   "note": "§7.7 三阶混频产物"
+  },
+  {
+   "old": "先由 (fmax – fmin)/2 得 f1，再由 fmax – f1 得 f2",
+   "new": "先由 \\((f_{\\text{max}} - f_{\\text{min}})/2\\) 得 f1，再由 \\(f_{\\text{max}} - f_1\\) 得 f2",
+   "count": 1,
+   "note": "§7.7 解题法"
+  },
+  {
+   "old": "例如 F1 = 10 MHz、F2 = 15 MHz 时答案是 25 MHz",
+   "new": "例如 \\(F_1 = 10\\ \\text{MHz}\\)、\\(F_2 = 15\\ \\text{MHz}\\) 时答案是 25 MHz",
+   "count": 1,
+   "note": "§7.7 解题法"
+  },
+  {
+   "old": "（例如 2 × 145 = 290，145 + 5 = 150，290 + 5 = 295，290 + 10 = 300 MHz）",
+   "new": "（例如 \\(2 \\times 145 = 290\\)，\\(145 + 5 = 150\\)，\\(290 + 5 = 295\\)，\\(290 + 10 = 300\\) MHz）",
+   "count": 1,
+   "note": "§7.7 解题法"
+  },
+  {
+   "old": "F1 = 10 MHz，F2 = 15 MHz。</p>",
+   "new": "\\(F_1 = 10\\ \\text{MHz}\\)，\\(F_2 = 15\\ \\text{MHz}\\)。</p>",
+   "count": 1,
+   "note": "§7.7 真题中文题干"
+  }
+ ]
+}

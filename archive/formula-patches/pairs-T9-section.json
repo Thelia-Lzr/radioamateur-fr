@@ -1,0 +1,353 @@
+{
+ "section": "T9 §9.1–§9.10 天线与传播",
+ "pairs": [
+  {
+   "old": "<div class=\"formula\">λ(m) = v(m/s) / f(Hz)        以及 λ(m) = v(m/s) × t(s)</div>",
+   "new": "<div class=\"formula\">\\(\\lambda\\,(\\text{m}) = \\dfrac{v\\,(\\text{m/s})}{f\\,(\\text{Hz})}\\)        以及 \\(\\lambda\\,(\\text{m}) = v\\,(\\text{m/s}) \\times t\\,(\\text{s})\\)</div>",
+   "count": 1,
+   "note": "§9.1 一般关系式 div.formula（夹汉字「以及」故用 \\( \\)）"
+  },
+  {
+   "old": "<div class=\"formula\">λ(m) = 300 000 000 / f(Hz)<br>λ(m) = 300 / f(MHz)        即 λ(m) × f(MHz) = 300<br>f(MHz) = 300 / λ(m)</div>",
+   "new": "<div class=\"formula\">\\(\\lambda\\,(\\text{m}) = \\dfrac{300\\,000\\,000}{f\\,(\\text{Hz})}\\)<br>\\(\\lambda\\,(\\text{m}) = \\dfrac{300}{f\\,(\\text{MHz})}\\)        即 \\(\\lambda\\,(\\text{m}) \\times f\\,(\\text{MHz}) = 300\\)<br>\\(f\\,(\\text{MHz}) = \\dfrac{300}{\\lambda\\,(\\text{m})}\\)</div>",
+   "count": 1,
+   "note": "§9.1 三条换算式（300 000 000、即、f(MHz)=300/λ）"
+  },
+  {
+   "old": "<div class=\"formula\">半波偶极（doublet demi-onde，全长）：L(m) = λ/2 = 150 / f(MHz)<br>垂直四分之一波（quart d'onde）：L(m) = λ/4 = 300 / [4 × f(MHz)] = 75 / f(MHz)</div>",
+   "new": "<div class=\"formula\">半波偶极（doublet demi-onde，全长）：\\(L\\,(\\text{m}) = \\dfrac{\\lambda}{2} = \\dfrac{150}{f\\,(\\text{MHz})}\\)<br>垂直四分之一波（quart d'onde）：\\(L\\,(\\text{m}) = \\dfrac{\\lambda}{4} = \\dfrac{300}{4 \\times f\\,(\\text{MHz})} = \\dfrac{75}{f\\,(\\text{MHz})}\\)</div>",
+   "count": 1,
+   "note": "§9.1 天线长度：半波 λ/2=150/f，四分之一波 λ/4=300/[4f]=75/f"
+  },
+  {
+   "old": "：L(m) = 150 / 3,6 = <b>41,66 m</b>；21,2 MHz 的四分之一波：L(m) = 75 / 21,2 = <b>3,538 m</b>。",
+   "new": "：\\(L\\,(\\text{m}) = 150/3{,}6 =\\) <b>41,66 m</b>；21,2 MHz 的四分之一波：\\(L\\,(\\text{m}) = 75/21{,}2 =\\) <b>3,538 m</b>。",
+   "count": 1,
+   "note": "§9.1 原文算例（3,6 MHz / 21,2 MHz）"
+  },
+  {
+   "old": "<th>λ = 300 / f</th><th>半波 = 150 / f</th><th>四分之一波 = 75 / f</th>",
+   "new": "<th>\\(\\lambda = \\dfrac{300}{f}\\)</th><th>半波 \\(= \\dfrac{150}{f}\\)</th><th>四分之一波 \\(= \\dfrac{75}{f}\\)</th>",
+   "count": 1,
+   "note": "§9.1 换算表表头三列"
+  },
+  {
+   "old": "的波速 1/√ε）",
+   "new": "的波速 \\(\\dfrac{1}{\\sqrt{\\varepsilon}}\\)）",
+   "count": 1,
+   "note": "§9.1 li：同轴电缆波速 1/√ε"
+  },
+  {
+   "old": "：t = 1 / f（f = 1 MHz 时 t = 1 µs）；",
+   "new": "：\\(t = \\dfrac{1}{f}\\)（\\(f = 1\\ \\text{MHz}\\) 时 \\(t = 1\\ \\mu\\text{s}\\)）；",
+   "count": 1,
+   "note": "§9.1 li：周期与频率 t = 1/f"
+  },
+  {
+   "old": "都能由 λ = 300 / f(MHz) 一步得出：",
+   "new": "都能由 \\(\\lambda = \\dfrac{300}{f\\,(\\text{MHz})}\\) 一步得出：",
+   "count": 1,
+   "note": "§9.1 三种问法引出句"
+  },
+  {
+   "old": "：f = 16 GHz = 16 000 MHz → λ = 300 / 16 000 = 0,01875 m = <b>1,875 cm</b>（即 18,75 mm）。",
+   "new": "：\\(f = 16\\ \\text{GHz} = 16\\,000\\ \\text{MHz} \\rightarrow \\lambda = 300/16\\,000 = 0{,}01875\\ \\text{m} =\\) <b>1,875 cm</b>（即 18,75 mm）。",
+   "count": 1,
+   "note": "§9.1 已知频率求波长算例"
+  },
+  {
+   "old": "：λ = 16,50 m → f = 300 / 16,50 = <b>18,18 MHz</b>",
+   "new": "：\\(\\lambda = 16{,}50\\ \\text{m} \\rightarrow f = 300/16{,}50 =\\) <b>18,18 MHz</b>",
+   "count": 1,
+   "note": "§9.1 已知波长求频率算例"
+  },
+  {
+   "old": "：λ = 2 mm = 0,002 m → f = 300 / 0,002 = 150 000 MHz = <b>150 GHz</b>。",
+   "new": "：\\(\\lambda = 2\\ \\text{mm} = 0{,}002\\ \\text{m} \\rightarrow f = 300/0{,}002 = 150\\,000\\ \\text{MHz} =\\) <b>150 GHz</b>。",
+   "count": 1,
+   "note": "§9.1 极短波长算例"
+  },
+  {
+   "old": "能写成 150 / f 和 75 / f，",
+   "new": "能写成 \\(\\dfrac{150}{f}\\) 和 \\(\\dfrac{75}{f}\\)，",
+   "count": 1,
+   "note": "§9.1 反推段落（1）"
+  },
+  {
+   "old": "就是 λ/2、垂直天线的振子就是 λ/4。",
+   "new": "就是 \\(\\lambda/2\\)、垂直天线的振子就是 \\(\\lambda/4\\)。",
+   "count": 1,
+   "note": "§9.1 反推段落（2）"
+  },
+  {
+   "old": "：L = 150 / f 与 L = 75 / f 两边都可以移项。",
+   "new": "：\\(L = \\dfrac{150}{f}\\) 与 \\(L = \\dfrac{75}{f}\\) 两边都可以移项。",
+   "count": 1,
+   "note": "§9.1 反推段落（3）"
+  },
+  {
+   "old": "例如全长 18 m 的半波偶极：f = 150 / 18 = <b>8,33 MHz</b>；长 5 m 的垂直振子：f = 75 / 5 = <b>15 MHz</b>。",
+   "new": "例如全长 18 m 的半波偶极：\\(f = 150/18 =\\) <b>8,33 MHz</b>；长 5 m 的垂直振子：\\(f = 75/5 =\\) <b>15 MHz</b>。",
+   "count": 1,
+   "note": "§9.1 反推算例"
+  },
+  {
+   "old": "① λ(m) = 300 / f(MHz) 是本节唯一必须牢记的公式",
+   "new": "① \\(\\lambda\\,(\\text{m}) = \\dfrac{300}{f\\,(\\text{MHz})}\\) 是本节唯一必须牢记的公式",
+   "count": 1,
+   "note": "§9.1 tips 要点①"
+  },
+  {
+   "old": "② 半波 150/f、四分之一波 75/f 两个天线长度公式；",
+   "new": "② 半波 \\(\\dfrac{150}{f}\\)、四分之一波 \\(\\dfrac{75}{f}\\) 两个天线长度公式；",
+   "count": 1,
+   "note": "§9.1 tips 要点②"
+  },
+  {
+   "old": "把 λ = 300 / f 反过来用，",
+   "new": "把 \\(\\lambda = \\dfrac{300}{f}\\) 反过来用，",
+   "count": 1,
+   "note": "§9.2 波段换算引出句"
+  },
+  {
+   "old": "<th>频率（由 λ = 300/f 换算）</th>",
+   "new": "<th>频率（由 \\(\\lambda = \\dfrac{300}{f}\\) 换算）</th>",
+   "count": 1,
+   "note": "§9.2 波段表表头"
+  },
+  {
+   "old": "直达波（16 GHz 的 λ = 1,875 cm，属此段）",
+   "new": "直达波（16 GHz 的 \\(\\lambda = 1{,}875\\ \\text{cm}\\)，属此段）",
+   "count": 1,
+   "note": "§9.2 波段表厘米波行"
+  },
+  {
+   "old": "<b>FOT（最佳工作频率）= 80% 的 FMU</b>",
+   "new": "<b>FOT（最佳工作频率）\\(= 80\\%\\) 的 FMU</b>",
+   "count": 1,
+   "note": "§9.3 FOT = 80% FMU"
+  },
+  {
+   "old": "因此该处阻抗（U/I 之比）低",
+   "new": "因此该处阻抗（\\(\\dfrac{U}{I}\\) 之比）低",
+   "count": 1,
+   "note": "§9.4 中心阻抗 U/I 之比"
+  },
+  {
+   "old": "：L(m) = 150 / f(MHz)。原文算例：3,6 MHz 时 L = 150 / 3,6 = <b>41,66 m</b>。",
+   "new": "：\\(L\\,(\\text{m}) = \\dfrac{150}{f\\,(\\text{MHz})}\\)。原文算例：3,6 MHz 时 \\(L = 150/3{,}6 =\\) <b>41,66 m</b>。",
+   "count": 1,
+   "note": "§9.4 半波偶极全长公式与算例"
+  },
+  {
+   "old": "　→　U = 0，I 最大",
+   "new": "　→　\\(U = 0\\)，\\(I\\) 最大",
+   "count": 1,
+   "note": "§9.4 答案行：中心 U=0、I 最大"
+  },
+  {
+   "old": "　→　U 最大，I = 0",
+   "new": "　→　\\(U\\) 最大，\\(I = 0\\)",
+   "count": 1,
+   "note": "§9.4 答案行：端点 U 最大、I=0"
+  },
+  {
+   "old": "而离地 λ/2 时，方向图会变成",
+   "new": "而离地 \\(\\lambda/2\\) 时，方向图会变成",
+   "count": 1,
+   "note": "§9.7 离地 λ/2 的香蕉形方向图"
+  },
+  {
+   "old": "<div class=\"formula\">L(m) = λ(m) / 4 = 300 / [4 × f(MHz)] = 75 / f(MHz)</div>",
+   "new": "<div class=\"formula\">\\[L\\,(\\text{m}) = \\dfrac{\\lambda\\,(\\text{m})}{4} = \\dfrac{300}{4 \\times f\\,(\\text{MHz})} = \\dfrac{75}{f\\,(\\text{MHz})}\\]</div>",
+   "count": 1,
+   "note": "§9.5 四分之一波长度（纯公式 div.formula → 展示式）"
+  },
+  {
+   "old": "原文算例：21,2 MHz 的四分之一波：L(m) = 75 / 21,2 = <b>3,538 m</b>。",
+   "new": "原文算例：21,2 MHz 的四分之一波：\\(L\\,(\\text{m}) = 75/21{,}2 =\\) <b>3,538 m</b>。",
+   "count": 1,
+   "note": "§9.5 四分之一波算例"
+  },
+  {
+   "old": "：<b>U = 0，I 最大</b>。实际振子",
+   "new": "：<b>\\(U = 0\\)，\\(I\\) 最大</b>。实际振子",
+   "count": 1,
+   "note": "§9.5 馈电点 U=0、I 最大"
+  },
+  {
+   "old": "也可以使用远短于 λ/4 的振子",
+   "new": "也可以使用远短于 \\(\\lambda/4\\) 的振子",
+   "count": 1,
+   "note": "§9.5 短于 λ/4 的振子"
+  },
+  {
+   "old": "　→　U 为零、I 最大",
+   "new": "　→　\\(U\\) 为零、\\(I\\) 最大",
+   "count": 1,
+   "note": "§9.5 答案行：底部 U 为零、I 最大"
+  },
+  {
+   "old": "<div class=\"formula\">PAR = 天线馈电功率 × 相对半波偶极的方向性系数（dBd 换算成比值）<br>PIRE = PAR + 2,14 dB = PAR × 1,64</div>",
+   "new": "<div class=\"formula\">\\(\\text{PAR} =\\) 天线馈电功率 \\(\\times\\) 相对半波偶极的方向性系数（dBd 换算成比值）<br>\\(\\text{PIRE} = \\text{PAR} + 2{,}14\\ \\text{dB} = \\text{PAR} \\times 1{,}64\\)</div>",
+   "count": 1,
+   "note": "§9.8 PAR/PIRE 定义式（夹汉字 → 行内）"
+  },
+  {
+   "old": "即附加系数 1,64（= 1 + 2/π）。",
+   "new": "即附加系数 1,64（\\(= 1 + 2/\\pi\\)）。",
+   "count": 1,
+   "note": "§9.8 附加系数 1,64 = 1 + 2/π"
+  },
+  {
+   "old": "→ 100 W × 20 = <b>2 000 W</b> PAR",
+   "new": "→ \\(100\\ \\text{W} \\times 20 =\\) <b>2 000 W</b> PAR",
+   "count": 1,
+   "note": "§9.8 单副天线算例"
+  },
+  {
+   "old": "整个系统的 PAR = 单副天线的 PAR × 耦合天线数。",
+   "new": "整个系统的 \\(\\text{PAR} =\\) 单副天线的 \\(\\text{PAR} \\times\\) 耦合天线数。",
+   "count": 1,
+   "note": "§9.8 耦合天线 PAR 相加"
+  },
+  {
+   "old": "传输线「看到」的阻抗 = 单副天线阻抗 ÷ 天线数，因此需要阻抗匹配系统（balun、λ/4 线）。",
+   "new": "传输线「看到」的阻抗 \\(=\\) 单副天线阻抗 \\(\\div\\) 天线数，因此需要阻抗匹配系统（balun、\\(\\lambda/4\\) 线）。",
+   "count": 1,
+   "note": "§9.8 并联阻抗与 λ/4 匹配线"
+  },
+  {
+   "old": "<div class=\"formula\">原文算例：100 W 发射机 + 4 副 13 dBd 天线<br>4 副耦合 → 附加增益 6 dB（比值 4 对应 6 dB）<br>总增益 = 13 + 6 = 19 dB = 比值 80（见 §4.1b）<br>100 W × 80 = 8 000 W PAR（是 §9.8 单副天线算例的 4 倍）</div>",
+   "new": "<div class=\"formula\">原文算例：100 W 发射机 + 4 副 13 dBd 天线<br>4 副耦合 → 附加增益 6 dB（比值 4 对应 6 dB）<br>总增益 \\(= 13 + 6 = 19\\ \\text{dB} =\\) 比值 80（见 §4.1b）<br>\\(100\\ \\text{W} \\times 80 = 8\\,000\\ \\text{W}\\) PAR（是 §9.8 单副天线算例的 4 倍）</div>",
+   "count": 1,
+   "note": "§9.8 四副天线算例 div.formula"
+  },
+  {
+   "old": "把馈线衰减（dB/m × 长度）从系统增益中扣掉",
+   "new": "把馈线衰减（\\(\\text{dB/m} \\times\\) 长度）从系统增益中扣掉",
+   "count": 1,
+   "note": "§9.8 馈线衰减 dB/m × 长度"
+  },
+  {
+   "old": "总增益 = 6 000 / 15 = 400 = 26 dB，所以天线自身的增益 = 26 + 6 = <b>32 dB</b>。",
+   "new": "总增益 \\(= 6\\,000/15 = 400 = 26\\ \\text{dB}\\)，所以天线自身的增益 \\(= 26 + 6 =\\) <b>32 dB</b>。",
+   "count": 1,
+   "note": "§9.8 馈线损耗真题算例"
+  },
+  {
+   "old": "<div class=\"formula\">Pd(W/m²) = PIRE / (4πd²)    （d 为天线到测量点的距离，单位 m；4πd² 是半径 d 的球面积）<br>E(V/m) = √(30 × PIRE) / d  或写成 PAR 形式：E(V/m) = √(49,2 × PAR) / d ≈ 7 × √(PAR) / d</div>",
+   "new": "<div class=\"formula\">\\(P_d\\,(\\text{W/m}^2) = \\dfrac{\\text{PIRE}}{4\\pi d^2}\\)    （\\(d\\) 为天线到测量点的距离，单位 m；\\(4\\pi d^2\\) 是半径 \\(d\\) 的球面积）<br>\\(E\\,(\\text{V/m}) = \\dfrac{\\sqrt{30 \\times \\text{PIRE}}}{d}\\)  或写成 PAR 形式：\\(E\\,(\\text{V/m}) = \\dfrac{\\sqrt{49{,}2 \\times \\text{PAR}}}{d} \\approx \\dfrac{7 \\times \\sqrt{\\text{PAR}}}{d}\\)</div>",
+   "count": 1,
+   "note": "§9.10a 功率密度 Pd = PIRE/(4πd²)、场强 E = √(30·PIRE)/d"
+  },
+  {
+   "old": "在 100 m 处 E = √(30 × 120) / 100 = <b>0,6 V/m</b>",
+   "new": "在 100 m 处 \\(E = \\dfrac{\\sqrt{30 \\times 120}}{100} =\\) <b>0,6 V/m</b>",
+   "count": 1,
+   "note": "§9.10a 场强算例"
+  },
+  {
+   "old": "<div class=\"formula\">S(m²) = G × (λ² / 4π)        Pr = Pd × S</div>",
+   "new": "<div class=\"formula\">\\[S\\,(\\text{m}^2) = G \\times \\dfrac{\\lambda^2}{4\\pi}\\]        \\[P_r = P_d \\times S\\]</div>",
+   "count": 1,
+   "note": "§9.10b 有效面积 S = G(λ²/4π) 与 Pr = Pd·S（纯公式 → 展示式）"
+  },
+  {
+   "old": "→ Pd = 120 / [4π × (10⁴)²] = 9,55 × 10⁻⁸ = 95 nW/m²；",
+   "new": "→ \\(P_d = \\dfrac{120}{4\\pi \\times (10^4)^2} = 9{,}55 \\times 10^{-8} = 95\\ \\text{nW/m}^2\\)；",
+   "count": 1,
+   "note": "§9.10b Friis 算例：功率密度"
+  },
+  {
+   "old": "S = 4 × (2,08² / 4π) = 1,38 m²（6 dBi 对应各向同性比值为 4，λ = 2,08 m）；",
+   "new": "\\(S = 4 \\times \\dfrac{2{,}08^2}{4\\pi} = 1{,}38\\ \\text{m}^2\\)（6 dBi 对应各向同性比值为 4，\\(\\lambda = 2{,}08\\ \\text{m}\\)）；",
+   "count": 1,
+   "note": "§9.10b Friis 算例：有效面积与 λ"
+  },
+  {
+   "old": "Pr = 95 nW × 1,38 = <b>132 nW</b>，在 50 Ω 端子上是 √(132 nW × 50 Ω) = <b>2,57 mV</b>（路径无障碍）。",
+   "new": "\\(P_r = 95\\ \\text{nW} \\times 1{,}38 =\\) <b>132 nW</b>，在 50 Ω 端子上是 \\(\\sqrt{132\\ \\text{nW} \\times 50\\ \\Omega} =\\) <b>2,57 mV</b>（路径无障碍）。",
+   "count": 1,
+   "note": "§9.10b Friis 算例：Pr 与端电压"
+  },
+  {
+   "old": "两端是电流节点（I = 0）、电压腹点；",
+   "new": "两端是电流节点（\\(I = 0\\)）、电压腹点；",
+   "count": 1,
+   "note": "§9.10c 电流节点 I = 0"
+  },
+  {
+   "old": "；λ/4 约 <b>36 Ω</b> 纯阻，3λ/4 稍高；长度小于 λ/4 时",
+   "new": "；\\(\\lambda/4\\) 约 <b>36 Ω</b> 纯阻，\\(3\\lambda/4\\) 稍高；长度小于 \\(\\lambda/4\\) 时",
+   "count": 1,
+   "note": "§9.10e λ/4、3λ/4 阻抗"
+  },
+  {
+   "old": "除 λ/4 的整数倍之外",
+   "new": "除 \\(\\lambda/4\\) 的整数倍之外",
+   "count": 1,
+   "note": "§9.10e 非 λ/4 整数倍的电抗"
+  },
+  {
+   "old": "（3/8 λ 离 λ/4 比离 λ/2 近得多）",
+   "new": "（\\(3\\lambda/8\\) 离 \\(\\lambda/4\\) 比离 \\(\\lambda/2\\) 近得多）",
+   "count": 1,
+   "note": "§9.10e Smith 圆图位置"
+  },
+  {
+   "old": "于是效率 = 36 / 50 = <b>72%</b>",
+   "new": "于是效率 \\(= 36/50 =\\) <b>72%</b>",
+   "count": 1,
+   "note": "§9.10f 效率 36/50"
+  },
+  {
+   "old": "（λ/4 谐振时的阻抗）",
+   "new": "（\\(\\lambda/4\\) 谐振时的阻抗）",
+   "count": 1,
+   "note": "§9.10f λ/4 谐振阻抗"
+  },
+  {
+   "old": "<div class=\"formula\">f = 1 / (2π √(L × C))</div>",
+   "new": "<div class=\"formula\">\\[f = \\dfrac{1}{2\\pi \\sqrt{L \\times C}}\\]</div>",
+   "count": 1,
+   "note": "§9.10g 陷波器 LC 谐振频率（纯公式 → 展示式）"
+  },
+  {
+   "old": "真题例：C = 400 pF、L = 25 nH → f = 1 / (2π √(25 × 10⁻⁹ × 400 × 10⁻¹²)) ≈ 50,3 MHz，题库取整为 <b>50 MHz</b>。",
+   "new": "真题例：\\(C = 400\\ \\text{pF}\\)、\\(L = 25\\ \\text{nH} \\rightarrow f = \\dfrac{1}{2\\pi \\sqrt{25 \\times 10^{-9} \\times 400 \\times 10^{-12}}} \\approx 50{,}3\\ \\text{MHz}\\)，题库取整为 <b>50 MHz</b>。",
+   "count": 1,
+   "note": "§9.10g 陷波器谐振算例"
+  },
+  {
+   "old": "即 PAR = 单副天线的 PAR × 耦合天线数。天线是并联的，传输线「看到」的阻抗 = 单副阻抗 ÷ 天线数，因此需要阻抗匹配（balun、λ/4 线）。原文算例：4 副 13 dBd 天线 + 100 W → 13 + 6 = 19 dB = 比值 80 → 100 W × 80 = 8 000 W PAR（实际还要扣去馈线损耗，见 §9.8）。",
+   "new": "即 \\(\\text{PAR} =\\) 单副天线的 \\(\\text{PAR} \\times\\) 耦合天线数。天线是并联的，传输线「看到」的阻抗 \\(=\\) 单副阻抗 \\(\\div\\) 天线数，因此需要阻抗匹配（balun、\\(\\lambda/4\\) 线）。原文算例：4 副 13 dBd 天线 + 100 W → \\(13 + 6 = 19\\ \\text{dB} =\\) 比值 80 → \\(100\\ \\text{W} \\times 80 = 8\\,000\\ \\text{W}\\) PAR（实际还要扣去馈线损耗，见 §9.8）。",
+   "count": 1,
+   "note": "§9.10h 耦合天线：PAR 相加、阻抗相除、算例"
+  },
+  {
+   "old": "D/F 决定焦点处源的照射角（= 2 × arcsin(D/2F)）和抛物面的形状（D/F &gt; 1 时抛物面像一只碗",
+   "new": "\\(D/F\\) 决定焦点处源的照射角（\\(= 2 \\times \\arcsin(D/2F)\\)）和抛物面的形状（\\(D/F > 1\\) 时抛物面像一只碗",
+   "count": 1,
+   "note": "§9.10j 抛物面 D/F 与照射角 2·arcsin(D/2F)"
+  },
+  {
+   "old": "λ/D 决定角分辨率 R（也就是天线的开角",
+   "new": "\\(\\lambda/D\\) 决定角分辨率 R（也就是天线的开角",
+   "count": 1,
+   "note": "§9.10j λ/D 与角分辨率"
+  },
+  {
+   "old": "<div class=\"formula\">R(°) ≈ 70 λ / D    （不要与源的照射角混淆）<br>G(dB) = 10 log(k × [π D / λ]²)    或简化式：G(比值) = 10 × k × (D / λ)²</div>",
+   "new": "<div class=\"formula\">\\(R\\,(^\\circ) \\approx \\dfrac{70\\lambda}{D}\\)    （不要与源的照射角混淆）<br>\\(G\\,(\\text{dB}) = 10 \\log\\left(k \\times \\left[\\dfrac{\\pi D}{\\lambda}\\right]^2\\right)\\)    或简化式：\\(G\\,(\\text{比值}) = 10 \\times k \\times \\left(\\dfrac{D}{\\lambda}\\right)^2\\)</div>",
+   "count": 1,
+   "note": "§9.10j 角分辨率 R ≈ 70λ/D 与增益 G(dB)"
+  },
+  {
+   "old": "计算长度时必须考虑波速（1/√ε，见 §10.2b）",
+   "new": "计算长度时必须考虑波速（\\(\\dfrac{1}{\\sqrt{\\varepsilon}}\\)，见 §10.2b）",
+   "count": 1,
+   "note": "§9.10k patch 天线波速 1/√ε"
+  }
+ ]
+}

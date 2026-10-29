@@ -1,0 +1,53 @@
+{
+ "section": "附录 G 的 markdown 副本里残留的公式",
+ "pairs": [
+  {
+   "old": "81 × 10⁵",
+   "new": "\\(81 \\\\times 10^5\\)",
+   "count": 1,
+   "note": "色环题 markdown 副本：81 × 10⁵"
+  },
+  {
+   "old": "36 × 10⁶",
+   "new": "\\(36 \\\\times 10^6\\)",
+   "count": 1,
+   "note": "色环题 markdown 副本：36 × 10⁶"
+  },
+  {
+   "old": "80 × 10⁵",
+   "new": "\\(80 \\\\times 10^5\\)",
+   "count": 1,
+   "note": "色环题 markdown 副本：80 × 10⁵"
+  },
+  {
+   "old": "86 × 10⁵",
+   "new": "\\(86 \\\\times 10^5\\)",
+   "count": 1,
+   "note": "色环题 markdown 副本：86 × 10⁵"
+  },
+  {
+   "old": "62 × 10⁶",
+   "new": "\\(62 \\\\times 10^6\\)",
+   "count": 1,
+   "note": "色环题 markdown 副本：62 × 10⁶"
+  },
+  {
+   "old": "64 × 10⁸",
+   "new": "\\(64 \\\\times 10^8\\)",
+   "count": 1,
+   "note": "色环题 markdown 副本：64 × 10⁸"
+  },
+  {
+   "old": "| Équation | A + B = C – D | A × B = C / D | A² = B ou C = √D |",
+   "new": "| Équation | \\(A + B = C - D\\) | \\(A \\\\times B = \\\\dfrac{C}{D}\\) | \\(A^2 = B\\) ou \\(C = \\\\sqrt{D}\\) |",
+   "count": 1,
+   "note": "附录 G 方程变换表副本"
+  },
+  {
+   "old": "| Exemples（X = inconnue, A,B,C,D = données） | X + A = C − D → X = C − D − A；X − A = 0 → X = A | X × A = C × D → X = (C × D) / A；X / A = B → X = B × A | X² = B → X = √B；√X = D → X = D² |",
+   "new": "| Exemples（X = inconnue, A,B,C,D = données） | \\(X + A = C - D \\\\to X = C - D - A\\)；\\(X - A = 0 \\\\to X = A\\) | \\(X \\\\times A = C \\\\times D \\\\to X = (C \\\\times D)/A\\)；\\(X/A = B \\\\to X = B \\\\times A\\) | \\(X^2 = B \\\\to X = \\\\sqrt{B}\\)；\\(\\\\sqrt{X} = D \\\\to X = D^2\\) |",
+   "count": 1,
+   "note": "附录 G 方程变换示例副本"
+  }
+ ]
+}

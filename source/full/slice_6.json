@@ -1,0 +1,3122 @@
+[
+ {
+  "num": "31011",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "* CALCULEZ LA PUISSANCE OBTENUE ?\nPUISSANCE 15W - GAIN 6 D",
+  "options": [
+   "60 W",
+   "21 W",
+   "90 W",
+   "30 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "60 W",
+  "commentaire_fr": "Pour un gain de 6 dB, on multiplie par 4.\n\nIci 15 W, gain de 6 dB = 15 x 4 = 60 W\n",
+  "anchor": "R51a"
+ },
+ {
+  "num": "31012",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "* CALCULEZ LA PUISSANCE OBTENUE ?\nPUISSANCE 10W - GAIN -3 D",
+  "options": [
+   "20 W",
+   "5 W",
+   "13 W",
+   "30 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "5 W",
+  "commentaire_fr": "Pour un gain de moins 3 dB, on divise par 2.\n\nATTENTION, ici le gain en dB est négatif.\n\nIci 10 W, gain de -3 dB = 10 / 2 = 5 W\n",
+  "anchor": "R51a"
+ },
+ {
+  "num": "31013",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "* CALCULEZ LA PUISSANCE OBTENUE ?\nPUISSANCE 5W - GAIN -10 D",
+  "options": [
+   "50 W",
+   "15 W",
+   "10 W",
+   "0,5 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "0,5 W",
+  "commentaire_fr": "Pour un gain de moins 3 dB, on divise par 2, -6 dB / 4, -10 dB /10, -20 dB / 100.\n\nATTENTION, ici le gain en dB est négatif.\n\nIci 5 W, gain de -10 dB = 5 / 10 = 0,5 W\n",
+  "anchor": "R51a"
+ },
+ {
+  "num": "31014",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "QUEL EST L'ORDRE DE GRANDEUR DE L'IMPEDANCE D'UNE ANTENNE DEMI-ONDE ?",
+  "options": [
+   "Entre 10 et 30 Ω",
+   "Entre 40 et 80 Ω",
+   "Entre 100 et 250 Ω",
+   "Entre 300 et 400 Ω"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Entre 40 et 80 Ω",
+  "commentaire_fr": "Une antenne demi-onde a une impédance caractéristique de 73 ohms en espace libre (loin de tout obstacle et du sol). Les obstacles (et le sol) auront tendance à faire baisser son impédance. Mais pas en dessous de 30 ohms, sauf circonstance particulière.\n",
+  "anchor": "R52c"
+ },
+ {
+  "num": "31016",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "QUEL EST L'AGE MAXIMUM POUR PASSER L'EXAMEN RADIOAMATEUR ?",
+  "options": [
+   "60 ans",
+   "75 ans",
+   "80 ans",
+   "Il n'y a pas d'age limite"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Il n'y a pas d'age limite",
+  "commentaire_fr": "",
+  "anchor": "R45"
+ },
+ {
+  "num": "31020",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "* LORS DU PASSAGE DE L'EXAMEN RADIOAMATEUR, LE CANDIDAT REUSSI L'EPREUVE DE REGLEMENTATION MAIS ECHOUE A L'EPREUVE DE TECHNIQUE\n\nQUEL INDICATIF OBTIENDRA T-IL ?",
+  "options": [
+   "Un indicatif de classe 3",
+   "Un indicatif HAREC",
+   "Il faut qu'il repasse toutes les épreuves pour obtenir un indicatif",
+   "Il n'aura pas d'indicatif mais il gardera pendant 1 an le bénéfice de l'épreuve réussie"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Il n'aura pas d'indicatif mais il gardera pendant 1 an le bénéfice de l'épreuve réussie",
+  "commentaire_fr": "",
+  "anchor": "R45"
+ },
+ {
+  "num": "31021",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "A QUOI SERT UNE SELF DE CHOC ?",
+  "options": [
+   "A accorder une antenne",
+   "A empêcher la HF de circuler vers l'alimentation",
+   "A régler son émetteur",
+   "A avoir plus de puissance en émission"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "A empêcher la HF de circuler vers l'alimentation",
+  "commentaire_fr": "Question relevant de la partie technique mais qui a été posée lors d'un examen de réglementation . De plus, plutôt que d'utiliser le terme \"self\", le mot \"bobine\" aurait été mieux choisi (argot de technicien).\n",
+  "anchor": "R54"
+ },
+ {
+  "num": "31023",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "VOTRE INSTALLATION RADIOAMATEUR PERTURBE UNE TELECOMMANDE COMMERCIALE SUR 433,920 MHZ.\nQUI EST PRIORITAIRE ?",
+  "options": [
+   "Le Radioamateur",
+   "L'utilisateur de la télécommande",
+   "Vous êtes à égalité de droit",
+   "L’utilisateur de la télécommande si le matériel a été installé par un professionnel"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Vous êtes à égalité de droit",
+  "commentaire_fr": "Les radioamateurs ont un statut secondaire à égalité de droits avec d’autres utilisateurs secondaires (dont les appareils à faible portée comme les télécommandes, norme LPD433) sur la bande 430-434 MHz. En tant qu'utilisateurs secondaires, selon le RR de l'UIT, chacun doit faire en sorte de perturber l’autre utilisateur le moins possible.\nToutefois, cette question est limite hors sujet car les autres utilisateurs du spectre n'ont pas à être connu pour l'examen. Si le service perturbé avait été la Radiolocalisation, il aurait été protégé car ce service est primaire (donc prioritaire) sur cette fréquence et vous auriez dû cesser vos émissions.\n",
+  "anchor": "R21c"
+ },
+ {
+  "num": "31025",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "DE QUOI TRAITE LA RESOLUTION 640 DU RR DE L' UIT ?",
+  "options": [
+   "d'un programme harmonisé pour les certificats d'opérateurs ",
+   "de l'utilisation des fréquences amateurs par des non-radioamateurs",
+   "du plan de bande des fréquences du service d'amateur",
+   "de l'utilisation des fréquences amateurs en cas de catastrophes naturelles"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "de l'utilisation des fréquences amateurs en cas de catastrophes naturelles",
+  "commentaire_fr": "Cette résolution a été abrogée en 1997 et a été remplacée par la résolution 644 (et par d’autres) qui traitent toutes du même sujet (mais on parle maintenant de catastrophes, sans préciser si elles sont naturelles ou non, et de désastres)\n",
+  "anchor": "R11a"
+ },
+ {
+  "num": "31027",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "QUE DOIT FAIRE UN RADIOAMATEUR QUI VEUT TRANSMETTRE POUR EVITER LES BROUILLAGES ?",
+  "options": [
+   "Emettre en dehors des fréquences autorisées ",
+   "Ne rien faire si son matériel est homologué",
+   "Vérifier que la fréquence qu'il va utiliser est libre",
+   "Demander aux autres opérateurs de quitter la fréquence utilisée"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Vérifier que la fréquence qu'il va utiliser est libre",
+  "commentaire_fr": "",
+  "anchor": "R33a"
+ },
+ {
+  "num": "31029",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA PUISSANCE MAXIMALE ENTRE 135,7 ET 137,5 KHZ ?",
+  "options": [
+   "10 W",
+   "120 W",
+   "250 W",
+   "500 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "500 W",
+  "commentaire_fr": "Mais la puissance PIRE est limitée à 1 watt. Ce qui, compte tenu du rendement des antenne sur cette bande, est une puissance assez difficile à obtenir avec 500 watts en sortie de l'émetteur.\n",
+  "anchor": "R22a"
+ },
+ {
+  "num": "31037",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "LA RECOMMANDATION T/R 61-02 DE LA CEPT ?",
+  "options": [
+   "Facilite les échanges entre les radioamateurs des pays qui l'appliquent",
+   "Donne un certificat européen équivalent",
+   "Permet aux opérateurs de classe 3 d'émettre dans les pays étrangers",
+   "Permet l'utilisation des satellites"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Donne un certificat européen équivalent",
+  "commentaire_fr": "La recommandation T/R 61-02 définit le programme de la licence CEPT de radioamateur et permet aux radioamateurs issus des pays appliquant cette recommandation d'obtenir un certificat européen équivalent.\nLa recommandation T/R 61-01 fixe les modalités d'utilisation de son indicatif d'appel individuel pour de courts séjours à l'étranger (moins de 3 mois)\n",
+  "anchor": "R11b"
+ },
+ {
+  "num": "31040",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "CALCULER LA PAR ?\n\nPUISSANCE = 100 W\nPERTE DANS LE COAXIAL = 7 DB\nGAIN ISOTROPIQUE DE L'ANTENNE = 4 DB\n",
+  "options": [
+   "150 W",
+   "50 W",
+   "33 W",
+   "25 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "50 W",
+  "commentaire_fr": "Gain de l'ensemble câble + antenne = gain de l'antenne - pertes dans le câble = 4 - 7 = -3 dB ; -3 dB correspond à un rapport de 1/2 (c'est une perte). PAR = puissance de l'émetteur x rapport = 100 / 2 = 50 W\nLa question parle de PAR or le gain de l'antenne est donné en gain isotropique. On devrait donc parler de PIRE et non pas de PAR. On rappelle que PIRE = PAR x 1,64 ou PAR = PIRE / 1,64 (1,64 est le rapport correspondant au gain de 2,14 dB qui est le gain de l'antenne doublet par rapport à l'antenne isotropique). Dans notre cas, PIRE = 50 W donc PAR = 50 / 1,64 = 30,48. \nLa réponse \"33 W\" n'est pas bonne et correspond au piège \"-3 dB = puissance divisée par 3, soit 100W / 3 = 33 W\"\n",
+  "anchor": "R53a"
+ },
+ {
+  "num": "31043",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "QUELLE MESURE DEVEZ-VOUS PRENDRE POUR PROTEGER LES PERSONNES NON-RADIOAMATEURS DES ONDES RADIOELECTRIQUES ?",
+  "options": [
+   "Respecter les limites de puissance définies",
+   "Déclarer sa station à la Gendarmerie",
+   "Ajouter des parois étanches à sa station",
+   "Mettre ses antennes le plus haut possible"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Respecter les limites de puissance définies",
+  "commentaire_fr": "On parle ici du décret 2002-775 sur \"les valeurs limites d'exposition du public aux champs électromagnétiques\". Le candidat qui nous a adressé le compte-rendu mentionnant cette question donnait les réponses proposées mais n'a pas répondu. Nous aurions été tenter de répondre \"respecter les limites de puissance définies\" puisque ce décret fixe, selon les fréquences, des valeurs limites en volts/mètre ou en ampères/mètre et, par conséquence, en puissance. On rappelle qu'en respectant les puissances autorisées, nos installations dépassent rarement les valeurs limites fixées par le décret 2002-775.\n",
+  "anchor": "R22b"
+ },
+ {
+  "num": "31050",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "DANS LA CLASSE D'EMISSION G3F, QUE SIGNIFIE LA LETTRE 'F' ?",
+  "options": [
+   "Données",
+   "Télévision",
+   "Phonie",
+   "Fin de transmission"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Télévision",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "31100",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 2 METRES ?",
+  "options": [
+   "Partagée statut secondaire",
+   "Partagée à égalité de droit",
+   "Exclusif",
+   "Partagée statut précaire et révocable"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Exclusif",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "31109",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, BANDE LATERALE UNIQUE,\nPORTEUSE SUPPRIMEE, TELEGRAPHIE POUR RECEPTION AUTOMATIQUE,\nAVEC EMPLOI D'UNE SOUS PORTEUSE MODULANTE ?",
+  "options": [
+   "J2B",
+   "J1B",
+   "J7B",
+   "J2A"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "J2B",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "31110",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR HB0.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Liechtenstein",
+   "Suisse",
+   "Hongrie",
+   "Autriche"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Liechtenstein",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "31201",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "UN RADIOAMATEUR DONT L'INDICATIF EST FM5WYZ/MM EMET DEPUIS ?",
+  "options": [
+   "Un yatch en haute mer",
+   "un lac",
+   "depuis une péniche",
+   "depuis la Meurthe et Moselle"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Un yatch en haute mer",
+  "commentaire_fr": "",
+  "anchor": "R42a"
+ },
+ {
+  "num": "31205",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+  "options": [
+   "10,100 MHz",
+   "24,168 MHz",
+   "14,250 MHz",
+   "21,450 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10,100 MHz",
+  "commentaire_fr": "Attention aux unités : la limite de la bande des 21 MHz (15 mètres) est 21,450 MHz (mégahertz) et non 21,450 kHz (kilohertz)\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "31206",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE FREQUENCE EST UNE LIMITE DE BANDE ?",
+  "options": [
+   "145,000 MHz",
+   "430,000 MHz",
+   "445,000 MHz",
+   "1230,00 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "430,000 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "31214",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLES SONT LES LIMITES DE LA BANDE DES 80 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "3,500 à 3,750 MHz",
+   "3,500 à 3,600 MHz",
+   "3,500 à 3,800 MHz",
+   "3,500 à 3,900 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "3,500 à 3,800 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut diviser 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "31217",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR 9A.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Andorre",
+   "Monaco",
+   "Croatie",
+   "Malte"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Croatie",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "31230",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* COMMENT TRADUIT-ON : QUEL EST LE NOM DE VOTRE STATION ?",
+  "options": [
+   "QRA",
+   "QRZ",
+   "QSA",
+   "QSO"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "QRA",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31231",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* COMMENT TRADUIT-ON : \nVOULEZ VOUS M'INDIQUER LA FREQUENCE EXACTE \nOU \nLA FREQUENCE EXACTE EST ... ?",
+  "options": [
+   "QRK",
+   "QRG",
+   "QRV",
+   "QSA"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "QRG",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31233",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : JE VOUS RAPPELE A 15 HEURES ?",
+  "options": [
+   "QRZ 15",
+   "QSA 15",
+   "QRV 15",
+   "QRX 15"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "QRX 15",
+  "commentaire_fr": "On pourrait dire aussi QRX15H00\n",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31234",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* COMMENT TRADUIT-ON : \nMA FREQUENCE VARIE-T-ELLE ?",
+  "options": [
+   "QRH",
+   "QRK",
+   "QSB",
+   "QRN"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "QRH",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31235",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : \nQUELLE EST L'INTELLIGIBILITE DE MES SIGNAUX (OU DES SIGNAUX DE...) ?",
+  "options": [
+   "QRK",
+   "QRZ",
+   "QRU",
+   "QSP"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "QRK",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31236",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : \nETES-VOUS OCCUPE ?",
+  "options": [
+   "QRK",
+   "QRL",
+   "QRV",
+   "QRX"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "QRL",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31237",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : \nETES-VOUS BROUILLE ?",
+  "options": [
+   "QRN",
+   "QSB",
+   "QRM",
+   "QRH"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "QRM",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31239",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : \nDOIS-JE AUGMENTER LA PUISSANCE D'EMISSION ?",
+  "options": [
+   "QRO",
+   "QRP",
+   "QRH",
+   "QRK"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "QRO",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31241",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : \nDOIS-JE CESSER LA TRANSMISSION ?",
+  "options": [
+   "QRU",
+   "QRV",
+   "QRT",
+   "QSY"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "QRT",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31245",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* COMMENT TRADUIT-ON : \nPAR QUI SUIS-JE APPELE ?",
+  "options": [
+   "QRA",
+   "QRZ",
+   "QRL",
+   "QSO"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "QRZ",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31246",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* COMMENT TRADUIT-ON : \nQUELLE EST LA FORCE DE MES SIGNAUX (OU DES SIGNAUX DE...) ?",
+  "options": [
+   "QSB",
+   "QRN",
+   "QSA",
+   "QRM"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "QSA",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31247",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : \nLA FORCE DE MES SIGNAUX VARIE-T-ELLE ?",
+  "options": [
+   "QRN",
+   "QRM",
+   "QSA",
+   "QSB"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "QSB",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31251",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "COMMENT TRADUIT-ON : \nDOIS-JE PASSER A LA TRANSMISSION SUR UNE AUTRE FREQUENCE ?",
+  "options": [
+   "QSP",
+   "QSA",
+   "QTH",
+   "QSY"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "QSY",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31253",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "* COMMENT TRADUIT-ON : \nQUELLE EST L'HEURE EXACTE ?",
+  "options": [
+   "QTH",
+   "QTR",
+   "QRA",
+   "QSL"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "QTR",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "31300",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR OZ.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Danemark",
+   "Belgique",
+   "Finlande",
+   "Slovaquie"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Danemark",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "31301",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 12 METRES ?",
+  "options": [
+   "Partagée statut secondaire",
+   "Partagée statut précaire et révocable",
+   "Partagée à égalité de droit",
+   "Exclusif"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Exclusif",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "31377",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, DOUBLE LATERALE RESIDUELLE, \nSIGNAL ANALOGIQUE,\nTELEVISION ?",
+  "options": [
+   "C3F",
+   "F3F",
+   "G3F",
+   "A3F"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "C3F",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "31400",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 50,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "51,000 à 52,000 MHz",
+   "50,000 à 51,200 MHz",
+   "50,000 à 52,000 MHz",
+   "50,200 à 51,200 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "50,000 à 52,000 MHz",
+  "commentaire_fr": "Depuis la décision 12-1241, les limites de la bandes des 50 MHz sont 50 à 52 MHz (auparavant, conditions d'exploitation particulières de 50,2 à 51,2 MHz)\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "31401",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "RETROUVEZ LES LIMITES D'UNE BANDE PARTAGEE EN EXPLOITATION SECONDAIRE EN REGION 1 ?",
+  "options": [
+   "1,810 à 1,850 MHz",
+   "28,000 à 29,700 MHz",
+   "14,000 à 14,350 MHz",
+   "50,000 à 52,000 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "50,000 à 52,000 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "31500",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR TF.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Turquie",
+   "Islande",
+   "Irlande (Eire)",
+   "Portugal"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Islande",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "31501",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* DANS QUELLE BANDE PEUT-ON FAIRE DE L'EMISSION PAR SATELLITE ?",
+  "options": [
+   "1260 à 1300 MHz",
+   "430 à 434 MHz",
+   "434 à 435 MHz",
+   "438 à 440 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1260 à 1300 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "31545",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUEL EST LE STATUT DE LA BANDE DE FREQUENCE 430,000 A 434,000 MHZ ?",
+  "options": [
+   "précaire et révocable",
+   "partagée, à égalité de droit",
+   "exclusive, statut primaire",
+   "partagée, statut secondaire"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "partagée, statut secondaire",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "31629",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA LARGEUR DE LA BANDE DES 40 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "100 kHz",
+   "200 kHz",
+   "100 MHz",
+   "7,000 à 7,200 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "200 kHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "31704",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "SYMBOLE DE LA MODULATION D'AMPLITUDE, DOUBLE BANDE LATERALE, \nSANS EMPLOI D'UNE SOUS PORTEUSE MODULANTE,\nTRANSMISSION DE DONNEES ?",
+  "options": [
+   "A1D",
+   "A2D",
+   "A1A",
+   "A1B"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "A1D",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "32001",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR ER.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Ecosse",
+   "Moldavie",
+   "Espagne",
+   "Irlande (Eire)"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Moldavie",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "32002",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS ETABLISSEZ UN CONTACT AVEC UN RADIOAMATEUR DONT L'INDICATIF EST :\nF5UXY.\n\nA QUELLE CLASSE D'OPERATEUR APPARTIENT-IL ?",
+  "options": [
+   "Cet indicatif n'appartient à aucune classe d'opérateur",
+   "Classe 1",
+   "Classe 2",
+   "Classe 3"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Classe 1",
+  "commentaire_fr": "Les classes d'indicatifs sont :\nClasse 3 : F0 - (pas d'équivalence CEPT)\nClasse 2 : F1 et F4\nClasse 1 : F2-F3-F5-F6-F8-F9\n",
+  "anchor": "R46a"
+ },
+ {
+  "num": "32007",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION C3F, QUE SIGNIFIE LE C ?",
+  "options": [
+   "Fac similé",
+   "Modulation d'amplitude, double bande latérale",
+   "Modulation de phase",
+   "Modulation d'amplitude, bande latérale résiduelle"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Modulation d'amplitude, bande latérale résiduelle",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "32050",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "* AFFAIBLISSEMENT LINEIQUE ?\n                35 METRES\n          <------------------------>\n100 W -------------------------- 10 W",
+  "options": [
+   "0,38 dB/m",
+   "0,18 dB/m",
+   "0,28 dB/m",
+   "0,32 dB/m"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "0,28 dB/m",
+  "commentaire_fr": "Perte dans le câble = puissance de sortie / puissance d’entrée = 10 / 100 = 1/10, soit -10 dB. Affaiblissement linéique = perte totale / longueur en mètres = 10 dB / 35 mètres = 0,28 dB/m (valeur arrondie).\nCalcul difficile à faire sans calculette.\n",
+  "anchor": "R52a"
+ },
+ {
+  "num": "32100",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 23 CENTIMETRES ?",
+  "options": [
+   "Partagée statut précaire et révocable",
+   "Partagée à égalité de droit",
+   "Exclusif",
+   "Partagée statut secondaire"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Partagée statut secondaire",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "32166",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 20 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "14,000 à 14,350 MHz",
+   "350 kHz",
+   "450 kHz",
+   "350 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "350 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "32200",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION F3E, QUE SIGNIFIE LE 3 ?",
+  "options": [
+   "Signal analogique (images, voix)",
+   "Téléphonie",
+   "Signal digital avec emploi d'une sous porteuse modulante",
+   "Signal digital sans emploi d'une sous porteuse modulante"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Signal analogique (images, voix)",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "32201",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* EN FRANCE METROPOLITAINE, LA BANDE DITE DES 70 CENTIMETRES EST DIVISEE EN 2 PARTIES.\nQUEL EST LE STATUT DE LA PREMIERE PARTIE DE CETTE BANDE ?",
+  "options": [
+   "Partagée à statut secondaire",
+   "Partagée à égalité de droit",
+   "Exclusif",
+   "Partagée statut précaire et révocable"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Partagée à statut secondaire",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "32300",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 15 METRES ?",
+  "options": [
+   "Partagée statut secondaire",
+   "Partagée à égalité de droit",
+   "Exclusif",
+   "Partagée statut précaire et révocable"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Exclusif",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "32386",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "* COMMENT APPELLE-T-ON LA GAMME DE FREQUENCES COMPRENANT LA FREQUENCE 434,000 MHZ ?",
+  "options": [
+   "VHF",
+   "UHF",
+   "SHF",
+   "HF"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "UHF",
+  "commentaire_fr": "Les ondes UHF vont de 300 MHz à 3 GHz\n",
+  "anchor": "R52b"
+ },
+ {
+  "num": "32389",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, DOUBLE BANDE LATERALE, \nTRANSMISSION DE DONNEES,\nAVEC EMPLOI D'UNE SOUS PORTEUSE MODULANTE ?",
+  "options": [
+   "A1D",
+   "A2D",
+   "A3D",
+   "F1D"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "A2D",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "32400",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 144,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "144,000 à 146,000 MHz",
+   "144,000 à 148,000 MHz",
+   "145,000 à 146,000 MHz",
+   "144,000 à 145,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "144,000 à 146,000 MHz",
+  "commentaire_fr": "En région 2 , la bande est plus large (144 - 148 MHz) sauf aux opérateurs de classe 3 (144 - 146 MHz uniquement)\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "32450",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* UN RADIOAMATEUR DE CLASSE 3 PEUT-IL EMETTRE SUR LES BANDES DECAMETRIQUES EN UTILISANT LA STATION PERSONNELLE D'UN AUTRE RADIOAMATEUR  ?",
+  "options": [
+   "OUI, mais en utilisant l'indicatif de la station classe 1",
+   "OUI, mais en limitant la puissance à 10 watts",
+   "NON",
+   "OUI, mais uniquement sur la bande des 10 mètres"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "NON",
+  "commentaire_fr": "Le radioamateur de classe 3 ne peut émettre que sur la bande des 2 mètres.\nMême dans un Radio-Club, le radioamateur de classe 3 ne peut pas émettre sur les bandes décamétriques et autres, même pendant les concours.\n",
+  "anchor": "R22a"
+ },
+ {
+  "num": "32500",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR EI.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Irlande",
+   "Espagne",
+   "Estonie",
+   "Bulgarie"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Irlande",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "32506",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "APRES L'OBTENTION DE VOTRE INDICATIF, TOUTE MODIFICATION D'ADRESSE DOIT ETRE SIGNALEE",
+  "options": [
+   "Au commissariat de police de votre nouveau domicile",
+   "A l'ANFR",
+   "A l'agence France Télécom",
+   "à TDF"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "A l'ANFR",
+  "commentaire_fr": "La modification de l'adresse doit être communiquée dans les 2 mois à l'ANFR\n",
+  "anchor": "R42a"
+ },
+ {
+  "num": "32515",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "* QUEL EST LE GAIN AU SECOND ETAGE ?",
+  "options": [
+   "2,5 dB",
+   "4 dB",
+   "10 dB",
+   "1,67 dB"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "4 dB",
+  "commentaire_fr": "Le gain de l’ensemble des deux étages est de 10 dB (puissance multipliée par 10, correspondant à un gain de 10 dB)\nLe premier étage a un gain de 6 dB. Le second étage fera le complément pour arriver aux 10 dB de l’ensemble, soit : 10 – 6 = 4 dB.\n\nCette question est limite hors programme car la lecture d’un schéma n’est pas au programme de l’examen de réglementation. Ici, les triangles représentent des étages d’amplification.\n",
+  "anchor": "R51a"
+ },
+ {
+  "num": "32516",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA PUISSANCE DE DISSIPATION MAXIMUM SUR 144 MHZ POUR UN RADIOAMATEUR ?",
+  "options": [
+   "100 W",
+   "250 W",
+   "10 W",
+   "120 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "120 W",
+  "commentaire_fr": "",
+  "anchor": "R22a"
+ },
+ {
+  "num": "32521",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "* QUELLE EST L'AFFIRMATION FAUSSE ?\n\nA : UN COAXIAL SERT A TRANSFERER L'ENERGIE\nB : UN CABLE DE FORTE IMPEDANCE EST AUTOMATIQUEMENT DE MOINS BONNE QUALITE\nC : LE ROS SE CALCULE PAR LE RAPPORT DE L'IMPEDANCE LA PLUS FORTE SUR L'IMPEDANCE LA PLUS FAIBLE\nD : LE DOUBLET DEMI-ONDE EST ALIMENTE EN SON CENTRE\n\n",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "B",
+  "commentaire_fr": "L’impédance du câble n’a rien à voir avec la qualité (et donc sa perte linéique)\nAttention à ce genre de questions qui peuvent porter sur des sujets « hors programme ».\n",
+  "anchor": "R53a"
+ },
+ {
+  "num": "32522",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "* UN MULTI-DOUBLET :",
+  "options": [
+   "est une antenne Yagi 2 éléments",
+   "est prévu pour travailler sur plusieurs bandes",
+   "nécessite un réflecteur parabolique",
+   "est aussi appelé doublet à trappes"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "est prévu pour travailler sur plusieurs bandes",
+  "commentaire_fr": "",
+  "anchor": "R52"
+ },
+ {
+  "num": "32523",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "LA SERIE DES INDICATIFS F5VAA :\n\nA : EST RESERVEE AUX STATIONS EXPERIMENTALES\nB : EST RESERVEE AUX SATELLITES\nC : SERA UTILISEE APRES EPUISEMENT DES F1XXX\nD : EST RESERVEE AUX RADIOAMATEURS ETRANGERS ISSUS D'UN PAYS MEMBRE DE LE L'UNION EUROPEENNE ET INSTALLES POUR PLUS DE 3 MOIS EN FRANCE",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "D",
+  "commentaire_fr": "Depuis 2009, le préfixe V (indicatif d’appel de type F5VAA) est réservé aux radioamateurs étrangers provenant d’un pays membre de l’Union Européenne et installés pour plus de trois mois en France. \n\nPour des séjours de moins de trois mois, la recommandation T/R 61-01 s’applique à tous et les radioamateurs étrangers issus d'un pays membre de l'Union Européenne peuvent sans formalité utiliser leur indicatif d’appel précédé de « F/ » ou le préfixe du territoire à partir duquel ils émettent.\n",
+  "anchor": "R46a"
+ },
+ {
+  "num": "32526",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "POUR ETRE RESPONSABLE D'UN RADIO-CLUB, IL FAUT :",
+  "options": [
+   "avoir un casier judiciaire vierge",
+   "être titulaire d'un certificat d'opérateur autre que celui de classe 3",
+   "avoir un diplôme d'électronique",
+   "avoir son certificat d'opérateur depuis plus d'un an"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "être titulaire d'un certificat d'opérateur autre que celui de classe 3",
+  "commentaire_fr": "On parle ici du reponsable technique de la station du radio-club, pas de l'équipe dirigeante d'un radio-club. Le Président d'un radio-club peut très bien ne pas être radioamateur (cas des radio-clubs en milieu scolaire où le président est obligatoirement le proviseur de l'établissement) \n",
+  "anchor": "R43a"
+ },
+ {
+  "num": "32528",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "* QUELLE EST L'AFFIRMATION FAUSSE ?\n\nA : ON DE DOIT PAS UTILISER UNE FREQUENCE EN PERMANENCE\nB : ON DOIT EFFECTUER SES TRANSMISSIONS EN LANGAGE CLAIR\nC : ON S'ASSURERA, AVANT D'EMETTRE, QU'ON NE BROUILLERA PAS DES EMISSION EN COURS\nD : LE TRAFIC \" CROSS BAND \" N'EST PAS AUTORISE AUX OPERATEURS DE CLASSE 3\n",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "D",
+  "commentaire_fr": "Le trafic « cross band » est autorisé aux opérateurs de classe 3 sous\nréserve que les émissions se fassent sur une fréquence, dans une classe d'émission et avec la puissance autorisées.\n",
+  "anchor": "R33a"
+ },
+ {
+  "num": "32529",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "* QUELLE EST L'AFFIRMATION FAUSSE ?\n\nA : L'ANTENNE QUART D'ONDE VERTICALE A UNE IMPEDANCE CARACTERISTIQUE DE 36 OHMS\nB : UNE ANTENNE A LA MEME IMPEDANCE A L'EMISSION QU'A LA RECEPTION\nC : DANS UN DOUBLET, CHAQUE BRIN A LA MEME LONGUEUR\nD : L'IMPEDANCE AU CENTRE D'UNE ANTENNE TROMBONE EST DE 75 OHMS\n",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "D",
+  "commentaire_fr": "Attention, les questions posées sur les antennes ne doivent porter que sur les longueurs, les impédances et quelques généralités mais pas sur les répartitions tension/courant le long des brins.\nLe niveau technique demandé pour l’examen de réglementation reste très basique.\n",
+  "anchor": "R52"
+ },
+ {
+  "num": "32531",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "DANS UNE ANTENNE YAGI :\n\nA : LE BRIN REFLECTEUR EST PLUS COURT QUE LES AUTRES\nB : LE BRIN DIRECTEUR EST AUSSI LONG QUE LE REFLECTEUR\nC : ON DIMINUE L'IMPEDANCE EN AUGMENTANT LE NOMBRE D'ELEMENTS\nD : LA DIRECTION DU RAYONNEMENT MAXIMUM EST PARALLELE AU BRIN RAYONNANT",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "C",
+  "commentaire_fr": "Dans une antenne Yagi, les brins les plus courts sont directeurs, les brins les plus longs sont réflecteurs, le maximum de rayonnement est perpendiculaire à tous les brins (rayonnant ou parasites)\n\nAttention à ce genre de questions qui peuvent être « hors programme ». Dans cet exemple, les affirmations sont bien au programme de l’examen de réglementation mais des questions qui porteraient, par exemple, sur le couplage des antennes Yagi nous sembleraient « hors programme ».\n",
+  "anchor": "R52f"
+ },
+ {
+  "num": "32532",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* UN EMETTEUR DELIVRE UNE PUISSANCE DE 30 W DANS UNE ANTENNE DONT LE GAIN EST 6 DB.\nQUELLE SERA LA PAR DE CETTE STATION ?",
+  "options": [
+   "180 W",
+   "120 W",
+   "36 W",
+   "30 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "120 W",
+  "commentaire_fr": "On sait que 6 dB signifie x4, donc 30 W x 4 = 120 W\nOn supposera ici que le câble coaxial n'amène aucune atténuation\n",
+  "anchor": "R52h"
+ },
+ {
+  "num": "32535",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* L'INDICATIF F5KEB EST ATTRIBUE A",
+  "options": [
+   "un relais analogique",
+   "un relais numérique",
+   "un radio-club",
+   "une balise"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "un radio-club",
+  "commentaire_fr": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "32536",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* QUE DOIT-ON NOTER SUR LE JOURNAL DE BORD ?",
+  "options": [
+   "les signaux de réception de son correspondant",
+   "les contacts établis à partir de la station d'un autre radioamateur",
+   "le prénom du correspondant",
+   "la puissance de l'émetteur du correspondant"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "les contacts établis à partir de la station d'un autre radioamateur",
+  "commentaire_fr": "Lorsqu’on utilise la station d’un autre radioamateur, on s’identifie par son indicatif d’appel suivi de /P ou /M.\nLe contact doit être inscrit sur le carnet de trafic de l’opérateur qui a effectué le contact et non pas sur celui du propriétaire de la station.\n",
+  "anchor": "R41"
+ },
+ {
+  "num": "32539",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "* QUEL EST L'EQUIPEMENT OBLIGATOIRE DANS UNE STATION DE RADIOAMATEUR ?",
+  "options": [
+   "un filtrage de l'alimentation",
+   "un indicateur de la puissance disponible à la sortie de l'émetteur",
+   "un fréquencemètre",
+   "une charge non rayonnante"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "un indicateur de la puissance disponible à la sortie de l'émetteur",
+  "commentaire_fr": "Depuis la décision 12-1241, le seul matériel obligatoire dans une station est l'indicateur de puissance (wattmètre)\n",
+  "anchor": "R13a"
+ },
+ {
+  "num": "32547",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "* EN CAS DE MANQUEMENT A LA REGLEMENTATION, L'INDICATIF D'APPEL ATTRIBUE PEUT ETRE SUSPENDU OU REVOQUE\n\nA : A LA DEMANDE D'UN VOISIN DONT LE TELEVISEUR AURAIT ETE PERTURBE\nB : A LA DEMANDE D'UNE ASSOCIATION DE RADIOAMATEURS\nC : A LA VUE DE RAPPORTS D'INFRACTIONS TRANSMIS PAR DES ADMINISTRATIONS ETRANGERES\nD : A LA DEMANDE D'UN AUTRE RADIOAMATEUR",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "C",
+  "commentaire_fr": "Les sanctions peuvent être prises « sur proposition de l’ANFR, de l’ARCEP, à la demande des départements ministériels chargé de la sécurité publique, de la justice, de la défense nationale ou à la vue de rapports d’infractions transmis par des administrations étrangères ou des organismes internationaux spécialisés ».\n",
+  "anchor": "R44a"
+ },
+ {
+  "num": "32548",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "QUELLE EST L'AFFIRMATION VRAIE ?\n\nA : L'ANNUAIRE DES RADIOAMATEURS EST GERE PAR L'ARCEP\nB : CHAQUE RADIOAMATEUR PEUT DEMANDER A FIGURER SUR LA LISTE ORANGE DE L'ANNUAIRE\nC : L'ANNUAIRE DES RADIOAMATEURS COMPORTE LEUR NOM, ADRESSE ET NUMERO DE TELEPHONE\nD : L'ANNUAIRE EST EN VENTE AUPRES DE L'ANFR",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "B",
+  "commentaire_fr": "L'annuaire des radioamateurs est géré par l'ANFR. Les renseignements concernant le radioamateur sont son nom, son prénom et son adresse (la proposition C est fausse car le n° de téléphone n’est jamais publié). Enfin, l’annuaire est en libre consultation sur le site de l’ANFR (et non pas payant comme le propose la réponse D).\n",
+  "anchor": "R46e"
+ },
+ {
+  "num": "32552",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "* COMMENT SONT QUALIFIEES LES ONDES DE LA GAMME HF ?",
+  "options": [
+   "décimétriques",
+   "myriamétriques",
+   "métriques",
+   "décamétriques"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "décamétriques",
+  "commentaire_fr": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "32553",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "COMMENT SONT QUALIFIEES LES ONDES DE LA GAMME VHF ?",
+  "options": [
+   "décamétriques",
+   "métriques",
+   "décimétriques",
+   "millimétriques"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "métriques",
+  "commentaire_fr": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "32554",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "COMMENT SONT QUALIFIEES LES ONDES DE LA GAMME UHF ?",
+  "options": [
+   "hectométriques",
+   "centimétriques",
+   "métriques",
+   "décimétriques"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "décimétriques",
+  "commentaire_fr": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "32555",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "* COMMENT SONT QUALIFIEES LES ONDES DE LA GAMME SHF ?",
+  "options": [
+   "centimétriques",
+   "millimétriques",
+   "décimétriques",
+   "métriques"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "centimétriques",
+  "commentaire_fr": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "32563",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "ON PEUT UTILISER LE SUFFIXE \"/M\" :",
+  "options": [
+   "sur un bateau navigant à plus de 12 miles nautiques des côtes",
+   "dans un avion de ligne",
+   "dans un véhicule",
+   "lorsque l'on utilise une station transportable"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "dans un véhicule",
+  "commentaire_fr": "A bord d'un navire dans les eaux internationales (c'est à dire à plus de 12 miles nautiques des côtes), le suffixe doit être MM et non pas M\nSous réserve d'avoir tous les accords nécessaires, le trafic est autorisé à bord des aéronefs. Mais la DGAC ne vous permettra pas d'émettre à bord d'un avion de ligne.\nUne station transportable doit utilser le suffixe P\n",
+  "anchor": "R42a"
+ },
+ {
+  "num": "32600",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, DOUBLE BANDE LATERALE, \nSIGNAL ANALOGIQUE, FAC SIMILE ?",
+  "options": [
+   "F3C",
+   "A1C",
+   "A2C",
+   "A3C"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "A3C",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "32690",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "* ETENDUE DES ONDES MILLIMETRIQUES ?",
+  "options": [
+   "1 cm à 1 mm",
+   "10 cm à 1 cm",
+   "1 m à 10 cm",
+   "1000 m à 100 m"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "1 cm à 1 mm",
+  "commentaire_fr": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "32700",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 17 METRES ?",
+  "options": [
+   "Partagée statut précaire et révocable",
+   "Exclusif",
+   "Partagée statut secondaire",
+   "Partagée à égalité de droit"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Exclusif",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "32720",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLES SONT LES LIMITES DE LA BANDE DES 40 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "7,000 à 7,100 kHz",
+   "7,020 à 7,100 MHz",
+   "7,000 à 7,200 MHz",
+   "7,000 à 7,100 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "7,000 à 7,200 MHz",
+  "commentaire_fr": "Attention à ne pas confondre la virgule décimale et le point de séparation des milliers.\nPour trouver la fréquence, il faut divisé 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "32787",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR HB9.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Suisse",
+   "Liechtenstein",
+   "Hongrie",
+   "Hollande"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Suisse",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "32801",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "SYMBOLE DE LA MODULATION D'AMPLITUDE, DOUBLE BANDE LATERALE, \nTELEGRAPHIE POUR RECEPTION AUTOMATIQUE,\nSANS EMPLOI D'UNE SOUS PORTEUSE MODULANTE ?",
+  "options": [
+   "A1A",
+   "A2B",
+   "A1B",
+   "A2A"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "A1B",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "32900",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA LARGEUR DE LA BANDE DES 1240,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "6 MHz",
+   "23 centimètres",
+   "60 kHz",
+   "60 MHz"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "60 MHz",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "33001",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR MD.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Jersey",
+   "Angleterre",
+   "Pays de Galles",
+   "Ile de Man"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Ile de Man",
+  "commentaire_fr": "Le préfixe peut commencer également par G.\n",
+  "anchor": "R47b"
+ },
+ {
+  "num": "33002",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLES SONT LES LIMITES DE LA BANDE DES 30 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "30,000 à 31,150 MHz",
+   "10,100 à 10,150 MHz",
+   "10,000 à 10,150 MHz",
+   "10,000 à 10,200 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "10,100 à 10,150 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut divisé 300 par la longueur d'onde en mètres.\nAttention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "33003",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS ENTENDEZ UN INDICATIF QUI COMMENCE PAR F7.\nQUE SIGNIFIE CET INDICATIF ?",
+  "options": [
+   "C'est un radioamateur étranger dont le pays a signé un accord de réciprocité",
+   "C'est un Radioamateur étranger dont le pays est membre de la CEPT",
+   "Cette série d' indicatif d'appel n'est pas attribuée",
+   "C'est un indicatif d'appel de San Marin"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Cette série d' indicatif d'appel n'est pas attribuée",
+  "commentaire_fr": "Les indicatifs français attribués et commançant par la lettre F sont :\nFØ, F1, F2, F3, F4, F5, F6, F8 et F9.\n",
+  "anchor": "R46a"
+ },
+ {
+  "num": "33004",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "* LES ONDES CENTIMETRIQUES SONT COMPRISES ENTRE ?",
+  "options": [
+   "1 cm et 1 mm",
+   "1 m et 10 cm",
+   "10 m et 1 m",
+   "10 cm et 1 cm"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "10 cm et 1 cm",
+  "commentaire_fr": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "33005",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* QUEL SERA L'INDICATIF D'UN RADIOAMATEUR DE CLASSE 3 QUI RESIDE EN CORSE ?",
+  "options": [
+   "FØ",
+   "TKØ",
+   "TK1",
+   "La classe 3 n'est pas autorisée en Corse"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "TKØ",
+  "commentaire_fr": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "33010",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS ETABLISSEZ UN CONTACT AVEC UN RADIOAMATEUR DONT L'INDICATIF EST :\nF6XYZ\n\nA QUELLE CLASSE D'OPERATEUR APPARTIENT T-IL ?",
+  "options": [
+   "Classe 3",
+   "Classe 2",
+   "Classe 1",
+   "Aucune classe"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Classe 1",
+  "commentaire_fr": "Les classes d'indicatifs sont :\nClasse 3 : F0 - (pas d'équivalence CEPT)\nClasse 2 : F1 et F4\nClasse 1 : F2-F3-F5-F6-F8-F9\n",
+  "anchor": "R46a"
+ },
+ {
+  "num": "33020",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "* UN OPERATEUR DE CLASSE 3 PEUT-IL EMETTRE SUR LA FREQUENCE 14,115 MHZ A PARTIR D'UN RADIO-CLUB ?",
+  "options": [
+   "Oui",
+   "Non",
+   "Oui, mais sous le contrôle du Président du Radio-Club",
+   "Oui, mais sous le contrôle du Responsable de l'indicatif du Radio-club"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Non",
+  "commentaire_fr": "C'est interdit. Le radioamateur de classe 3 ne peut utiliser que la bande des 2 mètres (144-146 MHz).\n",
+  "anchor": "R43a"
+ },
+ {
+  "num": "33100",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "A VOTRE AVIS, QUELLE EST LA CLASSE D'EMISSION QUI RISQUE DE MOINS BROUILLER LE POSTE DE TELEVISION DE VOTRE VOISIN",
+  "options": [
+   "A1A",
+   "J7B",
+   "F3E",
+   "A1D"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "F3E",
+  "commentaire_fr": "F3E - FM en téléphonie.\n",
+  "anchor": "R54a"
+ },
+ {
+  "num": "33199",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUEL EST LE CODE POUR : \"QRT\"",
+  "options": [
+   "Dois-je cesser la transmission ?",
+   "Etes-vous prêt ?",
+   "Voulez-vous m'indiquer ma fréquence exacte ?",
+   "Dois-je passer à la transmission sur une autre fréquence ?"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Dois-je cesser la transmission ?",
+  "commentaire_fr": "",
+  "anchor": "R32a"
+ },
+ {
+  "num": "33201",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUE SIGNIFIE LES LETTRES AM ?",
+  "options": [
+   "Amplitude Modulation",
+   "Amplification Modulation",
+   "Ancienne Modulation",
+   "Après Midi"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Amplitude Modulation",
+  "commentaire_fr": "",
+  "anchor": "R12b"
+ },
+ {
+  "num": "33205",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 20 METRES ?",
+  "options": [
+   "Partagée statut précaire et révocable",
+   "Exclusif",
+   "Partagée à égalité de droit",
+   "Partagée statut secondaire"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Exclusif",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "33287",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR I.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Iles Féroé",
+   "Ile de Man",
+   "Italie",
+   "Irlande (Eire)"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Italie",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "33300",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR 4L.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Monaco",
+   "Croatie",
+   "Malte",
+   "Géorgie"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Géorgie",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "33350",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS ETABLISSEZ UN CONTACT AVEC UN RADIOAMATEUR DONT L'INDICATIF EST :\nF1RYZ\n\nA QUELLE CLASSE D'OPERATEUR APPARTIENT T-IL ?",
+  "options": [
+   "La classe 3",
+   "La classe 2",
+   "La classe 1",
+   "Aucune classe"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "La classe 2",
+  "commentaire_fr": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "33400",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION DE FREQUENCE, \nSANS EMPLOI D'UNE SOUS PORTEUSE MODULANTE,\nTRANSMISSION DE DONNEES ?",
+  "options": [
+   "F2D",
+   "F1D",
+   "F3D",
+   "G3D"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "F1D",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "33401",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLES SONT LES LIMITES DE LA BANDE DES 430,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "434,000 à 440,000 MHz",
+   "430,000 à 440,000 MHz",
+   "434,000 à 435,000 MHz",
+   "430,000 à 435,000 MHz "
+  ],
+  "ans_idx": 1,
+  "ans_fr": "430,000 à 440,000 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "33407",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR EA.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Estonie",
+   "Ecosse",
+   "Allemagne",
+   "Espagne"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Espagne",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "33409",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "VOUS EMETTEZ AVEC UNE PUISSANCE DE 90 WATTS.\nVOTRE ANTENNE A UNE IMPEDANCE DE 100 OHMS.\nQUELLE SERA LA PUISSANCE REFLECHIE A L'EMETTEUR ?",
+  "options": [
+   "10 W",
+   "45 W",
+   "0,9 W",
+   "9 W"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "10 W",
+  "commentaire_fr": "ROS = Zplus forte / Z plus faible = 100 / 50 = 2/1 ; Transformation ROS > k : k = (ROS – 1) / ROS + 1) = (2-1) / (2+1) = 0,333 ; puissance réfléchie = puissance émise x k² = 90 x 0,333² = 90 x 0,111 = 10 W. Mais ce développement est, à notre avis, hors programme bien que des questions de ce type ait été recensée à l’examen.\n",
+  "anchor": "R53c"
+ },
+ {
+  "num": "33411",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 17 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "18,068 à 18,168 MHz",
+   "100 kHz",
+   "18,068 à 18,168 kHz",
+   "200 kHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "100 kHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur et de ne pas confondre la virgule décimale et le point de séparation de milliers.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "33600",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLE EST LA LARGEUR DE LA BANDE DES 430,00 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "10 kHz",
+   "100 kHz",
+   "10 MHz",
+   "0,7 mètres"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "10 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "33640",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "SI ON ALIMENTE UNE ANTENNE AVEC 20 WATTS \nET QU'ELLE A UN GAIN DE 3 DB,\nLA P.A.R. SERA DE ?",
+  "options": [
+   "23 W",
+   "40 W",
+   "60 W",
+   "80 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "40 W",
+  "commentaire_fr": "3 dB correspond à un rapport de puissance de 2. PAR = puissance de l’émetteur x rapport de puissance de l’antenne = 20 W x 2 = 40 W\n",
+  "anchor": "R51a"
+ },
+ {
+  "num": "33654",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 23 CMS EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "60 MHz",
+   "60 kHz",
+   "1240,000 à 1300,000 MHz",
+   "1260,000 à 1300,000 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "60 MHz",
+  "commentaire_fr": "Attention de ne pas confondre limites et largeur.\nLISEZ BIEN VOTRE QUESTION.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "33657",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "SYMBOLE DE LA MODULATION D'AMPLITUDE, BANDE LATERALE UNIQUE,\nPORTEUSE SUPPRIMEE, AVEC EMPLOI D'UNE SOUS PORTEUSE MODULANTE,\nFAC SIMILE ?",
+  "options": [
+   "J1C",
+   "J3C",
+   "J2C",
+   "J7B"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "J2C",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "33700",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR SP.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Suisse",
+   "Slovénie",
+   "Pologne",
+   "Estonie"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Pologne",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "33701",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 160 METRES ?",
+  "options": [
+   "Exclusif",
+   "Partagée à égalité de droit",
+   "Partagée statut secondaire",
+   "Partagée statut précaire et révocable"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Exclusif",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "33777",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR FH.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Martinique",
+   "Mayotte",
+   "Terres Australes et Antarctiques Françaises",
+   "Saint Pierre et miquelon"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Mayotte",
+  "commentaire_fr": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "33933",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUEL EST LE STATUT DE LA BANDE DE FREQUENCE 10,100 A 10,150 MHZ ?",
+  "options": [
+   "partagée, statut secondaire",
+   "partagée, à égalité de droit",
+   "exclusive, statut primaire",
+   "précaire et révocable"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "partagée, statut secondaire",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34001",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR MM.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Ile de Man",
+   "Ecosse",
+   "Jersey",
+   "Pays de Galles"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Ecosse",
+  "commentaire_fr": "Le préfixe peut commencer également par G.\n",
+  "anchor": "R47b"
+ },
+ {
+  "num": "34004",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 160 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1,800 à 1,850 MHz",
+   "1,810 à 1,850 MHz",
+   "1,830 à 1,850 MHz",
+   "1,800 à 2,000 MHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "1,810 à 1,850 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34006",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 10 METRES ?",
+  "options": [
+   "Exclusif",
+   "Partagée à égalité de droit",
+   "Partagée statut secondaire",
+   "Partagée statut précaire et révocable"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Exclusif",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34010",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* DANS LA CLASSE D'EMISSION J7B, QUE SIGNIFIE LE CHIFFRE 7 ?",
+  "options": [
+   "Signal digital avec emploi d'une sous porteuse modulante",
+   "Signal digital sans emploi d'une sous porteuse modulante",
+   "Signal analogique (images, voix)",
+   "Plusieurs voies contenent de l'information numérique"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Plusieurs voies contenent de l'information numérique",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34040",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE EST LA LARGEUR DE LA BANDE DES 144,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1 MHz",
+   "2 MHz",
+   "2 mètres",
+   "144,000 à 146,000 kHz"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "2 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34050",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "PAR QUI EST GERE L'ANNUAIRE OFFICIEL DES RADIOAMATEURS ?",
+  "options": [
+   "L'agence Nationale des Fréquences",
+   "Le Conseil Supérieur de l'Audiovisuel",
+   "Le Réseau des Emetteurs Français",
+   "L' International Amateur Radio Union"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "L'agence Nationale des Fréquences",
+  "commentaire_fr": "",
+  "anchor": "R46e"
+ },
+ {
+  "num": "34100",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLES SONT LES LIMITES DE LA BANDE DES 1240,0 MHZ EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "1240,00 à 1300,00 GHz",
+   "1200,00 à 1300,00 MHz",
+   "1240,00 à 1300,00 MHz",
+   "1240,00 à 1280,00 MHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "1240,00 à 1300,00 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34199",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* QUELLES SONT LES LIMITES DE LA BANDE DES 20 METRES EN FRANCE METROPOLITAINE ?",
+  "options": [
+   "14,000 à 14,350 MHz",
+   "14,000 à 14,450 MHz",
+   "14,100 à 14,350 MHz",
+   "14,000 à 14,250 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "14,000 à 14,350 MHz",
+  "commentaire_fr": "Pour trouver la fréquence, il faut divisé 300 par la longueur d'onde en mètres.\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34210",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "AFFAIBLISSEMENT LINEIQUE DU CABLE ?\n20 V  ================= 10 V\nCABLE COAXIAL DE 30 METRES",
+  "options": [
+   "0,2 dB/m",
+   "0,3 dB/m",
+   "0,4 db/m",
+   "0,6 db/m"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "0,2 dB/m",
+  "commentaire_fr": "Attention, l'affaiblissement est donné en tension et non pas en puissance. Dans ce cas, l'affaiblissement est le double de celui que l'on aurait calculer si les valeurs étaient des watts et non pas des volts.\nAffaiblissement = 6 dB\nAffaiblissement linéique = 6 dB/ 30 mètres = 0,2 dB/m\nCe calcul a été posé à l'épreuve de réglementation mais ne devrait pas y figurer car on ne doit voir apparaître que des questions sur les affaiblissements linéiques en puissance !\n",
+  "anchor": "R53a"
+ },
+ {
+  "num": "34258",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, DOUBLE BANDE LATERALE, \nSIGNAL ANALOGIQUE, TELEVISION ?",
+  "options": [
+   "G3F",
+   "F3F",
+   "G1F",
+   "A3F"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "A3F",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34277",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR SM.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Slovaquie",
+   "Suède",
+   "Suisse",
+   "Saint-Marin"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Suède",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "34334",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR FS.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Saint Barthélémy",
+   "Saint Martin",
+   "Saint Pierre et Miquelon",
+   "Guadeloupe"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "Saint Martin",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "34368",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR HA.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Pays Bas",
+   "Islande",
+   "Finlande",
+   "Hongrie"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Hongrie",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "34444",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "* EPELLATION CORRECTE DE L'INDICATIF: FD2ZYC",
+  "options": [
+   "Fox Trot delta 2 zoulou yankee charlie",
+   "Fox Trot delta 2 zoulou yankee canada",
+   "France delta 2 zoulou yankee charlie",
+   "Fox Trot delta zoulou yankee charlie"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Fox Trot delta 2 zoulou yankee charlie",
+  "commentaire_fr": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "34513",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR ES.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+  "options": [
+   "Estonie",
+   "Espagne",
+   "Andorre",
+   "Irlande (Eire)"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Estonie",
+  "commentaire_fr": "",
+  "anchor": "R47b"
+ },
+ {
+  "num": "34600",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "* EN FRANCE METROPOLITAINE, QUEL EST LE STATUT DE LA BANDE DITE DES 30 METRES ?",
+  "options": [
+   "Partagée statut secondaire",
+   "Exclusif",
+   "Partagée à égalité de droit",
+   "Partagée statut précaire et révocable"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Partagée statut secondaire",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34647",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "* SYMBOLE DE LA MODULATION D'AMPLITUDE, BANDE LATERALE UNIQUE,\nPORTEUSE SUPPRIMEE, SIGNAL ANALOGIQUE, FAC SIMILE ?",
+  "options": [
+   "J7B",
+   "J3C",
+   "A3C",
+   "J2C"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "J3C",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34650",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "QU'EST-CE QU'UNE STATION TRANSPORTABLE ?",
+  "options": [
+   "ne peut pas fonctionner pendant son transport ",
+   "est installée dans un véhicule",
+   "un talkie-walkie",
+   "une station utilisée au lieu de la déclaration à l’ANFR"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "ne peut pas fonctionner pendant son transport ",
+  "commentaire_fr": "Une station transportable est l’autre dénomination d’une station portable (ce dernier terme étant plus courant dans le langage radioamateur)\n",
+  "anchor": "R42a"
+ },
+ {
+  "num": "34655",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "10 W EN SORTIE ET 10 DB DANS UN TRIANGLE, PUISANCE D'ENTREE ?",
+  "options": [
+   "100 W",
+   "10 W",
+   "0 W",
+   "1 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "1 W",
+  "commentaire_fr": "Un amplificateur de 10 dB apporte un rapport de puissance de 10. Si la puissance de sortie est 10 watts, il y a 1 watt à l’entrée (10 / 10 = 1)\n",
+  "anchor": "R51a"
+ },
+ {
+  "num": "34658",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "PUISSANCE MAXIMUM EN CRETE DANS LA BANDE 18,068-18,168 MHZ ?",
+  "options": [
+   "500 W  PIRE",
+   "500 W PAR",
+   "500 W",
+   "120 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "500 W",
+  "commentaire_fr": "La puissance en sortie d’émetteur est limitée mais pas le gain des antennes (la PIRE et la PAR ne sont donc pas limitées)\n",
+  "anchor": "R22a"
+ },
+ {
+  "num": "34660",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "RESTRICTIONS POUR INSTALLER UNE BALISE OU UN RELAIS SUR 50 MHZ ?",
+  "options": [
+   "oui sous réserve de l’obtention d’une autorisation individuelle",
+   "oui, uniquement en mobile",
+   "oui, avec la PAR maximum dans les zones définies par le CSA",
+   " Il n'y a aucune restriction"
+  ],
+  "ans_idx": 3,
+  "ans_fr": " Il n'y a aucune restriction",
+  "commentaire_fr": "Avec la nouvelle réglementation 2012, la bande des 50 MHz devient une bande VHF « normale » (120 W sur tout le territoire, pas de limitations PAR, relais et trafic en mobile autorisés)\n",
+  "anchor": "R21d"
+ },
+ {
+  "num": "34661",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "UN OPERATEUR DE CLASSE 3 EST-IL AUTORISE A TRAFIQUER SUR 50 MHZ ?",
+  "options": [
+   "oui, avec la PAR maximum dans les zones définies par le CSA",
+   "oui, uniquement en mobile",
+   "non",
+   "oui sous réserve de l’obtention d’une autorisation individuelle"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "non",
+  "commentaire_fr": "Un opérateur de classe 3 ne peut émettre que sur la bande 144-146 MHz\n",
+  "anchor": "R21d"
+ },
+ {
+  "num": "34662",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "UN OPERATEUR DE CLASSE 3 PEUT-IL EMETTRE ENTRE 50,2 ET 51,2 MHZ ?",
+  "options": [
+   "seulement en fixe",
+   "sur autorisation de l’ANFR",
+   "seulement en mobile",
+   "jamais"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "jamais",
+  "commentaire_fr": "Les opérateurs de classe 3 ne peuvent émettre que dans la bande 144-146 MHz\n",
+  "anchor": "R21d"
+ },
+ {
+  "num": "34663",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "PUISSANCE D'EMISSION (PEM) = 10 W ET PUISSANCE REFLECHIE (PREF) = 4 W, QUEL EST LE TOS ?",
+  "options": [
+   "40 %",
+   "63 %",
+   "25 %",
+   "16 %"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "63 %",
+  "commentaire_fr": "K = racine (Ps / Pe) = racine (4 / 10) = 0,6324 = 63% (arrondi)\n",
+  "anchor": "R53c"
+ },
+ {
+  "num": "34666",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "COMMENT S'EPELLE F4WTP ?",
+  "options": [
+   "Foxtrot 4 Whiskey Tango Pérou ",
+   "Florida 4 Whisky Tango Papa",
+   "Foxtrot 4 Whiskey Tango Papa ",
+   "France 4 William Thomas Paul"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Foxtrot 4 Whiskey Tango Papa ",
+  "commentaire_fr": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "34667",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "PUISSANCE DISSIPEE MAXIMUM EN DESSOUS DE 28 MHZ ?",
+  "options": [
+   "500 W  PAR",
+   "500 W",
+   "500 W PIRE",
+   "120 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "500 W",
+  "commentaire_fr": "La puissance en sortie d’émetteur (puissance dissipée) est limitée mais pas le gain des antennes (la PIRE et la PAR ne sont donc pas limitées)\n",
+  "anchor": "R22a"
+ },
+ {
+  "num": "34668",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "POUR EMETTRE, IL FAUT :",
+  "options": [
+   "s’être inscrit à l'examen",
+   "être membre d'un radio-club",
+   "avoir un indicatif d’appel ",
+   "avoir réussi l'examen"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "avoir un indicatif d’appel ",
+  "commentaire_fr": "",
+  "anchor": "R42a"
+ },
+ {
+  "num": "34669",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "SOIENT 2 FREQUENCES : F1 = 110 KHZ ET F2 = 100 KHZ, \nRETROUVEZ LES 2 PRODUITS D'INTERMODULATION D'ORDRE 3",
+  "options": [
+   "100 kHz et 200 kHz ",
+   "10 et 210 kHz",
+   "310 et 320 kHz",
+   "340 et 290 kHz"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "310 et 320 kHz",
+  "commentaire_fr": "Les produits d'intermodulation d'ordre 3 sont les mélanges des 2 fréquences (F1 et F2) présentes à l'entrée d'un amplificateur non linéaire. A la sortie de cet amplificateur défectueux, on trouve des mélanges de 3 fréquences comme, par exemple : 2 x F1 + F2 ou F1 - 2 x F2 ou encore 3 x F1. Dans cette question, il s’agit de F1 + (2 x F2) et (2 x F1) + F2, soit 110 + (2 x 100) et (2 x 110) + 100. Aucune des autres réponses n’est un produit d’intermodulation d’ordre 3. La réponse « 10 et 210 kHz » correspond aux produits d’intermodulation d’ordre 2 (mélange des deux fréquences F1 et F2).\n",
+  "anchor": "R54c"
+ },
+ {
+  "num": "34673",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "QUELLE EST LA CARACTERISTIQUE D'UNE LIGNE COAXIALE",
+  "options": [
+   "symétrique",
+   "asymétrique",
+   "à haute impédance",
+   "utilisable en réception uniquement"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "asymétrique",
+  "commentaire_fr": "",
+  "anchor": "R53a"
+ },
+ {
+  "num": "34675",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "A QUOI CORRESPOND LA POLARISATION D'UNE ANTENNE ?",
+  "options": [
+   "direction du correspondant ",
+   "direction de l'axe du champ magnétique",
+   "direction de la propagation de l'onde électromagnétique",
+   "direction de l'axe du champ électrique "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "direction de l'axe du champ électrique ",
+  "commentaire_fr": "",
+  "anchor": "R52"
+ },
+ {
+  "num": "34676",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "AMPLIFICATEUR DE 20 W AVEC UNE ANTENNE DE 6 DB, QUELLE EST LA PAR ?\n",
+  "options": [
+   "40 W",
+   "120 W",
+   "80 W",
+   "26 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "80 W",
+  "commentaire_fr": "6 dB correspond à un rapport de puissance de 4 ; 20 x 4 = 80 W\n",
+  "anchor": "R52h"
+ },
+ {
+  "num": "34678",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "POUR UNE ANTENNE DIRECTIVE, Y A-T-IL UNE REGLEMENTATION SPECIALE?",
+  "options": [
+   "Oui si le gain est supérieur à 20 dB",
+   "Oui si la puissance est supérieure à 10 W",
+   "Non",
+   "Oui mais uniquement pour les opérateurs de classe 3"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Non",
+  "commentaire_fr": "",
+  "anchor": "R22c"
+ },
+ {
+  "num": "34680",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE BANDE A UNE LARGEUR DE 2 MHZ ?",
+  "options": [
+   "144 MHz",
+   "28 MHz",
+   "14 MHz",
+   "430 MHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "144 MHz",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34681",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "L'AGENCE NATIONALE DES FREQUENCES PEUT-ELLE DEMANDER DES INFORMATIONS CONCERNANT LES LOGICIELS ET PROTOCOLES UTILISES PAR UN RADIOAMATEUR ?",
+  "options": [
+   "Uniquement pour les protocoles de cryptage ",
+   "Oui dans tous les cas",
+   "Non car le développement est libre",
+   "Oui dans le cadre de l'instruction des cas de brouillage "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Oui dans le cadre de l'instruction des cas de brouillage ",
+  "commentaire_fr": "Le cryptage est interdit pour les radioamateurs (suaf pour les stations terrestres de commande des satellites). En revanche l'ANFR peut demander des informations sur les logiciels et protocoles utilisés par une station radioamateur dans le cadre de l'instruction des brouillages, comme indiqué dans le paragraphe 4 la décision ARCEP 2012-1241\n",
+  "anchor": "R33b"
+ },
+ {
+  "num": "34682",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "UNE STATION REPETITRICE OU UN RADIO-CLUB PEUVENT-ILS S'INSCRIRE SUR LA LISTE ORANGE DE L'ANNUAIRE ANFR ?",
+  "options": [
+   "Oui après autorisation du Ministre chargé des Communications Electroniques",
+   "Oui après autorisation de l’ARCEP",
+   "Non",
+   "Oui si le responsable de la station du radio-club ou de la station répétitrice en font la demande expresse"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Non",
+  "commentaire_fr": "L’arrêté du 20/11/2000 modifié ne précise rien sur ce cas. Dans l’annuaire ANFR consultable sur Internet, aucun radio-club n’est en « liste orange » \n",
+  "anchor": "R46e"
+ },
+ {
+  "num": "34683",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "DEFINITION DE LA CLASSE D'EMISSION A3E ?",
+  "options": [
+   "téléphonie, modulation d’amplitude, double bande latérale ",
+   "télévision, modulation d’amplitude, double bande latérale ",
+   "téléphonie, modulation d’amplitude bande latérale unique, porteuse supprimée",
+   "téléphonie, modulation de fréquence"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "téléphonie, modulation d’amplitude, double bande latérale ",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34684",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "CODE POUR F1A ?",
+  "options": [
+   "télégraphie auditive sans sous-porteuse modulante, modulation d'amplitude",
+   "télégraphie auditive avec sous-porteuse modulante, modulation de phase",
+   "télégraphie automatique sans sous-porteuse modulante, modulation de fréquence ",
+   "télégraphie auditive sans sous-porteuse modulante, modulation de fréquence "
+  ],
+  "ans_idx": 3,
+  "ans_fr": "télégraphie auditive sans sous-porteuse modulante, modulation de fréquence ",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34685",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "LE 10 GHZ FAIT PARTIE DE QUELLE BANDE ?",
+  "options": [
+   "HF",
+   "SHF",
+   "EHF",
+   "UHF"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "SHF",
+  "commentaire_fr": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "34689",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "UN REPERE ORTHONORME, UNE FREQUENCE CENTRALE, UNE FREQUENCE A GAUCHE, UNE FREQUENCE A DROITE, QUELLE EST LA BANDE PASSANTE ? \nLES SCHEMAS SONT DES REPRESENTATIONS DE U EN FONCTION DE LA FREQUENCE",
+  "options": [
+   "720",
+   "730",
+   "740",
+   "20"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "20",
+  "commentaire_fr": "La bande passante est la différence entre la fréquence la plus élevée et la fréquence la plus basse du spectre occupé par une émission. 740 - 720 = 20\n",
+  "anchor": "R13b"
+ },
+ {
+  "num": "34690",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "QUELLE EST LA LARGEUR DE BANDE PASSANTE MAXIMUM POUR LE 28 MHZ",
+  "options": [
+   "20 kHz",
+   "6 kHz",
+   "12 kHz",
+   "pas de limite"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "12 kHz",
+  "commentaire_fr": "",
+  "anchor": "R13b"
+ },
+ {
+  "num": "34691",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUEL EST LE STATUT DE LA BANDE DES 2 METRES ?",
+  "options": [
+   "statut A",
+   "statut B",
+   "statut C",
+   "statut D"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "statut A",
+  "commentaire_fr": "",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34692",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "SYMBOLE DE LA TRANSMISSION DE DONNEES, MODULATION DE FREQUENCE, AVEC EMPLOI D'UNE SOUS PORTEUSE MODULANTE",
+  "options": [
+   "D2F",
+   "F1D",
+   "F2T",
+   "F2D"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "F2D",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34693",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "QUEL PAYS EST ASSOCIE AU PREFIXE FY ?",
+  "options": [
+   "Mayotte ",
+   "Saint Barthelemy",
+   "Guyane",
+   "Satellite français du service amateur"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Guyane",
+  "commentaire_fr": "",
+  "anchor": "R46a"
+ },
+ {
+  "num": "34696",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "CALCULER LA PIRE : EMETTEUR = 100 W ; PERTE DANS LE COAXIAL = -7DB ; GAIN DE L'ANTENNE = 4DB ISO",
+  "options": [
+   "33 W",
+   "200 W",
+   "9 W",
+   "50 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "50 W",
+  "commentaire_fr": "gain de l'ensemble = -7dB + 4dB = -3 dB \nsoit une \"amplification\" de 1/2 (ou puissance divisée par 2)\ndonc PIRE = 100 W x 1/2 = 50 W\n",
+  "anchor": "R53a"
+ },
+ {
+  "num": "34698",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "LA REGLEMENTATION POUR LA POSE D'UNE ANTENNE EN CORSE REQUIERT ELLE UNE PARTICULARITE ADMINISTRATIVE ?",
+  "options": [
+   "oui si l’antenne est installée à moins de 100 mètres de la côte",
+   "oui si le pylône mesure plus de 10 mètres",
+   "non",
+   "oui si on n’est pas propriétaire du terrain où est érigée l’antenne"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "non",
+  "commentaire_fr": "Le code de l'urbanisme s'applique en Corse comme partout en France sans règle particulière\n",
+  "anchor": "R22c"
+ },
+ {
+  "num": "34700",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "UN RADIOAMATEUR A-T-IL LE DROIT D'IMPLANTER UNE BALISE ?",
+  "options": [
+   "oui",
+   "non",
+   "oui si la puissance est inférieure à 5 W PAR",
+   "oui si c’est un opérateur de classe 3"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "oui",
+  "commentaire_fr": "Le responsable de la balise ne peut pas être un radioamateur de classe 3\n",
+  "anchor": "R43b"
+ },
+ {
+  "num": "34701",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "PUISSANCE D'EMISSION (PEM) = 15 W ; PUISSANCE REFLECHIE (PREF) = 3 W ; QUEL EST LE TOS ?",
+  "options": [
+   "15 %",
+   "63 %",
+   "20 %",
+   "44 %"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "44 %",
+  "commentaire_fr": "TOS = racine (Ps / Pe) = racine (3 / 15) = 0,4472\n= 44% (arrondi par défaut)\n",
+  "anchor": "R53c"
+ },
+ {
+  "num": "34705",
+  "theme_fr": "Abréviations en code Q",
+  "theme_zh": "Q 简语缩写",
+  "stem_fr": "QUE SIGNIFIE L'ABREVIATION \" PSE \" ?",
+  "options": [
+   "pulsation",
+   "phase",
+   "s’il vous plaît ",
+   "puissance"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "s’il vous plaît ",
+  "commentaire_fr": "PSE signifie \"Please\", s’il vous plaît en anglais\nCette question, encore posée dans un examen de septembre 2014, aurait dû être retirée de la base de données des questions depuis 2012 puisque la partie du texte où apparaissait ce code (programme de l'épreuve de code Morse) a été abrogée.\n",
+  "anchor": "R32d"
+ },
+ {
+  "num": "34706",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "PUISSANCE CRETE SORTIE EMETTEUR EN CLASSE J3E SUR LA BANDE DES 18 MHZ ?",
+  "options": [
+   "100 W",
+   "250 W",
+   "500 W",
+   "120 W"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "500 W",
+  "commentaire_fr": "",
+  "anchor": "R22a"
+ },
+ {
+  "num": "34708",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "QUELLE QUALIFICATION POUR LES SHF ?",
+  "options": [
+   "ondes décimétriques",
+   "ondes millimétriques",
+   "ondes centimétriques",
+   "ondes déci-millimétriques"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "ondes centimétriques",
+  "commentaire_fr": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "34711",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "IMPEDANCE D'UN DIPOLE PLIE A 90 DEGRES ?",
+  "options": [
+   "52 ohms",
+   "36 ohms",
+   "73 ohms",
+   "90 ohms"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "36 ohms",
+  "commentaire_fr": "Lorsque les brins d’un dipôle forment un angle de 90 degrés, l'impédance au centre de l’antenne est de 36 ohms (au lieu de 73 ohms lorsque les brins sont alignés ou 52 ohms lorsqu'ils forment un angle de 120°)\n",
+  "anchor": "R52c"
+ },
+ {
+  "num": "34713",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "PRECISION AVEC LAQUELLE ON DOIT REPERER LA FREQUENCE D'EMISSION EN DESSOUS DE 30 MHZ ?",
+  "options": [
+   "+/- 1 kHz",
+   "1/10.000 de la fréquence d'émission",
+   "+/- 3 kHz",
+   "1/20.000 de la fréquence d'émission"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "+/- 1 kHz",
+  "commentaire_fr": "Nouvelle réglementation 2012 : suppression de cette disposition. Toutefois, quelques questions continuent d’être posées sur ce sujet (commentaires de décembre 2014)\n",
+  "anchor": "R13"
+ },
+ {
+  "num": "34714",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "PRECISION DES EMETTEURS EN DESSOUS DE 29,7 MHZ ?",
+  "options": [
+   "+/- 1 kHz",
+   "+/-7,5 kHz ",
+   "5.10^-5 ",
+   "+/-3 kHz"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "+/- 1 kHz",
+  "commentaire_fr": "Nouvelle réglementation 2012 : suppression de cette disposition. Toutefois, quelques questions continuent d’être posées sur ce sujet (commentaires de décembre 2014)\n",
+  "anchor": "R13"
+ },
+ {
+  "num": "34717",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "PRECISION DE L'AFFICHAGE POUR UNE FREQUENCE SUPERIEURE A 29,7 MHZ ?",
+  "options": [
+   "+/- 1.10-4 ",
+   "+/- 7,5 kHz",
+   "+/- 1 kHz",
+   "+/- 5.10-4"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "+/- 1.10-4 ",
+  "commentaire_fr": "Nouvelle réglementation 2012 : suppression de cette disposition. Toutefois, quelques questions continuent d’être posées sur ce sujet (commentaires de décembre 2014)\n",
+  "anchor": "R13"
+ },
+ {
+  "num": "34718",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "CONNAISSANCE DE LA FREQUENCE D'EMISSION AU-DESSUS DE 29,7 MHZ ?",
+  "options": [
+   "+/- 10^-4 ",
+   "+/- 10^-5 ",
+   "+/- 5.10^-5 ",
+   "+/- 10^-3 "
+  ],
+  "ans_idx": 0,
+  "ans_fr": "+/- 10^-4 ",
+  "commentaire_fr": "Nouvelle réglementation 2012 : suppression de cette disposition. Toutefois, quelques questions continuent d’être posées sur ce sujet (commentaires de décembre 2014)\n",
+  "anchor": "R13"
+ },
+ {
+  "num": "34720",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "PEUT-ON EXPLOITER UNE STATION DE RADIOAMATEUR DANS UN AVION DE LIGNE ?",
+  "options": [
+   "Oui, si le commandant de bord donne son autorisation",
+   "Oui",
+   "Non",
+   "Oui, uniquement au-dessus de la France"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "Non",
+  "commentaire_fr": "Il faut avoir toutes les autorisations, notamment celle de la DGAC, et je ne pense pas que l'on puisse facilement avoir cette autorisation !\n",
+  "anchor": "R42c"
+ },
+ {
+  "num": "34721",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "A-T-ON LE DROIT D'UTILISER SA STATION A BORD D'UN ULM ?",
+  "options": [
+   "Oui mais uniquement au dessous de 1000 pieds",
+   "Oui si le radioamateur est aussi le pilote de l'ULM",
+   "Oui avec l'autorisation du pilote",
+   "Non"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Non",
+  "commentaire_fr": "Rappel : la réglementation autorise l'exploitation d'une sation radioamateur à bord d'un aéronef si on a les autorisations nécessaires (notamment DGAC) mais je ne pense pas que la DGAC donnera l’autorisation aussi facilement...\n",
+  "anchor": "R42c"
+ },
+ {
+  "num": "34722",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "SYMBOLE DE LA CLASSE D'EMISSION POUR LA TELEVISION EN FM ?",
+  "options": [
+   "F3T",
+   "FF",
+   "F3F",
+   "G3F"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "F3F",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34726",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "PUISSANCE CRETE MAXIMALE SUR LES BANDES < 28 MHZ ?",
+  "options": [
+   "100 W",
+   "250 W",
+   "120 W",
+   "500 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "500 W",
+  "commentaire_fr": "",
+  "anchor": "R22a"
+ },
+ {
+  "num": "34727",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUEL EST LE STATUT DE LA BANDE 430-434 MHZ ?",
+  "options": [
+   "secondaire",
+   "primaire",
+   "en partage avec d’autres services à égalité de droit",
+   "dérogatoire"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "secondaire",
+  "commentaire_fr": "En région 1, la seconde partie de la bande (434-440 MHz) est à égalité de droits, en partage avec d'autres services primaires, mais a un statut secondaire dans les autres régions de l'UIT\n",
+  "anchor": "R21b"
+ },
+ {
+  "num": "34731",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "144 MHZ EST DANS LA GAMME DES FREQUENCES :",
+  "options": [
+   "HF",
+   "UHF",
+   "VHF",
+   "SHF"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "VHF",
+  "commentaire_fr": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "34732",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "F5VABC EST UN INDICATIF D'APPEL DE",
+  "options": [
+   "un radioamateur de l’Union Européen qui est en France pour plus de 3 mois",
+   "un radioamateur du Vatican",
+   "un radioamateur d’un pays en dehors de l’Europe qui est en France depuis plus de 3 mois",
+   "un radioamateur de l’Union Européen qui est en France pour moins de 3 mois"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "un radioamateur de l’Union Européen qui est en France pour plus de 3 mois",
+  "commentaire_fr": "Lorsque la série F5VXX sera épuisée, l’administration attribuera la série F5VAAA\n",
+  "anchor": "R46a"
+ },
+ {
+  "num": "34733",
+  "theme_fr": "Indicatifs d'appel français et préfixes européens",
+  "theme_zh": "法国呼号与欧洲前缀",
+  "stem_fr": "COMMENT S'ANNONCE UNE STATION INSTALLEE A BORD D'UN VEHICULE TERRESTRE ?",
+  "options": [
+   "/MM",
+   "/P",
+   "/VT",
+   "/M"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "/M",
+  "commentaire_fr": "",
+  "anchor": "R42a"
+ },
+ {
+  "num": "34742",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "PUISSANCE D'EMISSION AUTORISEE EN DECAMETRIQUE POUR RADIOAMATEUR DONT L'INDICATIF D'APPEL COMMENCE PAR F5 ?",
+  "options": [
+   "0 W",
+   "10 W",
+   "120 W",
+   "500 W"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "500 W",
+  "commentaire_fr": "Un radioamateur dont l’indicatif d’appel commence par F5 est un opérateur de l’ex-classe 1 et la puissance autorisée pour cette classe en décamétrique (sauf sur la bande des 28 MHz) est 500 watts\n",
+  "anchor": "R22a"
+ },
+ {
+  "num": "34748",
+  "theme_fr": "Table d’épellation internationale",
+  "theme_zh": "国际字母解释法表",
+  "stem_fr": "EPELLATION DE FH5BPZ ?",
+  "options": [
+   "Foxtrot Hotel 5 Bravo Papa Zoulou ",
+   "Foxtrot Hotel 5 Bravo Papa Zanzibar",
+   "France Hotel 5 Bravo Papa Zoulou",
+   "Foxtrot Hotel 5 Baltimore Papa Zoulou"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Foxtrot Hotel 5 Bravo Papa Zoulou ",
+  "commentaire_fr": "",
+  "anchor": "R31"
+ },
+ {
+  "num": "34749",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "QUEL EST LE GAIN D'UNE ANTENNE 5/8 ?",
+  "options": [
+   "inférieur au gain de l’antenne quart d’onde vertical",
+   "supérieur au gain de l’antenne GP ",
+   "identique au gain d’un quart d’onde vertical dont les radiants sont à 120 °",
+   "cette antenne n’existe pas"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "supérieur au gain de l’antenne GP ",
+  "commentaire_fr": "L'antenne verticale 5/8 n'est pas au programme de l’épreuve de réglementation.\nLe gain théorique de cette antenne verticale est de 4,6 dBi, soit un peu plus de 2 dB par rapport à un quart d’onde vertical classique (ou antenne GP).\n",
+  "anchor": "R52k"
+ },
+ {
+  "num": "34750",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUELLE EST LA DEFINITION DE LA CLASSE A1A ?",
+  "options": [
+   "télégraphie auditive, Modulation d’amplitude avec sous porteuse modulante ",
+   "télégraphie automatique, Modulation d’amplitude sans sous porteuse modulante ",
+   "télégraphie auditive, Modulation d’amplitude sans sous porteuse modulante ",
+   "télégraphie automatique, Modulation d’amplitude avec sous porteuse modulante "
+  ],
+  "ans_idx": 2,
+  "ans_fr": "télégraphie auditive, Modulation d’amplitude sans sous porteuse modulante ",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34752",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "PUISSANCE MAXIMUM AU-DESSUS DE 29,7 MHZ ?",
+  "options": [
+   "100 W",
+   "120 W",
+   "250 W",
+   "500 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "120 W",
+  "commentaire_fr": "",
+  "anchor": "R22a"
+ },
+ {
+  "num": "34753",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUEL EST LE CODE POUR \"TELEPHONIE MODULATION DE PHASE\" ?",
+  "options": [
+   "P3E",
+   "A3E",
+   "G3E",
+   "E3G"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "G3E",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34754",
+  "theme_fr": "Définition et autorisation des classes d’émission",
+  "theme_zh": "发射类别的定义与授权",
+  "stem_fr": "QUE SIGNIFIE LA DEUXIEME LETTRE DANS \"F3F\" ?",
+  "options": [
+   "Fac Similé",
+   "Données",
+   "Fréquence",
+   "Télévision"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "Télévision",
+  "commentaire_fr": "",
+  "anchor": "R12a"
+ },
+ {
+  "num": "34755",
+  "theme_fr": "Gammes d’onde, décibels, CEM, protection",
+  "theme_zh": "波段、分贝、电磁兼容、防护",
+  "stem_fr": "DANS QUELLE GAMME D'ONDE CLASSE-T-ON UNE FREQUENCE DE 15 KHZ ?",
+  "options": [
+   "VLF",
+   "LF",
+   "MF",
+   "HF"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "VLF",
+  "commentaire_fr": "Les ondes VLF sont les fréquences inférieures à 30 kHz ou dont la longueur d'onde est supérieure à 10 km. Elles sont aussi nommées ondes myriamétriques. Aucune bande radioamateur n'est attribuée dans cette gamme d'ondes.\n",
+  "anchor": "R52b"
+ },
+ {
+  "num": "34762",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUELLE ATTITUDE DOIT-ON AVOIR EN CAS D'APPEL D'UNE STATION PRIMAIRE SUR LA BANDE DES 2,4 GHZ ?",
+  "options": [
+   "je cesse toutes mes émissions sur cette bande ",
+   "je reste sur cette fréquence",
+   "cela ne peut pas arriver",
+   "j’attends la confirmation par courrier"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "je cesse toutes mes émissions sur cette bande ",
+  "commentaire_fr": "Puisque la bande est en statut secondaire pour le service d'amateur, la proposition « je cesse mes émissions sur cette bande » est la plus logique, même s'il y a peu de chances qu'une station primaire lance un appel !\n",
+  "anchor": "R21c"
+ },
+ {
+  "num": "34764",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUEL EST LE GAIN MAXIMUM D'UNE ANTENNE QU'UN RADIOAMATEUR A LE DROIT D'UTILISER ?",
+  "options": [
+   "20 dB",
+   "cela dépend de la fréquence",
+   "aucune limite",
+   "cela dépend du statut de la bande"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "aucune limite",
+  "commentaire_fr": "La réglementation limite la puissance en sortie d’émetteur mais pas le gain des antennes (sauf sur 472 kHz et 135 kHz où la PIRE est limitée)\n",
+  "anchor": "R22a"
+ },
+ {
+  "num": "34765",
+  "theme_fr": "Sanctions,  examen, perturbation, bande passante",
+  "theme_zh": "处罚、考试、干扰、带宽",
+  "stem_fr": "LIMITE DES RAYONNEMENTS NON ESSENTIELS SUR 24 MHZ AVEC UNE PUISSANCE DE 25 W ?",
+  "options": [
+   "-40 dB",
+   "-50 dB",
+   "-60 dB",
+   "-70 dB"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "-50 dB",
+  "commentaire_fr": "La réglementation fait simplement référence à l'appendice 3 du RR. \nCe texte définit le niveau maximum des rayonnements non essentiels grâce à la formule suivante : 43 dB + 10.log(P), P étant la puissance d'émission en watts. Au cas particulier, 10.log(25) = 14 (valeur arrondie) ; 43 + 14 = 57 dB. \nDe plus, le RR précise que, pour les radioamateurs et pour les fréquences inférieures à 30 MHz (c'est le cas dans notre question), le niveau maximum des rayonnements non essentiels est limité à -50 dB.\n",
+  "anchor": "R13c"
+ },
+ {
+  "num": "34769",
+  "theme_fr": "Questions entrainement",
+  "theme_zh": "综合训练题",
+  "stem_fr": "QUEL EST LE DEPARTEMENT DE FRANCE METROPOLITAINE OU L'EMISSION EST INTERDITE POUR TOUTES LES CLASSES D'OPERATEUR ?",
+  "options": [
+   "Aucun",
+   "Landes",
+   "Finistère",
+   "Pyrénées Orientales"
+  ],
+  "ans_idx": 0,
+  "ans_fr": "Aucun",
+  "commentaire_fr": "Avant 2012, il y avait des restrictions pour uniquement pour la bande des 50 MHz dans certains départements\nDepuis la décision 2012-1241, ces restrictions ont été levées.\n",
+  "anchor": "R21d"
+ },
+ {
+  "num": "34770",
+  "theme_fr": "Adaptation, ROS, affaiblissement linéique, calcul ",
+  "theme_zh": "阻抗匹配、驻波比、单位长度衰减、计算",
+  "stem_fr": "SCHEMA AVEC AMPLI, ENTREE = 2W -> AMPLI 20 DB -> P.SORTIE = ?",
+  "options": [
+   "40 W",
+   "200 W",
+   "22 W",
+   "50 W"
+  ],
+  "ans_idx": 1,
+  "ans_fr": "200 W",
+  "commentaire_fr": "un gain de 20 dB correspond à un rapport de puissance de 100 ; \n2 x 100 = 200\n",
+  "anchor": "R51a"
+ },
+ {
+  "num": "34771",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "COMMENT SONT QUALIFIEES LES FREQUENCES DE LA BANDE 144-146 MHZ ?",
+  "options": [
+   "ondes décamétriques",
+   "ondes décimétriques",
+   "ondes métriques",
+   "ondes hectométriques"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "ondes métriques",
+  "commentaire_fr": "",
+  "anchor": "R52b"
+ },
+ {
+  "num": "34775",
+  "theme_fr": "Caractéristiques des antennes, longueur d'onde-fréquence",
+  "theme_zh": "天线特性、波长与频率",
+  "stem_fr": "LE RAPPORT AVANT-ARRIERE D'UNE ANTENNE SE MESURE EN",
+  "options": [
+   "degrés",
+   "radians",
+   "décidels",
+   "watts"
+  ],
+  "ans_idx": 2,
+  "ans_fr": "décidels",
+  "commentaire_fr": "",
+  "anchor": "R52"
+ },
+ {
+  "num": "34776",
+  "theme_fr": "Teneur des messages, matériel obligatoire, exposition",
+  "theme_zh": "报文内容、强制设备、暴露防护",
+  "stem_fr": "QUE DOIT-ON POSSEDER POUR EMETTRE ?",
+  "options": [
+   "l’autorisation du président du club",
+   "un BEP d’électronique",
+   "l’autorisation de l’ARCEP",
+   "un certificat d’opérateur"
+  ],
+  "ans_idx": 3,
+  "ans_fr": "un certificat d’opérateur",
+  "commentaire_fr": "Plus précisément, il faut avoir la notification de l’indicatif d’appel (qui est adressée par l'ANFR après le certificat d'opérateur)\n",
+  "anchor": "R42a"
+ }
+]

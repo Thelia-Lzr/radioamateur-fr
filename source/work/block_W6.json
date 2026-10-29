@@ -1,0 +1,460 @@
+{
+ "block": "W6",
+ "lines": [
+  5960,
+  7211
+ ],
+ "units": [
+  {
+   "id": "T021",
+   "ref": "2.1",
+   "nq": 37,
+   "depth": 1,
+   "anchors": [
+    "T021b"
+   ],
+   "title_fr": "2.1)",
+   "questions": [
+    {
+     "num": "20042",
+     "question": "QUELLE EST LA PULSATION D'UN SIGNAL DE 50 HZ (EN RAD/S) ?",
+     "reponse": "314"
+    },
+    {
+     "num": "20051",
+     "question": "CALCULER LA DUREE D'UNE PERIODE D'UN SIGNAL DE 500 HERTZ",
+     "reponse": "2 ms"
+    },
+    {
+     "num": "20670",
+     "question": "PERIODE D'UN SIGNAL DE 50 HZ ?",
+     "reponse": "20 ms"
+    },
+    {
+     "num": "21083",
+     "question": "QUELLE EST LA PULSATION D'UN SIGNAL DONT LA FREQUENCE EST DE 14 MHZ",
+     "reponse": "87.920.000 rad/s"
+    }
+   ]
+  },
+  {
+   "id": "T022",
+   "ref": "2.2",
+   "nq": 51,
+   "depth": 1,
+   "anchors": [
+    "T022",
+    "T022b",
+    "T022c",
+    "T022d",
+    "T022f"
+   ],
+   "title_fr": "2.2)",
+   "questions": [
+    {
+     "num": "20054",
+     "question": "FREQUENCE DU SIGNAL 5MS / DIVISION",
+     "reponse": "50 Hz"
+    },
+    {
+     "num": "20056",
+     "question": "QUELLE EST LA VALEUR CRETE D'UN SIGNAL EFFICACE DE 12 VOLTS ?",
+     "reponse": "17 V"
+    },
+    {
+     "num": "20314",
+     "question": "311 VOLTS CRETE, \nQUELLE EST LA TENSION EFFICACE ?",
+     "reponse": "220 V"
+    },
+    {
+     "num": "20321",
+     "question": "TENSION CRETE A CRETE D'UNE TENSION DE 12 VOLTS EFFICACES",
+     "reponse": "34 volts"
+    }
+   ]
+  },
+  {
+   "id": "T023",
+   "ref": "2.3",
+   "nq": 34,
+   "depth": 1,
+   "anchors": [
+    "T023a",
+    "T023c6",
+    "T023c8",
+    "T023d",
+    "T023d4",
+    "T023f2",
+    "T023g1",
+    "T023h1"
+   ],
+   "title_fr": "Bobines et",
+   "questions": [
+    {
+     "num": "20072",
+     "question": "APTITUDE D'UN CONDENSATEUR EMMAGASINER ENERGIE",
+     "reponse": "1, 2 et 4"
+    },
+    {
+     "num": "20085",
+     "question": "IMPEDANCE D'UN CONDENSATEUR DE 50 PF A 432 MHZ ?",
+     "reponse": "7,4 Ω"
+    },
+    {
+     "num": "20090",
+     "question": "INDUCTANCE EQUIVALENTE",
+     "reponse": "34 µH"
+    },
+    {
+     "num": "20336",
+     "question": "QUEL EST LE NOMBRE DE SPIRES D'UNE BOBINE SI ON MULTIPLIE SA VALEUR PAR 4 ?",
+     "reponse": "Le nombre de spires est doublé "
+    }
+   ]
+  },
+  {
+   "id": "T023g2",
+   "ref": "2.3.g2",
+   "nq": 56,
+   "depth": 1,
+   "anchors": [
+    "T023g2"
+   ],
+   "title_fr": "Bobines et",
+   "questions": [
+    {
+     "num": "20074",
+     "question": "CAPACITE EQUIVALENTE",
+     "reponse": "10 µF"
+    },
+    {
+     "num": "20397",
+     "question": "CONDENSATEURS EN PARALLELE",
+     "reponse": "55 µF"
+    },
+    {
+     "num": "20612",
+     "question": "CAPACITE EQUIVALENTE A 12 CONDENSATEURS DE 33 NANOFARADS EN SERIE ?",
+     "reponse": "2750 pF "
+    },
+    {
+     "num": "20859",
+     "question": "CALCUL DE CONDENSATEUR EQUIVALENT (6 CONDENSATEURS DE 30 MICROFARADS EN SERIE)",
+     "reponse": "5 µF"
+    }
+   ]
+  },
+  {
+   "id": "T023f1",
+   "ref": "2.3.f1",
+   "nq": 13,
+   "depth": 2,
+   "anchors": [
+    "T023f1"
+   ],
+   "title_fr": "Bobines et",
+   "questions": [
+    {
+     "num": "20306",
+     "question": "QUELLE EST L'IMPEDANCE D'UNE BOBINE DE 25 MILLIHENRYS A 1000 HERTZ ?",
+     "reponse": "157 Ω"
+    },
+    {
+     "num": "20399",
+     "question": "IMPEDANCE D'UNE BOBINE",
+     "reponse": "9,04 kΩ"
+    },
+    {
+     "num": "20585",
+     "question": "CALCULEZ Z AVEC \nF = 403 MHZ ET L = 50 MICROHENRYS",
+     "reponse": "127 kΩ"
+    },
+    {
+     "num": "20831",
+     "question": "QUELLE EST L'IMPEDANCE D'UNE BOBINE DE 12,5 MICROH A 8 MHZ ?",
+     "reponse": "628 Ω"
+    }
+   ]
+  },
+  {
+   "id": "T023c3",
+   "ref": "2.3.c3",
+   "nq": 12,
+   "depth": 2,
+   "anchors": [
+    "T023c3"
+   ],
+   "title_fr": "Bobines et",
+   "questions": [
+    {
+     "num": "20064",
+     "question": "AUGMENTER CAPACITE CONDENSATEUR",
+     "reponse": "1 et 2 "
+    },
+    {
+     "num": "20067",
+     "question": "CAPACITE CONDENSATEUR",
+     "reponse": "2 et 3"
+    },
+    {
+     "num": "20070",
+     "question": "QUE FAIT LA CAPACITE D'UN CONDENSATEUR LORSQUE LA DISTANCE ENTRE LES ARMATURES EST DIVISEE PAR 2 ?",
+     "reponse": "2C"
+    },
+    {
+     "num": "20660",
+     "question": "QU'EST CE QUI DETERMINE LA CAPACITE D'UN CONDENSATEUR ?",
+     "reponse": "la surface de ses armatures et leur écartement "
+    }
+   ]
+  },
+  {
+   "id": "T024",
+   "ref": "2.4",
+   "nq": 4,
+   "depth": 3,
+   "anchors": [
+    "T024",
+    "T024a"
+   ],
+   "title_fr": "2.4)",
+   "questions": [
+    {
+     "num": "20091",
+     "question": "FORMULE EXACTE",
+     "reponse": "t(s) = L / R"
+    },
+    {
+     "num": "21094",
+     "question": "EN COMBIEN DE TEMPS LE CONDENSATEUR SERA-T-IL \"REMPLI\" UNE FOIS LE CONTACT ETABLI.",
+     "reponse": "750 ms"
+    },
+    {
+     "num": "22471",
+     "question": "CONSTANTE DE TEMPS DE CE CIRCUIT ?",
+     "reponse": "0,94 s"
+    },
+    {
+     "num": "22482",
+     "question": "QUEL TERME DECRIT LE TEMPS QUE PREND UN CONDENSATEUR POUR SE CHARGER A 63,2% DE LA TENSION FOURNIE PAR LE GENERATEUR ?",
+     "reponse": "La constante de temps"
+    }
+   ]
+  },
+  {
+   "id": "T025",
+   "ref": "2.5",
+   "nq": 5,
+   "depth": 3,
+   "anchors": [
+    "T025",
+    "T025c"
+   ],
+   "title_fr": "Calcul de l'impédance de bobines et",
+   "questions": [
+    {
+     "num": "20092",
+     "question": "DEPHASAGE",
+     "reponse": "opposition"
+    },
+    {
+     "num": "20093",
+     "question": "DEPHASAGE",
+     "reponse": "90°"
+    },
+    {
+     "num": "20094",
+     "question": "DEPHASAGE",
+     "reponse": "45°"
+    },
+    {
+     "num": "20581",
+     "question": "4 COURBES DE DEUX SIGNAUX SINUSOIDAUX ; TROUVER LESQUELS ETAIENT EN OPPOSITION DE PHASE",
+     "reponse": "schéma 1"
+    },
+    {
+     "num": "20665",
+     "question": "DEUX SINUSOIDES DEPHASEES DE 180 DEGRES (UNE COURBE I EN ROUGE, UNE COURBE U EN BLEU), INDICATION DE T/2 ET T AUX POINTS OU LES COURBES DE CROISENT \" DEPHASAGE COURANT-TENSION ? \"",
+     "reponse": "aucune des réponses proposées "
+    }
+   ]
+  },
+  {
+   "id": "T031",
+   "ref": "3.1",
+   "nq": 49,
+   "depth": 1,
+   "anchors": [
+    "T031",
+    "T031a",
+    "T031b"
+   ],
+   "title_fr": "a 3.1)",
+   "questions": [
+    {
+     "num": "20095",
+     "question": "COURANT DANS LE PRIMAIRE",
+     "reponse": "1 A"
+    },
+    {
+     "num": "20428",
+     "question": "SCHEMA D'UN TRANSFO AVEC AU PRIMAIRE 3000 SPIRES, 500 V ET AU SECONDAIRE UNE RESISTANCE DE 50 OHMS ET 30 SPIRES. PUISSANCE DISSIPEE DANS R?",
+     "reponse": "500 mW"
+    },
+    {
+     "num": "20777",
+     "question": "UN TRANSFO EST REPRESENTE AVEC 1000 SPIRES AU PRIM. ET 100 SPIRES AU SEC., UN HP DE 4 OHMS BRANCHE AU SECONDAIRE. Z PRIMAIRE = ?",
+     "reponse": "400 Ω"
+    },
+    {
+     "num": "21436",
+     "question": "TENSION AU SECONDAIRE",
+     "reponse": "0 V"
+    }
+   ]
+  },
+  {
+   "id": "T032",
+   "ref": "3.2",
+   "nq": 1,
+   "depth": 3,
+   "anchors": [
+    "T032a"
+   ],
+   "title_fr": "Transformateur non parfait :",
+   "questions": [
+    {
+     "num": "20445",
+     "question": "UN TRANSFORMATEUR FOURNIT 14V SOUS 7A ET CONSOMME 665 MA SOUS 220V. QUEL EST SON RENDEMENT ?",
+     "reponse": "67 %"
+    }
+   ]
+  },
+  {
+   "id": "T033",
+   "ref": "3.3",
+   "nq": 12,
+   "depth": 2,
+   "anchors": [
+    "T033d",
+    "T033e",
+    "T03e"
+   ],
+   "title_fr": "a 3.3)",
+   "questions": [
+    {
+     "num": "21111",
+     "question": "QUELLE EST LA F.E.M DE LA PILE",
+     "reponse": "8 V"
+    },
+    {
+     "num": "21112",
+     "question": "RESISTANCE INTERNE DE LA PILE",
+     "reponse": "10 Ω"
+    },
+    {
+     "num": "21115",
+     "question": "CAPACITE DE LA PILE",
+     "reponse": "108 C"
+    },
+    {
+     "num": "21116",
+     "question": "CAPACITE DE LA PILE",
+     "reponse": "0,08 Ah"
+    }
+   ]
+  },
+  {
+   "id": "T034",
+   "ref": "3.4",
+   "nq": 22,
+   "depth": 1,
+   "anchors": [
+    "T034a",
+    "T034b"
+   ],
+   "title_fr": "a 3.4)",
+   "questions": [
+    {
+     "num": "20007",
+     "question": "AVEC QUOI MESURE T-ON UNE TRES FORTE INTENSITE",
+     "reponse": "un ampèremètre thermique "
+    },
+    {
+     "num": "20104",
+     "question": "ORDRE DE GRANDEUR DE LA RESISTANCE",
+     "reponse": "100 kΩ"
+    },
+    {
+     "num": "20357",
+     "question": "ORDRE DE GRANDEUR DE LA RESISTANCE INTERNE DU GALVANOMETRE",
+     "reponse": "10 mΩ"
+    },
+    {
+     "num": "20774",
+     "question": "QUE MESURE UN GALVANOMETRE ?",
+     "reponse": "Intensité"
+    }
+   ]
+  },
+  {
+   "id": "T035",
+   "ref": "3.5",
+   "nq": 3,
+   "depth": 3,
+   "anchors": [
+    "T035a"
+   ],
+   "title_fr": "Qualité des voltmètres (Ω/V) : le fait de brancher en dérivation un",
+   "questions": [
+    {
+     "num": "20109",
+     "question": "QUELLE EST LA VALEUR R A METTRE EN SERIE AVEC UN VOLTMETRE",
+     "reponse": "0,8 MΩ"
+    },
+    {
+     "num": "20110",
+     "question": "AVEC QUEL INSTRUMENT MESURE-T-ON LA TENSION SUR LA RESISTANCE",
+     "reponse": "un voltmètre électronique de 100 MΩ/V "
+    },
+    {
+     "num": "20801",
+     "question": "QUELLE EST LA VALEUR DE LA RESISTANCE A METTRE EN SERIE AVEC UN VOLTMETRE CALIBRE A 10 V DE 2000 OHMS/V POUR OBTENIR UN VOLTMETRE DONT LE CALIBRE EST DE 500 V ?",
+     "reponse": "980 kΩ"
+    }
+   ]
+  },
+  {
+   "id": "T036",
+   "ref": "3.6",
+   "nq": 0,
+   "depth": 3,
+   "anchors": [],
+   "title_fr": "Ohmmètre",
+   "questions": []
+  },
+  {
+   "id": "T037",
+   "ref": "3.7",
+   "nq": 2,
+   "depth": 3,
+   "anchors": [
+    "T037a1",
+    "T037a2"
+   ],
+   "title_fr": "Les basses fréquences (BF)",
+   "questions": [
+    {
+     "num": "20111",
+     "question": "QUEL HAUT PARLEUR A UNE IMPEDANCE ELEVEE ?",
+     "reponse": "HP électrostatique "
+    },
+    {
+     "num": "20566",
+     "question": "PARMI CES MICROS, LEQUEL A LA PLUS GRANDE IMPEDANCE ?",
+     "reponse": "Micro électret "
+    }
+   ]
+  }
+ ]
+}

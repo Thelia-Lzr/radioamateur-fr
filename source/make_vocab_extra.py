@@ -1,0 +1,122 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# Complement au vocabulaire : termes manques par les filtres automatiques
+# (mots commencant par "qu", noms de couleurs du code des couleurs, prefixes
+# de pays cites dans le cours, quelques notions techniques). Les frequences
+# sont recalculees sur le corpus pour rester exactes.
+import csv, os, sys
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, BASE)
+from build_vocab import collect, norm_tok      # noqa: E402
+
+OUT = os.path.join(BASE, 'work', 'vocab_extra.csv')
+
+# (cle normalisee, graphie, 中文, categorie, theme, 备注)
+EXTRA = [
+    ("quebec", "Quebec", "字母 Q 的读法（Quebec）", "字母解释法", "字母解释法",
+     "法语表与国际表写法一致；呼号里 Q 不可漏读"),
+    ("quart", "quart", "四分之一", "数量词", "天线与传播",
+     "quart d'onde 四分之一波长；与 demi（一半）成对记忆"),
+    ("quart d'onde", "quart d'onde", "四分之一波长（天线）", "短语", "天线与传播",
+     "L(m) = 75/f(MHz)；垂直天线与地网的基础"),
+    ("qualite", "qualité", "质量；品质", "名词", "电容与线圈",
+     "facteur de qualité 品质因数 Q；qualité du sol 土壤导电性"),
+    ("quartz", "quartz", "石英（晶体）", "名词", "收发信机框图",
+     "filtre à quartz 石英晶体滤波器（BLU 边带滤波）；résonateur à quartz 石英谐振器"),
+    ("quantite", "quantité", "数量", "名词", "电学基础",
+     "quantité d'électricité 电量；grandeur/quantité 常作题干主语"),
+    ("quantite d electricite", "quantité d'électricité", "电量（电荷量）", "短语", "电学基础",
+     "Q = I·t，单位库仑；1 Ah = 3600 C"),
+    ("quadrature", "quadrature", "正交（相位差 90°）", "名词", "电学基础",
+     "en quadrature de phase；démodulateur I-Q 用于数字解调"),
+    ("blanc", "blanc", "白色（色环码数字 9）", "名词", "电阻色环码",
+     "第 1/2 环白 = 9，倍率环 ×10⁹"),
+    ("jaune", "jaune", "黄色（色环码数字 4）", "名词", "电阻色环码",
+     "第 1/2 环黄 = 4，倍率环 ×10⁴"),
+    ("argent", "argent", "银色（色环容差 ±10%）", "名词", "电阻色环码",
+     "第 4 环银 = ±10%（E12 系列）；金 = ±5%（E24）"),
+    ("derivation", "dérivation", "并联（en dérivation）", "名词", "电阻的串并联",
+     "monté en dérivation 并接，与 série（串联）相对"),
+    ("diviseur", "diviseur", "分压器", "名词", "电阻的串并联",
+     "pont diviseur de tension；U_R = U × R/(R+R′)"),
+    ("heterodyne", "hétérodyne", "外差的", "形容词", "收发信机框图",
+     "récepteur superhétérodyne 超外差接收机；无变频接收机 = récepteur sans conversion de fréquence"),
+    ("frequence intermediaire", "fréquence intermédiaire", "中频（FI，法语也写作 MF）", "短语", "收发信机框图",
+     "超外差接收机的核心；法语 MF = moyenne fréquence，勿与 MF 中波混淆"),
+    ("oscillateur local", "oscillateur local", "本机振荡器（OL）", "短语", "收发信机框图",
+     "与接收频率混频后得到中频；镜像频率对称于中频"),
+    ("frequence image", "fréquence image", "镜像频率", "短语", "收发信机框图",
+     "与有用频率相差 2×FI；由输入端的 RF 滤波器抑制"),
+    ("enveloppe", "enveloppe", "包络", "名词", "发射类别",
+     "détecteur d'enveloppe 包络检波器（用于 AM）；BLU/CW 需 détecteur de produit"),
+    ("grille", "grille", "栅极（电子管）；网格", "名词", "二极管与晶体管",
+     "三极/四极/五极管的栅极；écran 帘栅极"),
+    ("pente", "pente", "斜率；跨导", "名词", "二极管与晶体管",
+     "pente de la caractéristique 特性曲线斜率；滤波器衰减斜率 dB/octave"),
+    ("velocite", "vélocité", "速度（波速）", "名词", "天线与传播",
+     "vélocité de l'onde (m/s)；λ = v/f"),
+    ("hectometriques", "hectométriques", "百米波的（100–1000 m）", "形容词", "天线特性与波长",
+     "ondes hectométriques = MF 中波；ondes décamétriques 十米波 = HF"),
+    ("sous-multiples", "sous-multiples", "分数单位（mA、µF、nH…）", "名词", "通用",
+     "multiples et sous-multiples 倍数与分数单位；换算题的基础"),
+    ("appareil", "appareil", "设备；仪器", "名词", "通用",
+     "appareil de mesure 测量仪器；appareil récepteur 接收设备"),
+    ("administration", "administration", "主管行政机关", "名词", "处罚与考试",
+     "在法规语境指 ANFR、Arcep 等；l'administration peut… 主管机关可……"),
+    ("adapter", "adapter", "匹配；适配", "动词", "匹配与驻波",
+     "adapter l'antenne à la ligne 把天线匹配到馈线；名词 adaptation 匹配"),
+    ("apparente", "apparente", "视在的", "形容词", "天线与传播",
+     "puissance apparente rayonnée (PAR) 视在辐射功率"),
+    ("thermique", "thermique", "热的", "形容词", "电学基础",
+     "bruit thermique 热噪声；ampèremètre thermique 热偶式电流表（测 HF 大电流）"),
+    ("distorsion", "distorsion", "失真", "名词", "二极管与晶体管",
+     "taux de distorsion harmonique 谐波失真率；畸变率按各次谐波幅度计算"),
+    ("equivalent", "équivalent", "等效的", "形容词", "电学基础",
+     "résistance équivalente 等效电阻；PIRE = puissance isotrope rayonnée équivalente"),
+    ("digital", "digital", "数字的", "形容词", "收发信机框图",
+     "traitement numérique du signal 数字信号处理；与 analogique 相对"),
+    ("indicateur", "indicateur", "指示器", "名词", "处罚与考试",
+     "indicateur de puissance 功率指示器（现行法规下唯一强制的指示装置）"),
+    ("fraction", "fraction", "分数；一部分", "名词", "天线与传播",
+     "une fraction de la bande 频段的一部分"),
+    ("environnement", "environnement", "环境", "名词", "处罚与考试",
+     "environnement réglementaire 监管环境（国际/欧洲/法国三级）"),
+    ("pointille", "pointillé", "虚线", "名词", "电容与线圈",
+     "铁氧体磁芯在电路图中用虚线表示；硅钢片叠层用双实线"),
+    ("axe", "axe", "轴（图表）", "名词", "交流电",
+     "axe des temps 时间轴；axe des tensions 电压轴"),
+    ("gratuitement", "gratuitement", "免费地", "副词", "Q 简语",
+     "QSP：retransmettre gratuitement 免费转发（考试原文如此）"),
+    ("droits", "droits", "权利", "名词", "波段划分与分贝",
+     "à égalité de droits 平等使用权；statut B 的业务地位"),
+    ("communiquer", "communiquer", "通信；联络", "动词", "Q 简语",
+     "QSO：Pouvez-vous communiquer avec… ? 你能与……通信吗"),
+    ("signification", "signification", "含义", "名词", "通用",
+     "Quelle est la signification de… ? 是 Q 简语题的典型问法"),
+    ("Croatie", "Croatie", "克罗地亚（呼号前缀 9A）", "专有名词", "呼号与前缀",
+     "CEPT 成员国；国别识别题常考"),
+    ("Malte", "Malte", "马耳他（呼号前缀 9H）", "专有名词", "呼号与前缀", "CEPT 成员国"),
+    ("Slovaquie", "Slovaquie", "斯洛伐克（呼号前缀 OM）", "专有名词", "呼号与前缀", "CEPT 成员国"),
+    ("Lettonie", "Lettonie", "拉脱维亚（呼号前缀 YL）", "专有名词", "呼号与前缀", "CEPT 成员国"),
+    ("Chypre", "Chypre", "塞浦路斯（呼号前缀 5B）", "专有名词", "呼号与前缀", "CEPT 成员国"),
+    ("Slovenie", "Slovénie", "斯洛文尼亚（呼号前缀 S5）", "专有名词", "呼号与前缀", "CEPT 成员国"),
+    ("Lituanie", "Lituanie", "立陶宛（呼号前缀 LY）", "专有名词", "呼号与前缀", "CEPT 成员国"),
+]
+
+
+def main():
+    uni, forms, bi = collect()
+    rows = []
+    for key, form, zh, cat, theme, note in EXTRA:
+        k = norm_tok(key)
+        n = uni.get(k, 0) or bi.get(k, 0)
+        rows.append([form, zh, cat, n, theme, note])
+    with open(OUT, 'w', encoding='utf-8', newline='') as f:
+        w = csv.writer(f, lineterminator='\n')
+        w.writerows(rows)
+    print('-> %s : %d entrees' % (OUT, len(rows)))
+
+
+if __name__ == '__main__':
+    main()

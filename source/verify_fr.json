@@ -1,0 +1,111 @@
+{
+  "1": {
+    "topic": "处罚依据与额度",
+    "conclusion": "依据为 CPCE。用频/超功率等『在 L33-3 一般条件之外使用频率、设备或无线电装置』= art. L39-1 3°，处 6 个月监禁 + 30 000 € 罚金（délit）；干扰已授权业务（2°）同样 6 个月 + 30 000 €；设备不合 EMC 致干扰（2° bis）同；未落实电台申报义务 = art. L39-4，3 个月 + 30 000 €；冒用国际序列呼号 = art. L39-8，1 年监禁（无罚金）；没收/销毁设备 = art. L39-6；除国家豁免外禁止干扰器 = L33-3-1 + L39-1 4°。呼号的暂停/吊销见 arrêté du 21/09/2000（2021-03-02 修改版）art. 7-3：可暂停最长 3 年或吊销；2021 年起吊销为『不得再获个人呼号』。所询的 4 500 € 与 7 500 € 作为业余业务罚金档位『未查到』：全 CPCE 中 4 500 € 只出现在与业余业务无关的条款，7 500 € 只出现在 art. L43 II bis 的『行政罚款』（personne morale 上限，针对设备上市与台站选址/迁移规则），并非业余业务专属档位；另有 450 € 的 ANFR 干扰调查行政税（非罚金）。故『4500/30000/7500 可累加』不成立；可确认的只有 30 000 €（可并处监禁），且行政（暂停/吊销）与刑事（罚金）是两条可并行的独立路径。",
+    "confidence": "较有把握",
+    "sources": [
+      "Légifrance – CPCE art. L39-1 (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031318701)",
+      "Légifrance – CPCE chapitre V Dispositions pénales L39 à L40-1 (https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070987/LEGISCTA000006150662)",
+      "ANFR – Cadre juridique radioamateurs (https://www.anfr.fr/gerer/radioamateurs/cadre-juridique)",
+      "Légifrance – arrêté du 21 septembre 2000 (version au 25/05/2024), art. 7-3 (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000401783/2024-05-25)",
+      "Doctrine – CPCE art. L43 II bis (amende administrative 1 500 € / 7 500 €) (https://www.doctrine.fr/l/texts/codes/LEGITEXT000006070987/articles/LEGIARTI000006465453)"
+    ],
+    "note": "L39-1 现行版本自 2015-10-16 起。结论截至 2026-10-06。『4500/7500』为负向结论（未查到），30000 € 与 L39-1/L39-4/L39-8 条款号确定。教材中的 4500 疑与 450 € 的 ANFR 干预税混淆。"
+  },
+  "2": {
+    "topic": "执照等级体系",
+    "conclusion": "法国现行只有一个证书（单一等级）：certificat d'opérateur des services d'amateur，等同旧 classe 2，也等同 CEPT T/R 61-02 的 HAREC。统一发生在 arrêté du 23 avril 2012（JO 2012-05-08），并非 2021 年：该部令重写 arrêté du 21/09/2000 的 art. 2/3，取消 classe 1 与 classe 3 的考试，不再新发 classe 3（旧 F0xxx）；旧 classe 3 持有者保留权利，只需补考『技术』卷即可换 HAREC（art. 5），旧 classe 1 持有者保留其类别与个人呼号。ARCEP 决定 12-1241 附件至今仍为旧 classe 3 持有者单列一栏（144–146 MHz，10 W）。2021-03-02 部令只改计分（取消倒扣、改为 1 分/题）与大纲（加入 DSP），不改变等级数量。自 2012 年起不再有摩斯（CW）考试。",
+    "confidence": "确定",
+    "sources": [
+      "ARCEP – Arrêté du 23 avril 2012, JO n°108 du 08/05/2012 (texte 195) (https://www.arcep.fr/fileadmin/reprise/textes/arretes/2012/arr230412.pdf)",
+      "Légifrance – arrêté du 21 septembre 2000 modifié (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000401783/2024-05-25)",
+      "ANFR – Les certificats (https://www.anfr.fr/gerer/radioamateurs/les-certificats)",
+      "ARCEP – décision 12-1241 annexe (https://www.arcep.fr/uploads/tx_gsavis/12-1241.pdf)",
+      "F6KGL – Arrêtés du 2 mars 2021（非官方整理，用于确认 2021 年改动范围）(http://f6kgl.free.fr/mp3/Arretes.pdf)"
+    ],
+    "note": "截至 2026-10-06。教材『2021 年后只有一个等级』的时点有误：统一自 2012 年起。旧 classe 3 作为遗留身份在频段条件表中仍存在，但不再组织考试、不再签发。"
+  },
+  "3": {
+    "topic": "各频段/级别功率上限（PAR）",
+    "conclusion": "现行 ARCEP 决定 n° 2012-1241（经 2013-1515、2019-1412 修改，2020-02-05 部令批准，JO 2020-02-13）附件仍为同一功率阶梯：135.7–137.8 kHz 与 472–479 kHz = 1 W（PIRE）；5 351.5–5 366.5 kHz（60 m）= 15 W（PIRE，2019 新增）；1 800 kHz–24 990 kHz 各 HF 段 = 500 W；28.000–29.700 MHz = 250 W；50 MHz 及以上全部频段（50–52、144–146、430–434/434–440、1240–1300 … 直至 250 GHz）= 120 W；旧 classe 3 = 144–146 MHz 10 W。关键精度：法定量是『发射机输出端最大峰值功率』（puissance en crête maximale à la sortie de l'émetteur，即 PEP，按 RR art. 1.157），不是 PAR；只有上述 LF/MF/60 m 三个频段的数值以 PIRE（EIRP）表示。因此教材『<28 MHz 500 W、28–30 MHz 250 W、>30 MHz 120 W』的阶梯仍现行，但表述应为 PEP 而非 PAR。另：PAR > 5 W 的固定台须在安装后 2 个月内向 ANFR 申报（arrêté du 17/12/2007）。",
+    "confidence": "确定",
+    "sources": [
+      "ARCEP – décision 2012-1241 (https://www.arcep.fr/uploads/tx_gsavis/12-1241.pdf)",
+      "ARCEP – décision 2019-1412, annexe consolidée (https://www.arcep.fr/uploads/tx_gsavis/19-1412.pdf)",
+      "Légifrance – décision 2019-1412, JORF n°0037 du 13/02/2020 (https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041567594)",
+      "ANFR – Cadre juridique radioamateurs (https://www.anfr.fr/gerer/radioamateurs/cadre-juridique)"
+    ],
+    "note": "截至 2026-10-06，未发现 2019-1412 之后新的业余频段决定。28–29.7 MHz 上限确为 250 W（与 Exam'1 题 30453 标答 120 W 矛盾一事一致）。"
+  },
+  "4": {
+    "topic": "ROS（驻波比）法定上限",
+    "conclusion": "没有。现行文本未规定任何最大 ROS/TOS 值。décision 12-1241 附件末段只要求使用者『disposer d'un indicateur de puissance』（功率指示器）；旧文本曾要求器材清单含『charge non rayonnante、filtre secteur、功率指示器、ROS 指示器』（00-1364 art. 5；10-0537 art. 4 b），但 10-0537 已被 12-1241 art. 7 明文废止，12-1241 只保留功率指示器。故 ROS 属工程/天线调整建议，非法定上限（旧规定也只要求『有 ROS 指示器以便调整发射机』，从未给出数值上限）。",
+    "confidence": "确定",
+    "sources": [
+      "ARCEP – décision 2012-1241, annexe et art. 7 (https://www.arcep.fr/uploads/tx_gsavis/12-1241.pdf)",
+      "ARCEP – décision 2010-0537, art. 4 b (abrogée) (https://www.arcep.fr/uploads/tx_gsavis/10-0537.pdf)",
+      "ARCEP – décision 00-1364, art. 5 (abrogée) (https://www.arcep.fr/uploads/tx_gsavis/00-1364.pdf)"
+    ],
+    "note": "截至 2026-10-06。附带：arrêté du 02/03/2021 把考试大纲里的『taux d'onde stationnaire』改称『rapport d'onde stationnaire』，仅为术语，不引入限值。"
+  },
+  "5": {
+    "topic": "中继台 / radioguidage 是否允许",
+    "conclusion": "中继台（stations répétitrices / relais）与信标被现行文本明确涵盖并允许：décision 12-1241 前言写明其适用范围『incluant stations répétitrices, relais, balises et stations de radio-clubs』；art. 5 要求自动台站具备可遥控立即停发的手段。须单独申请呼号：arrêté du 21/09/2000（2021-03-02 修改版）art. 7 规定，中继台/中继/信标/特别活动呼号的申领须持有当年有效的个人呼号 + 至少 HAREC 等效证书并附身份证明；ANFR 页面补充『只有 classe 1/2/HAREC 持有者可设中继台』、需附技术档案、呼号免费。至于『radioguidage 在中继上被禁止、仅业余活动时可例外』这一限制，作为法定规则『未查到』：它源自 CSA《Guide du radioamateur》(1989) 的一段非规范性文字，F6KGL 的编纂者 F6GPX 明确注明该段在 1995 版后即消失、『不能算作官方文本』，且『未找到任何法国、欧洲或国际条文佐证』。",
+    "confidence": "确定",
+    "sources": [
+      "ARCEP – décision 2012-1241 (https://www.arcep.fr/uploads/tx_gsavis/12-1241.pdf)",
+      "Légifrance – arrêté du 21 septembre 2000 modifié, art. 7 (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000401783/2024-05-25)",
+      "ANFR – Les indicatifs (https://www.anfr.fr/gerer/radioamateurs/les-indicatifs)",
+      "F6KGL – Reglementation.pdf（非官方，用于追溯 radioguidage 说法的来源）(http://f6kgl.f5kff.free.fr/Reglementation.pdf)"
+    ],
+    "note": "截至 2026-10-06。中继台『被允许』为确定结论；教材所称 radioguidage 限制作为法定义务为未查到。"
+  },
+  "6": {
+    "topic": "电台日志（journal de bord）与电子记录",
+    "conclusion": "现行条文：décision 12-1241 art. 6 —— 呼号持有人须在 journal de bord 记录：每次通信的日期与时间、使用者与对方的呼号、使用频率、发射类别、发射地点；须随时应检查机关要求出示；自最后一次记录起至少保存 1 年。现行文本未规定载体格式：既未要求纸质，也未逐字授权电子。历史文本曾明文接纳电子：00-1364 附件『Le journal de trafic peut être tenu informatiquement ou par des procédés adaptés pour les handicapés ou les non voyants』；10-0537 art. 5『soit à pages numérotées et non détachables, soit tenu à jour informatiquement』。二者均已废止，但现行文本无任何禁止电子记录的规定。结论：电子记录可接受、无纸质强制；但现行文本也没有针对电子记录的正面授权条文。",
+    "confidence": "较有把握",
+    "sources": [
+      "ARCEP – décision 2012-1241, art. 6 (https://www.arcep.fr/uploads/tx_gsavis/12-1241.pdf)",
+      "ARCEP – décision 00-1364, annexe Journal de trafic (abrogée) (https://www.arcep.fr/uploads/tx_gsavis/00-1364.pdf)",
+      "ARCEP – décision 2010-0537 (abrogée) (https://www.arcep.fr/uploads/tx_gsavis/10-0537.pdf)"
+    ],
+    "note": "截至 2026-10-06。日志义务本身确定（12-1241 art. 6）；『电子可接受』因无明文而标为较有把握。"
+  },
+  "7": {
+    "topic": "双音发生器是否强制",
+    "conclusion": "不强制。现行 décision 12-1241 附件只要求电台配备『un indicateur de puissance』，全文未提双音发生器。ANFR 官方考题自 2018 年起明确答案：业余台『不必』持有双音发生器——2018-01 关于 J7W 的题答『Non dans tous les cas』；2022-07 与 2023-02 直接问『est-il obligatoire de posséder un générateur 2 tons ?』答『Non』（考生 20/20，可确认是 ANFR 预期答案）。F6KGL 备考资料亦记：『直到 2017 年，ANFR 视双音发生器为调整 BLU 发射机的强制器材；自 2018 年 1 月起 ANFR 改变立场，任何发射类别均不再强制持有』。ITU-R SM.326-7（1998-11 通过，现行有效）《Determination and measurement of the power of amplitude-modulated radio transmitters》规定用两个互非谐波的正弦信号调制来测定 SSB 峰值包络功率（PEP），属『建议』，只给测量方法，并未要求台站配备『双音发生器』这一器材（法方旧文本 note 曾以 générateur 2 tons 表述该法）。",
+    "confidence": "确定",
+    "sources": [
+      "ARCEP – décision 2012-1241, annexe (https://www.arcep.fr/uploads/tx_gsavis/12-1241.pdf)",
+      "ITU-R – Recommendation SM.326-7 (11/1998) (https://www.itu.int/rec/recommendation.asp?lang=en&parent=R-REC-SM.326-7-199811-I)",
+      "ITU-R – SM.326-7 PDF (https://www.itu.int/dms_pubrec/itu-r/rec/sm/R-REC-SM.326-7-199811-I!!PDF-E.pdf)",
+      "ARCEP – décision 2010-0537, note (G)（旧文，含 SM.326 与双音表述）(https://www.arcep.fr/uploads/tx_gsavis/10-0537.pdf)",
+      "F6KGL – Regl.pdf（非官方，记录 ANFR 官方考题答案）(http://f6kgl.f5kff.free.fr/Regl.pdf)"
+    ],
+    "note": "截至 2026-10-06。『不强制』确定；SM.326-7 的具体技术内容标为较有把握（依据 ITU 页面/摘要与法方旧文本引用，未逐页核读全文）。"
+  },
+  "8": {
+    "topic": "电磁暴露：转置文号与电场限值",
+    "conclusion": "法国以 décret n° 2002-775 du 3 mai 2002（NOR INDI0220135D）转置欧盟建议 1999/519/CE（严格说是『décret』而非部令）；另有 arrêté du 8 octobre 2003（无线电终端设备技术规格/消费者信息，经 arrêté du 15 novembre 2019 修改）作配套。该 décret 现行有效。公众电场强度参考水平（annexe 2.2 A）：3–150 kHz = 87 V/m；0.15–1 MHz = 87 V/m；1–10 MHz = 87/√f V/m；10–400 MHz = 28 V/m；400–2000 MHz = 1.375·√f V/m；2–300 GHz = 61 V/m。换算到业余频段约：1.8 MHz ≈ 65、3.5 ≈ 47、7 ≈ 33、14 ≈ 23、21 ≈ 19、28 ≈ 16.4 V/m；50 MHz 与 144 MHz = 28 V/m；430 MHz ≈ 28.5、1240 MHz ≈ 48 V/m。基本限值（DAS）：全身 0.08 W/kg，头/躯干局部 2 W/kg，四肢 4 W/kg。多源共存时按 annexe 2.3 的求和规则累加。ANFR 明确声明该 décret 适用于 L33-3 项下的业余电台。",
+    "confidence": "确定",
+    "sources": [
+      "Légifrance – Décret n°2002-775 du 3 mai 2002 (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000226401/2020-11-02/)",
+      "Décret 2002-775 附件（版本 au 28/06/2018，含 2.2 表）(https://robindestoits-midipy.org/pdf/En-direct-du-labo/8-documents-de-reference/Decret2002-7753mai2002appl12articleL.32codepostesettelecommunicationsexpositionpublicchampsequipements.pdf)",
+      "ANFR – Maîtriser / cadre juridique (https://www.anfr.fr/maitriser/cadre-juridique-2)",
+      "ANFR – Questions/Réponses radioamateurs (décret 2002-775 适用) (https://www.anfr.fr/gerer/radioamateurs/questions-/-reponses)",
+      "EUR-Lex – Recommandation 1999/519/CE (https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ%3AL%3A1999%3A199%3A0059%3A0070%3AFR%3APDF)"
+    ],
+    "note": "截至 2026-10-06。arrêté du 8 octobre 2003 存在两个同名文本（技术规格、消费者信息），ANFR 页面统称其『modifié par l'arrêté du 15 novembre 2019』；限值数值本身确定。"
+  },
+  "9": {
+    "topic": "特别/临时呼号结构与用途",
+    "conclusion": "官方规则（Légifrance，arrêté du 21/09/2000 附件 II，2021-03-02 部令版，自 2021-06-06 起现行）『Codification particulière des indicatifs spéciaux temporaires』：①2 字母前缀——TM=法国本土，TO=海外省（DOM：瓜德罗普、圭亚那、马提尼克、马约特、圣巴泰勒米、圣马丁、圣皮埃尔和密克隆、留尼汪），TK=科西嘉，TX=海外集体（Clipperton、新喀里多尼亚、法属波利尼西亚、TAAF、瓦利斯和富图纳），FX=与轨道空间站相关的特别事件；②1 至 3 位识别数字（0–999）；③1 至 4 个字符的后缀，最后一个字符必须是字母。形式写作 TM 0 A à TM 999 wxyZ（TO/TX/TK 同理），官方例：TX2F、TO2018D。用途：国际活动/特殊事件/竞赛；限 15 天/6 个月，须提前至少 20 个工作日申请，可重新分配；2021 年起 ANFR 在有效期内将其列入官方名录。教材『1–3 位数字起头，后接 4 个字符且末位为字母』不准确：呼号以 2 字母前缀开头，数字在前缀之后，后缀长度为 1–4 而非固定 4。",
+    "confidence": "确定",
+    "sources": [
+      "Légifrance – arrêté du 21 septembre 2000 modifié, annexe II (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000401783/2024-05-25)",
+      "ANFR – Les indicatifs (https://www.anfr.fr/gerer/radioamateurs/les-indicatifs)",
+      "ARCEP – Arrêté du 23 avril 2012（引入 TM/TO/TX/TK 与 15 天/6 个月规则）(https://www.arcep.fr/fileadmin/reprise/textes/arretes/2012/arr230412.pdf)"
+    ],
+    "note": "截至 2026-10-06（附件 II 现行版本自 2021-06-06 起）。"
+  }
+}

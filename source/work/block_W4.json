@@ -1,0 +1,271 @@
+{
+ "block": "W4",
+ "lines": [
+  3380,
+  3813
+ ],
+ "units": [
+  {
+   "id": "R44",
+   "ref": "R-4.4",
+   "nq": 11,
+   "depth": 2,
+   "anchors": [
+    "R44",
+    "R44a",
+    "R44b"
+   ],
+   "title_fr": "Sanctions : l’article 7-3 de l’arrêté du 21/09/00",
+   "questions": [
+    {
+     "num": "30064",
+     "question": "LE CONTROLE DE VOTRE STATION D'AMATEUR PEUT AVOIR LIEU ?",
+     "reponse": "Entre 8 et 20 heures"
+    },
+    {
+     "num": "30132",
+     "question": "EN CAS DE MANQUEMENT, NOTAMMENT A LA REGLEMENTATION APPLICABLE AUX STATIONS RADIOELECTRIQUES DES SERVICES D'AMATEUR, L'INDICATIF ATTRIBUE PAR L'ADMINISTRATION PEUT ETRE SUSPENDU POUR UNE DUREE DE ?",
+     "reponse": "3 ans"
+    },
+    {
+     "num": "30772",
+     "question": "VOUS EMETTEZ SUR 29,250 MHZ AVEC 500 WATTS, L'ADMINISTRATION VOUS DEMANDE DE BAISSER VOTRE PUISSANCE, BAISSEZ-VOUS VOTRE PUISSANCE ?",
+     "reponse": "Oui"
+    },
+    {
+     "num": "31017",
+     "question": "UN UTILISATEUR DE RESEAU OUVERT AU PUBLIC (RESEAU DE RADIOTELEPHONIE OU RADIOMESSAGERIE) SE PLAINT D'ETRE BROUILLE PAR UN RADIOAMATEUR.\nQUEL ORGANISME FAUT-IL SAISIR EN 1ER LIEU ?",
+     "reponse": "L'Opérateur du réseau"
+    }
+   ]
+  },
+  {
+   "id": "R45",
+   "ref": "R-4.5",
+   "nq": 11,
+   "depth": 2,
+   "anchors": [
+    "R45"
+   ],
+   "title_fr": "R-4.5)",
+   "questions": [
+    {
+     "num": "30116",
+     "question": "QUE DOIT POSSEDER TOUT MATERIEL D'EMISSION RADIOAMATEUR AVANT TOUTE\nUTILISATION ?\n1 - UN EMETTEUR EN ACCORD AVEC SA CLASSE DE CERTIFICAT\n2 - UN CERTIFICAT D'OPERATEUR\n3 - UN CERTIFICAT MENTIONNANT L'INDICATIF DE LA STATION\n4 - AVOIR ACQUITTE LA TAXE ANNUELLE RADIOAMATEUR",
+     "reponse": "2"
+    },
+    {
+     "num": "30216",
+     "question": "AU BOUT DE COMBIEN DE TEMPS PEUT ON SE REPRESENTER A L'EXAMEN RADIOAMATEUR APRES UN ECHEC ?",
+     "reponse": "2 mois"
+    },
+    {
+     "num": "30260",
+     "question": "COMBIEN DE TEMPS EST DONNE POUR L'EXAMEN A UNE PERSONNE HANDICAPEE A 70% ?",
+     "reponse": "le triple de temps"
+    },
+    {
+     "num": "31016",
+     "question": "QUEL EST L'AGE MAXIMUM POUR PASSER L'EXAMEN RADIOAMATEUR ?",
+     "reponse": "Il n'y a pas d'age limite"
+    }
+   ]
+  },
+  {
+   "id": "R46",
+   "ref": "R-4.6",
+   "nq": 13,
+   "depth": 2,
+   "anchors": [
+    "R46b",
+    "R46d",
+    "R46e"
+   ],
+   "title_fr": "R-4.6)",
+   "questions": [
+    {
+     "num": "30054",
+     "question": "* PUISSANCE DE SORTIE AUTORISEE POUR LA CLASSE 3 DANS UN PAYS LIMITROPHE A\nLA FRANCE ?",
+     "reponse": "0 W"
+    },
+    {
+     "num": "30297",
+     "question": "* L'UTILISATEUR D'UNE STATION D'AMATEUR N'EST SOUMIS A AUCUNE TAXE ?",
+     "reponse": "Vrai"
+    },
+    {
+     "num": "30314",
+     "question": "* QUELLE EST LA DUREE MAXIMALE SI VOUS SUSPENDEZ VOLONTAIREMENT VOTRE INDICATIF ?",
+     "reponse": "10 ans"
+    },
+    {
+     "num": "30924",
+     "question": "* RELEVEZ LES AFFIRMATIONS VRAIES ?\n1- UN INDICATIF SPECIAL DOIT ETRE UTILISE SOUS 15 JOURS A LA SUITE OU SUR PLUSIEURS MOIS MAIS PENDANT UNE DUREE TOTALE DE 15 JOURS\n\n2-LA TAXE DU DROIT D'EXAMEN EST DE 46 EUROS\n\n3-UN DUPLICATA DE CERTIFICAT COUTE 24 EUROS\n\n4-LA TAXE ANNUELLE RADIOAMATEUR EST DE 46 EUROS",
+     "reponse": "1"
+    }
+   ]
+  },
+  {
+   "id": "R46a",
+   "ref": "R-4.6.a",
+   "nq": 89,
+   "depth": 1,
+   "anchors": [
+    "R46a"
+   ],
+   "title_fr": "R-4.6)",
+   "questions": [
+    {
+     "num": "30012",
+     "question": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nFG\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+     "reponse": "Guadeloupe"
+    },
+    {
+     "num": "30775",
+     "question": "QUEL EST L'INDICATIF D'UN RADIOAMATEUR ETRANGER PASSANT UN SEJOUR DE PLUS DE TROIS MOIS EN FRANCE ?",
+     "reponse": "F4VFR"
+    },
+    {
+     "num": "34694",
+     "question": "PREFIXE DE LA NOUVELLE CALEDONIE ?",
+     "reponse": "FK"
+    },
+    {
+     "num": "38005",
+     "question": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT L'INDICATIF COMMENCE PAR F4W.\nQUE SIGNIFIE CET INDICATIF ?",
+     "reponse": "C'est un radioamateur étranger dont le pays d'origine a signé un accord de réciprocité avec la France"
+    }
+   ]
+  },
+  {
+   "id": "R46c",
+   "ref": "R-4.6.c",
+   "nq": 16,
+   "depth": 2,
+   "anchors": [
+    "R46c"
+   ],
+   "title_fr": "R-4.6)",
+   "questions": [
+    {
+     "num": "30300",
+     "question": "* UN INDICATIF DE TYPE 'TM' EST VALABLE POUR UNE DUREE DE ?",
+     "reponse": "15 jours"
+    },
+    {
+     "num": "34702",
+     "question": "A QUEL PAYS EST ATTRIBUE L'INDICATIF TM ?",
+     "reponse": "indicatif spécial français "
+    },
+    {
+     "num": "34903",
+     "question": "DANS QUEL CAS L'ANFR PEUT-ELLE DONNER UNE AUTORISATION SPECIALE A UN RADIOAMATEUR POUR EXPLOITER LES BANDES RADIOAMATEURS ?",
+     "reponse": "pour activer un moulin "
+    },
+    {
+     "num": "39701",
+     "question": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR TO.\nQUE SIGNIFIE CET INDICATIF ?",
+     "reponse": "Préfixe spécial DOM"
+    }
+   ]
+  },
+  {
+   "id": "R47",
+   "ref": "R-4.7",
+   "nq": 8,
+   "depth": 2,
+   "anchors": [
+    "R47c",
+    "R47d",
+    "R47e"
+   ],
+   "title_fr": "a R-4.7)",
+   "questions": [
+    {
+     "num": "30068",
+     "question": "VOUS ETES TITULAIRE D'UN INDICATIF DE CLASSE 3, POUVEZ VOUS EMETTRE EN\nMODE A2A ?",
+     "reponse": "Oui, dans tous les cas"
+    },
+    {
+     "num": "30206",
+     "question": "* QUEL PAYS NON C.E.P.T. APPLIQUE LA RECOMMANDATION T/R 61-01 ?",
+     "reponse": "Pérou"
+    },
+    {
+     "num": "30227",
+     "question": "* QUEL EST LE PAYS QUI A SIGNE UN ACCORD DE RECIPROCITE AVEC LA FRANCE ?",
+     "reponse": "Japon"
+    },
+    {
+     "num": "30272",
+     "question": "* PAYS AYANT SIGNE UN ACCORD DE RECIPROCITE AVEC LA FRANCE ?",
+     "reponse": "Côte d'ivoire"
+    }
+   ]
+  },
+  {
+   "id": "R47b",
+   "ref": "R-4.7.b",
+   "nq": 118,
+   "depth": 1,
+   "anchors": [
+    "R47b"
+   ],
+   "title_fr": "a R-4.7)",
+   "questions": [
+    {
+     "num": "30066",
+     "question": "* UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR LES LETTRES LX EMET A PARTIR\nDE QUEL PAYS ?",
+     "reponse": "Luxembourg"
+    },
+    {
+     "num": "33300",
+     "question": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR 4L.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+     "reponse": "Géorgie"
+    },
+    {
+     "num": "38001",
+     "question": "* VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR OY.\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+     "reponse": "Iles Féroé"
+    },
+    {
+     "num": "60043",
+     "question": "VOUS CONTACTEZ UN RADIOAMATEUR DONT LE PREFIXE COMMENCE PAR\nOH\nDE QUEL PAYS EST-IL ORIGINAIRE ?",
+     "reponse": "Finlande"
+    }
+   ]
+  },
+  {
+   "id": "R47a",
+   "ref": "R-4.7.a",
+   "nq": 12,
+   "depth": 2,
+   "anchors": [
+    "R47a"
+   ],
+   "title_fr": "a R-4.7)",
+   "questions": [
+    {
+     "num": "30037",
+     "question": "* UNE FORMALITE ADMINISTRATIVE EST-ELLE EXIGEE SI UN RADIOAMATEUR FRANCAIS\nSE DEPLACE DANS UN PAYS MEMBRE DE LA CEPT ?",
+     "reponse": "Oui si son séjour dépasse 3 mois"
+    },
+    {
+     "num": "30099",
+     "question": "* COMMENT UN RADIOAMATEUR ETRANGER RESIDANT EN FRANCE POUR UNE DUREE DE DEUX MOIS DOIT-IL FORMULER SON INDICATIF ?\nA - IL NE CHANGE RIEN  SON INDICATIF D'ORIGINE\nB - IL FAIT SUIVRE SON INDICATIF PAR /E\nC - IL FAIT SUIVRE SON INDICATIF PAR /F\nD - IL FAIT PRCDER SON INDICATIF PAR F/ PUIS IL LE FAIT SUIVRE PAR /M OU /P OU /MM",
+     "reponse": "D"
+    },
+    {
+     "num": "30779",
+     "question": "PUISSANCE AUTORISEE A UN OPERATEUR ETRANGER CEPT SUR 28,750 MHZ ?",
+     "reponse": "250 W"
+    },
+    {
+     "num": "30903",
+     "question": "QUE SIGNIFIE L'INDICATIF SUIVANT : F/ON1USA",
+     "reponse": "c'est un opérateur membre d'un état de la CEPT pour un court séjour en France"
+    }
+   ]
+  }
+ ]
+}
