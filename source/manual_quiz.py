@@ -51,6 +51,9 @@ def render_question(q, instance, stem_html=None, translation_html=None, answer_h
     translation_html = card['题干中译'] if translation_html is None else translation_html
     instance = html.escape(instance, quote=True)
     out = [f'<li class="exam-question" data-question="{number}" tabindex="0">',
+                f'<div class="quiz-image" id="{instance}-image">',
+                f'<img class="qimg" src="{image_data(number)}" alt="Exam’1 第 {number} 题原题图" loading="lazy" decoding="async">',
+                '</div>',
            f'<p class="fr quiz-stem" lang="fr">{stem_html}</p>',
            f'<p class="zh quiz-tr" hidden>{translation_html}</p>',
            f'<p class="small question-number">Exam\'1 题号：{number} · 单选 '
@@ -66,9 +69,6 @@ def render_question(q, instance, stem_html=None, translation_html=None, answer_h
                 f'<button type="button" data-action="translation" aria-expanded="false" aria-controls="{instance}-translation">查看翻译（C）</button>',
                 f'<button type="button" data-action="image" aria-expanded="true" aria-controls="{instance}-image">隐藏题图（X）</button>',
                 '<button type="button" data-action="reset">重做本题</button>',
-                '</div>',
-                f'<div class="quiz-image" id="{instance}-image">',
-                f'<img class="qimg" src="{image_data(number)}" alt="Exam’1 第 {number} 题原题图" loading="lazy" decoding="async">',
                 '</div>',
                 f'<div class="quiz-tr quiz-vocabulary" id="{instance}-translation" hidden>'])
     if vocabulary:

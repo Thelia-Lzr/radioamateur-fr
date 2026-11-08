@@ -95,6 +95,7 @@ def main():
         assert all(n.has_attr('hidden') for n in question.select('.quiz-tr')), number
         assert not question.select_one('.quiz-answer').has_attr('open'), number
         wrapper = question.select_one('.quiz-image')
+        assert question.find(recursive=False) is wrapper, f'题图不在最上方：{number}'
         assert not wrapper.has_attr('hidden'), number
         image = wrapper.find('img')
         assert image['src'].startswith('data:image/png;base64,'), number
