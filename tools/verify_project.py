@@ -53,8 +53,30 @@ def main():
     for block in vocabulary_blocks:
         sid = block['data-section']
         assert block.find_previous_sibling()['data-section'] == sid
-        assert len(block.select('li')) == len(vocabulary_by_section[sid]) >= 3
+        assert len(block.select('li')) >= len(vocabulary_by_section[sid]) >= 3
         assert all(item.select_one('[lang="fr"]') for item in block.select('li'))
+    sourced_vocab = json.loads((ROOT / 'source/question_vocab.json').read_text(encoding='utf-8'))
+    glossary = json.loads((ROOT / 'source/alphabetical_vocab.json').read_text(encoding='utf-8'))
+    assert len(soup.select('.memory-card')) == 18
+    assert len(soup.select('.memory-section')) == 126
+    assert len(soup.select('.memory-answer')) == 2688
+    assert len(soup.select('.glossary-entry')) == len(glossary)
+    assert all(len(card.select('.memory-node')) >= 3 for card in soup.select('.memory-card'))
+    assert all(not details.has_attr('open') for details in soup.select('.memory-review'))
+    from build_learning_vocab import key, occurs
+    assert glossary == sorted(glossary, key=lambda e: (key(e['fr']), e['fr']))
+    for unit in plan['units']:
+        sid = unit['id']
+        wanted = {str(q['num']) for q in section_questions(unit['anchors'])}
+        panel = soup.select_one('.memory-section[data-section="' + sid + '"]')
+        assert {q['data-question'] for q in panel.select('.memory-answer')} == wanted, sid
+        for entry in sourced_vocab[sid]:
+            assert entry['questions'] and set(entry['questions']) <= wanted, (sid, entry['fr'])
+            forms = entry['note'][5:].split('、') if entry['note'].startswith('题中形式：') else [entry['fr']]
+            for number in entry['questions']:
+                q = by_number[number]
+                text = q['question'] + ' ' + ' '.join(q['propositions'])
+                assert any(occurs(form,text) for form in forms), (sid,entry['fr'],number)
     assert all(body.select('.exam-key') for body in soup.select('.lesson-body'))
     ids = [tag['id'] for tag in soup.select('[id]')]
     assert len(ids) == len(set(ids)), '存在重复锚点'
@@ -98,7 +120,8 @@ def main():
             local = target.split('#', 1)[0]
             assert (path.parent / local).exists(), f'{path.name}: {target}'
     print(f'通过：18 章 / 126 节 / {len(questions)} 道关联习题（默认显示 {expected} 道例题），题图、选项、默认状态、快捷键与锚点完整。')
-    print(f'通过：{len(vocabulary)-1} 条词汇、{len(decks)} 个 Anki 包与文档链接完整。')
+    print(f'通过：18 张速记卡 / 2688 条逐题解题依据 / {len(glossary)} 条字母序词汇；题源词汇、排序与链接完整。')
+    print(f'通过：{len(vocabulary)-1} 条原词汇、{len(decks)} 个 Anki 包与文档链接完整。')
 
 
 if __name__ == '__main__':
