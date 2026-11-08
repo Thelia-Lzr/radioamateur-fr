@@ -86,6 +86,8 @@ def main():
     for question in questions:
         number = question['data-question']
         source = by_number[number]
+        mark = question.select_one('[data-action="mistake"]')
+        assert mark is not None and mark.get('aria-pressed') == 'false', number
         options = question.select('.quiz-choice')
         assert len(options) == 4, number
         assert [normalize(n.get_text('\n')) for n in question.select('.quiz-choice-fr')] == [
@@ -101,6 +103,12 @@ def main():
         assert image['src'].startswith('data:image/png;base64,'), number
         assert base64.b64decode(image['src'].split(',', 1)[1]) == (
             ROOT / f'source/Exam1/questions/{number}.png').read_bytes(), number
+    notebook = (ROOT / 'mistake-book.html').read_text(encoding='utf-8')
+    assert 'data-mistake-book' in notebook and 'id="mistake-bank"' in notebook
+    notebook_questions = re.findall(r'<li class="exam-question"[^>]*>.*?</details>\s*</li>', notebook, re.S)
+    manual_questions = re.findall(r'<li class="exam-question"[^>]*>.*?</details>\s*</li>', document, re.S)
+    assert notebook_questions == manual_questions, '错题本题目与教材不同步'
+    assert soup.find(id='quiz-mistakes-script') is not None
     script = soup.find(id='manual-quiz-script').get_text()
     for key in ('c', 'x', 'z', 'arrowdown', 'arrowup'):
         assert f"key === '{key}'" in script, key

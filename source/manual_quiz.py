@@ -66,6 +66,7 @@ def render_question(q, instance, stem_html=None, translation_html=None, answer_h
                    f'<span class="quiz-tr quiz-option-tr" hidden>{translation}</span></button></li>')
     out.extend(['</ol>',
                 '<div class="quiz-controls">',
+                '<button type="button" data-action="mistake" aria-pressed="false">标记错题</button>',
                 f'<button type="button" data-action="translation" aria-expanded="false" aria-controls="{instance}-translation">查看翻译（C）</button>',
                 f'<button type="button" data-action="image" aria-expanded="true" aria-controls="{instance}-image">隐藏题图（X）</button>',
                 '<button type="button" data-action="reset">重做本题</button>',

@@ -10,6 +10,7 @@ from study_polish import polish_document
 from lesson_vocab import add_lesson_vocab
 from all_lesson_questions import add_all_lesson_questions
 from learning_supplements import add_learning_supplements
+from mistake_book import add_mistake_features, build_mistake_book
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DEST = os.path.abspath(os.path.join(BASE, '..', 'manuel-zh.html'))
@@ -341,6 +342,7 @@ def build(units, sections, qt, plan):
     document = add_lesson_vocab(document)
     document = add_all_lesson_questions(document, units)
     document = add_learning_supplements(document, units)
+    document = add_mistake_features(document)
     return document, warns
 
 
@@ -356,6 +358,8 @@ def main():
     destination = os.path.abspath(args.output)
     with open(destination, 'w', encoding='utf-8') as output:
         output.write(doc)
+    from pathlib import Path
+    Path(destination).with_name('mistake-book.html').write_text(build_mistake_book(doc, os.path.basename(destination)), encoding='utf-8')
     nq = sum(u['nq'] for u in units)
     print('-> %s (%.1f Ko, %d sections, %d questions couvertes, %d avertissements)'
           % (destination, len(doc.encode('utf-8')) / 1024.0, len(sections), nq, len(warns)))
