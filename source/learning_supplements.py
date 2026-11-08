@@ -44,6 +44,13 @@ CSS = '''<style id="learning-supplement-style">
 .memory-arrow { align-self:center; color:#216870; font-size:1.5rem; }
 .memory-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr)); gap:1rem; }
 .memory-section { background:white; border:1px solid #b9d5d3; border-radius:8px; padding:.8rem; min-width:0; }
+.memory-section-link { background:white; border:1px solid #b9d5d3; border-radius:8px; padding:.8rem; }
+.section-memory-card { margin:1.2rem 0; border:2px solid #216870; padding:1rem; background:#f5faf9; }
+.section-memory-card .memory-node { flex-basis:14rem; font-size:.9rem; }
+.section-memory-card .memory-node b { font-size:1rem; opacity:1; margin-bottom:.4rem; }
+.section-memory-formulas { overflow-x:auto; }.section-memory-formulas h5 { font-size:1rem; margin:.7rem 0; }
+.section-memory-formulas li { padding:.3rem 0; }.section-memory-table { overflow-x:auto; margin:.7rem 0; }
+.section-memory-card summary { cursor:pointer; color:#16585f; }
 .memory-section h4 { margin-top:0; }.memory-section .memory-formulas { overflow-wrap:anywhere; }
 .memory-rule { background:#e7f1ef; border-left:4px solid #247f77; padding:.5rem .8rem; margin:.5rem 0; }
 .memory-section details { margin-top:.6rem; }.memory-section summary { cursor:pointer; color:#16585f; }
@@ -58,42 +65,104 @@ CSS = '''<style id="learning-supplement-style">
 </style>'''
 
 
-def memory_card(cid, units, document):
-    guide = data('study_guide.json')['sections']
-    chapter = data('chapter_memory.json')[cid]
+def section_memory_card(unit, document):
+    """Keep each lesson's mnemonic and question evidence beside that lesson."""
+    sid = unit['id']
+    guide = data('study_guide.json')['sections'][sid]
+    heading = re.search(r'<h3 id="'+re.escape(sid)+r'"[^>]*>(.*?)</h3>', document, re.S)
+    title = re.sub(r'<span\b.*', '', heading[1], flags=re.S).strip()
+    body = re.search(r'<div class="lesson-body" data-section="'+sid+r'">(.*?)</div>\s*<aside class="section-summary"',document,re.S)
+    body_html = body[1] if body else ''
+    formulas = list(dict.fromkeys(re.findall(r'\\\(.*?\\\)|\\\[.*?\\\]', body_html, re.S)))
+    def symbolic_formula(formula):
+        # Single symbols and worked-example substitutions are not standalone recall rules.
+        parts = formula.split('=')
+        if len(parts) < 2:
+            return False
+        for right in parts[1:]:
+            right = re.sub(r'\\(?:text|mathrm)\{[^}]*\}', '', right)
+            right = re.sub(r'\\[A-Za-z]+', '', right)
+            if not re.search(r'[A-Za-z]', right):
+                return False
+        return True
+    formulas = [formula for formula in formulas if symbolic_formula(formula)]
+    questions = section_questions(unit['anchors'])
     cards = card_content()
+    reviews = []
+    for q in questions:
+        number = str(q['num']); c = cards[number]
+        explanation = re.split(r'<div class="sec">重点词汇</div>', c['原理讲解'])[0]
+        reviews.append(f'<article class="memory-answer" id="review-{sid}-{number}" data-question="{number}">'
+                       f'<p><b>题 {number}</b> · <span lang="fr">{text_html(q["question"])}</span></p>'
+                       f'<p>{c["题干中译"]}</p><p><b>答案 {chr(65+q["reponse"])}</b>：'
+                       f'<span lang="fr">{text_html(q["propositions"][q["reponse"]])}</span></p>'
+                       f'<div class="memory-explanation">{explanation or c["注释中译"] or esc(guide["summary"])}</div>'
+                       f'<a href="#{sid}">返回本节完整习题与题图</a></article>')
+    from study_polish import NOTES
+    warnings = ''.join('<p class="memory-rule">'+esc(w)+'</p>' for w in NOTES.get(sid,[]) if w)
+    concepts = ' · '.join(guide['keywords'])
+    check = '核对题目条件、单位与选项；计算题将结果代回原式，识图题对照原题图。' if questions else '对照正文掌握概念；本节暂无直接关联题。'
+    steps = [('读题：辨认概念', concepts), ('推理：抓住关系', guide['summary']), ('作答：复核条件', check)]
+    flow = '<span class="memory-arrow" aria-hidden="true">→</span>'.join(
+        '<div class="memory-node"><b>'+esc(label)+'</b>'+esc(text)+'</div>' for label,text in steps)
+    formula_list = lambda values: '<ul>'+''.join('<li>'+formula+'</li>' for formula in values)+'</ul>'
+    extra_formulas = ('<details><summary>其余公式与变形</summary>'+formula_list(formulas[8:])+'</details>') if len(formulas)>8 else ''
+    formula_block = ('<div class="section-memory-formulas"><h5>公式与变形速查</h5>'
+                     + formula_list(formulas[:8])+extra_formulas+'</div>') if formulas else ''
+    # Reuse the edited lesson's comparison tables rather than retyping regulatory values or codes.
+    from bs4 import BeautifulSoup
+    tables = BeautifulSoup(body_html, 'html.parser').find_all('table')
+    table_blocks = []
+    for table in tables:
+        if table.find_parent('table'):
+            continue
+        for node in [table, *table.find_all(True)]:
+            node.attrs.pop('id', None)
+        table_blocks.append('<div class="section-memory-table">'+str(table)+'</div>')
+    references = ('<details class="section-memory-reference"><summary>本节对照表（展开速查）</summary>'
+                  + ''.join(table_blocks)+'</details>') if table_blocks else ''
+    review = (f'<details class="memory-review"><summary>题型与解题依据：逐题核对 {len(questions)} 道</summary>'
+              + ''.join(reviews)+'</details>') if questions else ''
+    return (f'<section class="memory-section section-memory-card" id="memory-section-{sid}" data-section="{sid}" aria-label="本节知识速记卡">'
+            f'<h4>本节知识速记卡 · <a href="#{sid}">{title}</a></h4>'
+            '<div class="memory-flow">'+flow+'</div>'+formula_block+warnings+references+review+'</section>')
+
+
+def chapter_section_link(unit, document):
+    sid = unit['id']
+    heading = re.search(r'<h3 id="'+re.escape(sid)+r'"[^>]*>(.*?)</h3>', document, re.S)
+    title = re.sub(r'<span\b.*', '', heading[1], flags=re.S).strip()
+    summary = data('study_guide.json')['sections'][sid]['summary']
+    return (f'<section class="memory-section-link"><h4><a href="#memory-section-{sid}">{title} · 小节速记卡 →</a></h4>'
+            '<p>'+esc(summary)+'</p></section>')
+
+
+def memory_card(cid, units, document):
+    chapter = data('chapter_memory.json')[cid]
     steps = '<span class="memory-arrow" aria-hidden="true">→</span>'.join(
         f'<div class="memory-node"><b>{i}</b>{esc(s)}</div>' for i,s in enumerate(chapter['steps'],1))
     rules = ''.join(f'<p class="memory-rule">{esc(s)}</p>' for s in chapter['rules'])
-    panels = []
-    for unit in units:
-        sid = unit['id']
-        heading = re.search(r'<h3 id="'+re.escape(sid)+r'"[^>]*>(.*?)</h3>', document, re.S)
-        title = re.sub(r'<span\b.*', '', heading[1], flags=re.S).strip()
-        body = re.search(r'<div class="lesson-body" data-section="'+sid+r'">(.*?)</div>\s*<aside class="section-summary"',document,re.S)
-        # Extract exact formulas from the edited textbook, avoiding an independent formula transcription.
-        formulas = list(dict.fromkeys(re.findall(r'\\\(.*?\\\)|\\\[.*?\\\]', body[1] if body else '', re.S)))
-        questions = section_questions(unit['anchors'])
-        reviews = []
-        for q in questions:
-            number = str(q['num']); c = cards[number]
-            explanation = re.split(r'<div class="sec">重点词汇</div>', c['原理讲解'])[0]
-            reviews.append(f'<article class="memory-answer" id="review-{sid}-{number}" data-question="{number}">'
-                           f'<p><b>题 {number}</b> · <span lang="fr">{text_html(q["question"])}</span></p>'
-                           f'<p>{c["题干中译"]}</p><p><b>答案 {chr(65+q["reponse"])}</b>：'
-                           f'<span lang="fr">{text_html(q["propositions"][q["reponse"]])}</span></p>'
-                           f'<div class="memory-explanation">{explanation or c["注释中译"] or esc(guide[sid]["summary"])}</div>'
-                           f'<a href="#{sid}">返回本节完整习题与题图</a></article>')
-        from study_polish import NOTES
-        warnings = ''.join('<p class="memory-rule">'+esc(w)+'</p>' for w in NOTES.get(sid,[]) if w)
-        panels.append(f'<section class="memory-section" data-section="{sid}"><h4><a href="#{sid}">{title}</a></h4>'
-                      '<p>'+esc(guide[sid]['summary'])+'</p>'
-                      '<p class="memory-formulas">'+' · '.join(formulas[:10])+'</p>'+warnings+
-                      (f'<details class="memory-review"><summary>题型与解题依据：逐题核对 {len(questions)} 道</summary>'+''.join(reviews)+'</details>'
-                       if questions else '<p>题库暂无直接关联题，按正文与考点复习。</p>')+'</section>')
+    panels = ''.join(chapter_section_link(unit,document) for unit in units)
     return (f'<section class="memory-card" id="memory-{cid}" data-chapter="{cid}" aria-label="本章知识速记卡">'
-            f'<h3>本章知识速记卡 · {cid}</h3><p>先沿流程图判断题型，再用公式和易错点作答；展开各小节的逐题依据检查遗漏。题图题请返回完整习题读图。</p>'
-            '<div class="memory-flow">'+steps+'</div>'+rules+'<div class="memory-grid">'+''.join(panels)+'</div></section>')
+            f'<h3>本章知识速记卡 · {cid}</h3><p>按流程图复习全章；每节正文之后另有独立速记卡，含公式、对照表与逐题解题依据。</p>'
+            '<div class="memory-flow">'+steps+'</div>'+rules+'<div class="memory-grid">'+panels+'</div></section>')
+
+
+def add_section_memory_cards(document, units):
+    if 'class="memory-section section-memory-card"' in document:
+        raise ValueError('Section memory cards already present')
+    by_id = {u['id']:u for u in units}
+    seen = set()
+    def insert(match):
+        sid = match[1]
+        if sid in seen or sid not in by_id:
+            raise ValueError(f'Duplicate or unknown lesson: {sid}')
+        seen.add(sid)
+        return match[0] + '\n' + section_memory_card(by_id[sid],document) + '\n'
+    document = re.sub(r'<aside class="lesson-vocab" data-section="([^"]+)".*?</aside>',insert,document,flags=re.S)
+    if seen != set(by_id):
+        raise ValueError('Some lessons have no memory card')
+    return document
 
 
 def glossary_html():
@@ -135,6 +204,7 @@ def add_learning_supplements(document, units):
         raise ValueError('Learning supplements already present')
     document = re.sub(r'<aside class="lesson-vocab" data-section="([^"]+)".*?</aside>',
                       lambda m: expanded_vocabulary(m[1]), document, flags=re.S)
+    document = add_section_memory_cards(document, units)
     groups = {}
     for u in units:
         sid = u['id']; cid = 'R-'+sid[1] if sid.startswith('R') else 'T-'+str(int(sid[1:3]))

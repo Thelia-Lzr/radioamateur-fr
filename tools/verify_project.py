@@ -59,6 +59,19 @@ def main():
     glossary = json.loads((ROOT / 'source/alphabetical_vocab.json').read_text(encoding='utf-8'))
     assert len(soup.select('.memory-card')) == 18
     assert len(soup.select('.memory-section')) == 126
+    section_cards = soup.select('.section-memory-card')
+    assert len(section_cards) == 126, '每小节必须有独立速记卡'
+    assert {card['data-section'] for card in section_cards} == set(guide['sections'])
+    for card in section_cards:
+        sid = card['data-section']
+        previous = card.find_previous_sibling()
+        assert 'lesson-vocab' in previous.get('class', []) and previous['data-section'] == sid, sid
+        following = card.find_next_sibling()
+        assert following and 'exam' in following.get('class', []), f'{sid}: 速记卡应在习题之前'
+        assert card.find_parent(class_='memory-card') is None, sid
+        assert len(card.select('.memory-node')) == 3, sid
+        assert not any(node.has_attr('open') for node in card.select('details')), sid
+    assert len(soup.select('.memory-section-link')) == 126
     assert len(soup.select('.memory-answer')) == 2688
     assert len(soup.select('.glossary-entry')) == len(glossary)
     assert all(len(card.select('.memory-node')) >= 3 for card in soup.select('.memory-card'))
@@ -129,7 +142,7 @@ def main():
             local = target.split('#', 1)[0]
             assert (path.parent / local).exists(), f'{path.name}: {target}'
     print(f'通过：18 章 / 126 节 / {len(questions)} 道关联习题（默认显示 {expected} 道例题），题图、选项、默认状态、快捷键与锚点完整。')
-    print(f'通过：18 张速记卡 / 2688 条逐题解题依据 / {len(glossary)} 条字母序词汇；题源词汇、排序与链接完整。')
+    print(f'通过：126 张小节速记卡 + 18 张章末速记卡 / 2688 条逐题解题依据 / {len(glossary)} 条字母序词汇；题源词汇、排序与链接完整。')
     print(f'通过：{len(vocabulary)-1} 条原词汇、{len(decks)} 个 Anki 包与文档链接完整。')
 
 
