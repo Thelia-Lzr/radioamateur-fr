@@ -15,15 +15,87 @@
     try { localStorage.setItem(storageKey, JSON.stringify(marked)); }
     catch (error) { storageAvailable = false; }
   }
+  var isBook = document.body.hasAttribute('data-mistake-book');
+  var returnPoint = null;
+  var incomingReturn = null;
+  function validPosition(value) {
+    if (!value || typeof value.anchor !== 'string' || !/^[A-Za-z0-9_-]{1,100}$/.test(value.anchor) ||
+        typeof value.offset !== 'number' || !Number.isFinite(value.offset) || Math.abs(value.offset) > 200000) return null;
+    return {anchor:value.anchor, offset:value.offset};
+  }
+  function rememberReturn() {
+    if (!isBook) return;
+    try { sessionStorage.setItem(storageKey + '.return', JSON.stringify(returnPoint)); } catch (error) {}
+  }
+  if (isBook) {
+    try { returnPoint = validPosition(JSON.parse(sessionStorage.getItem(storageKey + '.return'))); } catch (error) {}
+  }
   marked = read();
-  // A full snapshot in navigation links also works when file:// pages have separate storage.
+  // Navigation snapshots work even when local files have separate browser storage.
   if (location.hash.indexOf('#marks=') === 0) {
+    var params = new URLSearchParams(location.hash.slice(1));
     try {
-      var incoming = JSON.parse(decodeURIComponent(location.hash.slice(7)));
+      var incoming = JSON.parse(params.get('marks'));
       if (Array.isArray(incoming)) { marked = clean(incoming); save(); }
     } catch (error) { /* Keep saved marks if a link is malformed. */ }
+    try { incomingReturn = validPosition(JSON.parse(params.get('return'))); } catch (error) {}
+    if (incomingReturn) { returnPoint = incomingReturn; rememberReturn(); }
     try { history.replaceState(null, '', location.pathname + location.search); } catch (error) {}
   }
+  function navigationHash() {
+    return '#marks=' + encodeURIComponent(JSON.stringify(marked)) +
+      (returnPoint ? '&return=' + encodeURIComponent(JSON.stringify(returnPoint)) : '');
+  }
+  function capturePosition() {
+    if (isBook) return;
+    var best = null;
+    var bestTop = -Infinity;
+    document.querySelectorAll('h2[id], h3[id], .exam-question').forEach(function (node) {
+      if (!node.getClientRects().length) return;
+      var top = node.getBoundingClientRect().top;
+      if (top <= 80 && top >= bestTop) { best = node; bestTop = top; }
+    });
+    if (!best) best = document.querySelector('h2[id], h3[id]');
+    if (best && best.classList.contains('exam-question')) best = best.querySelector('.quiz-image');
+    if (best && best.id) returnPoint = validPosition({anchor:best.id, offset:best.getBoundingClientRect().top});
+  }
+  function restorePosition() {
+    if (isBook || !incomingReturn) return;
+    var target = document.getElementById(incomingReturn.anchor);
+    if (!target) return;
+    for (var parent = target.parentElement; parent; parent = parent.parentElement) {
+      if (parent.tagName === 'DETAILS') parent.open = true;
+    }
+    var cancelled = false;
+    var observer = null;
+    function cancel() { cancelled = true; if (observer) observer.disconnect(); }
+    ['wheel','touchstart','pointerdown','keydown'].forEach(function (type) {
+      window.addEventListener(type, cancel, {once:true, passive:true});
+    });
+    function apply() {
+      if (cancelled) return;
+      var root = document.documentElement;
+      var previous = root.style.scrollBehavior;
+      root.style.scrollBehavior = 'auto';
+      window.scrollTo(0, Math.max(0, target.getBoundingClientRect().top + window.scrollY - incomingReturn.offset));
+      root.style.scrollBehavior = previous;
+    }
+    window.requestAnimationFrame(apply);
+    function afterMath() {
+      if (window.MathJax && window.MathJax.startup && window.MathJax.startup.promise) {
+        window.MathJax.startup.promise.then(apply).catch(function () {});
+      }
+    }
+    window.addEventListener('load', function () { apply(); afterMath(); }, {once:true});
+    afterMath();
+    if (window.ResizeObserver) {
+      observer = new window.ResizeObserver(function () { window.requestAnimationFrame(apply); });
+      observer.observe(document.querySelector('main') || document.body);
+      window.setTimeout(function () { observer.disconnect(); }, 8000);
+    }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', restorePosition, {once:true});
+  else restorePosition();
   function sync() {
     document.querySelectorAll('[data-action="mistake"]').forEach(function (button) {
       var question = button.closest('.exam-question');
@@ -34,7 +106,7 @@
     });
     document.querySelectorAll('[data-mistake-count]').forEach(function (node) { node.textContent = marked.length; });
     document.querySelectorAll('[data-mistake-link]').forEach(function (link) {
-      link.href = link.getAttribute('data-mistake-link') + '#marks=' + encodeURIComponent(JSON.stringify(marked));
+      link.href = link.getAttribute('data-mistake-link') + navigationHash();
     });
     document.querySelectorAll('[data-mistake-storage]').forEach(function (node) { node.hidden = storageAvailable; });
   }
@@ -45,12 +117,24 @@
     if (index === -1) marked.push(number); else marked.splice(index, 1);
     marked = clean(marked); save(); sync();
   }
-  window.radioMistakes = { numbers:function () { return marked.slice(); }, sync:sync };
+  function mountNavigation(navigation) {
+    var link = document.createElement('a');
+    link.setAttribute('data-mistake-link', isBook ? (document.body.getAttribute('data-manual-page') || 'manuel-zh.html') : 'mistake-book.html');
+    link.innerHTML = isBook ? '返回教材' : '打开错题本（<span data-mistake-count>0</span>）';
+    navigation.appendChild(link);
+    sync();
+  }
+  window.radioMistakes = { numbers:function () { return marked.slice(); }, sync:sync, mountNavigation:mountNavigation };
   document.addEventListener('click', function (event) {
     var button = event.target.closest('[data-action="mistake"]');
     if (button) toggle(button.closest('.exam-question').getAttribute('data-question'));
     var link = event.target.closest('[data-mistake-link]');
-    if (link) sync();
+    if (link) { capturePosition(); sync(); }
+  });
+  ['pointerdown','contextmenu'].forEach(function (type) {
+    document.addEventListener(type, function (event) {
+      if (event.target.closest('[data-mistake-link]')) { capturePosition(); sync(); }
+    });
   });
   window.addEventListener('storage', function (event) {
     if (event.key === storageKey || event.key === null) { marked = read(); sync(); }
@@ -72,7 +156,7 @@
     var refresh = document.getElementById('mistake-retry');
     refresh.addEventListener('click', function () {
       // Carry current marks even on browsers that isolate storage for local files.
-      location.href = location.pathname + location.search + '#marks=' + encodeURIComponent(JSON.stringify(marked));
+      location.href = location.pathname + location.search + navigationHash();
       location.reload();
     });
   }

@@ -13,12 +13,13 @@ const quizScript = manual.match(/<script id="manual-quiz-script">([\s\S]*?)<\/sc
 const storageKey = 'radioamateur-fr.mistakes.v1';
 function page({book=false, hash='', saved=null, blocked=false}={}) {
   const content = book ? '<template id="mistake-bank"><ol>'+samples.join('')+'</ol></template>'+
-    '<div class="exam"><ol id="mistake-questions"></ol></div><p id="mistake-empty"></p><p id="mistake-missing"></p><button id="mistake-retry"></button>' : '<div class="exam"><ol>'+samples.join('')+'</ol></div>';
-  const dom = new JSDOM('<main><a data-mistake-link="'+(book?'manuel-zh.html':'mistake-book.html')+'"></a><b data-mistake-count></b><p data-mistake-storage hidden></p>'+content+'</main>',
+    '<div class="exam"><ol id="mistake-questions"></ol></div><p id="mistake-empty"></p><p id="mistake-missing"></p><button id="mistake-retry"></button>' : '<h3 id="R11">测试章节</h3><details class="all-lesson-questions"><summary>其余题目</summary><div class="exam"><ol>'+samples.join('')+'</ol></div></details>';
+  const dom = new JSDOM('<main><b data-mistake-count></b><p data-mistake-storage hidden></p>'+content+'</main>',
     {url:'https://offline.test/'+(book?'mistake-book.html':'manuel-zh.html')+hash, runScripts:'outside-only', pretendToBeVisual:true});
   if(book) dom.window.document.body.setAttribute('data-mistake-book','');
   if(saved!==null) dom.window.localStorage.setItem(storageKey,saved);
   if(blocked) Object.defineProperty(dom.window,'localStorage',{get(){throw Error('blocked');}});
+  dom.window.scrollTo = function(x,y) { dom.window.__restoredY = y; };
   dom.window.eval(mistakesScript);
   dom.window.eval(quizScript);
   return dom;
@@ -26,6 +27,8 @@ function page({book=false, hash='', saved=null, blocked=false}={}) {
 function click(dom, selector) { dom.window.document.querySelector(selector).click(); }
 function count(dom) { return Number(dom.window.document.querySelector('[data-mistake-count]').textContent); }
 let dom = page();
+assert.ok(dom.window.document.querySelector('.quiz-selection-nav [data-mistake-link]'));
+assert.equal(dom.window.document.querySelector('.quiz-selection-nav').hidden,false);
 assert.equal(count(dom),0);
 click(dom,'[data-action="mistake"]');
 assert.equal(count(dom),1);
@@ -66,4 +69,45 @@ reopened.window.localStorage.setItem(storageKey,'[]');
 reopened.window.dispatchEvent(new reopened.window.StorageEvent('storage',{key:storageKey}));
 assert.equal(count(reopened),0);
 for(const instance of [dom,reopened,book,returned,empty,invalid,malformed,blocked]) instance.window.close();
-console.log('通过：标记／取消、持久化、跨页面传递、错题筛选、重新作答、空列表、异常存储与跨标签页同步。');
+(async function () {
+  let reading=page();
+  const doc=reading.window.document;
+  const heading=doc.getElementById('R11');
+  const question=doc.querySelector('.exam-question');
+  const image=question.querySelector('.quiz-image');
+  doc.querySelector('.all-lesson-questions').open=true;
+  for(const [node,top] of [[heading,-900],[question,-350],[image,-340]]) {
+    node.getClientRects=()=>[{top}]; node.getBoundingClientRect=()=>({top});
+  }
+  click(reading,'[data-action="mistake"]');
+  const link=doc.querySelector('.quiz-selection-nav [data-mistake-link]');
+  link.addEventListener('click',e=>e.preventDefault());
+  link.click();
+  const outbound=new URL(link.href);
+  const position=JSON.parse(new URLSearchParams(outbound.hash.slice(1)).get('return'));
+  assert.equal(position.anchor,image.id); assert.equal(position.offset,-340);
+  let reviewing=page({book:true,hash:outbound.hash});
+  const returnLink=reviewing.window.document.querySelector('.quiz-selection-nav [data-mistake-link]');
+  assert.equal(returnLink.textContent,'返回教材');
+  const returnUrl=new URL(returnLink.href);
+  assert.deepEqual(JSON.parse(new URLSearchParams(returnUrl.hash.slice(1)).get('return')),position);
+  // The refreshed notebook remembers the origin even after the URL snapshot was consumed.
+  const remembered=reviewing.window.sessionStorage.getItem(storageKey+'.return');
+  assert.deepEqual(JSON.parse(remembered),position);
+  let restored=page({hash:returnUrl.hash});
+  const restoredImage=restored.window.document.getElementById(image.id);
+  restoredImage.getBoundingClientRect=()=>({top:1200});
+  restored.window.document.dispatchEvent(new restored.window.Event('DOMContentLoaded'));
+  await new Promise(resolve=>setTimeout(resolve,30));
+  assert.equal(restored.window.document.querySelector('.all-lesson-questions').open,true);
+  assert.equal(restored.window.__restoredY,1540);
+  click(restored,'[data-action="reset"]');
+  click(restored,'[data-nav="exit"]');
+  assert.equal(restored.window.document.querySelector('.quiz-selection-nav').hidden,false);
+  assert.equal(restored.window.document.querySelector('.quiz-navigation-controls').hidden,true);
+  const emptyBook=page({book:true});
+  assert.ok(emptyBook.window.document.querySelector('.quiz-selection-nav [data-mistake-link]'));
+  assert.equal(emptyBook.window.document.querySelector('.quiz-selection-nav').hidden,false);
+  for(const instance of [reading,reviewing,restored,emptyBook])instance.window.close();
+  console.log('通过：错题标记与重做回归；浮窗入口、空错题本返回、跨页面阅读位置传递、展开状态恢复及滚动位置恢复。');
+})().catch(error=>{console.error(error);process.exitCode=1;});

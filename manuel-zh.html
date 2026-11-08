@@ -87,7 +87,7 @@ hr { border:none; border-top:1px solid var(--line); margin:2rem 0; }
   border:2px solid #4a79a7; border-radius:8px; z-index:5; box-sizing:border-box;
   transition:transform .26s cubic-bezier(.2,.7,.2,1), width .26s ease, height .26s ease;
   box-shadow:0 0 0 3px #4a79a714; }
-#quiz-selection-frame[hidden], .quiz-selection-nav[hidden] { display:none !important; }
+#quiz-selection-frame[hidden], .quiz-selection-nav[hidden], .quiz-navigation-controls[hidden] { display:none !important; }
 .quiz-selection-nav { position:fixed; bottom:1rem; left:50%; transform:translateX(-50%);
   display:flex; align-items:center; gap:.5rem; padding:.5rem .7rem;
   max-width:calc(100vw - 1rem); background:#fffffff5; border:1px solid #b9c6d2;
@@ -198,8 +198,72 @@ window.MathJax = {
 .mistake-toolbar a,.mistake-toolbar button { font:inherit; color:#14508c; }
 .quiz-controls [data-action="mistake"][aria-pressed="true"] { background:#fff0cf; border-color:#9a6500; color:#714900; }
 .mistake-notice { padding:.7rem; background:#fff0cf; }[hidden] { display:none !important; }
+</style><style id="quiz-floating-nav-style">
+/* Exam-card display: French and original image visible, help hidden. */
+.exam-question [hidden] { display:none !important; }
+.exam .exam-question { margin:1.2rem 0; padding:.3rem .2rem 1rem;
+  border-bottom:1px solid #d7dfe7; position:relative; scroll-margin-top:1rem;
+  border-radius:6px; transition:background-color .24s ease, box-shadow .24s ease; }
+.exam .exam-question.quiz-selected { background:#edf4fb; box-shadow:0 6px 20px #28496b12; }
+.quiz-selection-tag { display:inline-block; margin-left:.5rem; padding:0 .45rem;
+  color:#14508c; background:#dcebf9; border-radius:4px; font-size:.8rem;
+  opacity:0; transform:translateY(3px); transition:opacity .22s ease, transform .22s ease; }
+.quiz-selected .quiz-selection-tag { opacity:1; transform:translateY(0); }
+#quiz-selection-frame { position:absolute; top:0; left:0; pointer-events:none;
+  border:2px solid #4a79a7; border-radius:8px; z-index:5; box-sizing:border-box;
+  transition:transform .26s cubic-bezier(.2,.7,.2,1), width .26s ease, height .26s ease;
+  box-shadow:0 0 0 3px #4a79a714; }
+#quiz-selection-frame[hidden], .quiz-selection-nav[hidden], .quiz-navigation-controls[hidden] { display:none !important; }
+.quiz-selection-nav { position:fixed; bottom:1rem; left:50%; transform:translateX(-50%);
+  display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:.5rem; padding:.5rem .7rem;
+  max-width:calc(100vw - 1rem); background:#fffffff5; border:1px solid #b9c6d2;
+  border-radius:10px; box-shadow:0 4px 24px #16375622; z-index:20;
+  font-size:.85rem; backdrop-filter:blur(8px); }
+.quiz-navigation-controls { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:.5rem; }
+.quiz-selection-nav a { text-decoration:none; }
+.quiz-selection-nav button, .quiz-selection-nav a { font:inherit; cursor:pointer; padding:.35rem .5rem;
+  color:#14508c; border:1px solid #cdd8e4; border-radius:4px; background:#eef3f8;
+  white-space:nowrap; }
+.quiz-selection-nav button:disabled { opacity:.4; cursor:default; }
+.quiz-selection-status { text-align:center; min-width:8rem; line-height:1.35; }
+.quiz-navigation-help { font-size:.88rem; color:#536e87; }
+.all-lesson-questions > summary { cursor:pointer; font-weight:600; color:#14508c; padding:.6rem 0; }
+.exam-question:focus-visible { outline:2px solid #4a6b8a; outline-offset:4px; }
+.exam .exam-options > li { padding:0; border:0; background:transparent; }
+.quiz-choice { width:100%; text-align:left; font:inherit; line-height:1.5;
+  color:inherit; padding:.45rem .6rem; border:1px solid #cdd8e4;
+  border-radius:4px; background:#fff; cursor:pointer; overflow-wrap:anywhere; }
+.quiz-choice:hover { background:#eef3f8; }
+.quiz-choice:focus-visible, .quiz-controls button:focus-visible {
+  outline:2px solid #14508c; outline-offset:2px; }
+.quiz-choice.picked-wrong { background:#fdecea; border-color:#b3261e;
+  text-decoration:line-through; }
+.quiz-choice.picked-right { background:#e8f5ec; border-color:#1a6b34; font-weight:700; }
+.quiz-option-tr { display:block; font-size:.86rem; color:#536e87;
+  font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif; margin-top:.2rem; }
+.quiz-controls { display:flex; flex-wrap:wrap; gap:.5rem; margin:.7rem 0; }
+.quiz-controls button { font:inherit; font-size:.88rem; cursor:pointer;
+  color:#14508c; background:#eef3f8; border:1px solid #cdd8e4;
+  border-radius:4px; padding:.3rem .6rem; }
+.quiz-image { margin:.7rem 0; }
+.quiz-image .qimg { display:block; max-width:100%; height:auto;
+  border:1px solid #d5d5d0; border-radius:4px; background:white; }
+.quiz-heading { font-weight:600; color:#14508c; margin:1rem 0 .3rem; }
+.quiz-comment { color:#555; font-style:italic; }
+.quiz-explanation { line-height:1.8; }
+.quiz-vocabulary .vtab { font-size:.9rem; }
+@media (max-width:540px) {
+  .quiz-selection-nav { gap:.25rem; padding:.4rem; font-size:.75rem; }
+  .quiz-selection-nav button, .quiz-selection-nav a { padding:.3rem; }
+  .quiz-selection-status { min-width:0; }
+}
+@media (prefers-reduced-motion:reduce) {
+  html { scroll-behavior:auto; }
+  #quiz-selection-frame, .exam .exam-question, .quiz-selection-tag { transition:none; }
+}
+@media print { #quiz-selection-frame, .quiz-selection-nav { display:none !important; } }
 </style></head><body><main>
-<h1>法国业余无线电操作员证书备考教材（中文版）</h1><nav class="mistake-toolbar" aria-label="错题本"><a data-mistake-link="mistake-book.html" href="mistake-book.html">打开错题本（<span data-mistake-count>0</span> 道）</a><span>点击题目下方“标记错题”收藏，进入错题本重新作答。</span></nav><p class="mistake-notice" data-mistake-storage hidden>浏览器未能保存标记。当前页面仍可标记；请通过页面内的错题本／返回教材链接携带标记，关闭页面后可能丢失。</p>
+<h1>法国业余无线电操作员证书备考教材（中文版）</h1><p class="mistake-notice" data-mistake-storage hidden>浏览器未能保存标记。当前页面仍可标记；请通过页面内的错题本／返回教材链接携带标记，关闭页面后可能丢失。</p>
 <p class="lead">Certificat d'opérateur du service amateur — 法国业余无线电操作员证书（CEPT/HAREC 级别·单一等级）· 基于 F6KGL《COURS》整理</p>
 <div class="note"><b>本教材是什么：</b>把法国最主流的免费备考教材（F6KGL 的《COURS》，2025 年 11 月版）逐章改写为中文，并按 Exam'1 题库（2692 道真题）的实际题目分布标出每节的题量与典型考法。你可以一边读中文讲解，一边用 <code>Exam1/questions/questions.json</code>里的法语原题练习。<br><b>本教材不是什么：</b>不是官方文件，不能替代 ANFR 公布的考试大纲与法规原文。凡有疑义，以 ANFR / 官方 <i>arrêté</i> 为准。</div>
 <div class="toc">
@@ -92427,15 +92491,87 @@ n 个相同<strong class="exam-key">电容器</strong><strong class="exam-key">�
     try { localStorage.setItem(storageKey, JSON.stringify(marked)); }
     catch (error) { storageAvailable = false; }
   }
+  var isBook = document.body.hasAttribute('data-mistake-book');
+  var returnPoint = null;
+  var incomingReturn = null;
+  function validPosition(value) {
+    if (!value || typeof value.anchor !== 'string' || !/^[A-Za-z0-9_-]{1,100}$/.test(value.anchor) ||
+        typeof value.offset !== 'number' || !Number.isFinite(value.offset) || Math.abs(value.offset) > 200000) return null;
+    return {anchor:value.anchor, offset:value.offset};
+  }
+  function rememberReturn() {
+    if (!isBook) return;
+    try { sessionStorage.setItem(storageKey + '.return', JSON.stringify(returnPoint)); } catch (error) {}
+  }
+  if (isBook) {
+    try { returnPoint = validPosition(JSON.parse(sessionStorage.getItem(storageKey + '.return'))); } catch (error) {}
+  }
   marked = read();
-  // A full snapshot in navigation links also works when file:// pages have separate storage.
+  // Navigation snapshots work even when local files have separate browser storage.
   if (location.hash.indexOf('#marks=') === 0) {
+    var params = new URLSearchParams(location.hash.slice(1));
     try {
-      var incoming = JSON.parse(decodeURIComponent(location.hash.slice(7)));
+      var incoming = JSON.parse(params.get('marks'));
       if (Array.isArray(incoming)) { marked = clean(incoming); save(); }
     } catch (error) { /* Keep saved marks if a link is malformed. */ }
+    try { incomingReturn = validPosition(JSON.parse(params.get('return'))); } catch (error) {}
+    if (incomingReturn) { returnPoint = incomingReturn; rememberReturn(); }
     try { history.replaceState(null, '', location.pathname + location.search); } catch (error) {}
   }
+  function navigationHash() {
+    return '#marks=' + encodeURIComponent(JSON.stringify(marked)) +
+      (returnPoint ? '&return=' + encodeURIComponent(JSON.stringify(returnPoint)) : '');
+  }
+  function capturePosition() {
+    if (isBook) return;
+    var best = null;
+    var bestTop = -Infinity;
+    document.querySelectorAll('h2[id], h3[id], .exam-question').forEach(function (node) {
+      if (!node.getClientRects().length) return;
+      var top = node.getBoundingClientRect().top;
+      if (top <= 80 && top >= bestTop) { best = node; bestTop = top; }
+    });
+    if (!best) best = document.querySelector('h2[id], h3[id]');
+    if (best && best.classList.contains('exam-question')) best = best.querySelector('.quiz-image');
+    if (best && best.id) returnPoint = validPosition({anchor:best.id, offset:best.getBoundingClientRect().top});
+  }
+  function restorePosition() {
+    if (isBook || !incomingReturn) return;
+    var target = document.getElementById(incomingReturn.anchor);
+    if (!target) return;
+    for (var parent = target.parentElement; parent; parent = parent.parentElement) {
+      if (parent.tagName === 'DETAILS') parent.open = true;
+    }
+    var cancelled = false;
+    var observer = null;
+    function cancel() { cancelled = true; if (observer) observer.disconnect(); }
+    ['wheel','touchstart','pointerdown','keydown'].forEach(function (type) {
+      window.addEventListener(type, cancel, {once:true, passive:true});
+    });
+    function apply() {
+      if (cancelled) return;
+      var root = document.documentElement;
+      var previous = root.style.scrollBehavior;
+      root.style.scrollBehavior = 'auto';
+      window.scrollTo(0, Math.max(0, target.getBoundingClientRect().top + window.scrollY - incomingReturn.offset));
+      root.style.scrollBehavior = previous;
+    }
+    window.requestAnimationFrame(apply);
+    function afterMath() {
+      if (window.MathJax && window.MathJax.startup && window.MathJax.startup.promise) {
+        window.MathJax.startup.promise.then(apply).catch(function () {});
+      }
+    }
+    window.addEventListener('load', function () { apply(); afterMath(); }, {once:true});
+    afterMath();
+    if (window.ResizeObserver) {
+      observer = new window.ResizeObserver(function () { window.requestAnimationFrame(apply); });
+      observer.observe(document.querySelector('main') || document.body);
+      window.setTimeout(function () { observer.disconnect(); }, 8000);
+    }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', restorePosition, {once:true});
+  else restorePosition();
   function sync() {
     document.querySelectorAll('[data-action="mistake"]').forEach(function (button) {
       var question = button.closest('.exam-question');
@@ -92446,7 +92582,7 @@ n 个相同<strong class="exam-key">电容器</strong><strong class="exam-key">�
     });
     document.querySelectorAll('[data-mistake-count]').forEach(function (node) { node.textContent = marked.length; });
     document.querySelectorAll('[data-mistake-link]').forEach(function (link) {
-      link.href = link.getAttribute('data-mistake-link') + '#marks=' + encodeURIComponent(JSON.stringify(marked));
+      link.href = link.getAttribute('data-mistake-link') + navigationHash();
     });
     document.querySelectorAll('[data-mistake-storage]').forEach(function (node) { node.hidden = storageAvailable; });
   }
@@ -92457,12 +92593,24 @@ n 个相同<strong class="exam-key">电容器</strong><strong class="exam-key">�
     if (index === -1) marked.push(number); else marked.splice(index, 1);
     marked = clean(marked); save(); sync();
   }
-  window.radioMistakes = { numbers:function () { return marked.slice(); }, sync:sync };
+  function mountNavigation(navigation) {
+    var link = document.createElement('a');
+    link.setAttribute('data-mistake-link', isBook ? (document.body.getAttribute('data-manual-page') || 'manuel-zh.html') : 'mistake-book.html');
+    link.innerHTML = isBook ? '返回教材' : '打开错题本（<span data-mistake-count>0</span>）';
+    navigation.appendChild(link);
+    sync();
+  }
+  window.radioMistakes = { numbers:function () { return marked.slice(); }, sync:sync, mountNavigation:mountNavigation };
   document.addEventListener('click', function (event) {
     var button = event.target.closest('[data-action="mistake"]');
     if (button) toggle(button.closest('.exam-question').getAttribute('data-question'));
     var link = event.target.closest('[data-mistake-link]');
-    if (link) sync();
+    if (link) { capturePosition(); sync(); }
+  });
+  ['pointerdown','contextmenu'].forEach(function (type) {
+    document.addEventListener(type, function (event) {
+      if (event.target.closest('[data-mistake-link]')) { capturePosition(); sync(); }
+    });
   });
   window.addEventListener('storage', function (event) {
     if (event.key === storageKey || event.key === null) { marked = read(); sync(); }
@@ -92484,7 +92632,7 @@ n 个相同<strong class="exam-key">电容器</strong><strong class="exam-key">�
     var refresh = document.getElementById('mistake-retry');
     refresh.addEventListener('click', function () {
       // Carry current marks even on browsers that isolate storage for local files.
-      location.href = location.pathname + location.search + '#marks=' + encodeURIComponent(JSON.stringify(marked));
+      location.href = location.pathname + location.search + navigationHash();
       location.reload();
     });
   }
@@ -92497,7 +92645,6 @@ n 个相同<strong class="exam-key">电容器</strong><strong class="exam-key">�
   window.__manualQuizBound = true;
   var active = null;
   var questions = Array.from(document.querySelectorAll('.exam-question'));
-  if (!questions.length) return;
   questions.forEach(function (question, index) { question.tabIndex = index === 0 ? 0 : -1; });
   var frame = document.createElement('div');
   frame.id = 'quiz-selection-frame';
@@ -92507,12 +92654,14 @@ n 个相同<strong class="exam-key">电容器</strong><strong class="exam-key">�
   var navigation = document.createElement('nav');
   navigation.className = 'quiz-selection-nav';
   navigation.setAttribute('aria-label', '课后例题选题');
-  navigation.hidden = true;
-  navigation.innerHTML = '<button type="button" data-nav="previous" aria-label="上一道题（上方向键）">↑ 上一题</button>' +
+  navigation.hidden = false;
+  navigation.innerHTML = '<span class="quiz-navigation-controls" hidden><button type="button" data-nav="previous" aria-label="上一道题（上方向键）">↑ 上一题</button>' +
     '<span class="quiz-selection-status" aria-live="polite"></span>' +
     '<button type="button" data-nav="next" aria-label="下一道题（下方向键）">下一题 ↓</button>' +
-    '<button type="button" data-nav="exit" aria-label="退出选题（Escape）">退出</button>';
+    '<button type="button" data-nav="exit" aria-label="退出选题（Escape）">退出</button></span>';
   document.body.appendChild(navigation);
+  var navigationControls = navigation.querySelector('.quiz-navigation-controls');
+  if (window.radioMistakes) window.radioMistakes.mountNavigation(navigation);
   var scheduled = false;
   function moveFrame() {
     if (!active) return;
@@ -92549,7 +92698,7 @@ n 个相同<strong class="exam-key">电容器</strong><strong class="exam-key">�
       '第 ' + (index + 1) + ' / ' + visible.length + ' 题 · ' + active.getAttribute('data-question');
     navigation.querySelector('[data-nav="previous"]').disabled = index === 0;
     navigation.querySelector('[data-nav="next"]').disabled = index === visible.length - 1;
-    navigation.hidden = false;
+    navigationControls.hidden = false;
     moveFrame();
     frame.hidden = false;
     if (scroll) {
@@ -92570,7 +92719,7 @@ n 个相同<strong class="exam-key">电容器</strong><strong class="exam-key">�
     }
     active = null;
     frame.hidden = true;
-    navigation.hidden = true;
+    navigationControls.hidden = true;
   }
   function questionFor(target) {
     return target && target.closest ? target.closest('.exam-question') : null;

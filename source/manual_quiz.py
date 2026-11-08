@@ -109,13 +109,15 @@ QUIZ_CSS = """
   border:2px solid #4a79a7; border-radius:8px; z-index:5; box-sizing:border-box;
   transition:transform .26s cubic-bezier(.2,.7,.2,1), width .26s ease, height .26s ease;
   box-shadow:0 0 0 3px #4a79a714; }
-#quiz-selection-frame[hidden], .quiz-selection-nav[hidden] { display:none !important; }
+#quiz-selection-frame[hidden], .quiz-selection-nav[hidden], .quiz-navigation-controls[hidden] { display:none !important; }
 .quiz-selection-nav { position:fixed; bottom:1rem; left:50%; transform:translateX(-50%);
-  display:flex; align-items:center; gap:.5rem; padding:.5rem .7rem;
+  display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:.5rem; padding:.5rem .7rem;
   max-width:calc(100vw - 1rem); background:#fffffff5; border:1px solid #b9c6d2;
   border-radius:10px; box-shadow:0 4px 24px #16375622; z-index:20;
   font-size:.85rem; backdrop-filter:blur(8px); }
-.quiz-selection-nav button { font:inherit; cursor:pointer; padding:.35rem .5rem;
+.quiz-navigation-controls { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:.5rem; }
+.quiz-selection-nav a { text-decoration:none; }
+.quiz-selection-nav button, .quiz-selection-nav a { font:inherit; cursor:pointer; padding:.35rem .5rem;
   color:#14508c; border:1px solid #cdd8e4; border-radius:4px; background:#eef3f8;
   white-space:nowrap; }
 .quiz-selection-nav button:disabled { opacity:.4; cursor:default; }
@@ -148,7 +150,7 @@ QUIZ_CSS = """
 .quiz-vocabulary .vtab { font-size:.9rem; }
 @media (max-width:540px) {
   .quiz-selection-nav { gap:.25rem; padding:.4rem; font-size:.75rem; }
-  .quiz-selection-nav button { padding:.3rem; }
+  .quiz-selection-nav button, .quiz-selection-nav a { padding:.3rem; }
   .quiz-selection-status { min-width:0; }
 }
 @media (prefers-reduced-motion:reduce) {
@@ -165,7 +167,6 @@ QUIZ_SCRIPT = r"""
   window.__manualQuizBound = true;
   var active = null;
   var questions = Array.from(document.querySelectorAll('.exam-question'));
-  if (!questions.length) return;
   questions.forEach(function (question, index) { question.tabIndex = index === 0 ? 0 : -1; });
   var frame = document.createElement('div');
   frame.id = 'quiz-selection-frame';
@@ -175,12 +176,14 @@ QUIZ_SCRIPT = r"""
   var navigation = document.createElement('nav');
   navigation.className = 'quiz-selection-nav';
   navigation.setAttribute('aria-label', '课后例题选题');
-  navigation.hidden = true;
-  navigation.innerHTML = '<button type="button" data-nav="previous" aria-label="上一道题（上方向键）">↑ 上一题</button>' +
+  navigation.hidden = false;
+  navigation.innerHTML = '<span class="quiz-navigation-controls" hidden><button type="button" data-nav="previous" aria-label="上一道题（上方向键）">↑ 上一题</button>' +
     '<span class="quiz-selection-status" aria-live="polite"></span>' +
     '<button type="button" data-nav="next" aria-label="下一道题（下方向键）">下一题 ↓</button>' +
-    '<button type="button" data-nav="exit" aria-label="退出选题（Escape）">退出</button>';
+    '<button type="button" data-nav="exit" aria-label="退出选题（Escape）">退出</button></span>';
   document.body.appendChild(navigation);
+  var navigationControls = navigation.querySelector('.quiz-navigation-controls');
+  if (window.radioMistakes) window.radioMistakes.mountNavigation(navigation);
   var scheduled = false;
   function moveFrame() {
     if (!active) return;
@@ -217,7 +220,7 @@ QUIZ_SCRIPT = r"""
       '第 ' + (index + 1) + ' / ' + visible.length + ' 题 · ' + active.getAttribute('data-question');
     navigation.querySelector('[data-nav="previous"]').disabled = index === 0;
     navigation.querySelector('[data-nav="next"]').disabled = index === visible.length - 1;
-    navigation.hidden = false;
+    navigationControls.hidden = false;
     moveFrame();
     frame.hidden = false;
     if (scroll) {
@@ -238,7 +241,7 @@ QUIZ_SCRIPT = r"""
     }
     active = null;
     frame.hidden = true;
-    navigation.hidden = true;
+    navigationControls.hidden = true;
   }
   function questionFor(target) {
     return target && target.closest ? target.closest('.exam-question') : null;

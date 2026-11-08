@@ -22,10 +22,7 @@ def add_mistake_features(document):
     # render_question supplies the button to new drafts; older edited manuals need it inserted.
     document = re.sub(r'(<div class="quiz-controls">)(?!\s*<button[^>]*data-action="mistake")',
                       lambda m:m[0]+'\n'+BUTTON, document)
-    toolbar = ('<nav class="mistake-toolbar" aria-label="错题本">'
-               '<a data-mistake-link="mistake-book.html" href="mistake-book.html">打开错题本（<span data-mistake-count>0</span> 道）</a>'
-               '<span>点击题目下方“标记错题”收藏，进入错题本重新作答。</span></nav>'+NOTICE)
-    document = document.replace('</h1>','</h1>'+toolbar,1)
+    document = document.replace('</h1>', '</h1>' + NOTICE, 1)
     document = document.replace('</head>',STYLE+'</head>',1)
     return document.replace('<script id="manual-quiz-script">',SCRIPT+'<script id="manual-quiz-script">',1)
 
@@ -38,13 +35,12 @@ def build_mistake_book(document, manual_name="manuel-zh.html"):
     head = document[:document.index('</head>')]
     head = re.sub(r'<title>.*?</title>', '<title>错题本 · 法国业余无线电考试</title>',head)
     # Reuse the textbook's styles and MathJax configuration for identical question rendering.
-    return (head + '</head><body data-mistake-book><main><h1>错题本</h1>'
+    return (head + f'</head><body data-mistake-book data-manual-page="{manual_name}"><main><h1>错题本</h1>'
             '<nav class="mistake-toolbar" aria-label="错题本操作">'
-            f'<a data-mistake-link="{manual_name}" href="{manual_name}">返回教材</a>'
             '<span>已标记 <b data-mistake-count>0</b> 道</span>'
             '<button type="button" id="mistake-retry">刷新错题列表／全部重做</button></nav>'
             '<p>每次打开均从未作答状态开始。点击“移出错题本”取消标记；本轮题目保留，刷新列表后移除。</p>'
-            '<p>标记保存在当前浏览器。直接打开本地文件时，请使用页面内的链接在教材和错题本之间切换，以同步标记。</p>'
+            '<p>标记保存在当前浏览器。直接打开本地文件时，请使用下方浮窗在教材和错题本之间切换，以同步标记并返回先前阅读位置。</p>'
             + NOTICE + '<p id="mistake-empty">错题本暂无题目。返回教材，点击“标记错题”后再从教材打开错题本。</p>'
             '<p id="mistake-missing" class="mistake-notice" hidden></p>'
             '<div class="exam"><ol id="mistake-questions"></ol></div>'
