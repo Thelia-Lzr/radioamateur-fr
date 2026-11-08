@@ -7,6 +7,8 @@ from pathlib import Path
 import re
 import sys
 import zipfile
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "source"))
+from gen_common import section_questions
 
 from bs4 import BeautifulSoup
 
@@ -22,7 +24,26 @@ def main():
     by_number = {q['num']: q for q in bank['questions']}
     expected = sum(len(unit.get('picks', [])) for unit in plan['units'])
     questions = soup.select('.exam-question')
-    assert len(questions) == expected == 455, '课后题数量不匹配'
+    assert expected == 455, '默认例题数量不匹配'
+    assert len(questions) == sum(unit['nq'] for unit in plan['units']) == 2688, '课后题总数不匹配'
+    for unit in plan['units']:
+        heading = soup.find('h3', id=unit['id'])
+        section_nodes = []
+        for sibling in heading.next_siblings:
+            if getattr(sibling, 'name', None) in ('h2', 'h3'):
+                break
+            if getattr(sibling, 'name', None):
+                section_nodes.extend(sibling.select('.exam-question'))
+        actual = [q['data-question'] for q in section_nodes]
+        wanted = [str(q['num']) for q in section_questions(unit.get('anchors', []))]
+        assert len(actual) == len(set(actual)) and set(actual) == set(wanted), unit['id']
+        examples = [str(q['num']) for q in unit.get('picks', [])]
+        assert actual[:len(examples)] == examples, unit['id']
+        for q in section_nodes[:len(examples)]:
+            assert q.find_parent('details', class_='all-lesson-questions') is None, unit['id']
+        for q in section_nodes[len(examples):]:
+            container = q.find_parent('details', class_='all-lesson-questions')
+            assert container is not None and not container.has_attr('open'), unit['id']
     assert len(soup.select('.chapter-summary')) == len(guide['chapters']) == 18
     assert len(soup.select('.section-summary')) == len(guide['sections']) == 126
     vocabulary_by_section = json.loads((ROOT / 'source/lesson_vocab.json').read_text(encoding='utf-8'))
@@ -76,7 +97,7 @@ def main():
                 continue
             local = target.split('#', 1)[0]
             assert (path.parent / local).exists(), f'{path.name}: {target}'
-    print(f'通过：18 章 / 126 节 / {expected} 道课后题，题图、选项、默认状态、快捷键与锚点完整。')
+    print(f'通过：18 章 / 126 节 / {len(questions)} 道关联习题（默认显示 {expected} 道例题），题图、选项、默认状态、快捷键与锚点完整。')
     print(f'通过：{len(vocabulary)-1} 条词汇、{len(decks)} 个 Anki 包与文档链接完整。')
 
 

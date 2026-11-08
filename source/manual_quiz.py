@@ -120,6 +120,7 @@ QUIZ_CSS = """
 .quiz-selection-nav button:disabled { opacity:.4; cursor:default; }
 .quiz-selection-status { text-align:center; min-width:8rem; line-height:1.35; }
 .quiz-navigation-help { font-size:.88rem; color:#536e87; }
+.all-lesson-questions > summary { cursor:pointer; font-weight:600; color:#14508c; padding:.6rem 0; }
 .exam-question:focus-visible { outline:2px solid #4a6b8a; outline-offset:4px; }
 .exam .exam-options > li { padding:0; border:0; background:transparent; }
 .quiz-choice { width:100%; text-align:left; font:inherit; line-height:1.5;
@@ -193,6 +194,9 @@ QUIZ_SCRIPT = r"""
     scheduled = true;
     window.requestAnimationFrame(function () { scheduled = false; moveFrame(); });
   }
+  function visibleQuestions() {
+    return questions.filter(function (question) { return question.getClientRects().length > 0; });
+  }
   function select(question, scroll) {
     if (!question) return;
     if (active !== question) {
@@ -206,11 +210,12 @@ QUIZ_SCRIPT = r"""
       active.setAttribute('aria-current', 'true');
       active.tabIndex = 0;
     }
-    var index = questions.indexOf(active);
+    var visible = visibleQuestions();
+    var index = visible.indexOf(active);
     navigation.querySelector('.quiz-selection-status').textContent =
-      '第 ' + (index + 1) + ' / ' + questions.length + ' 题 · ' + active.getAttribute('data-question');
+      '第 ' + (index + 1) + ' / ' + visible.length + ' 题 · ' + active.getAttribute('data-question');
     navigation.querySelector('[data-nav="previous"]').disabled = index === 0;
-    navigation.querySelector('[data-nav="next"]').disabled = index === questions.length - 1;
+    navigation.querySelector('[data-nav="next"]').disabled = index === visible.length - 1;
     navigation.hidden = false;
     moveFrame();
     frame.hidden = false;
@@ -221,8 +226,9 @@ QUIZ_SCRIPT = r"""
   }
   function step(direction) {
     if (!active) return;
-    var index = questions.indexOf(active) + direction;
-    if (index >= 0 && index < questions.length) select(questions[index], true);
+    var visible = visibleQuestions();
+    var index = visible.indexOf(active) + direction;
+    if (index >= 0 && index < visible.length) select(visible[index], true);
   }
   function exit() {
     if (active) {
@@ -317,7 +323,13 @@ QUIZ_SCRIPT = r"""
     event.preventDefault();
     scheduleFrame();
   });
-  document.addEventListener('toggle', scheduleFrame, true);
+  document.addEventListener('toggle', function (event) {
+    if (event.target.classList.contains('all-lesson-questions')) {
+      if (active && !active.getClientRects().length) exit();
+      else if (active) select(active, false);
+    }
+    scheduleFrame();
+  }, true);
   document.addEventListener('load', scheduleFrame, true);
   window.addEventListener('resize', scheduleFrame);
   if (window.ResizeObserver) {

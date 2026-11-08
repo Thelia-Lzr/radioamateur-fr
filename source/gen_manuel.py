@@ -8,6 +8,7 @@ from gen_common import (load_questions, questions_by_anchor, norm_anchor,
 from manual_quiz import QUIZ_CSS, QUIZ_SCRIPT, render_question
 from study_polish import polish_document
 from lesson_vocab import add_lesson_vocab
+from all_lesson_questions import add_all_lesson_questions
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DEST = os.path.abspath(os.path.join(BASE, '..', 'manuel-zh.html'))
@@ -337,6 +338,7 @@ def build(units, sections, qt, plan):
     A('</main><script id="manual-quiz-script">%s</script></body></html>' % QUIZ_SCRIPT)
     document, _ = polish_document('\n'.join(out))
     document = add_lesson_vocab(document)
+    document = add_all_lesson_questions(document, units)
     return document, warns
 
 
