@@ -25,6 +25,15 @@ def main():
     assert len(questions) == expected == 455, '课后题数量不匹配'
     assert len(soup.select('.chapter-summary')) == len(guide['chapters']) == 18
     assert len(soup.select('.section-summary')) == len(guide['sections']) == 126
+    vocabulary_by_section = json.loads((ROOT / 'source/lesson_vocab.json').read_text(encoding='utf-8'))
+    vocabulary_blocks = soup.select('.lesson-vocab')
+    assert len(vocabulary_blocks) == len(vocabulary_by_section) == 126
+    assert {block['data-section'] for block in vocabulary_blocks} == set(guide['sections'])
+    for block in vocabulary_blocks:
+        sid = block['data-section']
+        assert block.find_previous_sibling()['data-section'] == sid
+        assert len(block.select('li')) == len(vocabulary_by_section[sid]) >= 3
+        assert all(item.select_one('[lang="fr"]') for item in block.select('li'))
     assert all(body.select('.exam-key') for body in soup.select('.lesson-body'))
     ids = [tag['id'] for tag in soup.select('[id]')]
     assert len(ids) == len(set(ids)), '存在重复锚点'

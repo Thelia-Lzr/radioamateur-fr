@@ -1,0 +1,1842 @@
+{
+  "R11": [
+    [
+      "réglementation",
+      "法规"
+    ],
+    [
+      "attribution des fréquences",
+      "频率划分"
+    ],
+    [
+      "autorité",
+      "主管机构"
+    ]
+  ],
+  "R12a": [
+    [
+      "classe d’émission",
+      "发射类别"
+    ],
+    [
+      "porteuse",
+      "载波"
+    ],
+    [
+      "modulation",
+      "调制"
+    ]
+  ],
+  "R12b": [
+    [
+      "autorisation d’émettre",
+      "发射许可"
+    ],
+    [
+      "classe d’émission",
+      "发射类别"
+    ],
+    [
+      "bande occupée",
+      "占用带宽"
+    ]
+  ],
+  "R13": [
+    [
+      "équipement obligatoire",
+      "强制设备"
+    ],
+    [
+      "stabilité de fréquence",
+      "频率稳定度"
+    ],
+    [
+      "spectre",
+      "频谱"
+    ]
+  ],
+  "R13a": [
+    [
+      "indicateur de puissance",
+      "功率指示器"
+    ],
+    [
+      "charge fictive",
+      "假负载"
+    ],
+    [
+      "filtre secteur",
+      "市电滤波器"
+    ]
+  ],
+  "R13b": [
+    [
+      "bande occupée",
+      "占用带宽"
+    ],
+    [
+      "excursion de fréquence",
+      "频偏"
+    ],
+    [
+      "largeur de bande",
+      "带宽"
+    ]
+  ],
+  "R13c": [
+    [
+      "rayonnement non essentiel",
+      "非必要辐射"
+    ],
+    [
+      "émission hors bande",
+      "带外发射"
+    ],
+    [
+      "affaiblissement",
+      "衰减"
+    ]
+  ],
+  "R21": [
+    [
+      "bande de fréquences",
+      "频段"
+    ],
+    [
+      "région",
+      "区域"
+    ],
+    [
+      "service amateur par satellite",
+      "业余卫星业务"
+    ]
+  ],
+  "R21b": [
+    [
+      "limite inférieure",
+      "下限"
+    ],
+    [
+      "limite supérieure",
+      "上限"
+    ],
+    [
+      "service primaire",
+      "主要业务"
+    ]
+  ],
+  "R21c": [
+    [
+      "service primaire",
+      "主要业务"
+    ],
+    [
+      "service secondaire",
+      "次要业务"
+    ],
+    [
+      "brouillage préjudiciable",
+      "有害干扰"
+    ]
+  ],
+  "R21d": [
+    [
+      "bande de fréquences",
+      "频段"
+    ],
+    [
+      "attribution",
+      "划分"
+    ],
+    [
+      "note de bas de page",
+      "脚注"
+    ]
+  ],
+  "R22": [
+    [
+      "exposition aux champs électromagnétiques",
+      "电磁场暴露"
+    ],
+    [
+      "station de réception",
+      "接收站"
+    ],
+    [
+      "droit à l’antenne",
+      "天线设置权"
+    ]
+  ],
+  "R22a": [
+    [
+      "puissance maximale",
+      "最大功率"
+    ],
+    [
+      "puissance apparente rayonnée",
+      "视在辐射功率"
+    ],
+    [
+      "classe d’émission",
+      "发射类别"
+    ]
+  ],
+  "R31": [
+    [
+      "alphabet phonétique international",
+      "国际字母解释法"
+    ],
+    [
+      "épeler",
+      "拼读"
+    ],
+    [
+      "indicatif d’appel",
+      "呼号"
+    ]
+  ],
+  "R32": [
+    [
+      "report RST",
+      "RST 信号报告"
+    ],
+    [
+      "code Morse",
+      "莫尔斯电码"
+    ],
+    [
+      "abréviation",
+      "缩写"
+    ]
+  ],
+  "R32a": [
+    [
+      "code Q",
+      "Q 简语"
+    ],
+    [
+      "fréquence",
+      "频率"
+    ],
+    [
+      "brouillage",
+      "干扰"
+    ]
+  ],
+  "R33": [
+    [
+      "contact radio",
+      "无线电通联"
+    ],
+    [
+      "indicatif d’appel",
+      "呼号"
+    ],
+    [
+      "brouillage",
+      "干扰"
+    ]
+  ],
+  "R34": [
+    [
+      "message",
+      "报文"
+    ],
+    [
+      "correspondance",
+      "通信"
+    ],
+    [
+      "interdit",
+      "禁止的"
+    ]
+  ],
+  "R41": [
+    [
+      "journal de bord",
+      "电台日志"
+    ],
+    [
+      "date",
+      "日期"
+    ],
+    [
+      "heure UTC",
+      "协调世界时"
+    ]
+  ],
+  "R42": [
+    [
+      "indicatif d’appel",
+      "呼号"
+    ],
+    [
+      "conformité",
+      "合规"
+    ],
+    [
+      "station radioélectrique",
+      "无线电台站"
+    ]
+  ],
+  "R43": [
+    [
+      "radio-club",
+      "无线电俱乐部"
+    ],
+    [
+      "répéteur",
+      "中继台"
+    ],
+    [
+      "balise",
+      "信标"
+    ]
+  ],
+  "R42a": [
+    [
+      "station fixe",
+      "固定台"
+    ],
+    [
+      "station portable",
+      "便携台"
+    ],
+    [
+      "station mobile maritime",
+      "海上移动台"
+    ]
+  ],
+  "R42e": [
+    [
+      "déclaration",
+      "申报"
+    ],
+    [
+      "station fixe",
+      "固定台"
+    ],
+    [
+      "puissance apparente rayonnée",
+      "视在辐射功率"
+    ]
+  ],
+  "R44": [
+    [
+      "sanction",
+      "处罚"
+    ],
+    [
+      "suspension",
+      "暂停"
+    ],
+    [
+      "retrait de l’indicatif",
+      "吊销呼号"
+    ]
+  ],
+  "R45": [
+    [
+      "examen",
+      "考试"
+    ],
+    [
+      "candidat",
+      "考生"
+    ],
+    [
+      "épreuve",
+      "考试科目"
+    ]
+  ],
+  "R46": [
+    [
+      "indicatif d’appel",
+      "呼号"
+    ],
+    [
+      "annuaire",
+      "名录"
+    ],
+    [
+      "suspension volontaire",
+      "自愿暂停"
+    ]
+  ],
+  "R46a": [
+    [
+      "préfixe",
+      "前缀"
+    ],
+    [
+      "suffixe",
+      "后缀"
+    ],
+    [
+      "outre-mer",
+      "海外领地"
+    ]
+  ],
+  "R46c": [
+    [
+      "indicatif spécial",
+      "特殊呼号"
+    ],
+    [
+      "préfixe",
+      "前缀"
+    ],
+    [
+      "manifestation",
+      "活动"
+    ]
+  ],
+  "R47": [
+    [
+      "accord bilatéral",
+      "双边协议"
+    ],
+    [
+      "séjour",
+      "停留"
+    ],
+    [
+      "autorisation d’émettre",
+      "发射许可"
+    ]
+  ],
+  "R47a": [
+    [
+      "licence CEPT",
+      "CEPT 许可"
+    ],
+    [
+      "préfixe",
+      "前缀"
+    ],
+    [
+      "station portable",
+      "便携台"
+    ]
+  ],
+  "R47b": [
+    [
+      "pays membre",
+      "成员国"
+    ],
+    [
+      "préfixe",
+      "前缀"
+    ],
+    [
+      "indicatif d’appel",
+      "呼号"
+    ]
+  ],
+  "R51": [
+    [
+      "puissance",
+      "功率"
+    ],
+    [
+      "rapport de puissance",
+      "功率比"
+    ],
+    [
+      "décibel",
+      "分贝"
+    ]
+  ],
+  "R52": [
+    [
+      "antenne",
+      "天线"
+    ],
+    [
+      "gain",
+      "增益"
+    ],
+    [
+      "diagramme de rayonnement",
+      "辐射方向图"
+    ]
+  ],
+  "R52b": [
+    [
+      "gamme d’ondes",
+      "波段"
+    ],
+    [
+      "fréquence",
+      "频率"
+    ],
+    [
+      "longueur d’onde",
+      "波长"
+    ]
+  ],
+  "R52c": [
+    [
+      "dipôle demi-onde",
+      "半波振子"
+    ],
+    [
+      "centre d’alimentation",
+      "馈电中心"
+    ],
+    [
+      "longueur d’onde",
+      "波长"
+    ]
+  ],
+  "R52e": [
+    [
+      "antenne quart d’onde",
+      "四分之一波长天线"
+    ],
+    [
+      "plan de sol",
+      "地网"
+    ],
+    [
+      "polarisation verticale",
+      "垂直极化"
+    ]
+  ],
+  "R52h": [
+    [
+      "puissance apparente rayonnée",
+      "视在辐射功率"
+    ],
+    [
+      "puissance isotrope rayonnée équivalente",
+      "等效全向辐射功率"
+    ],
+    [
+      "gain d’antenne",
+      "天线增益"
+    ]
+  ],
+  "R53": [
+    [
+      "ligne de transmission",
+      "传输线"
+    ],
+    [
+      "rapport d’ondes stationnaires",
+      "驻波比"
+    ],
+    [
+      "adaptation d’impédance",
+      "阻抗匹配"
+    ]
+  ],
+  "R54": [
+    [
+      "compatibilité électromagnétique",
+      "电磁兼容"
+    ],
+    [
+      "brouillage",
+      "干扰"
+    ],
+    [
+      "filtre",
+      "滤波器"
+    ]
+  ],
+  "R55": [
+    [
+      "mise à la terre",
+      "接地"
+    ],
+    [
+      "électrocution",
+      "触电致死"
+    ],
+    [
+      "disjoncteur différentiel",
+      "漏电断路器"
+    ]
+  ],
+  "T001": [
+    [
+      "équation",
+      "方程"
+    ],
+    [
+      "égalité",
+      "等式"
+    ],
+    [
+      "inconnue",
+      "未知数"
+    ]
+  ],
+  "T002": [
+    [
+      "puissance de dix",
+      "十的幂"
+    ],
+    [
+      "multiple",
+      "倍数"
+    ],
+    [
+      "sous-multiple",
+      "分数单位"
+    ]
+  ],
+  "T003": [
+    [
+      "calculatrice",
+      "计算器"
+    ],
+    [
+      "notation scientifique",
+      "科学计数法"
+    ],
+    [
+      "virgule décimale",
+      "小数点"
+    ]
+  ],
+  "T011": [
+    [
+      "tension",
+      "电压"
+    ],
+    [
+      "intensité du courant",
+      "电流强度"
+    ],
+    [
+      "résistance",
+      "电阻"
+    ],
+    [
+      "puissance",
+      "功率"
+    ]
+  ],
+  "T012": [
+    [
+      "loi d’Ohm",
+      "欧姆定律"
+    ],
+    [
+      "loi de Joule",
+      "焦耳定律"
+    ],
+    [
+      "tension",
+      "电压"
+    ],
+    [
+      "intensité",
+      "电流强度"
+    ]
+  ],
+  "T012a": [
+    [
+      "formule",
+      "公式"
+    ],
+    [
+      "unité",
+      "单位"
+    ],
+    [
+      "résistance",
+      "电阻"
+    ],
+    [
+      "puissance",
+      "功率"
+    ]
+  ],
+  "T012b": [
+    [
+      "triangle de calcul",
+      "计算三角"
+    ],
+    [
+      "produit",
+      "乘积"
+    ],
+    [
+      "quotient",
+      "商"
+    ]
+  ],
+  "T013": [
+    [
+      "charge électrique",
+      "电荷量"
+    ],
+    [
+      "coulomb",
+      "库仑"
+    ],
+    [
+      "énergie",
+      "能量"
+    ],
+    [
+      "joule",
+      "焦耳"
+    ]
+  ],
+  "T014": [
+    [
+      "résistivité",
+      "电阻率"
+    ],
+    [
+      "longueur du conducteur",
+      "导线长度"
+    ],
+    [
+      "section",
+      "横截面积"
+    ]
+  ],
+  "T015a": [
+    [
+      "code des couleurs",
+      "色环码"
+    ],
+    [
+      "anneau",
+      "色环"
+    ],
+    [
+      "tolérance",
+      "容差"
+    ]
+  ],
+  "T015c": [
+    [
+      "série normalisée",
+      "标准系列"
+    ],
+    [
+      "résistance",
+      "电阻器"
+    ],
+    [
+      "puissance dissipée",
+      "耗散功率"
+    ]
+  ],
+  "T016": [
+    [
+      "loi des nœuds",
+      "节点定律"
+    ],
+    [
+      "loi des mailles",
+      "回路定律"
+    ],
+    [
+      "courant",
+      "电流"
+    ]
+  ],
+  "T017": [
+    [
+      "en parallèle",
+      "并联"
+    ],
+    [
+      "résistance équivalente",
+      "等效电阻"
+    ],
+    [
+      "dérivation",
+      "并联支路"
+    ]
+  ],
+  "T017a": [
+    [
+      "en série",
+      "串联"
+    ],
+    [
+      "pont diviseur de tension",
+      "分压器"
+    ],
+    [
+      "chute de tension",
+      "电压降"
+    ]
+  ],
+  "T017e": [
+    [
+      "réseau mixte",
+      "混联网络"
+    ],
+    [
+      "résistance équivalente",
+      "等效电阻"
+    ],
+    [
+      "association en parallèle",
+      "并联组合"
+    ]
+  ],
+  "T018": [
+    [
+      "pont de Wheatstone",
+      "惠斯通电桥"
+    ],
+    [
+      "équilibre",
+      "平衡"
+    ],
+    [
+      "résistance inconnue",
+      "未知电阻"
+    ]
+  ],
+  "T021": [
+    [
+      "courant alternatif",
+      "交流电"
+    ],
+    [
+      "période",
+      "周期"
+    ],
+    [
+      "fréquence",
+      "频率"
+    ],
+    [
+      "pulsation",
+      "角频率"
+    ]
+  ],
+  "T022": [
+    [
+      "valeur efficace",
+      "有效值"
+    ],
+    [
+      "valeur maximale",
+      "最大值"
+    ],
+    [
+      "valeur crête à crête",
+      "峰峰值"
+    ],
+    [
+      "oscilloscope",
+      "示波器"
+    ]
+  ],
+  "T023": [
+    [
+      "bobine",
+      "线圈"
+    ],
+    [
+      "condensateur",
+      "电容器"
+    ],
+    [
+      "réactance",
+      "电抗"
+    ],
+    [
+      "déphasage",
+      "相位差"
+    ]
+  ],
+  "T023c3": [
+    [
+      "capacité",
+      "电容量"
+    ],
+    [
+      "permittivité",
+      "介电常数"
+    ],
+    [
+      "diélectrique",
+      "电介质"
+    ],
+    [
+      "rigidité diélectrique",
+      "介电强度"
+    ]
+  ],
+  "T023f1": [
+    [
+      "réactance inductive",
+      "感抗"
+    ],
+    [
+      "inductance",
+      "电感量"
+    ],
+    [
+      "fréquence",
+      "频率"
+    ]
+  ],
+  "T023g2": [
+    [
+      "condensateurs en série",
+      "电容器串联"
+    ],
+    [
+      "capacité équivalente",
+      "等效电容量"
+    ],
+    [
+      "facteur de qualité",
+      "品质因数"
+    ]
+  ],
+  "T024": [
+    [
+      "charge",
+      "充电"
+    ],
+    [
+      "décharge",
+      "放电"
+    ],
+    [
+      "constante de temps",
+      "时间常数"
+    ]
+  ],
+  "T025": [
+    [
+      "impédance",
+      "阻抗"
+    ],
+    [
+      "déphasage",
+      "相位差"
+    ],
+    [
+      "facteur de puissance",
+      "功率因数"
+    ]
+  ],
+  "T031": [
+    [
+      "transformateur",
+      "变压器"
+    ],
+    [
+      "rapport de transformation",
+      "变比"
+    ],
+    [
+      "enroulement primaire",
+      "初级绕组"
+    ],
+    [
+      "enroulement secondaire",
+      "次级绕组"
+    ]
+  ],
+  "T032": [
+    [
+      "rendement",
+      "效率"
+    ],
+    [
+      "autotransformateur",
+      "自耦变压器"
+    ],
+    [
+      "courants de Foucault",
+      "涡流"
+    ]
+  ],
+  "T033": [
+    [
+      "pile",
+      "电池"
+    ],
+    [
+      "accumulateur",
+      "蓄电池"
+    ],
+    [
+      "résistance interne",
+      "内阻"
+    ],
+    [
+      "capacité",
+      "容量"
+    ]
+  ],
+  "T034": [
+    [
+      "galvanomètre",
+      "检流计"
+    ],
+    [
+      "voltmètre",
+      "电压表"
+    ],
+    [
+      "ampèremètre",
+      "电流表"
+    ],
+    [
+      "calibre",
+      "量程"
+    ]
+  ],
+  "T035": [
+    [
+      "sensibilité du voltmètre",
+      "电压表灵敏度"
+    ],
+    [
+      "résistance interne",
+      "内阻"
+    ],
+    [
+      "calibre",
+      "量程"
+    ]
+  ],
+  "T036": [
+    [
+      "ohmmètre",
+      "欧姆表"
+    ],
+    [
+      "wattmètre",
+      "功率表"
+    ],
+    [
+      "mesure",
+      "测量"
+    ]
+  ],
+  "T037": [
+    [
+      "basse fréquence",
+      "低频"
+    ],
+    [
+      "microphone",
+      "话筒"
+    ],
+    [
+      "haut-parleur",
+      "扬声器"
+    ],
+    [
+      "relais",
+      "继电器"
+    ]
+  ],
+  "T041": [
+    [
+      "décibel",
+      "分贝"
+    ],
+    [
+      "gain",
+      "增益"
+    ],
+    [
+      "affaiblissement",
+      "衰减"
+    ],
+    [
+      "rapport de puissance",
+      "功率比"
+    ]
+  ],
+  "T042": [
+    [
+      "filtre passe-bas",
+      "低通滤波器"
+    ],
+    [
+      "filtre passe-haut",
+      "高通滤波器"
+    ],
+    [
+      "fréquence de coupure",
+      "截止频率"
+    ]
+  ],
+  "T043": [
+    [
+      "circuit résonant",
+      "谐振电路"
+    ],
+    [
+      "résonance",
+      "谐振"
+    ],
+    [
+      "fréquence de résonance",
+      "谐振频率"
+    ]
+  ],
+  "T044": [
+    [
+      "facteur de qualité",
+      "品质因数"
+    ],
+    [
+      "bande passante",
+      "通带宽度"
+    ],
+    [
+      "sélectivité",
+      "选择性"
+    ]
+  ],
+  "T045": [
+    [
+      "filtre en π",
+      "π 型滤波器"
+    ],
+    [
+      "filtre en T",
+      "T 型滤波器"
+    ],
+    [
+      "adaptation d’impédance",
+      "阻抗匹配"
+    ]
+  ],
+  "T046": [
+    [
+      "inductance",
+      "电感量"
+    ],
+    [
+      "capacité",
+      "电容量"
+    ],
+    [
+      "impédance",
+      "阻抗"
+    ],
+    [
+      "facteur de qualité",
+      "品质因数"
+    ]
+  ],
+  "T051": [
+    [
+      "diode",
+      "二极管"
+    ],
+    [
+      "anode",
+      "阳极"
+    ],
+    [
+      "cathode",
+      "阴极"
+    ]
+  ],
+  "T052": [
+    [
+      "jonction PN",
+      "PN 结"
+    ],
+    [
+      "tension directe",
+      "正向电压"
+    ],
+    [
+      "polarisation inverse",
+      "反向偏置"
+    ]
+  ],
+  "T053": [
+    [
+      "redressement",
+      "整流"
+    ],
+    [
+      "diode varicap",
+      "变容二极管"
+    ],
+    [
+      "diode Zener",
+      "稳压二极管"
+    ]
+  ],
+  "T054": [
+    [
+      "alimentation",
+      "电源"
+    ],
+    [
+      "redresseur",
+      "整流器"
+    ],
+    [
+      "condensateur de filtrage",
+      "滤波电容"
+    ],
+    [
+      "régulation",
+      "稳压"
+    ]
+  ],
+  "T061": [
+    [
+      "transistor bipolaire",
+      "双极型晶体管"
+    ],
+    [
+      "émetteur",
+      "发射极"
+    ],
+    [
+      "base",
+      "基极"
+    ],
+    [
+      "collecteur",
+      "集电极"
+    ]
+  ],
+  "T062": [
+    [
+      "gain en courant",
+      "电流增益"
+    ],
+    [
+      "courant de base",
+      "基极电流"
+    ],
+    [
+      "courant de collecteur",
+      "集电极电流"
+    ]
+  ],
+  "T063": [
+    [
+      "émetteur commun",
+      "共射极"
+    ],
+    [
+      "collecteur commun",
+      "共集电极"
+    ],
+    [
+      "base commune",
+      "共基极"
+    ]
+  ],
+  "T064": [
+    [
+      "transistor à effet de champ",
+      "场效应晶体管"
+    ],
+    [
+      "grille",
+      "栅极"
+    ],
+    [
+      "drain",
+      "漏极"
+    ],
+    [
+      "source",
+      "源极"
+    ]
+  ],
+  "T065": [
+    [
+      "tube électronique",
+      "电子管"
+    ],
+    [
+      "cathode",
+      "阴极"
+    ],
+    [
+      "chauffage",
+      "加热"
+    ],
+    [
+      "émission thermoïonique",
+      "热电子发射"
+    ]
+  ],
+  "T066": [
+    [
+      "triode",
+      "三极管"
+    ],
+    [
+      "tétrode",
+      "四极管"
+    ],
+    [
+      "pentode",
+      "五极管"
+    ],
+    [
+      "grille",
+      "栅极"
+    ]
+  ],
+  "T071": [
+    [
+      "classe d’amplification",
+      "放大器类别"
+    ],
+    [
+      "angle de conduction",
+      "导通角"
+    ],
+    [
+      "polarisation",
+      "偏置"
+    ]
+  ],
+  "T072": [
+    [
+      "résistance de charge",
+      "负载电阻"
+    ],
+    [
+      "point de repos",
+      "静态工作点"
+    ],
+    [
+      "droite de charge",
+      "负载线"
+    ]
+  ],
+  "T073": [
+    [
+      "couplage",
+      "耦合"
+    ],
+    [
+      "étage",
+      "级"
+    ],
+    [
+      "étage tampon",
+      "缓冲级"
+    ]
+  ],
+  "T074": [
+    [
+      "amplificateur radiofréquence",
+      "射频放大器"
+    ],
+    [
+      "gain",
+      "增益"
+    ],
+    [
+      "distorsion harmonique",
+      "谐波失真"
+    ]
+  ],
+  "T075": [
+    [
+      "oscillateur",
+      "振荡器"
+    ],
+    [
+      "quartz",
+      "石英晶体"
+    ],
+    [
+      "boucle à verrouillage de phase",
+      "锁相环"
+    ]
+  ],
+  "T076": [
+    [
+      "multiplicateur de fréquence",
+      "倍频器"
+    ],
+    [
+      "harmonique",
+      "谐波"
+    ],
+    [
+      "fréquence fondamentale",
+      "基频"
+    ]
+  ],
+  "T077": [
+    [
+      "mélangeur",
+      "混频器"
+    ],
+    [
+      "fréquence somme",
+      "和频"
+    ],
+    [
+      "fréquence différence",
+      "差频"
+    ]
+  ],
+  "T081": [
+    [
+      "amplificateur opérationnel",
+      "运算放大器"
+    ],
+    [
+      "entrée inverseuse",
+      "反相输入端"
+    ],
+    [
+      "entrée non inverseuse",
+      "同相输入端"
+    ]
+  ],
+  "T082": [
+    [
+      "montage inverseur",
+      "反相电路"
+    ],
+    [
+      "contre-réaction",
+      "负反馈"
+    ],
+    [
+      "gain en tension",
+      "电压增益"
+    ]
+  ],
+  "T083": [
+    [
+      "montage non inverseur",
+      "同相电路"
+    ],
+    [
+      "gain en tension",
+      "电压增益"
+    ],
+    [
+      "entrée non inverseuse",
+      "同相输入端"
+    ]
+  ],
+  "T084": [
+    [
+      "porte logique",
+      "逻辑门"
+    ],
+    [
+      "algèbre de Boole",
+      "布尔代数"
+    ],
+    [
+      "table de vérité",
+      "真值表"
+    ]
+  ],
+  "T085": [
+    [
+      "système binaire",
+      "二进制系统"
+    ],
+    [
+      "bit",
+      "比特"
+    ],
+    [
+      "traitement numérique du signal",
+      "数字信号处理"
+    ]
+  ],
+  "T091": [
+    [
+      "longueur d’onde",
+      "波长"
+    ],
+    [
+      "fréquence",
+      "频率"
+    ],
+    [
+      "vitesse de propagation",
+      "传播速度"
+    ]
+  ],
+  "T092": [
+    [
+      "onde de sol",
+      "地波"
+    ],
+    [
+      "onde réfléchie",
+      "反射波"
+    ],
+    [
+      "onde d’espace",
+      "空间波"
+    ]
+  ],
+  "T093": [
+    [
+      "ionosphère",
+      "电离层"
+    ],
+    [
+      "fréquence maximale utilisable",
+      "最高可用频率"
+    ],
+    [
+      "activité solaire",
+      "太阳活动"
+    ]
+  ],
+  "T094": [
+    [
+      "rayonnement",
+      "辐射"
+    ],
+    [
+      "onde stationnaire",
+      "驻波"
+    ],
+    [
+      "polarisation",
+      "极化"
+    ]
+  ],
+  "T095": [
+    [
+      "antenne verticale quart d’onde",
+      "垂直四分之一波长天线"
+    ],
+    [
+      "plan de sol",
+      "地网"
+    ],
+    [
+      "mise à la terre",
+      "接地"
+    ]
+  ],
+  "T096": [
+    [
+      "antenne Yagi",
+      "八木天线"
+    ],
+    [
+      "réflecteur",
+      "反射器"
+    ],
+    [
+      "directeur",
+      "引向器"
+    ]
+  ],
+  "T097": [
+    [
+      "gain d’antenne",
+      "天线增益"
+    ],
+    [
+      "dipôle demi-onde",
+      "半波振子"
+    ],
+    [
+      "antenne isotrope",
+      "各向同性天线"
+    ]
+  ],
+  "T098": [
+    [
+      "puissance apparente rayonnée",
+      "视在辐射功率"
+    ],
+    [
+      "gain d’antenne",
+      "天线增益"
+    ],
+    [
+      "perte de la ligne",
+      "馈线损耗"
+    ]
+  ],
+  "T099": [
+    [
+      "angle d’ouverture",
+      "波束开角"
+    ],
+    [
+      "demi-puissance",
+      "半功率"
+    ],
+    [
+      "rapport avant-arrière",
+      "前后比"
+    ]
+  ],
+  "T0910": [
+    [
+      "densité de puissance",
+      "功率密度"
+    ],
+    [
+      "champ électrique",
+      "电场强度"
+    ],
+    [
+      "antenne parabolique",
+      "抛物面天线"
+    ]
+  ],
+  "T101": [
+    [
+      "ligne de transmission",
+      "传输线"
+    ],
+    [
+      "câble coaxial",
+      "同轴电缆"
+    ],
+    [
+      "pertes",
+      "损耗"
+    ]
+  ],
+  "T102": [
+    [
+      "impédance caractéristique",
+      "特性阻抗"
+    ],
+    [
+      "facteur de vélocité",
+      "速度因子"
+    ],
+    [
+      "guide d’ondes",
+      "波导"
+    ]
+  ],
+  "T103": [
+    [
+      "adaptation d’impédance",
+      "阻抗匹配"
+    ],
+    [
+      "désadaptation",
+      "失配"
+    ],
+    [
+      "rapport d’ondes stationnaires",
+      "驻波比"
+    ]
+  ],
+  "T104": [
+    [
+      "ligne d’adaptation",
+      "匹配线"
+    ],
+    [
+      "symétriseur",
+      "平衡转换器"
+    ],
+    [
+      "transformateur quart d’onde",
+      "四分之一波长变换器"
+    ]
+  ],
+  "T111": [
+    [
+      "récepteur à amplification directe",
+      "直接放大式接收机"
+    ],
+    [
+      "détecteur",
+      "检波器"
+    ],
+    [
+      "amplificateur basse fréquence",
+      "低频放大器"
+    ]
+  ],
+  "T112": [
+    [
+      "récepteur superhétérodyne",
+      "超外差接收机"
+    ],
+    [
+      "fréquence intermédiaire",
+      "中频"
+    ],
+    [
+      "oscillateur local",
+      "本地振荡器"
+    ]
+  ],
+  "T113": [
+    [
+      "fréquence image",
+      "镜像频率"
+    ],
+    [
+      "fréquence intermédiaire",
+      "中频"
+    ],
+    [
+      "réjection de la fréquence image",
+      "镜像抑制"
+    ]
+  ],
+  "T114": [
+    [
+      "sensibilité",
+      "灵敏度"
+    ],
+    [
+      "rapport signal sur bruit",
+      "信噪比"
+    ],
+    [
+      "S-mètre",
+      "S 表"
+    ]
+  ],
+  "T115": [
+    [
+      "émetteur",
+      "发射机"
+    ],
+    [
+      "modulateur",
+      "调制器"
+    ],
+    [
+      "amplificateur de puissance",
+      "功率放大器"
+    ]
+  ],
+  "T116": [
+    [
+      "compatibilité électromagnétique",
+      "电磁兼容"
+    ],
+    [
+      "perturbation",
+      "干扰"
+    ],
+    [
+      "immunité",
+      "抗扰度"
+    ]
+  ],
+  "T117": [
+    [
+      "intermodulation",
+      "互调"
+    ],
+    [
+      "transmodulation",
+      "交调"
+    ],
+    [
+      "bruit",
+      "噪声"
+    ]
+  ],
+  "T121": [
+    [
+      "modulation",
+      "调制"
+    ],
+    [
+      "domaine temporel",
+      "时域"
+    ],
+    [
+      "spectre",
+      "频谱"
+    ]
+  ],
+  "T122": [
+    [
+      "modulateur",
+      "调制器"
+    ],
+    [
+      "démodulateur",
+      "解调器"
+    ],
+    [
+      "détecteur",
+      "检波器"
+    ]
+  ],
+  "T123": [
+    [
+      "modulation d’amplitude",
+      "调幅"
+    ],
+    [
+      "taux de modulation",
+      "调制度"
+    ],
+    [
+      "enveloppe",
+      "包络"
+    ]
+  ],
+  "T124": [
+    [
+      "modulation de fréquence",
+      "调频"
+    ],
+    [
+      "excursion de fréquence",
+      "频偏"
+    ],
+    [
+      "règle de Carson",
+      "卡森规则"
+    ]
+  ],
+  "T125": [
+    [
+      "télégraphie",
+      "电报"
+    ],
+    [
+      "onde entretenue",
+      "连续波"
+    ],
+    [
+      "manipulation",
+      "键控"
+    ]
+  ],
+  "T126": [
+    [
+      "bande latérale unique",
+      "单边带"
+    ],
+    [
+      "porteuse supprimée",
+      "抑制载波"
+    ],
+    [
+      "bande occupée",
+      "占用带宽"
+    ]
+  ]
+}
