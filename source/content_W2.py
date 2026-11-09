@@ -116,26 +116,26 @@ SECTIONS = [
         "title_zh": "27 个业余频段的频率范围与业务地位（全表）",
         "title_fr": "R-2.1)",
         "body": """<p>下表是原文给出的完整频段表（<b>27 个频段</b>），六个栏目：频段分类、波段名、<b>1 区</b>（法国本土所在区）、<b>2 区</b>、<b>3 区</b>、<b>卫星</b>（卫星业余业务可用的范围）。表中频率单位一律是 <b>MHz</b>；法语用<b>逗号</b>作小数点（<code>7,000 - 7,200</code> 就是 7.000–7.200 MHz，亦即 7 000 – 7 200 kHz），四位以上数字用空格分千位（<code>10 000 - 10 450</code> 即 10 000–10 450 MHz）。括号里的字母是业务地位（A/B/C/D），数字与小写字母是注释编号（见下）。</p>
-<table>
+<p class="band-highlight-note">浅黄色行为本节题库常考频段；加深的“1 区”栏优先记忆法国本土的频率上下限与业务地位。</p><table class="band-allocation">
 <thead><tr><th>分类</th><th>波段</th><th>1 区（MHz）</th><th>2 区（MHz）</th><th>3 区（MHz）</th><th>卫星（MHz）</th></tr></thead>
 <tbody>
 <tr><td>LF</td><td>2200 m</td><td>0,1357 - 0,1378 (C et 1)</td><td>0,1357 - 0,1378 (C et 1)</td><td>0,1357 - 0,1378 (C et 1)</td><td>—</td></tr>
 <tr><td>MF</td><td>630 m</td><td>0,472 - 0,479 (C et 1)</td><td>0,472 - 0,479 (C et 1)</td><td>0,472 - 0,479 (C et 1)</td><td>—</td></tr>
-<tr><td>MF</td><td>160 m</td><td>1,810 - 1,850 (A)</td><td>1,800 - 1,850 (A)；1,850 - 2,000 (B)</td><td>1,810 - 1,830 (B et a)；1,830 - 1,850 (A)；1,850 - 2,000 (B)</td><td>—</td></tr>
-<tr><td>HF</td><td>80 m</td><td>3,500 - 3,800 (B)</td><td>3,500 - 3,750 (A)；3,750 - 4,000 (B)</td><td>3,500 - 3,900 (B)</td><td>—</td></tr>
+<tr class="band-common"><td>MF</td><td>160 m <span class="band-common-badge">常考</span></td><td>1,810 - 1,850 (A)</td><td>1,800 - 1,850 (A)；1,850 - 2,000 (B)</td><td>1,810 - 1,830 (B et a)；1,830 - 1,850 (A)；1,850 - 2,000 (B)</td><td>—</td></tr>
+<tr class="band-common"><td>HF</td><td>80 m <span class="band-common-badge">常考</span></td><td>3,500 - 3,800 (B)</td><td>3,500 - 3,750 (A)；3,750 - 4,000 (B)</td><td>3,500 - 3,900 (B)</td><td>—</td></tr>
 <tr><td>HF</td><td>60 m</td><td>5,3515 - 5,3665 (C et 1)</td><td>5,3515 - 5,3665 (C et 1)</td><td>5,3515 - 5,3665 (C et 1)</td><td>—</td></tr>
-<tr><td>HF</td><td>40 m</td><td>7,000 - 7,200 (A)</td><td>7,000 - 7,300 (A)</td><td>7,000 - 7,200 (A)</td><td>7,000 - 7,100 (A)</td></tr>
-<tr><td>HF</td><td>30 m</td><td>10,100 - 10,150 (C)</td><td>10,100 - 10,150 (C)</td><td>10,100 - 10,150 (C)</td><td>—</td></tr>
-<tr><td>HF</td><td>20 m</td><td>14,000 - 14,350 (A)</td><td>14,000 - 14,350 (A)</td><td>14,000 - 14,350 (A)</td><td>14,000 - 14,250 (A)</td></tr>
-<tr><td>HF</td><td>17 m</td><td>18,068 - 18,168 (A)</td><td>18,068 - 18,168 (A)</td><td>18,068 - 18,168 (A)</td><td>18,068 - 18,168 (A)</td></tr>
-<tr><td>HF</td><td>15 m</td><td>21,000 - 21,450 (A)</td><td>21,000 - 21,450 (A)</td><td>21,000 - 21,450 (A)</td><td>21,000 - 21,450 (A)</td></tr>
-<tr><td>HF</td><td>12 m</td><td>24,890 - 24,990 (A)</td><td>24,890 - 24,990 (A)</td><td>24,890 - 24,990 (A)</td><td>24,890 - 24,990 (A)</td></tr>
-<tr><td>HF</td><td>10 m</td><td>28,000-29,700 (A et 2)</td><td>28,000-29,700 (A et 2)</td><td>28,000-29,700 (A et 2)</td><td>28,000 - 29,700 (A)</td></tr>
-<tr><td>VHF</td><td>6 m</td><td>50,000 - 52,000 (C)</td><td>50,000 - 54,000 (A)</td><td>50,000 - 54,000 (A)</td><td>—</td></tr>
-<tr><td>VHF</td><td>2 m</td><td>144-146 (A et 2) Novice</td><td>144-146 (A et 2) Novice；146 - 148 (A)</td><td>144-146 (A et 2) Novice；146 - 148 (B)</td><td>144 - 146 (A)</td></tr>
+<tr class="band-common"><td>HF</td><td>40 m <span class="band-common-badge">常考</span></td><td>7,000 - 7,200 (A)</td><td>7,000 - 7,300 (A)</td><td>7,000 - 7,200 (A)</td><td>7,000 - 7,100 (A)</td></tr>
+<tr class="band-common"><td>HF</td><td>30 m <span class="band-common-badge">常考</span></td><td>10,100 - 10,150 (C)</td><td>10,100 - 10,150 (C)</td><td>10,100 - 10,150 (C)</td><td>—</td></tr>
+<tr class="band-common"><td>HF</td><td>20 m <span class="band-common-badge">常考</span></td><td>14,000 - 14,350 (A)</td><td>14,000 - 14,350 (A)</td><td>14,000 - 14,350 (A)</td><td>14,000 - 14,250 (A)</td></tr>
+<tr class="band-common"><td>HF</td><td>17 m <span class="band-common-badge">常考</span></td><td>18,068 - 18,168 (A)</td><td>18,068 - 18,168 (A)</td><td>18,068 - 18,168 (A)</td><td>18,068 - 18,168 (A)</td></tr>
+<tr class="band-common"><td>HF</td><td>15 m <span class="band-common-badge">常考</span></td><td>21,000 - 21,450 (A)</td><td>21,000 - 21,450 (A)</td><td>21,000 - 21,450 (A)</td><td>21,000 - 21,450 (A)</td></tr>
+<tr class="band-common"><td>HF</td><td>12 m <span class="band-common-badge">常考</span></td><td>24,890 - 24,990 (A)</td><td>24,890 - 24,990 (A)</td><td>24,890 - 24,990 (A)</td><td>24,890 - 24,990 (A)</td></tr>
+<tr class="band-common"><td>HF</td><td>10 m <span class="band-common-badge">常考</span></td><td>28,000-29,700 (A et 2)</td><td>28,000-29,700 (A et 2)</td><td>28,000-29,700 (A et 2)</td><td>28,000 - 29,700 (A)</td></tr>
+<tr class="band-common"><td>VHF</td><td>6 m <span class="band-common-badge">常考</span></td><td>50,000 - 52,000 (C)</td><td>50,000 - 54,000 (A)</td><td>50,000 - 54,000 (A)</td><td>—</td></tr>
+<tr class="band-common"><td>VHF</td><td>2 m <span class="band-common-badge">常考</span></td><td>144-146 (A et 2) Novice</td><td>144-146 (A et 2) Novice；146 - 148 (A)</td><td>144-146 (A et 2) Novice；146 - 148 (B)</td><td>144 - 146 (A)</td></tr>
 <tr><td>VHF</td><td>1,35 m</td><td>未分配（Non allouée）</td><td>220 - 225 (B)</td><td>未分配（Non allouée）</td><td>—</td></tr>
-<tr><td>UHF</td><td>70 cm</td><td>430 - 434 (C)；434 - 440 (B)</td><td>430 - 440 (C)</td><td>430 - 440 (C)</td><td>435 - 438 (C et 3)，仅 3 区且仅 T&gt;E；T&gt;E 438 - 440 (C et 3)，仅 2 区与 3 区</td></tr>
-<tr><td>UHF</td><td>23 cm</td><td>1240 - 1300 (C et 4)</td><td>1240 - 1300 (C et 4)</td><td>1240 - 1300 (C et 4)</td><td>T&gt;E 1240 - 1300 (C et 3)</td></tr>
+<tr class="band-common"><td>UHF</td><td>70 cm <span class="band-common-badge">常考</span></td><td>430 - 434 (C)；434 - 440 (B)</td><td>430 - 440 (C)</td><td>430 - 440 (C)</td><td>435 - 438 (C et 3)，仅 3 区且仅 T&gt;E；T&gt;E 438 - 440 (C et 3)，仅 2 区与 3 区</td></tr>
+<tr class="band-common"><td>UHF</td><td>23 cm <span class="band-common-badge">常考</span></td><td>1240 - 1300 (C et 4)</td><td>1240 - 1300 (C et 4)</td><td>1240 - 1300 (C et 4)</td><td>T&gt;E 1240 - 1300 (C et 3)</td></tr>
 <tr><td>UHF</td><td>13 cm</td><td>2300 - 2450 (C)</td><td>2300 - 2450 (C)</td><td>2300 - 2415 (C)；2415 - 2450 (C et b)</td><td>2400 - 2450 (C et 3)，1 区与 2 区；2415 - 2450 (C, 3 et b)，3 区</td></tr>
 <tr><td>SHF</td><td>9 cm</td><td>未分配（Non allouée）</td><td>3300 - 3500 (C)</td><td>3300 - 3500 (C)</td><td>3400 - 3500 (C et 3)</td></tr>
 <tr><td>SHF</td><td>6 cm</td><td>5650 - 5850 (C)</td><td>5650 - 5925 (C)</td><td>5650 - 5850 (C)</td><td>T&gt;E 5650-5725 (C et 3)；E&gt;T 5830-5850 (C)</td></tr>

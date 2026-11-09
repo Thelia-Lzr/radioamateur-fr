@@ -18,6 +18,12 @@ ROOT = Path(__file__).resolve().parent.parent
 def main():
     document = (ROOT / 'manuel-zh.html').read_text(encoding='utf-8')
     soup = BeautifulSoup(document, 'html.parser')
+    assert len(soup.select('#study-sidebar')) == 1
+    assert soup.select_one('main .toc') is None, '目录不应留在正文'
+    assert len(soup.select('#study-sidebar .toc-chapter')) == 18
+    assert soup.select_one('#study-sidebar [data-mistake-link="mistake-book.html"]') is not None
+    from study_navigation import add_study_navigation
+    assert add_study_navigation(document) == document, '重复更新导航应保持成品不变'
     plan = json.loads((ROOT / 'source/plan.json').read_text(encoding='utf-8'))
     guide = json.loads((ROOT / 'source/study_guide.json').read_text(encoding='utf-8'))
     bank = json.loads((ROOT / 'source/Exam1/questions/questions.json').read_text(encoding='utf-8'))
@@ -113,6 +119,7 @@ def main():
         assert question.find(recursive=False) is wrapper, f'题图不在最上方：{number}'
         assert not wrapper.has_attr('hidden'), number
         image = wrapper.find('img')
+        assert int(image['width']) > 0 and int(image['height']) > 0, number
         assert image['src'].startswith('data:image/png;base64,'), number
         assert base64.b64decode(image['src'].split(',', 1)[1]) == (
             ROOT / f'source/Exam1/questions/{number}.png').read_bytes(), number
@@ -121,6 +128,20 @@ def main():
     notebook_questions = re.findall(r'<li class="exam-question"[^>]*>.*?</details>\s*</li>', notebook, re.S)
     manual_questions = re.findall(r'<li class="exam-question"[^>]*>.*?</details>\s*</li>', document, re.S)
     assert notebook_questions == manual_questions, '错题本题目与教材不同步'
+    mock_exam = (ROOT / 'mock-exam.html').read_text(encoding='utf-8')
+    exam_questions = re.findall(r'<li class="exam-question"[^>]*>.*?</details>\s*</li>', mock_exam, re.S)
+    assert exam_questions == manual_questions, '模拟考试题目与教材不同步'
+    manifest = json.loads(re.search(r'<script id="mock-exam-data" type="application/json">(.*?)</script>', mock_exam, re.S)[1])
+    assert len(manifest['questions']) == len(questions) == 2688
+    assert {q['id'] for q in manifest['questions']} == {q['data-question'] for q in questions}
+    assert manifest['modes']['regulation']['seconds'] == 900
+    assert manifest['modes']['technique']['seconds'] == 1800
+    assert all(len(mode['themes']) == 10 for mode in manifest['modes'].values())
+    assert len(manifest['modes']['regulation']['chapters']) == 5
+    assert len(manifest['modes']['technique']['chapters']) == 13
+    for q in manifest['questions']:
+        assert q['theme'] == by_number[q['id']]['themeNum'] and q['answer'] == by_number[q['id']]['reponse']
+    assert soup.select_one('.sidebar-shortcuts [data-mistake-link="mistake-book.html"]').find_next_sibling()['data-mistake-link'] == 'mock-exam.html'
     assert soup.find(id='quiz-mistakes-script') is not None
     script = soup.find(id='manual-quiz-script').get_text()
     for key in ('c', 'x', 'z', 'arrowdown', 'arrowup'):

@@ -11,6 +11,7 @@ from lesson_vocab import add_lesson_vocab
 from all_lesson_questions import add_all_lesson_questions
 from learning_supplements import add_learning_supplements
 from mistake_book import add_mistake_features, build_mistake_book
+from study_navigation import add_study_navigation
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DEST = os.path.abspath(os.path.join(BASE, '..', 'manuel-zh.html'))
@@ -343,6 +344,7 @@ def build(units, sections, qt, plan):
     document = add_all_lesson_questions(document, units)
     document = add_learning_supplements(document, units)
     document = add_mistake_features(document)
+    document = add_study_navigation(document)
     return document, warns
 
 
@@ -360,6 +362,8 @@ def main():
         output.write(doc)
     from pathlib import Path
     Path(destination).with_name('mistake-book.html').write_text(build_mistake_book(doc, os.path.basename(destination)), encoding='utf-8')
+    from mock_exam import build_mock_exam
+    Path(destination).with_name('mock-exam.html').write_text(build_mock_exam(doc, os.path.basename(destination)), encoding='utf-8')
     nq = sum(u['nq'] for u in units)
     print('-> %s (%.1f Ko, %d sections, %d questions couvertes, %d avertissements)'
           % (destination, len(doc.encode('utf-8')) / 1024.0, len(sections), nq, len(warns)))

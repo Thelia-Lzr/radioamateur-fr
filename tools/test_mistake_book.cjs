@@ -11,10 +11,13 @@ const ids = samples.map(s => s.match(/data-question="(\d+)"/)[1]);
 const mistakesScript = fs.readFileSync(path.join(root, 'source/quiz_mistakes.js'), 'utf8');
 const quizScript = manual.match(/<script id="manual-quiz-script">([\s\S]*?)<\/script>/)[1];
 const storageKey = 'radioamateur-fr.mistakes.v1';
+const manualSidebar = manual.match(/<aside id="study-sidebar"[\s\S]*?<\/aside>/)[0];
+const notebook = fs.readFileSync(path.join(root, 'mistake-book.html'), 'utf8');
+const bookSidebar = notebook.match(/<aside id="study-sidebar"[\s\S]*?<\/aside>/)[0];
 function page({book=false, hash='', saved=null, blocked=false}={}) {
   const content = book ? '<template id="mistake-bank"><ol>'+samples.join('')+'</ol></template>'+
     '<div class="exam"><ol id="mistake-questions"></ol></div><p id="mistake-empty"></p><p id="mistake-missing"></p><button id="mistake-retry"></button>' : '<h3 id="R11">测试章节</h3><details class="all-lesson-questions"><summary>其余题目</summary><div class="exam"><ol>'+samples.join('')+'</ol></div></details>';
-  const dom = new JSDOM('<main><b data-mistake-count></b><p data-mistake-storage hidden></p>'+content+'</main>',
+  const dom = new JSDOM((book ? bookSidebar : manualSidebar)+'<main><b data-mistake-count></b><p data-mistake-storage hidden></p>'+content+'</main>',
     {url:'https://offline.test/'+(book?'mistake-book.html':'manuel-zh.html')+hash, runScripts:'outside-only', pretendToBeVisual:true});
   if(book) dom.window.document.body.setAttribute('data-mistake-book','');
   if(saved!==null) dom.window.localStorage.setItem(storageKey,saved);
@@ -27,8 +30,8 @@ function page({book=false, hash='', saved=null, blocked=false}={}) {
 function click(dom, selector) { dom.window.document.querySelector(selector).click(); }
 function count(dom) { return Number(dom.window.document.querySelector('[data-mistake-count]').textContent); }
 let dom = page();
-assert.ok(dom.window.document.querySelector('.quiz-selection-nav [data-mistake-link]'));
-assert.equal(dom.window.document.querySelector('.quiz-selection-nav').hidden,false);
+assert.ok(dom.window.document.querySelector('#study-sidebar [data-mistake-link]'));
+assert.equal(dom.window.document.querySelector('.quiz-selection-nav').hidden,true);
 assert.equal(count(dom),0);
 click(dom,'[data-action="mistake"]');
 assert.equal(count(dom),1);
@@ -80,14 +83,14 @@ for(const instance of [dom,reopened,book,returned,empty,invalid,malformed,blocke
     node.getClientRects=()=>[{top}]; node.getBoundingClientRect=()=>({top});
   }
   click(reading,'[data-action="mistake"]');
-  const link=doc.querySelector('.quiz-selection-nav [data-mistake-link]');
+  const link=doc.querySelector('#study-sidebar [data-mistake-link]');
   link.addEventListener('click',e=>e.preventDefault());
   link.click();
   const outbound=new URL(link.href);
   const position=JSON.parse(new URLSearchParams(outbound.hash.slice(1)).get('return'));
   assert.equal(position.anchor,image.id); assert.equal(position.offset,-340);
   let reviewing=page({book:true,hash:outbound.hash});
-  const returnLink=reviewing.window.document.querySelector('.quiz-selection-nav [data-mistake-link]');
+  const returnLink=reviewing.window.document.querySelector('#study-sidebar [data-mistake-link]');
   assert.equal(returnLink.textContent,'返回教材');
   const returnUrl=new URL(returnLink.href);
   assert.deepEqual(JSON.parse(new URLSearchParams(returnUrl.hash.slice(1)).get('return')),position);
@@ -103,11 +106,11 @@ for(const instance of [dom,reopened,book,returned,empty,invalid,malformed,blocke
   assert.equal(restored.window.__restoredY,1540);
   click(restored,'[data-action="reset"]');
   click(restored,'[data-nav="exit"]');
-  assert.equal(restored.window.document.querySelector('.quiz-selection-nav').hidden,false);
+  assert.equal(restored.window.document.querySelector('.quiz-selection-nav').hidden,true);
   assert.equal(restored.window.document.querySelector('.quiz-navigation-controls').hidden,true);
   const emptyBook=page({book:true});
-  assert.ok(emptyBook.window.document.querySelector('.quiz-selection-nav [data-mistake-link]'));
-  assert.equal(emptyBook.window.document.querySelector('.quiz-selection-nav').hidden,false);
+  assert.ok(emptyBook.window.document.querySelector('#study-sidebar [data-mistake-link]'));
+  assert.equal(emptyBook.window.document.querySelector('.quiz-selection-nav').hidden,true);
   for(const instance of [reading,reviewing,restored,emptyBook])instance.window.close();
-  console.log('通过：错题标记与重做回归；浮窗入口、空错题本返回、跨页面阅读位置传递、展开状态恢复及滚动位置恢复。');
+  console.log('通过：错题标记与重做回归；侧栏入口、空错题本返回、跨页面阅读位置传递、展开状态恢复及滚动位置恢复。');
 })().catch(error=>{console.error(error);process.exitCode=1;});

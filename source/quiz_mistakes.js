@@ -16,6 +16,7 @@
     catch (error) { storageAvailable = false; }
   }
   var isBook = document.body.hasAttribute('data-mistake-book');
+  var isAway = isBook || document.body.hasAttribute('data-mock-exam');
   var returnPoint = null;
   var incomingReturn = null;
   function validPosition(value) {
@@ -24,10 +25,10 @@
     return {anchor:value.anchor, offset:value.offset};
   }
   function rememberReturn() {
-    if (!isBook) return;
+    if (!isAway) return;
     try { sessionStorage.setItem(storageKey + '.return', JSON.stringify(returnPoint)); } catch (error) {}
   }
-  if (isBook) {
+  if (isAway) {
     try { returnPoint = validPosition(JSON.parse(sessionStorage.getItem(storageKey + '.return'))); } catch (error) {}
   }
   marked = read();
@@ -47,7 +48,7 @@
       (returnPoint ? '&return=' + encodeURIComponent(JSON.stringify(returnPoint)) : '');
   }
   function capturePosition() {
-    if (isBook) return;
+    if (isAway) return;
     var best = null;
     var bestTop = -Infinity;
     document.querySelectorAll('h2[id], h3[id], .exam-question').forEach(function (node) {
@@ -60,7 +61,7 @@
     if (best && best.id) returnPoint = validPosition({anchor:best.id, offset:best.getBoundingClientRect().top});
   }
   function restorePosition() {
-    if (isBook || !incomingReturn) return;
+    if (isAway || !incomingReturn) return;
     var target = document.getElementById(incomingReturn.anchor);
     if (!target) return;
     for (var parent = target.parentElement; parent; parent = parent.parentElement) {
@@ -117,14 +118,7 @@
     if (index === -1) marked.push(number); else marked.splice(index, 1);
     marked = clean(marked); save(); sync();
   }
-  function mountNavigation(navigation) {
-    var link = document.createElement('a');
-    link.setAttribute('data-mistake-link', isBook ? (document.body.getAttribute('data-manual-page') || 'manuel-zh.html') : 'mistake-book.html');
-    link.innerHTML = isBook ? '返回教材' : '打开错题本（<span data-mistake-count>0</span>）';
-    navigation.appendChild(link);
-    sync();
-  }
-  window.radioMistakes = { numbers:function () { return marked.slice(); }, sync:sync, mountNavigation:mountNavigation };
+  window.radioMistakes = { numbers:function () { return marked.slice(); }, sync:sync };
   document.addEventListener('click', function (event) {
     var button = event.target.closest('[data-action="mistake"]');
     if (button) toggle(button.closest('.exam-question').getAttribute('data-question'));

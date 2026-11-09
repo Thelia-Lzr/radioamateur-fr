@@ -176,14 +176,13 @@ QUIZ_SCRIPT = r"""
   var navigation = document.createElement('nav');
   navigation.className = 'quiz-selection-nav';
   navigation.setAttribute('aria-label', '课后例题选题');
-  navigation.hidden = false;
+  navigation.hidden = true;
   navigation.innerHTML = '<span class="quiz-navigation-controls" hidden><button type="button" data-nav="previous" aria-label="上一道题（上方向键）">↑ 上一题</button>' +
     '<span class="quiz-selection-status" aria-live="polite"></span>' +
     '<button type="button" data-nav="next" aria-label="下一道题（下方向键）">下一题 ↓</button>' +
     '<button type="button" data-nav="exit" aria-label="退出选题（Escape）">退出</button></span>';
   document.body.appendChild(navigation);
   var navigationControls = navigation.querySelector('.quiz-navigation-controls');
-  if (window.radioMistakes) window.radioMistakes.mountNavigation(navigation);
   var scheduled = false;
   function moveFrame() {
     if (!active) return;
@@ -221,6 +220,7 @@ QUIZ_SCRIPT = r"""
     navigation.querySelector('[data-nav="previous"]').disabled = index === 0;
     navigation.querySelector('[data-nav="next"]').disabled = index === visible.length - 1;
     navigationControls.hidden = false;
+    navigation.hidden = false;
     moveFrame();
     frame.hidden = false;
     if (scroll) {
@@ -242,6 +242,7 @@ QUIZ_SCRIPT = r"""
     active = null;
     frame.hidden = true;
     navigationControls.hidden = true;
+    navigation.hidden = true;
   }
   function questionFor(target) {
     return target && target.closest ? target.closest('.exam-question') : null;
@@ -305,6 +306,7 @@ QUIZ_SCRIPT = r"""
   document.addEventListener('keydown', function (event) {
     if (!active || event.ctrlKey || event.metaKey || event.altKey || event.isComposing || event.repeat) return;
     var target = event.target;
+    if (target && target.closest('#study-sidebar, [data-sidebar-toggle]')) return;
     if (target && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName))) return;
     var key = event.key.toLowerCase();
     if (key === 'arrowdown' || key === 'arrowright') {

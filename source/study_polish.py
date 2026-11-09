@@ -72,6 +72,14 @@ STUDY_CSS = """
 .study-note { font-size:.92rem; border-left:3px solid #c4b3cc;
   padding:.35rem .7rem; color:#4d4551; background:#f8f5fa; }
 .study-note-label { color:#633273; font-weight:650; }
+.band-allocation tr.band-common > td { background:#fff8df; }
+.band-allocation tr.band-common > td:first-child { box-shadow:inset 3px 0 #d19a25; }
+.band-allocation tr.band-common > td:nth-child(2) { font-weight:650; }
+.band-allocation tr.band-common > td:nth-child(3) { background:#ffedb3; color:#5b3b0a; font-weight:700; }
+.band-common-badge { display:inline-block; margin-left:.35rem; padding:.05rem .3rem;
+  border:1px solid #d5ae56; border-radius:3px; color:#79500c; background:#fff0bf;
+  font-size:.72rem; font-weight:650; white-space:nowrap; }
+.band-highlight-note { color:#725014; font-size:.88rem; }
 @media print { .exam-key { color:#633273; } }
 """
 

@@ -1,0 +1,46 @@
+.exam-mode-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin:1.2rem 0; }
+.exam-mode-grid article { background:#edf4fb; border:1px solid #bdcddd; border-radius:10px; padding:1rem 1.2rem; }
+.exam-mode-grid h2 { background:none; border:0; padding:0; margin:0 0 .4rem; }
+[data-mock-exam] main button { font:inherit; color:#14508c; background:#eef3f8; border:1px solid #bdcddd; border-radius:5px; padding:.45rem .75rem; cursor:pointer; }
+[data-mock-exam] main button:hover { background:#dce9f5; }
+[data-mock-exam] main button:focus-visible { outline:2px solid #14508c; outline-offset:2px; }
+[data-mock-exam] main button:disabled { cursor:default; opacity:.55; }
+.exam-mode-grid button, [data-mock-exam] [data-exam-submit], [data-mock-exam] #exam-confirm-submit { background:#28496b; color:#fff; border-color:#28496b; }
+.exam-setup-note { font-size:.9rem; color:#596c7c; }
+.exam-session-toolbar { position:sticky; top:0; z-index:20; display:flex; align-items:center; flex-wrap:wrap; gap:.8rem;
+  background:#fdfdfbf5; border:1px solid #bdcddd; border-radius:8px; padding:.7rem .8rem; backdrop-filter:blur(8px); }
+.exam-clock { display:flex; gap:1rem; flex-wrap:wrap; font-size:.9rem; }
+.exam-clock b { font-family:ui-monospace,Menlo,Consolas,monospace; font-variant-numeric:tabular-nums; }
+#exam-time-progress { width:7rem; height:.6rem; accent-color:#4a6b8a; }
+#exam-recap { margin:.5rem 0 1rem; }
+#exam-recap table { max-width:28rem; }
+#exam-question-host .qimg { max-height:420px; width:auto; object-fit:contain; }
+#exam-remaining { color:#14508c; font-size:1.3rem; }
+.exam-session-toolbar.exam-time-low #exam-remaining { color:#a52b21; }
+#exam-question-map { display:flex; flex-wrap:wrap; gap:.4rem; margin:1rem 0; }
+[data-mock-exam] #exam-question-map button { width:2.4rem; padding:.35rem 0; }
+[data-mock-exam] #exam-question-map .exam-map-answered { background:#e1efe7; border-color:#7daa8b; }
+[data-mock-exam] #exam-question-map [aria-current="step"] { outline:2px solid #14508c; outline-offset:1px; font-weight:700; }
+#exam-question-host .exam-question { list-style:none; margin:0; border:0; }
+#exam-question-host > ol { margin:0; }
+.exam-question-heading { margin:0 0 .8rem; padding:0; border:0; background:none; font-size:1.1rem; }
+[data-mock-exam] .quiz-choice.exam-choice-selected { border:2px solid #14508c; background:#e0edf9; }
+.exam-paging, .exam-result-actions, #exam-review-filters { display:flex; flex-wrap:wrap; gap:.65rem; margin:1rem 0; }
+.exam-paging #exam-next { margin-left:auto; }
+.exam-submit-check { border:2px solid #bd9244; background:#fff8e7; padding:.8rem; border-radius:8px; margin:1rem 0; }
+.exam-submit-check button { margin-right:.6rem; }
+.exam-score { border:1px solid #bdcddd; border-left:5px solid #4a6b8a; border-radius:8px; background:#edf4fb; padding:1rem 1.2rem; }
+.exam-score h2 { border:0; background:none; padding:0; margin:0 0 .5rem; }
+.exam-score.exam-passed { border-left-color:#287342; background:#edf7ef; }
+.exam-score.exam-failed { border-left-color:#aa4731; background:#fff2ec; }
+[data-mock-exam] #exam-review-filters [aria-pressed="true"] { color:#fff; background:#28496b; border-color:#28496b; }
+.exam-review-card { padding:.5rem 0 1rem; border-bottom:1px solid #bdcddd; }
+.exam-review-card h3 { border:0; margin:.8rem 0; }
+.exam-review-result { color:#aa4731; font-weight:700; }
+.exam-review-card[data-exam-result="right"] .exam-review-result { color:#287342; }
+[data-mock-exam] .exam-review-card .quiz-choice:disabled { color:inherit; opacity:1; }
+[data-mock-exam] .exam-review-card .quiz-choice.picked-right { background:#e8f5ec; border-color:#1a6b34; }
+[data-mock-exam] .exam-review-card .quiz-choice.picked-wrong { background:#fdecea; border-color:#b3261e; text-decoration:line-through; }
+@media (max-width:900px) { .exam-session-toolbar { top:4rem; } }
+@media (max-width:540px) { .exam-mode-grid { grid-template-columns:1fr; } .exam-session-toolbar { gap:.4rem; font-size:.85rem; } }
+@media print { #exam-setup, #exam-running, .exam-result-actions, #exam-review-filters { display:none !important; } }
